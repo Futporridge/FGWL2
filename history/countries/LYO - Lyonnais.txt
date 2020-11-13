@@ -1,0 +1,48 @@
+capital = 800
+
+OOB = "LYO_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+
+set_politics = {
+	ruling_party = paternalism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 15
+	prometeism = 10
+	communitarianism = 0
+	oligarchy = 10
+	conservatism = 30
+	reactionary = 20
+	paternalism = 15
+}
+
+add_ideas = {
+French_bandits
+FRN_casualties
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Joseph Darnand"
+	desc = "POLITICS_JOSEPH_DARNAND_DESC"
+	picture = "gfx/leaders/LYO/Portrait_Joseph_Darnand.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = { 
+
+	}
+}	
+
+
+

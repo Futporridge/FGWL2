@@ -1,0 +1,27 @@
+
+state={
+	id=800
+	name="STATE_800"
+
+	history={
+		owner = LYO
+		victory_points = {
+			3652 5 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 2
+
+		}
+		add_core_of = LYO
+		add_core_of = PAR
+		add_core_of = AQU
+	}
+
+	provinces={
+		6613 11593 11794 
+	}
+	state_category=large_city	
+	manpower=570622
+	buildings_max_level_factor=1.000
+}

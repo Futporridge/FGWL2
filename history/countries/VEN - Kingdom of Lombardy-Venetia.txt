@@ -1,0 +1,47 @@
+capital = 160
+
+OOB = "VEN_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+
+set_politics = {
+	ruling_party = oligarchy
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 6
+	prometeism = 6
+	communitarianism = 7
+	liberalism = 6
+	oligarchy = 38
+	conservatism = 10
+	paternalism = 15
+	reactionary = 12
+}
+
+add_ideas = {
+Industrial_oligarchy
+Restoration_of_Venice
+Bende_rosse
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Francesco Salvatore d'Asburgo-Lorena"
+	desc = "POLITICS_FRANZ_SALVATOR_DESC"
+	picture = "gfx/leaders/VEN/Portrait_Franz_Salvator.tga"
+	expire = "1965.1.1"
+	ideology = oligarchy
+	traits = { 
+
+	}
+}

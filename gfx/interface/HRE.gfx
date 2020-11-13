@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_HRE_button"
+		texturefile = "gfx/interface/HRE_button.dds"
+	}
+}

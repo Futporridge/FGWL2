@@ -1,0 +1,45 @@
+
+capital = 468
+
+OOB = "QUE_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+
+set_politics = {
+	ruling_party = paternalism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 0
+	prometeism = 0
+	communitarianism = 0
+	oligarchy = 0
+	conservatism = 0
+	reactionary = 0
+	paternalism = 100
+}
+
+add_ideas = {
+
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Maurice Le Noblet Duplessis"
+	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
+	picture = "gfx/leaders/QUE/Portrait_Maurice_Le_Noblet_Duplessis.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = { 
+
+	}
+}

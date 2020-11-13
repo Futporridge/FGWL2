@@ -1,0 +1,47 @@
+capital = 19
+
+OOB = "AQU_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+add_ideas = {
+French_bandits
+FRN_casualties
+}
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 5
+	prometeism = 10
+	communitarianism = 0
+	oligarchy = 20
+	conservatism = 25
+	paternalism = 20
+	reactionary = 20
+}
+
+add_ideas = {
+
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Alphonse-Charles de Bourbon-Parma"
+	desc = "POLITICS_ALPHONES_CHARLES_AQUITAINE_DESC"
+	picture = "gfx/leaders/AQU/Portrait_Alphonse_Charles.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = { 
+
+	}
+}

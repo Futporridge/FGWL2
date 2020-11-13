@@ -1,0 +1,25 @@
+
+state={
+	id=840
+	name="STATE_840"
+
+	history={
+		add_core_of = PAR	
+		add_core_of = TRJ
+		owner = TRJ
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 2
+			arms_factory = 3
+
+		}
+
+	}
+
+	provinces={
+		698 817 3646 3650 3666 6668 6698 9642 9658 
+	}
+	state_category=rural	
+	manpower=1100000
+	buildings_max_level_factor=1.000
+}

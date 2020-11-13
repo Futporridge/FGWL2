@@ -1,0 +1,26 @@
+state={
+	id=835
+	name="STATE_835"
+	provinces={
+		3530 3679 6542 6712 11640 
+	}
+	history={
+		owner = BAD
+		victory_points = {
+			3530 10 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 1
+
+		}
+		add_core_of = BAD
+
+	
+	}	
+	state_category=town	
+	manpower=2035600
+	buildings_max_level_factor=1.000
+}

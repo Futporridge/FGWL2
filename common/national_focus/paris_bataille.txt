@@ -1,0 +1,119 @@
+focus_tree = {
+	id = paris_bataille_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PAR
+		}
+	}
+	shared_focus = PAR_anarchy
+	shared_focus = PAR_george_bataille
+	}
+
+
+	
+	default = no
+
+	continuous_focus_position = { x = 1200 y = 100 }
+
+	shared_focus = {
+		id = PAR_george_bataille
+		icon = GFX_goal_generic_position_armies
+		x = 7
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		always = no
+		}
+		bypass = {
+		has_country_flag = PAR_individualists_won	
+				}
+
+		completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = PAR_acephale_squadrons
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = PAR_george_bataille }
+		cost = 1
+		relative_position_id = PAR_george_bataille
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = PAR_distribution_of_property
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = { focus = PAR_george_bataille }
+		cost = 1
+		relative_position_id = PAR_george_bataille
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = PAR_will_to_power
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = PAR_distribution_of_property }
+		prerequisite = { focus = PAR_acephale_squadrons }
+		cost = 1
+		relative_position_id = PAR_distribution_of_property
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		hidden_effect = {
+		load_focus_tree = { tree = paris_barricades_bataille_focus keep_completed = yes }
+		}
+					}
+				}				
+	
+}			

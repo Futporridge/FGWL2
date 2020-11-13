@@ -1,0 +1,46 @@
+capital = 877
+
+OOB = "CFA_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+add_ideas = {
+
+}
+
+set_politics = {
+	ruling_party = paternalism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 12
+	prometeism = 10
+	communitarianism = 5
+	oligarchy = 10
+	conservatism = 30
+	paternalism = 10
+	reactionary = 23
+}
+
+add_ideas = {
+
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Jean-Marie Charles Abrial"
+	desc = "POLITICS_JEAN_MARIE_ABRIAL_DESC"
+	picture = "gfx/leaders/CFA/Portrait_Jean_Marie_Charles_Abrial.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = { 
+
+	}
+}

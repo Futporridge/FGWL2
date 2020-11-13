@@ -1,0 +1,21 @@
+state={
+	id=869
+	name="STATE_869"
+	provinces={
+		792 
+	}
+		history={
+		owner = JER
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 3
+
+		}
+		add_core_of = JER
+
+	}	
+	manpower=661366
+	buildings_max_level_factor=1.000
+	state_category=large_town	
+}

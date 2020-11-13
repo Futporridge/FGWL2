@@ -1,0 +1,199 @@
+focus_tree = {
+	id = baltik_prerevolution_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BLT
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 70 y = 1500 }
+
+	focus = {
+		id = BLT_emergency_baltic_landtag
+		icon = GFX_goal_generic_position_armies
+		x = 7
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		country_event = 
+					}
+				}
+	focus = {
+		id = BLT_hunt_down_forest_brothers
+		icon = GFX_goal_generic_position_armies
+		x = 4
+		y = 1
+		cost = 10
+		prerequisite = { focus = BLT_emergency_baltic_landtag }
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		country_event = 
+					}
+			}
+			focus = {
+		id = BLT_arming_police_forces
+		icon = GFX_goal_generic_position_armies
+		x = 6
+		y = 1
+		cost = 10
+		prerequisite = { focus = BLT_emergency_baltic_landtag }
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		country_event = aus.1
+					}
+				}
+				focus = {
+		id = BLT_fortifying_cities
+		icon = GFX_goal_generic_position_armies
+		x = 8
+		y = 1
+		cost = 10
+		prerequisite = { focus = BLT_emergency_baltic_landtag }
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		country_event = 
+					}
+				}
+				focus = {
+		id = BLT_expanding_conscription
+		icon = GFX_goal_generic_position_armies
+		x = 10
+		y = 1
+		cost = 10
+		prerequisite = { focus = BLT_emergency_baltic_landtag }
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		country_event = 
+					}
+				}
+				focus = {
+		id = BLT_forcing_curfew
+		icon = GFX_goal_generic_position_armies
+		x = 5
+		y = 2
+		cost = 10
+		prerequisite = { focus = BLT_hunt_down_forest_brothers }
+		prerequisite = { focus = BLT_arming_police_forces }
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		country_event = 
+					}
+				}
+				focus = {
+		id = BLT_unrestrict_army
+		icon = GFX_goal_generic_position_armies
+		x = 9
+		y = 2
+		cost = 10
+		prerequisite = { focus = BLT_fortifying_cities }
+		prerequisite = { focus = BLT_expanding_conscription }
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		country_event = 
+					}
+				}
+				focus = {
+		id = BLT_forming_coalition
+		icon = GFX_goal_generic_position_armies
+		x = 7
+		y = 3
+		cost = 10
+		prerequisite = { focus = BLT_unrestrict_army }
+		prerequisite = { focus = BLT_forcing_curfew  }
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		country_event = 
+					}
+				}
+				focus = {
+		id = BLT_crisis_of_the_coalition
+		icon = GFX_goal_generic_position_armies
+		x = 7
+		y = 4
+		cost = 10
+		prerequisite = { focus = BLT_forming_coalition }
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		country_event = 
+					}
+				}
+}			

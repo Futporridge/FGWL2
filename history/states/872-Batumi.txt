@@ -1,0 +1,20 @@
+state={
+	id=872
+	name="STATE_872"
+	provinces={
+		654 772 3653 3656 3658 
+	}
+	history={
+		owner = LTE
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = LTE
+
+	}	
+	manpower=519000
+	state_category=rural	
+	buildings_max_level_factor=1.000
+}

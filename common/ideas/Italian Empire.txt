@@ -1,0 +1,129 @@
+ideas = {
+
+	country = {
+		Renovatio_Imperii = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = Renovatio_Imperii 
+			
+			modifier = {
+				political_power_gain = 0.25
+				research_speed_factor = 0.05
+				stability_factor = 0.10
+				war_support_factor = 0.20
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		Undeveloped_industry = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = great_depression
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.1
+				consumer_goods_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		Progressive_monarchy = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = Progressive_monarchy
+			
+			modifier = {
+				reformist_drift = 0.05
+				republicanism_drift = 0.03
+				prometeism_drift = 0.03
+				reformist_acceptance = 85
+				republicanism_acceptance = 85
+				prometeism_acceptance = 85
+				communitarianism_acceptance = 85
+				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		}
+		head_of_state = {
+
+		ITE_Luis_Napoleon = {
+
+		
+
+			allowed = {
+				original_tag = "ITE"
+			}
+			available = {
+			always = false
+			}
+			
+			traits = {   }
+		}
+		}
+		political_advisor = {
+
+		
+		ITE_Alberto_Beneduce = {
+			
+			
+			allowed = {
+				original_tag = "ITE"
+			}
+			
+						
+			traits = {  }
+		}
+		ITE_Enrico_Nicola = {
+			
+			
+			allowed = {
+				original_tag = "ITE"
+			}
+			
+						
+			traits = {  }
+		}
+		ITE_Vito_Reale = {
+			
+			
+			allowed = {
+				original_tag = "ITE"
+			}
+			
+						
+			traits = {  }
+		}
+		ITE_Chiyomi_Anzai = {
+			
+			
+			allowed = {
+				original_tag = "ITE"
+			}
+			
+						
+			traits = {  }
+		}
+		
+		}
+	}

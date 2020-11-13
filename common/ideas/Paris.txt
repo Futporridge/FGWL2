@@ -1,0 +1,67 @@
+ideas = {
+
+	country = {
+			PAR_migration = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = paris_migration
+			
+			modifier = {
+				MONTHLY_POPULATION = 0.15
+				conscription_factor = +0.05				
+				stability_factor = -0.15
+				war_support_factor = -0.20
+				consumer_goods_factor = +0.10
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}	
+	
+			PAR_political_instability = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = paris_political_instability
+			
+			modifier = {
+				conscription = -0.025
+				stability_factor = -0.15
+				utopism_drift = 0.05
+				prometeism_drift = 0.05
+				communitarianism_drift = 0.05
+				individualism_drift	= 0.05
+				liberalism_drift = 0.05			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+			PAR_anarchy = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = PAR_anarchy
+			
+			modifier = {
+				consumer_goods_factor = 0.40
+				stability_factor = -0.50
+				production_factory_max_efficiency_factor = -1.00
+				production_speed_buildings_factor = -1.00
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
+	}	
+}

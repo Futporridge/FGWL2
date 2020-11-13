@@ -1,0 +1,119 @@
+focus_tree = {
+	id = paris_chautemps_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PAR
+		}
+	}
+	shared_focus = PAR_anarchy
+	shared_focus = PAR_camille_chautemps
+	}
+
+
+	
+	default = no
+
+	continuous_focus_position = { x = 1200 y = 100 }
+
+	shared_focus = {
+		id = PAR_camille_chautemps
+		icon = GFX_goal_generic_position_armies
+		x = 7
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		always = no
+		}
+		bypass = {
+		has_country_flag = PAR_republicans_won	
+				}
+
+		completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = PAR_civil_service
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = PAR_camille_chautemps }
+		cost = 1
+		relative_position_id = PAR_camille_chautemps
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = PAR_social_guarantees
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = { focus = PAR_camille_chautemps }
+		cost = 1
+		relative_position_id = PAR_camille_chautemps
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = PAR_liberte_egalite_fraternite
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = PAR_social_guarantees }
+		prerequisite = { focus = PAR_civil_service }
+		cost = 1
+		relative_position_id = PAR_social_guarantees
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		hidden_effect = {
+		load_focus_tree = { tree = paris_barricades_chautemps_focus keep_completed = yes }
+		}
+					}
+				}				
+	
+}			

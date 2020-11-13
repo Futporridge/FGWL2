@@ -1,0 +1,171 @@
+capital = 797
+
+OOB = "PAR_1936"
+
+create_faction = France
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+
+set_politics = {
+	ruling_party = oligarchy
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 14
+	prometeism = 16
+	communitarianism = 14
+	oligarchy = 17
+	conservatism = 14
+	reactionary = 9
+	individualism = 12
+	paternalism = 4
+}
+
+add_ideas = {
+extensive_conscription
+PAR_migration
+PAR_political_instability
+FRN_casualties
+PAR_Henry_Cheron
+PAR_Georges_Bonnet
+PAR_Paul_Reynaud
+PAR_Lucien_Romier
+PAR_Raymond_Grasset
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Maria IV de France"
+	desc = "POLITICS_BLANKA_DESC"
+	picture = "gfx/leaders/PAR/Portrait_Blanka.tga"
+	expire = "1965.1.1"
+	ideology = reactionary
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Maria IV de France"
+	desc = "POLITICS_BLANKA_DESC"
+	picture = "gfx/leaders/PAR/Portrait_Blanka.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Maria IV de France"
+	desc = "POLITICS_BLANKA_DESC"
+	picture = "gfx/leaders/PAR/Portrait_Blanka.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Camille Chautempst"
+	desc = "POLITICS_CHAUTEMPST_DESC"
+	picture = "gfx/leaders/PAR/Portrait_Chautempst.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Maria IV de France"
+	desc = "POLITICS_BLANKA_DESC"
+	picture = "gfx/leaders/PAR/Portrait_Blanka.tga"
+	expire = "1965.1.1"
+	ideology = oligarchy
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Pierre Drieu la Rochelle"
+	desc = "POLITICS_DRIEU_DESC"
+	picture = "gfx/leaders/PAR/Portrait_Drieu.tga"
+	expire = "1965.1.1"
+	ideology = utopism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Jacques Doriot"
+	desc = "POLITICS_DORIOT_DESC"
+	picture = "gfx/leaders/PAR/Portrait_Jacques_Doriot.tga"
+	expire = "1965.1.1"
+	ideology = prometeism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Marius Jacob"
+	desc = "POLITICS_MARIUS_JACOB_DESC"
+	picture = "gfx/leaders/PAR/Portrait_Marius_Jacob.tga"
+	expire = "1965.1.1"
+	ideology = communitarianism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Georges Bataille"
+	desc = "POLITICS_BATAILLE_DESC"
+	picture = "gfx/leaders/PAR/Portrait_Bataille.tga"
+	expire = "1965.1.1"
+	ideology = individualism
+	traits = { 
+
+	}
+}
+create_field_marshal = {
+	name = "Alphonse-Joseph Georges"
+	id = 13	
+	picture = "Portrait_Alphonse_Georges.tga"
+	traits = { }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Henry Freydenberg"
+	id = 14	
+	portrait_path = "gfx/leaders/PAR/Portrait_Henri_Freydenberg.tga"
+	traits = { }
+	skill = 4
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+}
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = PFT
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = PFT
+	}
+}
+
+

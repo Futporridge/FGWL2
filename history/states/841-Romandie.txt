@@ -1,0 +1,21 @@
+state={
+	id=841
+	name="STATE_841"
+	provinces={
+		6666 6683 9622 13124 
+	}
+	history = {
+		add_core_of = PAR	
+		add_core_of = TRJ		
+		owner = TRJ		
+		buildings = {	
+			infrastructure = 4
+			industrial_complex = 1			
+			arms_factory = 1
+
+		}
+	}		
+	state_category=rural	
+	manpower=809000
+	buildings_max_level_factor=1.000
+}

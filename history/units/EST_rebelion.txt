@@ -1,0 +1,79 @@
+﻿division_template = {
+	name = "Metsavennad"
+
+	division_names_group = GER_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+
+
+division_template = {
+	name = "Ratsaväebrigaad"
+
+	division_names_group = GER_Cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+
+division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 11057
+		division_template = "Metsavennad"
+		start_experience_factor = 0.3
+		
+	}
+division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 9221
+		division_template = "Metsavennad"
+		start_experience_factor = 0.3
+		
+	}
+division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 6099
+		division_template = "Metsavennad"
+		start_experience_factor = 0.3
+		
+	}
+division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 11443
+		division_template = "Ratsaväebrigaad"
+		start_experience_factor = 0.3
+		
+	}	
+}
+

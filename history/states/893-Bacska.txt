@@ -1,0 +1,20 @@
+state={
+	id=893
+	name="STATE_893"
+	provinces={
+		6670 6700 11625 
+	}
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		add_core_of = AUS
+		add_core_of = HUN
+	}		
+	manpower=423122
+	buildings_max_level_factor=1.000
+	state_category=town	
+}

@@ -1,0 +1,16 @@
+guiTypes = {
+	containerWindowType = {
+		name = "HRE"
+                position = { x = 0 y = 0 }
+		Orientation = UPPER_LEFT
+		
+		buttonType = {
+			name = "Electors"
+			position = { x = 420 y = 7 }			
+			quadTextureSprite = "GFX_HRE_button"
+			clicksound = click_default
+			Orientation = UPPER_LEFT
+			pdx_tooltip = "example_1_tooltip"
+		}
+    }
+}

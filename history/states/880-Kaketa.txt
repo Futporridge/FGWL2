@@ -1,0 +1,19 @@
+state={
+	id=880
+	name="STATE_880"
+	provinces={
+		2007 12729 12770 12825 12869 
+	}
+	history={
+		owner = VNG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = VNG
+
+
+	}	
+	state_category = pastoral
+	manpower=122000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,27 @@
+state={
+	id=827
+	name="STATE_827"
+	provinces={
+		3207 3312 6282 
+	}
+	history={
+		owner = BRA
+		victory_points = {
+			6282 5 
+		}
+		victory_points = {
+			11372 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 3
+
+		}
+		add_core_of = BRA
+
+	}
+	state_category=town	
+	manpower=577800
+	buildings_max_level_factor=1.000
+}

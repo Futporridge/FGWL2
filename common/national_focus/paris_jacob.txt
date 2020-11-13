@@ -1,0 +1,119 @@
+focus_tree = {
+	id = paris_marius_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PAR
+		}
+	}
+	shared_focus = PAR_anarchy
+	shared_focus = PAR_marius_jacob
+	}
+
+
+	
+	default = no
+
+	continuous_focus_position = { x = 1200 y = 100 }
+
+	shared_focus = {
+		id = PAR_marius_jacob
+		icon = GFX_goal_generic_position_armies
+		x = 7
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		always = no
+		}
+		bypass = {
+		has_country_flag = PAR_anarchists_won	
+				}
+
+		completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = PAR_collegial_leadership
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = PAR_marius_jacob }
+		cost = 1
+		relative_position_id = PAR_marius_jacob
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = PAR_local_self_defense
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = { focus = PAR_marius_jacob }
+		cost = 1
+		relative_position_id = PAR_marius_jacob
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = PAR_mother_of_order
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = PAR_local_self_defense }
+		prerequisite = { focus = PAR_collegial_leadership }
+		cost = 1
+		relative_position_id = PAR_local_self_defense
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		hidden_effect = {
+		load_focus_tree = { tree = paris_barricades_jacob_focus keep_completed = yes }
+		}
+					}
+				}				
+	
+}			

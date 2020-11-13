@@ -1,0 +1,43 @@
+ideas = {
+
+	country = {
+		Demilitarized_economy = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = Demilitarized_economy 
+			
+			modifier = {
+				conscription_factor = -0.25
+				production_speed_arms_factory_factor = -0.2
+				production_factory_max_efficiency_factor = -0.15
+				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		Peaceful_island_in_raging_sea = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = Peaceful_island_in_raging_sea
+			
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = -0.25
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		}
+	}

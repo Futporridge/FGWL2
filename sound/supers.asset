@@ -1,0 +1,19 @@
+
+sound = {
+	name = "ppf_unification"
+	file = "menu/ppf_unification.wav"
+	volume = 1
+	always_load = yes
+}
+sound = {
+	name = "habsburgs_unites_france"
+	file = "menu/habsburgs_unites_france.wav"
+	volume = 1
+	always_load = yes
+}
+sound = {
+	name = "austrian_empire_collapse"
+	file = "menu/austrian_empire_collapse.wav"
+	volume = 1
+	always_load = yes
+}

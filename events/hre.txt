@@ -1,0 +1,39 @@
+﻿add_namespace = hre
+
+country_event = { 
+	id = hre.1
+	title = hre.1.t
+	desc = hre.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	
+
+	option = {
+		name = hre.1.a
+			hidden_effect = {
+		country_event = { days = 31 id = hre.2 }
+	}
+	}
+
+}
+
+country_event = { #Second HRE Meeting
+	id = hre.2
+	title = hre.2.t
+	desc = hre.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = hre.2.a
+		dismantle_faction = yes
+		remove_ideas = HRE_member
+		hidden_effect = {
+		set_global_flag = HRE_collapse
+		}
+	}
+
+}

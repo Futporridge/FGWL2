@@ -1,0 +1,30 @@
+state={
+	id=810
+	name="STATE_810"
+	provinces={
+		9340 
+	}
+		history={
+		victory_points = {
+			9340 20
+		}
+		owner = BLT
+		
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 3
+			9340 = {
+				naval_base = 3
+
+			}
+
+		}
+		
+		add_core_of = BLT
+	}
+	state_category = large_city	
+	manpower=847800
+	buildings_max_level_factor=1.000
+}

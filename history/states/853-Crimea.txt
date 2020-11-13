@@ -1,0 +1,19 @@
+state={
+	id=853
+	name="STATE_853"
+	provinces={
+		705 3722 6724 9718 11649 
+	}
+	history={
+		owner = GOT
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = GOT
+	}	
+	manpower=443400
+	state_category=rural	
+	buildings_max_level_factor=1.000
+}

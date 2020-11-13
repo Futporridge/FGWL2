@@ -1,0 +1,25 @@
+state={
+	id=804
+	name="STATE_804"
+	state_category = large_city
+	provinces={
+		3976 6973 9752 
+	}
+	history={
+		owner = TUS
+		victory_points = {
+			9752 15 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			air_base = 2
+			782 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = TUS
+	}	
+	manpower=1017022
+	buildings_max_level_factor=1.000
+}

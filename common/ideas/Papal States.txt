@@ -1,0 +1,45 @@
+ideas = {
+
+	country = {
+		Primatus_Papae = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = Primatus_Papae 
+			
+			modifier = {
+				stability_factor = 0.10
+				stability_weekly = -0.01
+				reactionary_drift = -0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		Piuss_Wall  = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = Piuss_Wall
+			
+			modifier = {
+				production_speed_bunker_factor = 0.35
+				production_speed_coastal_bunker_factor = 0.35
+				production_speed_anti_air_building_factor = 0.35
+				consumer_goods_factor = 0.25
+				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		}
+	}

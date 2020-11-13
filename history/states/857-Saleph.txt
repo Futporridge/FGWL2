@@ -1,0 +1,19 @@
+
+state={
+	id=857
+	name="STATE_857"
+	provinces={
+		4008 4124 6807 7026 7143 9763 9830 10056 
+	}
+	history={
+		owner = JER
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = JER
+
+	}	
+	state_category = rural	
+	manpower=506700
+	buildings_max_level_factor=1.000
+}

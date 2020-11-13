@@ -1,0 +1,63 @@
+ideas = {
+
+	country = {
+		Bureaucratic_economy = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = Bureaucratic_economy 
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				political_power_gain = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		Pensions_to_aristocrats = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = Pensions_to_aristocrats
+			
+			modifier = {
+				political_power_gain = -0.25
+				stability_factor = -0.1
+				war_support_factor = -0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		Bende_rosse = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = Bende_rosse
+			
+			modifier = {
+				stability_weekly = -0.01
+				utopism_drift = 0.03
+				prometeism_drift = 0.03
+				communitarianism_drift = 0.03
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		}
+	}

@@ -1,0 +1,18 @@
+state={
+	id=806
+	name="STATE_806"
+	provinces={
+		599 11595 
+	}
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 5
+		}
+	add_core_of = AUS
+	add_core_of = SLV	
+	} 	
+	manpower=23245
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,24 @@
+state={
+	id=803
+	name="STATE_803"
+	provinces={
+		603 773 3776 11568 11734 
+	}
+	history={
+		owner = VEN
+		victory_points = {
+			
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = VEN
+
+	}	
+	manpower=2798852
+	state_category = city	
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=799
+	name="STATE_799"
+
+	history={
+		owner = VCH
+		victory_points = {
+			11506 40 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 2
+
+		}
+		add_core_of = PAR
+		add_core_of = VCH
+
+	}
+
+	provinces={
+		590 3594 6644 9593 9607 9748 11576 
+	}
+	manpower=525074
+	state_category = rural	
+	buildings_max_level_factor=1.000
+}

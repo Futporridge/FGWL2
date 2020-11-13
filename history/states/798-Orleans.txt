@@ -1,0 +1,26 @@
+state={
+	id=798
+	name="STATE_798"
+	provinces={
+		512 3493 3655 6688 9629 11611 11631 
+	}
+	history={
+		owner = ORL
+		victory_points = {
+			11465 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+
+		}
+		add_core_of = ORL
+		add_core_of = PAR		
+
+	}	
+	manpower=1388400
+	state_category = rural		
+	buildings_max_level_factor=1.000
+}

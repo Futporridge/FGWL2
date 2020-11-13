@@ -1,0 +1,589 @@
+focus_tree = {
+	id = paris_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PFT
+		}
+	}
+	default = no
+
+	continuous_focus_position = { x = 1200 y = 100 }
+	
+focus = {
+	id = PFT_france_in_need
+	icon = GFX_focus_PFT_france_in_need
+	x = 7
+	y = 1
+	cost = 1
+
+	available = {
+	has_country_flag = PFT_white_military
+	}
+
+	prerequisite = {
+
+	}
+
+	ai_will_do = {
+		factor = 15
+	}
+
+	completion_reward = {
+
+	}
+}
+	focus = {
+		id = PFT_deal_with_the_insurgency
+		icon = GFX_focus_PFT_deal_with_the_insurgency
+		x = -2
+		y = 1
+		cost = 5
+		prerequisite = { focus = PFT_france_in_need }
+		relative_position_id = PFT_france_in_need
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}
+	focus = {
+		id = PFT_Unitethe_anti_revolutionary_forces
+		icon = GFX_focus_PFT_unite_the_antirevolutionary_forces
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = PFT_france_in_need }
+		relative_position_id = PFT_france_in_need
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}	
+	focus = {
+		id = PFT_placating_the_army
+		icon = GFX_focus_PFT_placating_the_army
+		x = 2
+		y = 1
+		cost = 5
+		prerequisite = { focus = PFT_france_in_need }
+		relative_position_id = PFT_france_in_need
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}
+	focus = {
+		id = PFT_future_of_france_lies_in_the_hands_of_a_general
+		icon = GFX_focus_PFT_future_of_france_lies_in_hands_of_general
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = { focus = PFT_placating_the_army }
+		prerequisite = { focus = PFT_deal_with_the_insurgency }
+		prerequisite = { focus = PFT_Unitethe_anti_revolutionary_forces }	
+		relative_position_id = PFT_placating_the_army
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}	
+	focus = {
+		id = PFT_bourbon_parma
+		icon = GFX_focus_PFT_bourbon_parma
+		x = -4
+		y = 1
+		cost = 10
+		prerequisite = { focus = PFT_future_of_france_lies_in_the_hands_of_a_general }	
+		relative_position_id = PFT_future_of_france_lies_in_the_hands_of_a_general
+	mutually_exclusive = {
+        focus = PFT_continue_the_line_of_succesion
+        focus = PFT_continue_the_regency	
+        focus = PFT_appeal_to_the_nationalists		
+    }
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}
+	focus = {
+		id = PFT_forget_the_old_rivalries
+		icon = GFX_focus_PFT_forget_the_old_rivalries
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = PFT_bourbon_parma }	
+		relative_position_id = PFT_bourbon_parma
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}
+	focus = {
+		id = PFT_beyond_the_la_manche
+		icon = GFX_focus_PFT_beyond_the_la_manche
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = PFT_forget_the_old_rivalries }	
+		relative_position_id = PFT_forget_the_old_rivalries
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}	
+	focus = {
+		id = PFT_united_and_ready
+		icon = GFX_focus_PFT_united_and_ready
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = PFT_beyond_the_la_manche }	
+		relative_position_id = PFT_beyond_the_la_manche
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}					
+	focus = {
+		id = PFT_continue_the_line_of_succesion
+		icon = GFX_focus_PFT_continue_the_line_of_succesion
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = { focus = PFT_future_of_france_lies_in_the_hands_of_a_general }	
+		relative_position_id = PFT_future_of_france_lies_in_the_hands_of_a_general
+	mutually_exclusive = {
+        focus = PFT_bourbon_parma
+        focus = PFT_continue_the_regency	
+        focus = PFT_appeal_to_the_nationalists		
+    }		
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}
+	focus = {
+		id = PFT_rally_the_apanages 
+		icon = GFX_focus_PFT_rally_the_apanages
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = PFT_continue_the_line_of_succesion }	
+		relative_position_id = PFT_continue_the_line_of_succesion
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}
+	focus = {
+		id = PFT_contacts_within_austrian_sphere
+		icon = GFX_focus_PFT_contacts_within_austrian_sphere
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = PFT_rally_the_apanages }	
+		relative_position_id = PFT_rally_the_apanages
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}
+	focus = {
+		id = PFT_forging_the_legitimacy
+		icon = GFX_focus_PFT_forging_the_legitimacy
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = PFT_contacts_within_austrian_sphere }	
+		relative_position_id = PFT_contacts_within_austrian_sphere
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}				
+	focus = {
+		id = PFT_anti_revolutionary_military
+		icon = GFX_focus_PFT_anti_revolutionary_militia
+		x = 0
+		y = 2
+		cost = 10
+		prerequisite = { focus = PFT_bourbon_parma focus = PFT_continue_the_line_of_succesion focus = PFT_continue_the_regency focus = PFT_appeal_to_the_nationalists}	
+		relative_position_id = PFT_future_of_france_lies_in_the_hands_of_a_general
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}
+	focus = {
+		id = PFT_propaganda_waves
+		icon = GFX_focus_PFT_propaganda_waves
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = PFT_anti_revolutionary_military }	
+		relative_position_id = PFT_anti_revolutionary_military
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}
+	focus = {
+		id = PFT_old_elites
+		icon = GFX_focus_PFT_old_elites
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = PFT_propaganda_waves }	
+		relative_position_id = PFT_propaganda_waves
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}				
+	focus = {
+		id = PFT_continue_the_regency
+		icon = GFX_focus_PFT_continue_the_regency
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = PFT_future_of_france_lies_in_the_hands_of_a_general }	
+		relative_position_id = PFT_future_of_france_lies_in_the_hands_of_a_general
+	mutually_exclusive = {
+        focus = PFT_bourbon_parma
+        focus = PFT_continue_the_line_of_succesion	
+        focus = PFT_appeal_to_the_nationalists		
+    }			
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}
+	focus = {
+		id = PFT_conscripting_the_banditry
+		icon = GFX_focus_PFT_conscripting_the_banditry
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = PFT_continue_the_regency }
+		relative_position_id = PFT_continue_the_regency
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}
+	focus = {
+		id = PFT_negotiations_with_the_warlords
+		icon = GFX_focus_PFT_negotiations_with_the_warlords
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = PFT_conscripting_the_banditry }
+		relative_position_id = PFT_conscripting_the_banditry
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}				
+	focus = {
+		id = PFT_promises_to_the_industrialists
+		icon = GFX_focus_PFT_promises_to_the_industrialists
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = PFT_negotiations_with_the_warlords }
+		relative_position_id = PFT_negotiations_with_the_warlords
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}				
+	focus = {
+		id = PFT_appeal_to_the_nationalists
+		icon = GFX_focus_PFT_appeal_to_the_nationalists
+		x = 4
+		y = 1
+		cost = 10
+		prerequisite = { focus = PFT_future_of_france_lies_in_the_hands_of_a_general }	
+		relative_position_id = PFT_future_of_france_lies_in_the_hands_of_a_general
+	mutually_exclusive = {
+        focus = PFT_bourbon_parma
+        focus = PFT_continue_the_regency	
+        focus = PFT_continue_the_line_of_succesion		
+    }			
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}		
+	focus = {
+		id = PFT_call_to_the_people
+		icon = GFX_focus_PFT_call_to_the_people
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = PFT_appeal_to_the_nationalists }
+		relative_position_id = PFT_appeal_to_the_nationalists
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}
+	focus = {
+		id = PFT_the_action_francaise
+		icon = GFX_focus_PFT_action_francaise
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = PFT_call_to_the_people }
+		relative_position_id = PFT_call_to_the_people
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}
+	focus = {
+		id = PFT_focus_on_the_populism
+		icon = GFX_focus_PFT_focus_on_populism
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = PFT_the_action_francaise }
+		relative_position_id = PFT_the_action_francaise
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}
+	focus = {
+		id = PFT_veni_vedi_vici
+		icon = GFX_focus_PFT_veni_vedi_vici
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = PFT_united_and_ready focus = PFT_forging_the_legitimacy focus = PFT_old_elites focus = PFT_promises_to_the_industrialists focus = PFT_focus_on_the_populism }	
+		relative_position_id = PFT_old_elites
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}				
+	}

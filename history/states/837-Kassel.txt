@@ -1,0 +1,25 @@
+
+state={
+	id=837
+	name="STATE_837"
+	provinces={
+		564 6549 9524 11445 11533 
+	}
+	history={
+		owner = HES
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			564 3 
+		}
+		add_core_of = HES
+
+	}	
+	state_category=rural	
+	manpower=2345561
+	buildings_max_level_factor=1.000
+}

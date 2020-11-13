@@ -1,0 +1,26 @@
+
+state={
+	id=736
+	name="STATE_736"
+
+	history={
+		victory_points = {
+			6626 1 
+		}
+		owner = VEN
+		add_core_of = VEN
+		add_core_of = SLV		
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		11735 
+	}
+	manpower=434159
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

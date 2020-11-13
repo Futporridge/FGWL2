@@ -1,0 +1,165 @@
+focus_tree = {
+	id = paris_barricades_chautemps_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PAR
+		}
+	}
+		default = no
+
+	continuous_focus_position = { x = 1200 y = 100 }
+	
+
+	shared_focus = PAR_anarchy
+	shared_focus = PAR_camille_chautemps
+	shared_focus = PAR_democratic_army
+	}
+
+
+	
+
+
+	shared_focus = {
+		id = PAR_democratic_army
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = PAR_liberte_egalite_fraternite
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_opening_up_our_cells
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_democratic_army }
+		relative_position_id = PAR_democratic_army
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	shared_focus = {
+		id = PAR_war_tax
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_opening_up_our_cells }
+		relative_position_id = PAR_opening_up_our_cells
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_preparing_our_men
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_democratic_army }
+		relative_position_id = PAR_democratic_army
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_civil_patriotism
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_preparing_our_men }
+		relative_position_id = PAR_preparing_our_men
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_aux_armes_citoyens
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_war_tax }
+		prerequisite = { focus = PAR_civil_patriotism }		
+		relative_position_id = PAR_war_tax
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	
+}			

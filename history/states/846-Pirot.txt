@@ -1,0 +1,19 @@
+state={
+	id=846
+	name="STATE_846"
+	provinces={
+		11832 11857 11868 
+	}
+	history = {
+		add_core_of = LTE		
+		add_core_of = SER			
+		owner = LTE		
+		buildings = {	
+			infrastructure = 4
+
+		}
+	}	
+	state_category = rural	
+	manpower=101000
+	buildings_max_level_factor=1.000
+}

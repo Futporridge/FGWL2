@@ -1,0 +1,21 @@
+
+state={
+	id=801
+	name="STATE_801"
+	provinces={
+		241 309 336 
+	}
+		history={
+		owner = HAN
+		
+		buildings = {
+			infrastructure = 6
+
+		}
+		
+		add_core_of = HAN
+	}	
+	state_category=rural	
+	manpower=120100
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,50 @@
+﻿capital = 15
+
+oob = "NRM_1936"
+
+set_research_slots = 3
+
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_support = 1		
+	tech_mountaineers = 1
+	early_fighter = 1
+}
+
+set_politics = {
+	ruling_party = reactionary
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 0
+	prometeism = 0
+	communitarianism = 0
+	oligarchy = 0
+	conservatism = 20
+	paternalism = 20
+	reactionary = 60
+}
+add_ideas = {
+French_bandits
+FRN_casualties
+}
+
+set_stability = 0.50
+
+create_country_leader = {
+	name = "Sixte de Bourbon-Parme"
+	desc = "POLITICS_SIXTE_BOURBON_DESC"
+	picture = "gfx/leaders/NRM/Portrait_Sixte_de_Vermandois.tga"
+	expire = "1965.1.1"
+	ideology = reactionary
+	traits = {
+		#
+	}
+}

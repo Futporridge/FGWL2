@@ -1,0 +1,35 @@
+
+state={
+	id=137
+	name="STATE_137"
+
+	history={
+		owner = GOT
+		victory_points = {
+			3686 20 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2		
+			arms_factory = 1				
+			dockyard = 1
+			3686 = {
+				naval_base = 7
+
+			}
+			9680 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = GOT
+	}
+
+	provinces={
+		3686 6704 9677 9680 
+	}
+	manpower=661607
+	buildings_max_level_factor=1.000
+	state_category=city
+}

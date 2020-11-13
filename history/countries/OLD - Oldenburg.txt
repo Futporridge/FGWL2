@@ -1,0 +1,47 @@
+capital = 825
+
+oob = "OLD_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_support = 1		
+	tech_mountaineers = 1
+	early_fighter = 1
+}
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 10
+	prometeism = 10
+	communitarianism = 10
+	oligarchy = 10
+	conservatism = 40
+	reactionary = 20
+}
+
+add_ideas = {
+	HRE_member
+}
+set_stability = 0.50
+
+create_country_leader = {
+	name = " Nikolaus Friedrich Wilhelm von Oldenburg"
+	desc = "POLITICS_NIC_VON_OLD_DESC"
+	picture = "gfx/leaders/OLD/Portrait_Nikolaus_von_Oldenburg.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}

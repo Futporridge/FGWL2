@@ -1,0 +1,9 @@
+category = {
+	name = "Super Events"
+	soundeffects = {
+		ppf_unification
+		latvian_fascism_be_like
+		austrian_empire_collapse
+	}
+	compressor = master_compressor
+}

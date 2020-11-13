@@ -1,0 +1,89 @@
+ideas = {
+
+	country = {
+		schwarze_armee = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = schwarze_armee 
+			
+			modifier = {
+				political_power_gain = -0.1
+				stability_factor = -0.2
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+	
+		}
+  head_of_state = {
+
+		ANS_Otto_Strasser = {
+
+			
+
+			allowed = {
+				original_tag = ANS
+			}
+			available = {
+			always = false
+			}
+			
+			traits = { radical_preacher }
+		}
+}	
+  head_of_state = {
+
+		ANS_Siegfried_Muller = {
+
+			picture = GFX_idea_siegfried_muller
+
+			allowed = {
+				original_tag = ANS
+			}
+			available = {
+			always = false
+			}
+			
+			traits = { mercenary_leader }
+		}
+}
+  head_of_state = {
+
+		ANS_Fritz_Schaffer = {
+
+			picture = GFX_idea_fritz_schaffer
+
+			allowed = {
+				original_tag = ANS
+			}
+			available = {
+			always = false
+			}
+			
+			traits = { stout_republican }
+		}
+}
+ head_of_state = {
+
+		ANS_Ernst_Junger = {
+
+			picture = GFX_idea_ernst_junger
+
+			allowed = {
+				original_tag = ANS
+			}
+			available = {
+			always = false
+			}
+			
+			traits = { schwarze_armee_leader }
+		}
+}		
+		
+	}

@@ -1,0 +1,60 @@
+
+defined_text = { #SUPER EVENT CLOSE
+    name = get_superevent_close
+
+    text = { 
+        trigger = {
+            has_global_flag = PPF_Unification
+        }
+        localization_key = "GFX_PPF_unification_CLOSE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = prikol_event
+        }
+        localization_key = "GFX_prikol_event_CLOSE"
+    }
+	
+    text = { 
+        trigger = {
+            has_global_flag = habsburgs_unites_france
+        }
+        localization_key = "GFX_habsburgs_unites_france_CLOSE"
+    }
+	
+    text = { 
+        trigger = {
+            has_global_flag = habsburg_hegemony_collapsed
+        }
+        localization_key = "GFX_habsburg_hegemony_collapsed_CLOSE"
+    }
+	
+    text = { 
+        trigger = {
+            has_global_flag = jacobite_victory
+        }
+        localization_key = "GFX_jacobite_victory_CLOSE"
+    }
+	
+    text = { 
+        trigger = {
+            has_global_flag = nationalist_victory
+        }
+        localization_key = "GFX_nationalist_victory_CLOSE"
+    }
+	
+    text = { 
+        trigger = {
+            has_global_flag = republicanist_victory
+        }
+        localization_key = "GFX_republicanist_victory_CLOSE"
+    }
+	
+    text = { 
+        trigger = {
+            has_global_flag = royalist_victory
+        }
+        localization_key = "GFX_royalist_victory_CLOSE"
+    }
+}

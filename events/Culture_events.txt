@@ -1,0 +1,122 @@
+﻿############################
+## Culture events, thank you to AtomicSoviet and the End of a New Beginning team for this!!! And to TNO team!
+############################
+
+add_namespace = CULTURE
+
+## Starting Cultures
+
+country_event = { #Prussian Culture
+	id = CULTURE.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event CULTURE.1"}
+	title = CULTURE.1.t
+	desc = CULTURE.1.desc
+	picture = GFX_report_event_lithuania_army
+	fire_only_once = yes
+
+	hidden = yes
+
+	option = {
+		name = CULTURE.1.a
+
+		5 = { set_variable = { nationality = 1 } }	#Ostpreußen
+		85 = { set_variable = { nationality = 1 } }	#Danzig		
+		188 = { set_variable = { nationality = 1 } }	#Memel		
+		763 = { set_variable = { nationality = 1 } }	#Danzig-Westpreußen
+	}
+}
+country_event = { #Baltic Germans Culture
+	id = CULTURE.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event CULTURE.2"}
+	title = CULTURE.2.t
+	desc = CULTURE.2.desc
+	picture = GFX_report_event_lithuania_army
+	fire_only_once = yes
+
+	hidden = yes
+
+	option = {
+		name = CULTURE.2.a
+
+		810 = { set_variable = { nationality = 2 } }	#Riga
+		811 = { set_variable = { nationality = 2 } }	#Zemgale		
+		190 = { set_variable = { nationality = 2 } }	#Kurzeme
+		13 = { set_variable = { nationality = 2 } }		#Harju	
+		812 = { set_variable = { nationality = 2 } }	#Saarema			
+	}
+}
+country_event = { #Latvian Culture
+	id = CULTURE.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event CULTURE.13"}
+	title = CULTURE.13.t
+	desc = CULTURE.13.desc
+	picture = GFX_report_event_lithuania_army
+	fire_only_once = yes
+
+	hidden = yes
+
+	option = {
+		name = CULTURE.13.a
+
+		808 = { set_variable = { nationality = 13 } }	#Selija
+		809 = { set_variable = { nationality = 13 } }	#Latgale		
+		12 = { set_variable = { nationality = 13 } }	#Vidzeme
+	}
+}
+country_event = { #Estonian Culture
+	id = CULTURE.15
+	immediate = {log = "[GetDateText]: [Root.GetName]: event CULTURE.13"}
+	title = CULTURE.15.t
+	desc = CULTURE.15.desc
+	picture = GFX_report_event_lithuania_army
+	fire_only_once = yes
+
+	hidden = yes
+
+	option = {
+		name = CULTURE.15.a
+
+		813 = { set_variable = { nationality = 15 } }	#Laanemaa
+		814 = { set_variable = { nationality = 15 } }	#Sakala		
+		815 = { set_variable = { nationality = 15 } }	#Dorpt
+		191 = { set_variable = { nationality = 15 } }	#Laane Virumaa		
+		816 = { set_variable = { nationality = 15 } }	#Ida Virumaa			
+	}
+}
+country_event = { #Skobari Culture
+	id = CULTURE.16
+	immediate = {log = "[GetDateText]: [Root.GetName]: event CULTURE.16"}
+	title = CULTURE.16.t
+	desc = CULTURE.16.desc
+	picture = GFX_report_event_lithuania_army
+	fire_only_once = yes
+
+	hidden = yes
+
+	option = {
+		name = CULTURE.16.a
+
+		209 = { set_variable = { nationality = 16 } }	#Pskov
+		850 = { set_variable = { nationality = 16 } }	#Porchow		
+		210 = { set_variable = { nationality = 16 } }	#Nevel
+	}
+}
+country_event = { #Basque Culture
+	id = CULTURE.20
+	immediate = {log = "[GetDateText]: [Root.GetName]: event CULTURE.20"}
+	title = CULTURE.20.t
+	desc = CULTURE.20.desc
+	picture = GFX_report_event_lithuania_army
+	fire_only_once = yes
+
+	hidden = yes
+
+	option = {
+		name = CULTURE.20.a
+
+		861 = { set_variable = { nationality = 20 } }	#Basse-Navarre
+		172 = { set_variable = { nationality = 20 } }	#Navarre		
+
+	}
+}
+}

@@ -1,0 +1,44 @@
+capital = 113
+
+OOB = "IRE_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+
+set_politics = {
+	ruling_party = paternalism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 0
+	prometeism = 0
+	communitarianism = 0
+	oligarchy = 20
+	conservatism = 40
+	reactionary = 20
+	paternalism = 20
+}
+
+add_ideas = {
+
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Eoin Ó Dubhthaigh"
+	desc = "POLITICS_EOIN_O_DUFFY_DESC"
+	picture = "gfx/leaders/IRE/Portrait_Duffy.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = { 
+
+	}
+}

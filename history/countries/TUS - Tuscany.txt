@@ -1,0 +1,46 @@
+capital = 161
+
+OOB = "TUS_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 8
+	prometeism = 3
+	communitarianism = 8
+	liberalism = 10
+	oligarchy = 7
+	conservatism = 44
+	paternalism = 15
+	reactionary = 5
+}
+
+add_ideas = {
+Cultural_Center
+regime_di_prosperita
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Joseph August"
+	desc = "POLITICS_JOSEPH_AUGUST_DESC"
+	picture = "gfx/leaders/TUS/Portrait_Joseph_August.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = { 
+
+	}
+}

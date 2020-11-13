@@ -1,0 +1,20 @@
+state={
+	id=849
+	name="STATE_849"
+	provinces={
+		315 343 371 398 3364 3390 6305 
+	}
+	history={
+		owner = RUK
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = RUK
+
+	}
+	state_category = rural	
+	manpower=101411
+	buildings_max_level_factor=1.000
+}

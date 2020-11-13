@@ -1,0 +1,125 @@
+﻿	add_namespace = blt
+	
+	country_event = {	
+	id = blt.9
+	title = blt.9.t
+	desc = blt.9.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+immediate = { 
+hidden_effect = {
+191 = {
+set_demilitarized_zone = yes
+}
+816 = {
+set_demilitarized_zone = yes
+}
+815 = {
+set_demilitarized_zone = yes
+} 
+809 = {
+set_demilitarized_zone = yes
+}
+808 = {
+set_demilitarized_zone = yes
+}   
+209 = {
+set_demilitarized_zone = yes
+} 
+850 = {
+set_demilitarized_zone = yes
+} 
+210 = {
+set_demilitarized_zone = yes
+} 
+}
+		}
+
+	option = {
+		name = blt.9.a	
+		 
+		}
+}
+	
+	
+	country_event = {	
+	id = blt.10
+	title = blt.10.t
+	desc = blt.10.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+immediate = { 
+hidden_effect = {
+		LAT = {
+		transfer_state = 809 
+		transfer_state = 808
+		set_capital = 808
+		load_oob = "LAT_rebelion"
+		declare_war_on = {
+    target = BLT
+    type = annex_everything
+    
+}
+		}
+		EST = {
+		transfer_state = 191
+		transfer_state = 816
+		transfer_state = 815
+		set_capital = 815
+		load_oob = "EST_rebelion"		
+		declare_war_on = {
+    target = BLT
+    type = annex_everything
+    
+}
+		}
+		PSK = {
+		transfer_state = 209 
+		transfer_state = 850
+		transfer_state = 210		
+		set_capital = 209
+		}		
+
+}
+}
+
+	option = {
+		name = blt.10.a	
+		 
+		}
+	option = {
+		name = blt.10.b	
+	hidden_effect = {	
+	LAT = { change_tag_from = BLT }	 
+		}
+		}
+	option = {
+		name = blt.10.c	
+	hidden_effect = {	
+	EST = { change_tag_from = BLT }	 
+		}		
+		}
+	option = {
+		name = blt.10.d	
+	hidden_effect = {	
+	PSK = { change_tag_from = BLT }	 
+		}		
+		}		
+}
+    country_event = {	
+	id = blt.2
+	title = blt.2.t
+	desc = blt.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+    name = blt.2.a
+	load_focus_tree = { tree = terra_marriana_junta keep_completed = no }	
+    }
+    }	

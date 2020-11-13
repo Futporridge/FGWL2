@@ -1,0 +1,46 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_PPF_unification"
+		texturefile = "gfx/super_events/PPF_unification.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_prikol_event"
+		texturefile = "gfx/super_events/prikol_event.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_habsburgs_unites_france"
+		texturefile = "gfx/super_events/habsburgs_unites_france.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_habsburg_hegemony_collapsed"
+		texturefile = "gfx/super_events/austrian_civil_war.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_jacobite_victory"
+		texturefile = "gfx/super_events/jacobite_victory.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_nationalist_victory"
+		texturefile = "gfx/super_events/nationalist_victory.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_republicanist_victory"
+		texturefile = "gfx/super_events/republicanist_victory.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_royalist_victory"
+		texturefile = "gfx/super_events/royalist_victory.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CLOSE"
+		texturefile = "gfx/Super_Event_Close_Button.dds"
+	}
+}

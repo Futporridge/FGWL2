@@ -1,0 +1,38 @@
+﻿	add_namespace = wrs
+	
+	country_event = {	
+	id = wrs.1
+	title = wrs.1.t
+	desc = wrs.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = wrs.1.a
+			hidden_effect = {
+retire_country_leader = yes	
+AUS = {
+set_autonomy = {
+    target = WRS
+    autonomy_state = autonomy_free
+}		
+}
+create_country_leader = {
+	name = "Walery Jan Sławek"
+	desc = "POLITICS_WALERY_JANPSLAWEK_DESC"
+	picture = "Portrait_Walery_Slawek.tga"
+	expire = "1965.1.1"
+	ideology = individualism
+	traits = {
+		
+	}
+}
+set_politics = {
+	ruling_party = individualism
+}
+set_cosmetic_tag = POL
+leave_faction = yes
+		}
+}
+}

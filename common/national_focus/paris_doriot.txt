@@ -1,0 +1,119 @@
+focus_tree = {
+	id = paris_jacques_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PAR
+		}
+	}
+	shared_focus = PAR_anarchy
+	shared_focus = PAR_jacques_doriot
+	}
+
+
+	
+	default = no
+
+	continuous_focus_position = { x = 1200 y = 100 }
+
+	shared_focus = {
+		id = PAR_jacques_doriot
+		icon = GFX_focus_PAR_doriot
+		x = 7
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		always = no
+		}
+		bypass = {
+		has_country_flag = PAR_prometeists_won	
+				}
+
+		completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = PAR_agitation_and_propaganda
+		icon = GFX_focus_PAR_agitprop
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = PAR_jacques_doriot }
+		cost = 1
+		relative_position_id = PAR_jacques_doriot
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = PAR_red_guard
+		icon = GFX_focus_PAR_red_army
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = { focus = PAR_jacques_doriot }
+		cost = 1
+		relative_position_id = PAR_jacques_doriot
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = PAR_free_from_opium
+		icon = GFX_focus_PAR_free_from_opium
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = PAR_red_guard }
+		prerequisite = { focus = PAR_agitation_and_propaganda }
+		cost = 1
+		relative_position_id = PAR_red_guard
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		hidden_effect = {
+		load_focus_tree = { tree = paris_barricades_doriot_focus keep_completed = yes }
+		}
+					}
+				}				
+	
+			

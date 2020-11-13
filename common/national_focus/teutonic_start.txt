@@ -1,0 +1,526 @@
+focus_tree = {
+	id = teutonic_start_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = TEU
+		}
+	}
+		continuous_focus_position = { x = 1540 y = 100 }
+	
+	default = yes
+	reset_on_civilwar = no
+
+	focus = {
+		id = TEU_Hochmaster_Kurt
+		icon = GFX_focus_TEU_kurt_von_tippelskirch
+		x = 7
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+		available = {
+		always = no		
+		}
+		bypass = {	
+		has_country_flag = TEU_Hochmeister_Kurt		
+				}
+
+		completion_reward = {
+			
+			}
+		}
+	
+
+	focus = {
+		id = TEU_reforming_army
+		icon = GFX_focus_TEU_army_reforms
+		prerequisite = { focus = TEU_Hochmaster_Kurt }
+		x = 0
+		y = 1
+		relative_position_id = TEU_Hochmaster_Kurt
+		cost = 1
+
+		available_if_capitulated = yes
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = TEU_investigate_corruption
+		icon = GFX_focus_TEU_investigate_corruption
+		prerequisite = { focus = TEU_Hochmaster_Kurt }
+		x = -4
+		y = 1
+		relative_position_id = TEU_Hochmaster_Kurt
+		cost = 1
+
+		available_if_capitulated = yes
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = TEU_tighten_checks
+		icon = GFX_focus_TEU_tighten_checks
+		prerequisite = { focus = TEU_investigate_corruption }
+		x = 1
+		y = 1
+		relative_position_id = TEU_investigate_corruption
+		cost = 2
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        focus = TEU_turn_eye
+		}
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+		country_event = corteu.1
+						
+		}
+	}
+focus = {
+		id = TEU_turn_eye
+		icon = GFX_focus_TEU_turn_a_blind_eye
+		prerequisite = { focus = TEU_investigate_corruption }
+		x = -1
+		y = 1
+		relative_position_id = TEU_investigate_corruption
+		cost = 2
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        focus = TEU_tighten_checks
+		}
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+				country_event = corteu.2	
+		}
+	}
+	focus = {
+		id = TEU_compromises_with_the_commendams
+		icon = GFX_focus_TEU_compromises_with_the_commendams
+		prerequisite = { focus = TEU_turn_eye focus = TEU_tighten_checks}
+		x = 0
+		y = 1
+		relative_position_id = TEU_turn_eye
+		cost = 2
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        focus = TEU_Expropriate_disloyal_commanderies
+		}
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+				country_event = corteu.4	
+		}
+	}
+	focus = {
+		id = TEU_Expropriate_disloyal_commanderies
+		icon = GFX_focus_TEU_expropriate_commanderies
+		prerequisite = { focus = TEU_turn_eye focus = TEU_tighten_checks}
+		x = 2
+		y = 1
+		relative_position_id = TEU_turn_eye
+		cost = 2
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        focus = TEU_compromises_with_the_commendams
+		}
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+				country_event = corteu.3	
+		}
+	}
+	focus = {
+		id = TEU_Careful_Negotiations
+		icon = GFX_focus_TEU_careful_negotiations
+		prerequisite = { focus = TEU_compromises_with_the_commendams focus = TEU_Expropriate_disloyal_commanderies}
+		x = 0
+		y = 1
+		relative_position_id = TEU_compromises_with_the_commendams
+		cost = 2
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        focus = TEU_With_the_Iron_Fist
+		}
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+				country_event = corteu.6	
+		}
+	}
+	focus = {
+		id = TEU_With_the_Iron_Fist
+		icon = GFX_focus_TEU_with_the_iron_fist
+		prerequisite = { focus = TEU_compromises_with_the_commendams focus = TEU_Expropriate_disloyal_commanderies}
+		x = 2
+		y = 1
+		relative_position_id = TEU_compromises_with_the_commendams
+		cost = 2
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        focus = TEU_Careful_Negotiations
+		}
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+				country_event = corteu.5	
+		}
+	}
+	focus = {
+		id = TEU_Leave_them_be
+		icon = GFX_focus_TEU_leave_them_be
+		prerequisite = { focus = TEU_reforming_army}
+		x = -1
+		y = 1
+		relative_position_id = TEU_reforming_army
+		cost = 2
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        focus = TEU_Force_to_Stardatization
+		}
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+				country_event = milteu.2	
+		}
+	}
+	focus = {
+		id = TEU_Force_to_Stardatization
+		icon = GFX_focus_TEU_force_to_standartize
+		prerequisite = { focus = TEU_reforming_army}
+		x = 1
+		y = 1
+		relative_position_id = TEU_reforming_army
+		cost = 2
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        focus = TEU_Leave_them_be
+		}
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+			country_event = milteu.1
+		}
+	}
+	focus = {
+		id = TEU_Placate_Aristocracy
+		icon = GFX_focus_TEU_placate_military_aristocracy
+		prerequisite = { focus = TEU_Leave_them_be Focus = TEU_Force_to_Stardatization}
+		x = 0
+		y = 1
+		relative_position_id = TEU_Leave_them_be
+		cost = 2
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        focus = TEU_Demote_Politicaly_Connected_Generals
+		}
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+				country_event = milteu.4	
+		}
+	}
+	focus = {
+		id = TEU_Demote_Politicaly_Connected_Generals
+		icon = GFX_focus_TEU_demote_polit_connected_generals
+		prerequisite = { focus = TEU_Leave_them_be focus = TEU_Force_to_Stardatization}
+		x = 2
+		y = 1
+		relative_position_id = TEU_Leave_them_be
+		cost = 2
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        focus = TEU_Placate_Aristocracy
+		}
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+		country_event = milteu.3	
+		}
+	}
+	focus = {
+		id = TEU_Bribe_Military_Aristocracy
+		icon = GFX_focus_TEU_bribe_military_aristocracy
+		prerequisite = { focus = TEU_Placate_Aristocracy focus = TEU_Demote_Politicaly_Connected_Generals}
+		x = 0
+		y = 1
+		relative_position_id = TEU_Placate_Aristocracy
+		cost = 2
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        focus = TEU_Withdraw_Privileges
+		}
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+		country_event = milteu.6	
+		}
+	}
+	focus = {
+		id = TEU_Withdraw_Privileges
+		icon = GFX_focus_TEU_withdraw_privileges
+		prerequisite = { focus = TEU_Placate_Aristocracy Focus = TEU_Demote_Politicaly_Connected_Generals}
+		x = 2
+		y = 1
+		relative_position_id = TEU_Placate_Aristocracy
+		cost = 2
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        focus = TEU_Bribe_Military_Aristocracy
+		}
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+		country_event = milteu.5	
+		}
+	}
+	focus = {
+		id = TEU_Plots_Within
+		icon = GFX_focus_TEU_plots_within
+		prerequisite = { focus = TEU_Hochmaster_Kurt}
+		x = 4
+		y = 1
+		relative_position_id = TEU_Hochmaster_Kurt
+		cost = 1
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        
+		}
+available = {
+		always = no
+		}
+		bypass = {	
+		has_country_flag = TEU_Hochmeister_Kurt
+				}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = TEU_Rundstedt_Coup_Was_not_Detected
+		icon = GFX_focus_TEU_gerd_coup_not_detected
+		prerequisite = { focus = TEU_Plots_Within}
+		x = -1
+		y = 1
+		relative_position_id = TEU_Plots_Within
+		cost = 10
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        
+		}
+available = {
+		always = no		
+		}
+		bypass = {	
+		has_country_flag = TEU_Rundstedt_Coup_Was_not_Detected		
+				}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = TEU_Rundstedt_is_Neutralized
+		icon = GFX_focus_TEU_gerd_neutralized
+		prerequisite = { focus = TEU_Plots_Within}
+		x = 1
+		y = 1
+		relative_position_id = TEU_Plots_Within
+		cost = 10
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+       
+		}
+available = {
+		always = no		
+		}
+		bypass = {	
+		has_country_flag = TEU_Rundstedt_is_Neutralized		
+				}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = TEU_Status_Quo
+		icon = GFX_focus_TEU_status_quo
+		prerequisite = { focus = TEU_Rundstedt_Coup_Was_not_Detected focus = TEU_Rundstedt_is_Neutralized}
+		x = 0
+		y = 1
+		relative_position_id = TEU_Rundstedt_Coup_Was_not_Detected
+		cost = 10
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        
+		}
+available = {
+		always = no 		
+		}
+		bypass = {	
+		has_country_flag = TEU_Status_Quo	
+				}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = TEU_Aristocratic_Clique_been_dealt_with
+		icon = GFX_focus_TEU_aristocrats_dealt_with
+		prerequisite = { focus = TEU_Rundstedt_is_Neutralized focus = TEU_Rundstedt_Coup_Was_not_Detected}
+		x = 2
+		y = 1
+		relative_position_id = TEU_Rundstedt_Coup_Was_not_Detected
+		cost = 10
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        
+		}
+available = {
+		always = no		
+		}
+		bypass = {	
+		has_country_flag = TEU_Aristocratic_Clique_been_dealt_with		
+				}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = TEU_Von_Schleicher_Pardoned
+		icon = GFX_focus_TEU_von_schleicher_pardoned
+		prerequisite = { focus = TEU_Status_Quo	 focus = TEU_Aristocratic_Clique_been_dealt_with}
+		x = 0
+		y = 1
+		relative_position_id = TEU_Status_Quo
+		cost = 10
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        
+		}
+available = {
+		always = no		
+		}
+		bypass = {	
+		has_country_flag = TEU_Von_Schleicher_Pardoned		
+				}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = TEU_Von_Schleicher_is_Jailed
+		icon = GFX_focus_TEU_von_schleicher_jailed
+		prerequisite = { focus = TEU_Aristocratic_Clique_been_dealt_with focus = TEU_Status_Quo}
+		x = 2
+		y = 1
+		relative_position_id = TEU_Status_Quo
+		cost = 10
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        
+		}
+available = {
+		always = no		
+		}
+		bypass = {	
+		has_country_flag = TEU_Von_Schleicher_is_Jailed 		
+				}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = TEU_Continuation_of_the_Reforms
+		icon = GFX_focus_TEU_continuation_of_reforms
+		prerequisite = { focus = TEU_Careful_Negotiations focus = TEU_Withdraw_Privileges}
+		prerequisite = {focus = TEU_Von_Schleicher_Pardoned focus = TEU_Von_Schleicher_is_Jailed}
+		prerequisite = {focus = TEU_Bribe_Military_Aristocracy focus = TEU_With_the_Iron_Fist }
+		x = 5
+		y = 1
+		relative_position_id = TEU_Careful_Negotiations
+		cost = 5
+
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        
+		}
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+		country_event = refteu.1	
+		}
+	}
+}

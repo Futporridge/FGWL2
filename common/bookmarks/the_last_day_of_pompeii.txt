@@ -1,0 +1,42 @@
+bookmarks = {
+	bookmark = {
+		name = "THE_LAST_DAY_OF_POMPEII_NAME"
+		desc = "THE_LAST_DAY_OF_POMPEII_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "AUS"
+		default = yes
+		
+		"PAR"={
+			history = "PAR_FGWL"
+			ideology = oligarchy
+			ideas = {
+				PAR_migration
+				PAR_political_instability
+				FRN_casualties
+			}
+			focuses = {
+				PAR_pierre_drieu_la_rochelle
+				PAR_jacques_doriot
+				PAR_george_bataille
+			}
+		}
+		"AUS"={
+			history = "AUS_FGWL"
+			ideology = reactionary
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}		
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+}
+}

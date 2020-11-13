@@ -1,0 +1,444 @@
+ideas = {
+
+	country = {
+		baltic_beacon = {
+			
+allowed = { original_tag = TEU }
+
+			picture = baltic_beacon
+			
+			modifier = {
+				surrender_limit = 0.1
+				war_support_factor = 0.10
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+			teutonic_disorder = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = teutonic_disorder
+			
+			modifier = {
+				stability_factor = -0.15
+                local_resources_factor = -0.10
+                partisan_effect = 0.10
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}	
+		teutonic_failed_integration = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = teutonic_failed_integration
+			
+			modifier = {
+				political_power_gain = -0.15
+                stability_factor = -0.15
+                conscription_factor = -0.15
+                production_factory_max_efficiency_factor = -0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		teutonic_political_power_struggle = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = teutonic_political_power_struggle
+			
+			modifier = {
+				political_power_gain = -0.1
+                utopist_drift = 0.05
+                communitarianism_drift = 0.05
+                republicanism_drift = 0.05
+                reformism_drift = 0.05
+                paternalism_drift = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Archaic_Military_System = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = Archaic_Military_System
+			
+			modifier = {
+				conscription_factor = -0.10 
+				supply_consumption_factor = +0.15
+				line_change_production_efficiency_factor = -0.2
+				army_core_defence_factor = 0.1
+				partisan_effect = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Knightly_Aristocracy_of_the_Order = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = Knightly_Aristocracy_of_the_Order
+			
+			modifier = {
+				political_power_gain = -0.05
+				conscription_factor = -0.10 
+				civilian_factory_use = +2
+				command_power_gain = 0.5
+				army_morale_factor = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+		teu_kurt_reformation = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = kurt_reformation
+			
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.20
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		teu_kurt_reformation_initial = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = kurt_reformation
+			
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.10
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		teu_kurt_reformation_further = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = kurt_reformation
+			
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		teu_kurt_reformation_stability_start = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = kurt_reformation
+			
+			modifier = {
+				stability_factor = -0.125
+				political_power_gain = -0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		teu_kurt_reformation_stability_second = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = kurt_reformation
+			
+			modifier = {
+				stability_factor = -0.10
+				political_power_gain = -0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		teu_kurt_reformation_stability_third = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = kurt_reformation
+			
+			modifier = {
+				stability_factor = -0.0725
+				political_power_gain = -0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		teu_kurt_reformation_stability_fourth = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = kurt_reformation
+			
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		teu_kurt_reformation_stability_fifth = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = kurt_reformation
+			
+			modifier = {
+				stability_factor = -0.025
+				political_power_gain = -0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		teu_kurt_reformation_stability_six = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = kurt_reformation
+			
+			modifier = {
+				political_power_gain = -0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		teu_free_parlament = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = kurt_reformation
+			
+			modifier = {
+				political_power_gain = 0.01
+				war_support_factor = 5
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		teu_serene_parlament = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = kurt_reformation
+			
+			modifier = {
+				political_power_gain = 0.025
+				stability_factor = 5
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		teu_reform_unitarism = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = kurt_reformation
+			
+			modifier = {
+				political_power_gain = 0.05
+				global_building_slots_factor = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		teu_reform_federalism = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = kurt_reformation
+			
+			modifier = {
+				political_power_gain = -0.05
+				non_core_manpower = 0.2
+				conscription_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
+	head_of_state = {
+
+		TEU_Franz_Papen = {
+
+		
+
+			allowed = {
+				original_tag = "TEU"
+			}
+			available = {
+			always = false
+			}
+			
+			traits = { compassionate_gentleman  }
+		}
+		
+		TEU_Gotthard_Heinrici = {
+
+		
+
+			allowed = {
+				original_tag = "TEU"
+			}
+			available = {
+			always = false
+			}
+			
+			traits = {   }
+		}
+		
+		}
+	political_advisor = {
+
+		
+		TEU_Alfred_Hugenber = {
+			
+			
+			allowed = {
+				original_tag = "TEU"
+			}
+			
+						
+			traits = {  }
+		}
+		TEU_Ferdinand_Bredow = {
+			
+			
+			allowed = {
+				original_tag = "TEU"
+			}
+			
+						
+			traits = {  }
+		}
+		TEU_Gerd_Rundstedt = {
+			
+			
+			allowed = {
+				original_tag = "TEU"
+			}
+			
+						
+			traits = {  }
+		}
+		TEU_Hermann_Warmbold = {
+			
+			
+			allowed = {
+				original_tag = "TEU"
+			}
+			
+						
+			traits = {  }
+		}
+		TEU_Kurt_Schleicher = {
+			
+			
+			allowed = {
+				original_tag = "TEU"
+			}
+			
+						
+			traits = {  }
+		}
+		TEU_Magnus_Braun_Senior = {
+			
+			
+			allowed = {
+				original_tag = "TEU"
+			}
+			
+						
+			traits = {  }
+		}
+		TEU_Werner_Fritsch = {
+			
+			
+			allowed = {
+				original_tag = "TEU"
+			}
+			
+						
+			traits = {  }
+		}
+		}
+}

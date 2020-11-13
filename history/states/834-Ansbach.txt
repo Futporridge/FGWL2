@@ -1,0 +1,24 @@
+state={
+	id=834
+	name="STATE_834"
+	provinces={
+		561 6540 9545 11544 11529
+	}
+	history={
+		owner = ANS
+		victory_points = {
+			11544 5 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		add_core_of = ANS
+
+	}
+	state_category=town
+	manpower=803556
+	buildings_max_level_factor=1.000
+}

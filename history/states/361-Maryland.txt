@@ -1,0 +1,39 @@
+
+state={
+	id=361
+	name="STATE_361"
+
+	history={
+		owner = KMC
+		victory_points = {
+			3957 15 
+		}
+		victory_points = {
+			6984 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			dockyard = 1
+			air_base = 6
+			6984 = {
+				naval_base = 2
+
+			}
+			3957 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = KMC
+
+	}
+
+	provinces={
+		801 865 873 951 3823 3917 3941 3957 3975 6823 6846 6892 6929 6958 6984 7588 7646 9758 9786 9923 10343 10441 11873 11888 11892 
+	}
+	manpower=2118394
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,165 @@
+focus_tree = {
+	id = paris_barricades_bataille_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PAR
+		}
+	}
+		default = no
+
+	continuous_focus_position = { x = 1200 y = 100 }
+	
+
+	shared_focus = PAR_anarchy
+	shared_focus = PAR_george_bataille
+	shared_focus = PAR_reorganize_the_militia
+	}
+
+
+	
+
+
+	shared_focus = {
+		id = PAR_reorganize_the_militia
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = PAR_will_to_power
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_right_to_arms
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_reorganize_the_militia }
+		relative_position_id = PAR_reorganize_the_militia
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	shared_focus = {
+		id = PAR_smuggling_guns
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_right_to_arms }
+		relative_position_id = PAR_right_to_arms
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_enlist_the_acephale
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_reorganize_the_militia }
+		relative_position_id = PAR_reorganize_the_militia
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_soldiers_of_fortune
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_enlist_the_acephale }
+		relative_position_id = PAR_enlist_the_acephale
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_armed_and_very_dangerous
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_smuggling_guns }
+		prerequisite = { focus = PAR_soldiers_of_fortune }		
+		relative_position_id = PAR_smuggling_guns
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	
+}			

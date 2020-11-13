@@ -1,0 +1,30 @@
+################
+##### PFT ######
+################
+
+TEU_kurt_reforms = {
+	icon = usa_honor_the_confederacy
+	allowed = {
+	
+			original_tag = TEU
+	}
+	visible = {
+		has_country_flag = TEU_Hochmeister_Kurt	
+	}
+}
+TEU_category_representative_person = {
+	icon = usa_honor_the_confederacy
+	allowed = {
+	
+			original_tag = TEU
+	}
+	visible = {
+		has_country_flag = TEU_reforms_crown_monarch
+		OR = {
+		has_country_flag = TEU_reforms_the_magister	
+		}
+		OR = {
+		has_country_flag = TEU_reforms_the_kanzler	
+		}
+	}
+}

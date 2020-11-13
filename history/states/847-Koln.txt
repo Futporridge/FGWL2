@@ -1,0 +1,25 @@
+state={
+	id=847
+	name="STATE_847"
+	provinces={
+		587 3444 3547 9522 
+	}
+		history={
+		owner = JUL
+
+		victory_points = {
+			587 10
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 3
+
+		}
+		add_core_of = JUL
+
+	}
+	manpower=3456700
+	state_category=metropolis	
+	buildings_max_level_factor=1.000
+}

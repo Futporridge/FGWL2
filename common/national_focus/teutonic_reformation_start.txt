@@ -1,0 +1,727 @@
+focus_tree = {
+	id = teutonic_reformation_start
+
+	country = {
+		factor = 0
+		
+
+	}
+		default = no
+
+		continuous_focus_position = { x = 1540 y = 100 }
+	
+
+	shared_focus = TEU_kurt_reformation
+	}
+
+
+	
+
+
+	shared_focus = {
+		id = TEU_kurt_reformation
+		icon = GFX_focus_TEU_kurt_reformation
+		x = 9
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		add_political_power = 100
+		add_ideas = teu_kurt_reformation
+					}
+				}
+		shared_focus = {
+		id = TEU_reshuffle_office
+		icon = GFX_focus_TEU_reshuffle_office
+		x = -3
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_kurt_reformation }
+		cost = 1
+		relative_position_id = TEU_kurt_reformation
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+				
+completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = TEU_break_damocles_sword
+		icon = GFX_focus_TEU_break_damocles_sword
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_kurt_reformation }
+		cost = 1
+		relative_position_id = TEU_kurt_reformation
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		add_popularity = {
+		ideology = paternalism
+		popularity = -0.12
+		}
+		add_stability = 0.1
+					}
+				}
+		shared_focus = {
+		id = TEU_set_stage_for_true_reforms
+		icon = GFX_focus_TEU_set_stage_for_true_reforms
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_break_damocles_sword }
+		prerequisite = { focus = TEU_reshuffle_office }		
+		cost = 1
+		relative_position_id = TEU_break_damocles_sword
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		
+					}
+				}				
+		shared_focus = {
+		id = TEU_loyal_police_squadrons
+		icon = GFX_focus_TEU_loyal_police_squadrons
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_kurt_reformation }
+		cost = 1
+		relative_position_id = TEU_kurt_reformation
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		add_manpower = 11000
+		add_stability = 0.025
+					}
+				}
+		shared_focus = {
+		id = TEU_suppress_discontent
+		icon = GFX_focus_TEU_suppress_discontent
+		x = 3
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_kurt_reformation }
+		cost = 1
+		relative_position_id = TEU_kurt_reformation
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = TEU_police_campaign
+		icon = GFX_focus_TEU_police_campaign
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_suppress_discontent }
+		prerequisite = { focus = TEU_loyal_police_squadrons }		
+		cost = 1
+		relative_position_id = TEU_suppress_discontent
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = TEU_reform_official_name
+		icon = GFX_focus_TEU_first_reform
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_set_stage_for_true_reforms }
+		prerequisite = { focus = TEU_police_campaign }		
+		cost = 1
+		relative_position_id = TEU_police_campaign
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		country_event = refteu.3
+					}
+				}
+		shared_focus = {
+		id = TEU_reform_free_state_of_prussia
+		icon = GFX_focus_TEU_free_state_prussia
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_reform_official_name }
+	
+		cost = 1
+		relative_position_id = TEU_reform_official_name
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	mutually_exclusive = {
+        focus = TEU_reform_name_status_quo
+
+    }		
+		available = {
+has_country_flag = TEU_reforms_freistadt_chosen	
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+set_cosmetic_tag = PRU			
+		
+					}
+				}
+		shared_focus = {
+		id = TEU_reform_name_status_quo
+		icon = GFX_focus_TEU_kurt_status_quo
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_reform_official_name }
+	
+		cost = 1
+		relative_position_id = TEU_reform_official_name
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	mutually_exclusive = {
+        focus = TEU_reform_free_state_of_prussia
+    }
+		available = {
+has_country_flag = TEU_reforms_order_remained
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		
+					}
+				}				
+		shared_focus = {
+		id = TEU_reform_ordenskapitel
+		icon = GFX_focus_TEU_second_reform
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_reform_name_status_quo focus = TEU_reform_free_state_of_prussia }
+		cost = 1
+		relative_position_id = TEU_reform_name_status_quo
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+	country_event = refteu.4	
+					}
+				}				
+	shared_focus = {
+		id = TEU_reform_free_parlament
+		icon = GFX_focus_TEU_free_parlament
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_reform_ordenskapitel }
+
+		cost = 1
+		relative_position_id = TEU_reform_ordenskapitel
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	mutually_exclusive = {
+        focus = TEU_reform_serene_parlament
+    }
+		available = {
+has_country_flag = TEU_reforms_people_parlament	
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TEU_reform_serene_parlament
+		icon = GFX_focus_TEU_serene_parlament
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_reform_ordenskapitel }
+
+		cost = 1
+		relative_position_id = TEU_reform_ordenskapitel
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	mutually_exclusive = {
+        focus = TEU_reform_free_parlament
+    }
+		available = {
+has_country_flag = TEU_reforms_serene_parlament	
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TEU_reform_representative_person
+		icon = GFX_focus_TEU_third_reform
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_reform_serene_parlament focus = TEU_reform_free_parlament}
+		cost = 1
+		relative_position_id = TEU_reform_serene_parlament
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+country_event = refteu.5	
+					}
+				}
+	shared_focus = {
+		id = TEU_reform_crown_monarch
+		icon = GFX_focus_TEU_crown_monarch
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_reform_representative_person }
+		cost = 1
+		relative_position_id = TEU_reform_representative_person
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	mutually_exclusive = {
+        focus = TEU_reform_person_magister
+        focus = TEU_reform_the_kanzler		
+    }
+		available = {
+has_country_flag = TEU_reforms_crown_monarch
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TEU_reform_person_magister
+		icon = GFX_focus_TEU_magister
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_reform_representative_person }
+		cost = 1
+		relative_position_id = TEU_reform_representative_person
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	mutually_exclusive = {
+        focus = TEU_reform_crown_monarch
+        focus = TEU_reform_the_kanzler		
+    }
+		available = {
+has_country_flag = TEU_reforms_the_magister
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TEU_reform_the_kanzler
+		icon = GFX_focus_TEU_kanzler
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_reform_representative_person }
+
+		cost = 1
+		relative_position_id = TEU_reform_representative_person
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        focus = TEU_reform_person_magister
+        focus = TEU_reform_crown_monarch	
+    }
+		available = {
+has_country_flag = TEU_reforms_the_kanzler
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TEU_reform_land_reform
+		icon = GFX_focus_TEU_final_reform
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_reform_crown_monarch focus = TEU_reform_person_magister focus = TEU_reform_the_kanzler}		
+		cost = 1
+		relative_position_id = TEU_reform_person_magister
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		country_event = refteu.6
+					}
+				}
+	shared_focus = {
+		id = TEU_reform_birth_of_federation
+		icon = GFX_focus_TEU_birth_of_federation
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_reform_land_reform }
+
+		cost = 1
+		relative_position_id = TEU_reform_land_reform
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        focus = TEU_reform_unitary_state
+    }
+		available = {
+has_country_flag = TEU_reforms_birth_of_federation
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TEU_reform_unitary_state
+		icon = GFX_focus_TEU_unitary_state
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_reform_land_reform }
+
+		cost = 1
+		relative_position_id = TEU_reform_land_reform
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        focus = TEU_reform_unitary_state
+    }
+		available = {
+has_country_flag = TEU_reforms_unitary_state
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		
+					}
+				}				
+	shared_focus = {
+		id = TEU_lifting_curfew
+		icon = GFX_focus_TEU_unitary_state
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_reform_birth_of_federation focus = TEU_reform_unitary_state }
+
+		cost = 1
+		relative_position_id = TEU_reform_birth_of_federation
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TEU_democracy_fundamentals_courses
+		icon = GFX_focus_TEU_unitary_state
+		x = -5
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_lifting_curfew }
+
+		cost = 1
+		relative_position_id = TEU_lifting_curfew
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TEU_reaching_through_preachers
+		icon = GFX_focus_TEU_unitary_state
+		x = -3
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_lifting_curfew }
+
+		cost = 1
+		relative_position_id = TEU_lifting_curfew
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TEU_printing_presses
+		icon = GFX_focus_TEU_unitary_state
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_lifting_curfew }
+
+		cost = 1
+		relative_position_id = TEU_lifting_curfew
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TEU_party_formations
+		icon = GFX_focus_TEU_unitary_state
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_lifting_curfew }
+
+		cost = 1
+		relative_position_id = TEU_lifting_curfew
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TEU_elections_assistance
+		icon = GFX_focus_TEU_unitary_state
+		x = 3
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_lifting_curfew }
+
+		cost = 1
+		relative_position_id = TEU_lifting_curfew
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TEU_submit_candidates
+		icon = GFX_focus_TEU_unitary_state
+		x = 5
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_lifting_curfew }
+
+		cost = 1
+		relative_position_id = TEU_lifting_curfew
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		
+					}
+				}	
+	shared_focus = {
+		id = TEU_first_all_lande_elections
+		icon = GFX_focus_TEU_unitary_state
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_democracy_fundamentals_courses }		
+		prerequisite = { focus = TEU_reaching_through_preachers }		
+		prerequisite = { focus = TEU_printing_presses }
+		prerequisite = { focus = TEU_party_formations }	
+		prerequisite = { focus = TEU_elections_assistance }
+		prerequisite = { focus = TEU_submit_candidates }		
+
+		cost = 1
+		relative_position_id = TEU_printing_presses
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+completion_reward = {
+		
+					}
+				}				

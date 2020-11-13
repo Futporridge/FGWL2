@@ -1,0 +1,34 @@
+
+state={
+	id=51
+	name="STATE_51"
+	resources={
+		steel=30.000
+	}
+
+	history={
+		owner = JUL
+		victory_points = {
+			6469 10 
+		}
+		victory_points = {
+			6570 15 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 3
+
+		}
+		add_core_of = JUL
+
+	}
+
+	provinces={
+		529 3512 6469 6570 9482 
+	}
+	manpower=2114567
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

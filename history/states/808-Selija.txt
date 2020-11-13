@@ -1,0 +1,26 @@
+state={
+	id=808
+	name="STATE_808"
+	provinces={
+		310 3255 7482 11358 
+	}
+		history={
+		victory_points = {
+			310 5 
+		}
+		owner = BLT
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 1		
+			infrastructure = 5
+			dockyard = 1
+
+		}
+		add_core_of = BLT
+		add_core_of = LAT		
+
+	}	
+	manpower=345160	
+	state_category = town	
+	buildings_max_level_factor=1.000
+}

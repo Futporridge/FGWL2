@@ -1,0 +1,106 @@
+spriteTypes = {	
+
+
+	###	
+
+	spriteType = {
+		name = "GFX_idea_HRE_member"
+		texturefile = "gfx/interface/ideas/HRE_eagle.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_schwarze_armee"
+		texturefile = "gfx/interface/ideas/schwarze_armee.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_build_infrastructure"
+		texturefile = "gfx/interface/ideas/idea_generic_build_infrastructure.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_oppression"
+		texturefile = "gfx/interface/ideas/idea_generic_oppression.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_received_attache"
+		texturefile = "gfx/interface/ideas/idea_send_attache.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_fascism_banned"
+		texturefile = "gfx/interface/ideas/idea_generic_fascism_banned.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_sea_focused_navy"
+		texturefile = "gfx/interface/ideas/idea_generic_sea_focused_navy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_coastal_navy"
+		texturefile = "gfx/interface/ideas/idea_generic_coastal_navy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_armor"
+		texturefile = "gfx/interface/ideas/idea_generic_armor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_communist_army"
+		texturefile = "gfx/interface/ideas/idea_generic_communist_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_baltic_beacon"
+		texturefile = "gfx/interface/ideas/baltic_beacon.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_teutonic_disorder"
+		texturefile = "gfx/interface/ideas/teutonic_disorder.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_teutonic_failed_integration"
+		texturefile = "gfx/interface/ideas/teutonic_failed_integration.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_teutonic_political_power_struggle"
+		texturefile = "gfx/interface/ideas/teutonic_political_power_struggle.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Knightly_Aristocracy_of_the_Order"
+		texturefile = "gfx/interface/ideas/Knightly_Aristocracy_of_the_Order.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Archaic_Military_System"
+		texturefile = "gfx/interface/ideas/Archaic_Military_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_munster_imperfect_administrative_structure"
+		texturefile = "gfx/interface/ideas/imperfect_administration.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_munster_economic_difficulties"
+		texturefile = "gfx/interface/ideas/munster_economic_difficulties.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_munster_secularization_movement"
+		texturefile = "gfx/interface/ideas/secularization_movement.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_munster_iron_fisted_rule"
+		texturefile = "gfx/interface/ideas/Ironfistedrule.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_french_war_casualties"
+		texturefile = "gfx/interface/ideas/french_war_casualties.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_paris_migration"
+		texturefile = "gfx/interface/ideas/paris_migration.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_paris_political_instability"
+		texturefile = "gfx/interface/ideas/paris_political_instability.dds"
+	}
+	
+}

@@ -1,0 +1,21 @@
+state={
+	id=816
+	name="STATE_816"
+	provinces={
+		4640 
+	}
+	history={
+		owner = BLT
+		victory_points = {
+			4640 3
+		}		
+		buildings = {			
+			infrastructure = 4
+		}
+		add_core_of = BLT
+		add_core_of = EST		
+	}
+	state_category = rural	
+	manpower=36240
+	buildings_max_level_factor=1.000
+}

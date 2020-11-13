@@ -1,0 +1,22 @@
+
+soundeffect = {
+	name = "ppf_unification"
+	sounds = {
+		sound = "ppf_unification"
+	}
+	volume = 1
+}
+soundeffect = {
+	name = "habsburgs_unites_france"
+	sounds = {
+		sound = "habsburgs_unites_france"
+	}
+	volume = 1
+}
+soundeffect = {
+	name = "austrian_empire_collapse"
+	sounds = {
+		sound = "austrian_empire_collapse"
+	}
+	volume = 1
+}

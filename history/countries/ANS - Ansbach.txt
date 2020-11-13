@@ -1,0 +1,58 @@
+capital = 799
+
+OOB = "ANS_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+add_ideas = {
+	HRE_member
+	schwarze_armee 
+}
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 35
+	prometeism = 10
+	communitarianism = 5
+	oligarchy = 10
+	conservatism = 30
+	paternalism = 10
+	reactionary = 0
+}
+
+add_ideas = {
+
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Eitel Friedrich von Ansbach"
+	desc = "POLITICS_EITEL_FRIEDRICH_DESC"
+	picture = "gfx/leaders/ANS/Portrait_Eitel_Friedrich.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = { 
+
+	}
+}
+
+create_country_leader = {
+	name = "Ernst Jünger"
+	desc = "POLITICS_ERNST_JUNGER_DESC"
+	picture = "gfx/leaders/ANS/Portrait_Ernst_Junger.tga"
+	expire = "1965.1.1"
+	ideology = utopism
+	traits = { 
+
+	}
+}

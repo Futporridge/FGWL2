@@ -1,0 +1,49 @@
+capital = 56
+
+OOB = "MUN_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+
+set_politics = {
+	ruling_party = reactionary
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 5
+	prometeism = 5
+	communitarianism = 5
+	oligarchy = 5
+	conservatism = 20
+	paternalism = 20
+	reactionary = 40
+}
+
+add_ideas = {
+HRE_member
+munster_imperfect_administrative_structure
+munster_economic_difficulties
+munster_secularization_movement
+munster_iron_fisted_rule
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Clemens von Galen"
+	desc = "POLITICS_CLEMENS_GALEN_DESC"
+	picture = "gfx/leaders/MUN/Portrait_Clemens_August.tga"
+	expire = "1965.1.1"
+	ideology = reactionary
+	traits = { 
+	der_lowe_von_munster
+	}
+}
+

@@ -1,0 +1,105 @@
+capital = 16
+
+OOB = "PFT_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+
+set_politics = {
+	ruling_party = oligarchy
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 0
+	prometeism = 0
+	communitarianism = 0
+	oligarchy = 40
+	conservatism = 30
+	reactionary = 30
+}
+
+add_ideas = {
+French_bandits
+FRN_casualties
+service_by_requirement
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Local Governments"
+	desc = "POLITICS_PFT_COUNCIL_DESC"
+	picture = "gfx/leaders/PFT/Local_Governments.tga"
+	expire = "1965.1.1"
+	ideology = oligarchy
+	traits = { 
+
+	}
+}
+create_field_marshal = {
+	name = "Henri Giraud"
+	picture = "Portrait_Henri_Giraud.tga"
+	traits = { }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_field_marshal = {
+	name = "Philippe Petain"
+	picture = "Portrait_Philippe_Petain.tga"
+	traits = { }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Alphonse Juin"
+	portrait_path = "gfx/leaders/PFT/Portrait_Alphonse_Juin.tga"
+	traits = { }
+	skill = 4
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Jeand de Lattre de Tassigny"
+	portrait_path = "gfx/leaders/PFT/Portrait_Jean_de_Lattre_de_Tassigny.tga"
+	traits = { }
+	skill = 4
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Gaston Billotte"
+	portrait_path = "gfx/leaders/PFT/Portrait_Gaston_Billotte.tga"
+	traits = { }
+	skill = 4
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Charles de Gaulle"
+	portrait_path = "gfx/leaders/PFT/Portrait_Charles_de_Gaulle.tga"
+	traits = { }
+	skill = 4
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+}

@@ -1,0 +1,135 @@
+capital = 810
+
+OOB = "LAT_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+
+set_politics = {
+	ruling_party = paternalism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 0
+	prometeism = 0
+	communitarianism = 5
+	oligarchy = 5
+	conservatism = 10
+	reactionary = 0
+	paternalism = 0
+	liberalism = 80
+}
+
+add_ideas = {
+
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Jānis Kurelis"
+	desc = "POLITICS_JANIS_KURELIS_DESC"
+	picture = "gfx/leaders/LAT/Portrait_Janis_Kurelis.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Gustavs Celmiņš"
+	desc = "POLITICS_Gustavs_Celmins_DESC"
+	picture = "gfx/leaders/LAT/Portrait_Gustavs_Celmins.tga"
+	expire = "1965.1.1"
+	ideology = utopism
+	traits = { 
+
+	}
+}
+create_field_marshal = {
+	name = "Jānis Kurelis"
+	picture = "Portrait_Janis_Kurelis.tga"
+	traits = { politically_connected war_hero charismatic }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Jānis Balodis"
+	portrait_path = "gfx/leaders/LAT/Portrait_Janis_Balodis.tga"
+	traits = { politically_connected }
+	skill = 2
+    attack_skill = 1
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Frīdrihs Briedis"
+	portrait_path = "gfx/leaders/LAT/Portrait_Fridrihs_Briedis.tga"
+	traits = { reckless politically_connected infantry_officer }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Jukums Vācietis"
+	portrait_path = "gfx/leaders/LAT/Portrait_Ioachim_Vacietis.tga"
+	traits = { guerilla_fighter trickster }
+	skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Gustavs Celmiņš"
+	portrait_path = "gfx/leaders/LAT/Portrait_Gustavs_Celmins.tga"
+	traits = { politically_connected harsh_leader }
+	skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Krišjānis Berķis"
+	portrait_path = "gfx/leaders/LAT/Portrait_Krisjanis_Berkis.tga"
+	traits = { career_officer }
+	skill = 2
+    attack_skill = 1
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Oskars Kalpaks"
+	portrait_path = "gfx/leaders/LAT/Portrait_Oskars_Kolpaks.tga"
+	traits = { career_officer }
+	skill = 2
+    attack_skill = 1
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Andrejs Krustiņš"
+	portrait_path = "gfx/leaders/LAT/Portrait_Andrejs_Krustins.tga"
+	traits = { career_officer }
+	skill = 2
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}

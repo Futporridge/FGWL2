@@ -1,0 +1,28 @@
+state={
+	id=851
+	name="STATE_851"
+	provinces={
+		717 719 735 3717 3720 3760 6736 6738 9691 9694 9696 11668 11681 
+	}
+	history={
+		owner = ZYX
+
+		victory_points = {
+			11668 5 
+		}		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			719 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+
+		}
+		add_core_of = ZYX
+	}	
+	manpower=841799
+	buildings_max_level_factor=1.000
+	state_category=town	
+}

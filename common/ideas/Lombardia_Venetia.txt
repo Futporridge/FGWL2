@@ -1,0 +1,63 @@
+ideas = {
+
+	country = {
+		Industrial_oligarchy = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = Industrial_oligarchy 
+			
+			modifier = {
+				consumer_goods_factor = -0.15
+				political_power_gain = -0.15
+				production_factory_max_efficiency_factor = 0.2
+				production_factory_efficiency_gain_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		Restoration_of_Venice = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = Restoration_of_Venice
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				political_power_gain = -0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		Bende_rosse = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = Bende_rosse
+			
+			modifier = {
+				stability_weekly = -0.01
+				utopism_drift = 0.03
+				prometeism_drift = 0.03
+				communitarianism_drift = 0.03
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		}
+	}

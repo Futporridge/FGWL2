@@ -1,0 +1,47 @@
+capital = 30
+
+OOB = "ANJ_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 15
+	prometeism = 10
+	communitarianism = 15
+	oligarchy = 10
+	conservatism = 30
+	reactionary = 20
+}
+
+add_ideas = {
+French_bandits
+FRN_casualties
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Léopold von Habsburg"
+	desc = "POLITICS_LEOPOLD_ANJ_DESC"
+	picture = "gfx/leaders/ANJ/Portrait_Leopold.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = { 
+
+	}
+}	
+
+
+

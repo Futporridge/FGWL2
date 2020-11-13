@@ -1,0 +1,363 @@
+﻿	add_namespace = aus
+	
+	country_event = {	
+	id = aus.1
+	title = aus.1.t
+	desc = aus.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = aus.1.a
+			hidden_effect = {
+retire_country_leader = yes			
+create_country_leader = {
+	name = "Viktor Dankl von Krasnik"
+	desc = "POLITICS_VIKTOR_DANKL_DESC"
+	picture = "Portrait_Viktor_Dankl.tga"
+	expire = "1965.1.1"
+	ideology = reactionary
+	traits = {
+		
+	}
+}
+	load_focus_tree = { tree = austrian_regency_focus keep_completed = yes }
+		}
+}
+}
+	country_event = {	
+	id = aus.11
+	title = aus.11.t
+	desc = aus.11.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = aus.11.a
+			hidden_effect = {
+107 = {
+set_demilitarized_zone = yes
+}
+104 = {
+set_demilitarized_zone = yes
+}
+901 = {
+set_demilitarized_zone = yes
+}
+896 = {
+set_demilitarized_zone = yes
+}
+898 = {
+set_demilitarized_zone = yes
+}
+		}
+}
+}
+	country_event = {	
+	id = aus.2
+	title = aus.2.t
+	desc = aus.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = aus.2.a
+			hidden_effect = {		
+set_politics = {
+	ruling_party = paternalism
+}
+	load_focus_tree = { tree = austrian_soldierring_focus }
+		}
+}
+}
+	country_event = {	
+	id = aus.22
+	title = aus.22.t
+	desc = aus.22.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = aus.22.a
+			hidden_effect = {		
+	VEN = {
+		country_event = { days = 1 id = ven.1 }
+	}
+	WRS = {
+		country_event = { days = 1 id = wrs.1 }
+	}	
+		}
+}
+}
+	country_event = {	
+	id = aus.3
+	title = aus.3.t
+	desc = aus.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = aus.3.a
+			hidden_effect = {		
+set_politics = {
+	ruling_party = communitarianism
+}
+	load_focus_tree = { tree = austrian_initial_socdem_focus }
+		}
+}
+}
+	country_event = {	
+	id = aus.4
+	title = aus.4.t
+	desc = aus.4.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = aus.4.a
+			hidden_effect = {
+WRS = {
+transfer_state = 66
+transfer_state = 67
+transfer_state = 88
+transfer_state = 762
+transfer_state = 911
+transfer_state = 912
+}
+RUK = {
+transfer_state = 91
+transfer_state = 89
+}
+CRH = {
+transfer_state = 73
+transfer_state = 902
+transfer_state = 914
+}
+RUK = {
+set_autonomy = {
+    target = CRH
+    autonomy_state = autonomy_integrated_puppet
+}
+}
+CRH = {
+set_politics = {
+ruling_party = conservatism
+}
+}
+		}
+}
+}
+	country_event = {	
+	id = aus.5
+	title = aus.5.t
+	desc = aus.5.d
+	picture = GFX_
+
+	is_triggered_only = yes
+immediate = {
+			hidden_effect = {
+		HUN = {
+		transfer_state = 807		
+		transfer_state = 887		
+		transfer_state = 892 
+		transfer_state = 893
+		transfer_state = 899 	
+		transfer_state = 900
+		transfer_state = 901		
+		transfer_state = 155
+		transfer_state = 154
+		transfer_state = 76
+		transfer_state = 82		
+		transfer_state = 83
+		transfer_state = 84
+		transfer_state = 107
+		transfer_state = 764
+		transfer_state = 894
+		transfer_state = 895
+		transfer_state = 104
+		transfer_state = 896		
+		transfer_state = 897
+		transfer_state = 898		
+		transfer_state = 901
+		transfer_state = 902		
+		transfer_state = 905
+		transfer_state = 664
+		transfer_state = 70
+		transfer_state = 71		
+		transfer_state = 73		
+		transfer_state = 43
+		transfer_state = 45		
+		transfer_state = 109
+		transfer_state = 910
+		transfer_state = 909	
+		transfer_state = 913
+		transfer_state = 914		
+		}
+	}	
+}
+	option = {
+		name = aus.5.a
+			hidden_effect = {		
+
+		}
+}
+	option = {
+		name = aus.5.b
+			hidden_effect = {				
+	HUN = { change_tag_from = AUS }	 
+		}
+}
+}
+	country_event = {	
+	id = aus.6
+	title = aus.6.t
+	desc = aus.6.d
+	picture = GFX_
+
+	is_triggered_only = yes
+immediate = {
+			hidden_effect = {
+		CZE = {
+		transfer_state = 9		
+		transfer_state = 69		
+		transfer_state = 75 
+		transfer_state = 74
+		transfer_state = 72 		
+		}
+	}	
+}
+	option = {
+		name = aus.6.a
+			hidden_effect = {		
+
+		}
+}
+	option = {
+		name = aus.6.b
+			hidden_effect = {				
+	CZE = { change_tag_from = AUS }	 
+		}
+}
+}
+	country_event = {	
+	id = aus.7
+	title = aus.7.t
+	desc = aus.7.d
+	picture = GFX_
+
+	is_triggered_only = yes
+immediate = {
+			hidden_effect = {
+		53 = {			
+		add_core_of = BFR
+			}			
+		BFR = {
+		transfer_state = 53				
+		}		
+	}	
+}
+	option = {
+		name = aus.7.a
+			hidden_effect = {		
+
+		}
+}
+	option = {
+		name = aus.7.b
+			hidden_effect = {				
+	BFR = { change_tag_from = AUS }	 
+		}
+}
+}
+	country_event = {	
+	id = aus.8
+	title = aus.8.t
+	desc = aus.8.d
+	picture = GFX_
+
+	is_triggered_only = yes
+immediate = {
+			hidden_effect = {
+		SLV = {
+		transfer_state = 102	
+		transfer_state = 806		
+		}		
+	}	
+}
+	option = {
+		name = aus.8.a
+			hidden_effect = {		
+
+		}
+}
+	option = {
+		name = aus.8.b
+			hidden_effect = {				
+	SLV = { change_tag_from = AUS }	 
+		}
+}
+}
+	country_event = {	
+	id = aus.9
+	title = aus.9.t
+	desc = aus.9.d
+	picture = GFX_
+
+	is_triggered_only = yes
+immediate = {
+			hidden_effect = {
+	153 = {
+		add_core_of = TYR
+		  }
+	39 = {
+		add_core_of = TYR
+		  }	
+	906 = {
+		add_core_of = TYR
+		  }
+	891 = {
+		add_core_of = TYR
+		  }	
+	890 = {
+		add_core_of = TYR
+		  }
+	888 = {
+		add_core_of = TYR
+		  }
+	844 = {
+		add_core_of = TYR
+		  }
+	903 = {
+		add_core_of = TYR
+		  }			  
+		TYR = {
+		transfer_state = 153	
+		transfer_state = 39		
+		transfer_state = 906	
+		transfer_state = 891
+		transfer_state = 890
+		transfer_state = 888
+		transfer_state = 844	
+		transfer_state = 903		
+		}		
+	}	
+}
+	option = {
+		name = aus.9.a
+			hidden_effect = {		
+
+		}
+}
+	option = {
+		name = aus.9.b
+			hidden_effect = {				
+	TYR = { change_tag_from = AUS }	 
+		}
+}
+}

@@ -1,0 +1,21 @@
+state={
+	id=826
+	name="STATE_826"
+	provinces={
+		349 3340 9388 
+	}
+	history={
+		victory_points = {
+			9388 1 
+		}
+		owner = BRA
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = BRA
+	}	
+	state_category=pastoral			
+	manpower=789023
+	buildings_max_level_factor=1.000
+}

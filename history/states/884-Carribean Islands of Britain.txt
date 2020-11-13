@@ -1,0 +1,26 @@
+state={
+	id=884
+	name="STATE_884"
+	provinces={
+		7123 9377 
+	}
+	history={
+		add_core_of = CEA
+		owner = CEA
+		victory_points = {
+			3284 1 
+		}
+		buildings = {
+			infrastructure = 3
+			9377 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}	
+	manpower=18119
+	state_category=rural	
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,1193 @@
+﻿add_namespace = par
+add_namespace = anc
+add_namespace = npr
+add_namespace = dor
+
+country_event = {	
+	id = par.1
+	title = par.1.t
+	desc = par.1.d
+	picture = GFX_
+
+    trigger = {
+        original_tag = PAR
+    }
+	fire_only_once = yes
+	immediate = { 	hidden_effect = {
+	country_event = { days = 15 id = par.2 }
+	} 
+	}	
+
+	
+	option = {
+		name = par.1.a
+	}
+	}
+country_event = {	
+	id = par.2
+	title = par.2.t
+	desc = par.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	fire_only_once = yes
+	immediate = { 	hidden_effect = {
+	country_event = { days = 10 id = par.3 }
+	} 
+	}	
+	option = {
+		name = par.2.a
+	}
+	}
+
+country_event = {	
+	id = par.3
+	title = par.3.t
+	desc = par.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = par.3.a
+	hidden_effect = {
+	country_event = { days = 3 id = par.4 }
+	}
+	}
+	option = {
+		name = par.3.b
+	hidden_effect = {
+	country_event = { days = 3 id = par.5 }
+	}
+	}	
+	}
+country_event = {	
+	id = par.4
+	title = par.4.t
+	desc = par.4.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	fire_only_once = yes
+	immediate = { 	hidden_effect = {
+	country_event = { days = 8 id = par.5 }
+	} 
+	}
+	
+	option = {
+		name = par.4.a
+	}
+	}
+country_event = {	
+	id = par.5
+	title = par.5.t
+	desc = par.5.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	fire_only_once = yes
+	immediate = { 	hidden_effect = {
+	country_event = { days = 11 id = par.6 }
+	} 
+	}	
+	option = {
+		name = par.5.a
+	}
+	}
+country_event = {	
+	id = par.6
+	title = par.6.t
+	desc = par.6.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = par.6.a
+	hidden_effect = {
+	country_event = { days = 57 id = par.8 }
+	}
+	}
+	option = {
+		name = par.6.b
+			set_politics = {
+			ruling_party = paternalism
+			elections_allowed = no
+			}
+	add_ideas = FRA_Henri_Giraud
+	create_country_flag = invited_military_fra	
+	hidden_effect = {
+	country_event = { days = 57 id = par.8 }
+	news_event = { days = 1 id = par.80 }
+	}
+	}	
+	}	
+country_event = {	
+	id = par.8
+	title = par.8.t
+	desc = par.8.d
+	picture = GFX_event_paris_commune
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = par.8.a
+	hidden_effect = {
+	set_global_flag = PAR_Blanka_overthrown
+	news_event = {days = 1 id = par.60}
+	set_country_flag = paris_commune
+	dismantle_faction = yes
+		PFT = {
+	country_event = { days = 1 id = pft.1 }
+	}
+		PAR = {
+	country_event = { days = 7 id = anc.1 }
+	}	
+	load_focus_tree = { tree = paris_anarchy_focus }
+	add_ideas = {
+	PAR_anarchy
+	}
+remove_unit_leader = 13
+remove_unit_leader = 14
+	}
+	kill_country_leader = yes
+	set_politics = {
+	ruling_party = communitarianism
+	elections_allowed = no
+	}
+	create_country_leader = {
+		name = "Anarchy"
+		picture = "Portrait_anarchy.tga"
+		expire = "1965.1.1"
+		ideology = communitarianism
+	}
+	}	
+	}
+
+country_event = {	
+	id = anc.1
+	title = anc.1.t
+	desc = anc.1.d
+	picture = GFX_event_event_dissolution_paris_commune
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+
+	
+	option = {
+		name = anc.1.a
+	hidden_effect = {
+	country_event = { days = 2 id = anc.2 }
+				set_country_flag = {
+				flag = PAR_individualists
+				value = 0
+			}
+			set_country_flag = {
+				flag = PAR_anarchists
+				value = 0
+			}
+			set_country_flag = {
+				flag = PAR_republicans
+				value = 0
+			}
+			set_country_flag = {
+				flag = PAR_prometeists
+				value = 0
+			}
+			set_country_flag = {
+				flag = PAR_utopists
+				value = 0
+			}			
+	}
+	}
+	}
+
+country_event = {	
+	id = anc.2
+	title = anc.2.t
+	desc = anc.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+
+	
+	option = {
+		name = anc.2.a
+		add_popularity = {
+			ideology = individualism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_individualists
+				value = 1
+			}
+			country_event = {
+				id = anc.3
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.2.b
+		add_popularity = {
+			ideology = communitarianism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_anarchists
+				value = 1
+			}
+			country_event = {
+				id = anc.3
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.2.c
+	hidden_effect = {
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.05
+		}
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_republicans
+				value = 1
+			}
+			country_event = {
+				id = anc.3
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.2.d
+		add_popularity = {
+			ideology = prometeism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_prometeists
+				value = 1
+			}
+			country_event = {
+				id = anc.3
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.2.e
+		add_popularity = {
+			ideology = utopism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_utopists
+				value = 1
+			}
+			country_event = {
+				id = anc.3
+				days = 2
+			}
+		}
+	}
+	}	
+	}
+country_event = {	
+	id = anc.3
+	title = anc.3.t
+	desc = anc.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+
+	
+	option = {
+		name = anc.3.a
+		add_popularity = {
+			ideology = individualism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_individualists
+				value = 1
+			}
+			country_event = {
+				id = anc.4
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.3.b
+		add_popularity = {
+			ideology = communitarianism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_anarchists
+				value = 1
+			}
+			country_event = {
+				id = anc.4
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.3.c
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_republicans
+				value = 1
+			}
+			country_event = {
+				id = anc.4
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.3.d
+		add_popularity = {
+			ideology = prometeism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_prometeists
+				value = 1
+			}
+			country_event = {
+				id = anc.4
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.3.e
+		add_popularity = {
+			ideology = utopism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_utopists
+				value = 1
+			}
+			country_event = {
+				id = anc.4
+				days = 2
+			}
+		}
+	}
+	}	
+	}
+country_event = {	
+	id = anc.4
+	title = anc.4.t
+	desc = anc.4.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+
+	
+	option = {
+		name = anc.4.a
+		add_popularity = {
+			ideology = individualism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_individualists
+				value = 1
+			}
+			country_event = {
+				id = anc.5
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.4.b
+		add_popularity = {
+			ideology = communitarianism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_anarchists
+				value = 1
+			}
+			country_event = {
+				id = anc.5
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.4.c
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_republicans
+				value = 1
+			}
+			country_event = {
+				id = anc.5
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.4.d
+		add_popularity = {
+			ideology = prometeism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_prometeists
+				value = 1
+			}
+			country_event = {
+				id = anc.5
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.4.e
+		add_popularity = {
+			ideology = utopism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_utopists
+				value = 1
+			}
+			country_event = {
+				id = anc.5
+				days = 2
+			}
+		}
+	}
+	}	
+	}
+country_event = {	
+	id = anc.5
+	title = anc.5.t
+	desc = anc.5.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+
+	
+	option = {
+		name = anc.5.a
+		add_popularity = {
+			ideology = individualism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_individualists
+				value = 1
+			}
+			country_event = {
+				id = anc.6
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.5.b
+		add_popularity = {
+			ideology = communitarianism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_anarchists
+				value = 1
+			}
+			country_event = {
+				id = anc.6
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.5.c
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_republicans
+				value = 1
+			}
+			country_event = {
+				id = anc.6
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.5.d
+		add_popularity = {
+			ideology = prometeism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_prometeists
+				value = 1
+			}
+			country_event = {
+				id = anc.6
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.5.e
+		add_popularity = {
+			ideology = utopism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_utopists
+				value = 1
+			}
+			country_event = {
+				id = anc.6
+				days = 2
+			}
+		}
+	}
+	}	
+	}
+country_event = {	
+	id = anc.6
+	title = anc.6.t
+	desc = anc.6.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+
+	
+	option = {
+		name = anc.6.a
+		add_popularity = {
+			ideology = individualism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_individualists
+				value = 1
+			}
+			country_event = {
+				id = anc.7
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.6.b
+	hidden_effect = {
+		add_popularity = {
+			ideology = communitarianism
+			popularity = 0.05
+		}
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_anarchists
+				value = 1
+			}
+			country_event = {
+				id = anc.7
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.6.c
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_republicans
+				value = 1
+			}
+			country_event = {
+				id = anc.7
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.6.d
+		add_popularity = {
+			ideology = prometeism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_prometeists
+				value = 1
+			}
+			country_event = {
+				id = anc.7
+				days = 2
+			}
+		}
+	}
+	}
+	option = {
+		name = anc.6.e
+		add_popularity = {
+			ideology = utopism
+			popularity = 0.05
+		}	
+	hidden_effect = {
+			modify_country_flag = {
+				flag = PAR_utopists
+				value = 1
+			}
+			country_event = {
+				id = anc.7
+				days = 2
+			}
+		}
+	}
+	}	
+
+country_event = { 
+	id = anc.7
+	title = anc.7.t
+	desc = anc.7.d
+	picture = GFX_
+
+	is_triggered_only = yes	
+option = {
+		name = anc.7.a
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = {
+						flag = PAR_individualists
+						value > 2
+					}
+				}
+				country_event = {
+					id = anc.8
+					days = 2
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = {
+						flag = PAR_anarchists
+						value > 2
+					}
+				}
+				country_event = {
+					id = anc.9
+					days = 2
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = {
+						flag = PAR_republicans
+						value > 2
+					}
+				}
+				country_event = {
+					id = anc.10
+					days = 2
+				}
+				}
+			if = {
+				limit = {
+					has_country_flag = {
+						flag = PAR_prometeists
+						value > 2
+					}
+				}
+				country_event = {
+					id = anc.11
+					days = 2
+				}
+				}
+			if = {
+				limit = {
+					has_country_flag = {
+						flag = PAR_utopists
+						value > 2
+					}
+				}
+				country_event = {
+					id = anc.12
+					days = 2
+				}
+				}				
+			
+			if = {
+				limit = {
+					has_country_flag = {
+						flag = PAR_individualists
+						value < 2
+					}
+					has_country_flag = {
+						flag = PAR_anarchists
+						value < 2
+					}
+					has_country_flag = {
+						flag = PAR_republicans
+						value < 2
+					}
+					has_country_flag = {
+						flag = PAR_prometeists
+						value < 2
+					}					
+					has_country_flag = {
+						flag = PAR_utopists
+						value < 2
+					}
+				}
+				country_event = {
+					id = anc.13
+					days = 2
+				}
+			}
+		}
+	}
+}
+country_event = { 
+	id = anc.8
+	title = anc.8.t
+	desc = anc.8.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = PAR_individualists		
+		clr_country_flag = PAR_anarchists
+		clr_country_flag = PAR_republicans
+		clr_country_flag = PAR_prometeists
+		clr_country_flag = PAR_utopists
+
+	}
+
+	option = {
+		name = anc.8.a
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = individualism
+		}
+		hidden_effect = {
+		load_focus_tree = { tree = paris_bataille_focus keep_completed = yes }
+		set_country_flag = PAR_group_came_on_top
+		set_country_flag = PAR_individualists_won	
+			add_ideas = PAR
+			random_country = {
+				limit = {
+					NOT = {
+						TAG = PAR
+					}
+				}
+				news_event = {
+					id = npr.6
+					days = 2
+				}
+			}
+		}
+	}
+}
+country_event = { 
+	id = anc.9
+	title = anc.9.t
+	desc = anc.9.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = PAR_individualists		
+		clr_country_flag = PAR_anarchists
+		clr_country_flag = PAR_republicans
+		clr_country_flag = PAR_prometeists
+		clr_country_flag = PAR_utopists
+
+	}
+
+	option = {
+		name = anc.9.a
+		retire_country_leader = yes
+		create_country_leader = {
+		name = "Marius Jacob"
+		picture = "gfx/leaders/PAR/Portrait_Marius_Jacob.tga"
+		expire = "1965.1.1"
+		ideology = communitarianism
+		}
+		hidden_effect = {
+		set_country_flag = PAR_group_came_on_top
+		set_country_flag = PAR_anarchists_won
+		load_focus_tree = { tree = paris_marius_focus keep_completed = yes }		
+			add_ideas = PAR
+			random_country = {
+				limit = {
+					NOT = {
+						TAG = PAR
+					}
+				}
+				news_event = {
+					id = npr.7
+					days = 2
+				}
+			}
+		}
+	}
+}
+country_event = { 
+	id = anc.10
+	title = anc.10.t
+	desc = anc.10.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = PAR_individualists		
+		clr_country_flag = PAR_anarchists
+		clr_country_flag = PAR_republicans
+		clr_country_flag = PAR_prometeists
+		clr_country_flag = PAR_utopists
+
+	}
+
+	option = {
+		name = anc.10.a
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = liberalism
+		}
+		hidden_effect = {
+		load_focus_tree = { tree = paris_chautemps_focus keep_completed = yes }		
+		set_country_flag = PAR_republicans_won		
+		set_country_flag = PAR_group_came_on_top
+			add_ideas = PAR
+			random_country = {
+				limit = {
+					NOT = {
+						TAG = PAR
+					}
+				}
+				news_event = {
+					id = npr.8
+					days = 2
+				}
+			}
+		}
+	}
+}
+country_event = { 
+	id = anc.11
+	title = anc.11.t
+	desc = anc.11.d
+	picture = GFX_event_event_doriot_win
+
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = PAR_individualists		
+		clr_country_flag = PAR_anarchists
+		clr_country_flag = PAR_republicans
+		clr_country_flag = PAR_prometeists
+		clr_country_flag = PAR_utopists
+
+	}
+
+	option = {
+		name = anc.11.a
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = prometeism
+		}
+			remove_ideas = {
+			PAR_Georges_Bonnet
+			PAR_Paul_Reynaud
+			PAR_Lucien_Romier
+			PAR_Raymond_Grasset
+			}		
+			add_ideas = {
+			PAR_Pierre_Pucheu
+			PAR_Paul_Marion
+			PAR_Victor_Bartelemy
+			PAR_Henri_Barbe
+			}		
+			add_ideas = { 
+			PAR_Marcel_Deat
+			}		
+		hidden_effect = {
+create_corps_commander = {
+	name = "Jean Bassompierre"
+	picture = "Portrait_Jean_Bassompierre.tga"
+	traits = { trickster }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Noël de Tissot"
+	picture = "Portrait_Punished_Noel.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}	
+create_corps_commander = {
+	name = "René Binet"
+	picture = "Portrait_Rene_Binet.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Marc Augier"
+	picture = "Portrait_Marc_Augier.tga"
+	traits = { trait_mountaineer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Marcel Bucard"
+	picture = "Portrait_Marcel_Bucard.tga"
+	traits = { politically_connected }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}	
+		load_focus_tree = { tree = paris_jacques_focus keep_completed = yes }
+		set_country_flag = PAR_group_came_on_top
+		set_country_flag = PAR_prometeists_won		
+			random_country = {
+				limit = {
+					NOT = {
+						TAG = PAR
+					}
+				}
+				news_event = {
+					id = npr.9
+					days = 2
+				}
+			}
+		}
+	}
+}
+country_event = { 
+	id = anc.12
+	title = anc.12.t
+	desc = anc.12.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = PAR_individualists		
+		clr_country_flag = PAR_anarchists
+		clr_country_flag = PAR_republicans
+		clr_country_flag = PAR_prometeists
+		clr_country_flag = PAR_utopists
+
+	}
+
+	option = {
+		name = anc.12.a
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = utopism
+		}
+		hidden_effect = {
+		load_focus_tree = { tree = paris_pierre_drieu_la_rochelle keep_completed = yes }
+		set_country_flag = PAR_group_came_on_top
+		set_country_flag = PAR_utopists_won		
+			add_ideas = PAR
+			random_country = {
+				limit = {
+					NOT = {
+						TAG = PAR
+					}
+				}
+				news_event = {
+					id = npr.9
+					days = 2
+				}
+			}
+		}
+	}
+}
+country_event = { 
+	id = anc.13
+	title = anc.13.t
+	desc = anc.13.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = PAR_individualists		
+		clr_country_flag = PAR_anarchists
+		clr_country_flag = PAR_republicans
+		clr_country_flag = PAR_prometeists
+		clr_country_flag = PAR_utopists
+
+	}
+
+	option = {
+		name = anc.13.a
+		retire_country_leader = yes
+		create_country_leader = {
+		name = "Marius Jacob"
+		picture = "gfx/leaders/PAR/Portrait_Marius_Jacob.tga"
+		expire = "1965.1.1"
+		ideology = communitarianism
+		}
+		hidden_effect = {
+		load_focus_tree = { tree = paris_marius_focus keep_completed = yes }		
+		set_country_flag = PAR_group_came_on_top
+		set_country_flag = PAR_anarchists_won		
+			add_ideas = PAR
+			random_country = {
+				limit = {
+					NOT = {
+						TAG = PAR
+					}
+				}
+				news_event = {
+					id = npr.9
+					days = 2
+				}
+			}
+		}
+	}
+}
+country_event = { 
+	id = dor.4
+	title = dor.4.t
+	desc = dor.4.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	immediate = {
+	}
+
+	option = {
+		name = dor.4.a
+		hidden_effect = {
+		load_focus_tree = { tree = paris_initial_win_doriot_focus keep_completed = yes }
+		set_country_flag = PAR_doriot_initial_win
+		}
+	}
+}		

@@ -1,0 +1,23 @@
+state={
+	id=860
+	name="STATE_860"
+	provinces={
+		929 3740 3749 6759 9717 9882 9884 11697 11699 12169 
+	}
+	history={
+		owner = AQU
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			dockyard = 1
+			air_base = 3
+
+		}
+		add_core_of = AQU
+		add_core_of = PAR
+
+	}	
+	state_category=rural	
+	manpower=1100000
+	buildings_max_level_factor=1.000
+}

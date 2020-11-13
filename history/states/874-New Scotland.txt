@@ -1,0 +1,19 @@
+state={
+	id=874
+	name="STATE_874"
+	provinces={
+		4430 
+	}
+	state_category = pastoral
+	history= {
+	owner = SCO	
+		buildings = {
+			infrastructure = 4
+			4430 = {
+				naval_base = 1
+			}
+		}
+	}	
+	manpower=11234
+	buildings_max_level_factor=1.000
+}

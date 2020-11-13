@@ -1,0 +1,123 @@
+﻿	add_namespace = pft
+	add_namespace = pftinv
+	
+	
+	country_event = {	
+	id = pft.1
+	title = pft.1.t
+	desc = pft.1.d
+	picture = GFX_event_giraud_arrival
+
+	is_triggered_only = yes
+
+	option = {
+		name = pft.1.a
+			hidden_effect = {
+				PAR = {
+			set_autonomy = {
+				target = PFT
+				autonomy_state = autonomy_free
+				}
+				}
+			create_country_leader = {
+		name = "Henri Giraud"
+		picture = "gfx/leaders/PFT/Portrait_Henri_Giraud.tga"
+		expire = "1965.1.1"
+		ideology = paternalism
+	}
+	set_politics = {
+			ruling_party = paternalism
+			elections_allowed = no
+			}
+			add_popularity = {
+		ideology = paternalism
+		popularity = 0.64
+		}
+	load_oob = "PFT_White"
+	set_country_flag = PFT_white_military			
+		}
+}
+}
+	country_event = {	
+	id = pft.2
+	title = pft.2.t
+	desc = pft.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = pft.2.a
+			hidden_effect = {
+			create_country_leader = {
+		name = "Assunta von Habsburg"
+		picture = "gfx/leaders/CHA/Portrait_Assunta.tga"
+		expire = "1965.1.1"
+		ideology = paternalism
+	}
+			create_country_leader = {
+		name = "Assunta von Habsburg"
+		picture = "gfx/leaders/CHA/Portrait_Assunta.tga"
+		expire = "1965.1.1"
+		ideology = conservatism
+	}	
+			create_country_leader = {
+		name = "Assunta von Habsburg"
+		picture = "gfx/leaders/CHA/Portrait_Assunta.tga"
+		expire = "1965.1.1"
+		ideology = oligarchy
+	}	
+			create_country_leader = {
+		name = "Assunta von Habsburg"
+		picture = "gfx/leaders/CHA/Portrait_Assunta.tga"
+		expire = "1965.1.1"
+		ideology = reactionary
+	}	
+	set_politics = {
+			ruling_party = conservatism
+			elections_allowed = no
+			}
+			add_popularity = {
+		ideology = conservatism
+		popularity = 0.14
+		}
+	set_country_flag = PFT_habsburgs_elected	
+	set_country_flag = PFT_assunta	
+				PFT = {
+			set_autonomy = {
+				target = CHA
+				autonomy_state = autonomy_puppet
+				}
+				}	
+		}
+}
+}
+	country_event = {	
+	id = pft.8
+	title = pft.8.t
+	desc = pft.8.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = pft.8.a
+			hidden_effect = {
+	load_focus_tree = { tree = habsburg_monarchy_france_win keep_completed = yes }
+	set_country_flag = PFT_france_habsburgs_win		
+		}
+}
+}
+	country_event = {	
+	id = pftinv.1
+	title = pftinv.1.t
+	desc = pftinv.1.d
+	picture = GFX_event_artillery_france
+
+	is_triggered_only = yes
+
+	option = {
+		name = pftinv.1.a
+
+}
+}

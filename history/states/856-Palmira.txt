@@ -1,0 +1,18 @@
+
+state={
+	id=856
+	name="STATE_856"
+	provinces={
+		901 1549 1578 1634 10882 
+	}
+	history={
+		owner = LTE
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LTE
+	}
+	state_category = wasteland	
+	manpower=102000
+	buildings_max_level_factor=1.000
+}

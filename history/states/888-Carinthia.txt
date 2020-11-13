@@ -1,0 +1,19 @@
+state={
+	id=888
+	name="STATE_888"
+	provinces={
+		668 3673 6673 11612 
+	}
+	history={	
+		owner = AUS
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = AUS
+		add_claim_by = SLV			
+
+	}	
+	state_category=rural		
+	manpower=661420
+	buildings_max_level_factor=1.000
+}

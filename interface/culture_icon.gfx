@@ -1,0 +1,30 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_culture_germanic_prussian"
+		texturefile = "gfx/interface/ideas/culture/culture_germanic_prussian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_germanic_baltic_german"
+		texturefile = "gfx/interface/ideas/culture/culture_germanic_baltic_german.dds"
+	}	
+	spriteType = {
+		name = "GFX_culture_baltic_latvian"
+		texturefile = "gfx/interface/ideas/culture/culture_baltic_latvian.dds"
+	}	
+	spriteType = {
+		name = "GFX_culture_baltic_estonian"
+		texturefile = "gfx/interface/ideas/culture/culture_baltic_estonian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_slavic_skobari"
+		texturefile = "gfx/interface/ideas/culture/culture_slavic_skobari.dds"
+	}		
+	spriteType = {
+		name = "GFX_culture_iberian_basque"
+		texturefile = "gfx/interface/ideas/culture/culture_iberian_basque.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_latin_french"
+		texturefile = "gfx/interface/ideas/culture/culture_latin_french.dds"
+	}	
+}

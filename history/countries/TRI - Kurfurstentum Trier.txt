@@ -1,0 +1,45 @@
+capital = 815
+
+OOB = "TRI_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+
+set_politics = {
+	ruling_party = reactionary
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 0
+	prometeism = 0
+	communitarianism = 0
+	oligarchy = 20
+	conservatism = 0
+	paternalism = 10
+	reactionary = 70
+}
+
+add_ideas = {
+HRE_member
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Franz Rudolf Bornewasser"
+	desc = "POLITICS_FRANZ_BORNEWASSER_DESC"
+	picture = "gfx/leaders/TRI/Portrait_Franz_Rudolf_Bornewasser.tga"
+	expire = "1965.1.1"
+	ideology = reactionary
+	traits = { 
+
+	}
+}
+

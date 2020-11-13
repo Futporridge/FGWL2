@@ -1,0 +1,24 @@
+state={
+	id=838
+	name="STATE_838"
+	provinces={
+		6488 
+	}
+	history={
+		owner = HES
+		buildings = {
+			infrastructure = 7
+			arms_factory = 3
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			6488 15
+		}
+		add_core_of = HES
+
+	}
+	state_category=city	
+	manpower=555857	
+	buildings_max_level_factor=1.000
+}

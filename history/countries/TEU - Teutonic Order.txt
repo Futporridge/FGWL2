@@ -1,0 +1,102 @@
+﻿capital = 5
+
+OOB = "TEU_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 26
+	prometeism = 0
+	communitarianism = 11
+	oligarchy = 27
+	conservatism = 12
+	reactionary = 12
+	paternalism = 7
+	liberalism = 5
+}
+
+add_ideas = {
+baltic_beacon
+teutonic_disorder
+teutonic_failed_integration
+teutonic_political_power_struggle
+Archaic_Military_System
+Knightly_Aristocracy_of_the_Order
+
+TEU_Franz_Papen
+
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Kurt von Tippelskirch"
+	desc = "POLITICS_KURT_TIPPEL_DESC"
+	picture = "gfx/leaders/TEU/Portrait_Kurt_von_Tippelskirch.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Ernst Toller"
+	desc = "POLITICS_ERNST_TOLLER_DESC"
+	picture = "gfx/leaders/TEU/Portrait_Ernst_Toller.tga"
+	expire = "1965.1.1"
+	ideology = prometeism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Max Hildebert Boehm"
+	desc = "POLITICS_MAX_BOEHM_DESC"
+	picture = "gfx/leaders/TEU/Portrait_Max_Hildebert_Boehm.tga"
+	expire = "1965.1.1"
+	ideology = communitarianism
+	traits = { 
+
+	}
+	}
+create_country_leader = {
+	name = "Gerd von Rundstedt"
+	desc = "POLITICS_GERD_VON_RUNDSTEDT_DESC"
+	picture = "gfx/leaders/TEU/Portrait_Gerd_von_Rundstedt.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = { 
+
+	}
+	}
+create_country_leader = {
+	name = "Kurt von Schleicher"
+	desc = "POLITICS_KURT_VON_SCHLEICHER_DESC"
+	picture = "gfx/leaders/TEU/Portrait_Kurt_von_Schleicher.tga"
+	expire = "1965.1.1"
+	ideology = oligarchy
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Gotthard Heinrici"
+	desc = "POLITICS_GOTTHARD_HEINRICI_DESC"
+	picture = "gfx/leaders/TEU/Portrait_gotthard_heinrici.tga"
+	expire = "1965.1.1"
+	ideology = reactionary
+	traits = { 
+
+	}

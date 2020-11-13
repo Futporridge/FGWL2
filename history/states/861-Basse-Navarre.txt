@@ -1,0 +1,23 @@
+state={
+	id=861
+	name="STATE_861"
+	provinces={
+		743 
+	}
+	history = {
+		victory_points = {
+			743 3
+		}	
+		add_core_of = BSQ		
+		owner = BSQ		
+		buildings = {	
+			infrastructure = 4
+			industrial_complex = 1			
+			arms_factory = 1
+
+		}
+	}		
+	state_category=rural	
+	manpower=55290
+	buildings_max_level_factor=1.000
+}

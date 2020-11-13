@@ -1,0 +1,820 @@
+focus_tree = {
+	id = habsburg_monarchy_france_win
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 0
+			tag = PFT
+		}
+	}
+		default = no
+
+	continuous_focus_position = { x = 1200 y = 100 }
+	
+
+	shared_focus = PFT_france_in_need
+	shared_focus = PFT_trial_the_rebels
+	}
+
+
+	
+
+
+	shared_focus = {
+		id = PFT_trial_the_rebels
+		icon = GFX_focus_PFT_trial_the_rebels
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = PFT_veni_vedi_vici
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PFT_royal_restruction_comitee
+		icon = GFX_focus_PFT_royal_reconctruction_comitee
+		x = -4
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_trial_the_rebels }
+		relative_position_id = PFT_trial_the_rebels
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PFT_contacts_within_apange
+		icon = GFX_focus_PFT_contact_with_apanage
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_royal_restruction_comitee }
+		relative_position_id = PFT_royal_restruction_comitee
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}	
+	shared_focus = {
+		id = PFT_buy_out_estates
+		icon = GFX_focus_PFT_buying_out_estates
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_royal_restruction_comitee }
+		relative_position_id = PFT_royal_restruction_comitee
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}	
+	shared_focus = {
+		id = PFT_cautious_industrialization
+		icon = GFX_focus_PFT_cautious_industrialization
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_buy_out_estates }
+		prerequisite = { focus = PFT_contacts_within_apange }		
+		relative_position_id = PFT_buy_out_estates
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PFT_workers_rights
+		icon = GFX_focus_PFT_workers_rights
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_cautious_industrialization }		
+		relative_position_id = PFT_cautious_industrialization
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PFT_monarchists_settlements
+		icon = GFX_focus_PFT_monarchists_settlements
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_cautious_industrialization }		
+		relative_position_id = PFT_cautious_industrialization
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PFT_restoring_the_railroads
+		icon = GFX_focus_PFT_raildoad_restoration
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_workers_rights }
+		prerequisite = { focus = PFT_monarchists_settlements }		
+		relative_position_id = PFT_workers_rights
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}		
+	shared_focus = {
+		id = PFT_militarize_the_industrial_sector
+		icon = GFX_focus_PFT_militarize_the_industrial_sector
+		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_restoring_the_railroads }	
+		relative_position_id = PFT_restoring_the_railroads
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PFT_exploiting_the_prisioners
+		icon = GFX_focus_PFT_exploiting_the_prisoners
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_restoring_the_railroads }	
+		relative_position_id = PFT_restoring_the_railroads
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PFT_rekindle_the_investors
+		icon = GFX_focus_PFT_rekindle_investors
+		x = 2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_restoring_the_railroads }	
+		relative_position_id = PFT_restoring_the_railroads
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}	
+	shared_focus = {
+		id = PFT_royal_construction_decree
+		icon = GFX_focus_PFT_royal_construction_decree
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_militarize_the_industrial_sector }			
+		prerequisite = { focus = PFT_exploiting_the_prisioners }
+		prerequisite = { focus = PFT_rekindle_the_investors }			
+		relative_position_id = PFT_exploiting_the_prisioners
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	shared_focus = {
+		id = PFT_continue_the_old_programs
+		icon = GFX_focus_PFT_continue_the_old_programs
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_trial_the_rebels }
+		relative_position_id = PFT_trial_the_rebels
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PFT_labor_army
+		icon = GFX_focus_PFT_labour_army
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_continue_the_old_programs }
+		relative_position_id = PFT_continue_the_old_programs
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}	
+	shared_focus = {
+		id = PFT_buying_the_food
+		icon = GFX_focus_PFT_buying_the_food
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_continue_the_old_programs }
+		relative_position_id = PFT_continue_the_old_programs
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}	
+	shared_focus = {
+		id = PFT_bread_and_circuses
+		icon = GFX_focus_PFT_bread_and_circuses
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_buying_the_food }
+		prerequisite = { focus = PFT_labor_army }		
+		relative_position_id = PFT_buying_the_food
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}	
+	shared_focus = {
+		id = PFT_rebuilding_the_city
+		icon = GFX_focus_PFT_rebuilding_the_city
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_bread_and_circuses }	
+		relative_position_id = PFT_bread_and_circuses
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}	
+	shared_focus = {
+		id = PFT_restoring_the_farmlands
+		icon = GFX_focus_PFT_restoring_the_farmlands
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_rebuilding_the_city }	
+		relative_position_id = PFT_rebuilding_the_city
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	shared_focus = {
+		id = PFT_ease_up_tensions
+		icon = GFX_focus_PFT_ease_up_tensions
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_bread_and_circuses }	
+		relative_position_id = PFT_bread_and_circuses
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PFT_calming_the_masses
+		icon = GFX_focus_PFT_calming_the_masses
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_ease_up_tensions }	
+		relative_position_id = PFT_ease_up_tensions
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PFT_preparing_the_kingdom
+		icon = GFX_focus_PFT_preparing_the_kingdom
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_restoring_the_farmlands }	
+		prerequisite = { focus = PFT_calming_the_masses }		
+		relative_position_id = PFT_restoring_the_farmlands
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PFT_mending_the_schism
+		icon = GFX_focus_PFT_mending_the_schism
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_preparing_the_kingdom }		
+		relative_position_id = PFT_preparing_the_kingdom
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	shared_focus = {
+		id = PFT_expand_the_army
+		icon = GFX_focus_PFT_expand_the_army
+		x = 4
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_trial_the_rebels }
+		relative_position_id = PFT_trial_the_rebels
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	shared_focus = {
+		id = PFT_formalize_the_conscription
+		icon = GFX_focus_PFT_formalize_the_conscription
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_expand_the_army }
+		relative_position_id = PFT_expand_the_army
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PFT_reforming_anti_revolutionary_guard
+		icon = GFX_focus_PFT_reforming_antirevolutionary_guard
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_expand_the_army }
+		relative_position_id = PFT_expand_the_army
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	shared_focus = {
+		id = PFT_new_training_methods
+		icon = GFX_focus_PFT_new_training_methods
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_reforming_anti_revolutionary_guard }		
+		prerequisite = { focus = PFT_formalize_the_conscription }
+		relative_position_id = PFT_formalize_the_conscription
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PFT_expanding_the_elite_troops
+		icon = GFX_focus_PFT_expanding_the_elite_troops
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_reforming_anti_revolutionary_guard }		
+		prerequisite = { focus = PFT_formalize_the_conscription }
+		relative_position_id = PFT_formalize_the_conscription
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PFT_creating_the_military_rnd
+		icon = GFX_focus_PFT_creating_the_rnd
+		x = 3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_formalize_the_conscription }
+		prerequisite = { focus = PFT_reforming_anti_revolutionary_guard }		
+		relative_position_id = PFT_formalize_the_conscription
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}	
+	shared_focus = {
+		id = PFT_loyalty_discipline_patriotism
+		icon = GFX_focus_PFT_loyalty_discipline_patriotism
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_new_training_methods }
+		prerequisite = { focus = PFT_expanding_the_elite_troops }	
+		prerequisite = { focus = PFT_creating_the_military_rnd }		
+		relative_position_id = PFT_new_training_methods
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PFT_motorization
+		icon = GFX_focus_PFT_motorization
+		x = 3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_new_training_methods }
+		prerequisite = { focus = PFT_expanding_the_elite_troops }	
+		prerequisite = { focus = PFT_creating_the_military_rnd }		
+		relative_position_id = PFT_new_training_methods
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}	
+	shared_focus = {
+		id = PFT_creating_the_tank_corps
+		icon = GFX_focus_PFT_creating_the_tank_corps
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_loyalty_discipline_patriotism }
+		prerequisite = { focus = PFT_motorization }		
+		relative_position_id = PFT_loyalty_discipline_patriotism
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PFT_upgraiding_the_armor
+		icon = GFX_focus_PFT_upgraiding_the_armor
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_creating_the_tank_corps }		
+		relative_position_id = PFT_creating_the_tank_corps
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PFT_air_fleet_development
+		icon = GFX_focus_PFT_air_fleet_development
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_creating_the_tank_corps }		
+		relative_position_id = PFT_creating_the_tank_corps
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}	
+	shared_focus = {
+		id = PFT_shock_and_awe
+		icon = GFX_focus_PFT_shock_and_awe
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PFT_upgraiding_the_armor }	
+		prerequisite = { focus = PFT_air_fleet_development }		
+		relative_position_id = PFT_upgraiding_the_armor
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}				

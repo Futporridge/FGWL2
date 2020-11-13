@@ -1,0 +1,28 @@
+
+state={
+	id=129
+	name="STATE_129"
+	resources={
+		steel=11.000
+	}
+
+	history={
+		owner = ESA
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 5
+
+		}
+		add_core_of = ESA
+
+	}
+
+	provinces={
+		296 364 3353 6237 9250 9268 9315 9322 11279 11382 
+	}
+	manpower=2212021
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,21 @@
+state={
+	id=819
+	name="STATE_819"
+	provinces={
+		657 687 3076 9635 
+	}
+		history={
+		owner = LTE
+		
+		buildings = {
+			industrial_complex = 1			
+			infrastructure = 4
+
+		}
+		
+		add_core_of = LTE	
+	}		
+	manpower = 599676	
+
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=821
+	name="STATE_821"
+	provinces={
+		12022 
+	}
+state_category = large_town	
+history={
+add_core_of = LUB
+ victory_points = {
+ 12022 30
+ }
+owner = LUB
+   buildings = {
+	infrastructure = 4
+	arms_factory = 1
+	industrial_complex = 3
+	air_base = 1
+}
+}	
+	state_category=city		
+	manpower=1890100
+	buildings_max_level_factor=1.000
+}

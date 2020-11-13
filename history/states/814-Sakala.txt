@@ -1,0 +1,24 @@
+state={
+	id=814
+	name="STATE_814"
+	provinces={
+		308 6178 6381 11291 
+	}
+		history={
+		owner = BLT
+		victory_points = {
+			308 3
+		}		
+		buildings = {
+			industrial_complex = 1			
+			infrastructure = 4
+
+		}
+		
+		add_core_of = BLT
+		add_core_of = EST		
+	}		
+	state_category = rural	
+	manpower=332992
+	buildings_max_level_factor=1.000
+}

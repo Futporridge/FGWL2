@@ -1,0 +1,165 @@
+focus_tree = {
+	id = paris_barricades_drieu_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PAR
+		}
+	}
+		default = no
+
+	continuous_focus_position = { x = 1200 y = 100 }
+	
+
+	shared_focus = PAR_anarchy
+	shared_focus = PAR_new_legions
+	shared_focus = PAR_pierre_drieu_la_rochelle
+	}
+
+
+	
+
+
+	shared_focus = {
+		id = PAR_new_legions
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = PAR_united_great_and_free
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_monopoly_on_weapons
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_new_legions }
+		relative_position_id = PAR_new_legions
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	shared_focus = {
+		id = PAR_total_war
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_monopoly_on_weapons }
+		relative_position_id = PAR_monopoly_on_weapons
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_sweat_preserves_blood
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_new_legions }
+		relative_position_id = PAR_new_legions
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_proletarian_spirit
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_sweat_preserves_blood }
+		relative_position_id = PAR_sweat_preserves_blood
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_vive_la_morte
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_total_war }
+		prerequisite = { focus = PAR_proletarian_spirit }		
+		relative_position_id = PAR_total_war
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	
+}			

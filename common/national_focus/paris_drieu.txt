@@ -1,0 +1,119 @@
+focus_tree = {
+	id = paris_pierre_drieu_la_rochelle
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PAR
+		}
+	}
+	shared_focus = PAR_anarchy
+	shared_focus = PAR_pierre_drieu_la_rochelle
+	}
+
+
+	
+	default = no
+
+	continuous_focus_position = { x = 1200 y = 100 }
+
+	shared_focus = {
+		id = PAR_pierre_drieu_la_rochelle
+		icon = GFX_focus_PAR_Pierre_Drieu
+		x = 7
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		always = no
+		}
+		bypass = {
+		has_country_flag = PAR_utopists_won	
+				}
+
+		completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = PAR_cult_of_violence
+		icon = GFX_focus_PAR_cult_of_violence
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = PAR_pierre_drieu_la_rochelle }
+		cost = 1
+		relative_position_id = PAR_pierre_drieu_la_rochelle
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = PAR_paramilitrary_units
+		icon = GFX_focus_PAR_paramilitary_units
+		x = -2
+		y = 1
+		cost = 10
+		prerequisite = { focus = PAR_pierre_drieu_la_rochelle }
+		cost = 1
+		relative_position_id = PAR_pierre_drieu_la_rochelle
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = PAR_united_great_and_free
+		icon = GFX_focus_PAR_united_great_and_free
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = PAR_cult_of_violence }
+		prerequisite = { focus = PAR_paramilitrary_units }
+		cost = 1
+		relative_position_id = PAR_paramilitrary_units
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		hidden_effect = {
+		load_focus_tree = { tree = paris_barricades_drieu_focus keep_completed = yes }
+		}
+					}
+				}				
+	
+			

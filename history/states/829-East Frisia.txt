@@ -1,0 +1,21 @@
+
+state={
+	id=829
+	name="STATE_829"
+	provinces={
+		11360 
+	}
+	history={
+		owner = HAN
+		
+		buildings = {
+			infrastructure = 4
+
+		}
+		
+		add_core_of = HAN
+	}	
+	state_category=pastoral		
+	manpower=51173
+	buildings_max_level_factor=1.000
+}

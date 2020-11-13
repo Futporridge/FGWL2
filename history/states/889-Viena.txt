@@ -1,0 +1,24 @@
+state={
+	id=889
+	name="STATE_889"
+	provinces={
+		6739 
+	}
+	history={
+		victory_points = {
+			6739 40
+		}	
+		owner = AUS
+		buildings = {
+			infrastructure = 9
+			arms_factory = 3
+			industrial_complex = 2
+		}
+		add_core_of = AUS
+
+
+	}	
+	state_category = metropolis		
+	manpower=2870532	
+	buildings_max_level_factor=1.000
+}

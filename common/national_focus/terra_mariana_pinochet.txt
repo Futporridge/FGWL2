@@ -1,0 +1,40 @@
+focus_tree = {
+	id = terra_marriana_junta
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BLT
+		}
+	}
+	shared_focus = BLT_junta
+	}
+
+
+	
+	default = no
+
+	continuous_focus_position = { x = 1000 y = 1100 }
+
+	shared_focus = {
+		id = BLT_junta
+		icon = GFX_goal_generic_position_armies
+		x = 7
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		always = no
+		}
+		bypass = {
+				}
+
+		completion_reward = {
+		
+					}
+				}		

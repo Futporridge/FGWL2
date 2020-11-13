@@ -1,0 +1,21 @@
+﻿	add_namespace = eng
+	
+	country_event = {	
+	id = eng.1
+	title = eng.1.t
+	desc = eng.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = eng.1.a
+			hidden_effect = {
+		country_event = { days = 10 id = aus.2 }
+		ANS = {
+		country_event = { days = 1 id = ans.1 }
+		}
+		}
+}
+}
+	

@@ -1,0 +1,179 @@
+ideas = {
+  head_of_state = {
+
+		PAR_Henri_Giraud = {
+
+			picture = GFX_henri_giraud
+
+			allowed = {
+				original_tag = PAR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		PAR_Henry_Cheron = {
+
+
+
+			allowed = {
+				original_tag = PAR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		PAR_Marcel_Deat = {
+
+			picture = GFX_marcel_deat
+
+			allowed = {
+				original_tag = PAR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { progressive_technocrat }
+		}		
+}
+political_advisor = {
+		PAR_Georges_Bonnet = {
+
+
+
+			allowed = {
+				original_tag = PAR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+
+
+
+		PAR_Paul_Reynaud = {
+
+
+
+			allowed = {
+				original_tag = PAR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		PAR_Lucien_Romier = {
+
+
+
+			allowed = {
+				original_tag = PAR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+
+		PAR_Raymond_Grasset = {
+
+
+
+			allowed = {
+				original_tag = PAR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		PAR_Adrien_Marquet = {
+
+
+
+			allowed = {
+				original_tag = PAR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}		
+		PAR_Gustave_Fourment = {
+
+
+
+			allowed = {
+				original_tag = PAR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		PAR_Henri_Barbe = {
+
+
+
+			allowed = {
+				original_tag = PAR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { militia_leader }
+		}	
+		PAR_Paul_Marion = {
+
+
+
+			allowed = {
+				original_tag = PAR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { propaganda_expert }
+		}		
+		PAR_Pierre_Pucheu = {
+
+
+
+			allowed = {
+				original_tag = PAR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { chief_of_industries }
+		}	
+		PAR_Victor_Bartelemy = {
+
+
+
+			allowed = {
+				original_tag = PAR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { young_blood }
+		}			
+}	

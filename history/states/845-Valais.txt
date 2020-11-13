@@ -1,0 +1,18 @@
+state={
+	id=845
+	name="STATE_845"
+	provinces={
+		3612 9587 
+	}
+	history = {
+		add_core_of = PIE		
+		owner = PIE		
+		buildings = {	
+			infrastructure = 4
+
+		}
+	}
+	state_category=pastoral	
+	manpower=83455	
+	buildings_max_level_factor=1.000
+}

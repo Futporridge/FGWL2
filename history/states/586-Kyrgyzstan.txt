@@ -1,0 +1,31 @@
+
+state={
+	id=586
+	name="STATE_586"
+	resources={
+		steel=20.000
+		chromium=12.000
+		tungsten=4.000
+		aluminium=10.000
+	}
+
+	history={
+		owner = QIG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			1591 3 
+		}
+		add_core_of = QIG
+	}
+
+	provinces={
+		1591 1675 1825 1840 4224 4316 4391 4651 4768 4773 4845 5062 7711 7795 7856 10146 10547 10550 10619 12370 12511 12529 12583 13147 13197 
+	}
+	manpower=2563404
+	buildings_max_level_factor=1.000
+	state_category=city
+}

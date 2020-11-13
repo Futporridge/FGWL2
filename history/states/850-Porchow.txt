@@ -1,0 +1,20 @@
+state={
+	id=850
+	name="STATE_850"
+	provinces={
+		320 3089 9234 9319 11109 11304 
+	}
+	history={
+		owner = BLT
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = BLT
+		add_core_of = PSK
+	}	
+	state_category = rural		
+	manpower=126810
+	buildings_max_level_factor=1.000
+}

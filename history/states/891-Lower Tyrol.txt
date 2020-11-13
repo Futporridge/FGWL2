@@ -1,0 +1,19 @@
+state={
+	id=891
+	name="STATE_891"
+	provinces={
+		671 
+	}
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = AUS
+
+
+	}	
+	state_category = rural	
+	manpower=72000
+	buildings_max_level_factor=1.000
+}

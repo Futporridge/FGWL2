@@ -1,0 +1,188 @@
+focus_tree = {
+	id = teutonic_volkishe
+
+	country = {
+		factor = 0
+		
+
+	}
+		default = no
+
+		continuous_focus_position = { x = 1540 y = 100 }
+	
+
+	shared_focus = TEU_kurt_reformation
+	shared_focus = TEU_volkische_bewegung
+	}
+
+
+	
+
+
+	shared_focus = {
+		id = TEU_volkische_bewegung
+		icon = GFX_focus_TEU_kurt_reformation
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = TEU_first_all_lande_elections
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+
+					}
+				}
+		shared_focus = {
+		id = TEU_volksarmee
+		icon = GFX_focus_TEU_reshuffle_office
+		x = -3
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_volkische_bewegung }
+		cost = 1
+		relative_position_id = TEU_volkische_bewegung
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+				
+completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = TEU_clear_chain_of_command
+		icon = GFX_focus_TEU_reshuffle_office
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_volksarmee }
+		cost = 1
+		relative_position_id = TEU_volksarmee
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+				
+completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = TEU_abolish_hereditary_posts
+		icon = GFX_focus_TEU_reshuffle_office
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_clear_chain_of_command }
+		cost = 1
+		relative_position_id = TEU_clear_chain_of_command
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+				
+completion_reward = {
+		
+					}
+				}
+
+		shared_focus = {
+		id = TEU_national_councils
+		icon = GFX_focus_TEU_reshuffle_office
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_volkische_bewegung }
+		cost = 1
+		relative_position_id = TEU_volkische_bewegung
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+				
+completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = TEU_struggle_for_common_folk
+		icon = GFX_focus_TEU_reshuffle_office
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_volkische_bewegung }
+		cost = 1
+		relative_position_id = TEU_volkische_bewegung
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+				
+completion_reward = {
+		
+					}
+				}
+		shared_focus = {
+		id = TEU_folkish_education
+		icon = GFX_focus_TEU_reshuffle_office
+		x = 3
+		y = 1
+		cost = 10
+		prerequisite = { focus = TEU_volkische_bewegung }
+		cost = 1
+		relative_position_id = TEU_volkische_bewegung
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+	
+				}
+				
+completion_reward = {
+		
+					}
+				}				

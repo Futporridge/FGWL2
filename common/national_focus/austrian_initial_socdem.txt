@@ -1,0 +1,156 @@
+focus_tree = {
+	id = austrian_initial_socdem_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 0
+			tag = AUS
+		}
+	}
+		default = no
+
+	continuous_focus_position = { x = 1200 y = 100 }
+	
+
+	shared_focus = AUS_the_SDAPO
+	}
+
+
+	
+
+
+	shared_focus = {
+		id = AUS_the_SDAPO
+		icon = GFX_focus_PAR_anarchy
+		x = 7
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = AUS_proclaim_the_republic_of_austria
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = AUS_the_SDAPO }
+		cost = 1
+		relative_position_id = AUS_the_SDAPO
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+	shared_focus = {
+		id = AUS_securing_the_reichstag
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = AUS_proclaim_the_republic_of_austria }
+		cost = 1
+		relative_position_id = AUS_proclaim_the_republic_of_austria
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}	
+	shared_focus = {
+		id = AUS_arm_the_paramilitary
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = AUS_proclaim_the_republic_of_austria }
+		cost = 1
+		relative_position_id = AUS_proclaim_the_republic_of_austria
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = AUS_strengthen_the_unions
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = AUS_proclaim_the_republic_of_austria }
+		cost = 1
+		relative_position_id = AUS_proclaim_the_republic_of_austria
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}	
+	shared_focus = {
+		id = AUS_jail_the_military
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = AUS_securing_the_reichstag }
+		prerequisite = { focus = AUS_arm_the_paramilitary }
+		prerequisite = { focus = AUS_strengthen_the_unions }
+		cost = 1
+		relative_position_id = AUS_arm_the_paramilitary
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				

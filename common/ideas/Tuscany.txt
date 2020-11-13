@@ -1,0 +1,41 @@
+ideas = {
+
+	country = {
+		Cultural_Center = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = Cultural_Center 
+			
+			modifier = {
+				political_power_gain = 0.3
+				stability_weekly = 0.01
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		regime_di_prosperita = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = regime_di_prosperita
+			
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		}
+	}

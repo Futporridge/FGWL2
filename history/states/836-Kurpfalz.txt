@@ -1,0 +1,25 @@
+state={
+	id=836
+	name="STATE_836"
+	provinces={
+		563 3558 6568 11531 11547 
+	}
+	history={
+		owner = KRF
+		victory_points = {
+			6568 10 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 2
+
+		}
+		add_core_of = KRF
+
+	
+	}	
+	state_category=town	
+	manpower=2054332
+	buildings_max_level_factor=1.000
+}

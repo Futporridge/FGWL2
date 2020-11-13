@@ -1,0 +1,253 @@
+focus_tree = {
+	id = austrian_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = AUS
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 1200 y = 0 }
+
+	focus = {
+		id = AUS_call_for_the_reichstag
+		icon = GFX_goal_generic_position_armies
+		x = 7
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	focus = {
+		id = AUS_forcing_new_economical_policy
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = AUS_call_for_the_reichstag }
+		cost = 1
+		relative_position_id = AUS_call_for_the_reichstag
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = AUS_dirigisme
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = AUS_forcing_new_economical_policy }
+		cost = 1
+		relative_position_id = AUS_forcing_new_economical_policy
+		ai_will_do = {
+			factor = 10
+		}
+	mutually_exclusive = {
+        focus = AUS_laissez_fair	
+    }			
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = AUS_laissez_fair
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = AUS_forcing_new_economical_policy }
+		cost = 1
+		relative_position_id = AUS_forcing_new_economical_policy
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	mutually_exclusive = {
+        focus = AUS_dirigisme	
+    }		
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}		
+	focus = {
+		id = AUS_western_region
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = AUS_laissez_fair focus = AUS_dirigisme }
+		cost = 1
+		relative_position_id = AUS_dirigisme
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}	
+	focus = {
+		id = AUS_new_world
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = AUS_laissez_fair focus = AUS_dirigisme }
+		cost = 1
+		relative_position_id = AUS_dirigisme
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}	
+	focus = {
+		id = AUS_southern_ally
+		icon = GFX_goal_generic_position_armies
+		x = 3
+		y = 1
+		prerequisite = { focus = AUS_laissez_fair focus = AUS_dirigisme }
+		cost = 1
+		relative_position_id = AUS_dirigisme
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = AUS_cutting_the_excesses
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = AUS_new_world }		
+		prerequisite = { focus = AUS_southern_ally }
+		prerequisite = { focus = AUS_western_region }		
+		cost = 1
+		relative_position_id = AUS_new_world
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}					
+	focus = {
+		id = AUS_alcabala
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = AUS_new_world }		
+		prerequisite = { focus = AUS_southern_ally }
+		prerequisite = { focus = AUS_western_region }		
+		cost = 1
+		relative_position_id = AUS_new_world
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+
+	focus = {
+		id = AUS_sale_of_colonies
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = AUS_alcabala }		
+		prerequisite = { focus = AUS_cutting_the_excesses }	
+		cost = 1
+		relative_position_id = AUS_alcabala
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}					'					
+			}
+		

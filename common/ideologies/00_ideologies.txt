@@ -1,0 +1,214 @@
+ideologies = {
+
+	utopism = {
+		types = {
+			utopism = {} 
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_UTOPISM_1"
+			"FACTION_NAME_UTOPISM_2"
+			"FACTION_NAME_UTOPISM_3"
+			"FACTION_NAME_UTOPISM_4"
+			"FACTION_NAME_UTOPISM_5"
+			"FACTION_NAME_UTOPISM_6"
+		}
+		color = { 100 0 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 1.00
+			generate_wargoal_tension = 0.15
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	prometeism = {
+		types = {
+			prometeism = {} 
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_PROMETEISM_1"
+
+		}
+		color = { 200 0 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			join_faction_tension = 1.00
+			generate_wargoal_tension = 0.2
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	communitarianism = {
+		types = {
+			communitarianism = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_ANARCHIST_1"
+		}
+		color = { 255 35 35 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			join_faction_tension = 0.75
+			generate_wargoal_tension = 0.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	individualism = {
+		types = {
+			individualism = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_INDIVIDUALISM_1"
+		}
+		color = { 25 75 75 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.3
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	liberalism = {
+		types = {
+			liberalism = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_conservatism_1"
+		}
+		color = { 190 190 40 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.7
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+    conservatism = {
+		types = {
+			conservatism = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_conservatism_1"
+		}
+		color = { 160 160 175 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.7
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	oligarchy = {
+		types = {
+			oligarchy = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_OLIGARCHY_1"
+		}
+		color = { 115 115 115 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.2
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
+	paternalism = {
+		types = {
+			paternalism = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_PATERNALISM_1"
+		}
+		color = { 30 30 30 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.75
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	reactionary = {
+		types = {
+			reactionary = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_REACTIONARY_1"
+		}
+		color = { 50 0 60 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.7
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+}

@@ -1,0 +1,47 @@
+capital = 785
+
+OOB = "VER_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+add_ideas = {
+French_bandits
+FRN_casualties
+}
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 0
+	prometeism = 0
+	communitarianism = 0
+	oligarchy = 20
+	conservatism = 60
+	paternalism = 20
+	reactionary = 0
+}
+
+add_ideas = {
+
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Félix I de Bourbon-Parme"
+	desc = "POLITICS_FELIX_BOURBON_DESC"
+	picture = "gfx/leaders/VER/Portrait_Felix_I_de_Bourbon_Parma.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = { 
+
+	}
+}

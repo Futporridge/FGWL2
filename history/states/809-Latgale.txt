@@ -1,0 +1,25 @@
+state={
+	id=809
+	name="STATE_809"
+	provinces={
+		222 319 341 3298 6459 9275 11222 11302 
+	}
+		history={
+		victory_points = {
+			222 3 
+		}
+		owner = BLT
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 1		
+			infrastructure = 5
+
+		}
+		add_core_of = BLT
+		add_core_of = LAT		
+
+	}	
+	state_category = rural	
+	manpower=545160
+	buildings_max_level_factor=1.000
+}

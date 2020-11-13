@@ -1,0 +1,279 @@
+﻿	add_namespace = hun
+	
+	country_event = {	
+	id = aus.1
+	title = aus.1.t
+	desc = aus.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = aus.1.a
+			hidden_effect = {
+
+}
+}
+}
+	country_event = {	
+	id = hun.2
+	title = hun.2.t
+	desc = hun.2.d
+	picture = GFX_
+immediate = {	
+			hidden_effect = {
+107 = {
+set_demilitarized_zone = no
+}
+104 = {
+set_demilitarized_zone = no
+}
+901 = {
+set_demilitarized_zone = no
+}
+896 = {
+set_demilitarized_zone = no
+}
+898 = {
+set_demilitarized_zone = no
+}
+897 = {
+add_core_of = RCR
+}
+898 = {
+add_core_of = RCR
+}
+109 = {
+add_core_of = RCR
+}
+807 = {
+add_core_of = RCR
+}
+894 = {
+add_core_of = RCR
+}							
+		SER = {
+		transfer_state = 107		
+		transfer_state = 104		
+		transfer_state = 901 
+		transfer_state = 896
+		}
+		TRN = {
+		transfer_state = 84		
+		}
+		RCR = {
+		transfer_state = 897		
+		transfer_state = 898		
+		}		
+	}
+	}
+	is_triggered_only = yes
+
+	option = {
+		name = hun.2.a
+			hidden_effect = {
+	SER = { change_tag_from = HUN }				
+		}	
+}
+	option = {
+		name = hun.2.b
+			hidden_effect = {
+	TRN = { change_tag_from = HUN }				
+		}	
+}
+	option = {
+		name = hun.2.c
+			hidden_effect = {
+	RCR = { change_tag_from = HUN }				
+		}	
+}
+	option = {
+		name = hun.2.d
+	
+}
+}
+	country_event = {	
+	id = hun.3
+	title = hun.3.t
+	desc = hun.3.d
+	picture = GFX_
+
+immediate = {	
+			hidden_effect = {
+HUN = {
+			set_capital = 154
+}					
+		892 = {			
+					add_core_of = RHG
+					}
+		905 = {			
+					add_core_of = RHG
+					}
+		899 = {			
+					add_core_of = RHG
+					}
+		155 = {			
+					add_core_of = RHG
+					}
+		900 = {			
+					add_core_of = RHG
+					}		
+		887 = {			
+					add_core_of = RHG
+					}
+		913 = {			
+					add_core_of = RHG
+					}	
+		893 = {			
+					add_core_of = RHG
+					}		
+		910 = {			
+					add_core_of = RHG
+					}					
+		RHG = {
+		transfer_state = 892		
+		transfer_state = 905
+		transfer_state = 899		
+		transfer_state = 155
+		transfer_state = 900		
+		transfer_state = 887		
+		transfer_state = 913	
+		transfer_state = 893	
+		transfer_state = 910		
+		}		
+	
+	
+	}
+			}
+	is_triggered_only = yes
+
+	option = {
+		name = hun.3.a
+			hidden_effect = {		
+	RHG = { change_tag_from = HUN }			
+		}
+}
+	option = {
+		name = hun.3.a
+}
+}
+	country_event = {	
+	id = hun.22
+	title = hun.22.t
+	desc = hun.22.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+immediate = {	
+			hidden_effect = {
+		82 = {
+		add_core_of = BAN
+		}			
+		764 = {
+		add_core_of = BAN
+		}	
+		BAN = {
+		transfer_state = 82		
+		transfer_state = 764		
+		}	
+		}	
+			}
+	option = {
+		name = hun.22.a
+			hidden_effect = {		
+	BAN = { change_tag_from = HUN }	
+	}	
+		}
+	option = {
+		name = hun.22.b
+			hidden_effect = {		
+
+	}	
+		}		
+}
+
+	country_event = {	
+	id = hun.33
+	title = hun.33.t
+	desc = hun.33.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	immediate = {
+	hidden_effect = {
+	SRR = {
+		transfer_state = 45
+		transfer_state = 895		
+	}
+		}
+}
+
+	option = {
+		name = hun.33.a
+			hidden_effect = {		
+	SRR = { change_tag_from = HUN }	
+	}	
+}
+	option = {
+		name = hun.33.b
+
+}
+}
+	country_event = {	
+	id = hun.4
+	title = hun.4.t
+	desc = hun.4.d
+	picture = GFX_
+	immediate = {
+	hidden_effect = {
+	CRO = {
+		transfer_state = 109		
+		transfer_state = 807
+		transfer_state = 894		
+		transfer_state = 909		
+	}
+	}
+	}
+	is_triggered_only = yes
+
+	option = {
+		name = hun.4.a
+			hidden_effect = {
+CRO = { change_tag_from = HUN }	 
+		}
+}
+	option = {
+		name = hun.4.b
+
+}
+}
+	country_event = {	
+	id = hun.5
+	title = hun.5.t
+	desc = hun.5.d
+	picture = GFX_
+
+	is_triggered_only = yes
+immediate = {
+			hidden_effect = {
+		SLK = {
+		transfer_state = 70		
+		transfer_state = 71		
+		}
+	}	
+}
+	option = {
+		name = hun.5.a
+			hidden_effect = {		
+
+		}
+}
+	option = {
+		name = hun.5.b
+			hidden_effect = {				
+	SLK = { change_tag_from = HUN }	 
+		}
+}
+}

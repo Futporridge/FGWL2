@@ -1,0 +1,215 @@
+focus_tree = {
+	id = wales_start_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = WLS
+		}
+	}
+		continuous_focus_position = { x = 1540 y = 100 }
+	
+	default = yes
+	reset_on_civilwar = no
+
+	focus = {
+		id = WLS_workers_of_wales_sing_yourself_to_freedom!
+		icon = GFX_focus_WLS_workers_of_wales_sing_for_freedom
+		x = 7
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+		available = {
+	
+		}
+		bypass = {	
+
+				}
+
+		completion_reward = {
+			
+			}
+		}
+	
+
+	focus = {
+		id = WLS_who_if_not_we
+		icon = GFX_focus_WLS_who_if_not_us
+		prerequisite = { focus = WLS_workers_of_wales_sing_yourself_to_freedom }
+		x = 0
+		y = 1
+		relative_position_id = WLS_workers_of_wales_sing_yourself_to_freedom
+		cost = 1
+
+		available_if_capitulated = yes
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = WLS_both_old_and_young
+		icon = GFX_focus_WLS_both_old_and_young
+		prerequisite = { focus = WLS_who_if_not_we }
+		x = -1
+		y = 1
+		relative_position_id = WLS_who_if_not_we
+		cost = 1
+
+		available_if_capitulated = yes
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+			
+		}
+	}	
+	focus = {
+		id = WLS_catch_the_fortune
+		icon = GFX_focus_WLS_catch_the_fortune
+		prerequisite = { focus = WLS_who_if_not_we }
+		x = 1
+		y = 1
+		relative_position_id = WLS_who_if_not_we
+		cost = 1
+
+		available_if_capitulated = yes
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+			
+		}
+	}	
+	focus = {
+		id = WLS_the_great_struggle
+		icon = GFX_focus_WLS_the_great_struggle
+		prerequisite = { focus = WLS_catch_the_fortune }
+		prerequisite = { focus = WLS_both_old_and_young }		
+		x = -1
+		y = 1
+		relative_position_id = WLS_catch_the_fortune
+		cost = 1
+
+		available_if_capitulated = yes
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+			
+		}
+	}		
+	focus = {
+		id = WLS_coal_mines
+		icon = GFX_focus_WLS_coal_mines
+		prerequisite = { focus = WLS_workers_of_wales_sing_yourself_to_freedom }
+		x = -2
+		y = 1
+		relative_position_id = WLS_workers_of_wales_sing_yourself_to_freedom
+		cost = 1
+
+		available_if_capitulated = yes
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = WLS_green_hills_and_fields
+		icon = GFX_focus_WLS_green_hills_and_fields
+		prerequisite = { focus = WLS_coal_mines }
+		x = 0
+		y = 2
+		relative_position_id = WLS_coal_mines
+		cost = 1
+
+		available_if_capitulated = yes
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+			
+		}
+	}	
+	focus = {
+		id = WLS_guns_for_workers
+		icon = GFX_focus_WLS_guns_for_workers
+		prerequisite = { focus = WLS_workers_of_wales_sing_yourself_to_freedom }
+		x = 2
+		y = 1
+		relative_position_id = WLS_workers_of_wales_sing_yourself_to_freedom
+		cost = 2
+
+		available_if_capitulated = yes
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+
+						
+		}
+	}
+	focus = {
+		id = WLS_the_red_dragon_brigade
+		icon = GFX_focus_WLS_red_dragon_brigade
+		prerequisite = { focus = WLS_guns_for_workers }
+		x = 0
+		y = 2
+		relative_position_id = WLS_guns_for_workers
+		cost = 1
+
+		available_if_capitulated = yes
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+			
+		}
+	}	
+	focus = {
+		id = WLS_long_live_the_revolution
+		icon = GFX_focus_WLS_long_live_the_revolution
+		prerequisite = { focus = WLS_the_red_dragon_brigade }
+		prerequisite = { focus = WLS_the_great_struggle }		
+		prerequisite = { focus = WLS_green_hills_and_fields }		
+		x = 0
+		y = 1
+		relative_position_id = WLS_the_great_struggle
+		cost = 1
+
+		available_if_capitulated = yes
+available = {
+				
+		}
+		bypass = {	
+				}
+		completion_reward = {
+			
+		}
+	}	
+	
+
+}

@@ -1,0 +1,47 @@
+capital = 122
+
+OOB = "WLS_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+add_ideas = {
+
+}
+
+set_politics = {
+	ruling_party = communitarianism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 13
+	prometeism = 12
+	communitarianism = 27
+	oligarchy = 12
+	conservatism = 12
+	reactionary = 12
+	paternalism = 7
+	liberalism = 5
+}
+
+add_ideas = {
+
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Niclas y Glais"
+	desc = "POLITICS_NICLAS_Y_GLAIS_DESC"
+	picture = "gfx/leaders/WLS/Portrait_Niclas.tga"
+	expire = "1965.1.1"
+	ideology = communitarianism
+	traits = { 
+
+	}
+}

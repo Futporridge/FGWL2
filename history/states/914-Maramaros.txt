@@ -1,0 +1,21 @@
+state={
+	id=914
+	name="STATE_914"
+	provinces={
+		6571 9563 
+	}
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = AUS
+		add_core_of = CRH
+		add_core_of = HUN
+
+	}	
+	state_category=rural	
+	manpower=451223
+	buildings_max_level_factor=1.000
+}

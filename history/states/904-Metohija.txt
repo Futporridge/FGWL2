@@ -1,0 +1,19 @@
+state={
+	id=904
+	name="STATE_904"
+	provinces={
+		867 3896 9849 
+	}
+	history={
+		owner = DKL
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		add_core_of = DKL
+
+	}	
+	state_category=rural	
+	manpower=322870
+	buildings_max_level_factor=1.000
+}

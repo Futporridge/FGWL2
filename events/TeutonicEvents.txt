@@ -1,0 +1,441 @@
+﻿add_namespace = teu
+add_namespace = corteu
+add_namespace = milteu
+add_namespace = refteu
+add_namespace = elteu
+
+country_event = {	
+	id = teu.1
+	title = teu.1.t
+	desc = teu.1.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = teu.1.a
+	hidden_effect = {
+	set_country_flag = TEU_Hochmeister_Kurt
+			set_variable = {
+			var = TEU_reforms_agr
+			value = 50
+		}
+	}
+	}
+	}
+country_event = {	
+	id = corteu.1
+	title = corteu.1.t
+	desc = corteu.1.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = corteu.1.a
+	hidden_effect = {
+			add_to_variable = {
+			var = TEU_reforms_agr
+			value = 5
+		}
+	}
+	}
+	}
+country_event = {	
+	id = corteu.2
+	title = corteu.2.t
+	desc = corteu.2.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = corteu.2.a
+	hidden_effect = {
+			add_to_variable = {
+			var = TEU_reforms_agr
+			value = -5
+		}
+	}
+	}
+	}
+country_event = {	
+	id = corteu.3
+	title = corteu.3.t
+	desc = corteu.3.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = corteu.3.a
+	hidden_effect = {
+			add_to_variable = {
+			var = TEU_reforms_agr
+			value = 5
+		}
+	}
+	}
+	}
+country_event = {	
+	id = corteu.4
+	title = corteu.4.t
+	desc = corteu.4.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = corteu.4.a
+	hidden_effect = {
+			add_to_variable = {
+			var = TEU_reforms_agr
+			value = -5
+		}
+	}
+	}
+	}
+country_event = {	
+	id = corteu.5
+	title = corteu.5.t
+	desc = corteu.5.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = corteu.5.a
+	hidden_effect = {
+			add_to_variable = {
+			var = TEU_reforms_agr
+			value = 10
+		}
+	}
+	}
+	}
+country_event = {	
+	id = corteu.6
+	title = corteu.6.t
+	desc = corteu.6.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = corteu.6.a
+	hidden_effect = {
+			add_to_variable = {
+			var = TEU_reforms_agr
+			value = -10
+		}
+	}
+	}
+	}	
+	
+	
+country_event = {	
+	id = milteu.1
+	title = milteu.1.t
+	desc = milteu.1.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = milteu.1.a
+	hidden_effect = {
+			add_to_variable = {
+			var = TEU_reforms_agr
+			value = 5
+		}
+	}
+	}
+	}
+country_event = {	
+	id = milteu.2
+	title = milteu.2.t
+	desc = milteu.2.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = milteu.2.a
+	hidden_effect = {
+			add_to_variable = {
+			var = TEU_reforms_agr
+			value = -5
+		}
+	}
+	}
+	}
+country_event = {	
+	id = milteu.3
+	title = milteu.3.t
+	desc = milteu.3.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = milteu.3.a
+	hidden_effect = {
+			add_to_variable = {
+			var = TEU_reforms_agr
+			value = 5
+		}
+	}
+	}
+	}
+country_event = {	
+	id = milteu.4
+	title = milteu.4.t
+	desc = milteu.4.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = milteu.4.a
+	hidden_effect = {
+			add_to_variable = {
+			var = TEU_reforms_agr
+			value = -5
+		}
+	}
+	}
+	}
+country_event = {	
+	id = milteu.5
+	title = milteu.5.t
+	desc = milteu.5.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = milteu.5.a
+	hidden_effect = {
+			add_to_variable = {
+			var = TEU_reforms_agr
+			value = 10
+		}
+	}
+	}
+	}
+country_event = {	
+	id = milteu.6
+	title = milteu.6.t
+	desc = milteu.6.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = milteu.6.a
+	hidden_effect = {
+			add_to_variable = {
+			var = TEU_reforms_agr
+			value = -10
+		}
+	}
+	}
+	}
+country_event = {	
+	id = refteu.1
+	title = refteu.1.t
+	desc = refteu.1.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = refteu.1.a
+	hidden_effect = {
+		load_focus_tree = { tree = teutonic_reformation_start }
+		}
+	}
+	}
+country_event = {	
+	id = refteu.2
+	title = refteu.2.t
+	desc = refteu.2.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = refteu.2.a
+	hidden_effect = {
+
+		}
+	}
+	}
+country_event = {	
+	id = refteu.3
+	title = refteu.3.t
+	desc = refteu.3.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = refteu.3.a
+	hidden_effect = {
+	set_country_flag = TEU_reforms_freistadt_chosen	
+		}
+	}
+	option = {
+		name = refteu.3.b
+	hidden_effect = {
+	set_country_flag = TEU_reforms_order_remained	
+		}
+	}	
+	}
+country_event = {	
+	id = refteu.4
+	title = refteu.4.t
+	desc = refteu.4.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = refteu.4.a
+	hidden_effect = {
+	set_country_flag = TEU_reforms_people_parlament	
+		}
+	}
+	option = {
+		name = refteu.4.b
+	hidden_effect = {
+	set_country_flag = TEU_reforms_serene_parlament
+		}
+	}	
+	}
+country_event = {	
+	id = refteu.5
+	title = refteu.5.t
+	desc = refteu.5.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = refteu.5.a
+	hidden_effect = {
+	set_country_flag = TEU_reforms_crown_monarch	
+		}
+	}
+	option = {
+		name = refteu.5.b
+	hidden_effect = {
+	set_country_flag = TEU_reforms_the_magister
+		}
+	}
+	option = {
+		name = refteu.5.c
+	hidden_effect = {
+	set_country_flag = TEU_reforms_the_kanzler
+		}
+	}	
+	}
+country_event = {	
+	id = refteu.6
+	title = refteu.6.t
+	desc = refteu.6.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = refteu.6.a
+	hidden_effect = {
+	set_country_flag = TEU_reforms_birth_of_federation
+		}
+	}
+	option = {
+		name = refteu.6.b
+	hidden_effect = {
+	set_country_flag = TEU_reforms_unitary_state
+		}
+	}	
+	}	
+		
+country_event = {	
+	id = elteu.7
+	title = elteu.7.t
+	desc = elteu.7.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = elteu.7.a
+		trigger = {
+	has_country_flag = TEU_reforms_people_parlament
+	}
+		hidden_effect = {
+		set_politics = {
+	ruling_party = communitarianism
+	}
+		set_country_flag = TEU_volkishe_win
+		load_focus_tree = { tree = teutonic_volkishe keep_completed = yes }
+		}
+	}
+	option = {
+		name = elteu.7.b
+	trigger = {
+	has_country_flag = TEU_reforms_serene_parlament		
+	}	
+	}
+	option = {
+		name = elteu.7.c
+	}
+	option = {
+		name = elteu.7.d
+		trigger = {
+	has_country_flag = TEU_reforms_people_parlament	
+	}	
+	}	
+	}	

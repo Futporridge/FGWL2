@@ -1,0 +1,24 @@
+
+state={
+	id=839
+	name="STATE_839"
+
+	history={
+		add_core_of = LTH
+		owner = LTH
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+			arms_factory = 2
+
+		}
+
+	}
+
+	provinces={
+		3629 5291 9559 11502 
+	}
+	state_category=city	
+	manpower=700105
+	buildings_max_level_factor=1.000
+}

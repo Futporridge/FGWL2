@@ -1,0 +1,28 @@
+
+state={
+	id=16
+	name="STATE_16"
+
+	history={
+		owner = PFT
+		victory_points = {
+			9561 5 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 4
+			anti_air_building = 3
+			air_base = 5
+		}
+	add_core_of = PFT
+	add_core_of = PAR		
+	}
+
+	provinces={
+		3549 6547 6949 9507 9534 9561 9725 11491 11518 
+	}
+	manpower = 1038500
+	buildings_max_level_factor=1.000
+	state_category=town
+}

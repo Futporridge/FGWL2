@@ -1,0 +1,23 @@
+state={
+	id=815
+	name="STATE_815"
+	provinces={
+		592 6408 9221 9485 
+	}
+		history={
+		owner = BLT
+		victory_points = {
+			9221 5 
+		}
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2					
+			infrastructure = 6
+		}
+		add_core_of = BLT
+		add_core_of = EST		
+	}		
+	manpower=552977
+	state_category = town
+	buildings_max_level_factor=1.000
+}

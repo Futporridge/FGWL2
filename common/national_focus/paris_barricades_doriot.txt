@@ -1,0 +1,165 @@
+focus_tree = {
+	id = paris_barricades_doriot_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PAR
+		}
+	}
+		default = no
+
+	continuous_focus_position = { x = 1200 y = 100 }
+	
+
+	shared_focus = PAR_anarchy
+	shared_focus = PAR_people_army
+	shared_focus = PAR_jacques_doriot
+	}
+
+
+	
+
+
+	shared_focus = {
+		id = PAR_people_army
+		icon = GFX_focus_PAR_people_army
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = PAR_free_from_opium
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_centralized_supply
+		icon = GFX_focus_PAR_centralized_supply
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_people_army }
+		relative_position_id = PAR_people_army
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	shared_focus = {
+		id = PAR_forced_labour
+		icon = GFX_focus_PAR_forced_labour
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_centralized_supply }
+		relative_position_id = PAR_centralized_supply
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_unlimited_mobilization
+		icon = GFX_focus_PAR_unlimited_mobilization
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_people_army }
+		relative_position_id = PAR_people_army
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_ironfist_discipline
+		icon = GFX_focus_PAR_ironfist_discipline
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_unlimited_mobilization }
+		relative_position_id = PAR_unlimited_mobilization
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_red_army_is_strongest
+		icon = GFX_focus_PAR_red_army_is_strongest
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_forced_labour }
+		prerequisite = { focus = PAR_ironfist_discipline }		
+		relative_position_id = PAR_forced_labour
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	
+			

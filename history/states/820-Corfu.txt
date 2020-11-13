@@ -1,0 +1,20 @@
+state={
+	id=820
+	name="STATE_820"
+	provinces={
+		10203 
+	}
+		history={
+		owner = VEN
+		
+		buildings = {
+			industrial_complex = 1			
+			infrastructure = 4
+
+		}
+		
+		add_core_of = VEN	
+	}		
+	manpower=102071
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,23 @@
+state={
+	id=873
+	name="STATE_873"
+	provinces={
+		659 689 831 3685 3872 4601 9775 11760 11776 11791 11890 
+	}
+	history={
+		owner = ILN
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = ILN
+		victory_points = {
+
+		}
+
+	}	
+	manpower=456900
+	state_category=city
+	buildings_max_level_factor=1.000
+}

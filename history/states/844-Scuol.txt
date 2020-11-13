@@ -1,0 +1,18 @@
+state={
+	id=844
+	name="STATE_844"
+	provinces={
+		3660 
+	}
+	history = {
+		add_core_of = AUS		
+		owner = AUS		
+		buildings = {	
+			infrastructure = 4
+
+		}
+	}	
+	manpower=3896
+	state_category=wasteland	
+	buildings_max_level_factor=1.000
+}

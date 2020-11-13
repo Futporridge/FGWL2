@@ -1,0 +1,83 @@
+ideas = {
+
+	country = {
+		munster_imperfect_administrative_structure = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = munster_imperfect_administrative_structure
+			
+			modifier = {
+				conscription_factor = -0.10
+				political_power_gain = -0.1
+				stability_factor = -0.05
+				consumer_goods_factor = 0.05				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+			munster_economic_difficulties = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = munster_economic_difficulties
+			
+			modifier = {
+				production_speed_buildings_factor = -0.15
+                production_factory_max_efficiency_factor = -0.10
+                communitarianism_drift = 0.005
+                utopism_drift = 0.005
+                prometeism_drift = 0.005
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}	
+		munster_secularization_movement = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = munster_secularization_movement
+			
+			modifier = {
+				political_power_gain = -0.20
+                stability_factor = -0.10
+                war_support_factor = -0.10
+	            communitarianism_drift = 0.005
+                republicanism_drift = 0.005
+                prometeism_drift = 0.005			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		munster_iron_fisted_rule = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = munster_iron_fisted_rule
+			
+			modifier = {
+				stability_factor = 0.2
+                stability_weekly = -0.002
+                political_power_factor = -0.25
+				research_speed_factor = -0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+}

@@ -1,0 +1,152 @@
+focus_tree = {
+	id = paris_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PAR
+		}
+	}
+	default = no
+
+	continuous_focus_position = { x = 1200 y = 100 }
+	
+focus = {
+	id = PAR_Matters_of_Today
+	icon = GFX_focus_PAR_matters_of_today
+	x = 7
+	y = 1
+	cost = 1
+
+	available = {
+
+	}
+
+	prerequisite = {
+
+	}
+
+	ai_will_do = {
+		factor = 15
+	}
+
+	completion_reward = {
+
+	}
+}
+	focus = {
+		id = PAR_temporary_shelters
+		icon = GFX_focus_PAR_temporary_shelters
+		x = -3
+		y = 1
+		cost = 5
+		prerequisite = { focus = PAR_Matters_of_Today }
+		relative_position_id = PAR_Matters_of_Today
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}
+	focus = {
+		id = PAR_soup_kitchens
+		icon = GFX_focus_PAR_soup_kitchens
+		x = -1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PAR_Matters_of_Today }
+		relative_position_id = PAR_Matters_of_Today
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}	
+	focus = {
+		id = PAR_fight_the_isolationist_movement
+		icon = GFX_focus_PAR_fight_the_isolationaist_movement
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = PAR_Matters_of_Today }
+		relative_position_id = PAR_Matters_of_Today
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}
+	focus = {
+		id = PAR_hear_the_sermons
+		icon = GFX_focus_PAR_hear_the_sermons
+		x = 3
+		y = 1
+		cost = 5
+		prerequisite = { focus = PAR_Matters_of_Today }
+		relative_position_id = PAR_Matters_of_Today
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}
+	focus = {
+		id = PAR_stability_at_last
+		icon = GFX_focus_PAR_stability_at_last
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = PAR_fight_the_isolationist_movement }
+		prerequisite = { focus = PAR_hear_the_sermons }
+		prerequisite = { focus = PAR_soup_kitchens }
+		prerequisite = { focus = PAR_temporary_shelters }		
+		relative_position_id = PAR_soup_kitchens
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+completion_reward = {
+		
+					}
+				}				
+	}

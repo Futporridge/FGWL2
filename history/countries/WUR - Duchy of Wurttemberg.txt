@@ -1,0 +1,44 @@
+capital = 50
+
+OOB = "WUR_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+
+set_politics = {
+	ruling_party = paternalism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 0
+	prometeism = 0
+	communitarianism = 0
+	oligarchy = 0
+	conservatism = 60
+	reactionary = 20
+	paternalism = 20
+}
+
+add_ideas = {
+HRE_member
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Albrecht von Württemberg"
+	desc = "POLITICS_ALBRECHT_WURT_DESC"
+	picture = "gfx/leaders/WUR/Portrait_Albrecht_von_Wurttemberg.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = { 
+
+	}
+}

@@ -1,0 +1,1656 @@
+focus_tree = {
+	id = ansbach_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ANS
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 1880	y = 1100 }
+
+	focus = {
+		id = ANS_radicalisation_of_economy
+		icon = GFX_goal_generic_position_armies
+		x = -25
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+				 mutually_exclusive = {
+        focus = ANS_moderate_economy
+		focus = ANS_militarized_economy
+    }
+		available = {
+				has_country_flag = the_poor_majority
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = ANS_burn_money
+		icon = GFX_goal_generic_position_armies
+		x = -3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_radicalisation_of_economy
+		prerequisite = { focus = ANS_radicalisation_of_economy }
+		
+		
+		available = {
+		}
+		bypass = {
+				}
+
+		completion_reward = {
+					}
+				}	
+	focus = {
+		id = ANS_unity_with_the_earth
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_burn_money
+		prerequisite = { focus = ANS_burn_money }
+		
+		
+		available = {
+		}
+		bypass = {
+				}
+
+		completion_reward = {
+					}
+				}		
+	focus = {
+		id = ANS_local_prodictions
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_unity_with_the_earth
+		prerequisite = { focus = ANS_unity_with_the_earth }
+		
+		
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}	
+focus = {
+		id = ANS_countryside_preachers
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_local_prodictions
+		prerequisite = { focus = ANS_local_prodictions }
+		
+		
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}				
+	focus = {
+		id = ANS_country_roads
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_burn_money
+		prerequisite = { focus = ANS_burn_money }
+		
+		
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = ANS_artisanal_weaponry
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_country_roads
+		prerequisite = { focus = ANS_country_roads }
+		
+		
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = ANS_state_soup_kitchens
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_artisanal_weaponry
+		prerequisite = { focus = ANS_artisanal_weaponry }
+		
+		
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+					focus = {
+		id = ANS_education_for_the_common_men
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_radicalisation_of_economy
+		prerequisite = { focus = ANS_radicalisation_of_economy }
+		
+		
+		available = {
+		}
+		bypass = {
+				}
+
+		completion_reward = {
+					}
+				}				
+		focus = {
+		id = ANS_teaching_our_faith
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_education_for_the_common_men
+		prerequisite = { focus = ANS_education_for_the_common_men }
+		
+		
+		available = {
+		}
+		bypass = {
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = ANS_our_first_university
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_teaching_our_faith
+		prerequisite = { focus = ANS_teaching_our_faith }
+		
+		
+		available = {
+		}
+		bypass = {
+				}
+
+		completion_reward = {
+					}
+				}								
+	focus = {
+		id = ANS_militarized_economy
+		icon = GFX_goal_generic_position_armies
+		x = -22
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		
+		available = {
+				has_country_flag = wolfs_majority
+		}
+		 mutually_exclusive = {
+        focus = ANS_moderate_economy
+		focus = ANS_radicalisation_of_economy
+    }
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+		focus = {
+		id = ANS_rapid_militarization
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_militarized_economy
+		prerequisite = { focus = ANS_militarized_economy }
+		
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+		focus = {
+		id = ANS_junkerschule
+		icon = GFX_goal_generic_position_armies
+		x = 3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_militarized_economy
+		prerequisite = { focus = ANS_militarized_economy }
+		
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+		focus = {
+		id = ANS_militarakademie
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_junkerschule
+		prerequisite = { focus = ANS_junkerschule }
+		
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+		focus = {
+		id = ANS_nurnberg_rd_department
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_militarakademie
+		prerequisite = { focus = ANS_militarakademie }
+		
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}				
+		focus = {
+		id = ANS_militarize_society
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_rapid_militarization
+		prerequisite = { focus = ANS_rapid_militarization }
+		
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+		focus = {
+		id = ANS_working_front
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_militarize_society
+		prerequisite = { focus = ANS_militarize_society }
+		
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+		focus = {
+		id = ANS_communication_lines
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_militarized_economy
+		prerequisite = { focus = ANS_militarized_economy }
+		
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+		focus = {
+		id = ANS_captured_machinery
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_communication_lines
+		prerequisite = { focus = ANS_communication_lines }
+		
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+		focus = {
+		id = ANS_allow_women_into_factories
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_captured_machinery
+		prerequisite = { focus = ANS_captured_machinery }
+		
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+		focus = {
+		id = ANS_armed_to_the_teeth
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_allow_women_into_factories
+		prerequisite = { focus = ANS_allow_women_into_factories }
+		prerequisite = { focus = ANS_working_front }
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = ANS_moderate_economy
+		icon = GFX_goal_generic_position_armies
+		x = -16
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		
+		available = {
+				has_country_flag = moderates_majority
+		}
+		 mutually_exclusive = {
+        focus = ANS_militarized_economy
+		focus = ANS_radicalisation_of_economy
+    }
+		bypass = {	
+				}
+	}
+			focus = {
+		id = ANS_planing_ahead
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_moderate_economy
+		prerequisite = { focus = ANS_moderate_economy }
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+			focus = {
+		id = ANS_remodel_old_system
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_planing_ahead
+		prerequisite = { focus = ANS_planing_ahead }
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+			focus = {
+		id = ANS_nurnberg_industrial_grants
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_remodel_old_system
+		prerequisite = { focus = ANS_remodel_old_system }
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+			focus = {
+		id = ANS_remodel_old_system
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_planing_ahead
+		prerequisite = { focus = ANS_planing_ahead }
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+			focus = {
+		id = ANS_connecting_cities
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_moderate_economy
+		prerequisite = { focus = ANS_moderate_economy }
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+					}
+		focus = {
+		id = ANS_increase_military_spending
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_connecting_cities
+		prerequisite = { focus = ANS_connecting_cities }
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+				
+		focus = {
+		id = ANS_airport_of_nurnberg
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_increase_military_spending
+		prerequisite = { focus = ANS_increase_military_spending }
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+		focus = {
+		id = ANS_economical_autarky
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_airport_of_nurnberg
+		prerequisite = { focus = ANS_airport_of_nurnberg }
+		prerequisite = { focus = ANS_nurnberg_industrial_grants }		
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+		focus = {
+		id = ANS_increase_school_number
+		icon = GFX_goal_generic_position_armies
+		x = 3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_moderate_economy
+		prerequisite = { focus = ANS_moderate_economy }		
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+		focus = {
+		id = ANS_nurnberg_baucollege
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_increase_school_number
+		prerequisite = { focus = ANS_increase_school_number }		
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}
+		focus = {
+		id = ANS_nurnberg_landesanstalt
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = ANS_nurnberg_baucollege
+		prerequisite = { focus = ANS_nurnberg_baucollege }		
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+					}
+				}				
+							
+	focus = {
+		id = ANS_hre_crash
+		icon = GFX_goal_generic_position_armies
+		x = 7
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		
+		available = {
+				always = false
+		}
+		bypass = {
+		has_global_flag = HRE_collapse	
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = ANS_now_we_are_free
+		icon = GFX_focus_ANS_now_that_we_are_free
+		x = -7
+		y = 1
+		prerequisite = { focus = ANS_hre_crash }
+		cost = 1
+		relative_position_id = ANS_hre_crash
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		has_country_flag = ans_schwarze_armee
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+		country_event = "ans.3"			
+					}
+			
+	}
+		focus = {
+		id = ANS_discipline_black_stacks
+		icon = GFX_focus_ANS_discipline_black_stacks
+		x = -3
+		y = 1
+		prerequisite = { focus = ANS_now_we_are_free }
+		cost = 1
+		relative_position_id = ANS_now_we_are_free
+				  mutually_exclusive = {
+        focus = ANS_city_militia
+		focus = ANS_allow_banditry_into_our_ranks
+    }
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {		
+					}
+			
+	}
+	focus = {
+		id = ANS_curtail_banditry
+		icon = GFX_focus_ANS_curtail_banditry
+		x = 0
+		y = 1
+		prerequisite = { focus = ANS_discipline_black_stacks }
+		cost = 1
+		relative_position_id = ANS_discipline_black_stacks
+		
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {		
+					}
+			
+	}
+	focus = {
+		id = ANS_religious_support
+		icon = GFX_focus_ANS_religion
+		x = 0
+		y = 1
+		prerequisite = { focus = ANS_curtail_banditry }
+		cost = 1
+		relative_position_id = ANS_curtail_banditry
+				  
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {
+		add_popularity = {
+	ideology = utopism 
+	popularity = 0.25
+
+}
+		hidden_effect = {
+		country_event = ans.7
+		}			
+					}
+			
+	}
+		focus = {
+		id = ANS_the_poor
+		icon = GFX_focus_ANS_the_poor
+		x = -7
+		y = 2
+		prerequisite = { focus = ANS_religious_support }
+		cost = 1
+		relative_position_id = ANS_religious_support
+				  
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		always = false
+		}
+				mutually_exclusive = {
+        focus = ANS_the_wolfs
+		focus = ANS_the_moderates
+    }
+		bypass = {	
+		has_country_flag = ANS_poor_majority		
+				}
+
+		completion_reward = {			
+					}
+			
+	}
+	focus = {
+		id = ANS_preachers_in_the_government
+		icon = GFX_focus_ANS_religion
+		x = 0
+		y = 2
+		prerequisite = { focus = ANS_the_poor }
+		cost = 1
+		relative_position_id = ANS_the_poor
+				  
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+
+		bypass = {			
+				}
+
+		completion_reward = {			
+					}
+			
+	}
+	focus = {
+		id = ANS_fight_the_tyrants
+		icon = GFX_focus_ANS_fight_the_tyrants
+		x = -2
+		y = 1
+		prerequisite = { focus = ANS_preachers_in_the_government }
+		cost = 1
+		relative_position_id = ANS_preachers_in_the_government
+				  
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+
+		bypass = {			
+				}
+
+		completion_reward = {			
+					}
+			
+	}
+	focus = {
+		id = ANS_extreme_loyality
+		icon = GFX_focus_ANS_extreme_loyality
+		x = 2
+		y = 1
+		prerequisite = { focus = ANS_preachers_in_the_government }
+		cost = 1
+		relative_position_id = ANS_preachers_in_the_government
+				  
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+
+		bypass = {			
+				}
+
+		completion_reward = {			
+					}
+			
+	}
+	focus = {
+		id = ANS_our_cause
+		icon = GFX_focus_ANS_our_cause
+		x = 0
+		y = 2
+		prerequisite = { focus = ANS_preachers_in_the_government }
+		cost = 1
+		relative_position_id = ANS_preachers_in_the_government
+				  
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+
+		bypass = {			
+				}
+
+		completion_reward = {			
+					}
+			
+	}
+			focus = {
+		id = ANS_allow_banditry_into_our_ranks
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = ANS_now_we_are_free }
+		cost = 1
+		relative_position_id = ANS_now_we_are_free
+		  mutually_exclusive = {
+        focus = ANS_city_militia
+		focus = ANS_discipline_black_stacks
+    }
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {		
+					}
+			
+	}
+	focus = {
+		id = ANS_to_hell_with_aristocracy
+		icon = GFX_focus_ANS_to_hell_with_aristocracy
+		x = 0
+		y = 2
+		prerequisite = { focus = ANS_fight_the_tyrants }
+		cost = 1
+		relative_position_id = ANS_fight_the_tyrants
+				  
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+
+		bypass = {			
+				}
+
+		completion_reward = {			
+					}
+			
+	}
+	focus = {
+		id = ANS_fighting_for_utopia
+		icon = GFX_focus_ANS_fighting_for_utopia
+		x = 0
+		y = 2
+		prerequisite = { focus = ANS_extreme_loyality }
+		cost = 1
+		relative_position_id = ANS_extreme_loyality
+				  
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+
+		bypass = {			
+				}
+
+		completion_reward = {			
+					}
+			
+	}
+	focus = {
+		id = ANS_burn_the_churches
+		icon = GFX_focus_ANS_burn_churches
+		x = 0
+		y = 2
+		prerequisite = { focus = ANS_our_cause }
+		cost = 1
+		relative_position_id = ANS_our_cause
+				  
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+
+		bypass = {			
+				}
+
+		completion_reward = {			
+					}
+			
+	}
+	focus = {
+		id = ANS_spiess_voran
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 2
+		prerequisite = { focus = ANS_burn_the_churches }
+		prerequisite = {focus = ANS_to_hell_with_aristocracy}
+		prerequisite = {focus = ANS_fighting_for_utopia
+		}
+		cost = 1
+		relative_position_id = ANS_burn_the_churches
+				  
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+
+		bypass = {			
+				}
+
+		completion_reward = {			
+					}
+			
+	}
+	focus = {
+		id = ANS_ignore_banditism
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = ANS_allow_banditry_into_our_ranks }
+		cost = 1
+		relative_position_id = ANS_allow_banditry_into_our_ranks
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {					
+					}
+			
+	}
+		focus = {
+		id = ANS_carte_blanche_for_army
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = ANS_ignore_banditism }
+		cost = 1
+		relative_position_id = ANS_ignore_banditism
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {		
+		hidden_effect = {
+		country_event = ans.8
+		hours = 4
+		}
+		create_country_leader = {
+	name = "Siegfried Müller"
+	desc = "POLITICS_SIEGFRIED_MULLER_DESC"
+	picture = "Portrait_Siegfried_Muller.tga"
+	expire = "1965.1.1"
+	ideology = oligarchy
+	traits = {
+		
+	}
+}
+		set_politics = {
+		ruling_party = oligarchy
+		}
+		add_popularity = {
+		ideology = oligarchy
+		popularity = 0.45
+		}
+					}
+			
+	}
+	focus = {
+		id = ANS_the_wolfs
+		icon = GFX_goal_generic_wolf_pack
+		x = 0
+		y = 2
+		prerequisite = { focus = ANS_carte_blanche_for_army }
+		cost = 1
+		relative_position_id = ANS_carte_blanche_for_army
+		mutually_exclusive = {
+        focus = ANS_the_poor
+		focus = ANS_the_moderates
+    }
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		always = false
+		}
+		bypass = {	
+		has_country_flag = ANS_wolfs_majority		
+				}
+
+		completion_reward = {		
+					}
+		}
+			
+		focus = {
+		id = ANS_brigand_council
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 2
+		prerequisite = { focus = ANS_the_wolfs }
+		cost = 1
+		relative_position_id = ANS_the_wolfs
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		always = false
+		}
+		bypass = {			
+				}
+
+		completion_reward = {		
+					}
+		}
+	
+		focus = {
+		id = ANS_connections_within_bands
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = ANS_brigand_council }
+		cost = 1
+		relative_position_id = ANS_brigand_council
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {			
+				}
+
+		completion_reward = {		
+					}
+		}
+		focus = {
+		id = ANS_arsenal_for_diplomacy
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = ANS_brigand_council }
+		cost = 1
+		relative_position_id = ANS_brigand_council
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {			
+				}
+
+		completion_reward = {		
+					}
+		}
+		focus = {
+		id = ANS_mullers_coup
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 2
+		prerequisite = { focus = ANS_connections_within_bands }
+		prerequisite = { focus = ANS_arsenal_for_diplomacy }
+		cost = 1
+		relative_position_id = ANS_brigand_council
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {			
+				}
+
+		completion_reward = {		
+					}
+		}
+		focus = {
+		id = ANS_bring_discipline
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = ANS_mullers_coup }
+		cost = 1
+		relative_position_id = ANS_mullers_coup
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {			
+				}
+
+		completion_reward = {		
+					}
+		}
+		focus = {
+		id = ANS_matters_of_loyality
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = ANS_mullers_coup }
+		cost = 1
+		relative_position_id = ANS_mullers_coup
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {			
+				}
+
+		completion_reward = {		
+					}
+		}
+		focus = {
+		id = ANS_cement_the_law
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = ANS_mullers_coup }
+		cost = 1
+		relative_position_id = ANS_mullers_coup
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {			
+				}
+
+		completion_reward = {		
+					}
+		}
+		focus = {
+		id = ANS_army_with_the_state
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 3
+		prerequisite = { focus = ANS_bring_discipline }
+		prerequisite = { focus = ANS_matters_of_loyality }	
+		prerequisite = { focus = ANS_cement_the_law }		
+		cost = 1
+		relative_position_id = ANS_matters_of_loyality
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {			
+				}
+
+		completion_reward = {		
+					}
+		}		
+			focus = {
+		id = ANS_city_militia
+		icon = GFX_goal_generic_position_armies
+		x = 3
+		y = 1
+		prerequisite = { focus = ANS_now_we_are_free }
+		cost = 1
+		relative_position_id = ANS_now_we_are_free
+		mutually_exclusive = {
+        focus = ANS_allow_banditry_into_our_ranks
+		focus = ANS_discipline_black_stacks
+    }
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {		
+					}
+
+			
+	}
+	focus = {
+		id = ANS_autonomous_squads
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = ANS_city_militia }
+		cost = 1
+		relative_position_id = ANS_city_militia
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {		
+					}
+	}
+	focus = {
+		id = ANS_invite_militia_commanders_into_war_council
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = ANS_autonomous_squads }
+		cost = 1
+		relative_position_id = ANS_autonomous_squads
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {		
+		
+		hidden_effect = {
+		country_event = ans.9
+		}			
+		create_country_leader = {
+	name = "Fritz Schäffer"
+	desc = "POLITICS_FRITZ_SCHAFFER_DESC"
+	picture = "Portrait_Fritz_Schaffer.tga"
+	expire = "1965.1.1"
+	ideology = republicanism
+	traits = {
+		
+	}
+}
+		set_politics = {
+		ruling_party = republicanism
+		}
+		add_popularity = {
+		ideology = republicanism
+		popularity = 0.45
+		}			
+				}
+		}			
+		focus = {
+		id = ANS_the_moderates
+		icon = GFX_goal_generic_position_armies
+		x = 7
+		y = 2
+		prerequisite = { focus = ANS_invite_militia_commanders_into_war_council }
+		cost = 1
+		relative_position_id = ANS_invite_militia_commanders_into_war_council
+				  
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+				mutually_exclusive = {
+        focus = ANS_the_poor
+		focus = ANS_the_wolfs
+    }
+		available = {
+		always = false
+		}
+		bypass = {	
+		has_country_flag = ANS_moderates_majority		
+				}
+
+		completion_reward = {			
+					}
+			
+	}
+focus = {
+		id = ANS_city_council_decides
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 2
+		prerequisite = { focus = ANS_the_moderates }
+		cost = 1
+		relative_position_id = ANS_the_moderates
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {		
+					}
+	}
+focus = {
+		id = ANS_support_the_middle_class
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = ANS_city_council_decides }
+		cost = 1
+		relative_position_id = ANS_city_council_decides
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {		
+					}
+	}	
+focus = {
+		id = ANS_patriotism
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = ANS_city_council_decides }
+		cost = 1
+		relative_position_id = ANS_city_council_decides
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {		
+					}
+	}
+focus = {
+		id = ANS_fight_with_banditism
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = ANS_city_council_decides }
+		cost = 1
+		relative_position_id = ANS_city_council_decides
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {		
+					}
+	}
+focus = {
+		id = ANS_martial_law
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = ANS_patriotism }
+		prerequisite = { focus = ANS_fight_with_banditism }
+		prerequisite = { focus = ANS_support_the_middle_class }		
+		cost = 1
+		relative_position_id = ANS_patriotism
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {		
+					}
+	}
+focus = {
+		id = ANS_fight_the_monarchy
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = ANS_martial_law }
+		cost = 1
+		relative_position_id = ANS_martial_law
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {		
+					}
+	}	
+focus = {
+		id = ANS_fight_the_radicalism
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = ANS_martial_law }
+		cost = 1
+		relative_position_id = ANS_martial_law
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {		
+					}
+	}
+focus = {
+		id = ANS_proclaim_holy_roman_republic
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 3
+		prerequisite = { focus = ANS_fight_the_monarchy }
+		prerequisite = { focus = ANS_fight_the_radicalism }
+		cost = 1
+		relative_position_id = ANS_fight_the_radicalism
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		}
+		bypass = {	
+				}
+
+		completion_reward = {		
+					}
+	}		
+			
+				
+	focus = {
+		id = ANS_eitel_the_victorious
+		icon = GFX_goal_generic_position_armies
+		x = 7
+		y = 1
+		prerequisite = { focus = ANS_hre_crash }
+		cost = 1
+		relative_position_id = ANS_hre_crash
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		has_country_flag = ans_schwarze_armee_lost
+		}
+		bypass = {	
+				}
+
+		completion_reward = {			
+					}
+				}			

@@ -1,0 +1,22 @@
+state={
+	id=854
+	name="STATE_854"
+	provinces={
+		6741 
+	}
+	history={
+		owner = LTE
+		
+		buildings = {
+			infrastructure = 5
+
+            6741 = {
+                naval_base = 4
+            }
+		}
+		add_core_of = LTE
+	}		
+	state_category=enclave 
+	manpower=10100
+	buildings_max_level_factor=1.000
+}

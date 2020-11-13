@@ -1,0 +1,24 @@
+state={
+	id=812
+	name="STATE_812"
+	provinces={
+		185 6201 
+	}
+		history={
+		victory_points = {
+			185 1
+		}		
+		owner = BLT
+		
+		buildings = {
+
+			infrastructure = 4
+
+		
+		}
+		add_core_of = BLT		
+	}	
+	state_category = small_island	
+	manpower=34978
+	buildings_max_level_factor=1.000
+}

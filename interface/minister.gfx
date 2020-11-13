@@ -1,0 +1,152 @@
+spriteTypes = {	
+
+
+							####MINISTERS####
+							
+						####TEUTONIC####	
+
+	spriteType = {
+		name = "GFX_idea_TEU_Franz_Papen"
+		texturefile = "gfx/interface/ideas/Ministers/teutonic/Franz_Papen.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TEU_Alfred_Hugenber"
+		texturefile = "gfx/interface/ideas/Ministers/teutonic/Alfred_Hugenberg.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TEU_Ferdinand_Bredow"
+		texturefile = "gfx/interface/ideas/Ministers/teutonic/Ferdinand_Bredow.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TEU_Gerd_Rundstedt"
+		texturefile = "gfx/interface/ideas/Ministers/teutonic/Gerd_Rundstedt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TEU_Gotthard_Heinrici"
+		texturefile = "gfx/interface/ideas/Ministers/teutonic/Gotthard_Heinrici.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TEU_Hermann_Warmbold"
+		texturefile = "gfx/interface/ideas/Ministers/teutonic/Hermann_Warmbold.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TEU_Kurt_Schleicher"
+		texturefile = "gfx/interface/ideas/Ministers/teutonic/Kurt_Schleicher.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TEU_Magnus_Braun_Senior"
+		texturefile = "gfx/interface/ideas/Ministers/teutonic/Magnus_Braun_Senior.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TEU_Werner_Fritsch"
+		texturefile = "gfx/interface/ideas/Ministers/teutonic/Werner_Fritsch.dds"
+	}
+	
+						####ANSBACH####
+						
+	spriteType = {
+		name = "GFX_idea_ANS_Otto_Strasser"
+		texturefile = "gfx/interface/ideas/Ministers/Ansbach/otto_strasser.dds"
+	}
+	
+	
+	
+					####ITALYEMPIRE####
+					
+					
+	spriteType = {
+		name = "GFX_idea_ITE_Luis_Napoleon"
+		texturefile = "gfx/interface/ideas/Ministers/Italy_emp/Luis_Napoleon.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ITE_Alberto_Beneduce"
+		texturefile = "gfx/interface/ideas/Ministers/Italy_emp/Alberto_Beneduce.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ITE_Enrico_Nicola"
+		texturefile = "gfx/interface/ideas/Ministers/Italy_emp/Enrico_Nicola.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ITE_Vito_Reale"
+		texturefile = "gfx/interface/ideas/Ministers/Italy_emp/Vito_Reale.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ITE_Chiyomi_Anzai"
+		texturefile = "gfx/interface/ideas/Ministers/Italy_emp/Chiyomi_Anzai.dds"
+	}
+								####KingdomOfFrance####	
+		spriteType = {
+		name = "GFX_idea_PAR_Henry_Cheron"
+		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/Henry_Cheron.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_PAR_Georges_Bonnet"
+		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/Georges_Bonnet.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_PAR_Paul_Reynaud"
+		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/Paul_Reynaud.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_PAR_Lucien_Romier"
+		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/Lucien_Romier.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_PAR_Raymond_Grasset"
+		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/Raymond_Grasset.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_PAR_Marcel_Deat"
+		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/Marcel_Deat.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_PAR_Adrien_Marquet"
+		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/Adrien_Marquet.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_PAR_Gustave_Fourment"
+		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/Gustave_Fourment.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_PAR_Henri_Barbe"
+		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/Henri_Barbe.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_PAR_Paul_Marion"
+		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/Paul_Marion.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_PAR_Pierre_Pucheu"
+		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/Pierre_Pucheu.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_PAR_Victor_Bartelemy"
+		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/Victor_Bartelemy.dds"
+	}
+
+								####Austria####		
+		spriteType = {
+		name = "GFX_idea_Viktor_Dankl_von_Krasnik"
+		texturefile = "gfx/interface/ideas/Ministers/austria/Viktor_Dankl_von_Krasnik.dds"
+	}			
+		spriteType = {
+		name = "GFX_idea_Max_Hussarek_von_Heinlein"
+		texturefile = "gfx/interface/ideas/Ministers/austria/Max_Hussarek_von_Heinlein.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Heinrich_Clam_Martinic"
+		texturefile = "gfx/interface/ideas/Ministers/austria/Heinrich_Clam_Martinic.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_Erik_von_Kuehnelt_Leddihn"
+		texturefile = "gfx/interface/ideas/Ministers/austria/Erik_von_Kuehnelt_Leddihn.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Friedrich_Hayek"
+		texturefile = "gfx/interface/ideas/Ministers/austria/Friedrich_Hayek.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_Joseph_Roth"
+		texturefile = "gfx/interface/ideas/Ministers/austria/Joseph_Roth.dds"
+	}		
+}

@@ -1,0 +1,53 @@
+add_namespace = paris_border_conflict
+
+country_event = { 
+	id = paris_border_conflict.2
+	title = paris_border_conflict.1.t
+	desc = paris_border_conflict.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	
+
+	option = {
+		name = paris_border_conflict.2.a
+			hidden_effect = {
+	annex_country = {
+    target = PAR
+    transfer_troops = no
+}
+	
+	add_state_core = 797
+	
+	
+	
+set_capital = 797
+
+}
+}
+}
+
+country_event = { 
+	id = paris_border_conflict.3
+	title = paris_border_conflict.1.t
+	desc = paris_border_conflict.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	
+
+	option = {
+		name = paris_border_conflict.3.a
+			hidden_effect = {
+	annex_country = {
+    target = PFT
+    transfer_troops = no
+}
+	add_state_core = 16
+	}
+	}
+	}
+
+}

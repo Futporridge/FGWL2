@@ -1,0 +1,30 @@
+state={
+	id=909
+	name="STATE_909"
+	provinces={
+		6681 
+	}
+	history={
+		owner = AUS
+		victory_points = {
+			6681 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			6681 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = AUS
+		add_core_of = SLV		
+		add_core_of = VEN
+		add_core_of = CRO
+		add_claim_by = HUN					
+	}	
+	state_category=town		
+	manpower=196111	
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,105 @@
+﻿add_namespace = ans
+
+country_event = {	
+	id = ans.1
+	title = ans.1.t
+	desc = ans.1.d
+	picture = GFX_event_reichstag
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = ans.1.a
+	hidden_effect = {
+	
+	}
+	}
+	}
+	country_event = {	
+	id = ans.14
+	title = ans.14.t
+	desc = ans.14.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ans.14.a
+		set_politics = {
+			ruling_party = utopism
+			elections_allowed = no
+			}
+			BRA = {
+			set_autonomy = {
+				target = ANS
+				autonomy_state = autonomy_free
+				}
+				}
+			hidden_effect = {
+			set_country_flag = ans_schwarze_armee
+			load_oob = "ANS_schwarze_armee"
+			}	
+			}
+				option = {
+		name = ans.14.b
+		remove_ideas = schwarze_armee
+		hidden_effect = {
+		set_country_flag = ans_schwarze_armee_lost
+		}
+		}	
+	}
+		country_event = {	
+	id = ans.7
+	title = ans.7.t
+	desc = ans.7.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = ans.7.a
+		hidden_effect = {
+		set_country_flag = ANS_poor_majority
+		}
+		}
+		}
+	country_event = {	
+	id = ans.8
+	title = ans.8.t
+	desc = ans.8.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = ans.8.a
+		hidden_effect = {
+		set_country_flag = ANS_wolfs_majority
+		}
+		}
+		}
+
+		country_event = {	
+	id = ans.9
+	title = ans.9.t
+	desc = ans.9.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	
+	option = {
+		name = ans.9.a
+		hidden_effect = {
+		set_country_flag = ANS_moderates_majority
+		}
+		}
+		}

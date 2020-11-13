@@ -1,0 +1,20 @@
+state={
+	id=898
+	name="STATE_898"
+	provinces={
+		3985 6957 
+	}
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = AUS
+		add_core_of = CRO
+		add_claim_by = HUN
+		add_core_of = SER
+	}	
+	manpower=112785
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,45 @@
+capital = 112
+
+OOB = "POR_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+
+set_politics = {
+	ruling_party = paternalism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 1
+	prometeism = 2
+	communitarianism = 2
+	liberalism = 2
+	oligarchy = 7
+	conservatism = 6
+	paternalism = 20
+	reactionary = 60
+}
+
+add_ideas = {
+
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Duarte II de Bragança"
+	desc = "POLITICS_DUARTE_II_DESC"
+	picture = "gfx/leaders/POR/Portrait_Duarte.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = { 
+
+	}
+}

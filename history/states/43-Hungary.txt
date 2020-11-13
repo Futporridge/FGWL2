@@ -1,0 +1,28 @@
+
+state={
+	id=43
+	name="STATE_43"
+	resources={
+		steel=3.000
+		aluminium=100.000
+	}
+
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = AUS
+		add_core_of = HUN
+	}
+
+	provinces={
+		3713 3731 6716 6751 11520 
+	}
+	manpower=778900
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

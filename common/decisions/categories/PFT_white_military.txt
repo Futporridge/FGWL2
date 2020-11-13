@@ -1,0 +1,13 @@
+
+PFT_white_movement = {
+	
+	icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = PFT
+	}
+
+	visible = {
+	has_country_flag = PFT_white_military
+	}
+}

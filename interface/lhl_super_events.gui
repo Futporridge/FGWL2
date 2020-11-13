@@ -1,0 +1,69 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "Super_Event_Window"
+		size = { width = 581 height = 427 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no	
+		moveable = yes
+
+		iconType = {
+			name ="Super_Event_PPF_unification"
+			spriteType = "GFX_PPF_unification"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_prikol_event"
+			spriteType = "GFX_prikol_event"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_habsburgs_unites_france"
+			spriteType = "GFX_habsburgs_unites_france"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_habsburg_hegemony_collapsed"
+			spriteType = "GFX_habsburg_hegemony_collapsed"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_jacobite_victory"
+			spriteType = "GFX_jacobite_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_nationalist_victory"
+			spriteType = "GFX_nationalist_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_republicanist_victory"
+			spriteType = "GFX_republicanist_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_royalist_victory"
+			spriteType = "GFX_royalist_victory"
+			position = { x = 35 y = 0 }
+		}
+
+		buttonType = {
+            name = "Super_Event_Close"
+            position = { x = 409 y = 526 }
+            quadTextureSprite ="GFX_CLOSE"
+			buttonText = "[get_superevent_close]"
+			buttonFont = "timesnewprikol_0"
+            clicksound = click_scroll
+        }
+	}
+}

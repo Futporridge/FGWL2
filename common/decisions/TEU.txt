@@ -1,0 +1,51 @@
+
+TEU_kurt_reforms = {                               
+     teu_progress_of_reforms = {                          
+          allowed = { tag = TEU }                 
+          available = {                           
+          always = yes                    
+          }
+          activation = {                          
+                                
+          }
+          is_good = yes                           
+              
+          complete_effect = {                    
+                            
+          }
+		  
+     }
+}
+TEU_category_representative_person = {                               
+     we_must_crown_monarch = {                          
+          allowed = { tag = TEU }                 
+          available = {                           
+          has_country_flag = TEU_reforms_monarch_crowned                   
+          }
+          activation = {                          
+               has_country_flag = TEU_reforms_crown_monarch                      
+          }
+          is_good = no                           
+          days_mission_timeout = 35              
+          timeout_effect = {                      
+	
+	}
+        
+          
+          complete_effect = {                    
+                            
+          }
+		  
+     }
+	 find_local_aristocrate = {
+	          cost = 50
+          available = {
+               has_manpower > 500
+          }
+          complete_effect = {
+			
+             
+          }
+	 
+	 }
+}

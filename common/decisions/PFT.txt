@@ -1,0 +1,40 @@
+
+PFT_white_movement = {                               
+     conquer_paris = {                          
+          allowed = { tag = PFT }                 
+          available = {                           
+          always = no                    
+          }
+          activation = {                          
+               has_country_flag = PFT_white_military                      
+          }
+          is_good = no                           
+          days_mission_timeout = 70          
+          timeout_effect = {                      
+			start_border_war = {
+    change_state_after_war = no
+    attacker = {
+        state = 16
+        num_provinces = 4
+        on_win = paris_border_conflict.2
+        on_lose = paris_border_conflict.3
+        on_cancel = paris_border_conflict.4
+    }
+				
+    defender = {
+        state = 797
+        num_provinces = 2
+        on_win = paris_border_conflict.3
+        on_lose = paris_border_conflict.2
+        on_cancel = paris_border_conflict.4
+    }
+}
+	}
+        
+          
+          complete_effect = {                    
+                            
+          }
+		  
+     }
+}

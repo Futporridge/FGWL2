@@ -1,0 +1,61 @@
+capital = 64
+
+OOB = "BRA_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+add_ideas = {
+	HRE_member
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = ANS
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = ANS
+	}
+}
+
+
+
+set_politics = {
+	ruling_party = paternalism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 5
+	prometeism = 10
+	communitarianism = 0
+	oligarchy = 20
+	conservatism = 25
+	paternalism = 20
+	reactionary = 20
+}
+
+add_ideas = {
+
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Wilhelm II von Brandenburg-Pommern"
+	desc = "POLITICS_WILHELM_II_HOHENZOLLERN_DESC"
+	picture = "gfx/leaders/BRA/Portrait_Wilhelm_II.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = { 
+
+	}
+}

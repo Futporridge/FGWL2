@@ -1,0 +1,86 @@
+ideas = {
+  head_of_state = {
+
+		AUS_Viktor_Dankl_von_Krasnik = {
+
+			picture = Viktor_Dankl_von_Krasnik
+
+			allowed = {
+				original_tag = AUS
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+
+		AUS_Max_Hussarek_von_Heinlein = {
+
+			picture = Max_Hussarek_von_Heinlein
+
+			allowed = {
+				original_tag = AUS
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}		
+}	
+political_advisor = {
+		AUS_Erik_von_Kuehnelt_Leddihn = {
+
+			picture = Erik_von_Kuehnelt_Leddihn
+
+			allowed = {
+				original_tag = AUS
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		AUS_Friedrich_Hayek = {
+
+			picture = Friedrich_Hayek
+
+			allowed = {
+				original_tag = AUS
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}	
+		AUS_Heinrich_Clam_Martinic = {
+
+			picture = Heinrich_Clam_Martinic
+
+			allowed = {
+				original_tag = AUS
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}	
+		AUS_Joseph_Roth = {
+
+			picture = Joseph_Roth
+
+			allowed = {
+				original_tag = AUS
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}		
+}
+	}
