@@ -6,9 +6,12 @@ state={
 	history={
 		owner = VWS
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 
 		}
+		victory_points = {
+			7993 1
+		}			
 		add_core_of = VWS
 
 	}
