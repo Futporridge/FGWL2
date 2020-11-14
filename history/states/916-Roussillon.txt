@@ -1,0 +1,29 @@
+state={
+	id=916
+	name="STATE_916"
+	provinces={
+		9853 
+	}
+	history={
+		owner = TOU
+		victory_points = {
+			9853 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		add_core_of = AQU
+		add_core_of = TOU
+		add_core_of = PAR
+		add_core_of = SPR
+
+
+	}
+
+	manpower=220000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

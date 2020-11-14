@@ -1,0 +1,28 @@
+
+state={
+	id=919
+	name="STATE_919"
+	provinces={
+		3959 9909 
+	}
+	history={
+		owner = PIE
+		add_core_of = PIE
+		victory_points = {
+			9909 5 
+		}
+		buildings = {
+			infrastructure = 4
+			9909 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	manpower=292000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

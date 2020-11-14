@@ -2,9 +2,9 @@
 state={
 	id=186
 	name="STATE_186"
-	manpower=945000
+	manpower=750000
 	
-	state_category = town
+	state_category = pastoral
 
 	history={
 		victory_points = {
@@ -16,7 +16,6 @@ state={
 		victory_points = {
 			11965 1
 		}
-		owner = LTE
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
@@ -31,8 +30,8 @@ state={
 			}
 
 		}
-		add_core_of = LTE
-
+	add_core_of = LTE
+	owner = LTE
 	}
 
 	provinces={

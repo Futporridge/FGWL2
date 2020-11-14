@@ -1,0 +1,14 @@
+state={
+	id=925
+	name="STATE_925"
+	history={
+	add_core_of = LTE
+	owner = LTE
+	}
+	provinces={
+		904 11811 11829 
+	}
+	manpower=130574
+	state_category = city
+	buildings_max_level_factor=1.000
+}
