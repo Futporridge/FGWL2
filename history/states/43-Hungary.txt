@@ -17,10 +17,11 @@ state={
 		}
 		add_core_of = AUS
 		add_core_of = HUN
+
 	}
 
 	provinces={
-		3713 3731 6716 6751 11520 
+		3565 3713 3731 6573 6716 6751 9537 11520 
 	}
 	manpower=778900
 	buildings_max_level_factor=1.000

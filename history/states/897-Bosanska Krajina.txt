@@ -2,23 +2,27 @@
 state={
 	id=897
 	name="STATE_897"
-	provinces={
-		6614 6619 6983 9586 
-	}
+
 	history={
 		owner = AUS
 		victory_points = {
 			6983 3 
-		}		
+		}
 		buildings = {
 			infrastructure = 5
+
 		}
 		add_core_of = AUS
-		add_core_of = CRO		
+		add_core_of = CRO
 		add_core_of = SER
 		add_claim_by = HUN
-	}	
+
+	}
+
+	provinces={
+		3985 6614 6619 6983 9586 
+	}
 	manpower=405231
-	state_category = rural		
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

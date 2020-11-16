@@ -15,6 +15,6 @@ state={
 		add_core_of = HUN
 	}	
 	manpower=397939
-	state_category=pastoral
+	state_category=rural
 	buildings_max_level_factor=1.000
 }
