@@ -2,24 +2,26 @@
 state={
 	id=77
 	name="STATE_77"
-	manpower = 378000
-	
-	state_category = rural
 
 	history={
 		victory_points = {
-			11597 1
+			11597 1 
 		}
 		owner = LTE
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
+
 		}
 		add_core_of = LTE
 		add_claim_by = BUL
+
 	}
 
 	provinces={
-		9614 11597 
+		649 9614 9769 9783 9919 11597 
 	}
+	manpower=378000
+	buildings_max_level_factor=1.000
+	state_category=rural
 }
