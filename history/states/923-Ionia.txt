@@ -9,6 +9,6 @@ state={
 	owner = LTE
 	}
 		state_category = city
-	manpower=120000
+	manpower=1200000
 	buildings_max_level_factor=1.000
 }
