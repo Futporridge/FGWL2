@@ -1,0 +1,25 @@
+state={
+	id=931
+	name="STATE_931"
+
+	history={
+		owner = SAX
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			573 1 
+		}
+		add_core_of = SAX
+
+	}
+
+	provinces={
+		478 573 3514 3572 9535 11415 
+	}
+	manpower=423576
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

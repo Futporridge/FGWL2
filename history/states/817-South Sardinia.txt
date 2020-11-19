@@ -4,6 +4,8 @@ state={
 	provinces={
 		902 11773 11874 
 	}
+	state_category = town
+
 	history={
 		owner = PIE
 		victory_points = {

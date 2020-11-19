@@ -1,26 +1,30 @@
 
 state={
-	id=241
-	name="STATE_241"
+	id=930
+	name="STATE_930"
 
 	history={
-		owner = RUK
+		owner = HOL
+		add_core_of = HOL
 		victory_points = {
-			9288 10 
+			6336 5 
 		}
+
 		buildings = {
 			infrastructure = 5
-			air_base = 3
+			industrial_complex = 1
+			6336 = {
+				naval_base = 3
+
+			}
 
 		}
-		add_core_of = RUK
 
 	}
-
 	provinces={
-		238 546 3542 3568 6589 9288 9342 9506 11229 
+		6336 9335 
 	}
-	manpower=943422
+	manpower=424462
 	buildings_max_level_factor=1.000
 	state_category=town
 }

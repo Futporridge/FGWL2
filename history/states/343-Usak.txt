@@ -7,7 +7,7 @@ state={
 		chromium=25 # was: 32
 	}
 	
-	state_category = rural
+	state_category = town
 
 	history={
 		owner = LTE
@@ -21,7 +21,7 @@ state={
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		add_core_of = LTe
+		add_core_of = LTE
 	}
 
 	provinces={

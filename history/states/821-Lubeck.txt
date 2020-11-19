@@ -5,9 +5,8 @@ state={
 	provinces={
 		12022 
 	}
-state_category = large_town	
-history={
-add_core_of = LUB
+	history={
+	add_core_of = LUB
  victory_points = {
  12022 30
  }
@@ -19,7 +18,7 @@ owner = LUB
 	air_base = 1
 }
 }	
-	state_category=city		
+	state_category=metropolis		
 	manpower=1890100
 	buildings_max_level_factor=1.000
 }

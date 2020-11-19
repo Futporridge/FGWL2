@@ -11,7 +11,7 @@ state={
 		buildings = {
 			infrastructure = 7
 			arms_factory = 2
-			industrial_complex = 7
+			industrial_complex = 6
 
 		}
 		victory_points = {
@@ -21,12 +21,13 @@ state={
 			3535 5 
 		}
 		add_core_of = SAX
+
 	}
 
 	provinces={
-		478 514 573 3514 3535 3572 6441 6559 9441 9471 9535 11415 11481 11545 
+		514 3535 6441 6559 9441 9471 11481 11545 
 	}
-	manpower=5592576
+	manpower=5192576
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_city
 }
