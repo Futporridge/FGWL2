@@ -7,7 +7,48 @@ set_technology = {
 	tech_support = 1
 	tech_recon = 1
 }
-
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = PLI
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = GOT
+		autonomous_state = autonomy_integrated_puppet
+	}	
+	set_autonomy = {
+		target = MYS
+		autonomous_state = autonomy_integrated_puppet
+	}	
+	set_autonomy = {
+		target = HOS
+		autonomous_state = autonomy_integrated_puppet
+	}	
+	set_autonomy = {
+		target = ZYX
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = JER
+		autonomous_state = autonomy_integrated_puppet
+	}	
+	set_autonomy = {
+		target = EGY
+		autonomous_state = autonomy_integrated_puppet
+	}		
+	else = {
+		puppet = PLI
+		puppet = MYS
+		puppet = HOS	
+		puppet = GOT	
+		puppet = ZYX		
+		puppet = JER	
+		puppet = EGY		
+	}
+}
 
 set_politics = {
 	ruling_party = reactionary

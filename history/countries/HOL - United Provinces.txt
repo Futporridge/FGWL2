@@ -7,7 +7,28 @@ set_technology = {
 	tech_support = 1
 	tech_recon = 1
 }
-
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = HEI
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = CNH
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = ORC
+		autonomous_state = autonomy_integrated_puppet
+	}		
+	else = {
+		puppet = HEI
+		puppet = CNH
+		puppet = ORC		
+	}
+}
 
 set_politics = {
 	ruling_party = oligarchy

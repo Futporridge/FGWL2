@@ -36,13 +36,33 @@ focus_tree = {
 					}
 				}
 	shared_focus = {
+		id = AUS_proclaim_the_republic_of_austria
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = AUS_soldatenring }		
+		relative_position_id = AUS_soldatenring		
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	shared_focus = {
 		id = AUS_martial_law
 		icon = GFX_goal_generic_position_armies
 		x = -1
 		y = 1
-		prerequisite = { focus = AUS_soldatenring }
+		prerequisite = { focus = AUS_proclaim_the_republic_of_austria }
 		cost = 1
-		relative_position_id = AUS_soldatenring
+		relative_position_id = AUS_proclaim_the_republic_of_austria
 		ai_will_do = {
 			factor = 10
 		}
@@ -62,9 +82,9 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		x = 1
 		y = 1
-		prerequisite = { focus = AUS_soldatenring }
+		prerequisite = { focus = AUS_proclaim_the_republic_of_austria }
 		cost = 1
-		relative_position_id = AUS_soldatenring
+		relative_position_id = AUS_proclaim_the_republic_of_austria
 		ai_will_do = {
 			factor = 10
 		}			

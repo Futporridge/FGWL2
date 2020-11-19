@@ -1,0 +1,14 @@
+state={
+	id=928
+	name="STATE_928"
+	provinces={
+		8000 
+	}
+	history = {
+		owner = PLI
+		add_core_of = PLI		
+	}
+		state_category=wasteland	
+	manpower=14054
+	buildings_max_level_factor=1.000
+}

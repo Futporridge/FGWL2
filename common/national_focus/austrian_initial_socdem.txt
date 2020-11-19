@@ -15,6 +15,8 @@ focus_tree = {
 	
 
 	shared_focus = AUS_the_SDAPO
+	shared_focus = AUS_the_OAP
+	shared_focus = AUS_the_SDAPO_L	
 	}
 
 
@@ -23,6 +25,27 @@ focus_tree = {
 
 	shared_focus = {
 		id = AUS_the_SDAPO
+		icon = GFX_focus_PAR_anarchy
+		x = 5
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = AUS_the_OAP
 		icon = GFX_focus_PAR_anarchy
 		x = 7
 		y = 0
@@ -43,13 +66,34 @@ focus_tree = {
 					}
 				}
 	shared_focus = {
-		id = AUS_proclaim_the_republic_of_austria
+		id = AUS_the_SDAPO_L
+		icon = GFX_focus_PAR_anarchy
+		x = 9
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+
+					}
+				}				
+	shared_focus = {
+		id = AUS_the_prometheus_gift
 		icon = GFX_goal_generic_position_armies
 		x = 0
 		y = 1
-		prerequisite = { focus = AUS_the_SDAPO }
+		prerequisite = { focus = AUS_the_SDAPO focus = AUS_the_OAP focus = AUS_the_SDAPO_L }
 		cost = 1
-		relative_position_id = AUS_the_SDAPO
+		relative_position_id = AUS_the_OAP
 		ai_will_do = {
 			factor = 10
 		}
@@ -69,9 +113,9 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		x = -2
 		y = 1
-		prerequisite = { focus = AUS_proclaim_the_republic_of_austria }
+		prerequisite = { focus = AUS_the_prometheus_gift }
 		cost = 1
-		relative_position_id = AUS_proclaim_the_republic_of_austria
+		relative_position_id = AUS_the_prometheus_gift
 		ai_will_do = {
 			factor = 10
 		}
@@ -91,7 +135,7 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		x = 0
 		y = 1
-		prerequisite = { focus = AUS_proclaim_the_republic_of_austria }
+		prerequisite = { focus = AUS_the_prometheus_gift }
 		cost = 1
 		relative_position_id = AUS_proclaim_the_republic_of_austria
 		ai_will_do = {
@@ -113,9 +157,9 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		x = 2
 		y = 1
-		prerequisite = { focus = AUS_proclaim_the_republic_of_austria }
+		prerequisite = { focus = AUS_the_prometheus_gift }
 		cost = 1
-		relative_position_id = AUS_proclaim_the_republic_of_austria
+		relative_position_id = AUS_the_prometheus_gift
 		ai_will_do = {
 			factor = 10
 		}
@@ -131,7 +175,7 @@ focus_tree = {
 					}
 				}	
 	shared_focus = {
-		id = AUS_jail_the_military
+		id = AUS_liberalize_the_military
 		icon = GFX_goal_generic_position_armies
 		x = 0
 		y = 1
@@ -140,6 +184,28 @@ focus_tree = {
 		prerequisite = { focus = AUS_strengthen_the_unions }
 		cost = 1
 		relative_position_id = AUS_arm_the_paramilitary
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = AUS_grand_restructure
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = AUS_liberalize_the_military }
+		cost = 1
+		relative_position_id = AUS_liberalize_the_military
 		ai_will_do = {
 			factor = 10
 		}

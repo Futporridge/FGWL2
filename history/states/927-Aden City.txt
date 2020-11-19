@@ -1,0 +1,14 @@
+state={
+	id=927
+	name="STATE_927"
+	provinces={
+		5074 
+	}
+ history = {	
+		owner = PLI
+		add_core_of = PLI	
+}	
+	state_category=rural	
+	manpower=404232
+	buildings_max_level_factor=1.000
+}

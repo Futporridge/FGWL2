@@ -2,20 +2,25 @@
 state={
 	id=320
 	name="STATE_320"
-	manpower = 286410
-
-	state_category = enclave
 
 	history={
-		owner = FRA
-		add_core_of = RAJ
+			victory_points = {
+			1238 5 
+		}
+		owner = HOS
+		add_core_of = HOS
+		
 		buildings = {
 			infrastructure = 5
-			10149 = {
-				naval_base = 1
-			}
+			
 		}
+
 	}
 
-	provinces={ 10149 }
+	provinces={
+		1238 1321 7244 7391 7395 7447 10190 
+	}
+	manpower=286410
+	buildings_max_level_factor=1.000
+	state_category=city
 }

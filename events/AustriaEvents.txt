@@ -361,3 +361,18 @@ immediate = {
 		}
 }
 }
+	country_event = {	
+	id = aus.1488
+	title = aus.1488.t
+	desc = aus.1488.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = aus.1488.a
+			hidden_effect = {		
+	load_focus_tree = { tree = austrian_civil_war_left_focus }
+		}
+}
+}
