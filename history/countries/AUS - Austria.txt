@@ -88,7 +88,16 @@ set_popularities = {
 	reactionary = 24
 }
 add_ideas = {
+#natspirit
 HRE_member
+AUS_army1
+AUS_trade_union_power_lifts
+AUS_econ1
+AUS_diveded_empire
+AUS_serbian_resistance
+#HRE
+HRE_member
+#advisors
 AUS_Viktor_Dankl_von_Krasnik
 AUS_Erik_von_Kuehnelt_Leddihn
 AUS_Friedrich_Hayek
