@@ -27,12 +27,11 @@ focus_tree = {
 
 		bypass = {
 			
-				}
-
+		}
 		completion_reward = {
-		
-					}
-				}
+			country_event = { id = austria.1 days = 0 }
+		}
+	}
 	focus = {
 		id = AUS_forcing_new_economical_policy
 		icon = GFX_goal_generic_position_armies
@@ -50,11 +49,11 @@ focus_tree = {
 		}
 		bypass = {
 
-				}
-
+		}
 		completion_reward = {
-					}
-				}
+			add_ideas = AUS_counter_measures
+		}
+	}
 	focus = {
 		id = AUS_dirigisme
 		icon = GFX_goal_generic_position_armies
@@ -103,6 +102,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
+					add_ideas = AUS_laissez_fair
 					}
 				}		
 	focus = {
@@ -197,6 +197,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
+					add_ideas = AUS_cutting_the_excesses
+					#тут ещё есть какой-то непонятный эффект
 					}
 				}					
 	focus = {
@@ -222,6 +224,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
+				add_ideas = AUS_alcabala
 					}
 				}
 

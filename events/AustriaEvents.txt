@@ -1,6 +1,6 @@
 ﻿	add_namespace = aus
 	
-	country_event = {	
+country_event = {	
 	id = aus.1
 	title = aus.1.t
 	desc = aus.1.d
@@ -10,21 +10,21 @@
 
 	option = {
 		name = aus.1.a
-			hidden_effect = {
-retire_country_leader = yes			
-create_country_leader = {
-	name = "Viktor Dankl von Krasnik"
-	desc = "POLITICS_VIKTOR_DANKL_DESC"
-	picture = "Portrait_Viktor_Dankl.tga"
-	expire = "1965.1.1"
-	ideology = reactionary
-	traits = {
-		
-	}
-}
-	load_focus_tree = { tree = austrian_regency_focus keep_completed = yes }
+		hidden_effect = {
+		retire_country_leader = yes			
+		create_country_leader = {
+			name = "Viktor Dankl von Krasnik"
+			desc = "POLITICS_VIKTOR_DANKL_DESC"
+			picture = "Portrait_Viktor_Dankl.tga"
+			expire = "1965.1.1"
+			ideology = reactionary
+			traits = {
+				
+			}
 		}
-}
+		load_focus_tree = { tree = austrian_regency_focus keep_completed = yes }
+	}
+	}
 }
 	country_event = {	
 	id = aus.11
@@ -361,18 +361,32 @@ immediate = {
 		}
 }
 }
-	country_event = {	
-	id = aus.1488
-	title = aus.1488.t
-	desc = aus.1488.d
+
+add_namespace = austria
+
+country_event = {
+	id = austria.1
+	title = austria.1.t
+	desc = austria.1.d
 	picture = GFX_
-
 	is_triggered_only = yes
-
 	option = {
-		name = aus.1488.a
-			hidden_effect = {		
-	load_focus_tree = { tree = austrian_civil_war_left_focus }
+		name = austria.1.a
+		add_political_power = -15
+		add_stability = -0.05
+		hidden_effect = {
+			#некий ивент для членов империи?
 		}
+	}
 }
+
+country_event = {
+	id = austria.2
+	title = austria.2.t
+	desc = austria.2.d
+	picture = GFX_
+	is_triggered_only = yes
+	option = {
+		name = austria.2.a
+	}
 }
