@@ -1,0 +1,26 @@
+state={
+	id=932
+	name="STATE_932"
+	provinces={
+		9671 
+	}
+	history={
+		victory_points = {
+			9671 1 
+		}
+		owner = VEN
+		add_core_of = VEN
+		buildings = {
+			infrastructure = 7
+			6626 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}	
+	state_category=tiny_island 	
+	manpower=30758	
+	buildings_max_level_factor=1.000
+}

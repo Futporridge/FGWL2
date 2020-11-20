@@ -7,7 +7,7 @@ state=
 	state_category = rural
 	history=
 	{
-		owner = LTE
+		owner = VEN
 		victory_points = {
 			9940 5
 		}
@@ -25,7 +25,7 @@ state=
 				naval_base = 3
 			}
 		}
-		add_core_of = LTE
+		add_core_of = VEN
 	}
 	provinces=
 	{
