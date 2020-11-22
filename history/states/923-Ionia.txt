@@ -1,18 +1,14 @@
-
 state={
 	id=923
 	name="STATE_923"
-
-	history={
-		add_core_of = LTE
-		owner = LTE
-
-	}
-
 	provinces={
-		1109 3988 4109 6699 7127 
+		1109 3988 4109 7127 
 	}
+	history={
+	add_core_of = LTE
+	owner = LTE
+	}
+		state_category = large_city
 	manpower=1200000
 	buildings_max_level_factor=1.000
-	state_category=large_city
 }

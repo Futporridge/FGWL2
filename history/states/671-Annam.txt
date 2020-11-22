@@ -13,11 +13,14 @@ state={
 
 
 	history={
-		add_core_of = VIN
-		owner = FRA
+		add_core_of = VIE
+		owner = VIE
 		victory_points = {
 			4075 1 
 		}
+		victory_points = {
+			4379 2 
+		}		
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

@@ -10,11 +10,10 @@ state={
 
 		}
 		add_core_of = LTE
-
 	}
 
 	provinces={
-		1173 4078 4193 7096 7211 11658 
+		1173 4078 4193 7096 7211 
 	}
 	manpower=112785
 	buildings_max_level_factor=1.000

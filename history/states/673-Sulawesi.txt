@@ -1,7 +1,7 @@
 state={
 	id=673
 	name="STATE_673"
-	manpower = 4232000
+	manpower = 3112000
 	resources={
 		rubber=30 # was: 52
 	}
@@ -10,8 +10,8 @@ state={
 
 
 	history= {
-		owner = INS
-		add_core_of = INS
+		owner = HEI
+		add_core_of = HEI
 		victory_points = {
 			10263 3 
 		}
