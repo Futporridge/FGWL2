@@ -34,13 +34,7 @@ set_demilitarized_zone = no
 896 = {
 set_demilitarized_zone = no
 }
-898 = {
-set_demilitarized_zone = no
-}
 897 = {
-add_core_of = RCR
-}
-898 = {
 add_core_of = RCR
 }
 109 = {
@@ -51,19 +45,25 @@ add_core_of = RCR
 }
 894 = {
 add_core_of = RCR
-}							
+}	
+909 = {
+add_core_of = RCR
+}						
 		SER = {
 		transfer_state = 107		
 		transfer_state = 104		
 		transfer_state = 901 
 		transfer_state = 896
+		transfer_state = 807
+		transfer_state = 909		
 		}
 		TRN = {
 		transfer_state = 84		
 		}
 		RCR = {
-		transfer_state = 897		
-		transfer_state = 898		
+		transfer_state = 897	
+		transfer_state = 807
+		transfer_state = 909		
 		}		
 	}
 	}

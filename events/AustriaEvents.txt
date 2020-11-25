@@ -572,9 +572,6 @@ set_demilitarized_zone = yes
 896 = {
 set_demilitarized_zone = yes
 }
-898 = {
-set_demilitarized_zone = yes
-}
 		}
 }
 }
@@ -910,8 +907,7 @@ immediate = {
 		transfer_state = 895
 		transfer_state = 104
 		transfer_state = 896		
-		transfer_state = 897
-		transfer_state = 898		
+		transfer_state = 897		
 		transfer_state = 901
 		transfer_state = 902		
 		transfer_state = 905
