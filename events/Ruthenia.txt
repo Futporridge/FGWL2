@@ -1,0 +1,37 @@
+﻿	add_namespace = ruk
+	
+	country_event = {	
+	id = ruk.1
+	title = ruk.1.t
+	desc = ruk.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ruk.1.a
+			hidden_effect = {
+RUK = {
+transfer_state = 91
+transfer_state = 89
+transfer_state = 80
+}
+CRH = {
+transfer_state = 73
+transfer_state = 902
+transfer_state = 914
+}
+RUK = {
+set_autonomy = {
+    target = CRH
+    autonomy_state = autonomy_integrated_puppet
+}
+}
+CRH = {
+set_politics = {
+ruling_party = conservatism
+}
+}
+		}
+}
+}

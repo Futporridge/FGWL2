@@ -164,7 +164,7 @@ country_event = {
 
 	option = {
 		name = aus.10.a
-704 = {		
+4 = {		
 remove_building = {
     type = arms_factory
     level = 1
@@ -174,7 +174,7 @@ remove_building = {
     level = 3
 }
 		}
-732 = {		
+152 = {		
 remove_building = {
     type = industrial_complex
     level = 2
@@ -184,7 +184,7 @@ remove_building = {
 	}
 	option = {
 		name = aus.10.b
-732 = {		
+152 = {		
 remove_building = {
     type = arms_factory
     level = 1
@@ -586,14 +586,19 @@ set_demilitarized_zone = yes
 
 	is_triggered_only = yes
 
-	option = {
-		name = aus.29.a
-			hidden_effect = {		
+immediate = {
+hidden_effect = {
 set_politics = {
 	ruling_party = paternalism
 }
 	load_focus_tree = { tree = austrian_soldierring_focus }
-		}
+	leave_faction = yes	
+}
+	}
+
+	option = {
+		name = aus.29.a
+
 }
 }
 country_event = {	
@@ -1123,8 +1128,7 @@ immediate = {
 		transfer_state = 9		
 		transfer_state = 69		
 		transfer_state = 75 
-		transfer_state = 74
-		transfer_state = 72 		
+		transfer_state = 74		
 		}
 	}	
 }

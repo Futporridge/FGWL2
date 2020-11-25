@@ -1,0 +1,18 @@
+﻿	add_namespace = mol
+	
+	country_event = {	
+	id = mol.1
+	title = mol.1.t
+	desc = mol.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = mol.1.a
+			hidden_effect = {
+MOL = {
+transfer_state = 920
+}
+}		}
+}
