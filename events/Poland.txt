@@ -36,3 +36,26 @@ leave_faction = yes
 		}
 }
 }
+	country_event = {	
+	id = wrs.2
+	title = wrs.2.t
+	desc = wrs.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = wrs.2.a
+			hidden_effect = {
+		WRS = {
+		transfer_state = 66		
+		transfer_state = 67		
+		transfer_state = 762		
+		transfer_state = 88
+		transfer_state = 72		
+		transfer_state = 911
+		transfer_state = 912		
+		}	
+		}
+}
+}
