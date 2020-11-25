@@ -8,12 +8,13 @@ state={
 		victory_points = {
 			6626 5 
 		}
-		owner = VEN
+		owner = AUS
+		add_core_of = AUS		
 		add_core_of = VEN
 		buildings = {
 			infrastructure = 7
 			6626 = {
-				naval_base = 5
+				naval_base = 8
 
 			}
 

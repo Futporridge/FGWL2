@@ -149,9 +149,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Johannes Schober"
-	desc = "POLITICS_JOHANNES_SCHOBER_DESC"
-	picture = "gfx/leaders/AUS/Portrait_Johannes_Schober.tga"
+	name = "Karl Renner"
+	desc = "POLITICS_KARL_RENNER_DESC"
+	picture = "gfx/leaders/AUS/Portrait_Karl_Renner.tga"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
