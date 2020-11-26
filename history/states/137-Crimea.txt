@@ -10,8 +10,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 2		
-			arms_factory = 1				
+			industrial_complex = 2
+			arms_factory = 1
 			dockyard = 1
 			3686 = {
 				naval_base = 7
@@ -24,6 +24,7 @@ state={
 
 		}
 		add_core_of = GOT
+
 	}
 
 	provinces={

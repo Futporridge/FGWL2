@@ -1,6 +1,5 @@
 ﻿l_english:
 
- 
  BLT_utopism:0 "Baltic Confederation"
  BLT_prometeism:0 "Baltic Confederation"
  BLT_communitarianism:0 "Baltic Confederation"
@@ -154,6 +153,9 @@
  OLD_conservatism_ADJ:0 "Oldenburg"
  OLD_reactionary_ADJ:0 "Oldenburg"
 
+ MUN:0 "Münster"
+ MUN_DEF:0 "Münster"
+ MUN_ADJ:0 "Münster"
  MUN_utopism:0 "Münster Commune"
  MUN_prometeism:0 "Münster Commune"
  MUN_communitarianism:0 "Münster Commune"
@@ -180,7 +182,10 @@
  MTR_conservatism_ADJ:0 "Strelitz"
  MTR_reactionary_ADJ:0 "Strelitz"
  
- BRA_utopism:0 "Kingdom of Brandenburg-Pomerania"
+ BRA:0 "Brandenburg-Pomerania"
+ BRA_DEF:0 "Brandenburg"
+ BRA_ADJ:0 "Brandenburg-Pomeranian"
+ BRA_utopism:0 "Brandenburg-Pomerania"
  BRA_prometeism:0 "Brandenburg-Pomerania"
  BRA_communitarianism:0 "Brandenburg-Pomerania"
  BRA_oligarchy:0 "Kingdom of Brandenburg-Pomerania"
@@ -194,6 +199,9 @@
  BRA_conservatism_ADJ:0 "Brandenburg-Pomeranian"
  BRA_reactionary_ADJ:0 "Brandenburg-Pomeranian"
 
+ MCL:0 "Mecklenburg"
+ MCL_DEF:0 "Mecklenburg"
+ MCL_ADJ:0 "Mecklenburg"
  MCL_utopism:0 "Mecklenburg"
  MCL_prometeism:0 "Mecklenburg"
  MCL_communitarianism:0 "Mecklenburg"
@@ -381,6 +389,9 @@
  POM_conservatism_ADJ:0 "Pomeranian"
  POM_reactionary_ADJ:0 "Pomeranian"
  
+ TRI:0 "Brandenburg-Pomerania"
+ TRI_DEF:0 "Brandenburg"
+ TRI_ADJ:0 "Brandenburg-Pomeranian"
  TRI_utopism:0 "Trier"
  TRI_prometeism:0 "Trier"
  TRI_communitarianism:0 "Trier"
