@@ -78,5 +78,32 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_AUS_super_heavy_tank_medium"
 		texturefile = "gfx/interface/technologies/AUS_super_heavy_tank.dds"
-	}		
+	}	
+	SpriteType = {
+		name = "GFX_chasseurs_medium"
+		texturefile = "gfx/interface/technologies/chasseurs.dds"
+	}
+	SpriteType = {
+		name = "GFX_chasseurs2_medium"
+		texturefile = "gfx/interface/technologies/chasseurs2.dds"
+	}
+	SpriteType = {
+		name = "GFX_chasseurs3_medium"
+		texturefile = "gfx/interface/technologies/chasseurs3.dds"
+	}	
+	SpriteType = {
+		name = "GFX_chasseurs3_medium"
+		texturefile = "gfx/interface/technologies/chasseurs3.dds"
+	}	
+	spriteType = {
+		name = "GFX_chasseurs_small"
+		texturefile = "gfx/texticons/chasseurs_small.dds"
+		legacy_lazy_load = no
+	}	
+	
+	spriteType = {
+		name = "GFX_nato_unit_chasseurs_small"
+		texturefile = "gfx/texticons/natonato_unit_chasseurs_small.dds"
+		legacy_lazy_load = no
+	}			
 }
