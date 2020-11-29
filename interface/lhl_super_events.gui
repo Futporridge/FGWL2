@@ -34,8 +34,8 @@ guiTypes = {
 		}
 		
 		iconType = {
-			name ="Super_Event_jacobite_victory"
-			spriteType = "GFX_jacobite_victory"
+			name ="Super_Event_freikorps_united_germany"
+			spriteType = "GFX_reshny_vicrory"
 			position = { x = 0 y = 0 }
 		}
 		

@@ -17,3 +17,9 @@ sound = {
 	volume = 1
 	always_load = yes
 }
+sound = {
+	name = "reshny_super"
+	file = "menu/reshny_super.wav"
+	volume = 1
+	always_load = yes
+}

@@ -20,8 +20,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_jacobite_victory"
-		texturefile = "gfx/super_events/jacobite_victory.dds"
+		name = "GFX_reshny_vicrory"
+		texturefile = "gfx/super_events/reshny_vicrory.dds"
 	}
 	
 	spriteType = {

@@ -140,3 +140,22 @@ country_event = {
 		sound_effect = ""
 	}
 }
+	
+country_event = {
+	id = super.9
+	title = super.9.t
+	desc = super.9.d
+	picture = GFX_news_event_rune_algiz
+    is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+	option = {
+		name = super.9.a
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = freikorps_united_germany
+		sound_effect = "reshny_super"
+	}
+}	
+	
+}

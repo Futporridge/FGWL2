@@ -33,8 +33,8 @@ scripted_gui = {
 		}
 		
 		triggers = {
-			Super_Event_jacobite_victory_visible = {
-				has_global_flag  = jacobite_victory
+			Super_Event_freikorps_united_germany_visible = {
+				has_global_flag  = freikorps_united_germany
 			}
 		}
 		
@@ -96,9 +96,9 @@ scripted_gui = {
 				
 				if = {
 					limit = {	
-						has_global_flag = jacobite_victory
+						has_global_flag = freikorps_united_germany
 					}
-					clr_global_flag  = jacobite_victory
+					clr_global_flag  = freikorps_united_germany
 				}
 				
 				if = {

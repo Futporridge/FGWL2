@@ -20,3 +20,11 @@ soundeffect = {
 	}
 	volume = 1
 }
+
+soundeffect = {
+	name = "reshny_super"
+	sounds = {
+		sound = "reshny_super"
+	}
+	volume = 1
+}
