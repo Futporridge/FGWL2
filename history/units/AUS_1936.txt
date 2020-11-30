@@ -14,6 +14,50 @@
 }
 
 division_template = {
+	name = "Jäger-Regimenter"
+
+	division_names_group = AUS_CHA_01
+
+	regiments = {
+		chasseurs = { x = 0 y = 0 }
+		chasseurs = { x = 0 y = 1 }
+		chasseurs = { x = 0 y = 2 }
+        chasseurs = { x = 1 y = 0 }
+		chasseurs = { x = 1 y = 1 }
+	}
+	
+}
+
+division_template = {
+	name = "Panzerwagen-Regiment"
+
+	division_names_group = AUS_ARC_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		armor_car = { x = 0 y = 2 }
+        armor_car = { x = 1 y = 0 }
+		armor_car = { x = 1 y = 1 }
+	}
+	
+}
+
+division_template = {
+	name = "Landesschützenregiment"		#
+	division_names_group = AUS_Mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
 	name = "Kavalleriedivision"
 
 	division_names_group = AUS_Cav_01
@@ -31,6 +75,45 @@ division_template = {
 
 
 units = {
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6739
+		division_template = "Panzerwagen-Regiment"
+		start_experience_factor = 0.8	
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 673
+		division_template = "Jäger-Regimenter"
+		start_experience_factor = 0.8	
+	}
+
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 9598
+		division_template = "Landesschützenregiment"
+		start_experience_factor = 0.3	
+	}
+
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 9630
+		division_template = "Landesschützenregiment"
+		start_experience_factor = 0.3	
+	}
 
 	division= {	
 		division_name = {
@@ -145,7 +228,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 31
 		}
-		location = 9600
+		location = 9660
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -154,7 +237,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 32
 		}
-		location = 9600
+		location = 9660
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -455,9 +538,64 @@ units = {
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}	
-}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 19
+		}
+		location = 11586
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 20
+		}
+		location = 11586
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}	
 
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 11581
+		division_template = "Kavalleriedivision"
+		start_experience_factor = 0.3
+	}	
 
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 9
+		}
+		location = 6739
+		division_template = "Kavalleriedivision"
+		start_experience_factor = 0.3
+	}	
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 10
+		}
+		location = 11542
+		division_template = "Kavalleriedivision"
+		start_experience_factor = 0.3
+	}	
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 12
+		}
+		location = 9660
+		division_template = "Kavalleriedivision"
+		start_experience_factor = 0.3
+	}	
 
 
 #########################

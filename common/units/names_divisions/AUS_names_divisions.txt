@@ -33,8 +33,10 @@
 		14 = { "14. Infanterietruppendivision" }
 		15 = { "15. Infanterietruppendivision" }
 		16 = { "16. Infanterietruppendivision" }
-		18 = { "18. Infanterietruppendivision" }
 		17 = { "17. Infanterietruppendivision" }
+		18 = { "18. Infanterietruppendivision" }
+		19 = { "19. Infanterietruppendivision" }
+		20 = { "20. Infanterietruppendivision" }
 		21 = { "21. Infanterietruppendivision" }
 		23 = { "23. Infanterietruppendivision" }
 		24 = { "24. Infanterietruppendivision" }
@@ -76,7 +78,7 @@ AUS_CAV_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { AUS_INF_01 }
 
-	fallback_name = "%d. Schnelle Division"
+	fallback_name = "%d. Kavallerietruppendivision"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -86,13 +88,14 @@ AUS_CAV_01 =
 		2 = { "2. Kavallerietruppendivision" }
 		3 = { "3. Kavallerietruppendivision" }
 		4 = { "4. Kavallerietruppendivision" }
-		5 = { "%d. Schnelle Division" }
+		5 = { "5. Kavallerietruppendivision" }
 		6 = { "6. Kavallerietruppendivision" }
 		7 = { "7. Kavallerietruppendivision" }
 		8 = { "8. Kavallerietruppendivision" }
-		9 = { "%d. Schnelle Division" }
-		10 = { "%d. Schnelle Division" }
+		9 = { "9. Kavallerietruppendivision" }
+		10 = { "10. Kavallerietruppendivision" }
 		11 = { "11. Kavallerietruppendivision" }
+		12 = { "12. Kavallerietruppendivision" }
 
 	}
 }
@@ -259,7 +262,7 @@ AUS_MAR_01 =
 
 AUS_MNT_01 = 
 {
-	name = "Mountain Division"
+	name = "Landesschützenregiment"
 
 	for_countries = { AUS }
 
@@ -270,24 +273,63 @@ AUS_MNT_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { AUS_INF_01 }
 
-	fallback_name = "%d. Division"
+	fallback_name = "Landesschützenregiment Nr.%"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d. Division" }
-		2 = { "%d. Division" }
-		3 = { "%d. Division" }
-		4 = { "%d. Division" }
-		5 = { "%d. Division" }
-		6 = { "%d. Division" }
-		7 = { "%d. Division" }
-		8 = { "%d. Division" }
-		9 = { "%d. Division" }
-		10 = { "%d. Division" }
+		1 = { "Landesschützenregiment "Trient" Nr. I" }
+		2 = { "Landesschützenregiment "Bozen" Nr. II" }
 	}
 }
+
+AUS_CHA_01 = 
+{
+	name = "Jäger-Regimenter"
+
+	for_countries = { AUS }
+
+	can_use = { always = yes }
+
+	division_types = { "chasseurs" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { AUS_INF_01 }
+
+	fallback_name = " Jäger-Regimenter Nr.%"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Großen Regiments der Tiroler Kaiserjäger" }
+	}
+}
+
+AUS_ARC_01 = 
+{
+	name = "Panzerwagen-Regiment"
+
+	for_countries = { AUS }
+
+	can_use = { always = yes }
+
+	division_types = { "armor_car" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { AUS_INF_01 }
+
+	fallback_name = "Panzerwagen-Regiment Nr.%"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Panzerwagen-Regiment Nr. I" }
+	}
+}
+
 
 AUS_GAR_01 = 
 {
