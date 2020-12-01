@@ -12,49 +12,49 @@ guiTypes = {
 		iconType = {
 			name ="Super_Event_PPF_unification"
 			spriteType = "GFX_PPF_unification"
-			position = { x = 0 y = 0 }
+			position = { x = 35 y = 0 }
 		}
 		
 		iconType = {
 			name ="Super_Event_prikol_event"
 			spriteType = "GFX_prikol_event"
-			position = { x = 0 y = 0 }
+			position = { x = 35 y = 0 }
 		}
 		
 		iconType = {
 			name ="Super_Event_habsburgs_unites_france"
 			spriteType = "GFX_habsburgs_unites_france"
-			position = { x = 0 y = 0 }
+			position = { x = 35 y = 0 }
 		}
 		
 		iconType = {
 			name ="Super_Event_habsburg_hegemony_collapsed"
 			spriteType = "GFX_habsburg_hegemony_collapsed"
-			position = { x = 0 y = 0 }
+			position = { x = 35 y = 0 }
 		}
 		
 		iconType = {
 			name ="Super_Event_freikorps_united_germany"
 			spriteType = "GFX_reshny_vicrory"
-			position = { x = 0 y = 0 }
+			position = { x = 35 y = 0 }
 		}
 		
 		iconType = {
 			name ="Super_Event_nationalist_victory"
 			spriteType = "GFX_nationalist_victory"
-			position = { x = 0 y = 0 }
+			position = { x = 35 y = 0 }
 		}
 		
 		iconType = {
 			name ="Super_Event_republicanist_victory"
 			spriteType = "GFX_republicanist_victory"
-			position = { x = 0 y = 0 }
+			position = { x = 35 y = 0 }
 		}
 		
 		iconType = {
 			name ="Super_Event_royalist_victory"
 			spriteType = "GFX_royalist_victory"
-			position = { x = 0 y = 0 }
+			position = { x = 35 y = 0 }
 		}
 
 		buttonType = {
