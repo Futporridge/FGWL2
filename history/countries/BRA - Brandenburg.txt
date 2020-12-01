@@ -50,7 +50,7 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Wilhelm II von Brandenburg-Pommern"
+	name = "Wilhelm II von Hohenzollern"
 	desc = "POLITICS_WILHELM_II_HOHENZOLLERN_DESC"
 	picture = "gfx/leaders/BRA/Portrait_Wilhelm_II.tga"
 	expire = "1965.1.1"

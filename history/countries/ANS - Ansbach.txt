@@ -36,7 +36,7 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Eitel Friedrich von Ansbach"
+	name = "Eitel Friedrich von Hohenzollern"
 	desc = "POLITICS_EITEL_FRIEDRICH_DESC"
 	picture = "gfx/leaders/ANS/Portrait_Eitel_Friedrich.tga"
 	expire = "1965.1.1"

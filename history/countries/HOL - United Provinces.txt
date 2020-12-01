@@ -53,8 +53,8 @@ HRE_member
 set_convoys = 100
 
 create_country_leader = {
-	name = "Charlotte der Nederlanden"
-	desc = "POLITICS__DESC"
+	name = "Charlotte van Nassau-Weilburg"
+	desc = "POLITICS_CHARLOTTE_VAN_NASSAU_DESC"
 	picture = "gfx/leaders/HOL/Portrait_Charlotte.tga"
 	expire = "1965.1.1"
 	ideology = oligarchy

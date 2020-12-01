@@ -168,3 +168,125 @@ create_country_leader = {
 		#
 	}
 }
+create_field_marshal = {
+	name = "Viktor Dankl von Krasnik"
+	id = 186	
+	picture = "Portrait_Viktor_Dankl.tga"
+	traits = { politically_connected war_hero old_guard }
+	skill = 4
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 4
+    logistics_skill = 4
+}
+create_field_marshal = {
+	name = "Alfred von Waldstätten"
+	id = 187	 
+	picture = "Portrait_Alfred_von_Waldstatten.tga"
+	traits = { politically_connected war_hero }
+	skill = 4
+    attack_skill = 4
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Franz Böhme"
+	id = 188	
+	portrait_path = "gfx/leaders/AUS/Portrait_Franz_Bohme.tga"
+	traits = { harsh_leader trait_mountaineer }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Karl Eglseer"
+	id = 189	
+	portrait_path = "gfx/leaders/AUS/Portrait_Karl_Egleser.tga"
+	traits = { trait_mountaineer }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Alfred Jansa von Tannenau"
+	id = 190	
+	portrait_path = "gfx/leaders/AUS/Portrait_Alfred_Jansa.tga"
+	traits = { career_officer }
+	skill = 4
+    attack_skill = 2
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Ludwig von Eimannsberger"
+	id = 191	
+	portrait_path = "gfx/leaders/AUS/Portrait_Ludwig von_Eimannsberger.tga"
+	traits = { armor_officer }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Maximilian de Angelis"
+	id = 192	
+	portrait_path = "gfx/leaders/AUS/Portrait_Maximilian_de_Angelis.tga"
+	traits = { politically_connected infantry_officer }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Adolf von Brudermann"
+	id = 193	
+	portrait_path = "gfx/leaders/AUS/Portrait_Adolf_von_Brudermann.tga"
+	traits = { old_guard cavalry_officer war_hero }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Camillo Bregant"
+	id = 194	
+	portrait_path = "gfx/leaders/AUS/Portrait_Camillo_Bregant.tga"
+	traits = { brilliant_strategist war_hero }
+	skill = 4
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Alfred Ritter von Hubicki"
+	id = 195	
+	portrait_path = "gfx/leaders/AUS/Portrait_Alfred_Ritter_von_Hubicki.tga"
+	traits = { panzer_leader }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Anton Kienbauer"
+	id = 196	
+	portrait_path = "gfx/leaders/AUS/Portrait_Anton_Kienbauer.tga"
+	traits = { }
+	skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 2
+}
