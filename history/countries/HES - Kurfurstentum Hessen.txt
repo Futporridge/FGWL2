@@ -33,7 +33,7 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Ernst Ludwig von Hessen-Darmstadt"
+	name = "Ernst Ludwig von Hessen"
 	desc = "POLITICS_ERNST_LUDWIG_HESSEN_DESC"
 	picture = "gfx/leaders/HES/Portrait_Ernst_Ludwig.tga"
 	expire = "1965.1.1"
