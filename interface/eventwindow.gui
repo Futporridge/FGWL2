@@ -81,7 +81,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "bottom_Window"
 			position = { x=0 y=2 }	
-			size = { width = 573 height = 289 }
+			size = { width = 573 height = 258 }
 			moveable = yes
 			clipping = no
 			Orientation = UPPER_LEFT
@@ -283,7 +283,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "bottom_Window"
-			position = { x=0 y=321 }
+			position = { x=0 y=600 }
 			size = { width = 580 height = 200 }
 			moveable = no
 			clipping = no

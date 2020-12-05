@@ -1,0 +1,418 @@
+on_actions = {
+	on_state_control_changed = {
+		effect = {
+			#Polish Names
+			
+			if = {
+				limit = {
+					ROOT = {
+						OR = {
+					is_polish_tag = yes
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 87
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Łódź"
+						set_province_name = {
+							id = 9508
+							name = "Łódź"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 86
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Poznań"
+						set_province_name = {
+							id = 6558
+							name = "Poznań"
+						}						
+					}
+				}				
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 10
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Warszawa"
+						set_province_name = {
+							id = 3544
+							name = "Warszawa"
+						}
+						set_province_name = {
+							id = 402
+							name = "Siedlce"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 90
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Kielce"
+						set_province_name = {
+							id = 11430
+							name = "Kielce"
+						}
+						set_province_name = {
+							id = 3458
+							name = "Radom"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 163
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Lublin"
+						set_province_name = {
+							id = 11399
+							name = "Lublin"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 98
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Płock"
+						set_province_name = {
+							id = 3230
+							name = "Płock"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 85
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Gdańsk"
+						set_province_name = {
+							id = 362
+							name = "Gdańsk"
+						}
+						set_province_name = {
+							id = 3295
+							name = "Toruń"
+						}
+						set_province_name = {
+							id = 279
+							name = "Bydgoszcz"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 97
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Białystok"
+						set_province_name = {
+							id = 11301
+							name = "Białystok"
+						}
+						set_province_name = {
+							id = 3295
+							name = "Suwałki" 
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 95
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Grodno"
+						set_province_name = {
+							id = 3393
+							name = "Garten"
+						}
+						set_province_name = {
+							id = 9304
+							name = "Baranowicze" 
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 96
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Wilejka"
+						set_province_name = {
+							id = 406
+							name = "Wilejka"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 784
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Wilno"
+						set_province_name = {
+							id = 3320
+							name = "Wilno"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 11
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Kowno"
+						set_province_name = {
+							id = 6296
+							name = "Kowno"
+						}						
+					}
+				}		
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 5
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Malbork"
+						set_province_name = {
+							id = 6402
+							name = "Malbork"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 763
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Królewiec"
+						set_province_name = {
+							id = 6332
+							name = "Królewiec"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 188
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Kłajpeda"
+						set_province_name = {
+							id = 3288
+							name = "Kłajpeda"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 189
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Szawle"
+						set_province_name = {
+							id = 9483
+							name = "Szawle"
+						}
+						set_province_name = {
+							id = 6314
+							name = "Połąga"
+						}												
+					}
+				}					
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 92
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Mazowsze"						
+					}
+				}				
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 88
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Kraków"
+						set_province_name = {
+							id = 9427
+							name = "Kraków"
+						}
+						set_province_name = {
+							id = 442
+							name = "Tarnów"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 762
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Katowice"
+						set_province_name = {
+							id = 6464
+							name = "Katowice"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 67
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Górny Śląsk"
+						set_province_name = {
+							id = 11467
+							name = "Gliwice"
+						}
+						set_province_name = {
+							id = 9511
+							name = "Opole"
+						}						
+					}
+				}					
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 66
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Dolny Śląsk"
+						set_province_name = {
+							id = 9570
+							name = "Wrocław"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 911
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Łemkowszczyzna"						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 912
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Ruś Czerwona"						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 91
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Lwów"
+						set_province_name = {
+							id = 11479
+							name = "Lwów"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 89
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Stanisławów"
+						set_province_name = {
+							id = 11411
+							name = "Stanisławów"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 74
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Sudety Wschodnie"
+						set_province_name = {
+							id = 3583
+							name = "Ostrawa"
+						}						
+					}
+				}				
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 72
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Zaolzie"						
+					}
+				}				
+			}
+			
+			
+		}
+	
+	}
+	}

@@ -1,0 +1,787 @@
+on_actions = {
+	on_state_control_changed = {
+		effect = {
+			#German Names
+			
+			if = {
+				limit = {
+					ROOT = {
+						OR = {
+					is_german_tag = yes
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 889
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Wien"
+						set_province_name = {
+							id = 6739
+							name = "Wien"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 4
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Niederösterreich"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 152
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Oberösterreich"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 886
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Steiermark"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 888
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Kärnten"
+						set_province_name = {
+							id = 3673
+							name = "Klagenfurt"
+						}
+						set_province_name = {
+							id = 3673
+							name = "Villach"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 890
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Salzburg"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 153
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Tirol"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 844
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Schuls"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 903
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Voralberg"
+						set_province_name = {
+							id = 6680
+							name = "Dornbin"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 39
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Südtirol"
+						set_province_name = {
+							id = 9630
+							name = "Bozen"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 906
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Trient"
+						set_province_name = {
+							id = 9598
+							name = "Trient"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 891
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Osttirol"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 887
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Burgenland"
+						set_province_name = {
+							id = 3700
+							name = "Eisenstadt"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 102
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Krain"
+						set_province_name = {
+							id = 9627
+							name = "Laibach"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 907
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Triest"
+						set_province_name = {
+							id = 6626
+							name = "Triest"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 909
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Flaum"
+						set_province_name = {
+							id = 6681
+							name = "Flaum"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 109
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Kroatien"
+						set_province_name = {
+							id = 11581
+							name = "Agram"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 807
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Kvarner-Bucht"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 897
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Bosnische Krajina"
+						set_province_name = {
+							id = 6983
+							name = "Weina Luka"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 896
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Herzegowina"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 901
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Oberbosna"
+						set_province_name = {
+							id = 11899
+							name = "Oberbosna"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 894
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Slawonien"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 895
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Syrmien"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 107
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Belgrad"
+						set_province_name = {
+							id = 11586
+							name = "Belgrad"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 900
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Raab"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 899
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Stuhlweißenburg"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 155
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Tolnau"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 913
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Branau"
+						set_province_name = {
+							id = 11610
+							name = "Fünfkirchen"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 893
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Batschka"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 45
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Woiwodina"
+						set_province_name = {
+							id = 619
+							name = "Neusatz an der Donau"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 892
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Pesth"
+						set_province_name = {
+							id = 9660
+							name = "Budapest"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 43
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Mischkolz"
+						set_province_name = {
+							id = 6573
+							name = "Kaschau"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 154
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Segedin"
+						set_province_name = {
+							id = 11659
+							name = "Debrezin"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 76
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Nordsiebenbürgen"
+						set_province_name = {
+							id = 6711
+							name = "Klausenburg"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 84
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Siebenbürgen"
+						set_province_name = {
+							id = 690
+							name = "Kronstadt"
+						}
+					}
+				}	
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 82
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Banat"
+						set_province_name = {
+							id = 9606
+							name = "Temeschburg"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 764
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Westliches Banat"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 905
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Komorn"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 70
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Pressburg"
+						set_province_name = {
+							id = 9692
+							name = "Pressburg"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 71
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Neusohl"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 902
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Preschau"
+						set_province_name = {
+							id = 3581
+							name = "Preschau"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 73
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Ungwar"
+						set_province_name = {
+							id = 3548
+							name = "Munkatsch"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 914
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Maramuresch"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 920
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Sutschawa"
+						set_province_name = {
+							id = 6761
+							name = "Sutschawa"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 80
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Buchenland"
+						set_province_name = {
+							id = 577
+							name = "Tschernowitz"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 89
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Stanislau"
+						set_province_name = {
+							id = 11411
+							name = "Stanislau"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 91
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Lemberg"
+						set_province_name = {
+							id = 11479
+							name = "Lemberg"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 912
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Rotrussland"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 88
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Krakau"
+						set_province_name = {
+							id = 9427
+							name = "Krakau"
+						}
+						set_province_name = {
+							id = 442
+							name = "Tarnau"
+						}						
+					}
+				}				
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 911
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Lemkenland"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 762
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Kattowitz"
+						set_province_name = {
+							id = 6464
+							name = "Kattowitz"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 67
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Oberschlesien"
+						set_province_name = {
+							id = 11467
+							name = "Gleiwitz"
+						}
+						set_province_name = {
+							id = 9511
+							name = "Oppeln"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 66
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Niederschlesien"
+						set_province_name = {
+							id = 9570
+							name = "Breslau"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 69
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Sudetenland"
+						set_province_name = {
+							id = 11401
+							name = "Reichenberg"
+						}
+						set_province_name = {
+							id = 3585
+							name = "Karlsbad"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 9
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Böhmen"
+						set_province_name = {
+							id = 11542
+							name = "Prag"
+						}
+						set_province_name = {
+							id = 9569
+							name = "Tabor"
+						}
+						set_province_name = {
+							id = 6418
+							name = "Pilsen"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 75
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Mähren"
+						set_province_name = {
+							id = 3569
+							name = "Brünn"
+						}
+						set_province_name = {
+							id = 6562
+							name = "Olmütz"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 74
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Ostsudeten"
+						set_province_name = {
+							id = 3583
+							name = "Mährisch-Ostrau"
+						}					
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 72
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Olsa-Gebiet"					
+					}
+				}				
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 10
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Warschau"
+						set_province_name = {
+							id = 3544
+							name = "Warschau"
+						}
+					}
+				}
+
+			}
+			
+			
+		}
+	
+	}
+	}
