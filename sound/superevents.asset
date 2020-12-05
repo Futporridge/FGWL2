@@ -28,3 +28,11 @@ soundeffect = {
 	}
 	volume = 1
 }
+
+soundeffect = {
+	name = "angelis_super"
+	sounds = {
+		sound = "angelis_super"
+	}
+	volume = 1
+}

@@ -23,3 +23,9 @@ sound = {
 	volume = 1
 	always_load = yes
 }
+sound = {
+	name = "angelis_super"
+	file = "menu/angelis_super.wav"
+	volume = 1
+	always_load = yes
+}

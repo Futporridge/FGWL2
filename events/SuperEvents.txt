@@ -136,8 +136,8 @@ country_event = {
 		name = super.8.a
 
         set_global_flag = Super_Event_Visible
-        set_global_flag = royalist_victory
-		sound_effect = ""
+        set_global_flag = angelis_united_germany
+		sound_effect = "angelis_super"
 	}
 }
 	

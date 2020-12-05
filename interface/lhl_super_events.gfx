@@ -20,13 +20,13 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_reshny_vicrory"
-		texturefile = "gfx/super_events/reshny_vicrory.dds"
+		name = "GFX_reshny_victory"
+		texturefile = "gfx/super_events/reshny_victory.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_nationalist_victory"
-		texturefile = "gfx/super_events/nationalist_victory.dds"
+		name = "GFX_angelis_victory"
+		texturefile = "gfx/super_events/angelis_victory.dds"
 	}
 	
 	spriteType = {

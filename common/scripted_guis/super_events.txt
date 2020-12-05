@@ -103,9 +103,9 @@ scripted_gui = {
 				
 				if = {
 					limit = {	
-						has_global_flag = nationalist_victory
+						has_global_flag = angelis_united_germany
 					}
-					clr_global_flag  = nationalist_victory
+					clr_global_flag  = angelis_united_germany
 				}
 				
 				if = {

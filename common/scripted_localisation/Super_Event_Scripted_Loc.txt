@@ -39,9 +39,9 @@ defined_text = { #SUPER EVENT CLOSE
 	
     text = { 
         trigger = {
-            has_global_flag = nationalist_victory
+            has_global_flag = angelis_united_germany
         }
-        localization_key = "GFX_nationalist_victory_CLOSE"
+        localization_key = "GFX_angelis_united_germany_CLOSE"
     }
 	
     text = { 
