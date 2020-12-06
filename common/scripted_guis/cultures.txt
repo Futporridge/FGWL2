@@ -38,6 +38,11 @@ scripted_gui = {
 			culture_iberian_basque_visible = {
 				check_variable = { nationality = 20 }
 			}
+		}
+		triggers = {
+			culture_east_slavic_polesian_visible = {
+				check_variable = { nationality = 21 } 
+			}
 		}		
 	}
 }

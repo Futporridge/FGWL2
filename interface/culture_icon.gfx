@@ -27,4 +27,8 @@ spriteTypes = {
 		name = "GFX_culture_latin_french"
 		texturefile = "gfx/interface/ideas/culture/culture_latin_french.dds"
 	}	
+	spriteType = {
+		name = "GFX_culture_east_slavic_polesian"
+		texturefile = "gfx/interface/ideas/culture/culture_east_slavic_polesian.dds"
+	}
 }

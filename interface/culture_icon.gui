@@ -51,6 +51,11 @@ guiTypes = {
 			spriteType = GFX_culture_iberian_basque
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}
-
+		iconType = {
+			name = "culture_east_slavic_polesian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_east_slavic_polesian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
 	}
 }

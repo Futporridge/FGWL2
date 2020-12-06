@@ -119,4 +119,24 @@ country_event = { #Basque Culture
 
 	}
 }
+country_event = { #Polesian Culture
+	id = CULTURE.21
+	immediate = {log = "[GetDateText]: [Root.GetName]: event CULTURE.21"}
+	title = CULTURE.21.t
+	desc = CULTURE.21.desc
+	picture = GFX_report_event_lithuania_army
+	fire_only_once = yes
+
+	hidden = yes
+
+	option = {
+		name = CULTURE.21.a
+
+		94 = { set_variable = { nationality = 21 } }	#Polesie
+		194 = { set_variable = { nationality = 21 } }	#Mozyr	
+		241 = { set_variable = { nationality = 21 } }	#Gomel		
+		
+
+	}
+}
 }
