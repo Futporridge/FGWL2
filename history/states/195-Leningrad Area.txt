@@ -2,14 +2,11 @@
 state={
 	id=195
 	name="STATE_195"
-	manpower = 775015
-	
-	state_category = town
 
 	history={
 		owner = KAL
 		victory_points = {
-			3151 5
+			3151 5 
 		}
 		buildings = {
 			infrastructure = 7
@@ -17,15 +14,21 @@ state={
 			industrial_complex = 1
 			dockyard = 3
 			air_base = 3
-			3151 ={
+			3151 = {
 				naval_base = 6
 				coastal_bunker = 5
+
 			}
+
 		}
 		add_core_of = KAL
+
 	}
 
 	provinces={
-		79 149 3151 6174 11068 
+		79 149 2332 3151 6174 11068 
 	}
+	manpower=775015
+	buildings_max_level_factor=1.000
+	state_category=town
 }
