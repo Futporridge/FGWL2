@@ -1,10 +1,9 @@
+
 state={
 	id=805
 	name="STATE_805"
-	provinces={
-		6862 9794 11751 
-	}
-		history={
+
+	history={
 		owner = POP
 		victory_points = {
 			11751 5 
@@ -27,7 +26,11 @@ state={
 		add_core_of = POP
 
 	}
-	state_category=town	
+
+	provinces={
+		3885 6862 9794 11751 
+	}
 	manpower=1278092
 	buildings_max_level_factor=1.000
+	state_category=town
 }
