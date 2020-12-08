@@ -1,11 +1,9 @@
 # renaming events trigger
-is_american_tag = {
+is_hungarian_tag = {
 	OR = {
-		tag = USA
-		tag = CSA
-		tag = TEX
-		tag = CAL
-		tag = NEE
+		tag = RHG
+		tag = HUN
+		tag = SLK
 	}
 }
 is_arab_tag = {

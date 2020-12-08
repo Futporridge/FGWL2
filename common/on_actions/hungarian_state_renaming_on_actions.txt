@@ -1,0 +1,430 @@
+on_actions = {
+	on_state_control_changed = {
+		effect = {
+			#Hungarian Names
+			
+			if = {
+				limit = {
+					ROOT = {
+						OR = {
+					is_hungarian_tag = yes
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 892
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Pest"
+						set_province_name = {
+							id = 9660
+							name = "Budapest"
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 45
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Vajdaság"
+						set_province_name = {
+							id = 619
+							name = "Újvidék"
+						}						
+					}
+				}				
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 764
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Torontál"						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 82
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Bánság"
+						set_province_name = {
+							id = 9606
+							name = "Temesvár"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 913
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Baranya"
+						set_province_name = {
+							id = 11610
+							name = "Pécs"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 155
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Tolnau"						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 900
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Győr"
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 899
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Fehérvár"						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 905
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Komárom"						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 893
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Bácska"					
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 70
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Pozsony"
+						set_province_name = {
+							id = 9692
+							name = "Pozsony"
+						}
+						set_province_name = {
+							id = 11539
+							name = "Zsolna"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 71
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Besztercebánya"					
+					}
+				}		
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 902
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Eperjes"
+						set_province_name = {
+							id = 3581
+							name = "Eperjes"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 73
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Ungvár"
+						set_province_name = {
+							id = 3548
+							name = "Ungvár"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 914
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Máramaros"					
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 43
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Miskolc"
+						set_province_name = {
+							id = 6573
+							name = "Kassa"
+						}											
+					}
+				}					
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 154
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Alföld"
+						set_province_name = {
+							id = 11659
+							name = "Debrecen"
+						}							
+					}
+				}				
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 83
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Körösvidék"
+						set_province_name = {
+							id = 6682
+							name = "Arad"
+						}					
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 76
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Észak-Erdély"
+						set_province_name = {
+							id = 6711
+							name = "Kolozsvár "
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 84
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Erdély"
+						set_province_name = {
+							id = 690
+							name = "Brassó"
+						}					
+					}
+				}					
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 910
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Muravidék"					
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 109
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Horvát"
+						set_province_name = {
+							id = 11581
+							name = "Zágráb"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 894
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Szlavónia"						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 807
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Kvarner-Öböl"						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 896
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Hercegovina"						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 901
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Vrhbosna"
+						set_province_name = {
+							id = 11899
+							name = "Vrhbosna"
+						}						
+					}
+				}	
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 104
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Bosznia"						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 887
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Várvidék"	
+						set_province_name = {
+							id = 3700
+							name = "Kismarton"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 889
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Bécs"	
+						set_province_name = {
+							id = 6739
+							name = "Bécs"
+						}						
+					}
+				}				
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 107
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Nándorfehérvár"
+						set_province_name = {
+							id = 11586
+							name = "Nándorfehérvár"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 895 
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Szerémség"						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 909 
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Fiume"
+						set_province_name = {
+							id = 6681
+							name = "Fiume"
+						}						
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							state = 897 
+						}
+					}
+					FROM.FROM = {
+						set_state_name = "Bosnyák Krajina"
+						set_province_name = {
+							id = 6983
+							name = "Orbászvár"
+						}						
+					}
+				}					
+			}
+			
+			
+		}
+	
+	}
+	}
