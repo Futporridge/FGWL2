@@ -1,16 +1,18 @@
-capital = 292
+capital = 458
 
-OOB = "ARA_1936"
+OOB = "CRT_1936"
 
 set_technology = {
 	infantry_weapons = 1
 	tech_support = 1
 	tech_recon = 1
 }
+add_ideas = {
 
+}
 
 set_politics = {
-	ruling_party = reactionary
+	ruling_party = paternalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -20,9 +22,9 @@ set_popularities = {
 	utopism = 0
 	prometeism = 0
 	communitarianism = 0
-	oligarchy = 20
-	conservatism = 60
-	paternalism = 20
+	oligarchy = 0
+	conservatism = 0
+	paternalism = 100
 	reactionary = 0
 }
 
@@ -33,11 +35,11 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Saūd bin Abd al-Azīz"
-	desc = "POLITICS_SAUD_BIN_ABDULAZIZ_DESC"
-	picture = "gfx/leaders/ARA/Portrait_Saud_bin_Abdulaziz.tga"
+	name = "Marcel Peyrouton"
+	desc = "POLITICS_MARCEL_PEYROUTON_DESC"
+	picture = "gfx/leaders/CRT/Portrait_Marcel_Peyrouton.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = paternalism
 	traits = { 
 
 	}

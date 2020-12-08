@@ -1,6 +1,6 @@
-capital = 292
+capital = 679
 
-OOB = "ARA_1936"
+OOB = "HSH_1936"
 
 set_technology = {
 	infantry_weapons = 1
@@ -33,9 +33,9 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Saūd bin Abd al-Azīz"
-	desc = "POLITICS_SAUD_BIN_ABDULAZIZ_DESC"
-	picture = "gfx/leaders/ARA/Portrait_Saud_bin_Abdulaziz.tga"
+	name = "Abdullah ibn Al-Husayn"
+	desc = "POLITICS_ABDULLAH_IBN_AL_HUSAYN_DESC"
+	picture = "gfx/leaders/HSH/Portrait_Abdullah_I.tga"
 	expire = "1965.1.1"
 	ideology = reactionary
 	traits = { 

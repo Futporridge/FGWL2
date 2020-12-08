@@ -1,0 +1,19 @@
+state={
+	id=935
+	name="STATE_935"
+	provinces={
+		4562 4603 5099 7970 8101 10815 10901 11976 12455 
+	}
+	history={
+		owner = HSH
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = HSH
+
+	}	
+	manpower=102500
+	state_category=pastoral	
+	buildings_max_level_factor=1.000
+}
