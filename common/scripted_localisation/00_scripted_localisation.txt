@@ -53,4 +53,46 @@ defined_text = {
 		}
 		localization_key = var_nationality_20
 	}	
+	text = {
+		trigger = {
+			check_variable = { nationality = 21 }
+		}
+		localization_key = var_nationality_21
+	}	
+	text = {
+		trigger = {
+			check_variable = { nationality = 22 }
+		}
+		localization_key = var_nationality_22
+	}	
+	text = {
+		trigger = {
+			check_variable = { nationality = 23 }
+		}
+		localization_key = var_nationality_23
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 24 }
+		}
+		localization_key = var_nationality_24
+	}	
+	text = {
+		trigger = {
+			check_variable = { nationality = 25 }
+		}
+		localization_key = var_nationality_25
+	}	
+	text = {
+		trigger = {
+			check_variable = { nationality = 26 }
+		}
+		localization_key = var_nationality_26
+	}	
+	text = {
+		trigger = {
+			check_variable = { nationality = 27 }
+		}
+		localization_key = var_nationality_27
+	}	
 }

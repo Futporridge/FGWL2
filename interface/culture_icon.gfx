@@ -31,4 +31,28 @@ spriteTypes = {
 		name = "GFX_culture_east_slavic_polesian"
 		texturefile = "gfx/interface/ideas/culture/culture_east_slavic_polesian.dds"
 	}
+	spriteType = {
+		name = "GFX_culture_east_slavic_galician"
+		texturefile = "gfx/interface/ideas/culture/culture_east_slavic_galician.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_east_slavic_ruthenian"
+		texturefile = "gfx/interface/ideas/culture/culture_east_slavic_ruthenian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_east_slavic_khartzizian"
+		texturefile = "gfx/interface/ideas/culture/culture_east_slavic_khartzizian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_east_slavic_bjelorussian"
+		texturefile = "gfx/interface/ideas/culture/culture_east_slavic_bjelorussian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_east_slavic_russian"
+		texturefile = "gfx/interface/ideas/culture/culture_east_slavic_russian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_germanic_bosporic"
+		texturefile = "gfx/interface/ideas/culture/culture_germanic_bosporic.dds"
+	}
 }

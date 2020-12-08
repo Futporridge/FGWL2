@@ -43,6 +43,36 @@ scripted_gui = {
 			culture_east_slavic_polesian_visible = {
 				check_variable = { nationality = 21 } 
 			}
+		}
+		triggers = {
+			culture_east_slavic_galician_visible = {
+				check_variable = { nationality = 22 } 
+			}
+		}	
+		triggers = {
+			culture_east_slavic_ruthenian_visible = {
+				check_variable = { nationality = 23 } 
+			}
+		}
+		triggers = {
+			culture_east_slavic_khartzizian_visible = {
+				check_variable = { nationality = 24 } 
+			}
+		}
+		triggers = {
+			culture_east_slavic_bjelorussian_visible = {
+				check_variable = { nationality = 25 } 
+			}
+		}	
+		triggers = {
+			culture_east_slavic_russian_visible = {
+				check_variable = { nationality = 26 } 
+			}
+		}
+		triggers = {
+			culture_germanic_bosporic_visible = {
+				check_variable = { nationality = 27 } 
+			}
 		}		
 	}
 }

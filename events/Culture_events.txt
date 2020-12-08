@@ -135,8 +135,128 @@ country_event = { #Polesian Culture
 		94 = { set_variable = { nationality = 21 } }	#Polesie
 		194 = { set_variable = { nationality = 21 } }	#Mozyr	
 		241 = { set_variable = { nationality = 21 } }	#Gomel		
-		
+	}
+}
+
+country_event = { #Galician Culture
+	id = CULTURE.22
+	immediate = {log = "[GetDateText]: [Root.GetName]: event CULTURE.22"}
+	title = CULTURE.22.t
+	desc = CULTURE.22.desc
+	picture = GFX_report_event_lithuania_army
+	fire_only_once = yes
+
+	hidden = yes
+
+	option = {
+		name = CULTURE.22.a
+
+		912 = { set_variable = { nationality = 22 } }	#Red Russia
+		163 = { set_variable = { nationality = 22 } }	#Lublin	
+		89 = { set_variable = { nationality = 22 } }	#Stanislau
+		91 = { set_variable = { nationality = 22 } }	#Lemberg		
+		80 = { set_variable = { nationality = 22 } }	#Bukovina		
+		93 = { set_variable = { nationality = 22 } }	#Volyn		
+		199 = { set_variable = { nationality = 22 } }	#Podolje			
+	}
+}
+
+country_event = { #Ruthenian Culture
+	id = CULTURE.23
+	immediate = {log = "[GetDateText]: [Root.GetName]: event CULTURE.23"}
+	title = CULTURE.23.t
+	desc = CULTURE.23.desc
+	picture = GFX_report_event_lithuania_army
+	fire_only_once = yes
+
+	hidden = yes
+
+	option = {
+		name = CULTURE.21.a
+
+		198 = { set_variable = { nationality = 23 } }	#Vinnitza
+		192 = { set_variable = { nationality = 23 } }	#Odessa	
+		203 = { set_variable = { nationality = 23 } }	#Usovka
+		202 = { set_variable = { nationality = 23 } }	#Kiev		
+		201 = { set_variable = { nationality = 23 } }	#Zhitomir		
+		226 = { set_variable = { nationality = 23 } }	#Krivoj Rog		
+	}
+}
+
+country_event = { #Khartzizian Culture
+	id = CULTURE.24
+	immediate = {log = "[GetDateText]: [Root.GetName]: event CULTURE.24"}
+	title = CULTURE.23.t
+	desc = CULTURE.23.desc
+	picture = GFX_report_event_lithuania_army
+	fire_only_once = yes
+
+	hidden = yes
+
+	option = {
+		name = CULTURE.21.a
+
+		196 = { set_variable = { nationality = 24 } }	#Khersones
+		200 = { set_variable = { nationality = 24 } }	#Zaporozhie	
+	}
+}
+
+
+country_event = { #Bjelorussian Culture
+	id = CULTURE.25
+	immediate = {log = "[GetDateText]: [Root.GetName]: event CULTURE.25"}
+	title = CULTURE.23.t
+	desc = CULTURE.23.desc
+	picture = GFX_report_event_lithuania_army
+	fire_only_once = yes
+
+	hidden = yes
+
+	option = {
+		name = CULTURE.21.a
+
+		204 = { set_variable = { nationality = 25 } }	#Bobrujsk
+		206 = { set_variable = { nationality = 25 } }	#Mensk	
+		207 = { set_variable = { nationality = 25 } }	#Vitebsk	
+		664 = { set_variable = { nationality = 25 } }	#Podneprovje	
 
 	}
 }
+
+country_event = { #Russian Culture
+	id = CULTURE.26
+	immediate = {log = "[GetDateText]: [Root.GetName]: event CULTURE.26"}
+	title = CULTURE.23.t
+	desc = CULTURE.23.desc
+	picture = GFX_report_event_lithuania_army
+	fire_only_once = yes
+
+	hidden = yes
+
+	option = {
+		name = CULTURE.21.a
+
+		242 = { set_variable = { nationality = 26 } }	#Smallensk
+		243 = { set_variable = { nationality = 26 } }	#Roslavl	
+		849 = { set_variable = { nationality = 26 } }	#Surozh	
+		193 = { set_variable = { nationality = 26 } }	#Chernigoff	
+		197 = { set_variable = { nationality = 26 } }	#Poltava	
+	}
+}
+
+country_event = { #Bosporic Culture
+	id = CULTURE.27
+	immediate = {log = "[GetDateText]: [Root.GetName]: event CULTURE.27"}
+	title = CULTURE.23.t
+	desc = CULTURE.23.desc
+	picture = GFX_report_event_lithuania_army
+	fire_only_once = yes
+
+	hidden = yes
+
+	option = {
+		name = CULTURE.21.a
+
+		227 = { set_variable = { nationality = 27 } }	#Dike Pole	
+	}
 }

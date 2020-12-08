@@ -57,5 +57,41 @@ guiTypes = {
 			spriteType = GFX_culture_east_slavic_polesian
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}
+		iconType = {
+			name = "culture_east_slavic_galician"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_east_slavic_galician
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_east_slavic_ruthenian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_east_slavic_ruthenian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_east_slavic_khartzizian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_east_slavic_khartzizian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_east_slavic_bjelorussian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_east_slavic_bjelorussian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_east_slavic_russian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_east_slavic_russian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_germanic_bosporic"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_germanic_bosporic
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
 	}
 }
