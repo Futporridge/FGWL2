@@ -260,3 +260,19 @@ country_event = { #Bosporic Culture
 		227 = { set_variable = { nationality = 27 } }	#Dike Pole	
 	}
 }
+country_event = { #Bosnjaki
+	id = CULTURE.28
+	immediate = {log = "[GetDateText]: [Root.GetName]: event CULTURE.27"}
+	title = CULTURE.23.t
+	desc = CULTURE.23.desc
+	picture = GFX_report_event_lithuania_army
+	fire_only_once = yes
+
+	hidden = yes
+
+	option = {
+		name = CULTURE.21.a
+
+		901 = { set_variable = { nationality = 28 } }	#Oberbosna	
+	}
+}

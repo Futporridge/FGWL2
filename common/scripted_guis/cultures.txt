@@ -20,6 +20,56 @@ scripted_gui = {
 			}
 		}
 		triggers = {
+			culture_east_german_gothian_visible = {
+				check_variable = { nationality = 3 }
+			}
+		}		
+		triggers = {
+			culture_west_german_austrian_visible = {
+				check_variable = { nationality = 4 }
+			}
+		}		
+		triggers = {
+			culture_west_german_bavarian_visible = {
+				check_variable = { nationality = 5 }
+			}
+		}		
+		triggers = {
+			culture_west_german_danube_visible = {
+				check_variable = { nationality = 6 }
+			}
+		}		
+		triggers = {
+			culture_west_german_holstein_visible = {
+				check_variable = { nationality = 7 }
+			}
+		}				
+		triggers = {
+			culture_west_german_mecklenburgian_visible = {
+				check_variable = { nationality = 8 }
+			}
+		}		
+		triggers = {
+			culture_west_german_pomeranian_visible = {
+				check_variable = { nationality = 9 }
+			}
+		}		
+		triggers = {
+			culture_west_german_saxon_visible = {
+				check_variable = { nationality = 10 }
+			}
+		}		
+		triggers = {
+			culture_west_german_schweizerish_visible = {
+				check_variable = { nationality = 11 }
+			}
+		}		
+		triggers = {
+			culture_west_german_sudete_visible = {
+				check_variable = { nationality = 12 }
+			}
+		}				
+		triggers = {
 			culture_baltic_latvian_visible = {
 				check_variable = { nationality = 13 }
 			}
@@ -73,6 +123,11 @@ scripted_gui = {
 			culture_germanic_bosporic_visible = {
 				check_variable = { nationality = 27 } 
 			}
-		}		
+		}
+		triggers = {
+			culture_south_slavic_bosnian_visible = {
+				check_variable = { nationality = 28 } 
+			}
+		}				
 	}
 }
