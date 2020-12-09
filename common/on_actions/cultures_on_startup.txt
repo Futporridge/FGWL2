@@ -12,6 +12,44 @@ on_actions = {
 		190 = { set_variable = { nationality = 2 } }	#Kurzeme
 		13 = { set_variable = { nationality = 2 } }		#Harju	
 		812 = { set_variable = { nationality = 2 } }	#Saarema
+		#gothian
+		137 = { set_variable = { nationality = 3 } }	#Theodoro
+		854 = { set_variable = { nationality = 3 } }	#Matracha
+		#austrian
+		889 = { set_variable = { nationality = 4 } }	#Wien
+		888 = { set_variable = { nationality = 4 } }	#Carinthia		
+		4 = { set_variable = { nationality = 4 } }	#Lower Austria
+		152 = { set_variable = { nationality = 4 } }	#Upper Austria	
+		886 = { set_variable = { nationality = 4 } }	#Styria
+		887 = { set_variable = { nationality = 4 } }	#Burgenland
+		#bavarian
+		52 = { set_variable = { nationality = 5 } }	#Oberbayern
+		53 = { set_variable = { nationality = 5 } }	#Niederbayern	
+		890 = { set_variable = { nationality = 5 } }	#Salzburg		
+		#danube german
+		82 = { set_variable = { nationality = 6 } }	#Banat
+		764 = { set_variable = { nationality = 6 } }	#West Banat	
+		#holsteinian
+		58 = { set_variable = { nationality = 7 } }	#Holstein
+		823 = { set_variable = { nationality = 7 } }	#Schelwzig		
+		#mecklenburg
+		826 = { set_variable = { nationality = 8 } }	#Rugen
+		62 = { set_variable = { nationality = 8 } }	#Mecklenburg-Sterlitz		
+		61 = { set_variable = { nationality = 8 } }	#Mecklenburg		
+		821 = { set_variable = { nationality = 8 } }	#Lubeck	
+		#pomeranian
+		63 = { set_variable = { nationality = 9 } }	#Hinternpommern
+		827 = { set_variable = { nationality = 9 } }	#Stettin			
+		#saxon
+		65 = { set_variable = { nationality = 10 } }	#Saxonia
+		60 = { set_variable = { nationality = 10 } }	#Weimar			
+		#swiss
+		151 = { set_variable = { nationality = 11 } }	#Zurich
+		3 = { set_variable = { nationality = 11 } }	#Bern
+		903 = { set_variable = { nationality = 11 } }	#Voralberg	
+		#sudeten
+		69 = { set_variable = { nationality = 12 } }	#Sudetenland
+		74 = { set_variable = { nationality = 12 } }	#Ostsudeten			
 		#latvian
 		808 = { set_variable = { nationality = 13 } }	#Selija
 		809 = { set_variable = { nationality = 13 } }	#Latgale		
@@ -26,24 +64,13 @@ on_actions = {
 		209 = { set_variable = { nationality = 16 } }	#Pskov
 		850 = { set_variable = { nationality = 16 } }	#Porchow		
 		210 = { set_variable = { nationality = 16 } }	#Nevel
-		#russian
-		242 = { set_variable = { nationality = 26 } }	#Smallensk
-		243 = { set_variable = { nationality = 26 } }	#Roslavl	
-		849 = { set_variable = { nationality = 26 } }	#Surozh	
-		193 = { set_variable = { nationality = 26 } }	#Chernigoff	
-		197 = { set_variable = { nationality = 26 } }	#Poltava	
-		#bosnjak
-		901 = { set_variable = { nationality = 28 } }	#Oberbosna			
-		#bosporic german
-		227 = { set_variable = { nationality = 27 } }	#Dike Pole		
-		#bjelorussian
-		204 = { set_variable = { nationality = 25 } }	#Bobrujsk
-		206 = { set_variable = { nationality = 25 } }	#Mensk	
-		207 = { set_variable = { nationality = 25 } }	#Vitebsk	
-		664 = { set_variable = { nationality = 25 } }	#Podneprovje
-		#khartzian
-		196 = { set_variable = { nationality = 24 } }	#Khersones
-		200 = { set_variable = { nationality = 24 } }	#Zaporozhie			
+		#basque
+		861 = { set_variable = { nationality = 20 } }	#Basse-Navarre
+		172 = { set_variable = { nationality = 20 } }	#Navarre		
+		#polesian
+		94 = { set_variable = { nationality = 21 } }	#Polesie
+		194 = { set_variable = { nationality = 21 } }	#Mozyr	
+		241 = { set_variable = { nationality = 21 } }	#Gomel	
 		#galician
 		912 = { set_variable = { nationality = 22 } }	#Red Russia
 		163 = { set_variable = { nationality = 22 } }	#Lublin	
@@ -52,13 +79,6 @@ on_actions = {
 		80 = { set_variable = { nationality = 22 } }	#Bukovina		
 		93 = { set_variable = { nationality = 22 } }	#Volyn		
 		199 = { set_variable = { nationality = 22 } }	#Podolje			
-		#polesian
-		94 = { set_variable = { nationality = 21 } }	#Polesie
-		194 = { set_variable = { nationality = 21 } }	#Mozyr	
-		241 = { set_variable = { nationality = 21 } }	#Gomel	
-		#basque
-		861 = { set_variable = { nationality = 20 } }	#Basse-Navarre
-		172 = { set_variable = { nationality = 20 } }	#Navarre			
 		#ruthenian
 		198 = { set_variable = { nationality = 23 } }	#Vinnitza
 		192 = { set_variable = { nationality = 23 } }	#Odessa	
@@ -66,7 +86,25 @@ on_actions = {
 		202 = { set_variable = { nationality = 23 } }	#Kiev		
 		201 = { set_variable = { nationality = 23 } }	#Zhitomir		
 		226 = { set_variable = { nationality = 23 } }	#Krivoj Rog					
-			
+		#khartzian
+		196 = { set_variable = { nationality = 24 } }	#Khersones
+		200 = { set_variable = { nationality = 24 } }	#Zaporozhie		
+		#bjelorussian
+		204 = { set_variable = { nationality = 25 } }	#Bobrujsk
+		206 = { set_variable = { nationality = 25 } }	#Mensk	
+		207 = { set_variable = { nationality = 25 } }	#Vitebsk	
+		664 = { set_variable = { nationality = 25 } }	#Podneprovje	
+		#russian
+		242 = { set_variable = { nationality = 26 } }	#Smallensk
+		243 = { set_variable = { nationality = 26 } }	#Roslavl	
+		849 = { set_variable = { nationality = 26 } }	#Surozh	
+		193 = { set_variable = { nationality = 26 } }	#Chernigoff	
+		197 = { set_variable = { nationality = 26 } }	#Poltava		
+		#bosporic german
+		227 = { set_variable = { nationality = 27 } }	#Dike Pole				
+		#bosnjak
+		901 = { set_variable = { nationality = 28 } }	#Oberbosna			
+	
 		}
 	
 	}
