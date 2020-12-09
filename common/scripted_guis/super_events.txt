@@ -39,8 +39,8 @@ scripted_gui = {
 		}
 		
 		triggers = {
-			Super_Event_nationalist_victory_visible = {
-				has_global_flag  = nationalist_victory
+			Super_Event_angelis_united_germany_visible = {
+				has_global_flag  = angelis_united_germany
 			}
 		}
 		
