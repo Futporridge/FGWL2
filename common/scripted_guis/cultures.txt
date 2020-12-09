@@ -73,7 +73,12 @@ scripted_gui = {
 			culture_baltic_latvian_visible = {
 				check_variable = { nationality = 13 }
 			}
-		}	
+		}
+		triggers = {
+			culture_baltic_lithuanian_visible = {
+				check_variable = { nationality = 14 }
+			}
+		}			
 		triggers = {
 			culture_finno_ugric_estonian_visible = {
 				check_variable = { nationality = 15 }
@@ -82,6 +87,21 @@ scripted_gui = {
 		triggers = {
 			culture_east_slavic_skobari_visible = {
 				check_variable = { nationality = 16 }
+			}
+		}
+			triggers = {
+			culture_altaic_pontic_tatar_visible = {
+				check_variable = { nationality = 17 }
+			}
+		}
+		triggers = {
+			culture_altaic_turkic_visible = {
+				check_variable = { nationality = 18 }
+			}
+		}
+		triggers = {
+			culture_celt_breton_visible = {
+				check_variable = { nationality = 19 }
 			}
 		}
 		triggers = {
@@ -128,6 +148,191 @@ scripted_gui = {
 			culture_south_slavic_bosnian_visible = {
 				check_variable = { nationality = 28 } 
 			}
-		}				
+		}	
+		triggers = {
+			culture_east_romanian_vlach_visible = {
+				check_variable = { nationality = 29 } 
+			}
+		}
+		triggers = {
+			culture_east_slavic_carpathian_ruthenian_visible = {
+				check_variable = { nationality = 30 } 
+			}
+		}
+		triggers = {
+			culture_finno_ugric_hungarian_visible = {
+				check_variable = { nationality = 31 } 
+			}
+		}
+		triggers = {
+			culture_french_arpitan_visible = {
+				check_variable = { nationality = 32 } 
+			}
+		}
+		triggers = {
+			culture_french_french_visible = {
+				check_variable = { nationality = 33 } 
+			}
+		}
+		triggers = {
+			culture_french_gasconian_visible = {
+				check_variable = { nationality = 34 } 
+			}
+		}
+		triggers = {
+			culture_french_occitanian_visible = {
+				check_variable = { nationality = 35 } 
+			}
+		}
+		triggers = {
+			culture_italian_central_visible = {
+				check_variable = { nationality = 36 } 
+			}
+		}	
+		triggers = {
+			culture_italian_corsican_visible = {
+				check_variable = { nationality = 37 } 
+			}
+		}
+		triggers = {
+			culture_italian_lombardian_visible = {
+				check_variable = { nationality = 38 } 
+			}
+		}
+		triggers = {
+			culture_italian_sardinian_visible = {
+				check_variable = { nationality = 39 } 
+			}
+		}
+		triggers = {
+			culture_italian_savoyard_visible = {
+				check_variable = { nationality = 40 } 
+			}
+		}
+		triggers = {
+			culture_italian_sicilian_visible = {
+				check_variable = { nationality = 41 } 
+			}
+		}
+		triggers = {
+			culture_italian_tuscany_visible = {
+				check_variable = { nationality = 42 } 
+			}
+		}
+		triggers = {
+			culture_italian_venetian_visible = {
+				check_variable = { nationality = 43 } 
+			}
+		}
+		triggers = {
+			culture_north_caucasian_zyxian_visible = {
+				check_variable = { nationality = 44 } 
+			}
+		}
+		triggers = {
+			culture_outremer_latin_visible = {
+				check_variable = { nationality = 45 } 
+			}
+		}
+		triggers = {
+			culture_paleo_balkan_cilician_visible = {
+				check_variable = { nationality = 46 } 
+			}
+		}
+		triggers = {
+			culture_paleo_balkan_greek_visible = {
+				check_variable = { nationality = 47 } 
+			}
+		}
+		triggers = {
+			culture_paleo_balkan_greek_pontic_visible = {
+				check_variable = { nationality = 48 } 
+			}
+		}
+		triggers = {
+			culture_paleo_balkan_maniot_visible = {
+				check_variable = { nationality = 49 } 
+			}
+		}
+		triggers = {
+			culture_retian_visible = {
+				check_variable = { nationality = 51 } 
+			}
+		}
+		triggers = {
+			culture_semite_alawite_visible = {
+				check_variable = { nationality = 52 } 
+			}
+		}
+		triggers = {
+			culture_semite_arabic_visible = {
+				check_variable = { nationality = 53 } 
+			}
+		}
+		triggers = {
+			culture_semite_aramean_visible = {
+				check_variable = { nationality = 54 } 
+			}
+		}
+		triggers = {
+			culture_semite_druze_visible = {
+				check_variable = { nationality = 55 } 
+			}
+		}
+		triggers = {
+			culture_semite_jewish_visible = {
+				check_variable = { nationality = 56 } 
+			}
+		}
+		triggers = {
+			culture_semite_phoenician_visible = {
+				check_variable = { nationality = 57 } 
+			}
+		}	
+		triggers = {
+			culture_south_slavic_bulgarian_visible = {
+				check_variable = { nationality = 58 } 
+			}
+		}		
+		triggers = {
+			culture_south_slavic_croatian_visible = {
+				check_variable = { nationality = 59 } 
+			}
+		}
+		triggers = {
+			culture_south_slavic_serbian_visible = {
+				check_variable = { nationality = 60 } 
+			}
+		}
+		triggers = {
+			culture_south_slavic_slovenian_visible = {
+				check_variable = { nationality = 61 } 
+			}
+		}
+		triggers = {
+			culture_spanish_catalonian_visible = {
+				check_variable = { nationality = 62 } 
+			}
+		}		
+		triggers = {
+			culture_west_slavic_czech_visible = {
+				check_variable = { nationality = 63 } 
+			}
+		}	
+		triggers = {
+			culture_west_slavic_polish_visible = {
+				check_variable = { nationality = 64 } 
+			}
+		}
+		triggers = {
+			culture_west_slavic_silesian_visible = {
+				check_variable = { nationality = 65 } 
+			}
+		}		
+		triggers = {
+			culture_west_slavic_slovak_visible = {
+				check_variable = { nationality = 66 } 
+			}
+		}		
 	}
 }

@@ -92,7 +92,6 @@ on_actions = {
 		#bjelorussian
 		204 = { set_variable = { nationality = 25 } }	#Bobrujsk
 		206 = { set_variable = { nationality = 25 } }	#Mensk	
-		207 = { set_variable = { nationality = 25 } }	#Vitebsk	
 		664 = { set_variable = { nationality = 25 } }	#Podneprovje	
 		#russian
 		242 = { set_variable = { nationality = 26 } }	#Smallensk
@@ -104,8 +103,22 @@ on_actions = {
 		227 = { set_variable = { nationality = 27 } }	#Dike Pole				
 		#bosnjak
 		901 = { set_variable = { nationality = 28 } }	#Oberbosna			
-	
+		#lithuanian
+		189 = { set_variable = { nationality = 14 } }	#Shaulaj	
+		11 = { set_variable = { nationality = 14 } }	#Kovno			
+		784 = { set_variable = { nationality = 14 } }	#Vilno			
+		95 = { set_variable = { nationality = 14 } }	#Baranowichi			
+		96 = { set_variable = { nationality = 14 } }	#Wilejka	
+		#Pontic Tatars
+		234 = { set_variable = { nationality = 17 } }	#Tartaria	
+		#Turks
+		49 = { set_variable = { nationality = 18 } }	#Galatia	
+		346 = { set_variable = { nationality = 18 } }	#Pisidija
+		348 = { set_variable = { nationality = 18 } }	#Kaisereja	
+		349 = { set_variable = { nationality = 18 } }	#Sebasteja	
+		#Bretons
+		14 = { set_variable = { nationality = 19 } }	#Loire	
+		30 = { set_variable = { nationality = 19 } }	#Brittany
 		}
-	
 	}
-	}
+}

@@ -99,4 +99,166 @@ spriteTypes = {
 		name = "GFX_culture_german_sudete"
 		texturefile = "gfx/interface/ideas/culture/culture_german_sudete.dds"
 	}	
+	spriteType = {
+		name = "GFX_culture_baltic_lithuanian"
+		texturefile = "gfx/interface/ideas/culture/culture_baltic_lithuanian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_altaic_pontic_tatar"
+		texturefile = "gfx/interface/ideas/culture/culture_altaic_pontic_tatar.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_altaic_turkic"
+		texturefile = "gfx/interface/ideas/culture/culture_altaic_turkic.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_celt_breton"
+		texturefile = "gfx/interface/ideas/culture/culture_celt_breton.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_culture_east_romanian_vlach"
+		texturefile = "gfx/interface/ideas/culture/culture_east_romanian_vlach.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_east_slavic_carpathian_ruthenian"
+		texturefile = "gfx/interface/ideas/culture/culture_east_slavic_carpathian_ruthenian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_finno_ugric_hungarian"
+		texturefile = "gfx/interface/ideas/culture/culture_finno_ugric_hungarian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_french_arpitan"
+		texturefile = "gfx/interface/ideas/culture/culture_french_arpitan.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_french_french"
+		texturefile = "gfx/interface/ideas/culture/culture_french_french.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_french_gasconian"
+		texturefile = "gfx/interface/ideas/culture/culture_french_gasconian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_french_occitanian"
+		texturefile = "gfx/interface/ideas/culture/culture_french_occitanian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_italian_central"
+		texturefile = "gfx/interface/ideas/culture/culture_italian_central.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_italian_corsican"
+		texturefile = "gfx/interface/ideas/culture/culture_italian_corsican.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_italian_lombardian"
+		texturefile = "gfx/interface/ideas/culture/culture_italian_lombardian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_italian_sardinian"
+		texturefile = "gfx/interface/ideas/culture/culture_italian_sardinian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_italian_savoyard"
+		texturefile = "gfx/interface/ideas/culture/culture_italian_savoyard.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_italian_sicilian"
+		texturefile = "gfx/interface/ideas/culture/culture_italian_sicilian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_italian_tuscany"
+		texturefile = "gfx/interface/ideas/culture/culture_italian_tuscany.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_italian_venetian"
+		texturefile = "gfx/interface/ideas/culture/culture_italian_venetian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_north_caucasian_zyxian"
+		texturefile = "gfx/interface/ideas/culture/culture_north_caucasian_zyxian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_outremer_latin"
+		texturefile = "gfx/interface/ideas/culture/culture_outremer_latin.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_paleo_balkan_cilician"
+		texturefile = "gfx/interface/ideas/culture/culture_paleo_balkan_cilician.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_paleo_balkan_greek"
+		texturefile = "gfx/interface/ideas/culture/culture_paleo_balkan_greek.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_paleo_balkan_greek_pontic"
+		texturefile = "gfx/interface/ideas/culture/culture_paleo_balkan_greek_pontic.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_paleo_balkan_maniot"
+		texturefile = "gfx/interface/ideas/culture/culture_paleo_balkan_maniot.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_retian"
+		texturefile = "gfx/interface/ideas/culture/culture_retian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_semite_alawite"
+		texturefile = "gfx/interface/ideas/culture/culture_semite_alawite.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_semite_arabic"
+		texturefile = "gfx/interface/ideas/culture/culture_semite_arabic.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_semite_aramean"
+		texturefile = "gfx/interface/ideas/culture/culture_semite_aramean.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_semite_druze"
+		texturefile = "gfx/interface/ideas/culture/culture_semite_druze.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_semite_jewish"
+		texturefile = "gfx/interface/ideas/culture/culture_semite_jewish.dds"
+	}
+	spriteType = {
+		name = "GFX_semite_phoenician"
+		texturefile = "gfx/interface/ideas/culture/culture_semite_phoenician.dds"
+	}
+	spriteType = {
+		name = "GFX_south_slavic_bulgarian"
+		texturefile = "gfx/interface/ideas/culture/culture_south_slavic_bulgarian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_south_slavic_serbian"
+		texturefile = "gfx/interface/ideas/culture/culture_south_slavic_serbian.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_south_slavic_slovenian"
+		texturefile = "gfx/interface/ideas/culture/culture_south_slavic_slovenian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_spanish_catalonian"
+		texturefile = "gfx/interface/ideas/culture/culture_spanish_catalonian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_west_slavic_czech"
+		texturefile = "gfx/interface/ideas/culture/culture_west_slavic_czech.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_west_slavic_polish"
+		texturefile = "gfx/interface/ideas/culture/culture_west_slavic_polish.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_west_slavic_silesian"
+		texturefile = "gfx/interface/ideas/culture/culture_west_slavic_silesian.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_west_slavic_slovak"
+		texturefile = "gfx/interface/ideas/culture/culture_west_slavic_slovak.dds"
+	}
 }
