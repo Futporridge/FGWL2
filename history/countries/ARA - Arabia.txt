@@ -1,4 +1,4 @@
-capital = 679
+capital = 292
 
 OOB = "ARA_1936"
 
@@ -33,9 +33,9 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Friedrich Christian von Sachsen"
-	desc = "POLITICS_GEORG_VON_SACHSEN_DESC"
-	picture = "gfx/leaders/SAX/Portrait_Friedrich_Christian.tga"
+	name = "Saūd bin Abd al-Azīz"
+	desc = "POLITICS_SAUD_BIN_ABDULAZIZ_DESC"
+	picture = "gfx/leaders/ARA/Portrait_Saud_bin_Abdulaziz.tga"
 	expire = "1965.1.1"
 	ideology = reactionary
 	traits = { 
