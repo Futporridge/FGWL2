@@ -16,7 +16,6 @@ defined_text = {
 		}
 		localization_key = var_nationality_0
 	}
-
 	text = {
 		trigger = {
 			check_variable = { nationality = 1 }
@@ -79,12 +78,6 @@ defined_text = {
 	}	
 	text = {
 		trigger = {
-			check_variable = { nationality = 13 }
-		}
-		localization_key = var_nationality_13
-	}
-	text = {
-		trigger = {
 			check_variable = { nationality = 11 }
 		}
 		localization_key = var_nationality_11
@@ -94,6 +87,12 @@ defined_text = {
 			check_variable = { nationality = 12 }
 		}
 		localization_key = var_nationality_12
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 13 }
+		}
+		localization_key = var_nationality_13
 	}	
 	text = {
 		trigger = {

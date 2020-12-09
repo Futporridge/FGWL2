@@ -16,15 +16,15 @@ guiTypes = {
 		}
 
 		iconType = {
-			name = "culture_west_german_prussian"
+			name = "culture_german_prussian"
 			position = {x=-32 y=-22}
-			spriteType = GFX_culture_west_german_prussian
+			spriteType = GFX_culture_german_prussian
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}
 		iconType = {
-			name = "culture_west_german_baltic_german"
+			name = "culture_german_baltic_german"
 			position = {x=-32 y=-22}
-			spriteType = GFX_culture_west_german_baltic_german
+			spriteType = GFX_culture_german_baltic_german
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}
 		iconType = {
@@ -88,9 +88,9 @@ guiTypes = {
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}
 		iconType = {
-			name = "culture_germanic_bosporic"
+			name = "culture_german_bosporic"
 			position = {x=-32 y=-22}
-			spriteType = GFX_culture_germanic_bosporic
+			spriteType = GFX_culture_german_bosporic
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}
 		iconType = {
@@ -106,57 +106,57 @@ guiTypes = {
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}	
 		iconType = {
-			name = "culture_west_german_austrian"
+			name = "culture_german_austrian"
 			position = {x=-32 y=-22}
-			spriteType = GFX_culture_west_german_austrian
+			spriteType = GFX_culture_german_austrian
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 		iconType = {
-			name = "culture_west_german_bavarian"
+			name = "culture_german_bavarian"
 			position = {x=-32 y=-22}
-			spriteType = GFX_culture_west_german_bavarian
+			spriteType = GFX_culture_german_bavarian
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 		iconType = {
-			name = "culture_west_german_danube"
+			name = "culture_german_danube"
 			position = {x=-32 y=-22}
-			spriteType = GFX_culture_west_german_danube
+			spriteType = GFX_culture_german_danube
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 		iconType = {
-			name = "culture_west_german_holstein"
+			name = "culture_german_holstein"
 			position = {x=-32 y=-22}
-			spriteType = GFX_culture_west_german_holstein
+			spriteType = GFX_culture_german_holstein
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}	
 		iconType = {
-			name = "culture_west_german_mecklenburgian"
+			name = "culture_german_mecklenburgian"
 			position = {x=-32 y=-22}
-			spriteType = GFX_culture_west_german_mecklenburgian
+			spriteType = GFX_culture_german_mecklenburgian
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}	
 		iconType = {
-			name = "culture_west_german_pomeranian"
+			name = "culture_german_pomeranian"
 			position = {x=-32 y=-22}
-			spriteType = GFX_culture_west_german_pomeranian
+			spriteType = GFX_culture_german_pomeranian
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 		iconType = {
-			name = "culture_west_german_saxon"
+			name = "culture_german_saxon"
 			position = {x=-32 y=-22}
-			spriteType = GFX_culture_west_german_saxon
+			spriteType = GFX_culture_german_saxon
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 		iconType = {
-			name = "culture_west_german_schweizerish"
+			name = "culture_german_schweizerish"
 			position = {x=-32 y=-22}
-			spriteType = GFX_culture_west_german_schweizerish
+			spriteType = GFX_culture_german_schweizerish
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}
 		iconType = {
-			name = "culture_west_german_sudete"
+			name = "culture_german_sudete"
 			position = {x=-32 y=-22}
-			spriteType = GFX_culture_west_german_sudete
+			spriteType = GFX_culture_german_sudete
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}
 	}

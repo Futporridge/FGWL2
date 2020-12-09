@@ -1,11 +1,11 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_culture_west_german_prussian"
-		texturefile = "gfx/interface/ideas/culture/culture_west_german_prussian.dds"
+		name = "GFX_culture_german_prussian"
+		texturefile = "gfx/interface/ideas/culture/culture_german_prussian.dds"
 	}
 	spriteType = {
-		name = "GFX_culture_west_german_baltic_german"
-		texturefile = "gfx/interface/ideas/culture/culture_west_german_baltic_german.dds"
+		name = "GFX_culture_german_baltic_german"
+		texturefile = "gfx/interface/ideas/culture/culture_german_baltic_german.dds"
 	}	
 	spriteType = {
 		name = "GFX_culture_baltic_latvian"
@@ -52,8 +52,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/culture/culture_east_slavic_russian.dds"
 	}
 	spriteType = {
-		name = "GFX_culture_germanic_bosporic"
-		texturefile = "gfx/interface/ideas/culture/culture_germanic_bosporic.dds"
+		name = "GFX_culture_german_bosporic"
+		texturefile = "gfx/interface/ideas/culture/culture_german_bosporic.dds"
 	}
 	spriteType = {
 		name = "GFX_culture_south_slavic_bosnian"
@@ -64,39 +64,39 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/culture/culture_east_german_gothian.dds"
 	}	
 	spriteType = {
-		name = "GFX_culture_west_german_austrian"
-		texturefile = "gfx/interface/ideas/culture/culture_west_german_austrian.dds"
+		name = "GFX_culture_german_austrian"
+		texturefile = "gfx/interface/ideas/culture/culture_german_austrian.dds"
 	}	
 	spriteType = {
-		name = "GFX_culture_west_german_bavarian"
-		texturefile = "gfx/interface/ideas/culture/culture_west_german_bavarian.dds"
+		name = "GFX_culture_german_bavarian"
+		texturefile = "gfx/interface/ideas/culture/culture_german_bavarian.dds"
 	}		
 	spriteType = {
-		name = "GFX_culture_west_german_danube"
-		texturefile = "gfx/interface/ideas/culture/culture_west_german_danube.dds"
+		name = "GFX_culture_german_danube"
+		texturefile = "gfx/interface/ideas/culture/culture_german_danube.dds"
 	}	
 	spriteType = {
-		name = "GFX_culture_west_german_holstein"
-		texturefile = "gfx/interface/ideas/culture/culture_west_german_holstein.dds"
+		name = "GFX_culture_german_holstein"
+		texturefile = "gfx/interface/ideas/culture/culture_german_holstein.dds"
 	}		
 	spriteType = {
-		name = "GFX_culture_west_german_mecklenburgian"
-		texturefile = "gfx/interface/ideas/culture/culture_west_german_mecklenburgian.dds"
+		name = "GFX_culture_german_mecklenburgian"
+		texturefile = "gfx/interface/ideas/culture/culture_german_mecklenburgian.dds"
 	}		
 	spriteType = {
-		name = "GFX_culture_west_german_pomeranian"
-		texturefile = "gfx/interface/ideas/culture/culture_west_german_pomeranian.dds"
+		name = "GFX_culture_german_pomeranian"
+		texturefile = "gfx/interface/ideas/culture/culture_german_pomeranian.dds"
 	}	
 	spriteType = {
-		name = "GFX_culture_west_german_saxon"
-		texturefile = "gfx/interface/ideas/culture/culture_west_german_saxon.dds"
+		name = "GFX_culture_german_saxon"
+		texturefile = "gfx/interface/ideas/culture/culture_german_saxon.dds"
 	}	
 	spriteType = {
-		name = "GFX_culture_west_german_schweizerish"
-		texturefile = "gfx/interface/ideas/culture/culture_west_german_schweizerish.dds"
+		name = "GFX_culture_german_schweizerish"
+		texturefile = "gfx/interface/ideas/culture/culture_german_schweizerish.dds"
 	}	
 	spriteType = {
-		name = "GFX_culture_west_german_sudete"
-		texturefile = "gfx/interface/ideas/culture/culture_west_german_sudete.dds"
+		name = "GFX_culture_german_sudete"
+		texturefile = "gfx/interface/ideas/culture/culture_german_sudete.dds"
 	}	
 }

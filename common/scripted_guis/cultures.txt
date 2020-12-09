@@ -10,12 +10,12 @@ scripted_gui = {
 		effects = { }
 
 		triggers = {
-			culture_germanic_prussian_visible = {
+			culture_german_prussian_visible = {
 				check_variable = { nationality = 1 }
 			}
 		}
 		triggers = {
-			culture_germanic_baltic_german_visible = {
+			culture_german_baltic_german_visible = {
 				check_variable = { nationality = 2 }
 			}
 		}
@@ -25,47 +25,47 @@ scripted_gui = {
 			}
 		}		
 		triggers = {
-			culture_west_german_austrian_visible = {
+			culture_german_austrian_visible = {
 				check_variable = { nationality = 4 }
 			}
 		}		
 		triggers = {
-			culture_west_german_bavarian_visible = {
+			culture_german_bavarian_visible = {
 				check_variable = { nationality = 5 }
 			}
 		}		
 		triggers = {
-			culture_west_german_danube_visible = {
+			culture_german_danube_visible = {
 				check_variable = { nationality = 6 }
 			}
 		}		
 		triggers = {
-			culture_west_german_holstein_visible = {
+			culture_german_holstein_visible = {
 				check_variable = { nationality = 7 }
 			}
 		}				
 		triggers = {
-			culture_west_german_mecklenburgian_visible = {
+			culture_german_mecklenburgian_visible = {
 				check_variable = { nationality = 8 }
 			}
 		}		
 		triggers = {
-			culture_west_german_pomeranian_visible = {
+			culture_german_pomeranian_visible = {
 				check_variable = { nationality = 9 }
 			}
 		}		
 		triggers = {
-			culture_west_german_saxon_visible = {
+			culture_german_saxon_visible = {
 				check_variable = { nationality = 10 }
 			}
 		}		
 		triggers = {
-			culture_west_german_schweizerish_visible = {
+			culture_german_schweizerish_visible = {
 				check_variable = { nationality = 11 }
 			}
 		}		
 		triggers = {
-			culture_west_german_sudete_visible = {
+			culture_german_sudete_visible = {
 				check_variable = { nationality = 12 }
 			}
 		}				
@@ -75,17 +75,17 @@ scripted_gui = {
 			}
 		}	
 		triggers = {
-			culture_baltic_estonian_visible = {
+			culture_finno_ugric_estonian_visible = {
 				check_variable = { nationality = 15 }
 			}
 		}		
 		triggers = {
-			culture_slavic_skobari_visible = {
+			culture_east_slavic_skobari_visible = {
 				check_variable = { nationality = 16 }
 			}
 		}
 		triggers = {
-			culture_iberian_basque_visible = {
+			culture_paleo_european_basque_visible = {
 				check_variable = { nationality = 20 }
 			}
 		}
@@ -120,7 +120,7 @@ scripted_gui = {
 			}
 		}
 		triggers = {
-			culture_germanic_bosporic_visible = {
+			culture_german_bosporic_visible = {
 				check_variable = { nationality = 27 } 
 			}
 		}

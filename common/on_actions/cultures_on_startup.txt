@@ -1,0 +1,21 @@
+on_actions = {
+	on_startup = {
+		effect = {
+		#baltic germans
+		810 = { set_variable = { nationality = 2 } }	#Riga
+		811 = { set_variable = { nationality = 2 } }	#Zemgale		
+		190 = { set_variable = { nationality = 2 } }	#Kurzeme
+		13 = { set_variable = { nationality = 2 } }		#Harju	
+		812 = { set_variable = { nationality = 2 } }	#Saarema	
+		#ruthenian
+		198 = { set_variable = { nationality = 23 } }	#Vinnitza
+		192 = { set_variable = { nationality = 23 } }	#Odessa	
+		203 = { set_variable = { nationality = 23 } }	#Usovka
+		202 = { set_variable = { nationality = 23 } }	#Kiev		
+		201 = { set_variable = { nationality = 23 } }	#Zhitomir		
+		226 = { set_variable = { nationality = 23 } }	#Krivoj Rog					
+			
+		}
+	
+	}
+	}
