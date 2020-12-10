@@ -68,6 +68,7 @@ on_actions = {
 		#basque
 		861 = { set_variable = { nationality = 20 } }	#Basse-Navarre
 		172 = { set_variable = { nationality = 20 } }	#Navarre		
+		792 = { set_variable = { nationality = 20 } }	#Bilbao		
 		#polesian
 		94 = { set_variable = { nationality = 21 } }	#Polesie
 		194 = { set_variable = { nationality = 21 } }	#Mozyr	
@@ -144,7 +145,6 @@ on_actions = {
 		918 = { set_variable = { nationality = 32 } }	#Upper Savoia		
 		800 = { set_variable = { nationality = 32 } }	#Lyon		
 		#True French
-		25 = { set_variable = { nationality = 33 } }	#Limousin	
 		33 = { set_variable = { nationality = 33 } }	#Centre-Sud		
 		23 = { set_variable = { nationality = 33 } }	#Poitou	
 		24 = { set_variable = { nationality = 33 } }	#Anjou		
@@ -165,7 +165,9 @@ on_actions = {
 		#Occitanian
 		31 = { set_variable = { nationality = 35 } }	#Toulouse	
 		22 = { set_variable = { nationality = 35 } }	#Languedoc		
-		20 = { set_variable = { nationality = 35 } }	#Rhone		
+		20 = { set_variable = { nationality = 35 } }	#Rhone
+		25 = { set_variable = { nationality = 35 } }	#Limousin			
+		26 = { set_variable = { nationality = 35 } }	#Auveregne			
 		#Central Italian
 		157 = { set_variable = { nationality = 36 } }	#Ancona	
 		805 = { set_variable = { nationality = 36 } }	#Umbria		
@@ -310,7 +312,13 @@ on_actions = {
 		347 = { set_variable = { nationality = 67 } }	#Klaudiopole	
 		347 = { set_variable = { nationality = 67 } }	#Klaudiopole	
 		356 = { set_variable = { nationality = 67 } }	#Paflagonia	
-		355 = { set_variable = { nationality = 67 } }	#Amis			
+		355 = { set_variable = { nationality = 67 } }	#Amis
+		#Moldavan
+		79 = { set_variable = { nationality = 68 } }	#Moldovaia
+		78 = { set_variable = { nationality = 68 } }	#Bessarabia	
+		920 = { set_variable = { nationality = 68 } }	#Suchava	
+		#Sekei
+		76 = { set_variable = { nationality = 69 } }	#Transylvania		
 		}
 	}
 }

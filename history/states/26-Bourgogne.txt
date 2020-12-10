@@ -16,10 +16,11 @@ state={
 		add_core_of = AQU
 		add_core_of = PAR
 		add_core_of = VCH
+
 	}
 
 	provinces={
-		769 6789 
+		590 769 6789 9593 9748 
 	}
 	manpower=877800
 	buildings_max_level_factor=1.000

@@ -16,12 +16,13 @@ state={
 		add_core_of = LYO
 		add_core_of = PAR
 		add_core_of = AQU
+
 	}
 
 	provinces={
-		6613 11593 11794 
+		641 780 3589 3768 3770 6613 6639 6784 6786 9590 11593 11794 
 	}
-	state_category=large_city	
 	manpower=570622
 	buildings_max_level_factor=1.000
+	state_category=large_city
 }

@@ -1,4 +1,4 @@
-	
+
 state={
 	id=23
 	name="STATE_23"
@@ -23,10 +23,11 @@ state={
 		add_core_of = AQU
 		add_core_of = PAR
 		add_core_of = POI
+
 	}
 
 	provinces={
-		629 655 6657 9631 11582 11600 
+		595 629 655 6657 9597 9631 11565 11582 11600 
 	}
 	manpower=1603100
 	buildings_max_level_factor=1.000

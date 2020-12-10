@@ -343,6 +343,16 @@ scripted_gui = {
 			culture_altaic_anatolian_visible = {
 				check_variable = { nationality = 67 } 
 			}
+		}	
+		triggers = {
+			culture_east_romanian_moldavian_visible = {
+				check_variable = { nationality = 68 } 
+			}
+		}
+		triggers = {
+			culture_finno_ugric_szekelys_visible = {
+				check_variable = { nationality = 69 } 
+			}
 		}		
 	}
 }

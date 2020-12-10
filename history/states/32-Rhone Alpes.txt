@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = LYO
+		owner = YEM
 		buildings = {
 			infrastructure = 4
 
@@ -16,13 +16,11 @@ state={
 		victory_points = {
 			3768 1 
 		}
-		add_core_of = AQU
-		add_core_of = PAR
-		add_core_of = LYO
+		add_core_of = YEM
 	}
 
 	provinces={
-		641 762 780 3589 3768 6639 6784 9590 11713 
+		4924 4976 8030 10870 
 	}
 	manpower=1007500
 	buildings_max_level_factor=1.000

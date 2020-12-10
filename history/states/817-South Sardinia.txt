@@ -1,10 +1,7 @@
+
 state={
 	id=817
 	name="STATE_817"
-	provinces={
-		902 11773 11874 
-	}
-	state_category = town
 
 	history={
 		owner = PIE
@@ -17,13 +14,22 @@ state={
 			industrial_complex = 1
 			11773 = {
 				naval_base = 3
+
 			}
 			6891 = {
 				naval_base = 5
+
 			}
+
 		}
 		add_core_of = PIE
-	}	
+
+	}
+
+	provinces={
+		902 6891 9772 9863 11755 11773 11824 11874 
+	}
 	manpower=515961
 	buildings_max_level_factor=1.000
+	state_category=town
 }

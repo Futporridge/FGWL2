@@ -22,10 +22,11 @@ state={
 		add_core_of = AQU
 		add_core_of = PAR
 		add_core_of = LYO
+
 	}
 
 	provinces={
-		3770 6786 9728 9732 11716 
+		762 9728 9732 11713 11716 
 	}
 	manpower=2973200
 	buildings_max_level_factor=1.000

@@ -1,27 +1,18 @@
+
 state={
 	id=802
 	name="STATE_802"
-	provinces={
-		771 3773 6788 6790 11726 
-	}
-		victory_points = {
-			6788 10 
-		}
-			buildings = {
-			infrastructure = 8
-			arms_factory = 1
-			industrial_complex = 1
-			dockyard = 5
-			6788 = {
-				naval_base = 10
 
-			}
-			}
-	history={		
-	owner = PIE
-	add_core_of = PIE
-}	
-	state_category=city
-	manpower=1346466	
+	history={
+		owner = PIE
+		add_core_of = PIE
+
+	}
+
+	provinces={
+		3772 6788 11891 
+	}
+	manpower=1346466
 	buildings_max_level_factor=1.000
+	state_category=city
 }

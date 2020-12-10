@@ -272,4 +272,12 @@ spriteTypes = {
 		name = "GFX_culture_altaic_anatolian"
 		texturefile = "gfx/interface/ideas/culture/culture_altaic_anatolian.dds"
 	}
+		spriteType = {
+		name = "GFX_culture_finno_ugric_szekelys"
+		texturefile = "gfx/interface/ideas/culture/culture_finno_ugric_szekelys.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_east_romanian_moldavian"
+		texturefile = "gfx/interface/ideas/culture/culture_east_romanian_moldavian.dds"
+	}
 }

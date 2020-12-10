@@ -419,6 +419,18 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_altaic_anatolian
 			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_east_romanian_moldavian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_east_romanian_moldavian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_finno_ugric_szekelys"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_finno_ugric_szekelys
+			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 	}
 }
