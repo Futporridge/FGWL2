@@ -31,7 +31,7 @@
   var_nationality_27:0 "Bosporic German \n \n§LLanguage Group:§L West Germanic\n§LReligion:§L Catholic Christian"
   var_nationality_28:0 "Bosnian \n \n§LLanguage Group:§L South Slavic\n§LReligion:§L Gnostic Christian"
 
-  var_nationality_29:0 "Vlach \n \n§LLanguage Group:§L Eastern Romance\n§LReligion:§L Orthodox Christian"
+  var_nationality_29:0 "Wallachian \n \n§LLanguage Group:§L Eastern Romance\n§LReligion:§L Orthodox Christian"
   var_nationality_30:0 "Carpathian Russian \n \n§LLanguage Group:§L East Slavic with Finno-Ugric influence\n§LReligion:§L Orthodox Christian, Catholic Carpathian"
   var_nationality_31:0 "Hungarian \n \n§LLanguage Group:§L Finno-Ugric\n§LReligion:§L Orthodox Christian"
   var_nationality_32:0 "Francoprovençal \n \n§LLanguage Group:§L Western Romance\n§LReligion:§L Catholic Christian"
@@ -74,3 +74,6 @@
   var_nationality_64:0 "Polish \n \n§LLanguage Group:§L West Slavic\n§LReligion:§L Catholic Christian"
   var_nationality_65:0 "Silesian \n \n§LLanguage Group:§L West Slavic\n§LReligion:§L Catholic Christian"
   var_nationality_66:0 "Slovak \n \n§LLanguage Group:§L West Slavic with Finno-Ugric influence\n§LReligion:§L Catholic Christian"
+  
+  var_nationality_50:0 "Tyrolean \n \n§LLanguage Group:§L West German\n§LReligion:§L Catholic Christian"
+  var_nationality_67:0 "Turcopole \n \n§LLanguage Group:§L Turkic with Western Romance and Graeco-Phrygian influence\n§LReligion:§L Uniate Carpathian, Catholic Christian"  

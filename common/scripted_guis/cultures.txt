@@ -333,6 +333,16 @@ scripted_gui = {
 			culture_west_slavic_slovak_visible = {
 				check_variable = { nationality = 66 } 
 			}
+		}	
+		triggers = {
+			culture_german_tyrolean_visible = {
+				check_variable = { nationality = 50 } 
+			}
+		}
+		triggers = {
+			culture_altaic_anatolian_visible = {
+				check_variable = { nationality = 67 } 
+			}
 		}		
 	}
 }

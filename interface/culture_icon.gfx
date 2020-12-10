@@ -261,4 +261,12 @@ spriteTypes = {
 		name = "GFX_culture_west_slavic_slovak"
 		texturefile = "gfx/interface/ideas/culture/culture_west_slavic_slovak.dds"
 	}
+		spriteType = {
+		name = "GFX_culture_german_tyrolean"
+		texturefile = "gfx/interface/ideas/culture/culture_german_tyrolean.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_altaic_anatolian"
+		texturefile = "gfx/interface/ideas/culture/culture_altaic_anatolian.dds"
+	}
 }

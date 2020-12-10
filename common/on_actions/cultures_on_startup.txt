@@ -18,10 +18,11 @@ on_actions = {
 		#austrian
 		889 = { set_variable = { nationality = 4 } }	#Wien
 		888 = { set_variable = { nationality = 4 } }	#Carinthia		
-		4 = { set_variable = { nationality = 4 } }	#Lower Austria
+		4 = { set_variable = { nationality = 4 } }		#Lower Austria
 		152 = { set_variable = { nationality = 4 } }	#Upper Austria	
 		886 = { set_variable = { nationality = 4 } }	#Styria
 		887 = { set_variable = { nationality = 4 } }	#Burgenland
+		909 = { set_variable = { nationality = 4 } }	#Flaum
 		#bavarian
 		52 = { set_variable = { nationality = 5 } }	#Oberbayern
 		53 = { set_variable = { nationality = 5 } }	#Niederbayern	
@@ -72,8 +73,6 @@ on_actions = {
 		194 = { set_variable = { nationality = 21 } }	#Mozyr	
 		241 = { set_variable = { nationality = 21 } }	#Gomel	
 		#galician
-		912 = { set_variable = { nationality = 22 } }	#Red Russia
-		163 = { set_variable = { nationality = 22 } }	#Lublin	
 		89 = { set_variable = { nationality = 22 } }	#Stanislau
 		91 = { set_variable = { nationality = 22 } }	#Lemberg		
 		80 = { set_variable = { nationality = 22 } }	#Bukovina		
@@ -115,10 +114,201 @@ on_actions = {
 		49 = { set_variable = { nationality = 18 } }	#Galatia	
 		346 = { set_variable = { nationality = 18 } }	#Pisidija
 		348 = { set_variable = { nationality = 18 } }	#Kaisereja	
-		349 = { set_variable = { nationality = 18 } }	#Sebasteja	
+		349 = { set_variable = { nationality = 18 } }	#Sebasteja
+		868 = { set_variable = { nationality = 18 } }	#Lykandos			
 		#Bretons
 		14 = { set_variable = { nationality = 19 } }	#Loire	
 		30 = { set_variable = { nationality = 19 } }	#Brittany
+		#Wallachian
+		81 = { set_variable = { nationality = 29 } }	#Oltenia	
+		46 = { set_variable = { nationality = 29 } }	#Muntenia
+		819 = { set_variable = { nationality = 29 } }	#Smol Skufia
+		#Carpatian Russian
+		73 = { set_variable = { nationality = 30 } }	#Zakarpattja	
+		911 = { set_variable = { nationality = 30 } }	#Lemkovia
+		#Hungarian
+		43 = { set_variable = { nationality = 31 } }	#Mishkoltz	
+		892 = { set_variable = { nationality = 31 } }	#Pesht		
+		899 = { set_variable = { nationality = 31 } }	#Central Transdanubia		
+		900 = { set_variable = { nationality = 31 } }	#Raab		
+		155 = { set_variable = { nationality = 31 } }	#Tolna		
+		913 = { set_variable = { nationality = 31 } }	#Baranja		
+		155 = { set_variable = { nationality = 31 } }	#Tolna		
+		893 = { set_variable = { nationality = 31 } }	#Bachka			
+		154 = { set_variable = { nationality = 31 } }	#Segedin			
+		#Francoprovençal
+		845 = { set_variable = { nationality = 32 } }	#Valais	
+		917 = { set_variable = { nationality = 32 } }	#Freiburg		
+		841 = { set_variable = { nationality = 32 } }	#Romandie	
+		840 = { set_variable = { nationality = 32 } }	#Transjurania		
+		918 = { set_variable = { nationality = 32 } }	#Upper Savoia		
+		800 = { set_variable = { nationality = 32 } }	#Lyon		
+		#True French
+		25 = { set_variable = { nationality = 33 } }	#Limousin	
+		33 = { set_variable = { nationality = 33 } }	#Centre-Sud		
+		23 = { set_variable = { nationality = 33 } }	#Poitou	
+		24 = { set_variable = { nationality = 33 } }	#Anjou		
+		15 = { set_variable = { nationality = 33 } }	#Normandy		
+		798 = { set_variable = { nationality = 33 } }	#Orlean		
+		16 = { set_variable = { nationality = 33 } }	#Island of France		
+		797 = { set_variable = { nationality = 33 } }	#Paris		
+		27 = { set_variable = { nationality = 33 } }	#Burgundy						
+		18 = { set_variable = { nationality = 33 } }	#Champagne						
+		825 = { set_variable = { nationality = 33 } }	#Aisne						
+		785 = { set_variable = { nationality = 33 } }	#Picardy						
+		862 = { set_variable = { nationality = 33 } }	#Cale						
+		17 = { set_variable = { nationality = 33 } }	#France Comte						
+		799 = { set_variable = { nationality = 33 } }	#Vichy					
+		#Gascon
+		19 = { set_variable = { nationality = 34 } }	#Bordeaux	
+		860 = { set_variable = { nationality = 34 } }	#Pau		
+		#Occitanian
+		19 = { set_variable = { nationality = 35 } }	#Toulouse	
+		22 = { set_variable = { nationality = 35 } }	#Languedoc		
+		20 = { set_variable = { nationality = 35 } }	#Rhone		
+		#Central Italian
+		157 = { set_variable = { nationality = 36 } }	#Ancona	
+		805 = { set_variable = { nationality = 36 } }	#Umbria		
+		2 = { set_variable = { nationality = 36 } }		#Rome					
+		766 = { set_variable = { nationality = 36 } }	#Abruzzo Ultra					
+		#Corsicano
+		1 = { set_variable = { nationality = 37 } }	#Abruzzo Ultra					
+		#Lombardian
+		842 = { set_variable = { nationality = 38 } }	#Ticino			
+		1599 = { set_variable = { nationality = 38 } }	#Lombardy			
+		803 = { set_variable = { nationality = 38 } }	#Romania		
+		802 = { set_variable = { nationality = 38 } }	#Liguria			
+		906 = { set_variable = { nationality = 38 } }	#Trentino			
+		#Sardinian
+		817 = { set_variable = { nationality = 39 } }	#Sardinia			
+		#Franco-Italian (Savoyard)
+		158 = { set_variable = { nationality = 40 } }	#Piedmont	
+		735 = { set_variable = { nationality = 40 } }	#Savoy	
+		#Sicilian
+		115 = { set_variable = { nationality = 41 } }	#Sicily	
+		#Tuscan
+		162 = { set_variable = { nationality = 42 } }	#Livorno	
+		161 = { set_variable = { nationality = 42 } }	#Florentia	
+		804 = { set_variable = { nationality = 42 } }	#Modena	
+		#Venetian
+		160 = { set_variable = { nationality = 43 } }	#Veneto	
+		736 = { set_variable = { nationality = 43 } }	#Istria	
+		932 = { set_variable = { nationality = 43 } }	#Cerigo		
+		907 = { set_variable = { nationality = 43 } }	#Triest							
+		#Zyx
+		852 = { set_variable = { nationality = 44 } }	#Abazgia	
+		851 = { set_variable = { nationality = 44 } }	#Mapa	
+		#Franco-Greek (Romans)
+		341 = { set_variable = { nationality = 45 } }	#Tzargrad	
+		924 = { set_variable = { nationality = 45 } }	#Frake	
+		921 = { set_variable = { nationality = 45 } }	#Adrianupole	
+		846 = { set_variable = { nationality = 45 } }	#Filippolle	
+		184 = { set_variable = { nationality = 45 } }	#Rodope		
+		922 = { set_variable = { nationality = 45 } }	#Fessalonike		
+		925 = { set_variable = { nationality = 45 } }	#Optimati	
+		340 = { set_variable = { nationality = 45 } }	#Elespont		
+		183 = { set_variable = { nationality = 45 } }	#Cyprus		
+		454 = { set_variable = { nationality = 45 } }	#Jerusalem	
+		923 = { set_variable = { nationality = 45 } }	#Atike			
+		#Franco-Armenian (Cylician)
+		857 = { set_variable = { nationality = 46 } }	#Saleph	
+		244 = { set_variable = { nationality = 46 } }	#Cilicia	
+		#Greek
+		868 = { set_variable = { nationality = 47 } }	#Pelopones	
+		926 = { set_variable = { nationality = 47 } }	#Fokia	
+		47 = { set_variable = { nationality = 47 } }	#Fessalia	
+		187 = { set_variable = { nationality = 47 } }	#Archipelag		
+		339 = { set_variable = { nationality = 47 } }	#Ionia		
+		343 = { set_variable = { nationality = 47 } }	#Frugia		
+		677 = { set_variable = { nationality = 47 } }	#Antiochia		
+		164 = { set_variable = { nationality = 47 } }	#Rodos		
+		#Pontic Greek
+		354 = { set_variable = { nationality = 48 } }	#Trabzon	
+		#Maniot
+		186 = { set_variable = { nationality = 49 } }	#Trabzon		
+		#Rhaetian
+		908 = { set_variable = { nationality = 51 } }	#Friuli	
+		844 = { set_variable = { nationality = 51 } }	#Scuol	
+		#Alawite
+		867 = { set_variable = { nationality = 52 } }	#Alawitia	
+		#Common Arab
+		455 = { set_variable = { nationality = 53 } }	#Jordan	
+		870 = { set_variable = { nationality = 53 } }	#Homs	
+		680 = { set_variable = { nationality = 53 } }	#Palmira	
+		291 = { set_variable = { nationality = 53 } }	#Mesopatamia	
+		656 = { set_variable = { nationality = 53 } }	#Kubet	
+		679 = { set_variable = { nationality = 53 } }	#Hejaz	
+		553 = { set_variable = { nationality = 53 } }	#Tripoli	
+		#Franco-Arab (Aramean)
+		554 = { set_variable = { nationality = 54 } }	#Damascus	
+		#Druze
+		866 = { set_variable = { nationality = 55 } }	#Druzestan	
+		#Jews
+		865 = { set_variable = { nationality = 56 } }	#Jaffa	
+		#Phoenecian
+		869 = { set_variable = { nationality = 57 } }	#Beirut	
+		#Bulgarian
+		221 = { set_variable = { nationality = 58 } }	#Skaptopara	
+		48 = { set_variable = { nationality = 58 } }	#Bidin	
+		211 = { set_variable = { nationality = 58 } }	#Moesia	
+		#Croatian
+		897 = { set_variable = { nationality = 59 } }	#Bosnijskaja Kraina	
+		807 = { set_variable = { nationality = 59 } }	#Kwarner	
+		109 = { set_variable = { nationality = 59 } }	#Croatia	
+		894 = { set_variable = { nationality = 59 } }	#Slawonia	
+		#Slovenian
+		806 = { set_variable = { nationality = 60 } }	#Litoral
+		102 = { set_variable = { nationality = 60 } }	#Slovenia	
+		910 = { set_variable = { nationality = 60 } }	#Prekmur'je	
+		#Serbian
+		869 = { set_variable = { nationality = 61 } }	#Herzegowina
+		104 = { set_variable = { nationality = 61 } }	#Bosnien	
+		107 = { set_variable = { nationality = 61 } }	#Belgrad
+		895 = { set_variable = { nationality = 61 } }	#srem
+		45  = { set_variable = { nationality = 61 } }	#Wojewodina
+		259 = { set_variable = { nationality = 61 } }	#Kragiewatz
+		108 = { set_variable = { nationality = 61 } }	#Dardania
+		105 = { set_variable = { nationality = 61 } }	#Duklja
+		904 = { set_variable = { nationality = 61 } }	#Metohija
+		106 = { set_variable = { nationality = 61 } }	#Peonia
+		731 = { set_variable = { nationality = 61 } }	#Makedonia
+		#Catalunian
+		916 = { set_variable = { nationality = 62 } }	#Rousillion
+		165 = { set_variable = { nationality = 62 } }	#Catalonia
+		177 = { set_variable = { nationality = 62 } }	#Baleares
+		167 = { set_variable = { nationality = 62 } }	#Valencia
+		#Czech
+		9 = { set_variable = { nationality = 63 } }	#Bohemia
+		75 = { set_variable = { nationality = 63 } }	#Morvia	
+		72 = { set_variable = { nationality = 63 } }	#Zaolzie		
+		#Polish
+		86 = { set_variable = { nationality = 64 } }	#Poznan
+		87 = { set_variable = { nationality = 64 } }	#Lodz	
+		90 = { set_variable = { nationality = 64 } }	#Kielce		
+		10 = { set_variable = { nationality = 64 } }	#Warsaw				
+		92 = { set_variable = { nationality = 64 } }	#Mazovia				
+		88 = { set_variable = { nationality = 64 } }	#Krakow				
+		912 = { set_variable = { nationality = 64 } }	#Red Russia
+		163 = { set_variable = { nationality = 64 } }	#Lublin		
+		#Slovak
+		70 = { set_variable = { nationality = 66 } }	#Presburg
+		71 = { set_variable = { nationality = 66 } }	#Noeshultz	
+		902 = { set_variable = { nationality = 66 } }	#Preshau	
+		#Silezian
+		66 = { set_variable = { nationality = 65 } }	#Upper Silesia
+		67 = { set_variable = { nationality = 65 } }	#Low Silesia	
+		762 = { set_variable = { nationality = 65 } }	#Katowitz	
+		#Silezian
+		153 = { set_variable = { nationality = 50 } }	#Tirol
+		39 = { set_variable = { nationality = 50 } }	#South Tirol
+		891 = { set_variable = { nationality = 50 } }	#East Tirol	
+		#Turko-French (Turcopole)
+		77 = { set_variable = { nationality = 66 } }	#Durostol
+		345 = { set_variable = { nationality = 66 } }	#Panfulia
+		347 = { set_variable = { nationality = 66 } }	#Klaudiopole	
+		347 = { set_variable = { nationality = 66 } }	#Klaudiopole	
+		356 = { set_variable = { nationality = 66 } }	#Paflagonia	
+		355 = { set_variable = { nationality = 66 } }	#Amis	
 		}
 	}
 }

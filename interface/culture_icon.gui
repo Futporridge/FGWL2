@@ -407,6 +407,18 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_west_slavic_slovak
 			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_german_tyrolean"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_german_tyrolean
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_altaic_anatolian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_altaic_anatolian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 	}
 }
