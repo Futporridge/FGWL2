@@ -225,21 +225,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/culture/culture_semite_jewish.dds"
 	}
 	spriteType = {
-		name = "GFX_semite_phoenician"
+		name = "GFX_culture_semite_phoenician"
 		texturefile = "gfx/interface/ideas/culture/culture_semite_phoenician.dds"
 	}
 	spriteType = {
-		name = "GFX_south_slavic_bulgarian"
+		name = "GFX_culture_south_slavic_bulgarian"
 		texturefile = "gfx/interface/ideas/culture/culture_south_slavic_bulgarian.dds"
 	}
 	spriteType = {
 		name = "GFX_culture_south_slavic_serbian"
 		texturefile = "gfx/interface/ideas/culture/culture_south_slavic_serbian.dds"
 	}
-	
 	spriteType = {
-		name = "GFX_south_slavic_slovenian"
+		name = "GFX_culture_south_slavic_slovenian"
 		texturefile = "gfx/interface/ideas/culture/culture_south_slavic_slovenian.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_south_slavic_croatian"
+		texturefile = "gfx/interface/ideas/culture/culture_south_slavic_croatian.dds"
 	}
 	spriteType = {
 		name = "GFX_culture_spanish_catalonian"

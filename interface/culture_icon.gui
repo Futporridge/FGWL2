@@ -309,7 +309,7 @@ guiTypes = {
 		iconType = {
 			name = "culture_paleo_balkan_maniot"
 			position = {x=-32 y=-22}
-			spriteType = GFX_culture_paleo_balkan_maniot_pontick
+			spriteType = GFX_culture_paleo_balkan_maniot
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 		iconType = {

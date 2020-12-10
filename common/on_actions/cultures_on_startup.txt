@@ -135,8 +135,8 @@ on_actions = {
 		913 = { set_variable = { nationality = 31 } }	#Baranja		
 		155 = { set_variable = { nationality = 31 } }	#Tolna		
 		893 = { set_variable = { nationality = 31 } }	#Bachka			
-		154 = { set_variable = { nationality = 31 } }	#Segedin			
-		#Francoprovençal
+		154 = { set_variable = { nationality = 31 } }	#Segedin
+		#Francoprovenсal
 		845 = { set_variable = { nationality = 32 } }	#Valais	
 		917 = { set_variable = { nationality = 32 } }	#Freiburg		
 		841 = { set_variable = { nationality = 32 } }	#Romandie	
@@ -163,7 +163,7 @@ on_actions = {
 		19 = { set_variable = { nationality = 34 } }	#Bordeaux	
 		860 = { set_variable = { nationality = 34 } }	#Pau		
 		#Occitanian
-		19 = { set_variable = { nationality = 35 } }	#Toulouse	
+		31 = { set_variable = { nationality = 35 } }	#Toulouse	
 		22 = { set_variable = { nationality = 35 } }	#Languedoc		
 		20 = { set_variable = { nationality = 35 } }	#Rhone		
 		#Central Italian
@@ -175,12 +175,13 @@ on_actions = {
 		1 = { set_variable = { nationality = 37 } }	#Abruzzo Ultra					
 		#Lombardian
 		842 = { set_variable = { nationality = 38 } }	#Ticino			
-		1599 = { set_variable = { nationality = 38 } }	#Lombardy			
+		159 = { set_variable = { nationality = 38 } }	#Lombardy			
 		803 = { set_variable = { nationality = 38 } }	#Romania		
 		802 = { set_variable = { nationality = 38 } }	#Liguria			
-		906 = { set_variable = { nationality = 38 } }	#Trentino			
+		906 = { set_variable = { nationality = 38 } }	#Trentino	
+		843 = { set_variable = { nationality = 38 } }	#Val Porshiavo					
 		#Sardinian
-		817 = { set_variable = { nationality = 39 } }	#Sardinia			
+		817 = { set_variable = { nationality = 39 } }	#Sardinia
 		#Franco-Italian (Savoyard)
 		158 = { set_variable = { nationality = 40 } }	#Piedmont	
 		735 = { set_variable = { nationality = 40 } }	#Savoy	
@@ -209,19 +210,20 @@ on_actions = {
 		340 = { set_variable = { nationality = 45 } }	#Elespont		
 		183 = { set_variable = { nationality = 45 } }	#Cyprus		
 		454 = { set_variable = { nationality = 45 } }	#Jerusalem	
-		923 = { set_variable = { nationality = 45 } }	#Atike			
+		923 = { set_variable = { nationality = 45 } }	#Atike	
+		187 = { set_variable = { nationality = 45 } }	#Archipelag	
+		164 = { set_variable = { nationality = 45 } }	#Rodos			
 		#Franco-Armenian (Cylician)
 		857 = { set_variable = { nationality = 46 } }	#Saleph	
-		244 = { set_variable = { nationality = 46 } }	#Cilicia	
+		344 = { set_variable = { nationality = 46 } }	#Cilicia	
 		#Greek
-		868 = { set_variable = { nationality = 47 } }	#Pelopones	
+		898 = { set_variable = { nationality = 47 } }	#Pelopones	
 		926 = { set_variable = { nationality = 47 } }	#Fokia	
-		47 = { set_variable = { nationality = 47 } }	#Fessalia	
-		187 = { set_variable = { nationality = 47 } }	#Archipelag		
+		47 = { set_variable = { nationality = 47 } }	#Fessalia		
 		339 = { set_variable = { nationality = 47 } }	#Ionia		
 		343 = { set_variable = { nationality = 47 } }	#Frugia		
 		677 = { set_variable = { nationality = 47 } }	#Antiochia		
-		164 = { set_variable = { nationality = 47 } }	#Rodos		
+		342 = { set_variable = { nationality = 47 } }	#Likia				
 		#Pontic Greek
 		354 = { set_variable = { nationality = 48 } }	#Trabzon	
 		#Maniot
@@ -248,7 +250,7 @@ on_actions = {
 		#Phoenecian
 		869 = { set_variable = { nationality = 57 } }	#Beirut	
 		#Bulgarian
-		221 = { set_variable = { nationality = 58 } }	#Skaptopara	
+		212 = { set_variable = { nationality = 58 } }	#Skaptopara	
 		48 = { set_variable = { nationality = 58 } }	#Bidin	
 		211 = { set_variable = { nationality = 58 } }	#Moesia	
 		#Croatian
@@ -257,21 +259,21 @@ on_actions = {
 		109 = { set_variable = { nationality = 59 } }	#Croatia	
 		894 = { set_variable = { nationality = 59 } }	#Slawonia	
 		#Slovenian
-		806 = { set_variable = { nationality = 60 } }	#Litoral
-		102 = { set_variable = { nationality = 60 } }	#Slovenia	
-		910 = { set_variable = { nationality = 60 } }	#Prekmur'je	
+		806 = { set_variable = { nationality = 61 } }	#Litoral
+		102 = { set_variable = { nationality = 61 } }	#Slovenia	
+		910 = { set_variable = { nationality = 61 } }	#Prekmur'je	
 		#Serbian
-		869 = { set_variable = { nationality = 61 } }	#Herzegowina
-		104 = { set_variable = { nationality = 61 } }	#Bosnien	
-		107 = { set_variable = { nationality = 61 } }	#Belgrad
-		895 = { set_variable = { nationality = 61 } }	#srem
-		45  = { set_variable = { nationality = 61 } }	#Wojewodina
-		259 = { set_variable = { nationality = 61 } }	#Kragiewatz
-		108 = { set_variable = { nationality = 61 } }	#Dardania
-		105 = { set_variable = { nationality = 61 } }	#Duklja
-		904 = { set_variable = { nationality = 61 } }	#Metohija
-		106 = { set_variable = { nationality = 61 } }	#Peonia
-		731 = { set_variable = { nationality = 61 } }	#Makedonia
+		896 = { set_variable = { nationality = 60 } }	#Herzegowina
+		104 = { set_variable = { nationality = 60 } }	#Bosnien	
+		107 = { set_variable = { nationality = 60 } }	#Belgrad
+		895 = { set_variable = { nationality = 60 } }	#srem
+		45  = { set_variable = { nationality = 60 } }	#Wojewodina
+		259 = { set_variable = { nationality = 60 } }	#Kragiewatz
+		108 = { set_variable = { nationality = 60 } }	#Dardania
+		105 = { set_variable = { nationality = 60 } }	#Duklja
+		904 = { set_variable = { nationality = 60 } }	#Metohija
+		106 = { set_variable = { nationality = 60 } }	#Peonia
+		731 = { set_variable = { nationality = 60 } }	#Makedonia
 		#Catalunian
 		916 = { set_variable = { nationality = 62 } }	#Rousillion
 		165 = { set_variable = { nationality = 62 } }	#Catalonia
@@ -303,12 +305,12 @@ on_actions = {
 		39 = { set_variable = { nationality = 50 } }	#South Tirol
 		891 = { set_variable = { nationality = 50 } }	#East Tirol	
 		#Turko-French (Turcopole)
-		77 = { set_variable = { nationality = 66 } }	#Durostol
-		345 = { set_variable = { nationality = 66 } }	#Panfulia
-		347 = { set_variable = { nationality = 66 } }	#Klaudiopole	
-		347 = { set_variable = { nationality = 66 } }	#Klaudiopole	
-		356 = { set_variable = { nationality = 66 } }	#Paflagonia	
-		355 = { set_variable = { nationality = 66 } }	#Amis	
+		77 = { set_variable = { nationality = 67 } }	#Durostol
+		345 = { set_variable = { nationality = 67 } }	#Panfulia
+		347 = { set_variable = { nationality = 67 } }	#Klaudiopole	
+		347 = { set_variable = { nationality = 67 } }	#Klaudiopole	
+		356 = { set_variable = { nationality = 67 } }	#Paflagonia	
+		355 = { set_variable = { nationality = 67 } }	#Amis			
 		}
 	}
 }
