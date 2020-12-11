@@ -34,13 +34,13 @@ on_actions = {
 		58 = { set_variable = { nationality = 7 } }	#Holstein
 		823 = { set_variable = { nationality = 7 } }	#Schelwzig		
 		#mecklenburg
+		826 = { set_variable = { nationality = 8 } }	#Rugen
 		62 = { set_variable = { nationality = 8 } }	#Mecklenburg-Sterlitz		
 		61 = { set_variable = { nationality = 8 } }	#Mecklenburg		
 		821 = { set_variable = { nationality = 8 } }	#Lubeck	
 		#pomeranian
 		63 = { set_variable = { nationality = 9 } }	#Hinternpommern
-		827 = { set_variable = { nationality = 9 } }	#Stettin		
-		826 = { set_variable = { nationality = 9 } }	#Rugen		
+		827 = { set_variable = { nationality = 9 } }	#Stettin			
 		#saxon
 		65 = { set_variable = { nationality = 10 } }	#Saxonia
 		60 = { set_variable = { nationality = 10 } }	#Weimar			
