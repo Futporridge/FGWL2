@@ -353,6 +353,41 @@ scripted_gui = {
 			culture_finno_ugric_szekelys_visible = {
 				check_variable = { nationality = 69 } 
 			}
-		}		
+		}	
+		triggers = {
+			culture_east_romanian_transilvanian_visible = {
+				check_variable = { nationality = 70 } 
+			}
+		}	
+		triggers = {
+			culture_french_provence_visible = {
+				check_variable = { nationality = 71 } 
+			}
+		}
+		triggers = {
+			culture_spanish_aragon_visible = {
+				check_variable = { nationality = 72 } 
+			}
+		}
+		triggers = {
+			culture_spanish_asturian_visible = {
+				check_variable = { nationality = 73 } 
+			}
+		}
+		triggers = {
+			culture_spanish_castilian_visible = {
+				check_variable = { nationality = 74 } 
+			}
+		}
+		triggers = {
+			culture_spanish_galician_visible = {
+				check_variable = { nationality = 75 } 
+			}
+		}	
+		triggers = {
+			culture_spanish_portuguese_visible = {
+				check_variable = { nationality = 76 } 
+			}
+		}				
 	}
 }

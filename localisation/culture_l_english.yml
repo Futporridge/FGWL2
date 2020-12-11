@@ -60,7 +60,7 @@
   
   var_nationality_54:0 "Aramean \n \n§LLanguage Group:§L West Semitic \n§LReligion:§L Catholic Christian, Uniate Christian, Orthodox Christian"
   var_nationality_55:0 "Druze \n \n§LLanguage Group:§L West Semitic \n§LReligion:§L Druze"
-  var_nationality_56:0 "Jewish \n \n§LLanguage Group:§L West German \n§LReligion:§L Sabbatian"
+  var_nationality_56:0 "Jewish \n \n§LLanguage Group:§L West German \n§LReligion:§L Sabbatian Judaism"
   var_nationality_57:0 "Phoenician \n \n§LLanguage Group:§L West Semitic \n§LReligion:§L Orthodox Christian, Uniate Christian"
 
   var_nationality_58:0 "Bulgarian \n \n§LLanguage Group:§L South Slavic\n§LReligion:§L Orthodox Christian, Uniate Christian"
@@ -77,5 +77,12 @@
   
   var_nationality_50:0 "Tyrolean \n \n§LLanguage Group:§L West German\n§LReligion:§L Catholic Christian"
   var_nationality_67:0 "Turcopole \n \n§LLanguage Group:§L Turkic with Western Romance and Graeco-Phrygian influence\n§LReligion:§L Uniate Christian, Catholic Christian"  
-  var_nationality_68:0 "Moldavian \n \n§LLanguage Group:§L Eastern Romance\n§LReligion:§L Orthodox Christian"
+  var_nationality_68:0 "Moldavian \n \n§LLanguage Group:§L Eastern Romance with East Slavic influence\n§LReligion \n§LReligion:§L Orthodox Christian"
   var_nationality_69:0 "Székelys \n \n§LLanguage Group:§L Finno-Ugric\n§LReligion:§L Orthodox Christian" 
+  var_nationality_70:0 "Transilvanian \n \n§LLanguage Group:§L Eastern Romance\n§LReligion:§L Orthodox Christian, Catholic Christian"
+  var_nationality_71:0 "Provençal \n \n§LLanguage Group:§L Western Romance\n§LReligion:§L Catholic Christian"
+  var_nationality_72:0 "Aragonese \n \n§LLanguage Group:§L Western Romance\n§LReligion:§L Catholic Christian"
+  var_nationality_73:0 "Asturian \n \n§LLanguage Group:§L Western Romance\n§LReligion:§L Catholic Christian"
+  var_nationality_74:0 "Castilian \n \n§LLanguage Group:§L Western Romance\n§LReligion:§L Catholic Christian"
+  var_nationality_75:0 "Galician \n \n§LLanguage Group:§L Western Romance\n§LReligion:§L Catholic Christian"
+  var_nationality_76:0 "Portuguese \n \n§LLanguage Group:§L Western Romance\n§LReligion:§L Catholic Christian"

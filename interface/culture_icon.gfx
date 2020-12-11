@@ -280,4 +280,32 @@ spriteTypes = {
 		name = "GFX_culture_east_romanian_moldavian"
 		texturefile = "gfx/interface/ideas/culture/culture_east_romanian_moldavian.dds"
 	}
+		spriteType = {
+		name = "GFX_culture_east_romanian_transilvanian"
+		texturefile = "gfx/interface/ideas/culture/culture_east_romanian_transilvanian.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_french_provence"
+		texturefile = "gfx/interface/ideas/culture/culture_french_provence.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_spanish_aragon"
+		texturefile = "gfx/interface/ideas/culture/culture_spanish_aragon.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_spanish_asturian"
+		texturefile = "gfx/interface/ideas/culture/culture_spanish_asturian.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_spanish_castilian"
+		texturefile = "gfx/interface/ideas/culture/culture_spanish_castilian.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_spanish_galician"
+		texturefile = "gfx/interface/ideas/culture/culture_spanish_galician.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_spanish_portuguese"
+		texturefile = "gfx/interface/ideas/culture/culture_spanish_portuguese.dds"
+	}
 }

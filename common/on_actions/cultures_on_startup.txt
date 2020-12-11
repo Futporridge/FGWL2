@@ -137,6 +137,7 @@ on_actions = {
 		155 = { set_variable = { nationality = 31 } }	#Tolna		
 		893 = { set_variable = { nationality = 31 } }	#Bachka			
 		154 = { set_variable = { nationality = 31 } }	#Segedin
+		905 = { set_variable = { nationality = 31 } }	#Komarno		
 		#Francoprovenсal
 		845 = { set_variable = { nationality = 32 } }	#Valais	
 		917 = { set_variable = { nationality = 32 } }	#Freiburg		
@@ -310,7 +311,6 @@ on_actions = {
 		77 = { set_variable = { nationality = 67 } }	#Durostol
 		345 = { set_variable = { nationality = 67 } }	#Panfulia
 		347 = { set_variable = { nationality = 67 } }	#Klaudiopole	
-		347 = { set_variable = { nationality = 67 } }	#Klaudiopole	
 		356 = { set_variable = { nationality = 67 } }	#Paflagonia	
 		355 = { set_variable = { nationality = 67 } }	#Amis
 		#Moldavan
@@ -318,7 +318,43 @@ on_actions = {
 		78 = { set_variable = { nationality = 68 } }	#Bessarabia	
 		920 = { set_variable = { nationality = 68 } }	#Suchava	
 		#Sekei
-		76 = { set_variable = { nationality = 69 } }	#Transylvania		
+		76 = { set_variable = { nationality = 69 } }	#Transylvania	
+		#Provence
+		21 = { set_variable = { nationality = 71 } }	#Provence	
+		919 = { set_variable = { nationality = 71 } }	#Nicea	
+		#Transylvanian
+		84 = { set_variable = { nationality = 70 } }	#Southern Transilvania	
+		83 = { set_variable = { nationality = 70 } }	#Krishana	
+		914 = { set_variable = { nationality = 70 } }	#Muramiresh	
+		#Aragonese
+		794 = { set_variable = { nationality = 72 } }	#Aragon		
+		#Asturian
+		790 = { set_variable = { nationality = 73 } }	#Asturia	
+		174 = { set_variable = { nationality = 73 } }	#Leon	
+		#Galician
+		171 = { set_variable = { nationality = 75 } }	#Galicia	
+		#Castilian
+		791 = { set_variable = { nationality = 74 } }	#Valladolid	
+		176 = { set_variable = { nationality = 74 } }	#Burgos			
+		166 = { set_variable = { nationality = 74 } }	#Southern Aragon			
+		793 = { set_variable = { nationality = 74 } }	#Guadalajara			
+		41 = { set_variable = { nationality = 74 } }	#Madrid			
+		788 = { set_variable = { nationality = 74 } }	#Salamanca	
+		170 = { set_variable = { nationality = 74 } }	#Extremadura			
+		169 = { set_variable = { nationality = 74 } }	#Sevilla			
+		175 = { set_variable = { nationality = 74 } }	#Guidad Real			
+		789 = { set_variable = { nationality = 74 } }	#Cordoba			
+		173 = { set_variable = { nationality = 74 } }	#Granada	
+		118 = { set_variable = { nationality = 74 } }	#Gibraltar		
+		178 = { set_variable = { nationality = 74 } }	#Canaras		
+		#Portuguese
+		180 = { set_variable = { nationality = 76 } }	#Porto	
+		112 = { set_variable = { nationality = 76 } }	#			
+		181 = { set_variable = { nationality = 76 } }	#			
+		795 = { set_variable = { nationality = 76 } }	#			
+		179 = { set_variable = { nationality = 76 } }	#			
+		697 = { set_variable = { nationality = 76 } }	#Madeira			
+		698 = { set_variable = { nationality = 76 } }	#Azores					
 		}
 	}
 }

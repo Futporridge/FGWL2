@@ -431,6 +431,48 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_finno_ugric_szekelys
 			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_french_provence"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_french_provence
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_east_romanian_transilvanian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_east_romanian_transilvanian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_spanish_aragon"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_spanish_aragon
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_spanish_asturian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_spanish_asturian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_spanish_castilian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_spanish_castilian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_spanish_galician"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_spanish_galician
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_spanish_portuguese"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_spanish_portuguese
+			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 	}
 }
