@@ -193,7 +193,7 @@ guiTypes = {
 		iconType = {
 			name = "culture_east_slavic_carpathian_ruthenian"
 			position = {x=-32 y=-22}
-			spriteType = culture_east_slavic_carpathian_ruthenian
+			spriteType = GFX_culture_east_slavic_carpathian_ruthenian
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}
 		iconType = {
