@@ -508,7 +508,24 @@ country_event = {
 
 	option = {
 		name = aus.25.a
-
+set_party_name = { 
+    ideology = paternalism 
+    long_name = AUS_soldatenring_party_long 
+    name = AUS_soldatenring_party_short
+}
+hidden_effect = {
+retire_ideology_leader = paternalism
+}
+create_country_leader = {
+	name = "Maximilian de Angelis"
+	desc = "POLITICS_MAXIMILIAN_DE_ANGELIS_DESC"
+	picture = "gfx/leaders/AUS/Portrait_Maximilian_de_Angelis.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = {
+		#
+	}
+}
 	}
 }
 country_event = {	
@@ -871,8 +888,16 @@ set_politics = {
 	desc = aus.46.d
 	picture = GFX_
 
+	fire_only_once = yes
 	is_triggered_only = yes
-
+	trigger = {
+		tag = AUS
+		NOT = { has_completed_focus = AUS_grand_restructure }
+		focus_progress = {
+			focus = AUS_grand_restructure
+			progress > 0.10
+		}
+	}	
 	option = {
 		name = aus.46.a	
 		
@@ -933,7 +958,7 @@ immediate = {
 	option = {
 		name = aus.47.b
 			hidden_effect = {				
-	HUN = { change_tag_from = AUS }	 
+	HUN = { change_tag_from = FROM }	 
 		}
 }
 }
