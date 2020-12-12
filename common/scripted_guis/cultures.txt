@@ -404,5 +404,45 @@ scripted_gui = {
 				check_variable = { nationality = 79 } 
 			}
 		}		
+		triggers = {
+			culture_german_alemannish_visible = {
+				check_variable = { nationality = 80 } 
+			}
+		}	
+		triggers = {
+			culture_german_hessisch_visible = {
+				check_variable = { nationality = 81 } 
+			}
+		}	
+		triggers = {
+			culture_german_suebi_visible = {
+				check_variable = { nationality = 82 } 
+			}
+		}	
+		triggers = {
+			culture_german_franconian_visible = {
+				check_variable = { nationality = 83 } 
+			}
+		}	
+		triggers = {
+			culture_german_rheinish_visible = {
+				check_variable = { nationality = 84 } 
+			}
+		}	
+		triggers = {
+			culture_german_letzeburgesch_visible = {
+				check_variable = { nationality = 85 } 
+			}
+		}		
+		triggers = {
+			culture_german_lothringisch_visible = {
+				check_variable = { nationality = 86 } 
+			}
+		}	
+		triggers = {
+			culture_french_walloon_visible = {
+				check_variable = { nationality = 87 } 
+			}
+		}			
 	}
 }

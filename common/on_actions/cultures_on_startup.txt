@@ -47,7 +47,6 @@ on_actions = {
 		#swiss
 		151 = { set_variable = { nationality = 11 } }	#Zurich
 		3 = { set_variable = { nationality = 11 } }	#Bern
-		903 = { set_variable = { nationality = 11 } }	#Voralberg	
 		#sudeten
 		69 = { set_variable = { nationality = 12 } }	#Sudetenland
 		74 = { set_variable = { nationality = 12 } }	#Ostsudeten			
@@ -281,7 +280,6 @@ on_actions = {
 		916 = { set_variable = { nationality = 62 } }	#Rousillion
 		165 = { set_variable = { nationality = 62 } }	#Catalonia
 		177 = { set_variable = { nationality = 62 } }	#Baleares
-		167 = { set_variable = { nationality = 62 } }	#Valencia
 		#Czech
 		9 = { set_variable = { nationality = 63 } }	#Bohemia
 		75 = { set_variable = { nationality = 63 } }	#Morvia	
@@ -346,7 +344,9 @@ on_actions = {
 		789 = { set_variable = { nationality = 74 } }	#Cordoba			
 		173 = { set_variable = { nationality = 74 } }	#Granada	
 		118 = { set_variable = { nationality = 74 } }	#Gibraltar		
-		178 = { set_variable = { nationality = 74 } }	#Canaras		
+		178 = { set_variable = { nationality = 74 } }	#Canaras	
+		168 = { set_variable = { nationality = 74 } }	#Murcia		
+		167 = { set_variable = { nationality = 74 } }	#Valencia		
 		#Portuguese
 		180 = { set_variable = { nationality = 76 } }	#Porto	
 		112 = { set_variable = { nationality = 76 } }	#			
@@ -359,7 +359,6 @@ on_actions = {
 		57 = { set_variable = { nationality = 77 } }	#Dortmund	
 		56 = { set_variable = { nationality = 77 } }	#Munster			
 		831 = { set_variable = { nationality = 77 } }	#Bilefeld			
-		829 = { set_variable = { nationality = 77 } }	#East Frisia			
 		801 = { set_variable = { nationality = 77 } }	#Bremen			
 		828 = { set_variable = { nationality = 77 } }	#Madeira			
 		830 = { set_variable = { nationality = 77 } }	#Azores			
@@ -371,8 +370,33 @@ on_actions = {
 		64 = { set_variable = { nationality = 78 } }	#Brandenburg	
 		68 = { set_variable = { nationality = 78 } }	#Ostmark	
 		#Frisian
-		930 = { set_variable = { nationality = 79 } }	#Magdeburg	
-		829 = { set_variable = { nationality = 79 } }	#Brandenburg	
+		930 = { set_variable = { nationality = 79 } }	#Frisia	
+		829 = { set_variable = { nationality = 79 } }	#Ost Frisia	
+		#Alemannish
+		835 = { set_variable = { nationality = 80 } }	#Baden	
+		28 = { set_variable = { nationality = 80 } }	#Alsace	
+		903 = { set_variable = { nationality = 80 } }	#Voralberg	
+		#Hessisch
+		837 = { set_variable = { nationality = 81 } }	#Kassel	
+		55 = { set_variable = { nationality = 81 } }	#Hessen	
+		838 = { set_variable = { nationality = 81 } }	#Frankfuurt
+		836 = { set_variable = { nationality = 81 } }	#Kurpfalz	
+		#Swabians
+		50 = { set_variable = { nationality = 82 } }	#Wurtemberg		
+		#Franconian
+		818 = { set_variable = { nationality = 83 } }	#Thuringia	
+		54 = { set_variable = { nationality = 83 } }	#Wurzburg				
+		834 = { set_variable = { nationality = 83 } }	#Nurnberg				
+		#Rheinish
+		42 = { set_variable = { nationality = 84 } }	#Trier	
+		51 = { set_variable = { nationality = 84 } }	#Dusseldorf				
+		847 = { set_variable = { nationality = 84 } }	#Koln	
+		#Letzeburgesch
+		8 = { set_variable = { nationality = 85 } }	#Letzeburg		
+		#Lothringisch
+		839 = { set_variable = { nationality = 86 } }	#Metz	
+		#Walloon
+		34 = { set_variable = { nationality = 87 } }	#Lothringia				
 		}
 	}
 }

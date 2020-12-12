@@ -320,4 +320,36 @@ spriteTypes = {
 		name = "GFX_culture_ingvaeonic_frisian"
 		texturefile = "gfx/interface/ideas/culture/culture_ingvaeonic_frisian.dds"
 	}
+		spriteType = {
+		name = "GFX_culture_german_alemannish"
+		texturefile = "gfx/interface/ideas/culture/culture_german_alemannish.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_german_hessisch"
+		texturefile = "gfx/interface/ideas/culture/culture_german_hessisch.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_german_suebi"
+		texturefile = "gfx/interface/ideas/culture/culture_german_suebi.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_german_franconian"
+		texturefile = "gfx/interface/ideas/culture/culture_german_franconian.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_german_rheinish"
+		texturefile = "gfx/interface/ideas/culture/culture_german_rheinish.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_german_letzeburgesch"
+		texturefile = "gfx/interface/ideas/culture/culture_german_letzeburgesch.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_german_lothringisch"
+		texturefile = "gfx/interface/ideas/culture/culture_german_lothringisch.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_french_walloon"
+		texturefile = "gfx/interface/ideas/culture/culture_french_walloon.dds"
+	}
 }

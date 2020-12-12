@@ -491,6 +491,55 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_ingvaeonic_frisian
 			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		
+		iconType = {
+			name = "culture_german_alemannish"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_german_alemannish
+			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
+		iconType = {
+			name = "culture_german_hessisch"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_german_hessisch
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}		
+		iconType = {
+			name = "culture_german_suebi"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_german_suebi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}		
+		iconType = {
+			name = "culture_german_franconian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_german_franconian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}		
+		iconType = {
+			name = "culture_german_rheinish"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_german_rheinish
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}		
+		iconType = {
+			name = "culture_german_letzeburgesch"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_german_letzeburgesch
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}				
+		iconType = {
+			name = "culture_german_lothringisch"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_german_lothringisch
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}		
+		iconType = {
+			name = "culture_french_walloon"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_french_walloon
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}				
 	}
 }
