@@ -472,4 +472,22 @@ defined_text = {
 		}
 		localization_key = var_nationality_76
 	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 77 }
+		}
+		localization_key = var_nationality_77
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 78 }
+		}
+		localization_key = var_nationality_78
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 79 }
+		}
+		localization_key = var_nationality_79
+	}		
 }

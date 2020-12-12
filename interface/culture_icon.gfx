@@ -308,4 +308,16 @@ spriteTypes = {
 		name = "GFX_culture_spanish_portuguese"
 		texturefile = "gfx/interface/ideas/culture/culture_spanish_portuguese.dds"
 	}
+		spriteType = {
+		name = "GFX_culture_german_hannover"
+		texturefile = "gfx/interface/ideas/culture/culture_german_hannover.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_german_brandenburg"
+		texturefile = "gfx/interface/ideas/culture/culture_german_brandenburg.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_ingvaeonic_frisian"
+		texturefile = "gfx/interface/ideas/culture/culture_ingvaeonic_frisian.dds"
+	}
 }

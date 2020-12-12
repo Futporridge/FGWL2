@@ -473,6 +473,24 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_spanish_portuguese
 			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_german_hannover"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_german_hannover
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_german_brandenburg"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_german_brandenburg
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_ingvaeonic_frisian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_ingvaeonic_frisian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 	}
 }

@@ -118,7 +118,6 @@ on_actions = {
 		349 = { set_variable = { nationality = 18 } }	#Sebasteja
 		868 = { set_variable = { nationality = 18 } }	#Lykandos			
 		#Bretons
-		14 = { set_variable = { nationality = 19 } }	#Loire	
 		30 = { set_variable = { nationality = 19 } }	#Brittany
 		#Wallachian
 		81 = { set_variable = { nationality = 29 } }	#Oltenia	
@@ -159,7 +158,8 @@ on_actions = {
 		785 = { set_variable = { nationality = 33 } }	#Picardy						
 		862 = { set_variable = { nationality = 33 } }	#Cale						
 		17 = { set_variable = { nationality = 33 } }	#France Comte						
-		799 = { set_variable = { nationality = 33 } }	#Vichy					
+		799 = { set_variable = { nationality = 33 } }	#Vichy			
+		14 = { set_variable = { nationality = 33 } }	#Loire			
 		#Gascon
 		19 = { set_variable = { nationality = 34 } }	#Bordeaux	
 		860 = { set_variable = { nationality = 34 } }	#Pau		
@@ -354,7 +354,25 @@ on_actions = {
 		795 = { set_variable = { nationality = 76 } }	#			
 		179 = { set_variable = { nationality = 76 } }	#			
 		697 = { set_variable = { nationality = 76 } }	#Madeira			
-		698 = { set_variable = { nationality = 76 } }	#Azores					
+		698 = { set_variable = { nationality = 76 } }	#Azores		
+		#Plattdeutsch
+		57 = { set_variable = { nationality = 77 } }	#Dortmund	
+		56 = { set_variable = { nationality = 77 } }	#Munster			
+		831 = { set_variable = { nationality = 77 } }	#Bilefeld			
+		829 = { set_variable = { nationality = 77 } }	#East Frisia			
+		801 = { set_variable = { nationality = 77 } }	#Bremen			
+		828 = { set_variable = { nationality = 77 } }	#Madeira			
+		830 = { set_variable = { nationality = 77 } }	#Azores			
+		59 = { set_variable = { nationality = 77 } }	#Hannover			
+		832 = { set_variable = { nationality = 77 } }	#Braunsweig			
+		822 = { set_variable = { nationality = 77 } }	#Hamburg			
+		#Markish
+		833 = { set_variable = { nationality = 78 } }	#Magdeburg	
+		64 = { set_variable = { nationality = 78 } }	#Brandenburg	
+		68 = { set_variable = { nationality = 78 } }	#Ostmark	
+		#Frisian
+		930 = { set_variable = { nationality = 79 } }	#Magdeburg	
+		829 = { set_variable = { nationality = 79 } }	#Brandenburg	
 		}
 	}
 }

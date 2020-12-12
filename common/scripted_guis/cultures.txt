@@ -388,6 +388,21 @@ scripted_gui = {
 			culture_spanish_portuguese_visible = {
 				check_variable = { nationality = 76 } 
 			}
-		}				
+		}
+		triggers = {
+			culture_german_hannover_visible = {
+				check_variable = { nationality = 77 } 
+			}
+		}
+		triggers = {
+			culture_german_brandenburg_visible = {
+				check_variable = { nationality = 78 } 
+			}
+		}
+		triggers = {
+			culture_ingvaeonic_frisian_visible = {
+				check_variable = { nationality = 79 } 
+			}
+		}		
 	}
 }
