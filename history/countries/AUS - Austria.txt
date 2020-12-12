@@ -109,9 +109,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Maximilian de Angelis"
-	desc = "POLITICS_MAXIMILIAN_DE_ANGELIS_DESC"
-	picture = "gfx/leaders/AUS/Portrait_Maximilian_de_Angelis.tga"
+	name = "Franz Böhme"
+	desc = "POLITICS_FRANZ_BOHME_DESC"
+	picture = "gfx/leaders/AUS/Portrait_Franz_Bohme.tga"
 	expire = "1965.1.1"
 	ideology = paternalism
 	traits = {
