@@ -538,4 +538,115 @@ defined_text = {
 		}
 		localization_key = var_nationality_87
 	}
+
+
+
+	text = {
+		trigger = {
+			check_variable = { nationality = 88 }
+		}
+		localization_key = var_nationality_88
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 89 }
+		}
+		localization_key = var_nationality_89
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 90 }
+		}
+		localization_key = var_nationality_90
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 91 }
+		}
+		localization_key = var_nationality_91
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 92 }
+		}
+		localization_key = var_nationality_92
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 93 }
+		}
+		localization_key = var_nationality_93
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 94 }
+		}
+		localization_key = var_nationality_94
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 95 }
+		}
+		localization_key = var_nationality_95
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 96 }
+		}
+		localization_key = var_nationality_96
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 97 }
+		}
+		localization_key = var_nationality_97
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 98 }
+		}
+		localization_key = var_nationality_98
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 99 }
+		}
+		localization_key = var_nationality_99
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 100 }
+		}
+		localization_key = var_nationality_100
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 101 }
+		}
+		localization_key = var_nationality_101
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 102 }
+		}
+		localization_key = var_nationality_102
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 103 }
+		}
+		localization_key = var_nationality_103
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 104 }
+		}
+		localization_key = var_nationality_104
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 105 }
+		}
+		localization_key = var_nationality_105
+	}	
 }

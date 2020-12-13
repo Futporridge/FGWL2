@@ -540,6 +540,115 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_french_walloon
 			pdx_tooltip = "EOANB_CULTURE_INFO"
-		}				
+		}	
+
+		iconType = {
+			name = "culture_north_german_russenorck"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_north_german_russenorck
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_celt_gaelic"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_celt_gaelic
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_ingvaeonic_english"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_ingvaeonic_english
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_celt_cornish"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_celt_cornish
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_south_slavic_dalmatian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_south_slavic_dalmatian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_semite_maltese"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_semite_maltese
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_ingvaeonic_scott"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_ingvaeonic_scott
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_german_niderlandes"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_german_niderlandes
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_finno_ugric_lopari"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_finno_ugric_lopari
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_paleo_balkan_greek_epirot"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_paleo_balkan_greek_epirot
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_north_german_icelandic"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_north_german_icelandic
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_finno_ugric_carel"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_finno_ugric_carel
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_celt_ireland"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_celt_ireland
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_north_german_swedish"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_north_german_swedish
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_north_german_norge"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_north_german_norge
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_north_german_gaut"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_north_german_gaut
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_finno_ugric_finn"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_finno_ugric_finn
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_north_german_danish"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_north_german_danish
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}		
 	}
 }

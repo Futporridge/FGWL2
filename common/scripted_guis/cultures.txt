@@ -443,6 +443,99 @@ scripted_gui = {
 			culture_french_walloon_visible = {
 				check_variable = { nationality = 87 } 
 			}
-		}			
+		}	
+
+
+		triggers = {
+			culture_north_german_russenorck_visible = {
+				check_variable = { nationality = 88 } 
+			}
+		}
+		triggers = {
+			culture_celt_gaelic_visible = {
+				check_variable = { nationality = 89 } 
+			}
+		}
+		triggers = {
+			culture_ingvaeonic_english_visible = {
+				check_variable = { nationality = 90 } 
+			}
+		}
+		triggers = {
+			culture_celt_cornish_visible = {
+				check_variable = { nationality = 91 } 
+			}
+		}
+		triggers = {
+			culture_ingvaeonic_scott_visible = {
+				check_variable = { nationality = 92 } 
+			}
+		}
+		triggers = {
+			culture_semite_maltese_visible = {
+				check_variable = { nationality = 93 } 
+			}
+		}
+		triggers = {
+			culture_south_slavic_dalmatian_visible = {
+				check_variable = { nationality = 94 } 
+			}
+		}
+		triggers = {
+			culture_german_niderlandes_visible = {
+				check_variable = { nationality = 95 } 
+			}
+		}
+		triggers = {
+			culture_finno_ugric_lopari_visible = {
+				check_variable = { nationality = 96 } 
+			}
+		}
+		triggers = {
+			culture_paleo_balkan_greek_epirot_visible = {
+				check_variable = { nationality = 97 } 
+			}
+		}
+		triggers = {
+			culture_north_german_icelandic_visible = {
+				check_variable = { nationality = 98 } 
+			}
+		}
+		triggers = {
+			culture_finno_ugric_carel_visible = {
+				check_variable = { nationality = 99 } 
+			}
+		}
+		triggers = {
+			culture_celt_ireland_visible = {
+				check_variable = { nationality = 100 } 
+			}
+		}
+		triggers = {
+			culture_north_german_swedish_visible = {
+				check_variable = { nationality = 101 } 
+			}
+		}
+		triggers = {
+			culture_north_german_norge_visible = {
+				check_variable = { nationality = 102 } 
+			}
+		}
+		triggers = {
+			culture_north_german_gaut_visible = {
+				check_variable = { nationality = 103 } 
+			}
+		}
+		triggers = {
+			culture_finno_ugric_finn_visible = {
+				check_variable = { nationality = 104 } 
+			}
+		}
+		triggers = {
+			culture_north_german_danish_visible = {
+				check_variable = { nationality = 105 } 
+			}
+		}
+	
 	}
 }
