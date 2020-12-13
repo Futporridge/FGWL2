@@ -32,9 +32,9 @@ HRE_member
 set_convoys = 100
 
 create_country_leader = {
-	name = "Local Governments"
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders/LUB"
+	name = "Hansa Trading Council"
+	desc = "POLITICS_LUBECK_COUNCIL_DESC"
+	picture = "gfx/leaders/LUB/Portrait_lubeck_council.tga"
 	expire = "1965.1.1"
 	ideology = oligarchy
 	traits = { 
