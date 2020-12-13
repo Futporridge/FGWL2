@@ -36,9 +36,9 @@ Bende_rosse
 set_convoys = 100
 
 create_country_leader = {
-	name = "Francesco Salvatore d'Asburgo-Lorena"
-	desc = "POLITICS_FRANZ_SALVATOR_DESC"
-	picture = "gfx/leaders/VEN/Portrait_Franz_Salvator.tga"
+	name = "Joseph August von Habsburg"
+	desc = "POLITICS_JOSEPH_AUGUST_DESC"
+	picture = "gfx/leaders/VEN/Portrait_Joseph_August.tga"
 	expire = "1965.1.1"
 	ideology = oligarchy
 	traits = { 

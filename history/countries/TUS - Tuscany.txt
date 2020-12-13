@@ -35,9 +35,9 @@ regime_di_prosperita
 set_convoys = 100
 
 create_country_leader = {
-	name = "Joseph August von Habsburg"
-	desc = "POLITICS_JOSEPH_AUGUST_DESC"
-	picture = "gfx/leaders/TUS/Portrait_Joseph_August.tga"
+	name = "Francesco Salvatore d'Asburgo-Lorena"
+	desc = "POLITICS_FRANZ_SALVATOR_DESC"
+	picture = "gfx/leaders/TUS/Portrait_Franz_Salvator.tga"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = { 
