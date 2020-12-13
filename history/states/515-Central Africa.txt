@@ -4,8 +4,8 @@ state={
 	name="STATE_515"
 
 	history={
-		owner = FRA
-		add_core_of = NGR
+		owner = SSA
+		add_core_of = SSA
 		buildings = {
 			infrastructure = 1
 
