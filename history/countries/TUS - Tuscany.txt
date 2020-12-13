@@ -35,7 +35,7 @@ regime_di_prosperita
 set_convoys = 100
 
 create_country_leader = {
-	name = "Joseph August"
+	name = "Joseph August von Habsburg"
 	desc = "POLITICS_JOSEPH_AUGUST_DESC"
 	picture = "gfx/leaders/TUS/Portrait_Joseph_August.tga"
 	expire = "1965.1.1"
