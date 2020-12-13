@@ -40,7 +40,7 @@ add_ideas = {
 set_stability = 0.50
 
 create_country_leader = {
-	name = "Carl Rainer"
+	name = "Carl Rainer von Habsburg"
 	desc = "POLITICS_PIERRE_LAVAL_DESC"
 	picture = "gfx/leaders/SWI/Portrait_Carl_Rainer.tga"
 	expire = "1965.1.1"
