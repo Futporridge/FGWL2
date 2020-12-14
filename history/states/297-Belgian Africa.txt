@@ -4,18 +4,14 @@ state={
 	name="STATE_297"
 
 	history={
-		owner = SPR
-		add_core_of = EQG
+		owner = ZUL
+		add_core_of = ZUL
 		victory_points = {
-			1903 1 
+			1494 1 
 		}
 		buildings = {
 			infrastructure = 2
-			1903 = {
-				naval_base = 1
-
-			}
-			8244 = {
+			8178 = {
 				naval_base = 1
 
 			}
@@ -27,7 +23,7 @@ state={
 	provinces={
 		1494 7900 8178 
 	}
-	manpower=185000
+	manpower=1182000
 	buildings_max_level_factor=1.000
-	state_category=enclave
+	state_category=town
 }
