@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = FRA
-		add_core_of = SEN
+		owner = FSG
+		add_core_of = FSG
 		victory_points = {
 			4948 5 
 		}
@@ -29,5 +29,5 @@ state={
 	}
 	manpower=1638000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }
