@@ -4,17 +4,24 @@ state={
 	name="STATE_779"
 
 	history={
-		owner = FRA
-		add_core_of = IVO
+		owner = ELB
+		add_core_of = ELB
 		victory_points = {
 			10803 1 
 		}
+		victory_points = {
+			10862 2 
+		}		
 		buildings = {
 			infrastructure = 3
 			10803 = {
 				naval_base = 1
 
 			}
+			10862 = {
+				naval_base = 2
+
+			}			
 
 		}
 
@@ -25,5 +32,5 @@ state={
 	}
 	manpower=3850734
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }
