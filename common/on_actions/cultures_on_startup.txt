@@ -180,7 +180,6 @@ on_actions = {
 		842 = { set_variable = { nationality = 38 } }	#Ticino			
 		159 = { set_variable = { nationality = 38 } }	#Lombardy			
 		803 = { set_variable = { nationality = 38 } }	#Romania		
-		802 = { set_variable = { nationality = 38 } }	#Liguria			
 		906 = { set_variable = { nationality = 38 } }	#Trentino	
 		843 = { set_variable = { nationality = 38 } }	#Val Porshiavo					
 		#Sardinian
@@ -198,7 +197,8 @@ on_actions = {
 		160 = { set_variable = { nationality = 43 } }	#Veneto	
 		736 = { set_variable = { nationality = 43 } }	#Istria	
 		932 = { set_variable = { nationality = 43 } }	#Cerigo		
-		907 = { set_variable = { nationality = 43 } }	#Triest							
+		907 = { set_variable = { nationality = 43 } }	#Triest		
+		182 = { set_variable = { nationality = 43 } }	#Creta									
 		#Zyx
 		852 = { set_variable = { nationality = 44 } }	#Abazgia	
 		851 = { set_variable = { nationality = 44 } }	#Mapa	
@@ -457,8 +457,10 @@ on_actions = {
 		110 = { set_variable = { nationality = 102 } }	#	
 		142 = { set_variable = { nationality = 102 } }	#	
 		143 = { set_variable = { nationality = 102 } }	#		
-		144 = { set_variable = { nationality = 102 } }	#		
-		#Norwegian
+		144 = { set_variable = { nationality = 102 } }	#	
+		722 = { set_variable = { nationality = 102 } }	#				
+		337 = { set_variable = { nationality = 102 } }	#					
+		#Gaut
 		124 = { set_variable = { nationality = 103 } }	#	
 		#Finnish
 		111 = { set_variable = { nationality = 104 } }	#	
@@ -470,9 +472,19 @@ on_actions = {
 		138 = { set_variable = { nationality = 105 } }	#	
 		99 = { set_variable = { nationality = 105 } }	#		
 		824 = { set_variable = { nationality = 105 } }	#	
-		101 = { set_variable = { nationality = 105 } }	#			
-		337 = { set_variable = { nationality = 105 } }	#			
-		722 = { set_variable = { nationality = 105 } }	#				
+		101 = { set_variable = { nationality = 105 } }	#
+		#Ligurian
+		802 = { set_variable = { nationality = 106 } }	#	
+		#Napoli
+		117 = { set_variable = { nationality = 107 } }	#			
+		156 = { set_variable = { nationality = 107 } }	#			
+		#Welsh
+		122 = { set_variable = { nationality = 108 } }	#
+		#Mazurian
+		98 = { set_variable = { nationality = 109 } }	#		
+		97 = { set_variable = { nationality = 109 } }	#		
+		#Sorb
+		931 = { set_variable = { nationality = 110 } }	#		
 		}
 	}
 }

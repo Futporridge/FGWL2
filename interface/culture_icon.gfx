@@ -415,15 +415,35 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/culture/culture_north_german_norge.dds"
 	}
 		spriteType = {
+		name = "GFX_culture_north_german_danish"
+		texturefile = "gfx/interface/ideas/culture/culture_north_german_danish.dds"
+	}
+		spriteType = {
 		name = "GFX_culture_north_german_gaut"
 		texturefile = "gfx/interface/ideas/culture/culture_north_german_gaut.dds"
-	}
+	}	
 		spriteType = {
 		name = "GFX_culture_finno_ugric_finn"
 		texturefile = "gfx/interface/ideas/culture/culture_finno_ugric_finn.dds"
 	}
 		spriteType = {
-		name = "GFX_culture_north_german_danish"
-		texturefile = "gfx/interface/ideas/culture/culture_north_german_danish.dds"
+		name = "GFX_culture_italian_ligurian"
+		texturefile = "gfx/interface/ideas/culture/culture_italian_ligurian.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_italian_southern"
+		texturefile = "gfx/interface/ideas/culture/culture_italian_southern.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_celt_walles"
+		texturefile = "gfx/interface/ideas/culture/culture_celt_walles.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_west_slavic_mazurian"
+		texturefile = "gfx/interface/ideas/culture/culture_west_slavic_mazurian.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_west_slavic_sorb"
+		texturefile = "gfx/interface/ideas/culture/culture_west_slavic_sorb.dds"
 	}
 }

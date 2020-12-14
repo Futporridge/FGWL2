@@ -17,7 +17,7 @@
   var_nationality_13:0 "Latvian \n \n \n§LLanguage Group:§L Baltic\n§LReligion:§L Catholic Christian"   
   var_nationality_14:0 "Lithuanian \n \n§LLatvians are a Baltic nation that emerged as a result of the merger of the Baltic and Finno-Ugric tribes on the territory of the German crusader Livonian branch of the Teutonic Order§L \n \n§LLanguage Group:§L Baltic\n§LReligion:§L Catholic Christian"   
   var_nationality_15:0 "Estonian \n \n§LEstonians are Finno-Ugric nation living in the north of the Baltic§L"    
-  var_nationality_16:0 "Skobarian \n \n§LSkobari is a sub-ethnos that appeared as a result of a mixture of the local Slavic population and German culture.§L \n \n§LLanguage Group:§L Mixed East German and East Slavic\n§LReligion:§L Orthodox Christian and Uniate Christian"  
+  var_nationality_16:0 "Skobarian \n \n§LSkobari is a sub-ethnos that appeared as a result of a mixture of the local Slavic population and German culture.§L \n \n§LLanguage Group:§L East Slavic with Western Germanic influence \n§LReligion:§L Orthodox Christian and Uniate Christian"  
   var_nationality_17:0 "Pontic Tatar \n \n§LLanguage Group:§L Turkic\n§LReligion:§L Orthodox Christian"  
   var_nationality_18:0 "Turk \n \n§LLanguage Group:§L Turkic\n§LReligion:§L Altaic Pagan, Orthodox Christian, Sunni Islam"  
   var_nationality_19:0 "Breton \n \n§LLanguage Group:§L Celtic\n§LReligion:§L Catholic Christian"  
@@ -71,7 +71,7 @@
   var_nationality_62:0 "Catalan \n \n§LLanguage Group:§L Western Romance\n§LReligion:§L Catholic Christian"
   
   var_nationality_63:0 "Czech \n \n§LLanguage Group:§L West Slavic\n§LReligion:§L Catholic Christian"
-  var_nationality_64:0 "Polish \n \n§LLanguage Group:§L West Slavic\n§LReligion:§L Catholic Christian"
+  var_nationality_64:0 "Polish \n \n§LLanguage Group:§L West Slavic\n§LReligion:§L Catholic Christian, Böhmian Christian"
   var_nationality_65:0 "Silesian \n \n§LLanguage Group:§L West Slavic\n§LReligion:§L Catholic Christian"
   var_nationality_66:0 "Slovak \n \n§LLanguage Group:§L West Slavic with Finno-Ugric influence\n§LReligion:§L Catholic Christian"
   
@@ -117,3 +117,9 @@
   var_nationality_103:0 "Gutnish \n \n§LLanguage Group:§L North Germanic\n§LReligion:§L Catholic Christian"  
   var_nationality_104:0 "Finnish  \n \n§LLanguage Group:§L North Germanic\n§LReligion:§L Catholic Christian, Böhmian Christian"
   var_nationality_105:0 "Danish \n \n§LLanguage Group:§L North Germanic\n§LReligion:§L Catholic Christian, Böhmian Christian"
+  
+  var_nationality_106:0 "Ligurian \n \n§LLanguage Group:§L Western Romance\n§LReligion:§L Catholic Christian"
+  var_nationality_107:0 "Neapolitan \n \n§LLanguage Group:§L Western Romance\n§LReligion:§L Catholic Christian"
+  var_nationality_108:0 "Welsh \n \n§LLanguage Group:§L Celtic\n§LReligion:§L Catholic Christian"
+  var_nationality_109:0 "Mazurian \n \n§LLanguage Group:§L West Slavic with Western Germanic influence\n§LReligion:§L Catholic Christian"  
+  var_nationality_110:0 "Sorb \n \n§LLanguage Group:§L West Slavic with Western Germanic influence\n§LReligion:§L Catholic Christian, Böhmian Christian"

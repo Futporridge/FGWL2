@@ -649,6 +649,36 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_north_german_danish
 			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_italian_ligurian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_italian_ligurian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_italian_southern"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_italian_southern
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_celt_walles"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_celt_walles
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_west_slavic_mazurian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_west_slavic_mazurian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_west_slavic_sorb"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_west_slavic_sorb
+			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 	}
 }

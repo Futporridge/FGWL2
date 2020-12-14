@@ -536,6 +536,30 @@ scripted_gui = {
 				check_variable = { nationality = 105 } 
 			}
 		}
-	
+		triggers = {
+			culture_italian_ligurian_visible = {
+				check_variable = { nationality = 106 } 
+			}
+		}
+		triggers = {
+			culture_italian_southern_visible = {
+				check_variable = { nationality = 107 } 
+			}
+		}
+		triggers = {
+			culture_celt_walles_visible = {
+				check_variable = { nationality = 108 } 
+			}
+		}
+		triggers = {
+			culture_west_slavic_mazurian_visible = {
+				check_variable = { nationality = 109 } 
+			}
+		}
+		triggers = {
+			culture_west_slavic_sorb_visible = {
+				check_variable = { nationality = 110 } 
+			}
+		}		
 	}
 }
