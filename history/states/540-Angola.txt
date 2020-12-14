@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = POR
+		owner = PSA
 		buildings = {
 			infrastructure = 1
 			8248 = {
@@ -20,9 +20,9 @@ state={
 			8248 1 
 		}
 		victory_points = {
-			10966 1 
+			10966 3 
 		}
-		add_core_of = ANG
+		add_core_of = PSA
 
 	}
 

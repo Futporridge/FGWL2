@@ -4,23 +4,23 @@ state={
 	name="STATE_547"
 
 	history={
-		owner = ENG
+		owner = DEA
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			5210 = {
-				naval_base = 2
+				naval_base = 5
 
 			}
 
 		}
 		victory_points = {
-			1939 2 
+			1939 1 
 		}
 		victory_points = {
-			5210 1 
+			5210 5 
 		}
-		add_core_of = KEN
+		add_core_of = DEA
 
 	}
 
