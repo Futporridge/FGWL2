@@ -2,22 +2,21 @@
 state={
 	id=552
 	name="STATE_552"
-	manpower = 18539
-	
-	state_category = wasteland
-	impassable = yes
 
 	history={
 		owner = EGY
 		buildings = {
 			infrastructure = 0
-		}
 
+		}
 		add_core_of = EGY
 
 	}
 
 	provinces={
-		1143 2064 7216 10127 10869 10907 12099 12733 12764 12816 
+		1057 1060 1140 2064 4191 7216 10104 10754 10785 10869 10907 11951 12099 12733 12764 12816 
 	}
+	manpower=18539
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

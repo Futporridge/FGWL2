@@ -1,19 +1,17 @@
+
 state={
 	id=828
 	name="STATE_828"
-	provinces={
-		9976 
-	}
 
-	history = {
-		add_core_of = LUB		
+	history={
+		add_core_of = LUB
 		owner = LUB
 		victory_points = {
 			9976 20 
-		}			
-		buildings = {	
+		}
+		buildings = {
 			infrastructure = 8
-			industrial_complex = 1			
+			industrial_complex = 1
 			arms_factory = 2
 			dockyard = 5
 			9976 = {
@@ -22,8 +20,13 @@ state={
 			}
 
 		}
-	}	
-	state_category=city				
-	manpower=607185	
+
+	}
+
+	provinces={
+		3326 9976 
+	}
+	manpower=607185
 	buildings_max_level_factor=1.000
+	state_category=city
 }

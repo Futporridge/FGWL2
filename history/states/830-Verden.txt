@@ -1,21 +1,23 @@
+
 state={
 	id=830
 	name="STATE_830"
-	provinces={
-		374 3326 6349 
-	}
-		history={
+
+	history={
 		owner = HAN
-		
 		buildings = {
-			industrial_complex = 1			
+			industrial_complex = 1
 			infrastructure = 4
 
 		}
-		
-		add_core_of = HAN	
-	}	
-	state_category=rural	
+		add_core_of = HAN
+
+	}
+
+	provinces={
+		374 6349 
+	}
 	manpower=345678
 	buildings_max_level_factor=1.000
+	state_category=rural
 }
