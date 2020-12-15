@@ -17,9 +17,9 @@ state={
 	}
 
 	provinces={
-		1975 2044 2056 5101 10788 
+		2044 10771 10788 
 	}
 	manpower=543817
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }

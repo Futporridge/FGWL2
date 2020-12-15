@@ -1,0 +1,23 @@
+
+state={
+	id=936
+	name="STATE_936"
+
+	history={
+		owner = SSA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SSA
+
+	}
+
+	provinces={
+		781 1043 1095 1901 5095 10749 10868 12849 
+	}
+	manpower=387900
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

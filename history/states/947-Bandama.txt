@@ -1,0 +1,18 @@
+state={
+	id=947
+	name="STATE_947"
+	history={
+		add_core_of = ELB
+		owner = ELB
+		buildings = {
+			infrastructure = 3
+			}
+		}	
+	provinces={
+		5013 5070 7983 8065 
+	}
+	impassable = yes
+	state_category=pastoral
+	manpower=0
+	buildings_max_level_factor=1.000
+}

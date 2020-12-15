@@ -1,27 +1,29 @@
 
 state={
 	id=783
-	name="STATE_783" # Sidi Ifni
-	manpower = 11043
-	
-	state_category = pastoral
+	name="STATE_783"
 
 	history={
 		victory_points = {
-			12857 1
+			12857 1 
 		}
-
 		owner = SMH
 		add_core_of = SMH
 		buildings = {
 			infrastructure = 1
 			12857 = {
 				naval_base = 1
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		12857
+		1126 1967 2049 4970 5004 5035 5053 8061 8077 9943 12711 12842 12888 
 	}
+	manpower=11043
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

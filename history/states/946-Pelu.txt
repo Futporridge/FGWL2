@@ -1,0 +1,17 @@
+state={
+	id=946
+	name="STATE_946"
+	provinces={
+		2012 2100 8015 12710 
+	}
+	history={
+		add_core_of = FSG
+		owner = FSG
+		buildings = {
+			infrastructure = 3
+			}
+		}
+	state_category=rural	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=945
+	name="STATE_945"
+
+	history={
+		add_core_of = BCL
+		owner = BCL
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		710 12802 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

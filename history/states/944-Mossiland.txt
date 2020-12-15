@@ -1,0 +1,17 @@
+state={
+	id=944
+	name="STATE_944"
+	provinces={
+		2001 7950 8071 10836 
+	}
+	history={
+		add_core_of = ASG
+		owner = ASG
+		buildings = {
+			infrastructure = 3
+			}
+		}
+	state_category=rural	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

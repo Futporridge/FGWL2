@@ -1,0 +1,17 @@
+state={
+	id=949
+	name="STATE_949"
+	provinces={
+		4927 5045 7930 8116 
+	}
+	history={
+		add_core_of = TDJ
+		owner = TDJ
+		buildings = {
+			infrastructure = 3
+			}
+		}
+	state_category=town
+	manpower=0
+	buildings_max_level_factor=1.000
+}
