@@ -1,19 +1,22 @@
+
 state={
 	id=937
 	name="STATE_937"
-	provinces={
-		989 1111 1194 4097 7100 7116 7173 10013 10070 11987 12042 
-	}
-	manpower = 387900
-	
-	state_category = rural
-	history=
-	{
+
+	history={
 		owner = SMH
 		buildings = {
 			infrastructure = 1
+
 		}
 		add_core_of = SMH
-	}	
+
+	}
+
+	provinces={
+		1079 1111 4084 4097 7100 7173 10013 10023 11987 12042 
+	}
+	manpower=387900
 	buildings_max_level_factor=1.000
+	state_category=town
 }

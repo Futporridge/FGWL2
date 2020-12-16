@@ -1,21 +1,26 @@
-state=
-{
+
+state={
 	id=118
 	name="STATE_118"
-	manpower=21372
-	
-	state_category = enclave
+
 	history={
-		owner = SPR
-		victory_points = { 4135 10 }
+		owner = SMH
+		victory_points = {
+			4135 10 
+		}
 		buildings = {
 			infrastructure = 6
 			air_base = 2
 
 		}
-		add_claim_by = SPR
+		add_claim_by = SMH
+
 	}
+
 	provinces={
-		4135
+		1013 1128 1145 4018 4146 7040 9960 9964 
 	}
+	manpower=21372
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

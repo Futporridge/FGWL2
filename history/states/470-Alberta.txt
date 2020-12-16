@@ -4,21 +4,18 @@ state={
 	name="STATE_470"
 
 	history={
-		owner = LOI
+		owner = POR
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 
 		}
-		victory_points = {
-			3010 3 
-		}
-		add_core_of = LOI
+		add_core_of = POR
 
 	}
 
 	provinces={
-		515 1262 3706 4765 6726 7718 7787 10684 
+		6881 
 	}
 	manpower=690800
 	buildings_max_level_factor=1.000

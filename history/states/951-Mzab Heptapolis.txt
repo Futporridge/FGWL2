@@ -1,0 +1,18 @@
+
+state={
+	id=951
+	name="STATE_951"
+	provinces={
+		1126 1967 4970 5053 9943 12888 
+	}
+	history={
+		owner = SMH
+		add_core_of = SMH
+		buildings = {
+			infrastructure = 1
+			}
+		}
+	state_category=wasteland
+	manpower=0
+	buildings_max_level_factor=1.000
+}

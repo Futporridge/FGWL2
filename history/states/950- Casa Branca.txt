@@ -1,0 +1,18 @@
+state={
+	id=950
+	name="STATE_950"
+	provinces={
+		1194 7069 10070 
+	}
+	history={
+		owner = SMH
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = SMH
+	}
+	manpower=0
+	state_category=rural
+	buildings_max_level_factor=1.000
+}
