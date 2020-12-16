@@ -7,12 +7,12 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = CTJ
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = BOT
+		add_core_of = CTJ
 		victory_points = {
 			8214 1 
 		}

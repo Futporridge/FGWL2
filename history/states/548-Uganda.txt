@@ -7,12 +7,12 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = VUG
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = UGA
+		add_core_of = VUG
 		victory_points = {
 			12989 1 
 		}
