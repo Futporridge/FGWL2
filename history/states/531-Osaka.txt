@@ -9,8 +9,9 @@ state={
 	}
 
 	history={
-		owner = JAP
-		add_core_of = JAP
+		owner = J02
+		add_core_of = J01
+		add_core_of = J02	
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2
@@ -27,14 +28,11 @@ state={
 
 		}
 		victory_points = {
-			7072 40
+			7072 35
 		}
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-				industrial_complex = 5
-			}
-		}
+		victory_points = {
+			11960 40
+		}		
 
 	}
 
