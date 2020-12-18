@@ -1,0 +1,15 @@
+state={
+	id=953
+	name="STATE_953"
+	provinces={
+		1974 5084 8078 10764 10857 13211 
+	}
+	
+	history={
+		owner = GPU
+		add_core_of = GPU
+	}	
+	state_category=pastoral
+	manpower=0
+	buildings_max_level_factor=1.000
+}

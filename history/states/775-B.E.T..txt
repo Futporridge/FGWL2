@@ -4,8 +4,8 @@ state={
 	name="STATE_775"
 
 	history={
-		owner = EGY
-		add_core_of = EGY
+		owner = GPU
+		add_core_of = GPU
 		buildings = {
 			infrastructure = 0
 
@@ -14,7 +14,7 @@ state={
 	}
 
 	provinces={
-		1956 4902 5136 8128 
+		1473 1883 1960 3181 4978 5060 7919 8052 10739 
 	}
 	manpower=18744
 	buildings_max_level_factor=1.000

@@ -4,19 +4,19 @@ state={
 	name="STATE_449"
 
 	history={
-		owner = CRT
+		owner = EGY
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = CRT
+		add_core_of = EGY
 
 	}
 
 	provinces={
-		1041 1127 1198 4047 4057 10046 10117 
+		1127 1186 1198 4057 4133 4200 7063 7076 7986 8069 9977 10046 10117 10785 11951 12079 13073 
 	}
 	manpower=40431
 	buildings_max_level_factor=1.000
-	state_category=enclave
+	state_category=rural
 }

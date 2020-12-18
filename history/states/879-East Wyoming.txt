@@ -1,19 +1,22 @@
+
 state={
 	id=879
 	name="STATE_879"
-	provinces={
-		7688 7888 12561 12633 
-	}
+
 	history={
-		owner = VRC
+		owner = PLI
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = VRC
+		add_core_of = PLI
 
-	}	
+	}
+
+	provinces={
+		4985 
+	}
 	manpower=112544
 	buildings_max_level_factor=1.000
-	state_category=rural	
+	state_category=enclave
 }
