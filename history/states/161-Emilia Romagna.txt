@@ -9,7 +9,10 @@ state={
 	history={
 		owner = TUS
 		victory_points = {
-			6606 10 9907 20 
+			6606 10
+		}
+		victory_points = {
+			9907 20 
 		}
 		buildings = {
 			infrastructure = 7
