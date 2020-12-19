@@ -1,0 +1,20 @@
+
+state={
+	id=957
+	name="STATE_957"
+	provinces={
+		8036 8062 10775 12714 
+	}
+	history={
+		add_core_of = ETH
+		owner = ETH
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	state_category=pastoral	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

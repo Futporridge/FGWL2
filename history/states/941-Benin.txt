@@ -1,16 +1,22 @@
+
 state={
 	id=941
 	name="STATE_941"
-	provinces={
-		4952 8034 
-	}
+
 	history={
 		add_core_of = ASG
 		owner = ASG
 		buildings = {
 			infrastructure = 3
-			}
+
 		}
-		state_category=town
-		buildings_max_level_factor=1.000
+
+	}
+
+	provinces={
+		2020 4952 5068 8034 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=town
 }
