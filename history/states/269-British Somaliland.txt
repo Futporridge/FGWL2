@@ -13,6 +13,9 @@ state={
 		victory_points = {
 			7980 1 
 		}
+		victory_points = {
+			8124 2 
+		}		
 		owner = ASA
 		add_core_of = ASA
 		buildings = {
@@ -21,6 +24,10 @@ state={
 				naval_base = 1
 
 			}
+			8124 = {
+				naval_base = 2
+
+			}			
 
 		}
 
