@@ -446,4 +446,16 @@ spriteTypes = {
 		name = "GFX_culture_west_slavic_sorb"
 		texturefile = "gfx/interface/ideas/culture/culture_west_slavic_sorb.dds"
 	}
+		spriteType = {
+		name = "GFX_culture_german_pernambucanisch"
+		texturefile = "gfx/interface/ideas/culture/culture_german_pernambucanisch.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_german_maquasen"
+		texturefile = "gfx/interface/ideas/culture/culture_german_maquasen.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_german_eendrachtslander"
+		texturefile = "gfx/interface/ideas/culture/culture_german_eendrachtslander.dds"
+	}
 }

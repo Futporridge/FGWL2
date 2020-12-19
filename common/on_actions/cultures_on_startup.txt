@@ -484,7 +484,13 @@ on_actions = {
 		98 = { set_variable = { nationality = 109 } }	#		
 		97 = { set_variable = { nationality = 109 } }	#		
 		#Sorb
-		931 = { set_variable = { nationality = 110 } }	#		
-		}
+		931 = { set_variable = { nationality = 110 } }	#	
+		#Sorb
+		497 = { set_variable = { nationality = 111 } }	#	
+		#Maci
+		358 = { set_variable = { nationality = 112 } }	#				
+		#Pernambuco
+		285 = { set_variable = { nationality = 113 } }	#		
+		}		
 	}
 }

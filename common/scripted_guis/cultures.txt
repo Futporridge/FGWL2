@@ -560,6 +560,21 @@ scripted_gui = {
 			culture_west_slavic_sorb_visible = {
 				check_variable = { nationality = 110 } 
 			}
+		}
+		triggers = {
+			culture_german_pernambucanisch_visible = {
+				check_variable = { nationality = 111 } 
+			}
+		}		
+		triggers = {
+			culture_german_maquasen_visible = {
+				check_variable = { nationality = 112 } 
+			}
+		}		
+		triggers = {
+			culture_german_eendrachtslander_visible = {
+				check_variable = { nationality = 113 } 
+			}
 		}		
 	}
 }

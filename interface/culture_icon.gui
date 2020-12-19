@@ -680,5 +680,23 @@ guiTypes = {
 			spriteType = GFX_culture_west_slavic_sorb
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
+		iconType = {
+			name = "culture_german_pernambucanisch"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_german_pernambucanisch
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}		
+		iconType = {
+			name = "culture_german_maquasen"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_german_maquasen
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}		
+		iconType = {
+			name = "culture_german_eendrachtslander"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_german_eendrachtslander
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}		
 	}
 }
