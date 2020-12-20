@@ -2,9 +2,6 @@
 state={
 	id=364
 	name="STATE_364"
-	manpower = 1738764
-	
-	state_category = city
 
 	history={
 		owner = VRG
@@ -13,17 +10,27 @@ state={
 			industrial_complex = 2
 			7202 = {
 				naval_base = 2
-
 			}
 		}
 		add_core_of = VRG
 		victory_points = {
-			7202 1 
+			1547 5
+		}		
+		victory_points = {
+			7202 5
+		}		
+		victory_points = {
+			7012 10
 		}
-
+		victory_points = {
+			1485 10
+		}
 	}
 
 	provinces={
-		1485 1547 3994 4491 4653 7012 7134 7202 7527 10029 10047 11927 
+		1485 1547 3994 4491 4653 7012 7134 7202 7527 10029 10047 
 	}
+	manpower=1738764
+	buildings_max_level_factor=1.000
+	state_category=city
 }
