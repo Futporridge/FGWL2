@@ -6,7 +6,19 @@ state={
 	history={
 		owner = PIE
 		add_core_of = PIE
-
+		victory_points = {
+			6788 20 
+		}
+		victory_points = {
+			3772 1 
+		}
+		buildings = {
+		industrial_complex = 2		
+		dockyard = 2		
+		3772 = {
+			naval_base = 1
+			}
+		}
 	}
 
 	provinces={
