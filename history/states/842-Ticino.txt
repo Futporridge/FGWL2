@@ -7,6 +7,9 @@ state={
 		history = {
 		add_core_of = VEN		
 		owner = VEN		
+		victory_points = {
+			9600 1
+		}			
 		buildings = {	
 			infrastructure = 5
 			industrial_complex = 1			

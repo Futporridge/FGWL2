@@ -10,8 +10,11 @@ state={
 	history={
 		owner = VEN
 		victory_points = {
-			11584 10 
+			11584 40 
 		}
+		victory_points = {
+			9582 5 
+		}		
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
