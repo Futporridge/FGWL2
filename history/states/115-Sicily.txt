@@ -8,27 +8,30 @@ state={
 	history={
 		owner = ITE
 		victory_points = {
-			10074 20 
+			10074 5
 		}
 		victory_points = {
-			4159 10 
+			4159 2
 		}
+		victory_points = {
+			4014 2
+		}		
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
-			air_base = 10
+			air_base = 1
 			dockyard = 1
 			10074 = {
-				naval_base = 2
+				naval_base = 1
 			}
 			7059 = {
-				naval_base = 5
+				naval_base = 3
 			}
 			4159 = {
-				naval_base = 8
+				naval_base = 5
 			}
 			4014 = {
-				naval_base = 3
+				naval_base = 2
 			}
 		}
 		add_core_of = ITE
