@@ -7,10 +7,11 @@ state={
 		owner = PIE
 		add_core_of = PIE
 		victory_points = {
-			764 1 
+			764 3 
 		}
 		buildings = {
-			infrastructure = 4
+			industrial_complex = 1
+			infrastructure = 5
 		}
 
 	}
