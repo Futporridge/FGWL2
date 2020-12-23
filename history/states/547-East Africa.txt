@@ -15,9 +15,6 @@ state={
 
 		}
 		victory_points = {
-			1939 1 
-		}
-		victory_points = {
 			5210 5 
 		}
 		add_core_of = DEA
@@ -25,7 +22,7 @@ state={
 	}
 
 	provinces={
-		1939 2066 5079 5160 5196 5210 6020 8133 10761 10860 10962 10976 12927 13135 
+		2066 5079 5210 6020 8133 10761 10976 12927 13135 
 	}
 	manpower=3392000
 	buildings_max_level_factor=1.000

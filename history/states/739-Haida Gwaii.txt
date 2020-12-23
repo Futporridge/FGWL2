@@ -3,24 +3,18 @@ state={
 	name="STATE_739"
 
 	history={
-		owner = ALS
+		owner = DEA
 		buildings = {
 			infrastructure = 1
-
-			1869 = {
-				naval_base = 1
-
-			}
-
-
 		}
-		add_core_of = ALS
+		add_core_of = DEA
+
 	}
 
 	provinces={
-		1869
+		11014 12941 
 	}
 	manpower=12684
-	buildings_max_level_factor=1	
-	state_category="small_island"
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
