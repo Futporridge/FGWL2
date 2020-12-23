@@ -34,7 +34,7 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Elijah of Bourbon-Parma"
+	name = "Elijah of Bourbon"
 	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Elias_Normandy.tga"
 	expire = "1965.1.1"
@@ -43,13 +43,42 @@ create_country_leader = {
 
 	}
 }
+create_country_leader = {
+	name = "Elijah of Bourbon"
+	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	picture = "gfx/leaders/ENG/Portrait_Elias_Normandy.tga"
+	expire = "1965.1.1"
+	ideology = reactionary
+	traits = { 
 
+	}
+}
+create_country_leader = {
+	name = "Elijah of Bourbon"
+	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	picture = "gfx/leaders/ENG/Portrait_Elias_Normandy.tga"
+	expire = "1965.1.1"
+	ideology = oligarchy
+	traits = { 
+
+	}
+}
 create_country_leader = {
 	name = "Neville Chamberlain"
 	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Neville_Chamberlain.tga"
 	expire = "1965.1.1"
 	ideology = liberalism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Harry Pollitt"
+	desc = "POLITICS_HARRY_POLLITT_DESC"
+	picture = "gfx/leaders/ESS/Portrait_Harry_Pollitt.tga"
+	expire = "1965.1.1"
+	ideology = prometeism
 	traits = { 
 
 	}

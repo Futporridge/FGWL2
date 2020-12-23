@@ -1,0 +1,138 @@
+recheck_annexations = {
+	hidden_effect = {
+		if = {
+			limit = {
+				NOT = { has_country_flag = KR_checking_for_possible_annexations }
+			}
+			set_country_flag = { flag = KR_checking_for_possible_annexations days = 5 value = 1 }
+			country_event = { id = annex.1 days = 1 random_days = 3 }
+		}
+	}
+}
+release_targeted_tag = {
+	every_owned_state = {
+		limit = {
+			is_core_of = var:tag_to_release
+			is_claim_or_core_of_ROOT = no
+		}
+		var:tag_to_release = { transfer_state = PREV }
+	}
+	puppet_released_tag = yes
+}
+puppet_released_tag = {
+	hidden_effect = {
+		var:tag_to_release = {
+			if = {
+				limit = { has_country_flag = was_puppeted }
+				kill_country_leader = yes
+			}
+		}
+	}
+	puppet = var:tag_to_release
+	var:tag_to_release = {
+		drop_cosmetic_tag = yes
+
+	}
+	recheck_annexations = yes
+}
+remove_all_cores_and_claims_of_tags = {
+	every_state = {
+		limit = {
+			any_of = {
+				array = core_removal_array
+				OR = {
+					is_core_of = var:v
+					is_claimed_by = var:v
+				}
+			}
+		}
+		for_each_loop = {
+			array = core_removal_array
+			remove_core_of = var:v
+			remove_claim_by = var:v
+		}
+	}
+}
+occupy_small_country = {
+	add_political_power = -25
+	add_stability = -0.025
+	add_war_support = -0.025
+	recheck_annexations = yes
+}
+
+occupy_medium_country = {
+	add_political_power = -50
+	add_stability = -0.05
+	add_war_support = -0.05
+	recheck_annexations = yes
+}
+
+occupy_large_country = {
+	add_political_power = -100
+	add_stability = -0.1
+	add_war_support = -0.1
+	recheck_annexations = yes
+}
+
+occupy_huge_country = {
+	add_political_power = -150
+	add_stability = -0.15
+	add_war_support = -0.15
+	recheck_annexations = yes
+}
+
+occupy_massive_country = {
+	add_political_power = -200
+	add_stability = -0.2
+	add_war_support = -0.2
+	recheck_annexations = yes
+}
+check_potential_annexations = {
+	if = {
+		limit = { is_on_continent = europe }
+		check_possible_annexations_europe = yes
+	}
+	else_if = {
+		limit = { is_on_continent = north_america }
+		check_possible_annexations_north_america = yes
+	}
+	else_if = {
+		limit = { is_on_continent = central_america }
+		check_possible_annexations_central_america = yes
+	}
+	else_if = {
+		limit = { is_on_continent = south_america }
+		check_possible_annexations_south_america = yes
+	}
+	else_if = {
+		limit = { is_on_continent = australia } #Oceania
+		check_possible_annexations_oceania = yes
+	}
+	else_if = {
+		limit = { is_on_continent = asia } #Minus India & ME
+		check_possible_annexations_asia = yes
+	}
+	else_if = {
+		limit = { is_on_continent = india }
+		check_possible_annexations_india = yes
+	}
+	else_if = {
+		limit = { is_on_continent = middle_east }
+		check_possible_annexations_middle_east = yes
+	}
+	else_if = {
+		limit = { is_on_continent = africa }
+		check_possible_annexations_africa = yes
+	}
+}
+
+check_possible_annexations_europe = {
+	if = {
+		limit = { can_release_england = yes }
+		ROOT = { activate_mission = annexation_ENG_CONQ }
+	}
+	else_if = {
+		limit = { can_release_cornwall = yes }
+		ROOT = { activate_mission = annexation_CRN_CONQ }		
+	}
+}

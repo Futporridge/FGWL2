@@ -1,0 +1,35 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			#England
+			add_to_array = { global.annexation_relevant_states = 126.id } #London
+			set_variable = { ENG.release_event = 2 }
+			
+			add_to_array = { global.annexation_relevant_states = 147.id } #Truro
+			set_variable = { CRN.release_event = 3 }			
+ }
+	}
+	on_annex = {
+		effect = { recheck_annexations = yes }
+	}
+
+	### DO NOT TOUCH ###
+	#ROOT is winner #FROM is loser
+	on_peaceconference_ended = {
+		effect = { recheck_annexations = yes }
+	}
+
+	### DO NOT TOUCH ###
+	#ROOT is new controller #FROM is old controller #FROM.FROM is state ID
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					owns_state = FROM.FROM
+					is_in_array = { global.annexation_relevant_states = FROM.FROM }
+				}
+				recheck_annexations = yes
+			}
+		}
+	}	
+} 

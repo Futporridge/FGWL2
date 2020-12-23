@@ -1,0 +1,125 @@
+add_namespace = annex
+
+
+country_event = { #Check for possible annexations
+	id = annex.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.1" }
+
+	hidden = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_subject = no
+		NOT = {
+
+		}
+	}
+
+	option = {
+			every_owned_state = {
+				limit = {
+					is_in_array = { global.annexation_relevant_states = THIS }
+					NOT = { is_core_of = ROOT }
+					is_controlled_by = ROOT
+				}
+				check_potential_annexations = yes
+			}
+		clr_country_flag = KR_checking_for_possible_annexations
+	}
+}
+country_event = { #ENG liberation
+	id = annex.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.1" }
+	title = annexation_ENG_CONQ
+	desc = annexation_ENG_CONQ_desc
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			add_to_temp_array = { core_removal_array = ENG }
+			remove_all_cores_and_claims_of_tags = yes
+			every_state = {
+				limit = {
+					OR = {
+						state = 126 #Central Hungary
+						state = 127 #Alfold
+						state = 338 #Transdanubia
+						state = 128 #German West Hungary
+						state = 129 #German West Hungary
+						state = 125 #German West Hungary						
+						state = 130 #German West Hungary	
+						state = 131 #German West Hungary						
+						state = 132 #German West Hungary						
+					}
+				}
+				add_core_of = ENG
+			}
+		}
+	}
+
+	option = { #Liberate Greater Hungary
+		name = annex.12.a
+		ai_chance = {
+			base = 5
+			modifier = {
+			
+			}
+		}
+		set_temp_variable = { tag_to_release = ENG }
+		release_targeted_tag = yes
+	}
+	option = { #occupy
+		name = annex.occupation
+		ai_chance = {
+			base = 0
+		}
+		set_country_flag = ENG_CONQ
+		occupy_medium_country = yes
+		recheck_annexations = yes		
+	}
+}
+country_event = { #CRN liberation
+	id = annex.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.3" }
+	title = annexation_CRN_CONQ
+	desc = annexation_CRN_CONQ_desc
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			add_to_temp_array = { core_removal_array = CRN }
+			remove_all_cores_and_claims_of_tags = yes
+			every_state = {
+				limit = {
+					OR = {
+						state = 123 #Central Hungary
+						state = 147 #Alfold					
+					}
+				}
+				add_core_of = CRN
+			}
+		}
+		}
+	
+
+	option = { #Liberate CRN
+		name = annex.12.a
+		ai_chance = {
+			base = 5
+			modifier = {
+			
+			}
+		}	
+		set_temp_variable = { tag_to_release = CRN }
+		release_targeted_tag = yes
+	}
+	option = { #occupy
+		name = annex.occupation
+		ai_chance = {
+			base = 0
+		}
+		set_country_flag = CRN_CONQ
+		occupy_small_country = yes
+		recheck_annexations = yes		
+	}
+}
