@@ -14,14 +14,16 @@ state={
 			}
 
 		}
-		add_core_of = VRG
+		add_core_of = VRG	
 		victory_points = {
-			7480 1 
+			12735 5 
 		}
 		victory_points = {
-			12735 1 
+			860 15 
 		}
-
+		victory_points = {
+			10192 5 
+		}		
 	}
 
 	provinces={
@@ -29,5 +31,5 @@ state={
 	}
 	manpower=2646247
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 }

@@ -15,9 +15,11 @@ state={
 		}
 		add_core_of = ILN
 		victory_points = {
-			9450 30.0
+			9450 30
 		}
-
+		victory_points = {
+			12365 5
+		}
 	}
 
 	provinces={

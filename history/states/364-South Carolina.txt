@@ -14,16 +14,16 @@ state={
 		}
 		add_core_of = VRG
 		victory_points = {
-			1547 5
+			1547 20
 		}		
 		victory_points = {
 			7202 5
 		}		
 		victory_points = {
-			7012 10
+			7012 5
 		}
 		victory_points = {
-			1485 10
+			1485 5
 		}
 	}
 
@@ -32,5 +32,5 @@ state={
 	}
 	manpower=1738764
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_town
 }

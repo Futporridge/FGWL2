@@ -455,7 +455,27 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/culture/culture_german_maquasen.dds"
 	}
 		spriteType = {
+		name = "GFX_culture_iroquoian_cherokee"
+		texturefile = "gfx/interface/ideas/culture/culture_iroquoian_cherokee.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_ingvaeonic_behmenist"
+		texturefile = "gfx/interface/ideas/culture/culture_ingvaeonic_behmenist.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_ingvaeonic_crownlander"
+		texturefile = "gfx/interface/ideas/culture/culture_ingvaeonic_crownlander.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_ingvaeonic_appalachian"
+		texturefile = "gfx/interface/ideas/culture/culture_ingvaeonic_appalachian.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_ingvaeonic_rosarian"
+		texturefile = "gfx/interface/ideas/culture/culture_ingvaeonic_rosarian.dds"
+	}
+		spriteType = {
 		name = "GFX_culture_german_eendrachtslander"
 		texturefile = "gfx/interface/ideas/culture/culture_german_eendrachtslander.dds"
-	}
+	}	
 }

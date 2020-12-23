@@ -698,5 +698,35 @@ guiTypes = {
 			spriteType = GFX_culture_german_eendrachtslander
 			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
+		iconType = {
+			name = "culture_iroquoian_cherokee"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_iroquoian_cherokee
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}				
+		iconType = {
+			name = "culture_ingvaeonic_behmenist"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_ingvaeonic_behmenist
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}				
+		iconType = {
+			name = "culture_ingvaeonic_crownlander"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_ingvaeonic_crownlander
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}				
+		iconType = {
+			name = "culture_ingvaeonic_appalachian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_ingvaeonic_appalachian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}				
+		iconType = {
+			name = "culture_ingvaeonic_rosarian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_ingvaeonic_rosarian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}				
 	}
 }

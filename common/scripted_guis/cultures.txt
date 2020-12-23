@@ -575,6 +575,31 @@ scripted_gui = {
 			culture_german_eendrachtslander_visible = {
 				check_variable = { nationality = 113 } 
 			}
-		}		
+		}
+		triggers = {
+			culture_iroquoian_cherokee_visible = {
+				check_variable = { nationality = 114 } 
+			}
+		}			
+		triggers = {
+			culture_ingvaeonic_behmenist_visible = {
+				check_variable = { nationality = 115 } 
+			}
+		}
+		triggers = {
+			culture_ingvaeonic_crownlander_visible = {
+				check_variable = { nationality = 116 } 
+			}
+		}
+		triggers = {
+			culture_ingvaeonic_appalachian_visible = {
+				check_variable = { nationality = 117 } 
+			}
+		}
+		triggers = {
+			culture_ingvaeonic_rosarian_visible = {
+				check_variable = { nationality = 118 } 
+			}				
+		}			
 	}
 }

@@ -12,13 +12,16 @@ state={
 			infrastructure = 0
 		}
 	victory_points = {
-			788 10 
+			788 15 
 		}
 	victory_points = {
-			10412 15 
-		}		
+			10412 5 
+		}
+	victory_points = {
+			6943 5
+	}	
 	}
-	state_category=town
+	state_category=rural
 	manpower=0
 	buildings_max_level_factor=1.000
 }

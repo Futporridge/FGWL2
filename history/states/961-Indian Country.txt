@@ -15,8 +15,7 @@ state={
 			12384 5 
 		}	
 	}
-	
-	state_category=pastoral
+	state_category=rural
 	manpower=0
 	buildings_max_level_factor=1.000
 }
