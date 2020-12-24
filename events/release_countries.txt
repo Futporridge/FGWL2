@@ -92,8 +92,7 @@ country_event = { #CRN liberation
 			every_state = {
 				limit = {
 					OR = {
-						state = 123 #Central Hungary
-						state = 147 #Alfold					
+						state = 147 #Cornwall					
 					}
 				}
 				add_core_of = CRN
@@ -113,6 +112,21 @@ country_event = { #CRN liberation
 		set_temp_variable = { tag_to_release = CRN }
 		release_targeted_tag = yes
 	}
+	option = { #Transfer it to ENG
+		name = annex.12.a
+		ai_chance = {
+			base = 5
+			modifier = {		
+			}
+		147 = {
+		add_core_of = ENG
+		}			
+		ENG = {
+		transfer_state = 147 #Cornwall					
+		}	
+		}	
+
+	}	
 	option = { #occupy
 		name = annex.occupation
 		ai_chance = {
