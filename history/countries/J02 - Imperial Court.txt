@@ -44,3 +44,43 @@ create_country_leader = {
 
 	}
 }
+create_country_leader = {
+	name = "Hirohito"
+	desc = "POLITICS_HIROHITO_DESC"
+	picture = "gfx/leaders/JAP/Portrait_Hirohito.tga"
+	expire = "1965.1.1"
+	ideology = utopism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Hirohito"
+	desc = "POLITICS_HIROHITO_DESC"
+	picture = "gfx/leaders/JAP/Portrait_Hirohito.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Hirohito"
+	desc = "POLITICS_HIROHITO_DESC"
+	picture = "gfx/leaders/JAP/Portrait_Hirohito.tga"
+	expire = "1965.1.1"
+	ideology = oligarchy
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Hirohito"
+	desc = "POLITICS_HIROHITO_DESC"
+	picture = "gfx/leaders/JAP/Portrait_Hirohito.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = { 
+
+	}
+}
