@@ -1,21 +1,16 @@
-
 state={
 	id=705
 	name="STATE_705"
-
 	history={
-		owner = VRG
+		owner = GUI
+		add_core_of = GUI		
 		buildings = {
 			infrastructure = 2
 			13015 = {
 				naval_base = 1
-
 			}
-
 		}
-
 	}
-
 	provinces={
 		1903 13015 
 	}

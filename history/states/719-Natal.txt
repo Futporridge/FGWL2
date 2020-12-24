@@ -33,9 +33,9 @@ state={
 	}
 
 	provinces={
-		1468 1833 4556 4584 4696 7576 
+		1468 1494 1833 4556 4584 4696 7576 
 	}
 	manpower=3962157
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=rural
 }
