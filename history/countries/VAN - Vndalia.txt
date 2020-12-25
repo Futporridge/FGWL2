@@ -35,7 +35,7 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "George W. Christians"
+	name = "George William Christians"
 	desc = "POLITICS_GEORG_CHRISTIAN_DESC"
 	picture = "gfx/leaders/VAN/Portrait_George_Christians.tga"
 	expire = "1965.1.1"
