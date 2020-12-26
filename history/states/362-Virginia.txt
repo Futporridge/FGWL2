@@ -7,33 +7,31 @@ state={
 		owner = VRG
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 3
-			dockyard = 4
-			air_base = 10
-			fuel_silo = 1
-			788 = {
-				naval_base = 10
+			industrial_complex = 1
+			dockyard = 1
+			1163 = {
+				naval_base = 2
 
 			}
 		}
 		add_core_of = VRG
 	victory_points = {
-			1163 20 
+			1163 15 
 		}
 	victory_points = {
-			12054 5 
+			12054 3 
 		}
 	victory_points = {
-			9931 5 
+			9931 3 
 		}
 	victory_points = {
-			1077 5 
+			1077 3 
 		}		
 	}
 	provinces={
 		1077 1132 1163 4168 7045 9931 11783 12054 
 	}
-	manpower=4151054
+	manpower=1671054
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

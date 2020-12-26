@@ -6,30 +6,28 @@ state={
 	history={
 		owner = VRG
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 3
-			7480 = {
-				naval_base = 3
-
-			}
-
+			infrastructure = 4
+			industrial_complex = 1
 		}
 		add_core_of = VRG	
 		victory_points = {
-			12735 5 
+			12735 3 
 		}
 		victory_points = {
-			860 15 
+			860 10 
 		}
 		victory_points = {
-			10192 5 
+			10192 3 
 		}		
 	}
 
 	provinces={
 		492 860 4594 7422 7640 10192 11509 11942 12735 12803 
 	}
-	manpower=2646247
+	resources={
+		steel=20.000
+	}	
+	manpower=1243110
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

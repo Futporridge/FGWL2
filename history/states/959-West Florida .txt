@@ -9,19 +9,22 @@ state={
 		add_core_of = VRG
 		owner = VRG
 		buildings = {
-			infrastructure = 0
+			infrastructure = 5
+			industrial_complex = 2
+			dockyard = 1
+			arms_factory = 1
 		}
 		victory_points = {
-			4464 5 
+			4464 3
 		}
 		victory_points = {
 			10352 15
 		}
 		victory_points = {
-			10449 5
+			10449 3
 		}		
 	}
 	state_category=large_town	
-	manpower=0
+	manpower=1827891
 	buildings_max_level_factor=1.000
 }

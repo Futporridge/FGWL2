@@ -2,23 +2,19 @@
 state={
 	id=368
 	name="STATE_368"
-	resources={
-		steel=60.000
-	}
 
 	history={
 		owner = VAN
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 3
+			infrastructure = 1
 
 		}
 		add_core_of = VAN
 		victory_points = {
-			12501 5
+			12501 1
 		}
 		victory_points = {
-			5059 5
+			5059 1
 		}
 	}
 	provinces={
