@@ -1,0 +1,23 @@
+state={
+	id=965
+	name="STATE_965"
+	provinces={
+		3824 3863 3917 6845 6869 6892 9758 9786 9801 9820 9864 11740 11782 11785 11799 11900 
+	}
+	history={
+		owner = KMC
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			dockyard = 7
+			air_base = 2
+		}
+		add_core_of = KMC
+		victory_points = {
+			3824 1 
+		}
+	}	
+	manpower=1488
+	buildings_max_level_factor=1.000
+	state_category=city 
+}
