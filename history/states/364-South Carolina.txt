@@ -7,7 +7,8 @@ state={
 		owner = VRG
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
+			industrial_complex = 1
+			arms_factory = 3
 			7202 = {
 				naval_base = 2
 			}
@@ -30,7 +31,7 @@ state={
 	provinces={
 		1485 1547 3994 4491 4653 7012 7134 7202 7527 10029 10047 
 	}
-	manpower=1738764
+	manpower=3738764
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }

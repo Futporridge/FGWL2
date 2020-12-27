@@ -1,0 +1,14 @@
+on_actions = {
+	on_startup = {
+		effect = {
+	AUS = {
+	country_event = { id = aus.1 days = 1 }
+	country_event = { id = aus.9 days = 31 }
+	country_event = { id = aus.10 days = 48 }
+	country_event = { id = aus.11 days = 62 }
+	country_event = { id = aus.10 days = 155 }
+	country_event = { id = aus.10 days = 157 }
+		}
+
+	}
+}

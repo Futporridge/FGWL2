@@ -9,13 +9,14 @@ state={
 		add_core_of = VRG
 		owner = VRG
 		buildings = {
-			infrastructure = 0
+			infrastructure = 4
+			industrial_complex = 1
 		}
 		victory_points = {
 			12384 5 
 		}	
 	}
 	state_category=rural
-	manpower=0
+	manpower=821230
 	buildings_max_level_factor=1.000
 }
