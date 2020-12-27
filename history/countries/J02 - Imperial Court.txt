@@ -28,9 +28,10 @@ set_popularities = {
 	reactionary = 100
 }
 
-add_ideas = {
-
-}
+	declare_war_on = {
+		target = J01
+		type = annex_everything
+	}
 
 set_convoys = 100
 
