@@ -727,6 +727,78 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_ingvaeonic_rosarian
 			pdx_tooltip = "EOANB_CULTURE_INFO"
-		}				
+		}
+		iconType = {
+			name = "culture_nilo_saharan_tuba"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_nilo_saharan_tuba
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_сhadic_hausa"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_сhadic_hausa
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_berber_zenaga"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_berber_zenaga
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_berber_tuareg"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_berber_tuareg
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_berber_mzab"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_berber_mzab
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_berber_true_berber"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_berber_true_berber
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_berber_rifian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_berber_rifian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_semite_carthagenian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_semite_carthagenian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_semite_tripolitanian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_semite_tripolitanian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_semite_algerian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_semite_algerian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_semite_morrocan"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_semite_morrocan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_semite_hassaniya"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_semite_hassaniya
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
 	}
 }

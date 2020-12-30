@@ -478,4 +478,53 @@ spriteTypes = {
 		name = "GFX_culture_german_eendrachtslander"
 		texturefile = "gfx/interface/ideas/culture/culture_german_eendrachtslander.dds"
 	}	
+	
+		spriteType = {
+		name = "GFX_culture_nilo_saharan_tuba"
+		texturefile = "gfx/interface/ideas/culture/culture_nilo_saharan_tuba.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_сhadic_hausa"
+		texturefile = "gfx/interface/ideas/culture/culture_сhadic_hausa.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_berber_zenaga"
+		texturefile = "gfx/interface/ideas/culture/culture_berber_zenaga.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_berber_tuareg"
+		texturefile = "gfx/interface/ideas/culture/culture_berber_tuareg.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_berber_mzab"
+		texturefile = "gfx/interface/ideas/culture/culture_berber_mzab.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_berber_true_berber"
+		texturefile = "gfx/interface/ideas/culture/culture_berber_true_berber.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_berber_rifian"
+		texturefile = "gfx/interface/ideas/culture/culture_berber_rifian.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_semite_carthagenian"
+		texturefile = "gfx/interface/ideas/culture/culture_semite_carthagenian.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_semite_tripolitanian"
+		texturefile = "gfx/interface/ideas/culture/culture_semite_tripolitanian.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_semite_algerian"
+		texturefile = "gfx/interface/ideas/culture/culture_semite_algerian.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_semite_morrocan"
+		texturefile = "gfx/interface/ideas/culture/culture_semite_morrocan.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_semite_hassaniya"
+		texturefile = "gfx/interface/ideas/culture/culture_semite_hassaniya.dds"
+	}		
 }

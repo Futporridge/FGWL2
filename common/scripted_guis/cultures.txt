@@ -600,6 +600,66 @@ scripted_gui = {
 			culture_ingvaeonic_rosarian_visible = {
 				check_variable = { nationality = 118 } 
 			}				
+		}		
+		triggers = {
+			culture_nilo_saharan_tuba_visible = {
+				check_variable = { nationality = 119 } 
+			}				
+		}	
+		triggers = {
+			culture_сhadic_hausa_visible = {
+				check_variable = { nationality = 120 } 
+			}				
+		}	
+		triggers = {
+			culture_berber_zenaga_visible = {
+				check_variable = { nationality = 121 } 
+			}				
+		}	
+		triggers = {
+			culture_berber_tuareg_visible = {
+				check_variable = { nationality = 122 } 
+			}				
+		}	
+		triggers = {
+			culture_berber_mzab_visible = {
+				check_variable = { nationality = 123 } 
+			}				
+		}	
+		triggers = {
+			culture_berber_true_berber_visible = {
+				check_variable = { nationality = 124 } 
+			}				
+		}	
+		triggers = {
+			culture_berber_rifian_visible = {
+				check_variable = { nationality = 125 } 
+			}				
+		}	
+		triggers = {
+			culture_semite_carthagenian_visible = {
+				check_variable = { nationality = 126 } 
+			}				
+		}	
+		triggers = {
+			culture_semite_tripolitanian_visible = {
+				check_variable = { nationality = 127 } 
+			}				
+		}	
+		triggers = {
+			culture_semite_algerian_visible = {
+				check_variable = { nationality = 128 } 
+			}				
+		}	
+		triggers = {
+			culture_semite_morrocan_visible = {
+				check_variable = { nationality = 129 } 
+			}				
+		}	
+		triggers = {
+			culture_semite_hassaniya_visible = {
+				check_variable = { nationality = 130 } 
+			}				
 		}			
 	}
 }
