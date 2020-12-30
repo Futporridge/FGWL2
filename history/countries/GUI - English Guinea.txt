@@ -1,4 +1,4 @@
-capital = 700
+capital = 298
 
 OOB = "GUI_1936"
 

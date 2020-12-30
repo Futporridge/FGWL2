@@ -23,9 +23,29 @@ if = {
 	set_autonomy = {
 		target = WRS
 		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = ACR
+		autonomous_state = autonomy_puppet
 	}	
+	set_autonomy = {
+		target = GCS
+		autonomous_state = autonomy_puppet
+	}	
+	set_autonomy = {
+		target = EQU
+		autonomous_state = autonomy_puppet
+	}	
+	set_autonomy = {
+		target = VWS
+		autonomous_state = autonomy_puppet
+	}			
 	else = {
 		puppet = WRS
+		puppet = ACR
+		puppet = GCS	
+		puppet = EQU	
+		puppet = VWS		
 	}
 }
 if = {

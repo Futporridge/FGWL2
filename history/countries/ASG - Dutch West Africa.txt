@@ -1,4 +1,4 @@
-capital = 776
+capital = 940
 
 OOB = "AGS_1936"
 

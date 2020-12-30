@@ -22,11 +22,36 @@ if = {
 	set_autonomy = {
 		target = ORC
 		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = ASG
+		autonomous_state = autonomy_integrated_puppet
+	}	
+	set_autonomy = {
+		target = CAP
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = DEA
+		autonomous_state = autonomy_integrated_puppet
+	}	
+	set_autonomy = {
+		target = HEI
+		autonomous_state = autonomy_integrated_puppet
+	}	
+	set_autonomy = {
+		target = EEN
+		autonomous_state = autonomy_integrated_puppet
 	}		
 	else = {
 		puppet = HEI
 		puppet = CNH
-		puppet = ORC		
+		puppet = ORC	
+		puppet = ASG
+		puppet = CAP		
+		puppet = DEA
+		puppet = HEI		
+		puppet = EEN		
 	}
 }
 

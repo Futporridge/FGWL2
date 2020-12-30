@@ -28,8 +28,27 @@ set_popularities = {
 	reactionary = 0
 }
 
-add_ideas = {
-
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = SMH
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = SSA
+		autonomous_state = autonomy_integrated_puppet
+	}	
+	set_autonomy = {
+		target = PHI
+		autonomous_state = autonomy_integrated_puppet
+	}				
+	else = {
+		puppet = SMH
+		puppet = SSA
+		puppet = PHI				
+	}
 }
 
 set_convoys = 100

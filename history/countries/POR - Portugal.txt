@@ -30,7 +30,23 @@ set_popularities = {
 add_ideas = {
 
 }
-
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = PSA
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = VBR
+		autonomous_state = autonomy_integrated_puppet
+	}	
+	else = {
+		puppet = PSA
+		puppet = VBR		
+	}
+}
 set_convoys = 100
 
 create_country_leader = {

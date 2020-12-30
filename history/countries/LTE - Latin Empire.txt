@@ -46,7 +46,31 @@ if = {
 	set_autonomy = {
 		target = LSP
 		autonomous_state = autonomy_integrated_puppet
-	}			
+	}	
+	set_autonomy = {
+		target = ASA
+		autonomous_state = autonomy_integrated_puppet
+	}	
+	set_autonomy = {
+		target = SOM
+		autonomous_state = autonomy_integrated_puppet
+	}	
+	set_autonomy = {
+		target = CRT
+		autonomous_state = autonomy_integrated_puppet
+	}	
+	set_autonomy = {
+		target = GPU
+		autonomous_state = autonomy_integrated_puppet
+	}	
+	set_autonomy = {
+		target = HSH
+		autonomous_state = autonomy_integrated_puppet
+	}	
+	set_autonomy = {
+		target = YEM
+		autonomous_state = autonomy_integrated_puppet
+	}	
 	else = {
 		puppet = PLI
 		puppet = MYS
@@ -56,7 +80,13 @@ if = {
 		puppet = ZYX		
 		puppet = JER	
 		puppet = EGY		
-		puppet = LSP			
+		puppet = LSP	
+		puppet = ASA
+		puppet = SOM
+		puppet = CRT
+		puppet = GPU
+		puppet = HSH
+		puppet = YEM		
 	}
 }
 

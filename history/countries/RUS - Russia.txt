@@ -29,6 +29,34 @@ add_ideas = {
 
 }
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = ALS
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = HAW
+		autonomous_state = autonomy_puppet
+	}	
+	set_autonomy = {
+		target = ROI
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = CRM
+		autonomous_state = autonomy_puppet
+	}	
+	else = {
+		puppet = ALS
+		puppet = HAW
+		puppet = ROI	
+		puppet = CRM		
+	}
+}
+
 set_convoys = 100
 
 create_country_leader = {

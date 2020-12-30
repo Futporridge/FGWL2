@@ -44,3 +44,13 @@ create_country_leader = {
 
 	}
 }
+create_country_leader = {
+	name = "Hitoshi Yamakawa"
+	desc = "POLITICS_HITOSHI_YAMAKAWA_DESC"
+	picture = "gfx/leaders/BAK/Portrait_Hitoshi_Yamakawa.tga"
+	expire = "1965.1.1"
+	ideology = prometeism
+	traits = { 
+
+	}
+}

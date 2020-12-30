@@ -19,8 +19,13 @@ if = {
 		target = ANS
 		autonomous_state = autonomy_integrated_puppet
 	}
+	set_autonomy = {
+		target = BCL
+		autonomous_state = autonomy_integrated_puppet
+	}	
 	else = {
 		puppet = ANS
+		puppet = BCL		
 	}
 }
 
