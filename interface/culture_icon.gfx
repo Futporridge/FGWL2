@@ -526,5 +526,26 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_culture_semite_hassaniya"
 		texturefile = "gfx/interface/ideas/culture/culture_semite_hassaniya.dds"
-	}		
+	}	
+
+		spriteType = {
+		name = "GFX_culture_egyptian"
+		texturefile = "gfx/interface/ideas/culture/culture_egyptian.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_nilo_saharan_nubian"
+		texturefile = "gfx/interface/ideas/culture/culture_nilo_saharan_nubian.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_semitic_tigre"
+		texturefile = "gfx/interface/ideas/culture/culture_semitic_tigre.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_сushitic_beja"
+		texturefile = "gfx/interface/ideas/culture/culture_сushitic_beja.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_semitic_bedouin"
+		texturefile = "gfx/interface/ideas/culture/culture_semitic_bedouin.dds"
+	}
 }

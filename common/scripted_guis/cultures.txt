@@ -660,6 +660,32 @@ scripted_gui = {
 			culture_semite_hassaniya_visible = {
 				check_variable = { nationality = 130 } 
 			}				
+		}	
+
+		triggers = {
+			culture_egyptian_visible = {
+				check_variable = { nationality = 131 } 
+			}				
+		}
+		triggers = {
+			culture_nilo_saharan_nubian_visible = {
+				check_variable = { nationality = 132 } 
+			}				
+		}	
+		triggers = {
+			culture_semitic_tigre_visible = {
+				check_variable = { nationality = 133 } 
+			}				
+		}	
+		triggers = {
+			culture_сushitic_beja_visible = {
+				check_variable = { nationality = 134 } 
+			}				
+		}	
+		triggers = {
+			culture_semitic_bedouin_visible = {
+				check_variable = { nationality = 135 } 
+			}				
 		}			
 	}
 }

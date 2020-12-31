@@ -799,6 +799,36 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_semite_hassaniya
 			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_egyptian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_egyptian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}
+		iconType = {
+			name = "culture_nilo_saharan_nubian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_nilo_saharan_nubian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_semitic_tigre"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_semitic_tigre
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_сushitic_beja"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_сushitic_beja
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_semitic_bedouin"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_semitic_bedouin
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}		
 	}
 }

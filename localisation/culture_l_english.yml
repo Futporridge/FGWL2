@@ -145,3 +145,9 @@
   var_nationality_128:0 "Algerian\n \n§LLanguage Group:§L Semitic\n§LReligion:§L Sunni Islam, Sufi Islam" 
   var_nationality_129:0 "Morrocan\n \n§LLanguage Group:§L Semitic\n§LReligion:§L Sunni Islam, Sufi Islam" 
   var_nationality_130:0 "Hassaniya\n \n§LLanguage Group:§L Semitic\n§LReligion:§L Sunni Islam, Sufi Islam" 
+  
+  var_nationality_131:0 "Egyptian\n \n§LLanguage Group:§L Egyptian\n§LReligion:§L Oriental Orthodox Christian"
+  var_nationality_132:0 "Nubian\n \n§LLanguage Group:§L Nilo-Saharan\n§LReligion:§L Catholic Christian"
+  var_nationality_133:0 "Tigre\n \n§LLanguage Group:§L Semitic\n§LReligion:§L Catholic Christian, Semitic Pagan" 
+  var_nationality_134:0 "Beja\n \n§LLanguage Group:§L Cushitic\n§LReligion:§L Catholic Christian" 
+  var_nationality_135:0 "Bedüin\n \n§LLanguage Group:§L Semitic\n§LReligion:§L Sunni Islam, Sufi Islam, Catholic Christian" 

@@ -800,4 +800,34 @@ defined_text = {
 		}
 		localization_key = var_nationality_130
 	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 131 }
+		}
+		localization_key = var_nationality_131
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 132 }
+		}
+		localization_key = var_nationality_132
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 133 }
+		}
+		localization_key = var_nationality_133
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 134 }
+		}
+		localization_key = var_nationality_134
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 135 }
+		}
+		localization_key = var_nationality_135
+	}	
 }
