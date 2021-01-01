@@ -9,6 +9,8 @@ state={
 		}
 		owner = AUS
 		buildings = {
+			industrial_complex = 1	
+			arms_factory = 5		
 			infrastructure = 6
 
 		}

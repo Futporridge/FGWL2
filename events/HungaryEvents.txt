@@ -55,10 +55,16 @@ add_core_of = RCR
 		transfer_state = 901 
 		transfer_state = 896
 		transfer_state = 807
-		transfer_state = 909		
+		transfer_state = 909	
+		set_politics = {
+			ruling_party = oligarchy
+		}
 		}
 		TRN = {
 		transfer_state = 84		
+		set_politics = {
+			ruling_party = utopism
+		}		
 		}
 		RCR = {
 		transfer_state = 897	

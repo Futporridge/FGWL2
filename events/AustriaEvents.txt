@@ -284,11 +284,43 @@ country_event = {
 				}
 	option = {
 		name = aus.12.a
+91 = {		
+remove_building = {
+    type = industrial_complex
+    level = 2
+}
+}
+762 = {
+remove_building = {
+    type = industrial_complex
+    level = 1
+}
+}
+886 = {
+remove_building = {
+    type = industrial_complex
+    level = 1
+}
+}
 
+	add_stability = -0.05
 	}
 	option = {
 		name = aus.12.b
-
+886 = {		
+remove_building = {
+    type = industrial_complex
+    level = 1
+}
+}
+762 = { 
+remove_building = {
+    type = industrial_complex
+    level = 1
+}
+}
+		
+	add_political_power = -150
 	}	
 }
 country_event = {	
