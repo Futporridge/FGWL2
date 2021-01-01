@@ -1,4 +1,4 @@
-capital = 295
+capital = 718
 
 OOB = "VCN_1936"
 

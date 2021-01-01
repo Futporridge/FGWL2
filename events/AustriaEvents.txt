@@ -1360,7 +1360,8 @@ immediate = {
 		  }
 		SLV = {
 		transfer_state = 102	
-		transfer_state = 806				  
+		transfer_state = 806	
+		transfer_state = 907		
 		TYR = {
 		transfer_state = 153	
 		transfer_state = 39		

@@ -39,7 +39,7 @@ ITE_Luis_Napoleon
 set_convoys = 100
 
 create_country_leader = {
-	name = "Louis Napoléon VI"
+	name = "Alvise Napuliuni Bonaparti VI"
 	desc = "POLITICS_LOUIS_NAPOLEON_DESC"
 	picture = "gfx/leaders/ITE/Portrait_Louis_Napoleon.tga"
 	expire = "1965.1.1"

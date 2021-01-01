@@ -72,19 +72,19 @@ add_core_of = RCR
 	option = {
 		name = hun.2.a
 			hidden_effect = {
-	SER = { change_tag_from = HUN }				
+	SER = { change_tag_from = FROM }				
 		}	
 }
 	option = {
 		name = hun.2.b
 			hidden_effect = {
-	TRN = { change_tag_from = HUN }				
+	TRN = { change_tag_from = FROM }				
 		}	
 }
 	option = {
 		name = hun.2.c
 			hidden_effect = {
-	RCR = { change_tag_from = HUN }				
+	RCR = { change_tag_from = FROM }				
 		}	
 }
 	option = {
@@ -150,7 +150,7 @@ HUN = {
 	option = {
 		name = hun.3.a
 			hidden_effect = {		
-	RHG = { change_tag_from = HUN }			
+	RHG = { change_tag_from = FROM }			
 		}
 }
 	option = {
@@ -182,7 +182,7 @@ immediate = {
 	option = {
 		name = hun.22.a
 			hidden_effect = {		
-	BAN = { change_tag_from = HUN }	
+	BAN = { change_tag_from = FROM }	
 	}	
 		}
 	option = {
@@ -213,7 +213,7 @@ immediate = {
 	option = {
 		name = hun.33.a
 			hidden_effect = {		
-	SRR = { change_tag_from = HUN }	
+	SRR = { change_tag_from = FROM }	
 	}	
 }
 	option = {
@@ -230,9 +230,7 @@ immediate = {
 	hidden_effect = {
 	CRO = {
 		transfer_state = 109		
-		transfer_state = 807
-		transfer_state = 894		
-		transfer_state = 909		
+		transfer_state = 894			
 	}
 	}
 	}
@@ -241,7 +239,7 @@ immediate = {
 	option = {
 		name = hun.4.a
 			hidden_effect = {
-CRO = { change_tag_from = HUN }	 
+CRO = { change_tag_from = FROM }	 
 		}
 }
 	option = {

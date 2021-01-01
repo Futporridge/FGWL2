@@ -13,6 +13,7 @@ state={
 			3772 1 
 		}
 		buildings = {
+			infrastructure = 6		
 		industrial_complex = 2		
 		dockyard = 2		
 		3772 = {
