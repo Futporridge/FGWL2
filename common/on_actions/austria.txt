@@ -2,12 +2,15 @@ on_actions = {
 	on_startup = {
 		effect = {
 	AUS = {
-	country_event = { id = aus.1 days = 1 }
-	country_event = { id = aus.9 days = 31 }
-	country_event = { id = aus.10 days = 48 }
-	country_event = { id = aus.11 days = 62 }
-	country_event = { id = aus.10 days = 155 }
-	country_event = { id = aus.10 days = 157 }
+	country_event = { id = aus.1 days = 5 }
+	country_event = { id = aus.9 days = 61 }
+	country_event = { id = aus.10 days = 75 }
+	country_event = { id = aus.11 days = 124 }
+	country_event = { id = aus.12 days = 155 }
+	country_event = { id = aus.13 days = 186 }
+	country_event = { id = aus.14 days = 191 }	
+	country_event = { id = aus.19 days = 52 }	
+	country_event = { id = aus.22 days = 85 }			
 		}
 
 	}

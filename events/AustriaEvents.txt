@@ -44,7 +44,11 @@
 	desc = aus.3.d
 	picture = GFX_
 	is_triggered_only = yes
-
+	immediate = {
+	hidden_effect = {
+	country_event = { id = aus.4 days = 6 }
+					}
+				}
 	option = {
 		name = aus.3.a
 	add_stability = -0.1
@@ -62,17 +66,10 @@
 
 	immediate = {
 	hidden_effect = {
-	country_event = { id = aus.5 days = 12 }
+	country_event = { id = aus.5 days = 4 }
 					}
 				}	
-	trigger = {
-		tag = AUS
-		NOT = { has_completed_focus = AUS_forcing_new_economical_policy }
-		focus_progress = {
-			focus = AUS_forcing_new_economical_policy
-			progress > 0.07
-		}		
-	}
+	is_triggered_only = yes
 	option = {
 		name = aus.4.a
 		set_country_flag = AUS_dirigism
@@ -93,8 +90,8 @@
 	is_triggered_only = yes
 	immediate = {
 	hidden_effect = {
-	country_event = { id = aus.6 days = 6 }
-	country_event = { id = aus.7 days = 4 }
+	country_event = { id = aus.6 days = 8 }
+	country_event = { id = aus.7 days = 5 }
 					}
 				}
 	option = {
@@ -280,7 +277,11 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	immediate = {
+	hidden_effect = {
+	country_event = { id = aus.15 days = 2 }
+					}
+				}
 	option = {
 		name = aus.12.a
 
@@ -404,9 +405,13 @@ country_event = {
 	picture = GFX_
 
 	is_triggered_only = yes
-
+	immediate = {
+	hidden_effect = {
+	country_event = { id = aus.20 days = 6 }
+					}
+				}
 	option = {
-		name = aus.17.a
+		name = aus.19.a
 
 	}
 }
@@ -417,7 +422,11 @@ country_event = {
 	picture = GFX_
 
 	is_triggered_only = yes
-
+	immediate = {
+	hidden_effect = {
+	country_event = { id = aus.21 days = 5 }
+					}
+				}
 	option = {
 		name = aus.20.a
 
@@ -428,7 +437,11 @@ country_event = {
 	title = aus.21.t
 	desc = aus.21.d
 	picture = GFX_
-
+	immediate = {
+	hidden_effect = {
+	country_event = { id = aus.23 days = 14 }
+					}
+				}
 	is_triggered_only = yes
 
 	option = {
@@ -441,62 +454,18 @@ country_event = {
 	title = aus.22.t
 	desc = aus.22.d
 	picture = GFX_
-
+	immediate = {
+	hidden_effect = {
+	country_event = { id = aus.24 days = 4 }
+	country_event = { id = aus.26 days = 19 }	
+	country_event = { id = aus.27 days = 25 }	
+	country_event = { id = aus.29 days = 28 }	
+					}
+				}
 	is_triggered_only = yes
 
 	option = {
 		name = aus.22.a
-
-	}
-}
-country_event = {	
-	id = aus.21
-	title = aus.21.t
-	desc = aus.21.d
-	picture = GFX_
-
-	is_triggered_only = yes
-
-	option = {
-		name = aus.21.a
-889 = {		
-remove_building = {
-    type = arms_factory
-    level = 1
-}
-remove_building = {
-    type = industrial_complex
-    level = 1
-}
-remove_building = {
-    type = infrastructure
-    level = -2
-}
-}		
-	add_popularity = {
-    ideology = communitarianism
-    popularity = 0.03
-		}	
-	add_popularity = {
-    ideology = prometeism
-    popularity = 0.03
-		}
-	add_popularity = {
-    ideology = liberalism
-    popularity = 0.03
-		}		
-	}
-}
-	country_event = {	
-	id = aus.23
-	title = aus.23.t
-	desc = aus.23.d
-	picture = GFX_
-
-	is_triggered_only = yes
-
-	option = {
-		name = aus.23.a
 			hidden_effect = {
 retire_country_leader = yes			
 create_country_leader = {
@@ -513,6 +482,7 @@ create_country_leader = {
 		}
 }
 }
+
 country_event = {	
 	id = aus.24
 	title = aus.24.t
@@ -520,7 +490,6 @@ country_event = {
 	picture = GFX_
 
 	is_triggered_only = yes
-
 	option = {
 		name = aus.24.a
 
@@ -556,6 +525,45 @@ create_country_leader = {
 }
 	}
 }
+country_event = {	
+	id = aus.23
+	title = aus.23.t
+	desc = aus.23.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = aus.23.a
+889 = {		
+remove_building = {
+    type = arms_factory
+    level = 1
+}
+remove_building = {
+    type = industrial_complex
+    level = 1
+}
+remove_building = {
+    type = infrastructure
+    level = -2
+}
+}		
+	add_popularity = {
+    ideology = communitarianism
+    popularity = 0.03
+		}	
+	add_popularity = {
+    ideology = prometeism
+    popularity = 0.03
+		}
+	add_popularity = {
+    ideology = liberalism
+    popularity = 0.03
+		}		
+	}
+}
+
 country_event = {	
 	id = aus.26
 	title = aus.26.t
@@ -630,6 +638,8 @@ set_demilitarized_zone = yes
 
 immediate = {
 hidden_effect = {
+	country_event = { id = aus.30 days = 7 }
+	country_event = { id = aus.31 days = 2 }
 set_politics = {
 	ruling_party = paternalism
 }
@@ -665,12 +675,19 @@ country_event = {
 	is_triggered_only = yes
 immediate = {
 hidden_effect = {
+	country_event = { id = aus.32 days = 10 }
+	country_event = { id = aus.33 days = 20 }
+	country_event = { id = aus.34 days = 25 }	
+	country_event = { id = aus.35 days = 32 }	
 	VEN = {
 		country_event = { days = 1 id = ven.1 }
 	}
 	WRS = {
 		country_event = { days = 1 id = wrs.1 }
 	}
+	SWI = {
+		country_event = { days = 1 id = swi.1 }
+	}	
 }
 }
 	option = {
@@ -784,7 +801,13 @@ hidden_effect = {
 	picture = GFX_
 
 	is_triggered_only = yes
-
+	immediate = {
+	hidden_effect = {
+		country_event = { id = aus.40 days = 7 }
+		country_event = { id = aus.44 days = 31 }		
+		country_event = { id = aus.41 days = 48 }		
+	}
+	}
 	option = {
 		name = aus.39.a
 			hidden_effect = {		
@@ -1173,7 +1196,7 @@ immediate = {
 	option = {
 		name = aus.58.b
 			hidden_effect = {				
-	BFR = { change_tag_from = AUS }	 
+	BFR = { change_tag_from = FROM }	 
 		}
 }
 }
@@ -1223,7 +1246,7 @@ immediate = {
 	option = {
 		name = aus.60.b
 			hidden_effect = {				
-	CZE = { change_tag_from = AUS }	 
+	CZE = { change_tag_from = FROM }	 
 		}
 }
 }
@@ -1350,6 +1373,7 @@ immediate = {
 		}		
 	}	
 }
+}
 	option = {
 		name = aus.65.a
 			hidden_effect = {		
@@ -1359,13 +1383,13 @@ immediate = {
 	option = {
 		name = aus.65.b
 			hidden_effect = {				
-	TYR = { change_tag_from = AUS }	 
+	TYR = { change_tag_from = FROM }	 
 		}
 }
 	option = {
 		name = aus.65.c
 			hidden_effect = {				
-	SLV = { change_tag_from = AUS }	 
+	SLV = { change_tag_from = FROM }	 
 		}
 }
 }
