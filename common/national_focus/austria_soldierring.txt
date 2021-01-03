@@ -22,7 +22,7 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		x = 7
 		y = 0
-		cost = 10
+		cost = 2
 		ai_will_do = {
 			factor = 10
 		}
@@ -40,7 +40,7 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		x = 0
 		y = 1
-		cost = 10
+		cost = 2
 		ai_will_do = {
 			factor = 10
 		}
@@ -52,7 +52,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		country_event = aus.32		
 					}
 				}				
 	shared_focus = {
@@ -61,7 +61,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		prerequisite = { focus = AUS_proclaim_the_republic_of_austria }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_proclaim_the_republic_of_austria
 		ai_will_do = {
 			factor = 10
@@ -75,7 +75,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		country_event = aus.34				
+			}
 				}
 	shared_focus = {
 		id = AUS_terror_actions
@@ -83,7 +84,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		prerequisite = { focus = AUS_proclaim_the_republic_of_austria }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_proclaim_the_republic_of_austria
 		ai_will_do = {
 			factor = 10
@@ -97,6 +98,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		country_event = aus.35					
 					}
 				}
 	shared_focus = {
@@ -106,7 +108,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = AUS_martial_law }
 		prerequisite = { focus = AUS_terror_actions }		
-		cost = 1
+		cost = 6
 		relative_position_id = AUS_terror_actions
 		ai_will_do = {
 			factor = 10
@@ -121,7 +123,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		country_event = aus.39
+		}
 				}		
 					'					
 		

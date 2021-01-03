@@ -671,7 +671,6 @@ set_demilitarized_zone = yes
 immediate = {
 hidden_effect = {
 	country_event = { id = aus.30 days = 7 }
-	country_event = { id = aus.31 days = 2 }
 set_politics = {
 	ruling_party = paternalism
 }
@@ -805,8 +804,20 @@ hidden_effect = {
 	desc = aus.37.d
 	picture = GFX_
 
-	is_triggered_only = yes
-
+	trigger = {
+		tag = AUS
+		NOT = { has_completed_focus = AUS_the_outcome }
+		focus_progress = {
+			focus = AUS_the_outcome
+			progress > 0.15
+		}		
+	}
+	fire_only_once = yes
+	immediate = {
+	hidden_effect = {
+		country_event = { id = aus.38 days = 23 }		
+	}
+	}
 	option = {
 		name = aus.37.a
 
@@ -819,7 +830,6 @@ hidden_effect = {
 	picture = GFX_
 
 	is_triggered_only = yes
-
 	option = {
 		name = aus.38.a
 
@@ -831,7 +841,6 @@ hidden_effect = {
 	title = aus.39.t
 	desc = aus.39.d
 	picture = GFX_
-
 	is_triggered_only = yes
 	immediate = {
 	hidden_effect = {
@@ -1423,6 +1432,36 @@ immediate = {
 		name = aus.65.c
 			hidden_effect = {				
 	SLV = { change_tag_from = FROM }	 
+		}
+}
+}
+	country_event = {	
+	id = aus.66
+	title = aus.66.t
+	desc = aus.66.d
+	picture = GFX_
+
+	is_triggered_only = yes
+immediate = {
+			hidden_effect = {		
+	907 = {
+		add_core_of = TRR
+		  }
+		TRR = {
+		transfer_state = 907			
+	}	
+}
+}
+	option = {
+		name = aus.65.a
+			hidden_effect = {		
+
+		}
+}
+	option = {
+		name = aus.65.b
+			hidden_effect = {				
+	TRR = { change_tag_from = FROM }	 
 		}
 }
 }
