@@ -829,6 +829,60 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_semitic_bedouin
 			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_east_slavic_novgorodian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_east_slavic_novgorodian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_baltic_litvin"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_baltic_litvin
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_iranian_azeri"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_iranian_azeri
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_iranian_persian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_iranian_persian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_kartvelian_georgian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_kartvelian_georgian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_armenian_armenian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_armenian_armenian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_west_iranian_kurd"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_west_iranian_kurd
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_semite_chaldean"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_semite_chaldean
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_eastern_iranian_baloch"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_eastern_iranian_baloch
+			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 	}
 }

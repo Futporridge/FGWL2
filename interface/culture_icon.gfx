@@ -548,4 +548,40 @@ spriteTypes = {
 		name = "GFX_culture_semitic_bedouin"
 		texturefile = "gfx/interface/ideas/culture/culture_semitic_bedouin.dds"
 	}
+		spriteType = {
+		name = "GFX_culture_east_slavic_novgorodian"
+		texturefile = "gfx/interface/ideas/culture/culture_east_slavic_novgorodian.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_baltic_litvin"
+		texturefile = "gfx/interface/ideas/culture/culture_baltic_litvin.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_iranian_azeri"
+		texturefile = "gfx/interface/ideas/culture/culture_iranian_azeri.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_iranian_persian"
+		texturefile = "gfx/interface/ideas/culture/culture_iranian_persian.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_kartvelian_georgian"
+		texturefile = "gfx/interface/ideas/culture/culture_kartvelian_georgian.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_armenian_armenian"
+		texturefile = "gfx/interface/ideas/culture/culture_armenian_armenian.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_west_iranian_kurd"
+		texturefile = "gfx/interface/ideas/culture/culture_west_iranian_kurd.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_semite_chaldean"
+		texturefile = "gfx/interface/ideas/culture/culture_semite_chaldean.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_eastern_iranian_baloch"
+		texturefile = "gfx/interface/ideas/culture/culture_eastern_iranian_baloch.dds"
+	}			
 }

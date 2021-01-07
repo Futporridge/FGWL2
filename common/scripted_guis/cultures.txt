@@ -686,6 +686,51 @@ scripted_gui = {
 			culture_semitic_bedouin_visible = {
 				check_variable = { nationality = 135 } 
 			}				
-		}			
+		}
+		triggers = {
+			culture_east_slavic_novgorodian_visible = {
+				check_variable = { nationality = 136 } 
+			}				
+		}
+		triggers = {
+			culture_baltic_litvin_visible = {
+				check_variable = { nationality = 137 } 
+			}				
+		}
+		triggers = {
+			culture_iranian_azeri_visible = {
+				check_variable = { nationality = 138 } 
+			}				
+		}
+		triggers = {
+			culture_iranian_persian_visible = {
+				check_variable = { nationality = 139 } 
+			}				
+		}
+		triggers = {
+			culture_kartvelian_georgian_visible = {
+				check_variable = { nationality = 140 } 
+			}				
+		}
+		triggers = {
+			culture_armenian_armenian_visible = {
+				check_variable = { nationality = 141 } 
+			}				
+		}
+		triggers = {
+			culture_west_iranian_kurd_visible = {
+				check_variable = { nationality = 142 } 
+			}				
+		}
+		triggers = {
+			culture_semite_chaldean_visible = {
+				check_variable = { nationality = 143 } 
+			}				
+		}
+		triggers = {
+			culture_eastern_iranian_baloch_visible = {
+				check_variable = { nationality = 144 } 
+			}				
+		}		
 	}
 }

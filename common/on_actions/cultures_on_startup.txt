@@ -105,9 +105,7 @@ on_actions = {
 		#lithuanian
 		189 = { set_variable = { nationality = 14 } }	#Shaulaj	
 		11 = { set_variable = { nationality = 14 } }	#Kovno			
-		784 = { set_variable = { nationality = 14 } }	#Vilno			
-		95 = { set_variable = { nationality = 14 } }	#Baranowichi			
-		96 = { set_variable = { nationality = 14 } }	#Wilejka	
+		784 = { set_variable = { nationality = 14 } }	#Vilno						
 		#Pontic Tatars
 		234 = { set_variable = { nationality = 17 } }	#Tartaria	
 		#Turks
@@ -484,7 +482,8 @@ on_actions = {
 		117 = { set_variable = { nationality = 107 } }	#			
 		156 = { set_variable = { nationality = 107 } }	#			
 		#Welsh
-		122 = { set_variable = { nationality = 108 } }	#
+		122 = { set_variable = { nationality = 108 } }	#Gwynedd
+		420 = { set_variable = { nationality = 108 } }	#Caerddyd		
 		#Mazurian
 		98 = { set_variable = { nationality = 109 } }	#		
 		97 = { set_variable = { nationality = 109 } }	#		
@@ -572,7 +571,42 @@ on_actions = {
 		#Beja
 		451 = { set_variable = { nationality = 134 } }	#Suakim		
 		#Beduin
-		453 = { set_variable = { nationality = 135 } }	#Zinai				
-		}		
+		453 = { set_variable = { nationality = 135 } }	#Zinai		
+		#Novgorodian
+		244 = { set_variable = { nationality = 136 } }	#Novgorod	
+		#Litvin
+		95 = { set_variable = { nationality = 137 } }	#Grodno
+		96 = { set_variable = { nationality = 137 } }	#Bjelostok	
+		#Azeri
+		229 = { set_variable = { nationality = 138 } }	#Azerbaijan
+		419 = { set_variable = { nationality = 138 } }	#Tibriz	
+		#Persian
+		266 = { set_variable = { nationality = 139 } }	#Teheran
+		411 = { set_variable = { nationality = 139 } }	#Istfahan	
+		412 = { set_variable = { nationality = 139 } }	#Fars
+		418 = { set_variable = { nationality = 139 } }	#Semnan	
+		416 = { set_variable = { nationality = 139 } }	#Khorsan
+		410 = { set_variable = { nationality = 139 } }	#Sistan
+		414 = { set_variable = { nationality = 139 } }	#Kerman	
+		#Georgian
+		231 = { set_variable = { nationality = 140 } }	#Georgia
+		872 = { set_variable = { nationality = 140 } }	#Kolcida
+		#Armenian
+		230 = { set_variable = { nationality = 141 } }	#Armenia
+		855 = { set_variable = { nationality = 141 } }	#Kars
+		352 = { set_variable = { nationality = 141 } }	#Ban	
+		353 = { set_variable = { nationality = 141 } }	#Erzurum	
+		#Kurd
+		863 = { set_variable = { nationality = 142 } }	#Kurdistan
+		421 = { set_variable = { nationality = 142 } }	#Laristan
+		676 = { set_variable = { nationality = 142 } }	#Mosul	
+		#Chaldean
+		864 = { set_variable = { nationality = 143 } }	#Baghdad
+		413 = { set_variable = { nationality = 143 } }	#Khuzestan
+		765 = { set_variable = { nationality = 143 } }	#Hormuz		
+		#Baloch
+		444 = { set_variable = { nationality = 144 } }	#Baghdad			
+		}
+		
 	}
 }

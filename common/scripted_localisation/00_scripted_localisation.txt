@@ -829,5 +829,59 @@ defined_text = {
 			check_variable = { nationality = 135 }
 		}
 		localization_key = var_nationality_135
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 136 }
+		}
+		localization_key = var_nationality_136
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 137 }
+		}
+		localization_key = var_nationality_137
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 138 }
+		}
+		localization_key = var_nationality_138
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 139 }
+		}
+		localization_key = var_nationality_139
+	}	
+	text = {
+		trigger = {
+			check_variable = { nationality = 140 }
+		}
+		localization_key = var_nationality_140
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 141 }
+		}
+		localization_key = var_nationality_141
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 142 }
+		}
+		localization_key = var_nationality_142
+	}	
+	text = {
+		trigger = {
+			check_variable = { nationality = 143 }
+		}
+		localization_key = var_nationality_143
+	}	
+	text = {
+		trigger = {
+			check_variable = { nationality = 144 }
+		}
+		localization_key = var_nationality_144
 	}	
 }

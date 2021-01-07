@@ -5,7 +5,7 @@ state={
 
 	history={
 		add_core_of = KYR
-		owner = RUS
+		owner = PER
 		victory_points = {
 			12583 1 
 		}
@@ -13,14 +13,14 @@ state={
 			infrastructure = 1
 
 		}
-		add_core_of = RUS
+		add_core_of = PER
 
 	}
 
 	provinces={
-		1459 10187 10408 10488 10530 10660 
+		1483 2058 4467 4542 4923 7224 8027 10417 12805 
 	}
 	manpower=230000
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=town
 }

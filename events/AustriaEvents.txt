@@ -489,6 +489,7 @@ country_event = {
 	immediate = {
 	hidden_effect = {
 	country_event = { id = aus.24 days = 4 }
+	country_event = { id = aus.25 days = 10 }		
 	country_event = { id = aus.26 days = 19 }	
 	country_event = { id = aus.27 days = 25 }	
 	country_event = { id = aus.29 days = 28 }	
