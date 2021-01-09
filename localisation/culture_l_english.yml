@@ -33,7 +33,7 @@
 
   var_nationality_29:0 "Wallachian \n \n§LLanguage Group:§L Eastern Romance\n§LReligion:§L Orthodox Christian"
   var_nationality_30:0 "Carpathian Russian \n \n§LLanguage Group:§L East Slavic with Finno-Ugric influence\n§LReligion:§L Orthodox Christian, Catholic Carpathian"
-  var_nationality_31:0 "Hungarian \n \n§LLanguage Group:§L Finno-Ugric\n§LReligion:§L Orthodox Christian"
+  var_nationality_31:0 "Hungarian \n \n§LLanguage Group:§L Finno-Ugric\n§LReligion:§L Catholic Christian"
   var_nationality_32:0 "Francoprovençal \n \n§LLanguage Group:§L Western Romance\n§LReligion:§L Catholic Christian"
   var_nationality_33:0 "French \n \n§LLanguage Group:§L Western Romance\n§LReligion:§L Catholic Christian"
   var_nationality_34:0 "Gascon \n \n§LLanguage Group:§L Western Romance\n§LReligion:§L Catholic Christian"
@@ -78,7 +78,7 @@
   var_nationality_50:0 "Tyrolean \n \n§LLanguage Group:§L West Germanic\n§LReligion:§L Catholic Christian"
   var_nationality_67:0 "Turcopole \n \n§LLanguage Group:§L Turkic with Western Romance and Graeco-Phrygian influence\n§LReligion:§L Uniate Christian, Catholic Christian"  
   var_nationality_68:0 "Moldavian \n \n§LLanguage Group:§L Eastern Romance with East Slavic influence\n§LReligion \n§LReligion:§L Orthodox Christian"
-  var_nationality_69:0 "Székelys \n \n§LLanguage Group:§L Finno-Ugric\n§LReligion:§L Orthodox Christian" 
+  var_nationality_69:0 "Székelys \n \n§LLanguage Group:§L Finno-Ugric\n§LReligion:§L Catholic Christian" 
   var_nationality_70:0 "Transilvanian \n \n§LLanguage Group:§L Eastern Romance\n§LReligion:§L Orthodox Christian, Catholic Christian"
   var_nationality_71:0 "Provençal \n \n§LLanguage Group:§L Western Romance\n§LReligion:§L Catholic Christian"
   var_nationality_72:0 "Aragonese \n \n§LLanguage Group:§L Western Romance\n§LReligion:§L Catholic Christian"
