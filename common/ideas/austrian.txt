@@ -1,0 +1,158 @@
+ideas = {
+
+	country = {
+		AUS_army1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_army1 
+			
+				research_bonus = {
+				land_doctrine = 0.25
+				}			
+			modifier = {
+				max_command_power = -20
+				command_power_gain = -0.25
+				army_org = -15							
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		AUS_trade_union_power_lifts = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_trade_union_power_lifts 
+			
+			modifier = {
+                communitarianism_drift = 0.01
+                utopism_drift = 0.01
+                prometeism_drift = 0.01
+				political_power_gain = -0.05
+				stability_factor = -0.02
+				war_support_factor = -0.05				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}	
+		AUS_econ1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_econ1 
+			
+			modifier = {
+				political_power_gain_factor = -0.05
+				consumer_goods_factor = 0.03
+				production_speed_buildings_factor = -0.15 
+				production_factory_max_efficiency_factor = -0.10 				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		AUS_diveded_empire = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_diveded_empire 
+			
+			modifier = {
+				stability_factor = 0.15
+				consumer_goods_factor = 0.02
+				production_factory_max_efficiency_factor = 0.05 				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
+		AUS_serbian_resistance = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_serbian_resistance 
+			
+			modifier = {
+				resistance_damage_to_garrison_on_our_occupied_states = -0.15				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		AUS_econom_countermeasures = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_econom_countermeasures 
+			
+			modifier = {
+				consumer_goods_factor = -0.01	
+				production_speed_buildings_factor = 0.1 				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}	
+		AUS_cutting_the_excesses = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_cutting_the_excesses 
+			
+				research_bonus = {
+				land_doctrine = -0.15
+				}				
+			modifier = {
+				consumer_goods_factor = -0.025	
+				production_factory_max_efficiency_factor = -0.01 				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}	
+		AUS_alcabala = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_cutting_the_excesses 
+			
+				research_bonus = {
+				land_doctrine = -0.15
+				}				
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				stability_factor = -0.15
+				production_factory_max_efficiency_factor = -0.02 				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}			
+		}
+	}	
