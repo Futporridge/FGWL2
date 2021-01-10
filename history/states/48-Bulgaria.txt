@@ -9,7 +9,7 @@ state={
 	history={
 		owner = LTE
 		victory_points = {
-			949 15 
+			9771 3 
 		}
 		buildings = {
 			infrastructure = 5
