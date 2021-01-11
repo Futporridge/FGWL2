@@ -1,0 +1,36 @@
+﻿	add_namespace = cze
+
+	
+	country_event = {	
+	id = cze.1
+	title = cze.1.t
+	desc = cze.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+immediate = {
+			hidden_effect = {		
+	69 = {
+		add_core_of = SDD
+		  }
+	74 = {
+		add_core_of = SDD
+		  }		  
+		SDD = {
+		transfer_state = 69			
+	}	
+}
+}
+	option = {
+		name = cze.1.a
+			hidden_effect = {		
+
+		}
+}
+	option = {
+		name = cze.1.b
+			hidden_effect = {				
+	SDD = { change_tag_from = FROM }	 
+		}
+}
+}

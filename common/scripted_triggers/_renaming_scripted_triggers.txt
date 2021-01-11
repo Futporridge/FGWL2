@@ -20,6 +20,15 @@ is_arab_tag = {
 		tag = PAL
 	}
 }
+is_south_slavic_tag = {
+	OR = {
+		tag = SER
+		tag = SRR
+		tag = RCR
+		tag = CRO
+		tag = SLV
+	}
+}
 is_arabian_tag = {
 	OR = {
 		tag = SAU
@@ -193,6 +202,7 @@ is_german_tag = {
 		tag = BAN
 		tag = BAV
 		tag = WUR
+		tag = SDD		
 		tag = BAD
 		tag = KRF
 		tag = WRZ

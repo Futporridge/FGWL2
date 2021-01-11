@@ -19,13 +19,15 @@ set_politics = {
 }
 
 set_popularities = {
-	utopism = 35
-	prometeism = 10
-	communitarianism = 5
-	oligarchy = 10
-	conservatism = 30
+	utopism = 9
+	prometeism = 4
+	communitarianism = 16
+	individualism = 7
+	liberalism = 8
+	oligarchy = 23
+	conservatism = 13
 	paternalism = 10
-	reactionary = 0
+	reactionary = 10
 }
 
 add_ideas = {
@@ -35,11 +37,91 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
+	name = "Joseph Franklin Rutherford"
+	desc = "POLITICS_JOSEPH_RUTHERFORD_DESC"
+	picture = "gfx/leaders/VRG/Portrait_Joseph_Franklin_Rutherford.tga"
+	expire = "1965.1.1"
+	ideology = utopism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Smedley Butler"
+	desc = "POLITICS_SMEDLEY_BUTLER_DESC"
+	picture = "gfx/leaders/VRG/Portrait_Smedley_Butler.tga"
+	expire = "1965.1.1"
+	ideology = prometeism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Mark A. Matthews"
+	desc = "POLITICS_MARK_MATTHEWS_DESC"
+	picture = "gfx/leaders/VRG/Portrait_Mark_A_Matthews.tga"
+	expire = "1965.1.1"
+	ideology = communitarianism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Albert Jay Nock"
+	desc = "POLITICS_ALBERT_NOCK_DESC"
+	picture = "gfx/leaders/VRG/Portrait_Albert_Jay_Nock.tga"
+	expire = "1965.1.1"
+	ideology = individualism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "John Dewey"
+	desc = "POLITICS_JOHN_DEWEY_DESC"
+	picture = "gfx/leaders/VRG/Portrait_John_Dewey.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = { 
+
+	}
+}
+create_country_leader = {
 	name = "Congress of the Union"
 	desc = "POLITICS_ALEXANDER_RUSIN_DESC"
 	picture = "gfx/leaders/VRG/Portrait_Congress_of_the_union.tga"
 	expire = "1965.1.1"
 	ideology = oligarchy
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Joseph P. Kennedy Sr."
+	desc = "POLITICS_JOSEPH_KENNEDY_SR_DESC"
+	picture = "gfx/leaders/VRG/Portrait_Joseph_P_Kennedy_Sr.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Herbert Agar"
+	desc = "POLITICS_HERBERT_AGAR_DESC"
+	picture = "gfx/leaders/VRG/Portrait_Herbert_Agar.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Donald S. Day"
+	desc = "POLITICS_DONALD_S_DAY_DESC"
+	picture = "gfx/leaders/VRG/Portrait_Donald_S_Day.tga"
+	expire = "1965.1.1"
+	ideology = reactionary
 	traits = { 
 
 	}
