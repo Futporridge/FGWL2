@@ -583,5 +583,9 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_culture_eastern_iranian_baloch"
 		texturefile = "gfx/interface/ideas/culture/culture_eastern_iranian_baloch.dds"
-	}			
+	}	
+		spriteType = {
+		name = "GFX_culture_iroquis_mohawk"
+		texturefile = "gfx/interface/ideas/culture/culture_iroquis_mohawk.dds"
+	}		
 }

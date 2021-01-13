@@ -731,6 +731,11 @@ scripted_gui = {
 			culture_eastern_iranian_baloch_visible = {
 				check_variable = { nationality = 144 } 
 			}				
+		}	
+		triggers = {
+			culture_iroquis_mohawk_visible = {
+				check_variable = { nationality = 145 } 
+			}				
 		}		
 	}
 }

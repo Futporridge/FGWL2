@@ -491,8 +491,17 @@ on_actions = {
 		931 = { set_variable = { nationality = 110 } }	#	
 		#Sorb
 		497 = { set_variable = { nationality = 111 } }	#	
-		#Maci
-		358 = { set_variable = { nationality = 112 } }	#				
+		#Maquasen
+		358 = { set_variable = { nationality = 112 } }	#Nieuw Amsterdam
+		965 = { set_variable = { nationality = 112 } }	#Pavonia
+		361 = { set_variable = { nationality = 112 } }	#Orania
+		968 = { set_variable = { nationality = 112 } }	#Beverwijk
+		261 = { set_variable = { nationality = 112 } }	#Batavia
+		966 = { set_variable = { nationality = 112 } }	#Groenbergen
+		967 = { set_variable = { nationality = 112 } }	#Nieuw Friesland
+		357 = { set_variable = { nationality = 112 } }	#Wijn Heuvels
+		359 = { set_variable = { nationality = 112 } }	#Niderarcadie	
+		964 = { set_variable = { nationality = 112 } }	#Rodt Eylant		
 		#Pernambuco
 		285 = { set_variable = { nationality = 113 } }	#	
 		#Cherokee
@@ -605,7 +614,9 @@ on_actions = {
 		413 = { set_variable = { nationality = 143 } }	#Khuzestan
 		765 = { set_variable = { nationality = 143 } }	#Hormuz		
 		#Baloch
-		444 = { set_variable = { nationality = 144 } }	#Baghdad			
+		444 = { set_variable = { nationality = 144 } }	#Baghdad	
+		#Mohawk
+		360 = { set_variable = { nationality = 145 } }	#Ontario
 		}
 		
 	}

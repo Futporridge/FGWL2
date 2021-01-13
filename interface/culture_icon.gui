@@ -883,6 +883,12 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_eastern_iranian_baloch
 			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_iroquis_mohawk"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_iroquis_mohawk
+			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 	}
 }
