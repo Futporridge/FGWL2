@@ -9,10 +9,9 @@ state={
 	history={
 		owner = VWS
 		buildings = {
-			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 5
-			air_base = 2
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 2
 			8113 = {
 				naval_base = 3
 
@@ -25,20 +24,20 @@ state={
 		}
 		add_core_of = VWS
 		victory_points = {
-			8113 5 
+			8113 20 
 		}
 		victory_points = {
 			5056 5 
 		}
 		victory_points = {
-			8080 5 
+			8080 3
 		}		
 	}
 
 	provinces={
 		4892 4942 5000 5056 7915 7968 8024 8080 8113 10736 
 	}
-	manpower=1335010
+	manpower=3335010
 	buildings_max_level_factor=1.000
 	state_category=city
 }
