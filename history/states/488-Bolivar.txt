@@ -9,15 +9,15 @@ state={
 			infrastructure = 1
 
 		}
-		add_core_of = ORC 
+		add_core_of = ORC
 		victory_points = {
-			10767 5
+			10767 5 
 		}
 
 	}
 
 	provinces={
-		1981 10767 10823 10849 10879 10912 12716 
+		1981 10767 10823 10879 10912 12716 
 	}
 	manpower=845642
 	buildings_max_level_factor=1.000
