@@ -504,6 +504,7 @@ on_actions = {
 		964 = { set_variable = { nationality = 112 } }	#Rodt Eylant		
 		#Pernambuco
 		285 = { set_variable = { nationality = 113 } }	#	
+		498 = { set_variable = { nationality = 113 } }	#		
 		#Cherokee
 		961 = { set_variable = { nationality = 114 } }	#Cherokee
 		#Behmenist
@@ -617,6 +618,12 @@ on_actions = {
 		444 = { set_variable = { nationality = 144 } }	#Baghdad	
 		#Mohawk
 		360 = { set_variable = { nationality = 145 } }	#Ontario
+		#Welserlander
+		489 = { set_variable = { nationality = 146 } }	#Neu Augsburg	
+		307 = { set_variable = { nationality = 146 } }	#Swarttsburg
+		486 = { set_variable = { nationality = 146 } }	#Meta	
+		#Orinoco
+		488 = { set_variable = { nationality = 147 } }	#Port Jacob		
 		}
 		
 	}

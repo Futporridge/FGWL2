@@ -736,6 +736,16 @@ scripted_gui = {
 			culture_iroquis_mohawk_visible = {
 				check_variable = { nationality = 145 } 
 			}				
+		}	
+		triggers = {
+			culture_west_german_welserlander_visible = {
+				check_variable = { nationality = 146 } 
+			}				
+		}
+		triggers = {
+			culture_german_orinocian_visible = {
+				check_variable = { nationality = 147 } 
+			}				
 		}		
 	}
 }

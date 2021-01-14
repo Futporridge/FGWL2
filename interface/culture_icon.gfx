@@ -587,5 +587,13 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_culture_iroquis_mohawk"
 		texturefile = "gfx/interface/ideas/culture/culture_iroquis_mohawk.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_west_german_welserlander"
+		texturefile = "gfx/interface/ideas/culture/culture_west_german_welserlander.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_german_orinocian"
+		texturefile = "gfx/interface/ideas/culture/culture_german_orinocian.dds"
 	}		
 }

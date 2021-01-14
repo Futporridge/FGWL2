@@ -19,9 +19,11 @@ state={
 		}
 		add_core_of = VWS
 		victory_points = {
-			4526 5 
+			4526 20 
 		}
-
+		victory_points = {
+			1944 5 
+		}
 	}
 
 	provinces={
