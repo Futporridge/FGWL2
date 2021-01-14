@@ -1,0 +1,19 @@
+state={
+	id=970
+	name="STATE_970"
+	provinces={
+		736 1323 1827 1862 2212 3010 4413 4742 6726 7398 7753 7858 10305 10573 10934 11712 12549 12603 12663 12755 13060 
+	}
+	history={
+		owner = EQU
+		add_core_of = EQU
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}	
+	manpower=0
+	state_category=wasteland	
+	buildings_max_level_factor=1.000
+}

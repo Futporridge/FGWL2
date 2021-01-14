@@ -1,0 +1,21 @@
+state={
+	id=969
+	name="STATE_969"
+	provinces={
+		4934 
+	}
+	history={
+		add_core_of = KAL
+		owner = KAL
+		buildings = {
+			infrastructure = 2
+
+
+		}
+
+	}	
+	impassable = yes	
+	state_category=wasteland	
+	manpower=12222
+	buildings_max_level_factor=1.000
+}
