@@ -532,7 +532,7 @@ country_event = {
 	id = aus.25
 	title = aus.25.t
 	desc = aus.25.d
-	picture = GFX_
+	picture = GFX_event_austrian_soldiers_rep
 
 	is_triggered_only = yes
 

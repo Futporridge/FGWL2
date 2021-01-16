@@ -7,8 +7,17 @@ set_technology = {
 	tech_support = 1
 	tech_recon = 1
 }
-add_ideas = {
-
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = CEA
+		autonomous_state = autonomy_integrated_puppet
+	}		
+	else = {
+		puppet = CEA			
+	}
 }
 
 set_politics = {

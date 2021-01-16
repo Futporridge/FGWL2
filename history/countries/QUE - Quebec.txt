@@ -9,7 +9,18 @@ set_technology = {
 	tech_recon = 1
 }
 
-
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = CFA
+		autonomous_state = autonomy_integrated_puppet
+	}		
+	else = {
+		puppet = CFA			
+	}
+}
 set_politics = {
 	ruling_party = paternalism
 	last_election = "1933.3.5"

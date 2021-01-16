@@ -21,10 +21,10 @@ set_politics = {
 set_popularities = {
 	utopism = 0
 	prometeism = 0
-	communitarianism = 0
+	communitarianism = 100
 	oligarchy = 0
 	conservatism = 0
-	communitarianism = 100
+	paternalism = 0
 	reactionary = 0
 }
 

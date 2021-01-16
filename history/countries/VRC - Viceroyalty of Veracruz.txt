@@ -28,9 +28,6 @@ set_popularities = {
 	reactionary = 23
 }
 
-add_ideas = {
-
-}
 
 set_convoys = 100
 

@@ -28,10 +28,6 @@ set_popularities = {
 	reactionary = 0
 }
 
-add_ideas = {
-
-}
-
 set_convoys = 100
 
 create_country_leader = {
