@@ -12,7 +12,7 @@ state={
 		}
 		add_core_of = KMC
 		victory_points = {
-			702 1 
+			702 5 
 		}
 	}		
 	manpower=767692

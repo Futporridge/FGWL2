@@ -595,5 +595,13 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_culture_german_orinocian"
 		texturefile = "gfx/interface/ideas/culture/culture_german_orinocian.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_ingvaeonic_nova_scott"
+		texturefile = "gfx/interface/ideas/culture/culture_ingvaeonic_nova_scott.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_ingvaeonic_new_brittanian"
+		texturefile = "gfx/interface/ideas/culture/culture_ingvaeonic_new_brittanian.dds"
 	}		
 }

@@ -624,7 +624,13 @@ on_actions = {
 		486 = { set_variable = { nationality = 146 } }	#Meta	
 		#Orinoco
 		488 = { set_variable = { nationality = 147 } }	#Port Jacob		
-		972 = { set_variable = { nationality = 147 } }	#Port Jacob			
+		972 = { set_variable = { nationality = 147 } }	#Port Jacob		
+		#Nova Scott
+		874 = { set_variable = { nationality = 148 } }	#Sydney	
+		464 = { set_variable = { nationality = 148 } }	#Nova Scotia
+		#New Britannian
+		331 = { set_variable = { nationality = 149 } }	#Newfoundland	
+		332 = { set_variable = { nationality = 149 } }	#Labrador		
 		}
 		
 	}

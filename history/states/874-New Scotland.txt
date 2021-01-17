@@ -6,7 +6,11 @@ state={
 	}
 	state_category = pastoral
 	history= {
-	owner = SCO	
+		victory_points = {
+			4430 5 
+		}	
+	owner = CNB
+	add_core_of = CNB
 		buildings = {
 			infrastructure = 4
 			4430 = {
@@ -15,5 +19,6 @@ state={
 		}
 	}	
 	manpower=11234
+	state_category=rural	
 	buildings_max_level_factor=1.000
 }

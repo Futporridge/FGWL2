@@ -746,6 +746,16 @@ scripted_gui = {
 			culture_german_orinocian_visible = {
 				check_variable = { nationality = 147 } 
 			}				
+		}
+		triggers = {
+			culture_ingvaeonic_nova_scott_visible = {
+				check_variable = { nationality = 148 } 
+			}				
 		}		
+		triggers = {
+			culture_ingvaeonic_new_brittanian_visible = {
+				check_variable = { nationality = 149 } 
+			}				
+		}				
 	}
 }

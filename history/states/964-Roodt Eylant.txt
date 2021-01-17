@@ -10,16 +10,16 @@ state={
 		}
 		add_core_of = KMC
 		victory_points = {
-			3906 20 
+			3906 25 
 		}
 		victory_points = {
-			6732 5
+			6732 20
 		}	
 	}		
 	provinces={
 		715 905 3710 3906 6732 9832 11830 
 	}
-	manpower=4115021
+	manpower=5115021
 	state_category=city	
 	buildings_max_level_factor=1.000
 }

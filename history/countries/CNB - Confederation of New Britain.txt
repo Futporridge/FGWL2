@@ -1,4 +1,4 @@
-capital = 464
+capital = 874
 
 OOB = "CNB_1936"
 
@@ -12,7 +12,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = paternalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -23,9 +23,9 @@ set_popularities = {
 	prometeism = 0
 	communitarianism = 0
 	oligarchy = 0
-	conservatism = 100
+	conservatism = 0
 	liberalism = 0
-	paternalism = 0
+	paternalism = 100
 	reactionary = 0
 }
 
@@ -35,6 +35,16 @@ add_ideas = {
 
 set_convoys = 100
 
+create_country_leader = {
+	name = "Douglas MacArthur"
+	desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
+	picture = "gfx/leaders/CNB/Portrait_Douglas_MacArthur.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = { 
+
+	}
+}
 create_country_leader = {
 	name = "Richard Squires"
 	desc = "POLITICS_RICHARD_SQUIRES_DESC"

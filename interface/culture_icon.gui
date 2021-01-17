@@ -901,6 +901,18 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_german_orinocian
 			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_ingvaeonic_nova_scott"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_ingvaeonic_nova_scott
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_ingvaeonic_new_brittanian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_ingvaeonic_new_brittanian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 	}
 }
