@@ -113,6 +113,40 @@ ideas = {
 				factor = 0
 			}
 		}	
+		AUS_dirigisme = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_dirigisme
+					
+			modifier = {
+				political_power_factor = -0.05	
+				consumer_goods_factor = -0.01 				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}			
+		AUS_laissez_fair = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_laissez_fair
+					
+			modifier = {
+				political_power_factor = 0.05	
+				line_change_production_efficiency_factor = 0.02 				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
 		AUS_cutting_the_excesses = {
 			
 			allowed = {
@@ -139,15 +173,13 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = AUS_cutting_the_excesses 
+			picture = AUS_alcabala 
 			
-				research_bonus = {
-				land_doctrine = -0.15
-				}				
+				
 			modifier = {
 				production_speed_buildings_factor = 0.15
 				stability_factor = -0.15
-				production_factory_max_efficiency_factor = -0.02 				
+				consumer_goods_factor = -0.02 				
 			}
 	
 			ai_will_do = {

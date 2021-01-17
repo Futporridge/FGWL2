@@ -53,7 +53,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		add_ideas = {
+		AUS_econom_countermeasures
+		}
+		}
 				}
 	focus = {
 		id = AUS_dirigisme
@@ -78,7 +81,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		add_ideas = {
+		AUS_dirigisme
+		}					
+				}
 				}
 	focus = {
 		id = AUS_laissez_fair
@@ -103,7 +109,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		add_ideas = {
+		AUS_laissez_fair
+		}		
+		}
 				}		
 	focus = {
 		id = AUS_western_region
@@ -197,7 +206,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		add_ideas = {
+		AUS_cutting_the_excesses
+		}
+			}
 				}					
 	focus = {
 		id = AUS_alcabala
@@ -222,7 +234,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		add_ideas = {
+		AUS_alcabala
+		}				
+				}
 				}
 
 	focus = {

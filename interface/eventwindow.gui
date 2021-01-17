@@ -59,7 +59,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "Description"
-				position = { x = 62 y = 18 }
+				position = { x = 62 y = 0 }
 				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"
