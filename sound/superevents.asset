@@ -36,3 +36,10 @@ soundeffect = {
 	}
 	volume = 1
 }
+soundeffect = {
+	name = "black_army_win"
+	sounds = {
+		sound = "black_army_win"
+	}
+	volume = 1
+}

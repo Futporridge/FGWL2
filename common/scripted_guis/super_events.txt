@@ -45,8 +45,8 @@ scripted_gui = {
 		}
 		
 		triggers = {
-			Super_Event_republicanist_victory_visible = {
-				has_global_flag  = republicanist_victory
+			Super_Event_black_army_victory_visible = {
+				has_global_flag  = black_army_victory
 			}
 		}
 		
@@ -110,9 +110,9 @@ scripted_gui = {
 				
 				if = {
 					limit = {	
-						has_global_flag = republicanist_victory
+						has_global_flag = black_army_victory
 					}
-					clr_global_flag  = republicanist_victory
+					clr_global_flag  = black_army_victory
 				}
 				
 				if = {

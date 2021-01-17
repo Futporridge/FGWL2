@@ -119,8 +119,8 @@ country_event = {
 		name = super.7.a
 
         set_global_flag = Super_Event_Visible
-        set_global_flag = republicanist_victory
-		sound_effect = ""
+        set_global_flag = black_army_victory
+		sound_effect = "black_army_win"
 	}
 }
 

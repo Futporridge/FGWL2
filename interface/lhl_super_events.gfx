@@ -30,8 +30,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_republicanist_victory"
-		texturefile = "gfx/super_events/republicanist_victory.dds"
+		name = "GFX_black_army_victory"
+		texturefile = "gfx/super_events/black_army_victory.dds"
 	}
 	
 	spriteType = {
