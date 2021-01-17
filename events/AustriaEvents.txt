@@ -499,7 +499,7 @@ country_event = {
 
 	option = {
 		name = aus.22.a
-			hidden_effect = {
+			hidden_effect = {	
 retire_country_leader = yes			
 create_country_leader = {
 	name = "Viktor Dankl von Krasnik"
@@ -512,6 +512,7 @@ create_country_leader = {
 	}
 }
 	load_focus_tree = { tree = austrian_regency_focus keep_completed = yes }
+	unlock_national_focus = AUS_regency_council		
 		}
 }
 }

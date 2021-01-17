@@ -24,13 +24,12 @@ focus_tree = {
 			factor = 10
 		}
 		available_if_capitulated = yes
-
 		bypass = {
 			
 				}
 
 		completion_reward = {
-		
+		custom_effect_tooltip = AUS_reichstag_completion
 					}
 				}
 	focus = {
@@ -135,7 +134,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		custom_effect_tooltip = AUS_western_region_cooperation		
+			}
 				}	
 	focus = {
 		id = AUS_new_world
@@ -158,6 +158,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		custom_effect_tooltip = AUS_new_world_region_cooperation	
 					}
 				}	
 	focus = {
@@ -181,7 +182,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		custom_effect_tooltip = AUS_southern_region_cooperation					
+				}
 				}
 	focus = {
 		id = AUS_cutting_the_excesses
@@ -262,7 +264,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		custom_effect_tooltip = AUS_sale_of_colonies_tooltip
+				}
 				}					'					
 			}
 		

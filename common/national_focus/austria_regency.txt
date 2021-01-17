@@ -57,7 +57,9 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		add_manpower = -15000
+		add_political_power = +50
+		}
 				}
 	shared_focus = {
 		id = AUS_populst_methods
@@ -79,7 +81,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		add_stability = 0.025
+		}
 				}
 	shared_focus = {
 		id = AUS_tighten_control
@@ -88,7 +91,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = AUS_populst_methods }
 		prerequisite = { focus = AUS_desperate_demilitarization }		
-		cost = 1
+		cost = 5
 		relative_position_id = AUS_desperate_demilitarization
 		ai_will_do = {
 			factor = 10
@@ -103,7 +106,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		custom_effect_tooltip = AUS_regency_tighten_grip
+		}
 				}		
 					'					
 		
