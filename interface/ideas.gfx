@@ -102,5 +102,24 @@ spriteTypes = {
 		name = "GFX_idea_paris_political_instability"
 		texturefile = "gfx/interface/ideas/paris_political_instability.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_idea_AUS_army1"
+		texturefile = "gfx/interface/ideas/AUS_army1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_diveded_empire"
+		texturefile = "gfx/interface/ideas/AUS_diveded_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_econ1"
+		texturefile = "gfx/interface/ideas/AUS_econ1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_serbian_resistance"
+		texturefile = "gfx/interface/ideas/AUS_serbian_resistance.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_trade_union_power_lifts"
+		texturefile = "gfx/interface/ideas/AUS_trade_union_power_lifts.dds"
+	}	
 }
