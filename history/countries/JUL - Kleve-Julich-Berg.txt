@@ -28,7 +28,7 @@ set_popularities = {
 }
 
 add_ideas = {
-munster_iron_fisted_rule
+HRE_member
 }
 
 set_convoys = 10
