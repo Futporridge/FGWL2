@@ -69,3 +69,13 @@ create_country_leader = {
 
 	}
 }
+create_country_leader = {
+	name = "Vladimir Vladimirovich Mazurin"
+	desc = "POLITICS_VLADIMIR_MAZURIN_DESC"
+	picture = "gfx/leaders/RUS/Portrait_Vladimir_Mazurin.tga"
+	expire = "1965.1.1"
+	ideology = utopism
+	traits = { 
+
+	}
+}
