@@ -631,6 +631,8 @@ on_actions = {
 		#New Britannian
 		331 = { set_variable = { nationality = 149 } }	#Newfoundland	
 		332 = { set_variable = { nationality = 149 } }	#Labrador		
+		#Naturvolkish
+		780 = { set_variable = { nationality = 150 } }	#Colinsland			
 		}
 		
 	}

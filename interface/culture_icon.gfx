@@ -603,5 +603,9 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_culture_ingvaeonic_new_brittanian"
 		texturefile = "gfx/interface/ideas/culture/culture_ingvaeonic_new_brittanian.dds"
-	}		
+	}
+		spriteType = {
+		name = "GFX_culture_german_naturvolker"
+		texturefile = "gfx/interface/ideas/culture/culture_german_naturvolker.dds"
+	}	
 }

@@ -913,6 +913,12 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_ingvaeonic_new_brittanian
 			pdx_tooltip = "EOANB_CULTURE_INFO"
-		}		
+		}	
+		iconType = {
+			name = "culture_german_naturvolker"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_german_naturvolker
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}			
 	}
 }
