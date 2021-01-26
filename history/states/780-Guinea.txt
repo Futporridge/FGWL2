@@ -7,12 +7,13 @@ state={
 		owner = BCL
 		add_core_of = BCL
 		victory_points = {
-			1909 1 
+			1909 5 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
+			industrial_complex = 1			
 			1909 = {
-				naval_base = 1
+				naval_base = 3
 
 			}
 
@@ -23,7 +24,7 @@ state={
 	provinces={
 		1909 12858 
 	}
-	manpower=195041
+	manpower=1295041
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

@@ -633,7 +633,19 @@ on_actions = {
 		332 = { set_variable = { nationality = 149 } }	#Labrador		
 		#Naturvolkish
 		780 = { set_variable = { nationality = 150 } }	#Colinsland			
-		}
+		#Fulbe
+		946 = { set_variable = { nationality = 151 } }	#Pelu	
+		945 = { set_variable = { nationality = 151 } }	#Futa Dschalon
+		#Wolof
+		272 = { set_variable = { nationality = 152 } }	#Senegal	
+		#Balanta
+		296 = { set_variable = { nationality = 153 } }	#Bissau		
+		#Mandinka
+		556 = { set_variable = { nationality = 154 } }	#Bamaku	
+		949 = { set_variable = { nationality = 154 } }	#Segu	
+		948 = { set_variable = { nationality = 154 } }	#Kayi
+		700 = { set_variable = { nationality = 154 } }	#Inner Guinea		
+		}		
 		
 	}
 }

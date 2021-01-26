@@ -607,5 +607,21 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_culture_german_naturvolker"
 		texturefile = "gfx/interface/ideas/culture/culture_german_naturvolker.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_west_atlantic_fulbe"
+		texturefile = "gfx/interface/ideas/culture/culture_west_atlantic_fulbe.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_west_atlantic_wolof"
+		texturefile = "gfx/interface/ideas/culture/culture_west_atlantic_wolof.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_bak_balanta"
+		texturefile = "gfx/interface/ideas/culture/culture_bak_balanta.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_mandinka_mandinka"
+		texturefile = "gfx/interface/ideas/culture/culture_mandinka_mandinka.dds"
 	}	
 }

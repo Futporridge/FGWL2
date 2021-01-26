@@ -761,6 +761,26 @@ scripted_gui = {
 			culture_german_naturvolker_visible = {
 				check_variable = { nationality = 150 } 
 			}				
+		}
+		triggers = {
+			culture_west_atlantic_fulbe_visible = {
+				check_variable = { nationality = 151 } 
+			}				
+		}	
+		triggers = {
+			culture_west_atlantic_wolof_visible = {
+				check_variable = { nationality = 152 } 
+			}				
+		}
+		triggers = {
+			culture_bak_balanta_visible = {
+				check_variable = { nationality = 153 } 
+			}				
+		}
+		triggers = {
+			culture_mandinka_mandinka_visible = {
+				check_variable = { nationality = 154 } 
+			}				
 		}		
 	}
 }

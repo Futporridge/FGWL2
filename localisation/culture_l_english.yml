@@ -153,7 +153,7 @@
   var_nationality_135:0 "Bedüin\n \n§LLanguage Group:§L Semitic\n§LReligion:§L Sunni Islam, Sufi Islam, Catholic Christian"
 
   var_nationality_136:0 "Novgorodian\n \n§LLanguage Group:§L East Slavic\n§LReligion:§L Uniate Christian, Orthodox Christian, Catholic Christian"   
-  var_nationality_137:0 "Litvin\n \n§LLanguage Group:§L Baltic with East Slavic, East Germanic and West Slavic influence\n§LReligion:§L Catholic Christian, Uniate Christian, Orthodox Christian"    
+  var_nationality_137:0 "Litsvin\n \n§LLanguage Group:§L Baltic with East Slavic, East Germanic and West Slavic influence\n§LReligion:§L Catholic Christian, Uniate Christian, Orthodox Christian"    
   var_nationality_138:0 "Azeri\n \n§LLanguage Group:§L Western Iranian\n§LReligion:§L Nestorian Christian, Shia Islam"   
   var_nationality_139:0 "Persian\n \n§LLanguage Group:§L Western Iranian\n§LReligion:§L Sunni Islam, Nestorian Christian, Shia Islam"    
   var_nationality_140:0 "Georgian\n \n§LLanguage Group:§L Kartvelian\n§LReligion:§L Orthodox Christian, Nestorian Christian, Uniate Christian"     
@@ -166,4 +166,8 @@
   var_nationality_147:0 "Orinocian\n \n§LLanguage Group:§L Pidgin based on Dutch Language\n§LReligion:§L Catholic Christian"    
   var_nationality_148:0 "Nova Scottish\n \n§LLanguage Group:§L Ingvaeonic\n§LReligion:§L Catholic Christian"    
   var_nationality_149:0 "New Britannian\n \n§LLanguage Group:§L Ingvaeonic\n§LReligion:§L Catholic Christian"   
-  var_nationality_150:0 "Naturvölker \n \n§LNaturvölkers are an ethnic group formed in a result of the successful colonial policy and assimilation of the native peoples of Guinea by the Germans. Naturvölkers embraced German culture, religion and language, and they are absolutely loyal to the German government§L \n \n§LLanguage Group:§L West Germanic with Mandu influence\n§LReligion:§L Catholic Christian, Böhmian Christian"  
+  var_nationality_150:0 "Naturvölker \n \n§LNaturvölkers are an ethnic group formed in a result of the successful colonial policy and assimilation of the native peoples of Guinea by the Germans. Naturvölkers embraced German culture, religion and language, and they are absolutely loyal to the German government§L \n \n§LLanguage Group:§L West Germanic with Mande influence\n§LReligion:§L Catholic Christian, Böhmian Christian"  
+  var_nationality_151:0 "Fulbe\n \n§LLanguage Group:§L West Atlantic\n§LReligion:§L Sufi Islam, Catholic Christian"   
+  var_nationality_152:0 "Wolof\n \n§LLanguage Group:§L West Atlantic\n§LReligion:§L Sufi Islam, Catholic Christian"     
+  var_nationality_153:0 "Balanta\n \n§LLanguage Group:§L Bak\n§LReligion:§L Animism, Sufi Islam, Catholic Christian"
+  var_nationality_154:0 "Mandinka\n \n§LLanguage Group:§L Mande\n§LReligion:§L Sufi Islam"    

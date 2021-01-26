@@ -919,6 +919,30 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_german_naturvolker
 			pdx_tooltip = "EOANB_CULTURE_INFO"
-		}			
+		}	
+		iconType = {
+			name = "culture_west_atlantic_fulbe"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_west_atlantic_fulbe
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_west_atlantic_wolof"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_west_atlantic_wolof
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_bak_balanta"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_bak_balanta
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_mandinka_mandinka"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_mandinka_mandinka
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}		
 	}
 }
