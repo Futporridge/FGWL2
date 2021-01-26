@@ -624,4 +624,8 @@ spriteTypes = {
 		name = "GFX_culture_mandinka_mandinka"
 		texturefile = "gfx/interface/ideas/culture/culture_mandinka_mandinka.dds"
 	}	
+		spriteType = {
+		name = "GFX_culture_gur_mossi"
+		texturefile = "gfx/interface/ideas/culture/culture_gur_mossi.dds"
+	}		
 }

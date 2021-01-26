@@ -645,6 +645,10 @@ on_actions = {
 		949 = { set_variable = { nationality = 154 } }	#Segu	
 		948 = { set_variable = { nationality = 154 } }	#Kayi
 		700 = { set_variable = { nationality = 154 } }	#Inner Guinea		
+		#Mossi
+		944 = { set_variable = { nationality = 155 } }	#Mossiland	
+		778 = { set_variable = { nationality = 155 } }	#Gao	
+		947 = { set_variable = { nationality = 155 } }	#Bandama		
 		}		
 		
 	}

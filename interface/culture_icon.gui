@@ -943,6 +943,12 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_mandinka_mandinka
 			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_gur_mossi"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_gur_mossi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 	}
 }

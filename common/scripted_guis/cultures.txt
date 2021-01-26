@@ -781,6 +781,11 @@ scripted_gui = {
 			culture_mandinka_mandinka_visible = {
 				check_variable = { nationality = 154 } 
 			}				
+		}
+		triggers = {
+			culture_gur_mossi_visible = {
+				check_variable = { nationality = 155 } 
+			}				
 		}		
 	}
 }

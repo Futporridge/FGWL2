@@ -12,6 +12,6 @@ state={
 			}
 		}
 	state_category=pastoral
-	manpower=0
+	manpower=798322
 	buildings_max_level_factor=1.000
 }
