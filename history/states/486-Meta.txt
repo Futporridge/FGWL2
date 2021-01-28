@@ -10,17 +10,17 @@ state={
 
 		}
 		victory_points = {
-			7993 1
+			7993 1 
 		}
 		victory_points = {
-			5026 1
-		}					
+			5026 1 
+		}
 		add_core_of = VWS
 
 	}
 
 	provinces={
-		1887 5026 5317 7993 8050 10792 
+		1887 5026 7993 8050 10792 
 	}
 	manpower=213160
 	buildings_max_level_factor=1.000

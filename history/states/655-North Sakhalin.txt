@@ -2,19 +2,20 @@
 state={
 	id=655
 	name="STATE_655"
-	manpower = 94759
-	
-	state_category = pastoral
-	history={
-		owner = RUS
-		add_core_of = RUS
-		buildings = {
-			infrastructure = 3
-			air_base = 1
-		}
-	}
 
-	provinces={
-		855 1742 1755 
+	history={
+		owner = VWS
+		add_core_of = VWS
+		buildings = {
+			infrastructure = 1
+		}
+
 	}
+	impassable = yes
+	provinces={
+		5317 7915 10736 
+	}
+	manpower=14759
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }
