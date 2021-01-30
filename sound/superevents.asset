@@ -43,3 +43,11 @@ soundeffect = {
 	}
 	volume = 1
 }
+
+soundeffect = {
+	name = "drieu_super"
+	sounds = {
+		sound = "drieu_super"
+	}
+	volume = 1
+}

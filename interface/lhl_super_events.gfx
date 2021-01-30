@@ -35,8 +35,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_royalist_victory"
-		texturefile = "gfx/super_events/royalist_victory.dds"
+		name = "GFX_drieu_victory"
+		texturefile = "gfx/super_events/drieu_unites.dds"
 	}
 
 	spriteType = {

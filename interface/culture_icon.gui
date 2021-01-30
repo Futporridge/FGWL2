@@ -949,6 +949,12 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_gur_mossi
 			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_ingvaeonic_guinean"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_ingvaeonic_guinean
+			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 	}
 }

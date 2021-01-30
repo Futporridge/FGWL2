@@ -786,6 +786,11 @@ scripted_gui = {
 			culture_gur_mossi_visible = {
 				check_variable = { nationality = 155 } 
 			}				
+		}
+		triggers = {
+			culture_ingvaeonic_guinean_visible = {
+				check_variable = { nationality = 156 } 
+			}				
 		}		
 	}
 }

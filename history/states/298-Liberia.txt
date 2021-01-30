@@ -9,11 +9,11 @@ state={
 	history={
 		owner = GUI
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 1
 			7959 = {
-				naval_base = 2
+				naval_base = 5
 
 			}
 
@@ -31,7 +31,7 @@ state={
 	provinces={
 		2038 2094 7959 8006 
 	}
-	manpower=745000
+	manpower=1445000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

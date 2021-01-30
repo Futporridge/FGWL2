@@ -627,5 +627,9 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_culture_gur_mossi"
 		texturefile = "gfx/interface/ideas/culture/culture_gur_mossi.dds"
-	}		
+	}
+		spriteType = {
+		name = "GFX_culture_ingvaeonic_guinean"
+		texturefile = "gfx/interface/ideas/culture/culture_ingvaeonic_guinean.dds"
+	}	
 }

@@ -51,8 +51,8 @@ scripted_gui = {
 		}
 		
 		triggers = {
-			Super_Event_royalist_victory_visible = {
-				has_global_flag  = royalist_victory
+			Super_Event_drieu_victory_visible = {
+				has_global_flag  = drieu_victory
 			}
 		}
 
@@ -117,9 +117,9 @@ scripted_gui = {
 				
 				if = {
 					limit = {	
-						has_global_flag = royalist_victory
+						has_global_flag = drieu_victory
 					}
-					clr_global_flag  = royalist_victory
+					clr_global_flag  = drieu_victory
 				}
 			}
 		}

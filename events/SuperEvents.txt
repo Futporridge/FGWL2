@@ -102,8 +102,8 @@ country_event = {
 		name = super.6.a
 
         set_global_flag = Super_Event_Visible
-        set_global_flag = nationalist_victory
-		sound_effect = ""
+        set_global_flag = drieu_victory
+		sound_effect = "drieu_super"
 	}
 }
 

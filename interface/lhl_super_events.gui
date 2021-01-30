@@ -50,13 +50,11 @@ guiTypes = {
 			spriteType = "GFX_black_army_victory"
 			position = { x = 35 y = 0 }
 		}
-		
 		iconType = {
-			name ="Super_Event_royalist_victory"
-			spriteType = "GFX_royalist_victory"
+			name ="Super_Event_drieu_victory"
+			spriteType = "GFX_drieu_victory"
 			position = { x = 35 y = 0 }
 		}
-
 		buttonType = {
             name = "Super_Event_Close"
             position = { x = 409 y = 526 }

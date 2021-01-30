@@ -57,4 +57,10 @@ defined_text = { #SUPER EVENT CLOSE
         }
         localization_key = "GFX_royalist_victory_CLOSE"
     }
+	    text = { 
+        trigger = {
+            has_global_flag = drieu_victory
+        }
+        localization_key = "GFX_drieu_victory_CLOSE"
+    }
 }
