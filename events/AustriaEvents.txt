@@ -1582,6 +1582,9 @@ load_oob = AUS_order_66
 
 	option = {
 		name = ausmisc.14.a
-	
+	swap_ideas = {
+     remove_idea = AUS_angelis_military_influence
+     add_idea = AUS_liberalizatiob_of_army
+	}
 	}
 }

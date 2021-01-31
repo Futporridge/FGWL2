@@ -16,7 +16,7 @@ ideas = {
 			modifier = {
 				max_command_power = -20
 				command_power_gain = -0.25
-				army_org = -15	
+				army_org_factor = -0.15	
 				country_lock_all_division_template = yes
 			}
 	
@@ -300,6 +300,23 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
-		}			
+		}
+		AUS_liberalizatiob_of_army = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_liberalizatiob_of_army 
+			
+				
+			modifier = {
+			army_org_factor = -0.50
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
 		}
 	}	
