@@ -672,13 +672,20 @@ set_demilitarized_zone = yes
 
 immediate = {
 hidden_effect = {
+	swap_ideas = {
+     remove_idea = AUS_diveded_empire
+     add_idea = AUS_divide_empire_2
+	}
 	country_event = { id = aus.30 days = 7 }
 set_politics = {
 	ruling_party = paternalism
 }
 	load_focus_tree = { tree = austrian_soldierring_focus }
 	leave_faction = yes	
-}
+
+	unlock_national_focus = AUS_soldatenring
+	unlock_national_focus = AUS_proclaim_the_republic_of_austria	
+}	
 	}
 
 	option = {
@@ -784,7 +791,10 @@ hidden_effect = {
 
 	option = {
 		name = aus.35.a
-
+		add_political_power = -100
+		add_ideas = {
+		AUS_angelis_new_order
+		}
 			}
 }
 	country_event = {	

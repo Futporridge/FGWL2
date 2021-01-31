@@ -185,6 +185,44 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
+		}
+		AUS_divide_empire_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_angelis_new_order 
+			
+				
+			modifier = {
+			stability_factor = -0.2
+			political_power_factor = -0.2
+			production_factory_max_efficiency_factor = -0.2	
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
 		}			
+		AUS_angelis_new_order = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_angelis_new_order 
+			
+				
+			modifier = {
+			paternalism_drift = 0.05	
+			utopism_drift = -0.003	
+			prometeism_drift = -0.003			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
 		}
 	}	
