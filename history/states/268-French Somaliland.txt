@@ -6,13 +6,9 @@ state={
 	history={
 		owner = PLI
 		add_core_of = PLI
-		victory_points = {
-			8124 1 
-		}
 		buildings = {
-			infrastructure = 3
-			air_base = 2
-			8124 = {
+			infrastructure = 4
+			9814 = {
 				naval_base = 2
 
 			}

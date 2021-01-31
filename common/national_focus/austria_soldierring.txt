@@ -40,7 +40,7 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		x = 0
 		y = 1
-		cost = 3
+		cost = 2
 		ai_will_do = {
 			factor = 10
 		}
@@ -52,7 +52,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		country_event = aus.32		
+		country_event = aus.31		
 					}
 				}				
 	shared_focus = {

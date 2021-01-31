@@ -16,9 +16,6 @@ state={
 
 		}
 		add_core_of = VRC
-		victory_points = {
-			3513 1 
-		}
 
 	}
 

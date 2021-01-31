@@ -1,0 +1,140 @@
+﻿division_template = {
+	name = "Republikanischer-Schutzbund"
+
+	division_names_group = AUS_SCHB_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	
+}
+division_template = {
+	name = "Arbeitermiliz"
+
+	division_names_group = AUS_ARBMLTZ_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	
+}
+units = {
+
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6739
+		division_template = "Republikanischer-Schutzbund"
+		start_experience_factor = 0.2
+		
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 6739
+		division_template = "Republikanischer-Schutzbund"
+		start_experience_factor = 0.2
+		
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 9685
+		division_template = "Republikanischer-Schutzbund"
+		start_experience_factor = 0.2
+		
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 732
+		division_template = "Republikanischer-Schutzbund"
+		start_experience_factor = 0.2
+		
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 9665
+		division_template = "Republikanischer-Schutzbund"
+		start_experience_factor = 0.2
+		
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 9648
+		division_template = "Republikanischer-Schutzbund"
+		start_experience_factor = 0.2
+		
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		}
+		location = 9648
+		division_template = "Republikanischer-Schutzbund"
+		start_experience_factor = 0.2
+		
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 704
+		division_template = "Arbeitermiliz"
+		start_experience_factor = 0.1
+		
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 9665
+		division_template = "Arbeitermiliz"
+		start_experience_factor = 0.1
+		
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 6626
+		division_template = "Arbeitermiliz"
+		start_experience_factor = 0.1
+		
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3700
+		division_template = "Arbeitermiliz"
+		start_experience_factor = 0.1
+		
+	}	
+}

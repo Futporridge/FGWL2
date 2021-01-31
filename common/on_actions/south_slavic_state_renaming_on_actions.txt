@@ -38,7 +38,7 @@ on_actions = {
 				if = {
 					limit = {
 						FROM.FROM = {
-							state = 107 
+							state = 901 
 						}
 					}
 					FROM.FROM = {

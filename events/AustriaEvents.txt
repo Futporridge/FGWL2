@@ -1,5 +1,5 @@
 ﻿	add_namespace = aus
-
+	add_namespace = ausmisc
 	
 	country_event = {	
 	id = aus.1
@@ -684,7 +684,6 @@ set_politics = {
 	leave_faction = yes	
 
 	unlock_national_focus = AUS_soldatenring
-	unlock_national_focus = AUS_proclaim_the_republic_of_austria	
 }	
 	}
 
@@ -715,6 +714,7 @@ country_event = {
 	is_triggered_only = yes
 immediate = {
 hidden_effect = {
+	set_cosmetic_tag = AUS_angelis_initial	
 	country_event = { id = aus.32 days = 10 }
 	country_event = { id = aus.33 days = 20 }
 	country_event = { id = aus.34 days = 25 }	
@@ -856,6 +856,69 @@ hidden_effect = {
 	is_triggered_only = yes
 	immediate = {
 	hidden_effect = {
+create_corps_commander = {
+	name = "Julius Deutsch"
+	picture = "Portrait_Julius_Deutsch.tga"
+	traits = { trickster media_personality }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}	
+create_corps_commander = {
+	name = "Alexander Eifler"
+	picture = "Portrait_Alexander_Eifler.tga"
+	traits = { infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Georg Weissel"
+	picture = "Portrait_Georg_Weissel.tga"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Karl Münichreiter"
+	picture = "Portrait_Karl_Munichreiter.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Ludwig Bernaschek"
+	picture = "Portrait_Ludwig_Bernaschek.tga"
+	traits = { politically_connected }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Richard Bernaschek"
+	picture = "Portrait_Richard_Bernaschek.tga"
+	traits = { politically_connected }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}	
+		add_ideas = {
+		AUS_angelis_military_influence
+		}
 		country_event = { id = aus.40 days = 7 }
 		country_event = { id = aus.44 days = 31 }		
 		country_event = { id = aus.41 days = 48 }		
@@ -863,29 +926,35 @@ hidden_effect = {
 	}
 	option = {
 		name = aus.39.a
-			hidden_effect = {		
+			hidden_effect = {	
+	drop_cosmetic_tag = yes				
 set_politics = {
 	ruling_party = communitarianism
 }
 	load_focus_tree = { tree = austrian_initial_socdem_focus }
+		set_country_flag = AUS_the_SDPAO_L		
 		}
 }
 	option = {
 		name = aus.39.b
-			hidden_effect = {		
+			hidden_effect = {
+	drop_cosmetic_tag = yes				
 set_politics = {
 	ruling_party = prometeism
 }
 	load_focus_tree = { tree = austrian_initial_socdem_focus }
+		set_country_flag = AUS_the_OAP			
 		}
 }
 	option = {
 		name = aus.39.c
 			hidden_effect = {		
+	drop_cosmetic_tag = yes				
 set_politics = {
 	ruling_party = liberalism
 }
 	load_focus_tree = { tree = austrian_initial_socdem_focus }
+		set_country_flag = AUS_the_SDPAO_R		
 		}
 }
 }
@@ -896,7 +965,11 @@ set_politics = {
 	picture = GFX_
 
 	is_triggered_only = yes
-
+immediate = {
+hidden_effect = {
+load_oob = AUS_left_initial_win
+		}
+	}
 	option = {
 		name = aus.40.a
 		hidden_effect = {
@@ -905,7 +978,7 @@ set_politics = {
     popularity = -1.0
 		}
 		}
-}
+	}
 }
 	country_event = {	
 	id = aus.41
@@ -1476,4 +1549,39 @@ immediate = {
 	TRR = { change_tag_from = FROM }	 
 		}
 }
+}
+	country_event = {	
+	id = ausmisc.14
+	title = ausmisc.1.t
+	desc = ausmisc.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	immediate = {
+	hidden_effect = {
+delete_unit_template_and_units = {
+    division_template = "Jäger-Regimenter"
+    disband = yes
+}
+delete_unit_template_and_units = {
+    division_template = "Landesschützenregiment"
+    disband = yes
+}
+delete_unit_template_and_units = {
+    division_template = "Infanterie-Division"
+    disband = yes
+}	
+delete_unit_template_and_units = {
+    division_template = "Kavalleriedivision"
+    disband = yes
+}
+load_oob = AUS_order_66	
+					}
+				}
+	fire_only_once = yes
+
+	option = {
+		name = ausmisc.14.a
+	
+	}
 }

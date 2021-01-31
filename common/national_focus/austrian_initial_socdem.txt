@@ -34,10 +34,10 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		available = {
-
+		always = no
 		}
 		bypass = {
-		
+		has_country_flag = AUS_the_SDPAO_R
 				}
 
 		completion_reward = {
@@ -55,10 +55,10 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		available = {
-
+		always = no
 		}
 		bypass = {
-		
+		has_country_flag = AUS_the_OAP		
 				}
 
 		completion_reward = {
@@ -76,10 +76,10 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		available = {
-
+		always = no
 		}
 		bypass = {
-		
+		has_country_flag = AUS_the_SDPAO_L		
 				}
 
 		completion_reward = {
@@ -106,7 +106,24 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		hidden_effect = {
+		add_political_power = 100		
+		swap_ideas = {
+		remove_idea = AUS_trade_union_power_lifts
+		add_idea = AUS_right_insurgency_1
+		}
+		remove_ideas = {
+		AUS_army1
+		AUS_econom_countermeasures
+		AUS_dirigisme
+		AUS_laissez_fair
+		AUS_cutting_the_excesses
+		AUS_alcabala
+		AUS_angelis_new_order
+		}		
+		}
+		custom_effect_tooltip = AUS_prometheus_gift_tooltip
+		}
 				}				
 	shared_focus = {
 		id = AUS_securing_the_reichstag
@@ -128,7 +145,24 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+				hidden_effect = {
+				add_political_power = 50				
+			add_popularity = {
+				ideology = prometeism
+				popularity = 0.05
+							}
+			add_popularity = {
+				ideology = communitarianism
+				popularity = 0.05
+							}
+			add_popularity = {
+				ideology = republicanism
+				popularity = 0.05
+							}							
+				}
+				custom_effect_tooltip = AUS_securing_reichstag_tooltip
+				
+				}
 				}	
 	shared_focus = {
 		id = AUS_arm_the_paramilitary
@@ -150,6 +184,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		hidden_effect = {
+		set_country_flag = AUS_left_initial_paramilitary
+		}
+				custom_effect_tooltip = AUS_arm_the_paramilitary_tooltip		
 					}
 				}
 	shared_focus = {
@@ -172,6 +210,19 @@ focus_tree = {
 				}
 
 		completion_reward = {
+add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 2000
+    producer = AUS
+}
+add_ideas = {
+AUS_unionism_1
+}	
+add_timed_idea = {
+    idea = AUS_happy_people_timed
+    days = 14
+}				
+					
 					}
 				}	
 	shared_focus = {
@@ -196,6 +247,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		country_event = ausmisc.14				
 					}
 				}
 	shared_focus = {

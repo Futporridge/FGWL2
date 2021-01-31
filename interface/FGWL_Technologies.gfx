@@ -119,6 +119,10 @@ spriteTypes = {
 		name = "GFX_BAN_01_armor_car_medium"
 		texturefile = "gfx/interface/technologies/BAN_01_armor_car.dds"
 	}
+	SpriteType = {
+		name = "GFX_AUS_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/AUS_infantry_equipment_0.dds"
+	}	
 	spriteType = {
 		name = "GFX_nato_unit_chasseurs_small"
 		texturefile = "gfx/texticons/natonato_unit_chasseurs_small.dds"
@@ -187,5 +191,9 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_HES_advanced_light_tank_medium"
 		texturefile = "gfx/interface/technologies/HES_advanced_light_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_AUS_infantry_equipment_0"
+		texturefile = "gfx/interface/technologies/AUS_infantry_equipment_0.dds"
 	}	
 }
