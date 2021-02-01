@@ -7,9 +7,6 @@ set_technology = {
 	tech_support = 1
 	tech_recon = 1
 }
-add_ideas = {
-
-}
 
 set_politics = {
 	ruling_party = paternalism
@@ -29,7 +26,9 @@ set_popularities = {
 }
 
 add_ideas = {
-
+AUS_econ6
+HUN_newborn_state
+common_illegitimate_state
 }
 
 set_convoys = 100

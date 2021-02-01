@@ -11,6 +11,11 @@
 	option = {
 		name = ruk.1.a
 			hidden_effect = {
+AUS = {
+remove_state_core = 91
+remove_state_core = 89
+remove_state_core = 80
+}			
 RUK = {
 transfer_state = 91
 transfer_state = 89

@@ -146,6 +146,15 @@ country_event = {
 	picture = GFX_
 	
 	is_triggered_only = yes
+
+			immediate = {
+	hidden_effect = {
+		swap_ideas = {
+     remove_idea = AUS_econ1
+     add_idea = AUS_econ2
+			}				
+					}
+						}
 	option = {
 		name = aus.9.a
 889 = {		
@@ -183,6 +192,14 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+			immediate = {
+	hidden_effect = {
+		swap_ideas = {
+     remove_idea = AUS_econ2
+     add_idea = AUS_econ3
+			}				
+					}
+						}	
 	option = {
 		name = aus.10.a
 4 = {		
@@ -226,6 +243,15 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
+
+			immediate = {
+	hidden_effect = {
+		swap_ideas = {
+     remove_idea = AUS_econ3
+     add_idea = AUS_econ4
+			}				
+					}
+						}
 
 	option = {
 		name = aus.11.a
@@ -280,7 +306,13 @@ country_event = {
 	immediate = {
 	hidden_effect = {
 	country_event = { id = aus.15 days = 2 }
+		swap_ideas = {
+     remove_idea = AUS_econ3
+     add_idea = AUS_econ4
+			}				
 					}
+							
+					
 				}
 	option = {
 		name = aus.12.a
@@ -332,13 +364,60 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+			immediate = {
+	hidden_effect = {
+		swap_ideas = {
+     remove_idea = AUS_econ4
+     add_idea = AUS_econ5
+			}				
+					}
+						}
+
 	option = {
 		name = aus.13.a
+892 = {		
+remove_building = {
+    type = industrial_complex
+    level = 1
+}
+}
+154 = {
+remove_building = {
+    type = industrial_complex
+    level = 2
+}
+}
+70 = {
+remove_building = {
+    type = industrial_complex
+    level = 2
+}
+}
+71 = {
+remove_building = {
+    type = industrial_complex
+    level = 1
+}
+}
 
+	add_stability = -0.05
 	}
 	option = {
 		name = aus.13.b
-
+154 = {		
+remove_building = {
+    type = industrial_complex
+    level = 1
+}
+}
+70 = { 
+remove_building = {
+    type = industrial_complex
+    level = 1
+}
+}
+		
+	add_political_power = -150
 	}	
 }
 country_event = {	
@@ -350,13 +429,46 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+				immediate = {
+	hidden_effect = {
+		swap_ideas = {
+     remove_idea = AUS_econ5
+     add_idea = AUS_econ6
+			}				
+					}
+						}
 	option = {
 		name = aus.14.a
-
+9 = {		
+remove_building = {
+    type = arms_factory
+    level = 4
+}
+}
+75 = {
+remove_building = {
+    type = industrial_complex
+    level = 2
+}
+}
+	add_stability = -0.05
 	}
 	option = {
 		name = aus.14.b
-
+9 = {		
+remove_building = {
+    type = arms_factory
+    level = 1
+}
+}
+75 = { 
+remove_building = {
+    type = industrial_complex
+    level = 1
+}
+}
+		
+	add_political_power = -150
 	}	
 }
 country_event = {	
@@ -1128,6 +1240,41 @@ immediate = {
 		transfer_state = 909	
 		transfer_state = 913
 		transfer_state = 914		
+		}
+		AUS = {
+		remove_state_core = 807		
+		remove_state_core = 887		
+		remove_state_core = 892 
+		remove_state_core = 893
+		remove_state_core = 899 	
+		remove_state_core = 900
+		remove_state_core = 901		
+		remove_state_core = 155
+		remove_state_core = 154
+		remove_state_core = 76
+		remove_state_core = 82		
+		remove_state_core = 83
+		remove_state_core = 84
+		remove_state_core = 107
+		remove_state_core = 764
+		remove_state_core = 894
+		remove_state_core = 895
+		remove_state_core = 104
+		remove_state_core = 896		
+		remove_state_core = 897		
+		remove_state_core = 901
+		remove_state_core = 902		
+		remove_state_core = 905
+		remove_state_core = 70
+		remove_state_core = 71		
+		remove_state_core = 73		
+		remove_state_core = 43
+		remove_state_core = 45		
+		remove_state_core = 109
+		remove_state_core = 910
+		remove_state_core = 909	
+		remove_state_core = 913
+		remove_state_core = 914		
 		}
 	}	
 }
