@@ -1205,7 +1205,8 @@ load_oob = AUS_left_initial_win
 
 immediate = {
 			hidden_effect = {
-	country_event = { id = aus.48 days = 14 }			
+	country_event = { id = aus.48 days = 14 }	
+			
 		HUN = {
 		transfer_state = 807		
 		transfer_state = 887		
@@ -1239,7 +1240,8 @@ immediate = {
 		transfer_state = 910
 		transfer_state = 909	
 		transfer_state = 913
-		transfer_state = 914		
+		transfer_state = 914	
+		country_event = { id = hun.1 days = 6 }			
 		}
 		AUS = {
 		remove_state_core = 807		
@@ -1405,6 +1407,7 @@ immediate = {
 	immediate = {
 	hidden_effect = {
 	country_event = { id = aus.59 days = 10 }	
+	country_event = { id = aus.58 days = 4 }	
 					}
 				}	
 	is_triggered_only = yes

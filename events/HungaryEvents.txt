@@ -28,7 +28,7 @@
 	is_triggered_only = yes
 	immediate = {
 	hidden_effect = {
-		country_event = { id = hun.3 days = 3 }
+		country_event = { id = hun.3 days = 6 }
 		}
 				}
 	option = {
@@ -47,7 +47,7 @@
 	is_triggered_only = yes
 	immediate = {
 	hidden_effect = {
-		country_event = { id = hun.4 days = 2 }
+		country_event = { id = hun.4 days = 10 }
 		}
 				}
 	option = {
@@ -66,6 +66,7 @@
 	is_triggered_only = yes
 	immediate = {
 	hidden_effect = {
+		country_event = { id = hun.5 days = 16 }	
 		892 = {
 		set_demilitarized_zone = yes
 		}
@@ -87,15 +88,22 @@
 	is_triggered_only = yes
 	immediate = {
 	hidden_effect = {
-		country_event = { id = hun.6 days = 2 }	
-			country_event = { id = hun.6 days = 3 }
+		country_event = { id = hun.6 days = 8 }	
+		country_event = { id = hun.7 days = 14 }
+		country_event = { id = hun.8 days = 21 }	
+		country_event = { id = hun.9 days = 22 }
+		country_event = { id = hun.10 days = 24 }
+		country_event = { id = hun.11 days = 24 }
+		country_event = { id = hun.12 days = 24 }
+		country_event = { id = hun.13 days = 28 }
+		country_event = { id = hun.14 days = 30 }		
 			887 = {
 			set_demilitarized_zone = yes
 			}
 			900 = {
 			set_demilitarized_zone = yes
 			}
-			889 = {
+			899 = {
 			set_demilitarized_zone = yes
 			}
 			155 = {
@@ -162,8 +170,28 @@ HUN = {
 		transfer_state = 913	
 		transfer_state = 893	
 		transfer_state = 910		
-		}		
-	
+		}
+			887 = {
+			set_demilitarized_zone = no
+			}
+			900 = {
+			set_demilitarized_zone = no
+			}
+			899 = {
+			set_demilitarized_zone = no
+			}
+			155 = {
+			set_demilitarized_zone = no
+			}
+			913 = {
+			set_demilitarized_zone = no
+			}
+			910 = {
+			set_demilitarized_zone = no
+			}			
+			892 = {
+			set_demilitarized_zone = no
+			}	
 	
 	}
 			}
@@ -206,9 +234,7 @@ set_demilitarized_zone = no
 		transfer_state = 107		
 		transfer_state = 104		
 		transfer_state = 901 
-		transfer_state = 896
-		transfer_state = 807
-		transfer_state = 909	
+		transfer_state = 896	
 		set_politics = {
 			ruling_party = oligarchy
 		}
@@ -216,17 +242,15 @@ set_demilitarized_zone = no
 		}
 				}
 	option = {
-	option = {
 		name = hun.7.a
 	
 	}	
-		name = aus.7.b
-			hidden_effect = {
+	option = {
+	name = aus.7.b
 			hidden_effect = {
 	SER = { change_tag_from = FROM }				
 		}
-}
-}
+		}
 }
 	country_event = {	
 	id = hun.8
@@ -273,9 +297,63 @@ add_core_of = RCR
 }
 }
 	country_event = {	
-	id = hun.15
-	title = hun.15.t
-	desc = hun.15.d
+	id = hun.9
+	title = hun.9.t
+	desc = hun.9.d
+	picture = GFX_
+	immediate = {
+	hidden_effect = {
+	CRO = {
+		transfer_state = 109		
+		transfer_state = 894			
+	}
+	}
+	}
+	is_triggered_only = yes
+
+	option = {
+		name = hun.9.a
+
+}
+	option = {
+		name = hun.9.b
+			hidden_effect = {
+CRO = { change_tag_from = FROM }	 
+		}
+}
+}
+	country_event = {	
+	id = hun.10
+	title = hun.10.t
+	desc = hun.10.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	immediate = {
+	hidden_effect = {
+	SRR = {
+		transfer_state = 45
+		transfer_state = 895		
+	}
+		}
+}
+
+	option = {
+		name = hun.10.a
+	
+}
+	option = {
+		name = hun.10.b
+			hidden_effect = {		
+	SRR = { change_tag_from = FROM }	
+	}
+}
+}
+	country_event = {	
+	id = hun.11
+	title = hun.11.t
+	desc = hun.11.d
 	picture = GFX_
 immediate = {	
 			hidden_effect = {
@@ -290,31 +368,20 @@ immediate = {
 	is_triggered_only = yes
 
 	option = {
-		name = hun.2.a
+		name = hun.11.a
 	
 }
 	option = {
-		name = hun.2.b
+		name = hun.11.b
 			hidden_effect = {
 	TRN = { change_tag_from = FROM }				
 		}	
 }
-	option = {
-		name = hun.2.c
-			hidden_effect = {
-	RCR = { change_tag_from = FROM }				
-		}	
 }
-	option = {
-		name = hun.2.d
-	
-}
-}
-
 	country_event = {	
-	id = hun.22
-	title = hun.22.t
-	desc = hun.22.d
+	id = hun.12
+	title = hun.12.t
+	desc = hun.12.d
 	picture = GFX_
 
 	is_triggered_only = yes
@@ -331,80 +398,24 @@ immediate = {
 		transfer_state = 82		
 		transfer_state = 764		
 		}	
-		}	
+				}	
 			}
 	option = {
-		name = hun.22.a
-			hidden_effect = {		
-	BAN = { change_tag_from = FROM }	
-	}	
+		name = hun.12.a
+	
 		}
 	option = {
-		name = hun.22.b
+		name = hun.12.b
 			hidden_effect = {		
-
+	BAN = { change_tag_from = FROM }	
 	}	
 		}		
 }
 
 	country_event = {	
-	id = hun.33
-	title = hun.33.t
-	desc = hun.33.d
-	picture = GFX_
-
-	is_triggered_only = yes
-
-	immediate = {
-	hidden_effect = {
-	SRR = {
-		transfer_state = 45
-		transfer_state = 895		
-	}
-		}
-}
-
-	option = {
-		name = hun.33.a
-			hidden_effect = {		
-	SRR = { change_tag_from = FROM }	
-	}	
-}
-	option = {
-		name = hun.33.b
-
-}
-}
-	country_event = {	
-	id = hun.44
-	title = hun.4.t
-	desc = hun.4.d
-	picture = GFX_
-	immediate = {
-	hidden_effect = {
-	CRO = {
-		transfer_state = 109		
-		transfer_state = 894			
-	}
-	}
-	}
-	is_triggered_only = yes
-
-	option = {
-		name = hun.4.a
-			hidden_effect = {
-CRO = { change_tag_from = FROM }	 
-		}
-}
-	option = {
-		name = hun.4.b
-
-}
-}
-	country_event = {	
-	id = hun.55
-	title = hun.5.t
-	desc = hun.5.d
+	id = hun.13
+	title = hun.13.t
+	desc = hun.13.d
 	picture = GFX_
 
 	is_triggered_only = yes
@@ -417,15 +428,37 @@ immediate = {
 	}	
 }
 	option = {
-		name = hun.5.a
+		name = hun.13.a
 			hidden_effect = {		
 
 		}
 }
 	option = {
-		name = hun.5.b
+		name = hun.13.b
 			hidden_effect = {				
 	SLK = { change_tag_from = HUN }	 
 		}
 }
 }
+	country_event = {	
+	id = hun.14
+	title = hun.14.t
+	desc = hun.14.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	option = {
+		name = aus.14.a
+			hidden_effect = {
+		hidden_effect = {	
+		set_politics = {
+			ruling_party = reactionary
+		}
+			}
+	}
+		}
+	option = {
+		name = hun.14.b
+	}		
+}
+

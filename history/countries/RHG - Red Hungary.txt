@@ -33,7 +33,8 @@ set_popularities = {
 	reactionary = 0
 }
 add_ideas = {
-
+AUS_econ6
+common_illegitimate_state
 }
 
 set_stability = 0.50

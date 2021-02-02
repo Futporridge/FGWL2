@@ -43,3 +43,13 @@ create_country_leader = {
 
 	}
 }
+create_country_leader = {
+	name = "Pál Prónay"
+	desc = "POLITICS_PAL_PRONAY_DESC"
+	picture = "gfx/leaders/HUN/Portrait_Pal_Pronay.tga"
+	expire = "1965.1.1"
+	ideology = reactionary
+	traits = { 
+
+	}
+}

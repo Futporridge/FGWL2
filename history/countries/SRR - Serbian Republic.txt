@@ -12,18 +12,18 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = individualism
+	ruling_party = utopism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	utopism = 0
+	utopism = 100
 	prometeism = 0
 	communitarianism = 0
 	oligarchy = 0
-	individualism = 100
+	individualism = 0
 	conservatism = 0
 	paternalism = 0
 	reactionary = 0
@@ -35,6 +35,16 @@ add_ideas = {
 
 set_convoys = 100
 
+create_country_leader = {
+	name = "Dimitrije Mitrinović"
+	desc = "POLITICS_DIMITRIJE_MITRINOVIC_DESC"
+	picture = "gfx/leaders/SRR/Portrait_Dimitrije_Mitrinovic.tga"
+	expire = "1965.1.1"
+	ideology = utopism
+	traits = { 
+
+	}
+}
 create_country_leader = {
 	name = "Miloš Crnjanski"
 	desc = "POLITICS_MILOS_CRNJASKI_DESC"
