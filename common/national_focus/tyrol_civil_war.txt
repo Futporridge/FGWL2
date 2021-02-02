@@ -191,7 +191,7 @@ focus_tree = {
 
 		completion_reward = {
 		swap_ideas = {
-			remove_idea = AUS_army1
+			remove_idea = TYR_army1
 			add_idea = TYR_army2
 				}			
 					}
