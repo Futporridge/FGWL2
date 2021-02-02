@@ -412,6 +412,23 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
-		}		
+		}
+		AUS_decline_of_the_country = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_decline_of_the_country 
+			
+			modifier = {
+				political_power_gain = -0.05
+				stability_factor = -0.4						
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}			
 		}
 	}	

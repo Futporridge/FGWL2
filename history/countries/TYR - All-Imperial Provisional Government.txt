@@ -29,7 +29,11 @@ set_popularities = {
 }
 
 add_ideas = {
-
+TYR_patriotic_fervor
+AUS_decline_of_the_country
+common_illegitimate_state
+AUS_econ6
+TYR_left_insurgency
 }
 
 set_convoys = 100

@@ -830,7 +830,6 @@ hidden_effect = {
 	country_event = { id = aus.32 days = 10 }
 	country_event = { id = aus.33 days = 20 }
 	country_event = { id = aus.34 days = 25 }	
-	country_event = { id = aus.35 days = 32 }	
 	VEN = {
 		country_event = { days = 1 id = ven.1 }
 	}

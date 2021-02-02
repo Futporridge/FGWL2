@@ -1,0 +1,44 @@
+ideas = {
+
+	country = {
+		TYR_patriotic_fervor = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_patriotic_fervor 
+		
+			modifier = {
+				defence_bonus_against_cores = 0.25
+				war_support_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}	
+	country = {
+		TYR_left_insurgency = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_patriotic_fervor 
+		
+			modifier = {
+				production_speed_buildings_factor = -0.10
+				production_factory_max_efficiency_factor = -0.10 
+				war_support_factor = -0.25
+				surrender_limit = -0.1				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
+		}		
+		}
+
+	}	

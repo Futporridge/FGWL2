@@ -1,0 +1,256 @@
+focus_tree = {
+	id = tyrol_civil_war_left_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = TYR
+		}
+	}
+		default = no
+
+	continuous_focus_position = { x = 3000 y = 100 }
+	
+
+	shared_focus = TYR_Austria_in_Need
+	}
+
+
+	
+
+
+	shared_focus = {
+		id = TYR_Austria_in_Need
+		icon = GFX_focus_PAR_anarchy
+		x = 7
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		country_event = tyr.1		
+					}
+				}				
+	shared_focus = {
+		id = TYR_Reward_the_Paramilitary
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = TYR_Austria_in_Need }
+		cost = 2
+		relative_position_id = TYR_Austria_in_Need
+		ai_will_do = {
+			factor = 10
+		}
+	mutually_exclusive = {
+        focus = TYR_Emphasis_on_the_Imperial_Army	
+    }		
+		available_if_capitulated = yes
+		available = {
+		has_country_flag = TYR_heimatkrieg			
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Preserve_Austrian_Heritage
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Reward_the_Paramilitary }
+		cost = 2
+		relative_position_id = TYR_Reward_the_Paramilitary
+		ai_will_do = {
+			factor = 10
+		}	
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+	swap_ideas = {
+     remove_idea = TYR_patriotic_fervor
+     add_idea = AUS_army1
+	}					
+					}
+				}				
+	shared_focus = {
+		id = TYR_Emphasis_on_the_Imperial_Army
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Austria_in_Need }
+		cost = 2
+		relative_position_id = TYR_Austria_in_Need
+		ai_will_do = {
+			factor = 10
+		}
+	mutually_exclusive = {
+        focus = TYR_Reward_the_Paramilitary	
+    }		
+		available_if_capitulated = yes
+		available = {
+		has_country_flag = TYR_angelis_in_power
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Ideology_of_Hatred
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Emphasis_on_the_Imperial_Army }
+		cost = 2
+		relative_position_id = TYR_Emphasis_on_the_Imperial_Army
+		ai_will_do = {
+			factor = 10
+		}	
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	
+	shared_focus = {
+		id = TYR_Proclaim_the_Legitimate_Government
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = TYR_Ideology_of_Hatred focus = TYR_Preserve_Austrian_Heritage }
+		cost = 2
+		relative_position_id = TYR_Ideology_of_Hatred
+		ai_will_do = {
+			factor = 10
+		}	
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Military_Stratocracy
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Ideology_of_Hatred }
+		cost = 2
+		relative_position_id = TYR_Ideology_of_Hatred
+		ai_will_do = {
+			factor = 10
+		}	
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_the_Blitzkrieg
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Military_Stratocracy }
+		prerequisite = { focus = TYR_Proclaim_the_Legitimate_Government }		
+		cost = 2
+		relative_position_id = TYR_Military_Stratocracy
+		ai_will_do = {
+			factor = 10
+		}	
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+		load_focus_tree = { tree = austrian_civil_war_angelis_focus keep_completed = no }			
+					}
+				}								
+	shared_focus = {
+		id = TYR_Protect_the_Traditional_Autonomies
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = TYR_Preserve_Austrian_Heritage }
+		cost = 2
+		relative_position_id = TYR_Preserve_Austrian_Heritage
+		ai_will_do = {
+			factor = 10
+		}	
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_the_Heimatskrieg
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Protect_the_Traditional_Autonomies }
+		prerequisite = { focus = TYR_Proclaim_the_Legitimate_Government }		
+		cost = 2
+		relative_position_id = TYR_Protect_the_Traditional_Autonomies
+		ai_will_do = {
+			factor = 10
+		}	
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				

@@ -1,0 +1,460 @@
+focus_tree = {
+	id = austrian_civil_war_angelis_focus
+
+	country = {
+		factor = 0
+		
+
+	}
+		default = no
+
+	continuous_focus_position = { x = 3000 y = 100 }
+	
+
+	shared_focus = TYR_the_Reign_of_Spear
+	}
+
+
+	
+
+
+	shared_focus = {
+		id = TYR_the_Reign_of_Spear
+		icon = GFX_goal_generic_position_armies
+		x = 7
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+
+					}
+				}				
+	shared_focus = {
+		id = TYR_Form_the_Kriegsministerium
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_the_Reign_of_Spear }
+		cost = 1
+		relative_position_id = TYR_the_Reign_of_Spear
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_The_Shield_of_the_Republic
+		icon = GFX_goal_generic_position_armies
+		x = -4
+		y = 1
+		prerequisite = { focus = TYR_Form_the_Kriegsministerium }
+		cost = 1
+		relative_position_id = TYR_Form_the_Kriegsministerium
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Institutionalize_the_Soldatenring
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = TYR_The_Shield_of_the_Republic }
+		cost = 1
+		relative_position_id = TYR_The_Shield_of_the_Republic
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Sturmtruppen
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Institutionalize_the_Soldatenring }
+		cost = 1
+		relative_position_id = TYR_Institutionalize_the_Soldatenring
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+	shared_focus = {
+		id = TYR_Build_Up_the_Military_Budget
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_The_Shield_of_the_Republic }
+		cost = 1
+		relative_position_id = TYR_The_Shield_of_the_Republic
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Call_to_the_Soldiers
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Build_Up_the_Military_Budget }
+		cost = 1
+		relative_position_id = TYR_Build_Up_the_Military_Budget
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+	shared_focus = {
+		id = AUS_Integrate_the_Paramilitary
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = TYR_The_Shield_of_the_Republic }
+		cost = 1
+		relative_position_id = TYR_The_Shield_of_the_Republic
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_The_Law_of_the_Axe
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Form_the_Kriegsministerium }
+		cost = 1
+		relative_position_id = TYR_Form_the_Kriegsministerium
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Oath_of_Allegiance
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_The_Law_of_the_Axe }
+		cost = 1
+		relative_position_id = TYR_The_Law_of_the_Axe
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}	
+	shared_focus = {
+		id = TYR_Prohibit_Political_Alliances
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = TYR_Oath_of_Allegiance }
+		cost = 1
+		relative_position_id = TYR_Oath_of_Allegiance
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Abolish_Estate_Privileges
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Oath_of_Allegiance }
+		cost = 1
+		relative_position_id = TYR_Oath_of_Allegiance
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}		
+	shared_focus = {
+		id = TYR_Dictator_of_the_Danube
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = TYR_Abolish_Estate_Privileges }
+		prerequisite = { focus = TYR_Prohibit_Political_Alliances }		
+		cost = 1
+		relative_position_id = TYR_Abolish_Estate_Privileges
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_March_on_to_the_Victory
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Dictator_of_the_Danube }
+		cost = 1
+		relative_position_id = TYR_Dictator_of_the_Danube
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Ploughshares_into_Swords
+		icon = GFX_goal_generic_position_armies
+		x = 4
+		y = 1
+		prerequisite = { focus = TYR_Form_the_Kriegsministerium }
+		cost = 1
+		relative_position_id = TYR_Form_the_Kriegsministerium
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Oversight_the_Economy
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = TYR_Ploughshares_into_Swords }
+		cost = 1
+		relative_position_id = TYR_Ploughshares_into_Swords
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Emergency_Nationalization
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Ploughshares_into_Swords }
+		cost = 1
+		relative_position_id = TYR_Ploughshares_into_Swords
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Tax_the_Burgers
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Emergency_Nationalization }
+		cost = 1
+		relative_position_id = TYR_Emergency_Nationalization
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+	shared_focus = {
+		id = TYR_Nationwide_Draft
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = TYR_Ploughshares_into_Swords }
+		cost = 1
+		relative_position_id = TYR_Ploughshares_into_Swords
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Labour_Army
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Nationwide_Draft }
+		cost = 1
+		relative_position_id = TYR_Nationwide_Draft
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				

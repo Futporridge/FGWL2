@@ -1,0 +1,42 @@
+﻿	add_namespace = tyr
+
+	
+	country_event = {	
+	id = tyr.1
+	title = tyr.1.t
+	desc = tyr.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+immediate = {
+			hidden_effect = {		
+	
+}
+}
+	option = {
+		name = tyr.1.a
+			hidden_effect = {		
+		set_country_flag = TYR_heimatkrieg
+		}
+}
+	option = {
+		name = tyr.1.b
+			hidden_effect = {
+create_country_leader = {
+	name = "Maximilian de Angelis"
+	desc = "POLITICS_MAXIMILIAN_DE_ANGELIS_DESC"
+	picture = "gfx/leaders/AUS/Portrait_Maximilian_de_Angelis.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = {
+		#
+	}
+}
+	set_country_flag = TYR_angelis_in_power
+	set_cosmetic_tag = TYR_angelis
+	set_politics = {
+	ruling_party = paternalism
+	}	 
+		}
+}
+}
