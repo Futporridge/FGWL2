@@ -1,0 +1,462 @@
+focus_tree = {
+	id = austrian_civil_war_heimatkrieg_focus
+
+	country = {
+		factor = 0
+		
+
+	}
+		default = no
+
+	continuous_focus_position = { x = 3000 y = 100 }
+	
+
+	shared_focus = TYR_Rebelion_of_the_Spirit
+	}
+
+
+	
+
+
+	shared_focus = {
+		id = TYR_Rebelion_of_the_Spirit
+		icon = GFX_goal_generic_position_armies
+		x = 7
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+
+					}
+				}				
+	shared_focus = {
+		id = TYR_Common_Cause
+		icon = GFX_goal_generic_position_armies
+		x = -3
+		y = 1
+		prerequisite = { focus = TYR_Rebelion_of_the_Spirit }
+		cost = 1
+		relative_position_id = TYR_Rebelion_of_the_Spirit
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Mission_to_the_Loyal_Imperial_Princes
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Common_Cause }
+		cost = 1
+		relative_position_id = TYR_Common_Cause
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Invite_the_Imperial_Knights
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Mission_to_the_Loyal_Imperial_Princes }
+		cost = 1
+		relative_position_id = TYR_Mission_to_the_Loyal_Imperial_Princes
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+	shared_focus = {
+		id = TYR_United_in_the_Fight
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = TYR_Common_Cause }
+		cost = 1
+		relative_position_id = TYR_Common_Cause
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Call_to_the_Latin_Empire
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_United_in_the_Fight }
+		cost = 1
+		relative_position_id = TYR_United_in_the_Fight
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}	
+	shared_focus = {
+		id = TYR_Holy_Sanction
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Call_to_the_Latin_Empire }
+		prerequisite = { focus = TYR_Invite_the_Imperial_Knights }		
+		cost = 1
+		relative_position_id = TYR_Call_to_the_Latin_Empire
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}					
+	shared_focus = {
+		id = TYR_Reichsgeneralstab
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Rebelion_of_the_Spirit }
+		cost = 1
+		relative_position_id = TYR_Rebelion_of_the_Spirit
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Codification_of_Military_Code
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = TYR_Reichsgeneralstab }
+		cost = 1
+		relative_position_id = TYR_Reichsgeneralstab
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Tactical_Renewation
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Codification_of_Military_Code }
+		cost = 1
+		relative_position_id = TYR_Codification_of_Military_Code
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+	shared_focus = {
+		id = TYR_Expand_the_Rifle_Unions
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Reichsgeneralstab }
+		cost = 1
+		relative_position_id = TYR_Reichsgeneralstab
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Return_the_Kornetts
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Expand_the_Rifle_Unions }
+		cost = 1
+		relative_position_id = TYR_Expand_the_Rifle_Unions
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Elect_the_High_Regent
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Tactical_Renewation }
+		prerequisite = { focus = TYR_Return_the_Kornetts }		
+		cost = 1
+		relative_position_id = TYR_Tactical_Renewation
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Vae_Victis
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Elect_the_High_Regent }		
+		cost = 1
+		relative_position_id = TYR_Elect_the_High_Regent
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+	shared_focus = {
+		id = TYR_Empower_Local_Autonomies
+		icon = GFX_goal_generic_position_armies
+		x = 3
+		y = 1
+		prerequisite = { focus = TYR_Rebelion_of_the_Spirit }
+		cost = 1
+		relative_position_id = TYR_Rebelion_of_the_Spirit
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Create_the_Popular_Militia
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Empower_Local_Autonomies }
+		cost = 1
+		relative_position_id = TYR_Empower_Local_Autonomies
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Hunt_for_Reds
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Create_the_Popular_Militia }
+		cost = 1
+		relative_position_id = TYR_Create_the_Popular_Militia
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Organize_the_Fundraising_Company
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = TYR_Empower_Local_Autonomies }
+		cost = 1
+		relative_position_id = TYR_Empower_Local_Autonomies
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Create_the_Weapon_Guilds
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Organize_the_Fundraising_Company }
+		cost = 1
+		relative_position_id = TYR_Organize_the_Fundraising_Company
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	shared_focus = {
+		id = TYR_Economical_Stabilization
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = TYR_Create_the_Weapon_Guilds }
+		prerequisite = { focus = TYR_Hunt_for_Reds }		
+		cost = 1
+		relative_position_id = TYR_Create_the_Weapon_Guilds
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = no
+		available = {
+	
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				

@@ -87,10 +87,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-	swap_ideas = {
-     remove_idea = TYR_patriotic_fervor
-     add_idea = AUS_army1
-	}					
+		add_ideas = AUS_diveded_empire		
 					}
 				}				
 	shared_focus = {
@@ -116,7 +113,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+	swap_ideas = {
+     remove_idea = TYR_patriotic_fervor
+     add_idea = AUS_army1
+	}				
+			}
 				}
 	shared_focus = {
 		id = TYR_Ideology_of_Hatred
@@ -138,7 +139,12 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+	swap_ideas = {
+     remove_idea = AUS_army1
+     add_idea = TYR_army1
+	}
+				
+			}
 				}
 	
 	shared_focus = {
@@ -161,6 +167,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		remove_ideas = common_illegitimate_state			
 					}
 				}
 	shared_focus = {
@@ -183,6 +190,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		swap_ideas = {
+			remove_idea = AUS_army1
+			add_idea = TYR_army2
+				}			
 					}
 				}
 	shared_focus = {
@@ -206,6 +217,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		add_ideas = TYR_blitzkrieg
 		load_focus_tree = { tree = austrian_civil_war_angelis_focus keep_completed = no }			
 					}
 				}								
@@ -229,7 +241,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		swap_ideas = {
+			remove_idea = AUS_diveded_empire
+			add_idea = TYR_divided_empire
+		}	
+			}
 				}
 	shared_focus = {
 		id = TYR_the_Heimatskrieg
@@ -252,5 +268,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		swap_ideas = {
+			remove_idea = TYR_patriotic_fervor
+			add_idea = TYR_heimatskrieg
+				}
+		load_focus_tree = { tree = austrian_civil_war_heimatkrieg_focus keep_completed = no }					
+				}
 				}				
