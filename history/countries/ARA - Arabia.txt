@@ -33,9 +33,9 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Saūd bin Abd al-Azīz"
-	desc = "POLITICS_SAUD_BIN_ABDULAZIZ_DESC"
-	picture = "gfx/leaders/ARA/Portrait_Saud_bin_Abdulaziz.tga"
+	name = "Ahmed Sharif as-Senussi"
+	desc = "POLITICS_AHMED_SHARIF_DESC"
+	picture = "gfx/leaders/ARA/Portrait_Ahmed_Sharif_as_Senussi.tga"
 	expire = "1965.1.1"
 	ideology = reactionary
 	traits = { 

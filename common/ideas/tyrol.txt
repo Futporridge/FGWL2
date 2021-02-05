@@ -132,7 +132,59 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
-		}			
+		}
+		TYR_reign_of_the_spear = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_reign_of_the_spear 
+			
+			modifier = {
+				political_power_gain = -0.1
+				stability_factor = -0.3					
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_kriegsministerium = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_kriegsministerium 
+	
+			modifier = {
+				max_planning_factor = 0.25
+				recruitable_population_factor = 0.1	
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ploughshares_into_swords = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_econ1 
+			
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.50
+				production_factory_max_efficiency_factor = -0.35 				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
 		}
 
 	}	

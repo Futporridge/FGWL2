@@ -413,6 +413,86 @@ ideas = {
 				factor = 0
 			}
 		}
+		payments_recived = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = payments_recived 
+			
+			modifier = {
+				consumer_goods_factor = -0.1			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
+		pay_to_austria = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = pay_to_austria 
+			
+			modifier = {
+				consumer_goods_factor = 0.1			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		pay_to_austria_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = pay_to_austria 
+			
+			modifier = {
+				consumer_goods_factor = 0.05			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
+		french_pay_to_austria = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = pay_to_austria 
+			
+			modifier = {
+				consumer_goods_factor = 0.2			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
+		latin_pay_to_austria = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = pay_to_austria 
+			
+			modifier = {
+				consumer_goods_factor = 0.02			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
 		AUS_decline_of_the_country = {
 			
 			allowed = {

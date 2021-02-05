@@ -1,11 +1,12 @@
 ﻿	add_namespace = aus
 	add_namespace = ausmisc
+	add_namespace = auscol
 	
 	country_event = {	
 	id = aus.1
 	title = aus.1.t
 	desc = aus.1.d
-	picture = GFX_
+	picture = GFX_report_event_aus_reichstag
 
 	is_triggered_only = yes
 	immediate = {
@@ -1700,9 +1701,258 @@ immediate = {
 }
 }
 	country_event = {	
-	id = ausmisc.14
+	id = ausmisc.1
 	title = ausmisc.1.t
 	desc = ausmisc.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausmisc.1.a
+	add_timed_idea = {
+    idea = pay_to_austria
+    days = 180
+	}
+		AUS = {	
+	country_event = { days = 1 id = ausmisc.5 }	
+	}
+	}
+	option = {
+		name = ausmisc.1.b
+		add_stability = -0.1
+		AUS = {
+	country_event = { days = 1 id = ausmisc.3 }
+	}	
+	}	
+}
+	country_event = {	
+	id = ausmisc.2
+	title = ausmisc.2.t
+	desc = ausmisc.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausmisc.2.a
+	add_ideas = { pay_to_austria }
+			AUS = {
+	country_event = { days = 1 id = ausmisc.6 }	
+	}
+	}
+	option = {
+		name = ausmisc.2.b
+		add_stability = -0.1
+		AUS = {
+	country_event = { days = 1 id = ausmisc.4 }
+	}	
+	}	
+}
+	country_event = {	
+	id = ausmisc.3
+	title = ausmisc.3.t
+	desc = ausmisc.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausmisc.3.a
+	add_stability = -0.025
+	
+	}	
+}
+	country_event = {	
+	id = ausmisc.4
+	title = ausmisc.4.t
+	desc = ausmisc.4.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausmisc.4.a
+	add_stability = -0.025
+	
+	}	
+}
+	country_event = {	
+	id = ausmisc.5
+	title = ausmisc.5.t
+	desc = ausmisc.5.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausmisc.5.a
+	add_political_power = 50
+	
+	}	
+}
+	country_event = {	
+	id = ausmisc.6
+	title = ausmisc.6.t
+	desc = ausmisc.6.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausmisc.6.a
+	add_political_power = 50
+	
+	}	
+}
+	country_event = {	
+	id = ausmisc.7
+	title = ausmisc.7.t
+	desc = ausmisc.7.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausmisc.7.a
+	add_stability = -0.10
+		AUS = {
+	country_event = { days = 1 id = ausmisc.8 }
+	}	
+	}
+	option = {
+		name = ausmisc.7.b
+	add_political_power = -150
+			AUS = {
+	country_event = { days = 1 id = ausmisc.9 }
+	}
+	}	
+}
+	country_event = {	
+	id = ausmisc.8
+	title = ausmisc.8.t
+	desc = ausmisc.8.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausmisc.8.a
+	add_political_power = -100	
+	}	
+}
+	country_event = {	
+	id = ausmisc.9
+	title = ausmisc.9.t
+	desc = ausmisc.9.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausmisc.9.a
+	add_stability = -0.10
+	}
+}
+	country_event = {	
+	id = ausmisc.10
+	title = ausmisc.10.t
+	desc = ausmisc.10.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausmisc.10.a
+	add_stability = -0.30
+		AUS = {
+	country_event = { days = 1 id = ausmisc.11 }
+		}	
+	}
+}
+	country_event = {	
+	id = ausmisc.11
+	title = ausmisc.11.t
+	desc = ausmisc.11.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausmisc.11.a
+	add_political_power = 100
+	}
+}
+	country_event = {	
+	id = ausmisc.12
+	title = ausmisc.12.t
+	desc = ausmisc.12.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausmisc.12.a
+	add_timed_idea = {
+    idea = latin_pay_to_austria
+    days = 180
+	}
+		AUS = {
+	country_event = { days = 1 id = ausmisc.13 }
+		}	
+	}
+	option = {
+		name = ausmisc.12.b
+	add_political_power = 10
+		AUS = {
+	country_event = { days = 1 id = ausmisc.14 }
+		}		
+	}
+}
+	country_event = {	
+	id = ausmisc.13
+	title = ausmisc.13.t
+	desc = ausmisc.13.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausmisc.13.a
+	add_political_power = 100
+	}	
+}
+	country_event = {	
+	id = ausmisc.14
+	title = ausmisc.14.t
+	desc = ausmisc.14.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausmisc.14.a
+	add_stability = -0.05
+	}
+}
+	country_event = {	
+	id = ausmisc.15
+	title = ausmisc.15.t
+	desc = ausmisc.15.d
 	picture = GFX_
 
 	is_triggered_only = yes
@@ -1730,10 +1980,539 @@ load_oob = AUS_order_66
 	fire_only_once = yes
 
 	option = {
-		name = ausmisc.14.a
+		name = ausmisc.15.a
 	swap_ideas = {
      remove_idea = AUS_angelis_military_influence
      add_idea = AUS_liberalizatiob_of_army
 	}
+	}
+}
+	country_event = {	
+	id = auscol.1
+	title = auscol.1.t
+	desc = auscol.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.1.a
+		HOL = {	
+	country_event = { days = 1 id = auscol.2 }	
+	}
+	}
+	option = {
+		name = auscol.1.b
+		VEN = {
+	country_event = { days = 1 id = auscol.3 }
+	}	
+	}	
+}
+	country_event = {	
+	id = auscol.2
+	title = auscol.2.t
+	desc = auscol.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.2.a
+		AUS = {
+	country_event = { days = 1 id = auscol.4 }
+		}
+	add_timed_idea = {
+    idea = pay_to_austria
+    days = 62
+	}
+	hidden_effect = {
+	ASG = {
+		transfer_state = 773	
+	}
+		773 = {			
+		add_core_of = ASG
+			}	
+	}	
+	}
+	option = {
+		name = auscol.2.b
+		AUS = {
+	country_event = { days = 1 id = auscol.5 }
+	}	
+	}	
+}
+	country_event = {	
+	id = auscol.3
+	title = auscol.3.t
+	desc = auscol.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.3.a
+		AUS = {
+	country_event = { days = 1 id = auscol.4 }
+		}
+	add_timed_idea = {
+    idea = pay_to_austria
+    days = 62
+	}
+	hidden_effect = {
+	VCN = {
+		transfer_state = 773	
+	}
+		773 = {			
+		add_core_of = VCN
+			}	
+	}	
+	}
+	option = {
+		name = auscol.3.b
+		AUS = {
+	country_event = { days = 1 id = auscol.6 }
+	}	
+	}	
+}
+	country_event = {	
+	id = auscol.4
+	title = auscol.4.t
+	desc = auscol.4.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.4.a
+		add_timed_idea = {
+		idea = payments_recived
+		days = 62
+	}
+	add_political_power = 100
+	}
+	
+}
+	country_event = {	
+	id = auscol.5
+	title = auscol.5.t
+	desc = auscol.5.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.5.a
+		VEN = {	
+	country_event = { days = 1 id = auscol.7 }	
+	}
+	}	
+}
+	country_event = {	
+	id = auscol.6
+	title = auscol.6.t
+	desc = auscol.6.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.6.a
+		HOL = {	
+	country_event = { days = 1 id = auscol.8 }	
+	}
+	}	
+}
+	country_event = {	
+	id = auscol.7
+	title = auscol.7.t
+	desc = auscol.7.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.7.a
+		AUS = {
+	country_event = { days = 1 id = auscol.4 }
+		}
+	add_timed_idea = {
+    idea = pay_to_austria
+    days = 62
+	}
+	hidden_effect = {
+	VCN = {
+		transfer_state = 773	
+	}
+		773 = {			
+		add_core_of = VCN
+			}	
+	}	
+	}
+	option = {
+		name = auscol.7.b
+		AUS = {
+	country_event = { days = 1 id = auscol.9 }
+	}	
+	}	
+}
+	country_event = {	
+	id = auscol.8
+	title = auscol.8.t
+	desc = auscol.8.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.8.a
+		AUS = {
+	country_event = { days = 1 id = auscol.4 }
+		}
+	add_timed_idea = {
+    idea = pay_to_austria
+    days = 62
+	}
+	hidden_effect = {
+	ASG = {
+		transfer_state = 773	
+	}
+		773 = {			
+		add_core_of = ASG
+			}	
+	}	
+	}
+	option = {
+		name = auscol.8.b
+		AUS = {
+	country_event = { days = 1 id = auscol.9 }
+	}	
+	}	
+}
+	country_event = {	
+	id = auscol.9
+	title = auscol.9.t
+	desc = auscol.9.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.9.a
+		FGB = {
+	country_event = { days = 1 id = auscol.10 }
+		}	
+	}
+}
+	country_event = {	
+	id = auscol.10
+	title = auscol.10.t
+	desc = auscol.10.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.10.a
+		AUS = {
+	country_event = { days = 1 id = auscol.11 }
+		}
+	add_timed_idea = {
+    idea = french_pay_to_austria
+    days = 360
+	}
+	hidden_effect = {
+	FGB = {
+		transfer_state = 773	
+	}
+		773 = {			
+		add_core_of = FGB
+			}	
+	}	
+	}
+	option = {
+		name = auscol.10.a
+		AUS = {
+	country_event = { days = 1 id = auscol.12 }
+		}	
+	}	
+}
+	country_event = {	
+	id = auscol.11
+	title = auscol.11.t
+	desc = auscol.11.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.11.a
+	add_political_power = 100		
+	}	
+}
+	country_event = {	
+	id = auscol.12
+	title = auscol.12.t
+	desc = auscol.12.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.12.a
+	add_political_power = 50
+			VEN = {
+	country_event = { days = 1 id = auscol.13 }
+		}
+	}	
+}
+	country_event = {	
+	id = auscol.13
+	title = auscol.13.t
+	desc = auscol.13.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.13.a
+	add_political_power = -25
+	hidden_effect = {
+	VCN = {
+		transfer_state = 773	
+	}
+		773 = {			
+		add_core_of = VCN
+			}	
+	}
+	}	
+}
+	country_event = {	
+	id = auscol.14
+	title = auscol.14.t
+	desc = auscol.14.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.14.a
+		HOL = {	
+	country_event = { days = 1 id = auscol.15 }	
+	}
+	}
+	option = {
+		name = auscol.14.b
+		POR = {
+	country_event = { days = 1 id = auscol.16 }
+	}	
+	}	
+}
+	country_event = {	
+	id = auscol.15
+	title = auscol.15.t
+	desc = auscol.15.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.15.a
+		AUS = {
+	country_event = { days = 1 id = auscol.17 }
+		}
+	add_timed_idea = {
+    idea = pay_to_austria_2
+    days = 62
+	}
+	hidden_effect = {
+	GCS = {
+	country_event = { days = 1 id = gcs.1 }	
+	}
+	}	
+	}
+	option = {
+		name = auscol.15.b
+		AUS = {
+	country_event = { days = 1 id = auscol.18 }
+	}	
+	}	
+}
+	country_event = {	
+	id = auscol.16
+	title = auscol.16.t
+	desc = auscol.16.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.16.a
+		AUS = {
+	country_event = { days = 1 id = auscol.17 }
+		}
+	add_timed_idea = {
+    idea = pay_to_austria_2
+    days = 62
+	}
+	hidden_effect = {
+	PSA = {
+		transfer_state = 772	
+	}
+		772 = {			
+		add_core_of = PSA
+			}	
+	}	
+	}
+	option = {
+		name = auscol.16.b
+		AUS = {
+	country_event = { days = 1 id = auscol.19 }
+	}	
+	}	
+}
+	country_event = {	
+	id = auscol.17
+	title = auscol.4.t
+	desc = auscol.4.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.4.a
+	add_political_power = 50
+	}
+	
+}
+	country_event = {	
+	id = auscol.18
+	title = auscol.5.t
+	desc = auscol.5.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.5.a
+		POR = {	
+	country_event = { days = 1 id = auscol.20 }	
+	}
+	}	
+}
+	country_event = {	
+	id = auscol.19
+	title = auscol.19.t
+	desc = auscol.19.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.19.a
+		HOL = {	
+	country_event = { days = 1 id = auscol.21 }	
+	}
+	}	
+}
+	country_event = {	
+	id = auscol.20
+	title = auscol.20.t
+	desc = auscol.20.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.20.a
+		AUS = {
+	country_event = { days = 1 id = auscol.17 }
+		}
+	add_timed_idea = {
+    idea = pay_to_austria_2
+    days = 62
+	}
+	hidden_effect = {
+	PSA = {
+		transfer_state = 772	
+	}
+		772 = {			
+		add_core_of = PSA
+			}	
+	}	
+	}
+	option = {
+		name = auscol.20.b
+		AUS = {
+	country_event = { days = 1 id = auscol.22 }
+	}	
+	}	
+}
+	country_event = {	
+	id = auscol.21
+	title = auscol.21.t
+	desc = auscol.21.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.21.a
+		AUS = {
+	country_event = { days = 1 id = auscol.17 }
+		}
+	add_timed_idea = {
+    idea = pay_to_austria_2
+    days = 62
+	}
+	hidden_effect = {
+	GCS = {
+	country_event = { days = 1 id = gcs.1 }	
+	}
+	}		
+	}	
+	
+	option = {
+		name = auscol.21.b
+		AUS = {
+	country_event = { days = 1 id = auscol.22 }
+	}	
+	}	
+}
+	country_event = {	
+	id = auscol.22
+	title = auscol.9.t
+	desc = auscol.9.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = auscol.22.a
+		add_political_power = 50
+		GCS = {
+	country_event = { days = 1 id = gcs.2 }
+		}	
 	}
 }

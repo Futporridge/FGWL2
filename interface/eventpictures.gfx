@@ -2892,11 +2892,15 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/artillery_france.dds"
 	}	
 	spriteType = { 
-		name = "GFX_event_giraud_arrival"
+		name = "GFX_event_giraud_arrival" 
 		texturefile = "gfx/event_pictures/giraud_arrival.dds"
 	}
 	spriteType = { 
 		name = "GFX_event_austrian_soldiers_rep"
 		texturefile = "gfx/event_pictures/austrian_soldiers_rep.dds"
-	}		
+	}
+	spriteType = { 
+		name = "GFX_report_event_aus_reichstag"
+		texturefile = "gfx/event_pictures/report_event_aus_reichstag.dds"
+	}			
 }

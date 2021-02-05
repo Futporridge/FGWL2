@@ -247,7 +247,7 @@ add_timed_idea = {
 				}
 
 		completion_reward = {
-		country_event = ausmisc.14				
+		country_event = ausmisc.15				
 					}
 				}
 	shared_focus = {

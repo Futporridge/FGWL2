@@ -1,0 +1,54 @@
+﻿	add_namespace = gcs
+
+	
+	country_event = {	
+	id = gcs.1
+	title = gcs.1.t
+	desc = gcs.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+immediate = {
+			hidden_effect = {		
+			AUS = {
+			set_autonomy = {
+				target = GCA
+				autonomy_state = autonomy_free
+				}
+				}			
+	}	
+}
+
+	option = {
+		name = gcs.1.a
+		HOL = {
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = GCS
+		autonomous_state = autonomy_integrated_puppet
+	}	
+	else = {
+		puppet = GCS	
+		}
+	}
+		}
+
+hidden_effect = {
+set_cosmetic_tag = GCS_Dutch
+retire_country_leader = yes	
+	}
+	create_country_leader = {
+	name = "Harold d'Aspremont Lynden"
+	desc = "POLITICS_HAROLD_DASPREMONT_LYNDEN_DESC"
+	picture = "Portrait_Harold_dAspremont_Lynden.tga"
+	expire = "1965.1.1"
+	ideology = oligarchy
+	traits = {
+		
+	}
+}
+	}
+}
