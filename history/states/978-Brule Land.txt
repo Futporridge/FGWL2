@@ -1,0 +1,21 @@
+state={
+	id=978
+	name="STATE_978"
+	provinces={
+		1836 1867 4772 4880 7862 10569 10595 11788 12577 12620 12646 12667 
+	}
+	history={
+		owner = LOI
+		add_core_of = LOI
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			12667 1 
+		}
+	}		
+	state_category=rural		
+	manpower=807645
+	buildings_max_level_factor=1.000
+}

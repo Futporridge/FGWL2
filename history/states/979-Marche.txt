@@ -1,0 +1,21 @@
+state={
+	id=979
+	name="STATE_979"
+	provinces={
+		1683 1875 3613 3855 7745 7771 7840 7852 12516 12586 
+	}
+	history={
+		owner = LOI
+		add_core_of = LOI
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			1683 5 
+		}
+	}		
+	state_category=pastoral		
+	manpower=645451
+	buildings_max_level_factor=1.000
+}

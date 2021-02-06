@@ -632,4 +632,40 @@ spriteTypes = {
 		name = "GFX_culture_ingvaeonic_guinean"
 		texturefile = "gfx/interface/ideas/culture/culture_ingvaeonic_guinean.dds"
 	}	
+		spriteType = {
+		name = "GFX_culture_french_louisianian"
+		texturefile = "gfx/interface/ideas/culture/culture_french_louisianian.dds"
+	}		
+		spriteType = {
+		name = "GFX_culture_french_marcher"
+		texturefile = "gfx/interface/ideas/culture/culture_french_marcher.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_french_crow"
+		texturefile = "gfx/interface/ideas/culture/culture_french_crow.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_french_nervian"
+		texturefile = "gfx/interface/ideas/culture/culture_french_nervian.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_sioux_lakota"
+		texturefile = "gfx/interface/ideas/culture/culture_sioux_lakota.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_french_fugueurs"
+		texturefile = "gfx/interface/ideas/culture/culture_french_fugueurs.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_french_illinois"
+		texturefile = "gfx/interface/ideas/culture/culture_french_illinois.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_french_puanti"
+		texturefile = "gfx/interface/ideas/culture/culture_french_puanti.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_french_francoiroqui"
+		texturefile = "gfx/interface/ideas/culture/culture_french_francoiroqui.dds"
+	}	
 }

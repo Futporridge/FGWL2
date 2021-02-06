@@ -15,16 +15,13 @@ state={
 
 		}
 		add_core_of = LOI
-		victory_points = {
-			1836 1 
-		}
 
 	}
 
 	provinces={
-		1683 1747 1836 1875 3613 3750 3855 4772 4839 6722 7745 7771 7840 7852 7862 10569 12516 12566 12586 12620 
+		1747 3750 4839 6722 12566 
 	}
 	manpower=680844
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 }

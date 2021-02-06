@@ -791,6 +791,51 @@ scripted_gui = {
 			culture_ingvaeonic_guinean_visible = {
 				check_variable = { nationality = 156 } 
 			}				
+		}
+		triggers = {
+			culture_french_louisianian_visible = {
+				check_variable = { nationality = 157 } 
+			}				
+		}
+		triggers = {
+			culture_french_marcher_visible = {
+				check_variable = { nationality = 158 } 
+			}				
+		}
+		triggers = {
+			culture_french_crow_visible = {
+				check_variable = { nationality = 159 } 
+			}				
+		}
+		triggers = {
+			culture_french_nervian_visible = {
+				check_variable = { nationality = 160 } 
+			}				
+		}		
+		triggers = {
+			culture_sioux_lakota_visible = {
+				check_variable = { nationality = 161 } 
+			}				
+		}
+		triggers = {
+			culture_french_fugueurs_visible = {
+				check_variable = { nationality = 162 } 
+			}				
+		}
+		triggers = {
+			culture_french_illinois_visible = {
+				check_variable = { nationality = 163 } 
+			}				
+		}
+		triggers = {
+			culture_french_puanti_visible = {
+				check_variable = { nationality = 164 } 
+			}				
+		}
+		triggers = {
+			culture_french_francoiroqui_visible = {
+				check_variable = { nationality = 165 } 
+			}				
 		}		
 	}
 }

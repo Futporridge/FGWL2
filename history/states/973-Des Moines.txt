@@ -1,0 +1,24 @@
+state={
+	id=973
+	name="STATE_973"
+	provinces={
+		1831 4664 4691 4807 7306 7458 7536 7539 9910 10478 11971 12418 
+	}
+	history={
+		owner = LOI
+		add_core_of = LOI
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			12418 5 
+		}
+		victory_points = {
+			10478 1 
+		}		
+	}	
+	state_category=pastoral		
+	manpower=589231
+	buildings_max_level_factor=1.000
+}

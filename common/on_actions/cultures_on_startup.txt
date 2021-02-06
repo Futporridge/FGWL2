@@ -652,7 +652,38 @@ on_actions = {
 		778 = { set_variable = { nationality = 155 } }	#Gao	
 		947 = { set_variable = { nationality = 155 } }	#Bandama
 		#Guinean
-		298 = { set_variable = { nationality = 156 } }	#Guinea			
+		298 = { set_variable = { nationality = 156 } }	#Guinea	
+		#Louisianian
+		371 = { set_variable = { nationality = 157 } }	#New Orleans	
+		975 = { set_variable = { nationality = 157 } }	#Small Normandy
+		372 = { set_variable = { nationality = 157 } }	#Arkansas	
+		374 = { set_variable = { nationality = 157 } }	#New Accitane	
+		976 = { set_variable = { nationality = 157 } }	#Bourgmont	
+		373 = { set_variable = { nationality = 157 } }	#Saint Lois			
+		#Marcher
+		977 = { set_variable = { nationality = 158 } }	#Petit Toulouse	
+		383 = { set_variable = { nationality = 158 } }	#Kaw
+		392 = { set_variable = { nationality = 158 } }	#Iowa	
+		973 = { set_variable = { nationality = 158 } }	#Des Moines	
+		979 = { set_variable = { nationality = 158 } }	#Marche		
+		980 = { set_variable = { nationality = 158 } }	#Haute-Louisiane			
+		#Crow
+		388 = { set_variable = { nationality = 159 } }	#Crowland
+		389 = { set_variable = { nationality = 159 } }	#Sahnish
+		#Nervian
+		974 = { set_variable = { nationality = 160 } }	#Coeur D'Alene	
+		#Lakota
+		978 = { set_variable = { nationality = 161 } }	#Lakota	
+		#French Poachers
+		469 = { set_variable = { nationality = 162 } }	#Pays Natale
+		#Illinois
+		395 = { set_variable = { nationality = 163 } }	#Illinois		
+		393 = { set_variable = { nationality = 163 } }	#Michigan
+		#Puanti
+		394 = { set_variable = { nationality = 164 } }	#Wiscousin		
+		873 = { set_variable = { nationality = 164 } }	#St Pierre
+		#Franco-Iroquis
+		396 = { set_variable = { nationality = 165 } }	#Ohio			
 		}		
 		
 	}

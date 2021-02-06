@@ -955,6 +955,60 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_ingvaeonic_guinean
 			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_french_louisianian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_french_louisianian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_french_marcher"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_french_marcher
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_french_crow"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_french_crow
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_french_nervian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_french_nervian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_sioux_lakota"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_sioux_lakota
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_french_fugueurs"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_french_fugueurs
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_french_illinois"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_french_illinois
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_french_puanti"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_french_puanti
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_french_francoiroqui"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_french_francoiroqui
+			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 	}
 }

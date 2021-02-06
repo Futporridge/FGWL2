@@ -7,20 +7,20 @@ state={
 		owner = LOI
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 4
+			industrial_complex = 1
 
 		}
 		add_core_of = LOI
 		victory_points = {
-			1770 3 
+			1770 15 
 		}
 
 	}
 
 	provinces={
-		1586 1678 1770 1831 1867 4664 4691 4807 4880 7306 7458 7536 7539 9892 9910 10478 10595 10666 11788 11971 12418 12577 12646 12667 
+		1523 1586 1678 1770 7449 7607 9892 10333 10391 10516 10666 
 	}
-	manpower=2470938
+	manpower=770938
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=rural
 }

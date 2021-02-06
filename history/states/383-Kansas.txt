@@ -16,18 +16,20 @@ state={
 		}
 		add_core_of = LOI
 		victory_points = {
-			4740 3 
+			10606 20 
 		}
 		victory_points = {
-			7834 1 
+			4814 5 
 		}
-
+		victory_points = {
+			10676 5 
+		}
 	}
 
 	provinces={
-		1352 1738 1753 3708 3869 4586 4723 4740 4757 4760 4811 4814 4830 4871 7780 7834 7892 9802 10340 10532 10588 10606 10640 10676 11772 12024 12513 12570 
+		1753 3708 4757 4814 4830 4871 10532 10606 10676 12024 12513 
 	}
-	manpower=1880998
+	manpower=1080998
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 }
