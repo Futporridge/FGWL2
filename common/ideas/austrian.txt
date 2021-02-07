@@ -509,6 +509,22 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
-		}			
+		}
+		AUS_feudal_legacy = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_decline_of_the_country 
+			
+			modifier = {
+				local_building_slots_factor = -0.5					
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
 		}
 	}	

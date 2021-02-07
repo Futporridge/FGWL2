@@ -167,6 +167,44 @@ ideas = {
 				factor = 0
 			}
 		}
+		TYR_sturmtruppen = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_kriegsministerium 
+	
+			modifier = {
+			 special_forces_cap = 0.5
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}	
+		TYR_army3 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+
+				country_lock_all_division_template = yes			
+				research_bonus = {
+				land_doctrine = 0.25
+				}			
+			modifier = {
+				max_command_power = 5
+				army_org_factor = 0.05	
+				army_org_regain = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
 		TYR_ploughshares_into_swords = {
 			
 			allowed = {
@@ -184,7 +222,59 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
-		}		
 		}
+		TYR_left_insurgency_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
 
-	}	
+			picture = TYR_left_insurgency_2 
+		
+			modifier = {
+				production_speed_buildings_factor = -0.05
+				production_factory_max_efficiency_factor = -0.05 
+				war_support_factor = -0.15
+				surrender_limit = -0.05				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_oath_of_allegiance = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_oath_of_allegiance 
+		
+			modifier = {
+				stability_factor = -0.1		
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_dictator_of_the_danube = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_oath_of_allegiance 
+		
+			modifier = {
+				war_support_factor = 0.1
+				political_power_gain = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
+	}
+
+		}	

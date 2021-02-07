@@ -23,7 +23,7 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		x = 7
 		y = 0
-		cost = 10
+		cost = 2
 		ai_will_do = {
 			factor = 10
 		}
@@ -36,7 +36,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+			swap_ideas = {
+		remove_idea = AUS_decline_of_the_country
+		add_idea = TYR_reign_of_the_spear
+			}	
 					}
 				}				
 	shared_focus = {
@@ -45,7 +48,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_the_Reign_of_Spear }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_the_Reign_of_Spear
 		ai_will_do = {
 			factor = 10
@@ -59,7 +62,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		add_ideas = { TYR_kriegsministerium }
+				}
 				}
 	shared_focus = {
 		id = TYR_The_Shield_of_the_Republic
@@ -67,7 +71,7 @@ focus_tree = {
 		x = -4
 		y = 1
 		prerequisite = { focus = TYR_Form_the_Kriegsministerium }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Form_the_Kriegsministerium
 		ai_will_do = {
 			factor = 10
@@ -81,7 +85,9 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+	add_war_support	= 0.05
+	set_country_flag = angelis_shield_of_the_republic
+				}
 				}
 	shared_focus = {
 		id = TYR_Institutionalize_the_Soldatenring
@@ -89,7 +95,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		prerequisite = { focus = TYR_The_Shield_of_the_Republic }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_The_Shield_of_the_Republic
 		ai_will_do = {
 			factor = 10
@@ -103,7 +109,13 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		add_stability = 0.1
+		add_political_power = 25
+		add_popularity = {
+		ideology = paternalism
+		popularity = 0.1
+		}
+				}
 				}
 	shared_focus = {
 		id = TYR_Sturmtruppen
@@ -111,7 +123,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Institutionalize_the_Soldatenring }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Institutionalize_the_Soldatenring
 		ai_will_do = {
 			factor = 10
@@ -125,7 +137,12 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		add_ideas = { TYR_sturmtruppen }	
+		custom_effect_tooltip = TYR_tooltip_sturmtruppen	
+		hidden_effect = {
+		load_oob = "TYR_jager" 
+		}
+				}
 				}				
 	shared_focus = {
 		id = TYR_Build_Up_the_Military_Budget
@@ -133,7 +150,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_The_Shield_of_the_Republic }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_The_Shield_of_the_Republic
 		ai_will_do = {
 			factor = 10
@@ -155,7 +172,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Build_Up_the_Military_Budget }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Build_Up_the_Military_Budget
 		ai_will_do = {
 			factor = 10
@@ -177,7 +194,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		prerequisite = { focus = TYR_The_Shield_of_the_Republic }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_The_Shield_of_the_Republic
 		ai_will_do = {
 			factor = 10
@@ -199,7 +216,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Form_the_Kriegsministerium }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Form_the_Kriegsministerium
 		ai_will_do = {
 			factor = 10
@@ -213,6 +230,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
+			swap_ideas = {
+		remove_idea = TYR_left_insurgency
+		add_idea = TYR_left_insurgency_2
+			}				
 					}
 				}
 	shared_focus = {
@@ -221,7 +242,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_The_Law_of_the_Axe }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_The_Law_of_the_Axe
 		ai_will_do = {
 			factor = 10
@@ -235,7 +256,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+			swap_ideas = {
+		remove_idea = TYR_left_insurgency_2
+		add_idea = TYR_oath_of_allegiance
+			}			
+			}
 				}	
 	shared_focus = {
 		id = TYR_Prohibit_Political_Alliances
@@ -243,7 +268,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Oath_of_Allegiance }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Oath_of_Allegiance
 		ai_will_do = {
 			factor = 10
@@ -265,7 +290,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Oath_of_Allegiance }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Oath_of_Allegiance
 		ai_will_do = {
 			factor = 10
@@ -288,7 +313,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = TYR_Abolish_Estate_Privileges }
 		prerequisite = { focus = TYR_Prohibit_Political_Alliances }		
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Abolish_Estate_Privileges
 		ai_will_do = {
 			factor = 10
@@ -310,7 +335,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Dictator_of_the_Danube }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Dictator_of_the_Danube
 		ai_will_do = {
 			factor = 10
@@ -332,7 +357,7 @@ focus_tree = {
 		x = 4
 		y = 1
 		prerequisite = { focus = TYR_Form_the_Kriegsministerium }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Form_the_Kriegsministerium
 		ai_will_do = {
 			factor = 10
@@ -354,7 +379,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		prerequisite = { focus = TYR_Ploughshares_into_Swords }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Ploughshares_into_Swords
 		ai_will_do = {
 			factor = 10
@@ -376,7 +401,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Ploughshares_into_Swords }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Ploughshares_into_Swords
 		ai_will_do = {
 			factor = 10
@@ -398,7 +423,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Emergency_Nationalization }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Emergency_Nationalization
 		ai_will_do = {
 			factor = 10
@@ -420,7 +445,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		prerequisite = { focus = TYR_Ploughshares_into_Swords }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Ploughshares_into_Swords
 		ai_will_do = {
 			factor = 10
@@ -442,7 +467,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Nationwide_Draft }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Nationwide_Draft
 		ai_will_do = {
 			factor = 10
