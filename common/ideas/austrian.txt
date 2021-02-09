@@ -8,8 +8,7 @@ ideas = {
 			}
 
 			picture = AUS_army1 
-
-				country_lock_all_division_template = yes			
+		
 				research_bonus = {
 				land_doctrine = 0.25
 				}			
@@ -519,7 +518,7 @@ ideas = {
 			picture = AUS_decline_of_the_country 
 			
 			modifier = {
-				local_building_slots_factor = -0.5					
+				local_building_slots_factor = -0.2				
 			}
 	
 			ai_will_do = {

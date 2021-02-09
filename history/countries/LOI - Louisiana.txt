@@ -12,34 +12,30 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = paternalism
+	ruling_party = oligarchy
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	utopism = 35
-	prometeism = 10
-	communitarianism = 5
-	oligarchy = 10
-	conservatism = 30
-	paternalism = 10
+	utopism = 0
+	prometeism = 0
+	communitarianism = 0
+	oligarchy = 100
+	conservatism = 0
+	paternalism = 0
 	reactionary = 0
-}
-
-add_ideas = {
-
 }
 
 set_convoys = 100
 
 create_country_leader = {
-	name = "Paul Gouin"
-	desc = "POLITICS_PAUL_GOUIN_DESC"
-	picture = "gfx/leaders/LOI/Portrait_Paul_Gouin.tga"
+	name = "Lammot du Pont II"
+	desc = "POLITICS_LAMMOT_DU_PONT_DESC"
+	picture = "gfx/leaders/LOI/Portrait_Lammot_du_Pont_II.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = oligarchy
 	traits = { 
 
 	}

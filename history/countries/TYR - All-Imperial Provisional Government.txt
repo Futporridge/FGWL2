@@ -18,14 +18,17 @@ set_politics = {
 	elections_allowed = no
 }
 
+country_lock_all_division_template = yes 
+
 set_popularities = {
 	utopism = 1
-	prometeism = 1
-	communitarianism = 1
-	oligarchy = 33
-	conservatism = 11
-	paternalism = 29
-	reactionary = 24
+	prometeism = 20
+	communitarianism = 20
+	liberalism = 8
+	oligarchy = 11
+	conservatism = 18
+	paternalism = 11
+	reactionary = 11
 }
 
 add_ideas = {

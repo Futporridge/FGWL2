@@ -971,7 +971,7 @@ hidden_effect = {
 create_corps_commander = {
 	name = "Julius Deutsch"
 	picture = "Portrait_Julius_Deutsch.tga"
-	traits = { trickster media_personality }
+	traits = { trickster media_personality AUS_republicaner }
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
@@ -981,7 +981,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Alexander Eifler"
 	picture = "Portrait_Alexander_Eifler.tga"
-	traits = { infantry_officer }
+	traits = { infantry_officer AUS_republicaner }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 3
@@ -991,7 +991,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Georg Weissel"
 	picture = "Portrait_Georg_Weissel.tga"
-	traits = { }
+	traits = { AUS_republicaner }
 	skill = 2
 	attack_skill = 2
 	defense_skill = 1
@@ -1001,7 +1001,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Karl Münichreiter"
 	picture = "Portrait_Karl_Munichreiter.tga"
-	traits = { }
+	traits = { AUS_republicaner }
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -1011,7 +1011,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Ludwig Bernaschek"
 	picture = "Portrait_Ludwig_Bernaschek.tga"
-	traits = { politically_connected }
+	traits = { politically_connected AUS_republicaner }
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -1021,7 +1021,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Richard Bernaschek"
 	picture = "Portrait_Richard_Bernaschek.tga"
-	traits = { politically_connected }
+	traits = { politically_connected AUS_republicaner }
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
@@ -1278,6 +1278,14 @@ immediate = {
 		remove_state_core = 913
 		remove_state_core = 914		
 		}
+	every_unit_leader = {
+		limit = { has_trait = AUS_hungarian }
+		set_nationality = HUN
+	}
+	every_unit_leader = {
+		limit = { has_trait = AUS_croat }
+		set_nationality = HUN
+	}	
 	}	
 }
 	option = {
@@ -1648,6 +1656,14 @@ immediate = {
 		transfer_state = 844	
 		transfer_state = 903		
 		}		
+	}
+	every_unit_leader = {
+		limit = { has_trait = AUS_militarist }
+		set_nationality = TYR
+	}
+	every_unit_leader = {
+		limit = { has_trait = AUS_monarchist }
+		set_nationality = TYR
 	}	
 }
 }
