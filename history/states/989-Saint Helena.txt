@@ -1,0 +1,20 @@
+
+state={
+	id=989
+	name="STATE_989"
+	provinces={
+		1690 4747 7414 7442 10198 10690 10693 12155 12214 12673 
+	}
+	history={
+		owner = ENC
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = ENC
+
+	}	
+	manpower=709651
+	state_category=rural	
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=983
+	name="STATE_983"
+
+	history={
+		owner = VRC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = VRC
+
+	}
+
+	provinces={
+		505 677 766 768 3644 4380 6757 7517 9730 10151 10159 10183 11495 12281 
+	}
+	manpower=1488
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

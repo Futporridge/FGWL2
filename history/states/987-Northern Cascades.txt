@@ -1,0 +1,19 @@
+state={
+	id=987
+	name="STATE_987"
+	provinces={
+		1832 3781 4778 4838 4877 7761 7820 12124 12578 12676 
+	}
+	history={
+		owner = ENC
+		add_core_of = ENC
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}	
+	manpower=305232
+	state_category=pastoral	
+	buildings_max_level_factor=1.000
+}

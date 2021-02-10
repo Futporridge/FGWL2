@@ -23,7 +23,7 @@ state={
 			6845 20 
 		}		
 	}	
-	manpower=2316021
+	manpower=3316021
 	buildings_max_level_factor=1.000
 	state_category=city 
 }

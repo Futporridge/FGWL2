@@ -1,0 +1,20 @@
+
+state={
+	id=988
+	name="STATE_988"
+	provinces={
+		610 1737 4343 7677 7853 
+	}
+	history={
+		owner = ENC
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = ENC
+
+	}	
+	state_category=rural	
+	manpower=505232
+	buildings_max_level_factor=1.000
+}

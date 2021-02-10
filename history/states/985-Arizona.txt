@@ -1,0 +1,19 @@
+state={
+	id=985
+	name="STATE_985"
+	provinces={
+		853 1793 3834 7747 7920 8115 10783 11814 12765 
+	}
+	history={
+		owner = VRC
+		add_core_of = VRC
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}	
+	manpower=1488
+	state_category=pastoral	
+	buildings_max_level_factor=1.000
+}

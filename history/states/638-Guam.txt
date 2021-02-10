@@ -1,25 +1,29 @@
-state=
-{
+
+state={
 	id=638
 	name="STATE_638"
-	state_category = small_island
-	manpower=75153
-	history=
-	{
-		owner = ROI
-		add_core_of = ROI
+
+	history={
+		owner = VRC
+		add_core_of = VRC
 		buildings = {
 			infrastructure = 5
 			12140 = {
 				naval_base = 1
+
 			}
+
 		}
 		victory_points = {
-			12140 1
-		 }
+			12140 1 
+		}
 
 	}
+
 	provinces={
-		12140
+		805 1500 1915 2082 3875 3960 4577 5001 5022 5085 6968 7628 7836 7981 9773 9829 9920 10337 10504 10778 10861 10867 12301 12341 12410 12486 12720 12848 12875 12893 
 	}
+	manpower=75153
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

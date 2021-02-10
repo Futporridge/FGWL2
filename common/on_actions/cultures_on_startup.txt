@@ -515,6 +515,8 @@ on_actions = {
 		#Crownlander
 		365 = { set_variable = { nationality = 116 } }	#Victoria
 		366 = { set_variable = { nationality = 116 } }	#East Florida
+		690 = { set_variable = { nationality = 116 } }	#Bahamas
+		693 = { set_variable = { nationality = 116 } }	#Bahamas	
 		#Appalachian
 		960 = { set_variable = { nationality = 117 } }	#New Dartmoor	
 		368 = { set_variable = { nationality = 117 } }	#Tennessee

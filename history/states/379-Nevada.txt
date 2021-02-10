@@ -3,15 +3,15 @@ state={
 	id=379
 	name="STATE_379"
 	resources={
-		steel=70.000
-		tungsten=32.000
-		aluminium=25.000
+		steel=5.000
+		tungsten=1.000
+		aluminium=3.000
 	}
 
 	history={
 		owner = VRC
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 
 		}
 		add_core_of = VRC
@@ -19,9 +19,10 @@ state={
 	}
 
 	provinces={
-		4521 4607 4799 4816 7756 7827 7879 10591 12134 12425 
+		850 1740 4347 4521 4607 4799 4816 7721 7827 7879 10591 10625 12134 12425 12573 12607 12699 
 	}
 	manpower=91057
+	impassable = yes	
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=wasteland
 }

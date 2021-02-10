@@ -1,0 +1,20 @@
+state={
+	id=986
+	name="STATE_986"
+	provinces={
+		1663 4668 4865 7888 9695 10582 10651 10662 12535 13153 7756
+	}
+	history={
+		owner = VRC
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = VRC
+
+	}	
+	manpower=17800
+	state_category=wasteland	
+	impassable = yes	
+	buildings_max_level_factor=1.000
+}
