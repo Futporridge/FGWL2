@@ -134,7 +134,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		custom_effect_tooltip = AUS_western_region_cooperation		
+		custom_effect_tooltip = AUS_western_region_cooperation
+		hidden_effect = {
+		country_event = { id =  }
+		}
 			}
 				}	
 	focus = {

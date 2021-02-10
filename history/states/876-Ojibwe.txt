@@ -13,7 +13,7 @@ state={
 		}
 		add_core_of = CFB
 	}	
-	manpower=122345
-	state_category = city	
+	manpower=522345
+	state_category = rural	
 	buildings_max_level_factor=1.000
 }

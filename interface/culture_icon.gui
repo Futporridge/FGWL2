@@ -1009,6 +1009,30 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_french_francoiroqui
 			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_french_acadian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_french_acadian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_french_quebeckian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_french_quebeckian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_french_saulteaux"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_french_saulteaux
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_eskimo_inuit"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_eskimo_inuit
+			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 	}
 }

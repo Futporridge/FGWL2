@@ -667,5 +667,21 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_culture_french_francoiroqui"
 		texturefile = "gfx/interface/ideas/culture/culture_french_francoiroqui.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_french_acadian"
+		texturefile = "gfx/interface/ideas/culture/culture_french_acadian.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_french_quebeckian"
+		texturefile = "gfx/interface/ideas/culture/culture_french_quebeckian.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_french_saulteaux"
+		texturefile = "gfx/interface/ideas/culture/culture_french_saulteaux.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_eskimo_inuit"
+		texturefile = "gfx/interface/ideas/culture/culture_eskimo_inuit.dds"
 	}	
 }

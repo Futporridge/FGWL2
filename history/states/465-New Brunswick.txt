@@ -9,21 +9,22 @@ state={
 			infrastructure = 5
 			industrial_complex = 2
 			4285 = {
-				naval_base = 2
-
+				naval_base = 5
 			}
-
 		}
 		add_core_of = GAC
 		victory_points = {
 			4285 5 
 		}
+		victory_points = {
+			634 10
+		}
 	}
 
 	provinces={
-		634 1282 1338 1424 1619 4285 4287 4342 4360 4362 4432 7379 10247 12221 12289 
+		634 1424 4285 4360 4362 4432 7379 12289 
 	}
-	manpower=475020
+	manpower=975020
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 }

@@ -1,0 +1,27 @@
+state={
+	id=981
+	name="STATE_981"
+	provinces={
+		1799 1869 10548 10707 13202 13203 
+	}
+	history={
+		owner = ALS
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			13091 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = ALS
+		victory_points = {
+			13203 3 
+		}
+
+	}	
+	manpower=105232
+	state_category=rural	
+	buildings_max_level_factor=1.000
+}

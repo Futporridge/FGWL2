@@ -1,0 +1,18 @@
+state={
+	id=982
+	name="STATE_982"
+	provinces={
+		1282 1338 1619 4287 4342 10247 12221 
+	}
+	history={
+		owner = GAC
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = GAC
+	}	
+	manpower=687132
+	state_category=rural	
+	buildings_max_level_factor=1.000
+}

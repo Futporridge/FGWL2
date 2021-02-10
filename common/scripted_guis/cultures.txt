@@ -836,6 +836,26 @@ scripted_gui = {
 			culture_french_francoiroqui_visible = {
 				check_variable = { nationality = 165 } 
 			}				
+		}
+		triggers = {
+			culture_french_acadian_visible = {
+				check_variable = { nationality = 166 } 
+			}				
+		}
+		triggers = {
+			culture_french_quebeckian_visible = {
+				check_variable = { nationality = 167 } 
+			}				
+		}
+		triggers = {
+			culture_french_saulteaux_visible = {
+				check_variable = { nationality = 168 } 
+			}				
+		}
+		triggers = {
+			culture_eskimo_inuit_visible = {
+				check_variable = { nationality = 169 } 
+			}				
 		}		
 	}
 }

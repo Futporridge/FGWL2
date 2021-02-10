@@ -684,7 +684,24 @@ on_actions = {
 		394 = { set_variable = { nationality = 164 } }	#Wiscousin		
 		873 = { set_variable = { nationality = 164 } }	#St Pierre
 		#Franco-Iroquis
-		396 = { set_variable = { nationality = 165 } }	#Ohio			
+		396 = { set_variable = { nationality = 165 } }	#Ohio	
+		#Acadian
+		465 = { set_variable = { nationality = 166 } }	#Acadia	
+		982 = { set_variable = { nationality = 166 } }	#Saint-Croix
+		#Quebeckoid
+		466 = { set_variable = { nationality = 167 } }	#Quebeck	
+		468 = { set_variable = { nationality = 167 } }	#Saint-Laurent	
+		276 = { set_variable = { nationality = 167 } }	#Nord lOntario	
+		730 = { set_variable = { nationality = 167 } }	#Saint-Pierre et Miquelon	
+		299 = { set_variable = { nationality = 167 } }	#Iles Malouines	
+		720 = { set_variable = { nationality = 167 } }	#Iles du Saint Albert
+		#Salteaux
+		682 = { set_variable = { nationality = 168 } }	#Superioir	
+		391 = { set_variable = { nationality = 168 } }	#Champlain	
+		#Inuit
+		683 = { set_variable = { nationality = 169 } }	#Frobisher Bugt
+		875 = { set_variable = { nationality = 169 } }	#Fort Lindstrom	
+		101 = { set_variable = { nationality = 169 } }	#Grenlandia	
 		}		
 		
 	}
