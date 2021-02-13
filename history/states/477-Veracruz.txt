@@ -2,9 +2,9 @@
 state={
 	id=477
 	name="STATE_477"
-	manpower = 1951460
+	manpower = 2951460
 	
-	state_category = town
+	state_category = large_city
 	
 	resources={
 		oil=9
@@ -21,7 +21,7 @@ state={
 		}
 		add_core_of = VRC
 		victory_points = {
-			12810 5
+			12810 25
 		}
 		victory_points = {
 			8089 10

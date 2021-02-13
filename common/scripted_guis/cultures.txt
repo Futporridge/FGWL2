@@ -856,6 +856,21 @@ scripted_gui = {
 			culture_eskimo_inuit_visible = {
 				check_variable = { nationality = 169 } 
 			}				
+		}
+		triggers = {
+			culture_ingvaeonic_cabralian_visible = {
+				check_variable = { nationality = 170 } 
+			}				
+		}
+		triggers = {
+			culture_ingvaeonic_cascadian_visible = {
+				check_variable = { nationality = 171 } 
+			}				
+		}
+		triggers = {
+			culture_east_slavic_kreol_visible = {
+				check_variable = { nationality = 172 } 
+			}				
 		}		
 	}
 }

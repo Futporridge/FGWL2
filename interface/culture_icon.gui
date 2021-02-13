@@ -1033,6 +1033,24 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_eskimo_inuit
 			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_ingvaeonic_cabralian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_ingvaeonic_cabralian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_ingvaeonic_cascadian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_ingvaeonic_cascadian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_east_slavic_kreol"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_east_slavic_kreol
+			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 	}
 }

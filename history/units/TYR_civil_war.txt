@@ -1,0 +1,266 @@
+﻿division_template = {
+	name = "Infanterie-Division"
+
+	division_names_group = AUS_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	
+}
+
+division_template = {
+	name = "Jäger-Regimenter"
+
+	division_names_group = AUS_CHA_01
+
+	regiments = {
+		chasseurs = { x = 0 y = 0 }
+		chasseurs = { x = 0 y = 1 }
+		chasseurs = { x = 0 y = 2 }
+        chasseurs = { x = 1 y = 0 }
+		chasseurs = { x = 1 y = 1 }
+	}
+	
+}
+
+division_template = {
+	name = "Panzerwagen-Regiment"
+
+	division_names_group = AUS_ARC_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		armor_car = { x = 0 y = 2 }
+        armor_car = { x = 1 y = 0 }
+		armor_car = { x = 1 y = 1 }
+	}
+	
+}
+
+division_template = {
+	name = "Landesschützenregiment"		#
+	division_names_group = AUS_Mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Kavalleriedivision"
+
+	division_names_group = AUS_Cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	}
+}
+units = {
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1				
+		}
+		location = 688
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.4
+		
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2				
+		}
+		location = 3673
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.4
+		
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3				
+		}
+		location = 3660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.4
+		
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4				
+		}
+		location = 3674
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.4
+		
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5				
+		}
+		location = 673
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.4
+		
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6				
+		}
+		location = 668
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.4
+		
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1				
+		}
+		location = 9630
+		division_template = "Landesschützenregiment"
+		start_experience_factor = 0.4
+		
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1				
+		}
+		location = 688
+		division_template = "Kavalleriedivision"
+		start_experience_factor = 0.4
+		
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2				
+		}
+		location = 668
+		division_template = "Kavalleriedivision"
+		start_experience_factor = 0.4
+		
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1				
+		}
+		location = 673
+		division_template = "Jäger-Regimenter"
+		start_experience_factor = 0.4
+		
+	}
+	}	
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "AUS"
+		}
+		requested_factories = 10
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "AUS" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "AUS" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_2
+			creator = "AUS" 
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "AUS" 
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
+			creator = "AUS" 
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = CAS_equipment_1
+			creator = "AUS" 
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = tac_bomber_equipment_1
+			creator = "AUS" 
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+}
+
+#####################

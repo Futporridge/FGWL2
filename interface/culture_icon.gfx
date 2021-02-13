@@ -683,5 +683,17 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_culture_eskimo_inuit"
 		texturefile = "gfx/interface/ideas/culture/culture_eskimo_inuit.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_ingvaeonic_cabralian"
+		texturefile = "gfx/interface/ideas/culture/culture_ingvaeonic_cabralian.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_ingvaeonic_cascadian"
+		texturefile = "gfx/interface/ideas/culture/culture_ingvaeonic_cascadian.dds"
 	}	
+		spriteType = {
+		name = "GFX_culture_east_slavic_kreol"
+		texturefile = "gfx/interface/ideas/culture/culture_east_slavic_kreol.dds"
+	}		
 }

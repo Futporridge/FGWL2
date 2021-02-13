@@ -11,10 +11,18 @@ state={
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
-			dockyard = 1
+			dockyard = 1 
 		}
 		add_core_of = ENC
-
+		victory_points = {
+			1393 5
+		}
+		victory_points = {
+			7259 3
+		}
+		victory_points = {
+			10228 1
+		}		
 	}
 
 	provinces={

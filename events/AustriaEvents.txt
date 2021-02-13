@@ -1,7 +1,40 @@
 ﻿	add_namespace = aus
 	add_namespace = ausmisc
 	add_namespace = auscol
-	
+	add_namespace = ausnews	
+	add_namespace = auscw	
+
+	country_event = {	
+	id = auscw.1
+	title = auscw.1.t
+	desc = auscw.1.d
+	picture = GFX_report_event_aus_reichstag
+
+	is_triggered_only = yes
+	immediate = {
+	hidden_effect = {
+		declare_war_on = {
+		target = TYR
+		type = annex_everything
+		}
+		declare_war_on = {
+		target = SLV
+		type = annex_everything
+		}		
+					}
+				}
+	fire_only_once = yes
+
+	option = {
+		name = auscw.1.a
+	hidden_effect = {
+        set_global_flag = Super_Event_Visible
+        set_global_flag = habsburg_hegemony_collapsed
+		sound_effect = "austrian_empire_collapse"		
+					}
+					
+	}
+}
 	country_event = {	
 	id = aus.1
 	title = aus.1.t
@@ -779,7 +812,7 @@ set_demilitarized_zone = yes
 	id = aus.29
 	title = aus.29.t
 	desc = aus.29.d
-	picture = GFX_
+	picture = GFX_report_event_aus_coup_de_etat
 
 	is_triggered_only = yes
 
@@ -1664,6 +1697,12 @@ immediate = {
 	every_unit_leader = {
 		limit = { has_trait = AUS_monarchist }
 		set_nationality = TYR
+	}
+	TYR = {
+	load_oob = TYR_civil_war
+	}	
+	SLV = {
+	load_oob = SLV_1936
 	}	
 }
 }

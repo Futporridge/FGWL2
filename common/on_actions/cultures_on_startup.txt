@@ -703,7 +703,17 @@ on_actions = {
 		#Inuit
 		683 = { set_variable = { nationality = 169 } }	#Frobisher Bugt
 		875 = { set_variable = { nationality = 169 } }	#Fort Lindstrom	
-		101 = { set_variable = { nationality = 169 } }	#Grenlandia	
+		101 = { set_variable = { nationality = 169 } }	#Grenlandia
+		#Cabralian
+		473 = { set_variable = { nationality = 170 } }	#Cabralia
+		386 = { set_variable = { nationality = 170 } }	#Jacobia
+		#Cacadian
+		988 = { set_variable = { nationality = 171 } }	#Inner Cabralia		
+		989 = { set_variable = { nationality = 171 } }	#Saint Helena	
+		987 = { set_variable = { nationality = 171 } }	#Northern Cascades		
+		#Kreol
+		981 = { set_variable = { nationality = 172 } }	#Novo-Arkhangelsk	
+		463 = { set_variable = { nationality = 172 } }	#Alyaska		
 		}		
 		
 	}

@@ -13,12 +13,12 @@ state={
 
 		}
 		victory_points = {
-			6488 15
+			6488 30
 		}
 		add_core_of = HES
 
 	}
 	state_category=city	
-	manpower=555857	
+	manpower=855857	
 	buildings_max_level_factor=1.000
 }

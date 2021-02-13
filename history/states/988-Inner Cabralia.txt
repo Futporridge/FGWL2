@@ -12,7 +12,9 @@ state={
 
 		}
 		add_core_of = ENC
-
+		victory_points = {
+			7677 1
+		}	
 	}	
 	state_category=rural	
 	manpower=505232
