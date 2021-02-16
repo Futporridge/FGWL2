@@ -662,14 +662,16 @@ on_actions = {
 		372 = { set_variable = { nationality = 157 } }	#Arkansas	
 		374 = { set_variable = { nationality = 157 } }	#New Accitane	
 		976 = { set_variable = { nationality = 157 } }	#Bourgmont	
-		373 = { set_variable = { nationality = 157 } }	#Saint Lois			
+		373 = { set_variable = { nationality = 157 } }	#Saint Lois		
+		984 = { set_variable = { nationality = 157 } }	#Nueva Extermadura		
 		#Marcher
 		977 = { set_variable = { nationality = 158 } }	#Petit Toulouse	
 		383 = { set_variable = { nationality = 158 } }	#Kaw
 		392 = { set_variable = { nationality = 158 } }	#Iowa	
 		973 = { set_variable = { nationality = 158 } }	#Des Moines	
 		979 = { set_variable = { nationality = 158 } }	#Marche		
-		980 = { set_variable = { nationality = 158 } }	#Haute-Louisiane			
+		980 = { set_variable = { nationality = 158 } }	#Haute-Louisiane
+		382 = { set_variable = { nationality = 158 } }	#Haute-Louisiane		
 		#Crow
 		388 = { set_variable = { nationality = 159 } }	#Crowland
 		389 = { set_variable = { nationality = 159 } }	#Sahnish
@@ -714,6 +716,10 @@ on_actions = {
 		#Kreol
 		981 = { set_variable = { nationality = 172 } }	#Novo-Arkhangelsk	
 		463 = { set_variable = { nationality = 172 } }	#Alyaska		
+		#Equatorial French
+		495 = { set_variable = { nationality = 173 } }	#Belem			
+		970 = { set_variable = { nationality = 173 } }	#Amazonie	
+		971 = { set_variable = { nationality = 173 } }	#Inner Amazonia				
 		}		
 		
 	}

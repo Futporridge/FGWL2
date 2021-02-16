@@ -871,6 +871,11 @@ scripted_gui = {
 			culture_east_slavic_kreol_visible = {
 				check_variable = { nationality = 172 } 
 			}				
-		}		
+		}	
+		triggers = {
+			culture_french_equatorial_visible = {
+				check_variable = { nationality = 173 } 
+			}				
+		}			
 	}
 }
