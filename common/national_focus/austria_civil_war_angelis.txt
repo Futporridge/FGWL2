@@ -190,10 +190,24 @@ focus_tree = {
 				}
 
 		completion_reward = {
+	add_manpower = 70000
+add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 12000
+    producer = AUS
+}		
+AUS = {
+	add_manpower = -70000
+add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = -12000
+    producer = AUS
+}	
+}				
 					}
 				}				
 	shared_focus = {
-		id = AUS_Integrate_the_Paramilitary
+		id = TYR_Integrate_the_Paramilitary
 		icon = GFX_goal_generic_position_armies
 		x = 2
 		y = 1
@@ -212,7 +226,26 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		hidden_effect = {
+		load_oob = "TYR_angelis_paramil" 		
+		}		
+		create_corps_commander = {
+		name = "Richard Steidle"
+		picture = "Portrait_Richard_Steidle.tga"
+		traits = { politically_connected }
+		skill = 2
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 2
+		}
+	add_manpower = 24000
+add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 7000
+    producer = TYR
+}	
+			}
 				}
 	shared_focus = {
 		id = TYR_The_Law_of_the_Axe

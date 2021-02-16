@@ -36,7 +36,8 @@ create_country_leader = {
 	set_cosmetic_tag = TYR_angelis
 	set_politics = {
 	ruling_party = paternalism
-	}	 
+	}	
+   random_unit_leader = { limit = { has_id = 192 } promote_leader = yes }	
 		}
 }
 }
