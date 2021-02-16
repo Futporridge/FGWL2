@@ -524,6 +524,121 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
-		}		
+		}
+		AUS_people_militia = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_liberalizatiob_of_army 
+			
+				
+			modifier = {
+			army_org_factor = -0.50
+			army_org_regain = 0.15
+			recruitable_population_factor = 0.2
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}	
+		AUS_rote_armee_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_liberalizatiob_of_army 
+			
+				
+			modifier = {
+			army_org_factor = -0.25
+			army_org_regain = 0.10
+			recruitable_population_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		AUS_rote_armee_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_liberalizatiob_of_army 
+			
+				
+			modifier = {
+			army_org_factor = 0.05
+			army_org_regain = 0.10
+			recruitable_population_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		AUS_rote_armee_3 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_liberalizatiob_of_army 
+			
+				
+			modifier = {
+			army_org_factor = 0.05
+			army_org_regain = 0.10
+			recruitable_population_factor = 0.1
+			training_time_factor = -0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		AUS_rote_armee_4 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_liberalizatiob_of_army 
+			
+				
+			modifier = {
+			army_org_factor = 0.10
+			army_org_regain = 0.10
+			recruitable_population_factor = 0.1
+			training_time_factor = -0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}	
+		AUS_rote_armee_inv = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_liberalizatiob_of_army 
+			
+				
+			modifier = {
+			offence = 0.2
+			defence = 0.2
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}			
 		}
 	}	

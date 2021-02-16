@@ -12,7 +12,7 @@ focus_tree = {
 	
 	default = no
 
-	continuous_focus_position = { x = 1200 y = 0 }
+	continuous_focus_position = { x = 3200 y = 0 }
 
 	focus = {
 		id = AUS_call_for_the_reichstag

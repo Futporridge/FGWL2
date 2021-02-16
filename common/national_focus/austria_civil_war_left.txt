@@ -11,7 +11,7 @@ focus_tree = {
 	}
 		default = no
 
-	continuous_focus_position = { x = 3000 y = 100 }
+	continuous_focus_position = { x = 3200 y = 0 }
 	
 
 	shared_focus = AUS_healthy_compromises
@@ -26,7 +26,7 @@ focus_tree = {
 		icon = GFX_focus_PAR_anarchy
 		x = 7
 		y = 0
-		cost = 10
+		cost = 2
 		ai_will_do = {
 			factor = 10
 		}
@@ -48,7 +48,7 @@ focus_tree = {
 		x = -6
 		y = 1
 		prerequisite = { focus = AUS_healthy_compromises }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_healthy_compromises
 		ai_will_do = {
 			factor = 10
@@ -70,7 +70,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		prerequisite = { focus = AUS_creation_of_the_rote_armee }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_creation_of_the_rote_armee
 		ai_will_do = {
 			factor = 10
@@ -93,7 +93,7 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = AUS_hunt_for_experience }
 		prerequisite = { focus = AUS_conscription_campaign }		
-		cost = 1    
+		cost = 2    
 		relative_position_id = AUS_hunt_for_experience
 		ai_will_do = {
 			factor = 10
@@ -115,7 +115,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = AUS_creation_of_the_rote_armee }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_creation_of_the_rote_armee
 		ai_will_do = {
 			factor = 10
@@ -137,7 +137,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = AUS_formalize_the_paramilitary }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_formalize_the_paramilitary
 		ai_will_do = {
 			factor = 10
@@ -159,7 +159,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		prerequisite = { focus = AUS_creation_of_the_rote_armee }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_creation_of_the_rote_armee
 		ai_will_do = {
 			factor = 10
@@ -182,7 +182,7 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = AUS_political_comissariat	 }
 		prerequisite = { focus = AUS_conscription_campaign }			
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_political_comissariat
 		ai_will_do = {
 			factor = 10
@@ -205,7 +205,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = AUS_urban_guard }
 		prerequisite = { focus = AUS_new_drill_techniques }			
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_new_drill_techniques
 		ai_will_do = {
 			factor = 10
@@ -227,7 +227,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = AUS_healthy_compromises }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_healthy_compromises
 		ai_will_do = {
 			factor = 10
@@ -249,7 +249,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		prerequisite = { focus = AUS_proclaim_the_international_solidarity }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_proclaim_the_international_solidarity
 		ai_will_do = {
 			factor = 10
@@ -271,7 +271,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		prerequisite = { focus = AUS_the_sister_republic }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_the_sister_republic
 		ai_will_do = {
 			factor = 10
@@ -293,7 +293,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		prerequisite = { focus = AUS_the_sister_republic }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_the_sister_republic
 		ai_will_do = {
 			factor = 10
@@ -316,7 +316,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = AUS_joint_military_staff }
 		prerequisite = { focus = AUS_danube_cooperation }		
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_danube_cooperation
 		ai_will_do = {
 			factor = 10
@@ -338,7 +338,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		prerequisite = { focus = AUS_proclaim_the_international_solidarity }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_proclaim_the_international_solidarity
 		ai_will_do = {
 			factor = 10
@@ -360,7 +360,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = AUS_revolutiion_under_siege }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_revolutiion_under_siege
 		ai_will_do = {
 			factor = 10
@@ -382,7 +382,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		prerequisite = { focus = AUS_invite_the_international_brigades }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_invite_the_international_brigades
 		ai_will_do = {
 			factor = 10
@@ -404,7 +404,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		prerequisite = { focus = AUS_invite_the_international_brigades }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_invite_the_international_brigades
 		ai_will_do = {
 			factor = 10
@@ -426,7 +426,7 @@ focus_tree = {
 		x = 6
 		y = 1
 		prerequisite = { focus = AUS_healthy_compromises }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_healthy_compromises
 		ai_will_do = {
 			factor = 10
@@ -448,7 +448,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		prerequisite = { focus = AUS_on_the_ruins_of_empire }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_on_the_ruins_of_empire
 		ai_will_do = {
 			factor = 10
@@ -470,7 +470,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = AUS_peoples_militia }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_peoples_militia
 		ai_will_do = {
 			factor = 10
@@ -492,7 +492,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = AUS_on_the_ruins_of_empire }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_on_the_ruins_of_empire
 		ai_will_do = {
 			factor = 10
@@ -514,7 +514,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		prerequisite = { focus = AUS_on_the_ruins_of_empire }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_on_the_ruins_of_empire
 		ai_will_do = {
 			factor = 10
@@ -536,7 +536,7 @@ focus_tree = {
 		x = 0 
 		y = 1
 		prerequisite = { focus = AUS_vienna_industrial_region }
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_vienna_industrial_region
 		ai_will_do = {
 			factor = 10
@@ -560,7 +560,7 @@ focus_tree = {
 		prerequisite = { focus = AUS_the_law_of_revolution }		
 		prerequisite = { focus = AUS_redraw_the_borders }
 		prerequisite = { focus = AUS_trade_unionism }		
-		cost = 1
+		cost = 2
 		relative_position_id = AUS_redraw_the_borders
 		ai_will_do = {
 			factor = 10

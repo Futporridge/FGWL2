@@ -880,6 +880,7 @@ hidden_effect = {
 			hidden_effect = {		
 	set_country_flag = AUS_monarchy_fell
 		}
+	remove_ideas = HRE_member		
 }
 }
 	country_event = {	
@@ -1001,6 +1002,7 @@ hidden_effect = {
 	is_triggered_only = yes
 	immediate = {
 	hidden_effect = {
+		remove_ideas = AUS_trade_union_power_lifts
 create_corps_commander = {
 	name = "Julius Deutsch"
 	picture = "Portrait_Julius_Deutsch.tga"
@@ -1318,7 +1320,8 @@ immediate = {
 	every_unit_leader = {
 		limit = { has_trait = AUS_croat }
 		set_nationality = HUN
-	}	
+	}
+	remove_ideas = AUS_serbian_resistance
 	}	
 }
 	option = {
@@ -1703,7 +1706,16 @@ immediate = {
 	}	
 	SLV = {
 	load_oob = SLV_1936
-	}	
+	}
+		add_ideas = {
+		AUS_feudal_legacy
+		AUS_decline_of_the_country
+		}
+		swap_ideas = {
+		remove_idea = AUS_liberalizatiob_of_army
+		add_idea = AUS_people_militia
+		}
+	country_lock_all_division_template = no	
 }
 }
 	option = {
@@ -2030,6 +2042,7 @@ delete_unit_template_and_units = {
     disband = yes
 }
 load_oob = AUS_order_66	
+	remove_ideas = AUS_army1
 					}
 				}
 	fire_only_once = yes
