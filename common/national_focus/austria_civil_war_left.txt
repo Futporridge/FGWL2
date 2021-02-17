@@ -165,7 +165,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		add_ideas = { service_by_requirment }					
+		add_ideas = { service_by_requirement }					
 					}
 				}				
 	shared_focus = {
