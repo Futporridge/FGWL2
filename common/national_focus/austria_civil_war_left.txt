@@ -62,8 +62,12 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+			swap_ideas = {
+			remove_idea = AUS_people_militia
+			add_idea = AUS_rote_armee_1
+			}					
 				}
+			}
 	shared_focus = {
 		id = AUS_hunt_for_experience
 		icon = GFX_goal_generic_position_armies
@@ -84,7 +88,12 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+			swap_ideas = {
+			remove_idea = AUS_rote_armee_1
+			add_idea = AUS_rote_armee_2
+			}					
+			army_experience = 25				
+				}
 				}
 	shared_focus = {
 		id = AUS_new_drill_techniques
@@ -107,7 +116,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+			swap_ideas = {
+			remove_idea = AUS_rote_armee_2
+			add_idea = AUS_rote_armee_3
+			}				
+			}
 				}					
 	shared_focus = {
 		id = AUS_formalize_the_paramilitary
@@ -129,7 +142,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		add_manpower = 35000
+			}
 				}
 	shared_focus = {
 		id = AUS_conscription_campaign
@@ -151,10 +165,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		add_ideas = { service_by_requirment }					
 					}
 				}				
 	shared_focus = {
-		id = AUS_political_comissariat
+		id = AUS_red_guard
 		icon = GFX_goal_generic_position_armies
 		x = 2
 		y = 1
@@ -173,6 +188,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		hidden_effect = {
+		load_oob = "AUS_red_guard" 
+		}	
+		custom_effect_tooltip = AUS_red_guard_tooltip		
 					}
 				}
 	shared_focus = {
@@ -180,10 +199,10 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		x = 0
 		y = 2
-		prerequisite = { focus = AUS_political_comissariat	 }
+		prerequisite = { focus = AUS_red_guard	 }
 		prerequisite = { focus = AUS_conscription_campaign }			
 		cost = 2
-		relative_position_id = AUS_political_comissariat
+		relative_position_id = AUS_red_guard
 		ai_will_do = {
 			factor = 10
 		}
@@ -196,8 +215,19 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = engineers_tech
+		}	
+			
+		add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = infantry_weapons
+		}			
 				}
+			}
 	shared_focus = {
 		id = AUS_rote_armee_invincible
 		icon = GFX_goal_generic_position_armies
@@ -219,7 +249,15 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+			swap_ideas = {
+			remove_idea = AUS_rote_armee_3
+			add_idea = AUS_rote_armee_4
+			}	
+		add_timed_idea = {
+		idea = AUS_rote_armee_inv
+		days = 31
+		}			
+			}
 				}				
 	shared_focus = {
 		id = AUS_proclaim_the_international_solidarity
