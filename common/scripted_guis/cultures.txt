@@ -876,6 +876,11 @@ scripted_gui = {
 			culture_french_equatorial_visible = {
 				check_variable = { nationality = 173 } 
 			}				
-		}			
+		}	
+		triggers = {
+			culture_german_angrivarian_visible = {
+				check_variable = { nationality = 174 } 
+			}				
+		}		
 	}
 }

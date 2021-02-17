@@ -700,4 +700,8 @@ spriteTypes = {
 		name = "GFX_culture_french_equatorial"
 		texturefile = "gfx/interface/ideas/culture/culture_french_equatorial.dds"
 	}	
+		spriteType = {
+		name = "GFX_culture_german_angrivarian"
+		texturefile = "gfx/interface/ideas/culture/culture_german_angrivarian.dds"
+	}	
 }

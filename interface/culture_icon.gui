@@ -1057,6 +1057,12 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_french_equatorial
 			pdx_tooltip = "EOANB_CULTURE_INFO"
-		}		
+		}	
+		iconType = {
+			name = "culture_german_angrivarian"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_german_angrivarian
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}			
 	}
 }

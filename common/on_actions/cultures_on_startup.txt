@@ -719,7 +719,9 @@ on_actions = {
 		#Equatorial French
 		495 = { set_variable = { nationality = 173 } }	#Belem			
 		970 = { set_variable = { nationality = 173 } }	#Amazonie	
-		971 = { set_variable = { nationality = 173 } }	#Inner Amazonia				
+		971 = { set_variable = { nationality = 173 } }	#Inner Amazonia	
+		#Angrivarian
+		638 = { set_variable = { nationality = 174 } }	#Angrivaria			
 		}		
 		
 	}
