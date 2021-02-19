@@ -712,7 +712,8 @@ on_actions = {
 		#Cacadian
 		988 = { set_variable = { nationality = 171 } }	#Inner Cabralia		
 		989 = { set_variable = { nationality = 171 } }	#Saint Helena	
-		987 = { set_variable = { nationality = 171 } }	#Northern Cascades		
+		987 = { set_variable = { nationality = 171 } }	#Northern Cascades	
+		385 = { set_variable = { nationality = 171 } }	#Inner Cascades			
 		#Kreol
 		981 = { set_variable = { nationality = 172 } }	#Novo-Arkhangelsk	
 		463 = { set_variable = { nationality = 172 } }	#Alyaska		

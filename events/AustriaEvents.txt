@@ -2,8 +2,89 @@
 	add_namespace = ausmisc
 	add_namespace = auscol
 	add_namespace = ausnews	
+	add_namespace = ausrt	
 	add_namespace = auscw	
 
+
+	country_event = {	
+	id = ausrt.1
+	title = ausrt.1.t
+	desc = ausrt.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausrt.1.a
+	add_stability = -0.05
+	add_political_power = 100
+	add_manpower = 19000
+	add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 5000
+    producer = AUS
+		}		
+	}
+}
+	country_event = {	
+	id = ausrt.2
+	title = ausrt.2.t
+	desc = ausrt.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausrt.2.a
+	AUS = {
+	transfer_state = 887
+	country_event = { id = ausrt.3 days = 1 }
+		}
+	}
+	option = {
+		name = ausrt.2.b
+	country_event = { id = ausrt.4 days = 1 }
+	add_stability = -0.15
+	add_political_power = 5
+	}	
+}
+	country_event = {	
+	id = ausrt.3
+	title = ausrt.3.t
+	desc = ausrt.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausrt.3.a
+	add_political_power = 25
+	}	
+}
+	country_event = {	
+	id = ausrt.4
+	title = ausrt.4.t
+	desc = ausrt.4.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	immediate = {
+	hidden_effect = {
+					}
+				}
+	fire_only_once = yes
+
+	option = {
+		name = ausrt.4.a
+	add_political_power = -25
+	887 = {
+	add_core_of = AUS
+	}
+		}	
+}
 	country_event = {	
 	id = auscw.1
 	title = auscw.1.t

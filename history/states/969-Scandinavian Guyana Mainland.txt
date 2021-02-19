@@ -1,21 +1,22 @@
+
 state={
 	id=969
 	name="STATE_969"
-	provinces={
-		4934 
-	}
+
 	history={
-		add_core_of = KAL
-		owner = KAL
+		add_core_of = VLP
+		owner = VLP
 		buildings = {
 			infrastructure = 2
 
-
 		}
 
-	}	
-	impassable = yes	
-	state_category=wasteland	
-	manpower=12222
+	}
+
+	provinces={
+		2149 2199 2215 5219 7550 8192 10935 11021 12306 12321 12494 12998 
+	}
+	manpower=1152322
 	buildings_max_level_factor=1.000
+	state_category=town
 }
