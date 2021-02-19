@@ -279,8 +279,9 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
-				}	
+			country_event = { id = ausrt.1 }	
+				}
+			}	
 	shared_focus = {
 		id = AUS_the_sister_republic
 		icon = GFX_goal_generic_position_armies
@@ -301,6 +302,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
+			RHG = {
+			add_ideas = { AUS_aus_redhun_production }
+			}
+			add_ideas = { AUS_aus_redhun_production }			
 					}
 				}	
 	shared_focus = {
@@ -345,6 +350,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		RHG = {
+		add_ideas = { AUS_aus_redhun_attack }
+		}
+		add_ideas = { AUS_aus_redhun_attack }		
 					}
 				}
 	shared_focus = {
@@ -393,6 +402,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		add_ideas = { AUS_revolution_under_siege }			
 					}
 				}
 	shared_focus = {
@@ -414,8 +424,12 @@ focus_tree = {
 
 				}
 
-		completion_reward = {
-					}
+		completion_reward = {	
+		hidden_effect = {
+		load_oob = "AUS_intbrig" 
+		}	
+		custom_effect_tooltip = AUS_intbrig_tooltip			
+			}
 				}
 	shared_focus = {
 		id = AUS_all_german_worker_congress
@@ -459,7 +473,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+			swap_ideas = {
+			remove_idea = AUS_unionism_1
+			add_idea = AUS_unionism_2
+			}					
+		}
 				}				
 	shared_focus = {
 		id = AUS_on_the_ruins_of_empire
@@ -481,6 +499,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		add_politcal_power = 100			
 					}
 				}
 	shared_focus = {
@@ -503,6 +522,14 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		set_technology = {
+		tech_military_police = 1
+		}	
+		add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = military_police_tech
+		}		
 					}
 				}
 	shared_focus = {
@@ -525,6 +552,9 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		remove_ideas = {
+		AUS_right_insurgency_1
+		}		
 					}
 				}				
 	shared_focus = {
@@ -547,7 +577,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+			swap_ideas = {
+			remove_idea = AUS_decline_of_the_country
+			add_idea = AUS_decline_of_the_country_2
+			}				
+		}
 				}
 	shared_focus = {
 		id = AUS_vienna_industrial_region
@@ -569,10 +603,34 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		889 = {
+			add_extra_state_shared_building_slots = 2		
+			add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+				}
+		}
+		889 = {
+			add_extra_state_shared_building_slots = 2		
+			add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+				}
+		}
+		4 = {
+			add_extra_state_shared_building_slots = 2		
+			add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+				}
+		}					
 					}
 				}	
 	shared_focus = {
-		id = AUS_trade_unionism
+		id = AUS_kickstart_the_industry
 		icon = GFX_goal_generic_position_armies
 		x = 0 
 		y = 1
@@ -591,6 +649,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		remove_ideas = { AUS_econ6 }			
 					}
 				}		
 	shared_focus = {
@@ -600,7 +659,7 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = AUS_the_law_of_revolution }		
 		prerequisite = { focus = AUS_redraw_the_borders }
-		prerequisite = { focus = AUS_trade_unionism }		
+		prerequisite = { focus = AUS_kickstart_the_industry }		
 		cost = 2
 		relative_position_id = AUS_redraw_the_borders
 		ai_will_do = {
@@ -615,5 +674,22 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		remove_ideas = { AUS_decline_of_the_country_2 }		
+		4 = {
+			add_extra_state_shared_building_slots = 1		
+			add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+				}
+		}
+		889 = {
+			add_extra_state_shared_building_slots = 1		
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+				}
+		}		
 					}
 				}				

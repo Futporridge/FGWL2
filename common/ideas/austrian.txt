@@ -193,7 +193,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = AUS_angelis_new_order 
+			picture = AUS_divide_empire_2 
 			
 				
 			modifier = {
@@ -531,7 +531,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = AUS_liberalizatiob_of_army 
+			picture = AUS_people_militia 
 			
 				
 			modifier = {
@@ -550,7 +550,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = AUS_liberalizatiob_of_army 
+			picture = AUS_rote_armee_1 
 			
 				
 			modifier = {
@@ -569,7 +569,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = AUS_liberalizatiob_of_army 
+			picture = AUS_rote_armee_2 
 			
 				
 			modifier = {
@@ -588,7 +588,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = AUS_liberalizatiob_of_army 
+			picture = AUS_rote_armee_3 
 			
 				
 			modifier = {
@@ -608,7 +608,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = AUS_liberalizatiob_of_army 
+			picture = AUS_rote_armee_4 
 			
 				
 			modifier = {
@@ -628,7 +628,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = AUS_liberalizatiob_of_army 
+			picture = AUS_rote_armee_inv 
 			
 				
 			modifier = {
@@ -639,6 +639,115 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
-		}			
+		}
+		AUS_aus_redhun_production = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_aus_redhun_production
+			
+				
+			modifier = {
+			production_factory_max_efficiency_factor = 0.05		
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	AUS_aus_redhun_attack = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_aus_redhun_attack 
+			
+				
+			modifier = {
+			targeted_modifier = {
+				tag = TYR
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = HUN
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = SLV
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = SLK
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		AUS_revolution_under_siege = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_aus_redhun_production
+			
+				
+			modifier = {
+			army_core_defence_factor = 0.1	
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		AUS_unionism_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_unionism_1 
+			
+				
+			modifier = {
+			production_factory_max_efficiency_factor = 0.05
+			political_power_gain = 0.1
+			communitarianism_drift = 0.003	
+			utopism_drift = 0.003	
+			prometeism_drift = 0.003
+			liberalism_drift = 0.003			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}	
+		AUS_decline_of_the_country_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_decline_of_the_country 
+			
+			modifier = {
+				political_power_gain = -0.25
+				stability_factor = -0.2						
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
 		}
 	}	
