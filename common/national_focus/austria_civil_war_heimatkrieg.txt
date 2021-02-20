@@ -23,9 +23,9 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		x = 7
 		y = 0
-		cost = 10
+		cost = 20
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {
@@ -36,7 +36,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		add_political_power = 50
+		add_stability = 0.05
 					}
 				}				
 	shared_focus = {
@@ -45,10 +46,10 @@ focus_tree = {
 		x = -3
 		y = 1
 		prerequisite = { focus = TYR_Rebelion_of_the_Spirit }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Rebelion_of_the_Spirit
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {
@@ -59,6 +60,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		create_faction = TYR_Heimatkrieg_Faction			
 					}
 				}
 	shared_focus = {
@@ -67,10 +69,10 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Common_Cause }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Common_Cause
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {
@@ -89,10 +91,10 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Mission_to_the_Loyal_Imperial_Princes }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Mission_to_the_Loyal_Imperial_Princes
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {
@@ -103,6 +105,42 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		add_manpower = 500	
+		add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 2500
+		producer = TYR
+		}
+	create_corps_commander = {
+	name = "Heinrich von Vietinghoff"
+	picture = "Portrait_Heinrich_von_Vietinghoff.tga"
+	traits = { armor_officer panzer_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+	}	
+	create_corps_commander = {
+	name = "Werner von Fritsch"
+	picture = "Portrait_von_Fritsch.tga"
+	traits = { }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+	}	
+	create_corps_commander = {
+	name = "Eberhard von Mackensen"
+	picture = "Portrait_Eberhard_von_Mackensen.tga"
+	traits = { war_hero cavalry_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+	}
 					}
 				}				
 	shared_focus = {
@@ -111,10 +149,10 @@ focus_tree = {
 		x = -2
 		y = 1
 		prerequisite = { focus = TYR_Common_Cause }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Common_Cause
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {
@@ -125,6 +163,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		add_ideas = { TYR_fight_the_red }			
 					}
 				}
 	shared_focus = {
@@ -133,10 +172,10 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_United_in_the_Fight }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_United_in_the_Fight
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {
@@ -147,6 +186,9 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		LTE = {
+		country_event = { id = ausrt.5 }
+		}			
 					}
 				}	
 	shared_focus = {
@@ -156,10 +198,10 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = TYR_Call_to_the_Latin_Empire }
 		prerequisite = { focus = TYR_Invite_the_Imperial_Knights }		
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Call_to_the_Latin_Empire
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {
@@ -170,18 +212,21 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
-				}					
+		POP = {
+		country_event = { id = ausrt.8 }
+			 }		
+		}
+			}					
 	shared_focus = {
 		id = TYR_Reichsgeneralstab
 		icon = GFX_goal_generic_position_armies
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Rebelion_of_the_Spirit }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Rebelion_of_the_Spirit
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {
@@ -192,6 +237,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
+			swap_ideas = {
+			remove_idea = TYR_patriotic_fervor
+			add_idea = TYR_new_austrian_army
+			}		
 					}
 				}
 	shared_focus = {
@@ -200,10 +249,10 @@ focus_tree = {
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Reichsgeneralstab }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Reichsgeneralstab
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {
@@ -214,18 +263,22 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+			swap_ideas = {
+			remove_idea = TYR_new_austrian_army
+			add_idea = TYR_new_austrian_army_2
+			}				
+		}
 				}
 	shared_focus = {
-		id = TYR_Tactical_Renewation
+		id = TYR_Return_the_Kornetts
 		icon = GFX_goal_generic_position_armies
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Codification_of_Military_Code }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Codification_of_Military_Code
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {
@@ -236,7 +289,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+			swap_ideas = {
+			remove_idea = TYR_new_austrian_army_2
+			add_idea = TYR_new_austrian_army_3
+			}			
+		}
 				}				
 	shared_focus = {
 		id = TYR_Expand_the_Rifle_Unions
@@ -244,10 +301,10 @@ focus_tree = {
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Reichsgeneralstab }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Reichsgeneralstab
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {
@@ -258,18 +315,21 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		hidden_effect = {
+		load_oob = "TYR_rifle_unions" 		
+		}			
 					}
 				}
 	shared_focus = {
-		id = TYR_Return_the_Kornetts
+		id = TYR_Tactical_Renewation
 		icon = GFX_goal_generic_position_armies
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Expand_the_Rifle_Unions }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Expand_the_Rifle_Unions
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {
@@ -289,10 +349,10 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = TYR_Tactical_Renewation }
 		prerequisite = { focus = TYR_Return_the_Kornetts }		
-		cost = 1
-		relative_position_id = TYR_Tactical_Renewation
+		cost = 2
+		relative_position_id = TYR_Return_the_Kornetts
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {
@@ -311,10 +371,10 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Elect_the_High_Regent }		
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Elect_the_High_Regent
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {
@@ -333,10 +393,10 @@ focus_tree = {
 		x = 3
 		y = 1
 		prerequisite = { focus = TYR_Rebelion_of_the_Spirit }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Rebelion_of_the_Spirit
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {
@@ -355,10 +415,10 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Empower_Local_Autonomies }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Empower_Local_Autonomies
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {
@@ -377,10 +437,10 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Create_the_Popular_Militia }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Create_the_Popular_Militia
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {
@@ -399,10 +459,10 @@ focus_tree = {
 		x = 2
 		y = 1
 		prerequisite = { focus = TYR_Empower_Local_Autonomies }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Empower_Local_Autonomies
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {
@@ -421,10 +481,10 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Organize_the_Fundraising_Company }
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Organize_the_Fundraising_Company
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {
@@ -444,10 +504,10 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = TYR_Create_the_Weapon_Guilds }
 		prerequisite = { focus = TYR_Hunt_for_Reds }		
-		cost = 1
+		cost = 2
 		relative_position_id = TYR_Create_the_Weapon_Guilds
 		ai_will_do = {
-			factor = 10
+			factor = 2
 		}
 		available_if_capitulated = no
 		available = {

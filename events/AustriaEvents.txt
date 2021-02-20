@@ -86,6 +86,128 @@
 		}	
 }
 	country_event = {	
+	id = ausrt.5
+	title = ausrt.5.t
+	desc = ausrt.5.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausrt.5.a
+	add_political_power = -25
+	country_event = { id = ausrt.6 }
+	}
+	option = {
+		name = ausrt.5.b
+	add_political_power = 25
+	add_manpower = -500
+	add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = -1700
+    producer = LTE
+		}	
+	TYR = {
+	country_event = { id = ausrt.7 }
+	   }
+	}	
+}
+	country_event = {	
+	id = ausrt.6
+	title = ausrt.6.t
+	desc = ausrt.6.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausrt.6.a
+	add_political_power = 25
+	add_ideas = { TYR_latin_attache }
+	add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 1700
+    producer = LTE
+		}	
+	}	
+}
+	country_event = {	
+	id = ausrt.7
+	title = ausrt.7.t
+	desc = ausrt.7.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausrt.7.a
+	add_political_power = -25
+	add_stability = -0.05
+	}	
+}
+	country_event = {	
+	id = ausrt.8
+	title = ausrt.8.t
+	desc = ausrt.8.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausrt.8.a
+	add_political_power = -100
+	add_stability = 0.15
+	country_event = { id = ausrt.9 }
+	}
+	option = {
+		name = ausrt.8.b
+	add_stability = -0.15		
+	TYR = {
+	country_event = { id = ausrt.10 }
+	   }
+	}	
+}
+	country_event = {	
+	id = ausrt.9
+	title = ausrt.9.t
+	desc = ausrt.9.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausrt.9.a
+	add_political_power = 100
+	add_ideas = { TYR_holy_sanction }
+	hidden_effect = {
+		set_variable = {
+		var = TYR_Orel
+		value = 15
+			}	
+		}
+	}	
+}
+	country_event = {	
+	id = ausrt.10
+	title = ausrt.10.t
+	desc = ausrt.10.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ausrt.10.a
+	add_political_power = -200
+	add_stability = -0.2
+	}	
+}
+	country_event = {	
 	id = auscw.1
 	title = auscw.1.t
 	desc = auscw.1.d

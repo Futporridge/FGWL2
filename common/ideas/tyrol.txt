@@ -340,7 +340,119 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
-		}	
+		}
+		TYR_fight_the_red = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_fight_the_red 
+		
+			targeted_modifier = {
+				tag = AUS
+				attack_bonus_against = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
+		TYR_latin_attache = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_latin_attache 
+			
+			modifier = {
+				army_org_factor = 0.05
+				max_planning = 0.1
+				planning_speed = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_holy_sanction = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_holy_sanction 
+			
+			modifier = {
+				war_support_factor = 0.15
+				stability_factor = 0.15
+				army_org_regain = 0.05 				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_new_austrian_army = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army 
+		
+			modifier = {
+				army_core_defence_factor = 0.15
+				war_support_factor = 0.1
+				offence = 0.05
+				army_org_factor = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_new_austrian_army_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army_2 
+		
+			modifier = {
+				army_core_defence_factor = 0.15
+				war_support_factor = 0.1
+				offence = 0.05
+				army_org_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_new_austrian_army_3 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army_2 
+		
+			modifier = {
+				army_core_defence_factor = 0.15
+				war_support_factor = 0.1
+				offence = 0.05
+				army_org_factor = 0.1
+				army_org_regain = 0.05
+				conscription_factor = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
 	}
 
 		}	

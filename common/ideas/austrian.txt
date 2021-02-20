@@ -666,7 +666,6 @@ ideas = {
 			picture = AUS_aus_redhun_attack 
 			
 				
-			modifier = {
 			targeted_modifier = {
 				tag = TYR
 				attack_bonus_against = 0.1
@@ -687,7 +686,7 @@ ideas = {
 				attack_bonus_against = 0.1
 				defense_bonus_against = 0.1
 			}			
-			}
+			
 	
 			ai_will_do = {
 				factor = 0
@@ -699,7 +698,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = AUS_aus_redhun_production
+			picture = AUS_revolution_under_siege
 			
 				
 			modifier = {
@@ -742,7 +741,7 @@ ideas = {
 			
 			modifier = {
 				political_power_gain = -0.25
-				stability_factor = -0.2						
+				stability_factor = -0.025						
 			}
 	
 			ai_will_do = {
