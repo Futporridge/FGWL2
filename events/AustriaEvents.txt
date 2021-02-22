@@ -97,7 +97,9 @@
 	option = {
 		name = ausrt.5.a
 	add_political_power = -25
+	TYR = {
 	country_event = { id = ausrt.6 }
+		}
 	}
 	option = {
 		name = ausrt.5.b
@@ -161,7 +163,9 @@
 		name = ausrt.8.a
 	add_political_power = -100
 	add_stability = 0.15
+	TYR = {
 	country_event = { id = ausrt.9 }
+		}
 	}
 	option = {
 		name = ausrt.8.b

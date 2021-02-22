@@ -81,7 +81,7 @@ create_country_leader = {
 		name = tyr.3.a
 		TYR = { add_to_faction = SLV }
 		hidden_effect = {
-		set_variable = {
+		add_to_variable  = {
 		var = TYR_Steidle
 		value = 10
 		}
@@ -90,11 +90,11 @@ create_country_leader = {
 	option = {
 		name = tyr.3.b
 		hidden_effect = {
-	set_variable = {
+	add_to_variable  = {
 		var = TYR_Dolfuss
 		value = 10
 	}
-	set_variable = {
+	add_to_variable  = {
 		var = TYR_Orel
 		value = 10
 	}
@@ -111,7 +111,7 @@ create_country_leader = {
 	option = {
 		name = tyr.4.a
 		hidden_effect = {
-		set_variable = {
+		add_to_variable  = {
 		var = TYR_Steidle
 		value = 10
 		}
@@ -120,7 +120,7 @@ create_country_leader = {
 	option = {
 		name = tyr.4.b
 		hidden_effect = {
-	set_variable = {
+	add_to_variable  = {
 		var = TYR_Dolfuss
 		value = 10
 	}
@@ -129,7 +129,7 @@ create_country_leader = {
 	option = {
 		name = tyr.4.c
 		hidden_effect = {
-	set_variable = {
+	add_to_variable  = {
 		var = TYR_Orel
 		value = 10
 	}
@@ -151,7 +151,7 @@ create_country_leader = {
     producer = TYR
 		}			
 		hidden_effect = {
-		set_variable = {
+		add_to_variable  = {
 		var = TYR_Steidle
 		value = 10
 		}
@@ -168,7 +168,7 @@ create_country_leader = {
 				}
 		}		
 		hidden_effect = {	
-	set_variable = {
+	add_to_variable  = {
 		var = TYR_Dolfuss
 		value = 10
 	}
@@ -185,7 +185,7 @@ create_country_leader = {
 				}
 		}			
 		hidden_effect = {
-	set_variable = {
+	add_to_variable  = {
 		var = TYR_Orel
 		value = 10
 	}
@@ -210,7 +210,7 @@ create_country_leader = {
 				}
 		}		
 		hidden_effect = {
-		set_variable = {
+		add_to_variable  = {
 		var = TYR_Steidle
 		value = 10
 		}
@@ -219,7 +219,7 @@ create_country_leader = {
 	option = {
 		name = tyr.6.b	
 		hidden_effect = {	
-	set_variable = {
+	add_to_variable  = {
 		var = TYR_Dolfuss
 		value = 10
 	}
@@ -230,7 +230,7 @@ create_country_leader = {
 		add_war_support = -0.05
 		add_political_power = 50				
 		hidden_effect = {
-	set_variable = {
+	add_to_variable  = {
 		var = TYR_Orel
 		value = 10
 	}
@@ -253,7 +253,7 @@ create_country_leader = {
 		}		
 		hidden_effect = {
 		load_oob = "TYR_bav" 	
-		set_variable = {
+		add_to_variable  = {
 		var = TYR_Steidle
 		value = 10
 		}
@@ -267,7 +267,7 @@ create_country_leader = {
     producer = BFR
 		}		
 		hidden_effect = {	
-	set_variable = {
+	add_to_variable  = {
 		var = TYR_Dolfuss
 		value = 10
 	}
@@ -276,7 +276,7 @@ create_country_leader = {
 	option = {
 		name = tyr.7.c				
 		hidden_effect = {
-	set_variable = {
+	add_to_variable  = {
 		var = TYR_Orel
 		value = 10
 	}
@@ -294,7 +294,7 @@ create_country_leader = {
 		name = tyr.8.a
 		add_war_support = -0.05
 		hidden_effect = {	
-	set_variable = {
+	add_to_variable  = {
 		var = TYR_Orel
 		value = -15
 	}
@@ -302,14 +302,75 @@ create_country_leader = {
 	}
 	option = {
 		name = tyr.8.b	
-	add_stability = -0.05
-		}		
+	add_stability = -0.05		
 		hidden_effect = {	
-	set_variable = {
+	add_to_variable  = {
 		var = TYR_Orel
 		value = 10
 	}
 			}
 	}
-	
+}	
+	country_event = {	
+	id = tyr.9
+	title = tyr.9.t
+	desc = tyr.9.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	option = {
+		name = tyr.9.a
+	trigger = {
+	check_variable = {
+	var = TYR_Steidle
+	value = TYR_Dolfuss
+	compare = greater_than
+			}
+	check_variable = {
+	var = TYR_Steidle
+	value = TYR_Orel
+	compare = greater_than
+			}			
+		}	
+	}
+	option = {
+		name = tyr.9.b
+	trigger = {
+	check_variable = {
+	var = TYR_Dolfuss
+	value = TYR_Steidle
+	compare = greater_than
+			}
+	check_variable = {
+	var = TYR_Dolfuss
+	value = TYR_Orel
+	compare = greater_than
+			}			
+		}
+	hidden_effect = {
+	set_politics = {
+	ruling_party = paternalism
+			}
+		}		
+	}	
+	option = {
+		name = tyr.9.c
+	trigger = {
+	check_variable = {
+	var = TYR_Orel
+	value = TYR_Steidle
+	compare = greater_than
+			}
+	check_variable = {
+	var = TYR_Orel
+	value = TYR_Dolfuss
+	compare = greater_than
+			}			
+		}
+	hidden_effect = {
+	set_politics = {
+	ruling_party = reactionary
+			}
+		}
+	}	
 }

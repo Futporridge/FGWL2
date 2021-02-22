@@ -1,0 +1,24 @@
+state={
+	id=990
+	name="STATE_990"
+	provinces={
+		1217 1410 1422 1431 1454 1478 1501 1514 1644 2139 2166 2187 4415 4441 4462 4487 4505 4520 4648 7457 7481 7506 7525 7538 7566 7669 8230 10276 10288 10316 10338 10350 10365 10378 10518 12104 12246 12290 12311 12326 12339 12354 12367 12382 12499 12957 
+	}
+	history={
+		owner = EEN
+		victory_points = {
+			9427 25 
+		}
+		victory_points = {
+			442 3 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = EEN
+
+	}	
+	manpower=667841
+	state_category=rural	
+	buildings_max_level_factor=1.000
+}

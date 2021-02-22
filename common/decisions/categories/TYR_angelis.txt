@@ -1,0 +1,14 @@
+################
+##### AUS ######
+################
+
+TYR_shield_of_the_republic = {
+	icon = TYR_shield_of_the_republic
+	allowed = {
+		has_country_flag = angelis_shield_of_the_republic
+	}
+	visible = {
+		has_country_flag = angelis_shield_of_the_republic
+		}
+	}
+}

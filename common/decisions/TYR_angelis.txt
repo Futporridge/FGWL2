@@ -1,0 +1,95 @@
+################
+##### TYR ######
+################
+
+TYR_shield_of_the_republic = {                               
+     recreate_the_heer = {                          
+          allowed = { tag = TYR }  
+          cost = 50		  
+          complete_effect = {                    
+		add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = land_doctrine
+		}     		
+          }
+		  
+     }
+     form_the_austrian_armored_corps = {                                         
+          available = {                           
+		has_decision = recreate_the_heer                              
+          }	  
+          cost = 10		  
+          is_good = yes                           
+          days_remove = 25
+          remove_effect = {                      
+		add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = armor
+		}
+			}
+		  
+     }	
+     equipment_renovation = {                                         
+          available = {                           
+		has_decision = recreate_the_heer                              
+          }	 
+          cost = 10	  
+          is_good = yes                           
+          days_remove = 25
+          remove_effect = {                      
+		add_tech_bonus = {
+		bonus = 0.5
+		uses = 2
+		category = infantry_weapons
+		}
+			}
+		  
+     }	
+     land_doctrinal_renovation = {                                         
+          available = {                           
+		has_decision = recreate_the_heer                              
+          }	  
+          cost = 10	  
+          is_good = yes                           
+          days_remove = 25
+          remove_effect = {                      
+		add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = land_doctrine
+		}
+			}
+		  
+     }		 
+     recreate_the_luftstreitkrafte = {                          
+          allowed = { tag = TYR }  
+          cost = 50		  
+          complete_effect = {                    
+		add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = air_doctrine
+		}     		
+          }
+		  
+     }
+     recreate_the_Kriegsmarine = {                          
+          allowed = { 			
+		  any_state = {
+				is_coastal = yes
+				is_controlled_by = ROOT
+			}
+				}  
+          cost = 50		  
+          complete_effect = {                    
+		add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = naval_doctrine
+		}     		
+          }
+		  
+     }	 	 
+}
