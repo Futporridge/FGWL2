@@ -138,7 +138,7 @@ add_equipment_to_stockpile = {
 		  
      }		
      recreate_the_Kriegsmarine = {                          
-          allowed = { 			
+          available = { 			
 		  any_state = {
 				is_coastal = yes
 				is_controlled_by = ROOT
