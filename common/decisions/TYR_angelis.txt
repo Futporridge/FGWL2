@@ -3,7 +3,8 @@
 ################
 
 TYR_shield_of_the_republic = {                               
-     recreate_the_heer = {                          
+     recreate_the_heer = {  
+	icon = GFX_decision_generic_army_support	 
           allowed = { tag = TYR }  
           cost = 50		  
           complete_effect = {                    
@@ -18,7 +19,8 @@ TYR_shield_of_the_republic = {
      form_the_austrian_armored_corps = {                                         
           available = {                           
 		has_decision = recreate_the_heer                              
-          }	  
+          }	 
+	icon = GFX_decision_generic_tank	  
           cost = 10		  
           is_good = yes                           
           days_remove = 25
@@ -35,6 +37,7 @@ TYR_shield_of_the_republic = {
           available = {                           
 		has_decision = recreate_the_heer                              
           }	 
+	icon = GFX_decision_generic_industry	  
           cost = 10	  
           is_good = yes                           
           days_remove = 25
@@ -51,6 +54,7 @@ TYR_shield_of_the_republic = {
           available = {                           
 		has_decision = recreate_the_heer                              
           }	  
+	icon = GFX_decision_generic_operation			  
           cost = 10	  
           is_good = yes                           
           days_remove = 25
@@ -65,7 +69,8 @@ TYR_shield_of_the_republic = {
      }		 
      recreate_the_luftstreitkrafte = {                          
           allowed = { tag = TYR }  
-          cost = 50		  
+          cost = 50		
+	icon = GFX_decision_generic_air		  
           complete_effect = {                    
 		add_tech_bonus = {
 		bonus = 0.5
@@ -75,6 +80,63 @@ TYR_shield_of_the_republic = {
           }
 		  
      }
+    buy_airfleet = {                                         
+          available = {                           
+		has_decision = recreate_the_luftstreitkrafte                              
+          }	  
+	icon = GFX_decision_buy_airships			  
+          cost = 10	  
+          is_good = yes                           
+          days_remove = 25
+          remove_effect = {                      
+		add_tech_bonus = {
+		bonus = 1
+		uses = 3
+		category = air_equipment
+		}
+add_equipment_to_stockpile = {
+    type = fighter_equipment
+    amount = 55
+    producer = KAL
+}		
+			}
+		  
+     }		 
+     create_airfield = {                                         
+          available = {                           
+		has_decision = recreate_the_luftstreitkrafte                              
+          }	  
+	icon = GFX_decision_generic_construction			  
+          cost = 10	  
+          is_good = yes                           
+          days_remove = 25
+          remove_effect = {                      
+			154 = {
+				add_building_construction = {
+					type = air_base 
+					level = 3
+					instant_build = yes
+				}
+			}
+			}
+		}	
+     air_doctrinal_renovation = {                                         
+          available = {                           
+		has_decision = recreate_the_luftstreitkrafte                              
+          }	  
+	icon = GFX_decision_generic_decision		  
+          cost = 10	  
+          is_good = yes                           
+          days_remove = 25
+          remove_effect = {                      
+		add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = air_doctrine
+		}
+			}
+		  
+     }		
      recreate_the_Kriegsmarine = {                          
           allowed = { 			
 		  any_state = {
@@ -82,6 +144,7 @@ TYR_shield_of_the_republic = {
 				is_controlled_by = ROOT
 			}
 				}  
+	icon = GFX_decision_generic_naval	  				
           cost = 50		  
           complete_effect = {                    
 		add_tech_bonus = {
@@ -91,5 +154,66 @@ TYR_shield_of_the_republic = {
 		}     		
           }
 		  
-     }	 	 
+     }
+     expand_dockyards = {                                         
+          available = {                           
+		has_decision = recreate_the_Kriegsmarine                              
+          }	  
+	icon = GFX_decision_generic_construction			  
+          cost = 10	  
+          is_good = yes                           
+          days_remove = 25
+          remove_effect = {                      
+			random_owned_controlled_state = {
+				limit = {
+				any_state = {
+				is_coastal = yes
+				is_controlled_by = ROOT
+					}	
+
+				}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard 
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+     expand_fleet = {                                         
+          available = {                           
+		has_decision = recreate_the_Kriegsmarine                              
+          }	  
+	icon = GFX_decision_new_ships			  
+          cost = 10	  
+          is_good = yes                           
+          days_remove = 25
+          remove_effect = {                      
+		add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = naval_equipment
+		}			
+			}
+		}
+     recreate_naval_doctrine = {                                         
+          available = {                           
+		has_decision = recreate_the_Kriegsmarine                              
+          }	  
+	icon = GFX_decision_eng_trade_unions_support		  
+          cost = 10	  
+          is_good = yes                           
+          days_remove = 25
+          remove_effect = {                      
+		add_tech_bonus = {
+		bonus = 1
+		uses = 2
+		category = naval_doctrine
+		}			
+			}
+		}		
+		  
+     }	 
+	 
 }

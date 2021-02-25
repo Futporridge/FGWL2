@@ -3,12 +3,11 @@
 ################
 
 TYR_shield_of_the_republic = {
-	icon = TYR_shield_of_the_republic
-	allowed = {
-		has_country_flag = angelis_shield_of_the_republic
-	}
+	
+	icon = GFX_decision_category_army_reform	
+	picture = GFX_TYR_shield_of_the_republic	
 	visible = {
-		has_country_flag = angelis_shield_of_the_republic
+		has_completed_focus = TYR_The_Shield_of_the_Republic
 		}
 	}
 }
