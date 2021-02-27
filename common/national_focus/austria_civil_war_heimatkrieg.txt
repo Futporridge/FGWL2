@@ -238,7 +238,7 @@ focus_tree = {
 
 		completion_reward = {
 			swap_ideas = {
-			remove_idea = TYR_patriotic_fervor
+			remove_idea = TYR_heimatskrieg
 			add_idea = TYR_new_austrian_army
 			}		
 					}
@@ -340,6 +340,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		country_event = { id = tyr.10 }						
 					}
 				}
 	shared_focus = {
@@ -363,6 +364,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		country_event = { id = tyr.9 days = 1 }			
 					}
 				}
 	shared_focus = {

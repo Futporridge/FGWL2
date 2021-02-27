@@ -374,3 +374,35 @@ create_country_leader = {
 		}
 	}	
 }
+	country_event = {	
+	id = tyr.10
+	title = tyr.10.t
+	desc = tyr.10.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	option = {
+		name = tyr.10.a
+		add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = cat_superior_firepower
+		}	
+	}	
+	option = {
+		name = tyr.10.b
+		add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = cat_grand_battle_plan
+		}		
+	}	
+	option = {
+		name = tyr.10.c
+		add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = cat_mass_assault
+		}
+	}	
+}
