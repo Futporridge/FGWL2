@@ -452,6 +452,42 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
+		}
+		TYR_vae_victis = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_vae_victis 
+		
+			modifier = {
+				offence = 0.15
+				defence = 0.15
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_economical_half_crash = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_econ1 
+		
+			modifier = {
+				political_power_gain_factor = -0.1
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.2
+				production_factory_max_efficiency_factor = -0.25 
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
 		}		
 	}
 

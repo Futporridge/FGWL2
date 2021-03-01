@@ -1,6 +1,48 @@
 ﻿	add_namespace = tyr
-
+	add_namespace = tyrendcw
 	
+	country_event = {	
+	id = tyrendcw.1
+	title = tyrendcw.1.t
+	desc = tyrendcw.1.d
+	picture = GFX_
+
+	immediate = {
+	hidden_effect = {	
+	}
+		}
+	is_triggered_only = yes
+	option = {
+		name = tyrendcw.1.a
+	trigger = {
+	has_country_flag = TYR_Steidle_victory	
+		}		
+ 		
+	}
+	option = {
+		name = tyrendcw.1.b
+	trigger = {
+	has_country_flag = TYR_Dolfuss_victory	
+		}		
+ 		
+	}	
+	option = {
+		name = tyrendcw.1.c
+	trigger = {
+	has_country_flag = TYR_Orel_victory	
+		}		
+ 		
+	}	
+	option = {
+		name = tyrendcw.1.d
+	trigger = {
+	has_country_flag = TYR_angelis_in_power	
+		}
+	hidden_effect = {
+	
+		}
+	}	
+}	
 	country_event = {	
 	id = tyr.1
 	title = tyr.1.t
@@ -128,6 +170,41 @@ create_country_leader = {
 	}
 	option = {
 		name = tyr.4.c
+		hidden_effect = {
+	add_to_variable  = {
+		var = TYR_Orel
+		value = 10
+	}
+			}
+	}	
+}
+	country_event = {	
+	id = tyr.11
+	title = tyr.11.t
+	desc = tyr.11.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	option = {
+		name = tyr.11.a
+		hidden_effect = {
+		add_to_variable  = {
+		var = TYR_Steidle
+		value = 10
+		}
+			}
+	}
+	option = {
+		name = tyr.11.b
+		hidden_effect = {
+	add_to_variable  = {
+		var = TYR_Dolfuss
+		value = 10
+	}
+			}
+	}
+	option = {
+		name = tyr.11.c
 		hidden_effect = {
 	add_to_variable  = {
 		var = TYR_Orel
@@ -331,7 +408,10 @@ create_country_leader = {
 	value = TYR_Orel
 	compare = greater_than
 			}			
-		}	
+		}
+	hidden_effect = { 
+	set_country_flag = TYR_Steidle_victory 
+		}
 	}
 	option = {
 		name = tyr.9.b
@@ -348,6 +428,7 @@ create_country_leader = {
 			}			
 		}
 	hidden_effect = {
+	set_country_flag = TYR_Dolfuss_victory	
 	set_politics = {
 	ruling_party = paternalism
 			}
@@ -368,6 +449,7 @@ create_country_leader = {
 			}			
 		}
 	hidden_effect = {
+	set_country_flag = TYR_Orel_victory	
 	set_politics = {
 	ruling_party = reactionary
 			}

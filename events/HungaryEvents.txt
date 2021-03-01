@@ -425,6 +425,9 @@ immediate = {
 		transfer_state = 70		
 		transfer_state = 71		
 		}
+	AUS = {
+	country_event = { id = auscw.1 days = 5 }
+	}	
 	}	
 }
 	option = {

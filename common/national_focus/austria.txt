@@ -136,7 +136,12 @@ focus_tree = {
 		completion_reward = {
 		custom_effect_tooltip = AUS_western_region_cooperation
 		hidden_effect = {
-		country_event = { id =  }
+		SWI = {
+		country_event = { id = ausmisc.1 }
+			}
+		VEN = {
+		country_event = { id = ausmisc.2 }
+			}			
 		}
 			}
 				}	
@@ -162,6 +167,12 @@ focus_tree = {
 
 		completion_reward = {
 		custom_effect_tooltip = AUS_new_world_region_cooperation	
+		VWS = {
+		country_event = { id = ausmisc.7 }
+			}
+		EQU = {
+		country_event = { id = ausmisc.10 }
+			}			
 					}
 				}	
 	focus = {
@@ -186,6 +197,9 @@ focus_tree = {
 
 		completion_reward = {
 		custom_effect_tooltip = AUS_southern_region_cooperation					
+		LTE = {
+		country_event = { id = ausmisc.12 }
+			}				
 				}
 				}
 	focus = {
@@ -268,6 +282,9 @@ focus_tree = {
 
 		completion_reward = {
 		custom_effect_tooltip = AUS_sale_of_colonies_tooltip
+		hidden_effect = {
+		country_event = { id = auscol.1 }
+		}
 				}
 				}					'					
 			}

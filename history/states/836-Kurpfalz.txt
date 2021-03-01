@@ -7,7 +7,7 @@ state={
 	history={
 		owner = KRF
 		victory_points = {
-			6568 10 
+			6568 15 
 		}
 		buildings = {
 			infrastructure = 8

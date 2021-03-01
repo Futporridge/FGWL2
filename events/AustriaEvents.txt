@@ -968,7 +968,7 @@ country_event = {
     level = 1
 				}		
     }
-    732 = {
+    307 = {
         add_manpower = 27000
     }
     489 = {
@@ -2368,6 +2368,9 @@ load_oob = AUS_order_66
 		days = 62
 	}
 	add_political_power = 100
+	hidden_effect = {
+	country_event = { id = auscol.14 days = 1 }
+		}
 	}
 	
 }
@@ -2532,7 +2535,10 @@ load_oob = AUS_order_66
 
 	option = {
 		name = auscol.11.a
-	add_political_power = 100		
+	add_political_power = 100	
+	hidden_effect = {
+	country_event = { id = auscol.14 days = 1 }
+		}
 	}	
 }
 	country_event = {	
@@ -2565,6 +2571,7 @@ load_oob = AUS_order_66
 		name = auscol.13.a
 	add_political_power = -25
 	hidden_effect = {
+	country_event = { id = auscol.14 days = 1 }
 	VCN = {
 		transfer_state = 773	
 	}

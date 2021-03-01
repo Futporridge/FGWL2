@@ -15,10 +15,10 @@ state={
 
 		}
 		victory_points = {
-			514 5 
+			514 30
 		}
 		victory_points = {
-			3535 5 
+			3535 20 
 		}
 		add_core_of = SAX
 

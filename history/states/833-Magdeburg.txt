@@ -6,11 +6,8 @@ state={
 	history={
 		owner = BRA
 		victory_points = {
-			6282 5 
-		}
-		victory_points = {
-			11372 3 
-		}
+			3522 20
+		}		
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1

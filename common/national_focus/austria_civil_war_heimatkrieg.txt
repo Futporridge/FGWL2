@@ -38,6 +38,11 @@ focus_tree = {
 		completion_reward = {
 		add_political_power = 50
 		add_stability = 0.05
+		hidden_effect = {
+		country_event = { id = tyr.6 days = 14 }
+		country_event = { id = tyr.7 days = 49 }			
+		country_event = { id = tyr.8 days = 56 }		
+			}		
 					}
 				}				
 	shared_focus = {
@@ -60,7 +65,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		create_faction = TYR_Heimatkrieg_Faction			
+		create_faction = TYR_Heimatkrieg_Faction
+		hidden_effect = {
+		country_event = { id = tyr.3 }
+		}
 					}
 				}
 	shared_focus = {
@@ -163,7 +171,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		add_ideas = { TYR_fight_the_red }			
+		add_ideas = { TYR_fight_the_red }
+		hidden_effect = {
+		country_event = { id = tyr.4 }
+		}		
 					}
 				}
 	shared_focus = {
@@ -266,7 +277,10 @@ focus_tree = {
 			swap_ideas = {
 			remove_idea = TYR_new_austrian_army
 			add_idea = TYR_new_austrian_army_2
-			}				
+			}
+		hidden_effect = {
+		country_event = { id = tyr.11 }
+			}
 		}
 				}
 	shared_focus = {
@@ -315,6 +329,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		add_manpower = 24000
 		hidden_effect = {
 		load_oob = "TYR_rifle_unions" 		
 		}			
@@ -340,7 +355,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		country_event = { id = tyr.10 }						
+		country_event = { id = tyr.10 }
+		army_experience = 25	
 					}
 				}
 	shared_focus = {
@@ -357,7 +373,8 @@ focus_tree = {
 		}
 		available_if_capitulated = no
 		available = {
-	
+		has_completed_focus = TYR_Holy_Sanction
+		has_completed_focus = TYR_Economical_Stabilization	
 		}
 		bypass = {
 
@@ -387,6 +404,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		add_timed_idea = {
+			idea = TYR_vae_victis
+			days = 52
+		}				
 					}
 				}				
 	shared_focus = {
@@ -409,6 +430,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		remove_ideas = AUS_decline_of_the_country			
 					}
 				}
 	shared_focus = {
@@ -431,7 +453,15 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					}
+		set_technology = {
+		tech_military_police = 1
+			}
+		add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = military_police_tech
+			}			
+		}
 				}
 	shared_focus = {
 		id = TYR_Hunt_for_Reds
@@ -442,7 +472,7 @@ focus_tree = {
 		cost = 2
 		relative_position_id = TYR_Create_the_Popular_Militia
 		ai_will_do = {
-			factor = 2
+			factor = 1
 		}
 		available_if_capitulated = no
 		available = {
@@ -453,6 +483,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		remove_ideas = TYR_left_insurgency						
 					}
 				}
 	shared_focus = {
@@ -475,6 +506,13 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		swap_ideas = {
+		remove_idea = AUS_econ6
+		add_idea = TYR_economical_half_crash
+		}
+		hidden_effect = {
+		country_event = { id = tyr.5 }
+			}		
 					}
 				}
 	shared_focus = {
@@ -497,6 +535,14 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		153 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 					}
 				}
 	shared_focus = {
@@ -506,7 +552,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = TYR_Create_the_Weapon_Guilds }
 		prerequisite = { focus = TYR_Hunt_for_Reds }		
-		cost = 2
+		cost = 1
 		relative_position_id = TYR_Create_the_Weapon_Guilds
 		ai_will_do = {
 			factor = 2
@@ -520,5 +566,6 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		remove_ideas = TYR_economical_half_crash					
 					}
 				}				

@@ -11,11 +11,13 @@ state={
 
 		}
 		add_core_of = HAN
-
+		victory_points = {
+			6349 3
+		}
 	}
 
 	provinces={
-		374 6349 
+		374 6349 11757 
 	}
 	manpower=345678
 	buildings_max_level_factor=1.000

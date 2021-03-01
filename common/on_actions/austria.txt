@@ -15,3 +15,37 @@ on_actions = {
 
 	}
 }
+	on_peaceconference_ended = {
+		effect = {
+			if = {
+				limit = { tag = TYR }			
+				annex_country = { target = AUS }
+				set_capital = 889
+			}
+			if = {
+				limit = { tag = SLV }
+				TYR = {
+				annex_country = { target = AUS }
+				set_capital = 889	
+				}
+			}
+			if = {
+				limit = {
+					FROM = { tag = AUS }
+				}
+			}
+		}
+}
+	on_annex = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { tag = TYR }
+					FROM = { tag = AUS }
+				}
+				TYR = {
+				country_event = { id = tyrendcw.1 days = 2 }
+				}
+			}
+	}
+	}	

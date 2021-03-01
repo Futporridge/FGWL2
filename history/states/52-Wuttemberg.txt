@@ -9,7 +9,7 @@ state={
 	history={
 		owner = BAV
 		victory_points = {
-			692 20 
+			692 30
 		}
 		victory_points = {
 			708 3 

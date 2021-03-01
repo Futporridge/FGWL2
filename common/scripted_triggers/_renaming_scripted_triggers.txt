@@ -218,7 +218,8 @@ is_german_tag = {
 		tag = LUB
 		tag = TEU
 		tag = BLT
-		tag = SWI		
+		tag = SWI
+		tag = TYR		
 	}
 }
 is_germany_or_splinter_tag = {
