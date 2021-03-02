@@ -70,6 +70,12 @@
 		892 = {
 		set_demilitarized_zone = yes
 		}
+	RUK = { 
+	country_event = { id = ruk.1 days = 4 }
+	}	
+	MOL = { 
+	country_event = { id = mol.1 days = 4 }
+	}	
 		}
 				}
 	option = {

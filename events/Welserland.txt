@@ -1,0 +1,25 @@
+﻿
+	add_namespace = vws
+	
+	country_event = {	
+	id = vws.1
+	title = vws.1.t
+	desc = vws.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = vws.1.a
+			hidden_effect = {
+			
+AUS = {
+set_autonomy = {
+    target = VWS
+    autonomy_state = autonomy_free
+}		
+}
+leave_faction = yes
+		}
+}
+}

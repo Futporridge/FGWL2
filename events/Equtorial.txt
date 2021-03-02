@@ -1,0 +1,25 @@
+﻿
+	add_namespace = equ
+	
+	country_event = {	
+	id = equ.1
+	title = equ.1.t
+	desc = equ.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = equ.1.a
+			hidden_effect = {
+			
+AUS = {
+set_autonomy = {
+    target = EQU
+    autonomy_state = autonomy_free
+}		
+}
+leave_faction = yes
+		}
+}
+}

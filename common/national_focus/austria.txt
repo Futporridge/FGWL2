@@ -16,7 +16,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_call_for_the_reichstag
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_call_for_reichstag
 		x = 7
 		y = 0
 		cost = 10
@@ -34,7 +34,7 @@ focus_tree = {
 				}
 	focus = {
 		id = AUS_forcing_new_economical_policy
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_forcing_new_economic_policy
 		x = 0
 		y = 1
 		prerequisite = { focus = AUS_call_for_the_reichstag }
@@ -59,7 +59,7 @@ focus_tree = {
 				}
 	focus = {
 		id = AUS_dirigisme
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_dirigisme
 		x = -1
 		y = 1
 		prerequisite = { focus = AUS_forcing_new_economical_policy }
@@ -87,7 +87,7 @@ focus_tree = {
 				}
 	focus = {
 		id = AUS_laissez_fair
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_laissez_fair
 		x = 1
 		y = 1
 		prerequisite = { focus = AUS_forcing_new_economical_policy }
@@ -115,7 +115,7 @@ focus_tree = {
 				}		
 	focus = {
 		id = AUS_western_region
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_western_region
 		x = -1
 		y = 1
 		prerequisite = { focus = AUS_laissez_fair focus = AUS_dirigisme }
@@ -147,7 +147,7 @@ focus_tree = {
 				}	
 	focus = {
 		id = AUS_new_world
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_new_world
 		x = 1
 		y = 1
 		prerequisite = { focus = AUS_laissez_fair focus = AUS_dirigisme }
@@ -166,18 +166,20 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		custom_effect_tooltip = AUS_new_world_region_cooperation	
+		custom_effect_tooltip = AUS_new_world_region_cooperation
+		hidden_effect = {	
 		VWS = {
 		country_event = { id = ausmisc.7 }
 			}
 		EQU = {
 		country_event = { id = ausmisc.10 }
-			}			
+			}
+		}		
 					}
 				}	
 	focus = {
 		id = AUS_southern_ally
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_southren_ally
 		x = 3
 		y = 1
 		prerequisite = { focus = AUS_laissez_fair focus = AUS_dirigisme }
@@ -197,14 +199,16 @@ focus_tree = {
 
 		completion_reward = {
 		custom_effect_tooltip = AUS_southern_region_cooperation					
+		hidden_effect = {
 		LTE = {
 		country_event = { id = ausmisc.12 }
-			}				
+			}
+		}
 				}
-				}
+			}
 	focus = {
 		id = AUS_cutting_the_excesses
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_cutting_the_excesses
 		x = -1
 		y = 1
 		prerequisite = { focus = AUS_new_world }		
@@ -232,7 +236,7 @@ focus_tree = {
 				}					
 	focus = {
 		id = AUS_alcabala
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_alcabala
 		x = 1
 		y = 1
 		prerequisite = { focus = AUS_new_world }		
@@ -261,7 +265,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_sale_of_colonies
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_fate_of_colonies
 		x = -1
 		y = 1
 		prerequisite = { focus = AUS_alcabala }		

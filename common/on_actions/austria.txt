@@ -20,14 +20,13 @@ on_actions = {
 			if = {
 				limit = { tag = TYR }			
 				annex_country = { target = AUS }
-				set_capital = 889
-			}
-			if = {
-				limit = { tag = SLV }
 				TYR = {
-				annex_country = { target = AUS }
-				set_capital = 889	
+				transfer_state = 886	
+				transfer_state = 152
+				transfer_state = 4
+				transfer_state = 889				
 				}
+				set_capital = 889
 			}
 			if = {
 				limit = {

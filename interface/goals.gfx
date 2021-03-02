@@ -2306,4 +2306,44 @@ spriteTypes = {
 		name = "GFX_focus_PFT_shock_and_awe"
 		texturefile = "gfx/interface/goals/Focus_PFT_shock_and_awe.dds"
 	}	
+	SpriteType = { 
+		name = "GFX_focus_AUS_call_for_reichstag"
+		texturefile = "gfx/interface/goals/Focus_AUS_call_for_reichstag.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_forcing_new_economic_policy"
+		texturefile = "gfx/interface/goals/Focus_AUS_forcing_new_economic_policy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_dirigisme"
+		texturefile = "gfx/interface/goals/Focus_AUS_dirigisme.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_laissez_fair"
+		texturefile = "gfx/interface/goals/Focus_AUS_laissez_fair.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_western_region"
+		texturefile = "gfx/interface/goals/Focus_AUS_western_region.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_southren_ally"
+		texturefile = "gfx/interface/goals/Focus_AUS_southren_ally.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_new_world"
+		texturefile = "gfx/interface/goals/Focus_AUS_new_world.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_cutting_the_excesses"
+		texturefile = "gfx/interface/goals/Focus_AUS_cutting_the_excesses.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_alcabala"
+		texturefile = "gfx/interface/goals/Focus_AUS_alcabala.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_fate_of_colonies"
+		texturefile = "gfx/interface/goals/Focus_AUS_fate_of_colonies.dds"
+	}	
 }

@@ -89,11 +89,7 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_AUS_super_heavy_tank_medium"
 		texturefile = "gfx/interface/technologies/AUS_super_heavy_tank.dds"
-	}	
-	SpriteType = {
-		name = "GFX_AUS_infantry_equipment_0"
-		texturefile = "gfx/interface/technologies/AUS_infantry_equipment_0.dds"
-	}	
+	}		
 	SpriteType = {
 		name = "GFX_chasseurs_medium"
 		texturefile = "gfx/interface/technologies/chasseurs.dds"
@@ -188,7 +184,7 @@ spriteTypes = {
 		name = "GFX_BAN_super_heavy_tank_medium"
 		texturefile = "gfx/interface/technologies/AUS_super_heavy_tank.dds"
 	}	
-	SpriteType = {
+	SpriteType = { 
 		name = "GFX_HES_advanced_light_tank_medium"
 		texturefile = "gfx/interface/technologies/HES_advanced_light_tank.dds"
 	}
@@ -196,4 +192,8 @@ spriteTypes = {
 		name = "GFX_AUS_infantry_equipment_0"
 		texturefile = "gfx/interface/technologies/AUS_infantry_equipment_0.dds"
 	}	
+	#SpriteType = {
+	#	name = "GFX_AUS_infantry_weapons1_medium"
+	#	texturefile = "gfx/interface/technologies/AUS_infantry_equipment_1.dds"
+	#}	
 }

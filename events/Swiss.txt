@@ -1,0 +1,25 @@
+﻿
+	add_namespace = swi
+	
+	country_event = {	
+	id = swi.1
+	title = swi.1.t
+	desc = swi.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = swi.1.a
+			hidden_effect = {
+			
+AUS = {
+set_autonomy = {
+    target = SWI
+    autonomy_state = autonomy_free
+}		
+}
+leave_faction = yes
+		}
+}
+}

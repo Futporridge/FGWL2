@@ -1750,7 +1750,10 @@ immediate = {
 	picture = GFX_
 	immediate = {
 	hidden_effect = {
-	country_event = { id = aus.61 days = 4 }	
+	country_event = { id = aus.61 days = 4 }
+	WRS = { 
+	country_event = { id = wrs.2 days = 2 }
+	}
 					}
 				}	
 	is_triggered_only = yes
@@ -1859,31 +1862,45 @@ immediate = {
 	is_triggered_only = yes
 immediate = {
 			hidden_effect = {
+	VWS = { 
+	country_event = { id = vws.1 }
+	}
+	EQU = { 
+	country_event = { id = equ.1 }
+	}		
 	load_focus_tree = { tree = austrian_civil_war_left_focus }			
 	
 	153 = {
 		add_core_of = TYR
+		set_demilitarized_zone = no		
 		  }
 	39 = {
 		add_core_of = TYR
+		set_demilitarized_zone = no			
 		  }	
 	906 = {
 		add_core_of = TYR
+		set_demilitarized_zone = no			
 		  }
 	891 = {
 		add_core_of = TYR
+		set_demilitarized_zone = no			
 		  }	
 	890 = {
 		add_core_of = TYR
+		set_demilitarized_zone = no			
 		  }
 	888 = {
 		add_core_of = TYR
+		set_demilitarized_zone = no			
 		  }
 	844 = {
 		add_core_of = TYR
+		set_demilitarized_zone = no			
 		  }
 	903 = {
 		add_core_of = TYR
+		set_demilitarized_zone = no			
 		  }
 		SLV = {
 		transfer_state = 102	
@@ -2234,19 +2251,19 @@ immediate = {
 	hidden_effect = {
 delete_unit_template_and_units = {
     division_template = "Jäger-Regimenter"
-    disband = yes
+    disband = no
 }
 delete_unit_template_and_units = {
     division_template = "Landesschützenregiment"
-    disband = yes
+    disband = no
 }
 delete_unit_template_and_units = {
     division_template = "Infanterie-Division"
-    disband = yes
+    disband = no
 }	
 delete_unit_template_and_units = {
     division_template = "Kavalleriedivision"
-    disband = yes
+    disband = no
 }
 load_oob = AUS_order_66	
 	remove_ideas = AUS_army1
