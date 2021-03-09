@@ -7,10 +7,9 @@ state=
 	state_category = town
 	
 	resources={
-		chromium=2 # was: 3
+		chromium=2 
 	}
-	history=
-	{
+	history = {
 		owner = HSP
 		buildings = {
 			infrastructure = 4

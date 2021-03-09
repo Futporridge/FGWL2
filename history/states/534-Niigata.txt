@@ -4,7 +4,7 @@ state={
 	name="STATE_534" # Hokuriku
 	manpower = 1933000
 	
-	state_category = city
+	state_category = rural
 
 	history={
 		owner = J02
@@ -12,9 +12,7 @@ state={
 		add_core_of = J02	
 		buildings = {
 			infrastructure = 4
-			arms_factory = 2
-			industrial_complex = 2
-			fuel_silo = 1
+			arms_factory = 1
 		}
 		
 		victory_points = {

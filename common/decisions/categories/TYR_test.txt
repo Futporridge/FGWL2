@@ -1,0 +1,14 @@
+################
+##### AUS ######
+################
+
+AUS_test = {
+	
+	icon = GFX_decision_category_army_reform	
+	picture = GFX_TYR_shield_of_the_republic	
+	scripted_gui = RCSR_Unification	
+	visible = {
+	always = no
+		}
+	}
+}

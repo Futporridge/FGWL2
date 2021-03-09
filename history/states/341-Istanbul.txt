@@ -11,7 +11,7 @@ state={
 		add_claim_by = LTE
 		owner = LTE
 		victory_points = {
-			9833 20 
+			9833 50 
 		}
 		buildings = {
 			infrastructure = 5

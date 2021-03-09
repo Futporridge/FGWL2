@@ -1,0 +1,10 @@
+
+AUS_test = {                               
+     RCSR_Unification_GUI = {                          
+          allowed = { tag = AUS }                 
+          available = {                           
+          always = yes                    
+          }
+		  
+     }
+}

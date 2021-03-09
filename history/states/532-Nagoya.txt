@@ -3,17 +3,15 @@ state={
 	id=532
 	name="STATE_532" # Tokai
 	manpower = 6174000
-	state_category = large_city
+	state_category = rural
 
 	history={
 		owner = J02
 		add_core_of = J01
 		add_core_of = J02	
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			arms_factory = 1
-			dockyard = 1
-			industrial_complex = 2
 		}
 		
 		victory_points = {
@@ -21,13 +19,7 @@ state={
 		}
 		
 		victory_points = {
-			10125 25
-		}
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-				industrial_complex = 3
-			}
+			10125 10
 		}
 
 	}

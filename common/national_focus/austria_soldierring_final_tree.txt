@@ -1,0 +1,154 @@
+focus_tree = {
+	id = austria_soldierring_final_tree
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 0
+			tag = AUS
+		}
+	}
+
+	shared_focus = TYR_March_on_to_the_Victory
+	shared_focus = AUS_Stratocratic_Government	
+}	
+	default = no
+
+	continuous_focus_position = { x = 3200 y = 0 }
+
+	shared_focus = {
+		id = AUS_Stratocratic_Government
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 2
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_March_on_to_the_Victory				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = AUS_Cement_Angelis_Authority
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = AUS_Stratocratic_Government }		
+		relative_position_id = AUS_Stratocratic_Government		
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	shared_focus = {
+		id = AUS_Creation_of_the_Civilian_Branch_of_Government
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = AUS_Stratocratic_Government }
+		cost = 2
+		relative_position_id = AUS_Stratocratic_Government
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+			
+			}
+				}
+	shared_focus = {
+		id = AUS_Form_the_Internal_Affairs_Comitee
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = AUS_Stratocratic_Government }
+		cost = 2
+		relative_position_id = AUS_Stratocratic_Government
+		ai_will_do = {
+			factor = 10
+		}			
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					
+					}
+				}
+	shared_focus = {
+		id = AUS_Final_Push_Against_Opposition
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = AUS_Form_the_Internal_Affairs_Comitee }		
+		cost = 6
+		relative_position_id = AUS_Form_the_Internal_Affairs_Comitee
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}					
+	shared_focus = {
+		id = AUS_Matters_of_Leadership
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = AUS_Creation_of_the_Civilian_Branch_of_Government }		
+		cost = 6
+		relative_position_id = AUS_Creation_of_the_Civilian_Branch_of_Government
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}		
+										
+		
