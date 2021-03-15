@@ -27,7 +27,46 @@ ideas = {
 			}
 			
 			traits = { army_leader }
-		}		
+		}
+		AUS_Alfred_von_Waldstatten = {
+
+			picture = Alfred_von_Waldstatten
+
+			allowed = {
+				original_tag = AUS			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		AUS_Johann_Koplenig = {
+
+			picture = Johann_Koplenig
+
+			allowed = {
+				original_tag = AUS				
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		AUS_Lucien_Laurat = {
+
+			picture = Lucien_Laurat
+
+			allowed = {
+				original_tag = AUS				
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}			
 }	
 political_advisor = {
 		AUS_Erik_von_Kuehnelt_Leddihn = {
@@ -75,6 +114,124 @@ political_advisor = {
 
 			allowed = {
 				original_tag = AUS
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		AUS_Maximilian_Ronge = {
+
+			picture = Maximilian_Ronge
+
+			allowed = {
+				original_tag = AUS
+				original_tag = TYR				
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		AUS_Ernst_Fischer = {
+
+			picture = Ernst_Fischer
+
+			allowed = {
+				original_tag = AUS			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}	
+		AUS_Alfred_Klahr = {
+
+			picture = Alfred_Klahr
+
+			allowed = {
+				original_tag = AUS			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		AUS_Margarete_Schutte-Lihotzky = {
+
+			picture = Margarete_Schutte-Lihotzky
+
+			allowed = {
+				original_tag = AUS			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		AUS_Arnold_Deutsch = {
+
+			picture = Arnold_Deutsch
+
+			allowed = {
+				original_tag = AUS			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		AUS_Franz_Rauscher = {
+
+			picture = Franz_Rauscher
+
+			allowed = {
+				original_tag = AUS			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}	
+		AUS_Friedrich_Adler = {
+
+			picture = Friedrich_Adler
+
+			allowed = {
+				original_tag = AUS			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		AUS_Rudolf_Hilferding = {
+
+			picture = Rudolf_Hilferding
+
+			allowed = {
+				original_tag = AUS			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		AUS_Theodor_Korner_Edler_von_Siegringen = {
+
+			picture = Theodor_Korner_Edler_von_Siegringen
+
+			allowed = {
+				original_tag = AUS			
 			}
 			available = {
 			always = no

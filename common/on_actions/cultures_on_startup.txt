@@ -97,7 +97,51 @@ on_actions = {
 		243 = { set_variable = { nationality = 26 } }	#Roslavl	
 		849 = { set_variable = { nationality = 26 } }	#Surozh	
 		193 = { set_variable = { nationality = 26 } }	#Chernigoff	
-		197 = { set_variable = { nationality = 26 } }	#Poltava		
+		197 = { set_variable = { nationality = 26 } }	#Poltava	
+		264 = { set_variable = { nationality = 26 } }	#Tikhvin
+		246 = { set_variable = { nationality = 26 } }	#Rzhev	
+		848 = { set_variable = { nationality = 26 } }	#Vyazma	
+		205 = { set_variable = { nationality = 26 } }	#Kaluga	
+		224 = { set_variable = { nationality = 26 } }	#Bryansk
+		225 = { set_variable = { nationality = 26 } }	#Sumy
+		221 = { set_variable = { nationality = 26 } }	#Kharkov
+		240 = { set_variable = { nationality = 26 } }	#Belgrad		
+		228 = { set_variable = { nationality = 26 } }	#Starobelsk	
+		245 = { set_variable = { nationality = 26 } }	#Millerovo	
+		238 = { set_variable = { nationality = 26 } }	#Volgodonsk	
+		235 = { set_variable = { nationality = 26 } }	#Stavropol
+		237 = { set_variable = { nationality = 26 } }	#Elitsa	
+		236 = { set_variable = { nationality = 26 } }	#Astrakhan	
+		217 = { set_variable = { nationality = 26 } }	#Tsaritsyn	
+		265 = { set_variable = { nationality = 26 } }	#Mikhaylovka	
+		260 = { set_variable = { nationality = 26 } }	#Voronezh
+		220 = { set_variable = { nationality = 26 } }	#Kursk	
+		222 = { set_variable = { nationality = 26 } }	#Orel	
+		223 = { set_variable = { nationality = 26 } }	#Tula	
+		219 = { set_variable = { nationality = 26 } }	#Moskva	
+		253 = { set_variable = { nationality = 26 } }	#Ivanovo	
+		254 = { set_variable = { nationality = 26 } }	#Ryazan			
+		247 = { set_variable = { nationality = 26 } }	#Tver
+		248 = { set_variable = { nationality = 26 } }	#Yaroslavl	
+		351 = { set_variable = { nationality = 26 } }	#Vologda	
+		214 = { set_variable = { nationality = 26 } }	#Arkhangelsk	
+		400 = { set_variable = { nationality = 26 } }	#Vyatka
+		252 = { set_variable = { nationality = 26 } }	#Nizhny Novgorod
+		255 = { set_variable = { nationality = 26 } }	#Penza	
+		239 = { set_variable = { nationality = 26 } }	#Saratov	
+		401 = { set_variable = { nationality = 26 } }	#Balakovo	
+		407 = { set_variable = { nationality = 26 } }	#Yaitsk	
+		406 = { set_variable = { nationality = 26 } }	#Guryev
+		251 = { set_variable = { nationality = 26 } }	#Samara	
+		652 = { set_variable = { nationality = 26 } }	#Orenburg	
+		251 = { set_variable = { nationality = 26 } }	#Samara	
+		250 = { set_variable = { nationality = 26 } }	#Simbirsk	
+		256 = { set_variable = { nationality = 26 } }	#Cheboksary	
+		399 = { set_variable = { nationality = 26 } }	#Izhevsk	
+		398 = { set_variable = { nationality = 26 } }	#Perm	
+		581 = { set_variable = { nationality = 26 } }	#Severnyy Ural		
+		573 = { set_variable = { nationality = 26 } }	#Zlatoust	
+		582 = { set_variable = { nationality = 26 } }	#Magnitnoe		
 		#bosporic german
 		227 = { set_variable = { nationality = 27 } }	#Dike Pole				
 		#bosnjak
@@ -677,7 +721,8 @@ on_actions = {
 		388 = { set_variable = { nationality = 159 } }	#Crowland
 		389 = { set_variable = { nationality = 159 } }	#Sahnish
 		#Nervian
-		974 = { set_variable = { nationality = 160 } }	#Coeur D'Alene	
+		974 = { set_variable = { nationality = 160 } }	#Coeur D'Alene
+		387 = { set_variable = { nationality = 160 } }	#Coeur D'Alene		
 		#Lakota
 		978 = { set_variable = { nationality = 161 } }	#Lakota	
 		#French Poachers

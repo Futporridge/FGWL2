@@ -148,5 +148,53 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_idea_Joseph_Roth"
 		texturefile = "gfx/interface/ideas/Ministers/austria/Joseph_Roth.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_Maximilian_Ronge"
+		texturefile = "gfx/interface/ideas/Ministers/austria/Maximilian_Ronge.dds"
 	}		
+		spriteType = {
+		name = "GFX_idea_Alfred_von_Waldstatten"
+		texturefile = "gfx/interface/ideas/Ministers/austria/Alfred_von_Waldstatten.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_Johann_Koplenig"
+		texturefile = "gfx/interface/ideas/Ministers/austria/prometeism/idea_Johann_Koplenig.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Ernst_Fischer"
+		texturefile = "gfx/interface/ideas/Ministers/austria/prometeism/idea_Ernst_Fischer.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_Alfred_Klahr"
+		texturefile = "gfx/interface/ideas/Ministers/austria/prometeism/idea_Alfred_Klahr.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Margarete_Schutte-Lihotzky"
+		texturefile = "gfx/interface/ideas/Ministers/austria/prometeism/idea_Margarete_Schutte-Lihotzky.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_Arnold_Deutsch"
+		texturefile = "gfx/interface/ideas/Ministers/austria/prometeism/idea_Arnold_Deutsch.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Franz_Rauscher"
+		texturefile = "gfx/interface/ideas/Ministers/austria/SDPAO/idea_Franz_Rauscher.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Friedrich_Adler"
+		texturefile = "gfx/interface/ideas/Ministers/austria/SDPAO/idea_Friedrich_Adler.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_Lucien_Laurat"
+		texturefile = "gfx/interface/ideas/Ministers/austria/SDPAO/idea_Lucien_Laurat.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Rudolf_Hilferding"
+		texturefile = "gfx/interface/ideas/Ministers/austria/SDPAO/idea_Rudolf_Hilferding.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Theodor_Korner_Edler_von_Siegringen"
+		texturefile = "gfx/interface/ideas/Ministers/austria/SDPAO/idea_Theodor_Korner_Edler_von_Siegringen.dds"
+	}	
 }

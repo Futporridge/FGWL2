@@ -126,7 +126,7 @@ AUS_Viktor_Dankl_von_Krasnik
 AUS_Erik_von_Kuehnelt_Leddihn
 AUS_Friedrich_Hayek
 AUS_Heinrich_Clam_Martinic
-AUS_Joseph_Roth
+AUS_Maximilian_Ronge
 }
 
 set_stability = 0.50

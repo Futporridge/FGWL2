@@ -33,7 +33,7 @@ HRE_member
 set_convoys = 100
 
 create_country_leader = {
-	name = "Edward II von Thüringen"
+	name = "Edward II von Sachsen-Coburg und Gotha"
 	desc = "POLITICS_EDWARD_II_DESC"
 	picture = "gfx/leaders/THU/Portrait_Edward_II.tga"
 	expire = "1965.1.1"

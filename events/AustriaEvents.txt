@@ -866,6 +866,12 @@ create_country_leader = {
 }
 	load_focus_tree = { tree = austrian_regency_focus keep_completed = yes }
 	unlock_national_focus = AUS_regency_council		
+			remove_ideas = {
+			AUS_Viktor_Dankl_von_Krasnik
+			}		
+			add_ideas = {
+			AUS_Alfred_von_Waldstatten
+			}		
 		}
 }
 }
@@ -1297,7 +1303,7 @@ set_politics = {
 	ruling_party = prometeism
 }
 	load_focus_tree = { tree = austrian_initial_socdem_focus }
-		set_country_flag = AUS_the_OAP			
+		set_country_flag = AUS_the_OAP
 		}
 }
 	option = {
