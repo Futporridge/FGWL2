@@ -476,17 +476,6 @@ create_corps_commander = {
     logistics_skill = 3
 }
 create_corps_commander = {
-	name = "Karoly_Soos"
-	id = 209	
-	portrait_path = "gfx/leaders/AUS/Portrait_Karoly_Soos.tga"
-	traits = { AUS_hungarian }
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 3
-    logistics_skill = 3
-}
-create_corps_commander = {
 	name = "Littay András"
 	id = 210	
 	portrait_path = "gfx/leaders/AUS/Portrait_Littay_Andras.tga"

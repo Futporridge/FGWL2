@@ -1294,6 +1294,23 @@ set_politics = {
 }
 	load_focus_tree = { tree = austrian_initial_socdem_focus }
 		set_country_flag = AUS_the_SDPAO_L		
+			remove_ideas = {
+			AUS_Alfred_von_Waldstatten
+			AUS_Viktor_Dankl_von_Krasnik			
+			AUS_Erik_von_Kuehnelt_Leddihn
+			AUS_Friedrich_Hayek
+			AUS_Heinrich_Clam_Martinic
+			AUS_Maximilian_Ronge			
+			}		
+			add_ideas = {
+			AUS_Friedrich_Adler
+			AUS_Theodor_Korner_Edler_von_Siegringen
+			AUS_Rudolf_Hilferding
+			AUS_Franz_Rauscher
+			}		
+			add_ideas = { 
+			AUS_Lucien_Laurat
+			}			
 		}
 }
 	option = {
@@ -1305,6 +1322,23 @@ set_politics = {
 }
 	load_focus_tree = { tree = austrian_initial_socdem_focus }
 		set_country_flag = AUS_the_OAP
+			remove_ideas = {
+			AUS_Alfred_von_Waldstatten
+			AUS_Viktor_Dankl_von_Krasnik			
+			AUS_Erik_von_Kuehnelt_Leddihn
+			AUS_Friedrich_Hayek
+			AUS_Heinrich_Clam_Martinic
+			AUS_Maximilian_Ronge			
+			}		
+			add_ideas = {
+			AUS_Ernst_Fischer
+			AUS_Alfred_Klahr
+			AUS_Margarete_Schutte-Lihotzky
+			AUS_Arnold_Deutsch
+			}		
+			add_ideas = { 
+			AUS_Johann_Koplenig
+			}			
 		}
 }
 	option = {
@@ -1314,6 +1348,23 @@ set_politics = {
 set_politics = {
 	ruling_party = liberalism
 }
+			remove_ideas = {
+			AUS_Alfred_von_Waldstatten
+			AUS_Viktor_Dankl_von_Krasnik			
+			AUS_Erik_von_Kuehnelt_Leddihn
+			AUS_Friedrich_Hayek
+			AUS_Heinrich_Clam_Martinic
+			AUS_Maximilian_Ronge			
+			}		
+			add_ideas = {
+			AUS_Johannes_Schober
+			AUS_Leopold_Figl
+			AUS_Benedikt_Kautsky
+			AUS_Erwin_von_Lahousen
+			}		
+			add_ideas = { 
+			AUS_Karl_Seitz
+			}
 	load_focus_tree = { tree = austrian_initial_socdem_focus }
 		set_country_flag = AUS_the_SDPAO_R		
 		}

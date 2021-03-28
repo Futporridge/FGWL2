@@ -37,7 +37,7 @@ focus_tree = {
 		always = no
 		}
 		bypass = {
-		has_country_flag = AUS_the_SDPAO_R
+		has_country_flag = AUS_the_SDPAO_L
 				}
 
 		completion_reward = {
@@ -78,8 +78,8 @@ focus_tree = {
 		available = {
 		always = no
 		}
-		bypass = {
-		has_country_flag = AUS_the_SDPAO_L		
+		bypass = {	
+		has_country_flag = AUS_the_SDPAO_R		
 				}
 
 		completion_reward = {

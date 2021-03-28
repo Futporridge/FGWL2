@@ -66,7 +66,20 @@ ideas = {
 			}
 			
 			traits = { army_leader }
-		}			
+		}
+		AUS_Karl_Seitz = {
+
+			picture = Karl_Seitz
+
+			allowed = {
+				original_tag = AUS				
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}		
 }	
 political_advisor = {
 		AUS_Erik_von_Kuehnelt_Leddihn = {
@@ -229,6 +242,58 @@ political_advisor = {
 		AUS_Theodor_Korner_Edler_von_Siegringen = {
 
 			picture = Theodor_Korner_Edler_von_Siegringen
+
+			allowed = {
+				original_tag = AUS			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		AUS_Johannes_Schober = {
+
+			picture = Johannes_Schober
+
+			allowed = {
+				original_tag = AUS			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		AUS_Leopold_Figl = {
+
+			picture = Leopold_Figl
+
+			allowed = {
+				original_tag = AUS			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		AUS_Benedikt_Kautsky = {
+
+			picture = Benedikt_Kautsky
+
+			allowed = {
+				original_tag = AUS			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		AUS_Erwin_von_Lahousen = {
+
+			picture = Erwin_von_Lahousen
 
 			allowed = {
 				original_tag = AUS			

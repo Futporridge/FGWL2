@@ -196,5 +196,25 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_idea_Theodor_Korner_Edler_von_Siegringen"
 		texturefile = "gfx/interface/ideas/Ministers/austria/SDPAO/idea_Theodor_Korner_Edler_von_Siegringen.dds"
-	}	
+	}
+		spriteType = {
+		name = "GFX_idea_Benedikt_Kautsky"
+		texturefile = "gfx/interface/ideas/Ministers/austria/SDPAO_r/Benedikt_Kautsky.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Erwin_von_Lahousen"
+		texturefile = "gfx/interface/ideas/Ministers/austria/SDPAO_r/Erwin_von_Lahousen.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Johannes_Schober"
+		texturefile = "gfx/interface/ideas/Ministers/austria/SDPAO_r/Johannes_Schober.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Karl_Seitz"
+		texturefile = "gfx/interface/ideas/Ministers/austria/SDPAO_r/Karl_Seitz.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Leopold_Figl"
+		texturefile = "gfx/interface/ideas/Ministers/austria/SDPAO_r/Leopold_Figl.dds"
+	}		
 }
