@@ -1031,6 +1031,7 @@ set_demilitarized_zone = yes
 
 immediate = {
 hidden_effect = {
+remove_unit_leader = 186
 	swap_ideas = {
      remove_idea = AUS_diveded_empire
      add_idea = AUS_divide_empire_2
@@ -1322,7 +1323,7 @@ set_politics = {
 	id = aus.40
 	title = aus.40.t
 	desc = aus.40.d
-	picture = GFX_
+	picture = GFX_report_event_aus_the_outcome
 
 	is_triggered_only = yes
 immediate = {

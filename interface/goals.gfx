@@ -1,12 +1,5 @@
 spriteTypes = {	
 
-	#### Generic continuous goal icons
-
-	SpriteType = {
-	name = "GFX_goal_continuous_air_production"
-	texturefile = "gfx/interface/goals/goal_continuous_air_production.dds"			
-	}
-	
 	SpriteType = {
 	name = "GFX_focus_ANS_the_poor"
 	texturefile = "gfx/interface/goals/Focus_ANS_the_poor.dds"			
@@ -2361,5 +2354,205 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_focus_AUS_tighten_control"
 		texturefile = "gfx/interface/goals/Focus_AUS_tighten_control.dds"
-	}		
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Healthy_Compromises"
+		texturefile = "gfx/interface/goals/Focus_AUS_Healthy_Compromises.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Creation_of_the_Roten_Armee"
+		texturefile = "gfx/interface/goals/Focus_AUS_Creation_of_the_Roten_Armee.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Hunt_for_the_Experience"
+		texturefile = "gfx/interface/goals/Focus_AUS_Hunt_for_the_Experience.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_New_Drill_Techniques"
+		texturefile = "gfx/interface/goals/Focus_AUS_New_Drill_Techniques.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Formalize_the_Paramilitary"
+		texturefile = "gfx/interface/goals/Focus_AUS_Formalize_the_Paramilitary.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Conscription_Campaign"
+		texturefile = "gfx/interface/goals/Focus_AUS_Conscription_Campaign.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Red_Guard"
+		texturefile = "gfx/interface/goals/Focus_AUS_Red_Guard.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Urban_Warfare"
+		texturefile = "gfx/interface/goals/Focus_AUS_Urban_Warfare.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Rote_Armee_Invincible"
+		texturefile = "gfx/interface/goals/Focus_AUS_Rote_Armee_Invincible.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Proclaim_the_International_Solidarity"
+		texturefile = "gfx/interface/goals/Focus_AUS_Proclaim_the_International_Solidarity.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_AUS_Sister_Republic"
+		texturefile = "gfx/interface/goals/Focus_AUS_Sister_Republic.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Danube_Cooperation"
+		texturefile = "gfx/interface/goals/Focus_AUS_Danube_Cooperation.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Joint_Military_Staff"
+		texturefile = "gfx/interface/goals/Focus_AUS_Joint_Military_Staff.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Border_Question"
+		texturefile = "gfx/interface/goals/Focus_AUS_Border_Question.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Revolution_Under_Siege"
+		texturefile = "gfx/interface/goals/Focus_AUS_Revolution_Under_Siege.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Invite_International_Brigades"
+		texturefile = "gfx/interface/goals/Focus_AUS_Invite_International_Brigades.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_All_German_Worker_Congress"
+		texturefile = "gfx/interface/goals/Focus_AUS_All_German_Worker_Congress.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_AUS_Political_School_of_Vienna"
+		texturefile = "gfx/interface/goals/Focus_AUS_Political_School_of_Vienna.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_AUS_On_The_Ruins_of_the_Empire"
+		texturefile = "gfx/interface/goals/Focus_AUS_On_The_Ruins_of_the_Empire.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Peoples_Militia"
+		texturefile = "gfx/interface/goals/Focus_AUS_Peoples_Militia.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_The_Law_of_the_Revolution"
+		texturefile = "gfx/interface/goals/Focus_AUS_The_Law_of_the_Revolution.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Redraw_Borders"
+		texturefile = "gfx/interface/goals/Focus_AUS_Redraw_Borders.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Vienna_Industrial_Region"
+		texturefile = "gfx/interface/goals/Focus_AUS_Vienna_Industrial_Region.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Kickstart_the_Industry"
+		texturefile = "gfx/interface/goals/Focus_AUS_Kickstart_the_Industry.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Neue_Okonomische_Politik"
+		texturefile = "gfx/interface/goals/Focus_AUS_Neue_Okonomische_Politik.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_TYR_Austria_in_Need"
+		texturefile = "gfx/interface/goals/Focus_TYR_Austria_in_Need.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Reward_the_Paramilitary"
+		texturefile = "gfx/interface/goals/Focus_TYR_Reward_the_Paramilitary.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Preserve_Austrian_Heritage"
+		texturefile = "gfx/interface/goals/Focus_TYR_Preserve_Austrian_Heritage.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Protect_the_Traditional_Autonimies"
+		texturefile = "gfx/interface/goals/Focus_TYR_Protect_the_Traditional_Autonimies.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_The_Heimatskrieg"
+		texturefile = "gfx/interface/goals/Focus_TYR_The_Heimatskrieg.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Embraсe_the_Former_Imperial_Army"
+		texturefile = "gfx/interface/goals/Focus_TYR_Embrace_the_Former_Imperial_Army.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Ideology_of_Hatred"
+		texturefile = "gfx/interface/goals/Focus_TYR_Ideology_of_Hatred.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Proclaim_the_Legitimate_Government"
+		texturefile = "gfx/interface/goals/Focus_TYR_Proclaim_the_Legitimate_Government.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_MIlitary_Stratocracy"
+		texturefile = "gfx/interface/goals/Focus_TYR_MIlitary_Stratocracy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_The_Blitzkrieg"
+		texturefile = "gfx/interface/goals/Focus_TYR_The_Blitzkrieg.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Rebellion_of_the_Spirit"
+		texturefile = "gfx/interface/goals/Focus_TYR_Rebellion_of_the_Spirit.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Common_Cause"
+		texturefile = "gfx/interface/goals/Focus_TYR_Common_Cause.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Mission_to_the_Loyal_Princes"
+		texturefile = "gfx/interface/goals/Focus_TYR_Mission_to_the_Loyal_Princes.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Holy_Sanction"
+		texturefile = "gfx/interface/goals/Focus_TYR_Holy_Sanction.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Call_to_the_Latin_Empire"
+		texturefile = "gfx/interface/goals/Focus_TYR_Call_to_the_Latin_Empire.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Invite_the_Imperial_Princes"
+		texturefile = "gfx/interface/goals/Focus_TYR_Invite_the_Imperial_Princes.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Reichsgeneralstab"
+		texturefile = "gfx/interface/goals/Focus_TYR_Reichsgeneralstab.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Codification_of_Military_Code"
+		texturefile = "gfx/interface/goals/Focus_TYR_Codification_of_Military_Code.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Tactical_Renewation"
+		texturefile = "gfx/interface/goals/Focus_TYR_Tactical_Renewation.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Expand_the_Rifle_Union"
+		texturefile = "gfx/interface/goals/Focus_TYR_Expand_the_Rifle_Union.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Return_the_Kornetts"
+		texturefile = "gfx/interface/goals/Focus_TYR_Return_the_Kornetts.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Elect_the_High_Regent"
+		texturefile = "gfx/interface/goals/Focus_TYR_Elect_the_High_Regent.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Vae_Victis"
+		texturefile = "gfx/interface/goals/Focus_TYR_Vae_Victis.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Empower_Local_Autonomies"
+		texturefile = "gfx/interface/goals/Focus_TYR_Empower_Local_Autonomies.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_Create_the_Weapon_Guild"
+		texturefile = "gfx/interface/goals/Focus_TYR_Create_the_Weapon_Guild.dds"
+	}	
 }

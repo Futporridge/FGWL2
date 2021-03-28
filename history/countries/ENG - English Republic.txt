@@ -68,6 +68,16 @@ create_country_leader = {
 	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Neville_Chamberlain.tga"
 	expire = "1965.1.1"
+	ideology = conservatism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Edmund Dene Morel"
+	desc = "POLITICS_EDMUND_DENE_MOREL_DESC"
+	picture = "gfx/leaders/ENG/Portrait_Edmund_Dene_Morel.tga"
+	expire = "1965.1.1"
 	ideology = liberalism
 	traits = { 
 

@@ -881,6 +881,31 @@ scripted_gui = {
 			culture_german_angrivarian_visible = {
 				check_variable = { nationality = 174 } 
 			}				
+		}	
+		triggers = {
+			culture_finno_ugric_komi_visible = {
+				check_variable = { nationality = 175 } 
+			}				
+		}
+		triggers = {
+			culture_altaic_tatar_visible = {
+				check_variable = { nationality = 176 } 
+			}				
+		}
+		triggers = {
+			culture_uralic_samoyed_visible = {
+				check_variable = { nationality = 177 } 
+			}				
+		}
+		triggers = {
+			culture_altaic_yakut_visible = {
+				check_variable = { nationality = 178 } 
+			}				
+		}
+		triggers = {
+			culture_altaic_bashkir_visible = {
+				check_variable = { nationality = 179 } 
+			}				
 		}		
 	}
 }

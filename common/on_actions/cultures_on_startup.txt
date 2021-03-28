@@ -142,6 +142,33 @@ on_actions = {
 		581 = { set_variable = { nationality = 26 } }	#Severnyy Ural		
 		573 = { set_variable = { nationality = 26 } }	#Zlatoust	
 		582 = { set_variable = { nationality = 26 } }	#Magnitnoe		
+		580 = { set_variable = { nationality = 26 } }	#Tobolosk	
+		653 = { set_variable = { nationality = 26 } }	#Alekseevo	
+		572 = { set_variable = { nationality = 26 } }	#Chelyabinsk	
+		583 = { set_variable = { nationality = 26 } }	#Sergeyevsk	
+		590 = { set_variable = { nationality = 26 } }	#Akmolinsk		
+		577 = { set_variable = { nationality = 26 } }	#Surgut	
+		571 = { set_variable = { nationality = 26 } }	#Omsk	
+		588 = { set_variable = { nationality = 26 } }	#Semipalatinsk	
+		40 = { set_variable = { nationality = 26 } }	#Barnaul	
+		570 = { set_variable = { nationality = 26 } }	#Novo-Dmitrievsk	
+		578 = { set_variable = { nationality = 26 } }	#Tomsk	
+		569 = { set_variable = { nationality = 26 } }	#Kemerovo		
+		568 = { set_variable = { nationality = 26 } }	#Krasnoyarsk	
+		576 = { set_variable = { nationality = 26 } }	#Yeniseysk		
+		567 = { set_variable = { nationality = 26 } }	#Bratsk	
+		566 = { set_variable = { nationality = 26 } }	#Irkutsk		
+		575 = { set_variable = { nationality = 26 } }	#Kirensk		
+		563 = { set_variable = { nationality = 26 } }	#Chita		
+		561 = { set_variable = { nationality = 26 } }	#Amur	
+		560 = { set_variable = { nationality = 26 } }	#Nikolayevsk		
+		562 = { set_variable = { nationality = 26 } }	#Okhotsk		
+		563 = { set_variable = { nationality = 26 } }	#Chita		
+		657 = { set_variable = { nationality = 26 } }	#Tikhonkoye		
+		409 = { set_variable = { nationality = 26 } }	#Khabarovsk		
+		408 = { set_variable = { nationality = 26 } }	#Vladivostok	
+		537 = { set_variable = { nationality = 26 } }	#Sakhalin	
+		403 = { set_variable = { nationality = 26 } }	#Tyumen			
 		#bosporic german
 		227 = { set_variable = { nationality = 27 } }	#Dike Pole				
 		#bosnjak
@@ -768,7 +795,20 @@ on_actions = {
 		970 = { set_variable = { nationality = 173 } }	#Amazonie	
 		971 = { set_variable = { nationality = 173 } }	#Inner Amazonia	
 		#Angrivarian
-		638 = { set_variable = { nationality = 174 } }	#Angrivaria			
+		638 = { set_variable = { nationality = 174 } }	#Angrivaria		
+		#Komi
+		397 = { set_variable = { nationality = 175 } }	#Ust-Sysolsk
+		#Tatar
+		249 = { set_variable = { nationality = 176 } }	#Kazan	
+		#Samoyed
+		262 = { set_variable = { nationality = 177 } }	#Pechora			
+		579 = { set_variable = { nationality = 177 } }	#Obdorsk
+		516 = { set_variable = { nationality = 177 } }	#Zemlya Cesarevicha Alekseya	
+		#Yakut
+		644 = { set_variable = { nationality = 178 } }	#Pyatirechye	
+		574 = { set_variable = { nationality = 178 } }	#Yakutsk	
+		#Bashkir
+		651 = { set_variable = { nationality = 179 } }	#Ufa		
 		}		
 		
 	}

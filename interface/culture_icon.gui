@@ -1063,6 +1063,36 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_german_angrivarian
 			pdx_tooltip = "EOANB_CULTURE_INFO"
-		}			
+		}
+		iconType = {
+			name = "culture_finno_ugric_komi"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_finno_ugric_komi
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_altaic_tatar"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_altaic_tatar
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_uralic_samoyed"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_uralic_samoyed
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}	
+		iconType = {
+			name = "culture_altaic_yakut"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_altaic_yakut
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_altaic_bashkir"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_altaic_bashkir
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}		
 	}
 }

@@ -338,6 +338,12 @@ CRO = { change_tag_from = FROM }
 
 	immediate = {
 	hidden_effect = {
+	45 = {			
+	add_core_of = SRR
+	}
+	895 = {			
+	add_core_of = SRR
+	}	
 	SRR = {
 		transfer_state = 45
 		transfer_state = 895		

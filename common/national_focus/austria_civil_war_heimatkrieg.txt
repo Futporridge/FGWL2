@@ -20,7 +20,7 @@ focus_tree = {
 
 	shared_focus = {
 		id = TYR_Rebelion_of_the_Spirit
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Rebellion_of_the_Spirit
 		x = 7
 		y = 0
 		cost = 20
@@ -47,7 +47,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Common_Cause
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Common_Cause
 		x = -3
 		y = 1
 		prerequisite = { focus = TYR_Rebelion_of_the_Spirit }
@@ -73,7 +73,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Mission_to_the_Loyal_Imperial_Princes
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Mission_to_the_Loyal_Princes
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Common_Cause }
@@ -95,7 +95,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Invite_the_Imperial_Knights
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Invite_the_Imperial_Princes
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Mission_to_the_Loyal_Imperial_Princes }
@@ -153,7 +153,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_United_in_the_Fight
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_PFT_focus_on_populism
 		x = -2
 		y = 1
 		prerequisite = { focus = TYR_Common_Cause }
@@ -179,7 +179,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Call_to_the_Latin_Empire
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Call_to_the_Latin_Empire
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_United_in_the_Fight }
@@ -204,7 +204,7 @@ focus_tree = {
 				}	
 	shared_focus = {
 		id = TYR_Holy_Sanction
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Holy_Sanction
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Call_to_the_Latin_Empire }
@@ -230,7 +230,7 @@ focus_tree = {
 			}					
 	shared_focus = {
 		id = TYR_Reichsgeneralstab
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Reichsgeneralstab
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Rebelion_of_the_Spirit }
@@ -256,7 +256,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Codification_of_Military_Code
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Codification_of_Military_Code
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Reichsgeneralstab }
@@ -285,7 +285,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Return_the_Kornetts
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Return_the_Kornetts
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Codification_of_Military_Code }
@@ -311,7 +311,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Expand_the_Rifle_Unions
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Expand_the_Rifle_Union
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Reichsgeneralstab }
@@ -337,7 +337,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Tactical_Renewation
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Tactical_Renewation
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Expand_the_Rifle_Unions }
@@ -361,7 +361,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Elect_the_High_Regent
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Elect_the_High_Regent
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Tactical_Renewation }
@@ -386,7 +386,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Vae_Victis
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Vae_Victis
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Elect_the_High_Regent }		
@@ -412,7 +412,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Empower_Local_Autonomies
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Empower_Local_Autonomies
 		x = 3
 		y = 1
 		prerequisite = { focus = TYR_Rebelion_of_the_Spirit }
@@ -435,7 +435,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Create_the_Popular_Militia
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_PFT_anti_revolutionary_militia
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Empower_Local_Autonomies }
@@ -465,7 +465,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Hunt_for_Reds
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_PFT_deal_with_the_insurgency
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Create_the_Popular_Militia }
@@ -488,7 +488,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Organize_the_Fundraising_Company
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_PFT_rekindle_investors
 		x = 2
 		y = 1
 		prerequisite = { focus = TYR_Empower_Local_Autonomies }
@@ -517,7 +517,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Create_the_Weapon_Guilds
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Create_the_Weapon_Guild
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Organize_the_Fundraising_Company }
@@ -547,7 +547,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Economical_Stabilization
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_PAR_repurpose_civilian_industry
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Create_the_Weapon_Guilds }

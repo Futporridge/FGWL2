@@ -23,7 +23,7 @@ focus_tree = {
 
 	shared_focus = {
 		id = AUS_healthy_compromises
-		icon = GFX_focus_PAR_anarchy
+		icon = GFX_focus_AUS_Healthy_Compromises
 		x = 7
 		y = 0
 		cost = 2
@@ -44,7 +44,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = AUS_creation_of_the_rote_armee
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Creation_of_the_Roten_Armee
 		x = -6
 		y = 1
 		prerequisite = { focus = AUS_healthy_compromises }
@@ -70,7 +70,7 @@ focus_tree = {
 			}
 	shared_focus = {
 		id = AUS_hunt_for_experience
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Hunt_for_the_Experience
 		x = -2
 		y = 1
 		prerequisite = { focus = AUS_creation_of_the_rote_armee }
@@ -97,7 +97,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = AUS_new_drill_techniques
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_New_Drill_Techniques
 		x = 0
 		y = 2
 		prerequisite = { focus = AUS_hunt_for_experience }
@@ -124,7 +124,7 @@ focus_tree = {
 				}					
 	shared_focus = {
 		id = AUS_formalize_the_paramilitary
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Formalize_the_Paramilitary
 		x = 0
 		y = 1
 		prerequisite = { focus = AUS_creation_of_the_rote_armee }
@@ -147,7 +147,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = AUS_conscription_campaign
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Conscription_Campaign
 		x = 0
 		y = 1
 		prerequisite = { focus = AUS_formalize_the_paramilitary }
@@ -170,7 +170,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = AUS_red_guard
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Red_Guard
 		x = 2
 		y = 1
 		prerequisite = { focus = AUS_creation_of_the_rote_armee }
@@ -196,7 +196,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = AUS_urban_guard
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Urban_Warfare
 		x = 0
 		y = 2
 		prerequisite = { focus = AUS_red_guard	 }
@@ -230,7 +230,7 @@ focus_tree = {
 			}
 	shared_focus = {
 		id = AUS_rote_armee_invincible
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Rote_Armee_Invincible
 		x = 2
 		y = 1
 		prerequisite = { focus = AUS_urban_guard }
@@ -261,7 +261,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = AUS_proclaim_the_international_solidarity
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Proclaim_the_International_Solidarity
 		x = 0
 		y = 1
 		prerequisite = { focus = AUS_healthy_compromises }
@@ -284,7 +284,7 @@ focus_tree = {
 			}	
 	shared_focus = {
 		id = AUS_the_sister_republic
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Sister_Republic
 		x = -1
 		y = 1
 		prerequisite = { focus = AUS_proclaim_the_international_solidarity }
@@ -310,7 +310,7 @@ focus_tree = {
 				}	
 	shared_focus = {
 		id = AUS_danube_cooperation
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Danube_Cooperation
 		x = -1
 		y = 1
 		prerequisite = { focus = AUS_the_sister_republic }
@@ -332,7 +332,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = AUS_joint_military_staff
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Joint_Military_Staff
 		x = 1
 		y = 1
 		prerequisite = { focus = AUS_the_sister_republic }
@@ -358,7 +358,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = AUS_border_question
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Border_Question
 		x = 1
 		y = 1
 		prerequisite = { focus = AUS_joint_military_staff }
@@ -384,7 +384,7 @@ focus_tree = {
 				}	
 	shared_focus = {
 		id = AUS_revolutiion_under_siege
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Revolution_Under_Siege
 		x = 2
 		y = 1
 		prerequisite = { focus = AUS_proclaim_the_international_solidarity }
@@ -407,7 +407,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = AUS_invite_the_international_brigades
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Invite_International_Brigades
 		x = 0
 		y = 1
 		prerequisite = { focus = AUS_revolutiion_under_siege }
@@ -433,7 +433,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = AUS_all_german_worker_congress
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_All_German_Worker_Congress
 		x = -1
 		y = 1
 		prerequisite = { focus = AUS_invite_the_international_brigades }
@@ -455,7 +455,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = AUS_political_school_of_vienna
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Political_School_of_Vienna
 		x = 1
 		y = 1
 		prerequisite = { focus = AUS_invite_the_international_brigades }
@@ -481,7 +481,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = AUS_on_the_ruins_of_empire
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_On_The_Ruins_of_the_Empire
 		x = 6
 		y = 1
 		prerequisite = { focus = AUS_healthy_compromises }
@@ -504,7 +504,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = AUS_peoples_militia
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Peoples_Militia
 		x = -2
 		y = 1
 		prerequisite = { focus = AUS_on_the_ruins_of_empire }
@@ -534,7 +534,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = AUS_the_law_of_revolution
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_The_Law_of_the_Revolution
 		x = 0
 		y = 1
 		prerequisite = { focus = AUS_peoples_militia }
@@ -559,7 +559,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = AUS_redraw_the_borders
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Redraw_Borders
 		x = 0
 		y = 1
 		prerequisite = { focus = AUS_on_the_ruins_of_empire }
@@ -585,7 +585,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = AUS_vienna_industrial_region
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Vienna_Industrial_Region
 		x = 2
 		y = 1
 		prerequisite = { focus = AUS_on_the_ruins_of_empire }
@@ -631,7 +631,7 @@ focus_tree = {
 				}	
 	shared_focus = {
 		id = AUS_kickstart_the_industry
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Kickstart_the_Industry
 		x = 0 
 		y = 1
 		prerequisite = { focus = AUS_vienna_industrial_region }
@@ -654,7 +654,7 @@ focus_tree = {
 				}		
 	shared_focus = {
 		id = AUS_neue_okonomische_politik
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_AUS_Neue_Okonomische_Politik
 		x = 0 
 		y = 2
 		prerequisite = { focus = AUS_the_law_of_revolution }		

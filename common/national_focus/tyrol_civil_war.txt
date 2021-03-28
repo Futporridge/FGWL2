@@ -23,7 +23,7 @@ focus_tree = {
 
 	shared_focus = {
 		id = TYR_Austria_in_Need
-		icon = GFX_focus_PAR_anarchy
+		icon = GFX_focus_TYR_Austria_in_Need
 		x = 7
 		y = 0
 		cost = 2
@@ -44,7 +44,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Reward_the_Paramilitary
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Reward_the_Paramilitary
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Austria_in_Need }
@@ -69,7 +69,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Preserve_Austrian_Heritage
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Preserve_Austrian_Heritage
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Reward_the_Paramilitary }
@@ -92,7 +92,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Emphasis_on_the_Imperial_Army
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Embraсe_the_Former_Imperial_Army
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Austria_in_Need }
@@ -121,7 +121,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Ideology_of_Hatred
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Ideology_of_Hatred
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Emphasis_on_the_Imperial_Army }
@@ -149,7 +149,7 @@ focus_tree = {
 	
 	shared_focus = {
 		id = TYR_Proclaim_the_Legitimate_Government
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Proclaim_the_Legitimate_Government
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Ideology_of_Hatred focus = TYR_Preserve_Austrian_Heritage }
@@ -172,7 +172,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Military_Stratocracy
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_MIlitary_Stratocracy
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Ideology_of_Hatred }
@@ -198,7 +198,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_the_Blitzkrieg
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_The_Blitzkrieg
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Military_Stratocracy }
@@ -223,7 +223,7 @@ focus_tree = {
 				}								
 	shared_focus = {
 		id = TYR_Protect_the_Traditional_Autonomies
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_Protect_the_Traditional_Autonimies
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Preserve_Austrian_Heritage }
@@ -249,7 +249,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_the_Heimatskrieg
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_The_Heimatskrieg
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Protect_the_Traditional_Autonomies }

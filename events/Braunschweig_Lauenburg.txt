@@ -1,0 +1,29 @@
+﻿	add_namespace = brl
+	
+	country_event = {	
+	id = brl.1
+	title = brl.1.t
+	desc = brl.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	immediate = {
+			hidden_effect = {
+		830 = {
+		add_core_of = VRS
+		}			
+			VRS = {
+			transfer_state = 830
+			}
+
+		}	
+	}
+	option = {
+		name = brl.1.a
+	
+	}
+	option = {
+		name = brl.1.b
+	VRS = { change_tag_from = ROOT }		
+	}	
+}

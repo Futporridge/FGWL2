@@ -703,5 +703,25 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_culture_german_angrivarian"
 		texturefile = "gfx/interface/ideas/culture/culture_german_angrivarian.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_finno_ugric_komi"
+		texturefile = "gfx/interface/ideas/culture/culture_finno_ugric_komi.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_altaic_tatar"
+		texturefile = "gfx/interface/ideas/culture/culture_altaic_tatar.dds"
+	}	
+		spriteType = {
+		name = "GFX_culture_uralic_samoyed"
+		texturefile = "gfx/interface/ideas/culture/culture_uralic_samoyed.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_altaic_yakut"
+		texturefile = "gfx/interface/ideas/culture/culture_altaic_yakut.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_altaic_bashkir"
+		texturefile = "gfx/interface/ideas/culture/culture_altaic_bashkir.dds"
 	}	
 }

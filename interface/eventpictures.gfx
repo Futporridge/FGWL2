@@ -2899,12 +2899,16 @@ spriteTypes = {
 		name = "GFX_event_austrian_soldiers_rep" 
 		texturefile = "gfx/event_pictures/austrian_soldiers_rep.dds"
 	}
-	spriteType = { 
+	spriteType = {  
 		name = "GFX_report_event_aus_reichstag"
 		texturefile = "gfx/event_pictures/report_event_aus_reichstag.dds"
 	}
 	spriteType = { 
 		name = "GFX_report_event_aus_coup_de_etat"
 		texturefile = "gfx/event_pictures/report_event_aus_coup_de_etat.dds"
+	}	
+	spriteType = { 
+		name = "GFX_report_event_aus_the_outcome"
+		texturefile = "gfx/event_pictures/report_event_aus_the_outcome.dds"
 	}		
 }
