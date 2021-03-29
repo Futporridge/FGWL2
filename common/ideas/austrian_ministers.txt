@@ -12,7 +12,7 @@ ideas = {
 			always = no
 			}
 			
-			traits = { army_leader }
+			traits = { The_Old_Regent }
 		}
 
 		AUS_Max_Hussarek_von_Heinlein = {
@@ -39,7 +39,7 @@ ideas = {
 			always = no
 			}
 			
-			traits = { army_leader }
+			traits = { Man_of_Military }
 		}
 		AUS_Johann_Koplenig = {
 
@@ -93,7 +93,7 @@ political_advisor = {
 			always = no
 			}
 			
-			traits = { army_leader }
+			traits = { young_diplomat }
 		}
 		AUS_Friedrich_Hayek = {
 
@@ -106,7 +106,7 @@ political_advisor = {
 			always = no
 			}
 			
-			traits = { army_leader }
+			traits = { heir_of_the_Austrian_school }
 		}	
 		AUS_Heinrich_Clam_Martinic = {
 
@@ -119,7 +119,7 @@ political_advisor = {
 			always = no
 			}
 			
-			traits = { army_leader }
+			traits = { parliamentary_advocate }
 		}	
 		AUS_Joseph_Roth = {
 
@@ -146,7 +146,7 @@ political_advisor = {
 			always = no
 			}
 			
-			traits = { army_leader }
+			traits = { Head_of_the_Evidenzbureau }
 		}
 		AUS_Ernst_Fischer = {
 

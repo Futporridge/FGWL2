@@ -3482,5 +3482,57 @@ young_blood = {
 		ai_will_do = {
 			factor = 1
 		}
-	}	
+	}
+The_Old_Regent = {
+		random = no
+		stability_factor = -0.05
+		experience_gain_army = 0.1
+		planning_speed = 0.2
+		ai_will_do = {
+			factor = 1
+		}
+	}
+young_diplomat = {
+		random = no
+		faction_trade_opinion_factor = 0.5
+		opinion_gain_monthly = 1
+		political_power_gain = -0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	heir_of_the_Austrian_school = {
+		random = no
+		consumer_goods_factor = 0.05
+		production_speed_buildings_factor = 0.1
+		trade_opinion_factor = 0.5
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	parliamentary_advocate = {
+		random = no
+		political_power_factor = 0.05
+		stability_factor = 0.025
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Head_of_the_Evidenzbureau = {
+		random = no
+		required_garrison_factor = -0.1
+		resistance_target_on_our_occupied_states = 0.2
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Man_of_Military = {
+		random = no
+		army_org_regain = 0.05
+		army_org_factor  = 0.05
+		planning_speed = 0.2
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }
