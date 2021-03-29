@@ -2,7 +2,7 @@
 
 oob = "AUS_1936"
 
-set_research_slots = 3
+set_research_slots = 4
 
 if = {
 	limit = {
@@ -124,8 +124,8 @@ HRE_member
 #advisors
 AUS_Viktor_Dankl_von_Krasnik
 AUS_Erik_von_Kuehnelt_Leddihn
-AUS_Friedrich_Hayek
 AUS_Heinrich_Clam_Martinic
+AUS_Friedrich_Hayek
 AUS_Maximilian_Ronge
 }
 

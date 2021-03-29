@@ -149,6 +149,395 @@ focus_tree = {
 		completion_reward = {
 
 		}
-				}		
-										
+				}
+	shared_focus = {
+		id = TYR_Initial_Grasp_on_Austria
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 2
+		prerequisite = { focus = AUS_Matters_of_Leadership }	
+		prerequisite = { focus = AUS_Cement_Angelis_Authority }
+		prerequisite = { focus = AUS_Final_Push_Against_Opposition }		
+		cost = 6
+		relative_position_id = AUS_Cement_Angelis_Authority
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
 		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = TYR_Nationalist_Rhetorics
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = TYR_Initial_Grasp_on_Austria }		
+		cost = 6
+		relative_position_id = TYR_Initial_Grasp_on_Austria
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = TYR_Popularize_the_Army
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = TYR_Nationalist_Rhetorics }		
+		cost = 6
+		relative_position_id = TYR_Nationalist_Rhetorics
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = TYR_Zealots_of_the_Regime
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Nationalist_Rhetorics }		
+		cost = 6
+		relative_position_id = TYR_Nationalist_Rhetorics
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}				
+	shared_focus = {
+		id = TYR_Jugendarmee
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Popularize_the_Army }		
+		prerequisite = { focus = TYR_Zealots_of_the_Regime }		
+		cost = 6
+		relative_position_id = TYR_Popularize_the_Army
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}				
+	shared_focus = {
+		id = TYR_Cult_of_Angelis
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Initial_Grasp_on_Austria }		
+		cost = 6
+		relative_position_id = TYR_Initial_Grasp_on_Austria
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = TYR_Ideological_Crusade
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Cult_of_Angelis }				
+		cost = 6
+		relative_position_id = TYR_Cult_of_Angelis
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = TYR_Republican_Ideals
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Ideological_Crusade }				
+		cost = 6
+		relative_position_id = TYR_Ideological_Crusade
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}				
+	shared_focus = {
+		id = TYR_Government_of_Strong
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = TYR_Initial_Grasp_on_Austria }		
+		cost = 6
+		relative_position_id = TYR_Initial_Grasp_on_Austria
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = TYR_Militaristic_Meritocracy
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Government_of_Strong }				
+		cost = 6
+		relative_position_id = TYR_Government_of_Strong
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}	
+	shared_focus = {
+		id = TYR_Political_Tutelage
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = TYR_Government_of_Strong }				
+		cost = 6
+		relative_position_id = TYR_Government_of_Strong
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = TYR_Expand_the_Soldatenring
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Militaristic_Meritocracy }		
+		prerequisite = { focus = TYR_Political_Tutelage }		
+		cost = 6
+		relative_position_id = TYR_Political_Tutelage
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}	
+	shared_focus = {
+		id = TYR_Battle_for_Souls_and_Hearts
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Jugendarmee }		
+		prerequisite = { focus = TYR_Republican_Ideals }	
+		prerequisite = { focus = TYR_Expand_the_Soldatenring }		
+		cost = 6
+		relative_position_id = TYR_Republican_Ideals
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = TYR_Neighbourhood_Watches
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = TYR_Battle_for_Souls_and_Hearts }			
+		cost = 6
+		relative_position_id = TYR_Battle_for_Souls_and_Hearts
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = TYR_Ideals_of_the_Great_Fatherland
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Battle_for_Souls_and_Hearts }			
+		cost = 6
+		relative_position_id = TYR_Battle_for_Souls_and_Hearts
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = TYR_Heartland_of_Nation
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Neighbourhood_Watches }
+		prerequisite = { focus = TYR_Ideals_of_the_Great_Fatherland }		
+		cost = 6
+		relative_position_id = TYR_Neighbourhood_Watches
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}				

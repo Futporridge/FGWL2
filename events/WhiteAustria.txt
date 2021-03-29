@@ -39,7 +39,7 @@
 	has_country_flag = TYR_angelis_in_power	
 		}
 	hidden_effect = {
-	
+	load_focus_tree = { tree = austria_soldierring_final_tree keep_completed = no }
 		}
 	}	
 }	
