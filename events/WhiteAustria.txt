@@ -80,6 +80,22 @@ create_country_leader = {
 	ruling_party = paternalism
 	}	
    random_unit_leader = { limit = { has_id = 192 } promote_leader = yes }	
+			remove_ideas = {
+			TYR_Ernst_Rudiger_Starhemberg
+			TYR_Karl_Buresch			
+			TYR_Walter_Pfrimer
+			TYR_Ludwig_Draxler
+			TYR_Maximilian_Ronge			
+			}		
+			add_ideas = {
+			TYR_Julius_Ringel
+			TYR_Ernst_Kaltenbrunner
+			TYR_Hermann_Robert_Senkowsky
+			TYR_Otto_Skorzeni
+			}		
+			add_ideas = { 
+			TYR_Lothar_Rendulic
+			}		
 		}
 }
 }
@@ -432,6 +448,22 @@ create_country_leader = {
 	set_politics = {
 	ruling_party = paternalism
 			}
+			remove_ideas = {
+			TYR_Ernst_Rudiger_Starhemberg
+			TYR_Karl_Buresch			
+			TYR_Walter_Pfrimer
+			TYR_Ludwig_Draxler
+			TYR_Maximilian_Ronge			
+			}		
+			add_ideas = {
+			TYR_Ernst_Rudiger_Starhemberg_minister
+			TYR_Emil_Fey
+			TYR_Ludwig_Draxler
+			TYR_Maximilian_Ronge			
+			}		
+			add_ideas = { 
+			TYR_Kurt_Schuschnigg
+			}			
 		}		
 	}	
 	option = {
@@ -453,6 +485,22 @@ create_country_leader = {
 	set_politics = {
 	ruling_party = reactionary
 			}
+			remove_ideas = {
+			TYR_Ernst_Rudiger_Starhemberg
+			TYR_Karl_Buresch			
+			TYR_Walter_Pfrimer
+			TYR_Ludwig_Draxler
+			TYR_Maximilian_Ronge			
+			}		
+			add_ideas = {
+			TYR_Ludwig_von_Flotow
+			TYR_Richard_Schmitz
+			TYR_Carl_Vaugoin
+			TYR_Maximilian_Ronge
+			}		
+			add_ideas = { 
+			TYR_Theodor_Innitzer
+			}			
 		}
 	}	
 }

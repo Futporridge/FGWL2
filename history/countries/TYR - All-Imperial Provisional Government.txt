@@ -36,6 +36,12 @@ AUS_decline_of_the_country
 common_illegitimate_state
 AUS_econ6
 TYR_left_insurgency
+#ministers
+TYR_Ernst_Rudiger_Starhemberg
+TYR_Karl_Buresch
+TYR_Walter_Pfrimer
+TYR_Ludwig_Draxler
+TYR_Maximilian_Ronge
 }
 
 set_convoys = 100

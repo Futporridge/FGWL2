@@ -1,0 +1,229 @@
+ideas = {
+  head_of_state = {
+
+		TYR_Ernst_Rudiger_Starhemberg = {
+
+			picture = Ernst_Rudiger_Starhemberg
+
+			allowed = {
+				original_tag = TYR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+
+		TYR_Lothar_Rendulic = {
+
+			picture = Lothar_Rendulic
+
+			allowed = {
+				original_tag = TYR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		TYR_Theodor_Innitzer = {
+
+			picture = Theodor_Innitzer
+
+			allowed = {
+				original_tag = TYR			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		TYR_Kurt_Schuschnigg = {
+
+			picture = Kurt_Schuschnigg
+
+			allowed = {
+				original_tag = TYR			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}		
+}	
+political_advisor = {
+		TYR_Karl_Buresch = {
+
+			picture = Karl_Buresch
+
+			allowed = {
+				original_tag = TYR			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		TYR_Walter_Pfrimer = {
+
+			picture = Walter_Pfrimer
+
+			allowed = {
+				original_tag = TYR			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		TYR_Ludwig_Draxler = {
+
+			picture = Ludwig_Draxler
+
+			allowed = {
+				original_tag = TYR			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}	
+		TYR_Ludwig_von_Flotow = {
+
+			picture = Ludwig_von_Flotow
+
+			allowed = {
+				original_tag = TYR			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		TYR_Richard_Schmitz = {
+
+			picture = Richard_Schmitz
+
+			allowed = {
+				original_tag = AUS			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		TYR_Carl_Vaugoin = {
+
+			picture = Carl_Vaugoin
+
+			allowed = {
+				original_tag = TYR			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		TYR_Julius_Ringel = {
+
+			picture = Julius_Ringel
+
+			allowed = {
+				original_tag = TYR			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		TYR_Ernst_Kaltenbrunner = {
+
+			picture = Ernst_Kaltenbrunner
+
+			allowed = {
+				original_tag = TYR			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		TYR_Hermann_Robert_Senkowsky = {
+
+			picture = Hermann_Robert_Senkowsky
+
+			allowed = {
+				original_tag = TYR			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		TYR_Otto_Skorzeni = {
+
+			picture = Otto_Skorzeni
+
+			allowed = {
+				original_tag = TYR			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		TYR_Emil_Fey = {
+
+			picture = Emil_Fey
+
+			allowed = {
+				original_tag = TYR			
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		TYR_Maximilian_Ronge = {
+
+			picture = Maximilian_Ronge
+
+			allowed = {
+				original_tag = TYR				
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}
+		TYR_Ernst_Rudiger_Starhemberg_minister = {
+
+			picture = Ernst_Rudiger_Starhemberg
+
+			allowed = {
+				original_tag = TYR				
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { army_leader }
+		}		
+}
+	}

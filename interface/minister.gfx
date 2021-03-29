@@ -216,5 +216,69 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_idea_Leopold_Figl"
 		texturefile = "gfx/interface/ideas/Ministers/austria/SDPAO_r/Leopold_Figl.dds"
-	}		
+	}
+		spriteType = {
+		name = "GFX_idea_Emil_Fey"
+		texturefile = "gfx/interface/ideas/Ministers/tyrol/Emil_Fey.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Ernst_Rudiger_Starhemberg"
+		texturefile = "gfx/interface/ideas/Ministers/tyrol/Ernst_Rudiger_Starhemberg.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Karl_Buresch"
+		texturefile = "gfx/interface/ideas/Ministers/tyrol/Karl_Buresch.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Kurt_Schuschnigg"
+		texturefile = "gfx/interface/ideas/Ministers/tyrol/Kurt_Schuschnigg.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Ludwig_Draxler"
+		texturefile = "gfx/interface/ideas/Ministers/tyrol/Ludwig_Draxler.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Walter_Pfrimer"
+		texturefile = "gfx/interface/ideas/Ministers/tyrol/Walter_Pfrimer.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Ernst_Kaltenbrunner"
+		texturefile = "gfx/interface/ideas/Ministers/tyrol/angelis/idea_Ernst_Kaltenbrunner.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Hermann_Robert_Senkowsky"
+		texturefile = "gfx/interface/ideas/Ministers/tyrol/angelis/idea_Hermann_Robert_Senkowsky.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Julius_Ringel"
+		texturefile = "gfx/interface/ideas/Ministers/tyrol/angelis/idea_Julius_Ringel.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Lothar_Rendulic"
+		texturefile = "gfx/interface/ideas/Ministers/tyrol/angelis/idea_Lothar_Rendulic.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Otto_Skorzeni"
+		texturefile = "gfx/interface/ideas/Ministers/tyrol/angelis/idea_Otto_Skorzeni.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Carl_Vaugoin"
+		texturefile = "gfx/interface/ideas/Ministers/tyrol/Orel/Carl_Vaugoin.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Ludwig_von_Flotow"
+		texturefile = "gfx/interface/ideas/Ministers/tyrol/Orel/Ludwig_von_Flotow.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Richard_Schmitz"
+		texturefile = "gfx/interface/ideas/Ministers/tyrol/Orel/Richard_Schmitz.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Theodor_Innitzer"
+		texturefile = "gfx/interface/ideas/Ministers/tyrol/Orel/Theodor_Innitzer.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Emil_Fey"
+		texturefile = "gfx/interface/ideas/Ministers/tyrol/Emil_Fey.dds"
+	}	
 }
