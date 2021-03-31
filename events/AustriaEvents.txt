@@ -283,7 +283,7 @@
 	id = aus.3
 	title = aus.3.t
 	desc = aus.3.d
-	picture = GFX_
+	picture = GFX_report_event_aus_reichstag
 	is_triggered_only = yes
 	immediate = {
 	hidden_effect = {
@@ -838,7 +838,7 @@ country_event = {
 	id = aus.22
 	title = aus.22.t
 	desc = aus.22.d
-	picture = GFX_
+	picture = GFX_report_event_aus_constantinopolis
 	immediate = {
 	hidden_effect = {
 	country_event = { id = aus.24 days = 4 }
@@ -1163,7 +1163,7 @@ hidden_effect = {
 	id = aus.35
 	title = aus.35.t
 	desc = aus.35.d
-	picture = GFX_
+	picture = GFX_report_event_aus_terror_actions
 
 	is_triggered_only = yes
 
@@ -1230,7 +1230,7 @@ hidden_effect = {
 	id = aus.39
 	title = aus.39.t
 	desc = aus.39.d
-	picture = GFX_
+	picture = GFX_report_event_aus_elections_results
 	is_triggered_only = yes
 	immediate = {
 	clr_country_flag = angelis_initial_win
@@ -1515,7 +1515,7 @@ load_oob = AUS_left_initial_win
 	id = aus.47
 	title = aus.47.t
 	desc = aus.47.d
-	picture = GFX_
+	picture = GFX_report_event_hun_parlament
 	fire_only_once = yes
 	is_triggered_only = yes		
 

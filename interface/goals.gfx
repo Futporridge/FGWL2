@@ -2574,5 +2574,41 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_focus_AUS_the_outcome"
 		texturefile = "gfx/interface/goals/Focus_AUS_the_outcome.dds"
-	}		
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_SDAPO_L"
+		texturefile = "gfx/interface/goals/Focus_AUS_SDAPO_L.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_AUS_OAP"
+		texturefile = "gfx/interface/goals/Focus_AUS_OAP.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_SDAPO_R"
+		texturefile = "gfx/interface/goals/Focus_AUS_SDAPO_R.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_promethius_gift"
+		texturefile = "gfx/interface/goals/Focus_AUS_promethius_gift.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_securing_the_reichstag"
+		texturefile = "gfx/interface/goals/Focus_AUS_securing_the_reichstag.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Arm_The_Paramilitary"
+		texturefile = "gfx/interface/goals/Focus_AUS_Arm_The_Paramilitary.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Strenghten_the_Unions"
+		texturefile = "gfx/interface/goals/Focus_AUS_Strenghten_the_Unions.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Liberalize_the_Army"
+		texturefile = "gfx/interface/goals/Focus_AUS_Liberalize_the_Army.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_the_grand_restructure"
+		texturefile = "gfx/interface/goals/Focus_AUS_the_grand_restructure.dds"
+	}	
 }
