@@ -281,4 +281,8 @@ spriteTypes = {
 		name = "GFX_idea_Emil_Fey"
 		texturefile = "gfx/interface/ideas/Ministers/tyrol/Emil_Fey.dds"
 	}	
+		spriteType = {
+		name = "GFX_idea_vacant_place"
+		texturefile = "gfx/interface/ideas/Ministers/vacant_place.dds"
+	}		
 }

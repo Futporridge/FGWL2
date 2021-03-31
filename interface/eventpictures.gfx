@@ -2910,5 +2910,21 @@ spriteTypes = {
 	spriteType = { 
 		name = "GFX_report_event_aus_the_outcome"
 		texturefile = "gfx/event_pictures/report_event_aus_the_outcome.dds"
+	}	
+	spriteType = { 
+		name = "GFX_report_event_aus_panic"
+		texturefile = "gfx/event_pictures/report_event_aus_panic.dds"
+	}	
+	spriteType = { 
+		name = "GFX_report_event_aus_disrupted_elections"
+		texturefile = "gfx/event_pictures/report_event_aus_disrupted_elections.dds"
+	}
+	spriteType = { 
+		name = "GFX_report_event_aus_puch_und_comp"
+		texturefile = "gfx/event_pictures/report_event_aus_puch_und_comp.dds"
+	}
+	spriteType = { 
+		name = "GFX_report_event_aus_proclamation_of_republic"
+		texturefile = "gfx/event_pictures/report_event_aus_proclamation_of_republic.dds"
 	}		
 }

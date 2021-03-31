@@ -326,7 +326,7 @@
 	id = aus.5
 	title = aus.5.t
 	desc = aus.5.d
-	picture = GFX_
+	picture = GFX_report_event_aus_panic
 
 	is_triggered_only = yes
 	immediate = {
@@ -384,7 +384,7 @@ country_event = {
 	id = aus.9
 	title = aus.9.t
 	desc = aus.9.d
-	picture = GFX_
+	picture = GFX_report_event_aus_puch_und_comp
 	
 	is_triggered_only = yes
 
@@ -1031,6 +1031,7 @@ set_demilitarized_zone = yes
 
 immediate = {
 hidden_effect = {
+set_country_flag = angelis_initial_win
 remove_unit_leader = 186
 	swap_ideas = {
      remove_idea = AUS_diveded_empire
@@ -1044,6 +1045,23 @@ set_politics = {
 	leave_faction = yes	
 
 	unlock_national_focus = AUS_soldatenring
+			remove_ideas = {
+			AUS_Alfred_von_Waldstatten
+			AUS_Viktor_Dankl_von_Krasnik			
+			AUS_Erik_von_Kuehnelt_Leddihn
+			AUS_Friedrich_Hayek
+			AUS_Heinrich_Clam_Martinic
+			AUS_Maximilian_Ronge			
+			}		
+			add_ideas = {
+			AUS_dip_vacant
+			AUS_inner_vacant
+			AUS_econom_vacant
+			AUS_rec_vacant
+			}		
+			add_ideas = { 
+			AUS_head_of_gov_vacant
+			}	
 }	
 	}
 
@@ -1069,7 +1087,7 @@ country_event = {
 	id = aus.31
 	title = aus.31.t
 	desc = aus.31.d
-	picture = GFX_
+	picture = GFX_report_event_aus_proclamation_of_republic
 
 	is_triggered_only = yes
 immediate = {
@@ -1174,7 +1192,7 @@ hidden_effect = {
 	id = aus.37
 	title = aus.37.t
 	desc = aus.37.d
-	picture = GFX_
+	picture = GFX_report_event_aus_disrupted_elections
 
 	trigger = {
 		tag = AUS
@@ -1215,6 +1233,7 @@ hidden_effect = {
 	picture = GFX_
 	is_triggered_only = yes
 	immediate = {
+	clr_country_flag = angelis_initial_win
 	hidden_effect = {
 		remove_ideas = AUS_trade_union_power_lifts
 create_corps_commander = {
@@ -1295,12 +1314,11 @@ set_politics = {
 	load_focus_tree = { tree = austrian_initial_socdem_focus }
 		set_country_flag = AUS_the_SDPAO_L		
 			remove_ideas = {
-			AUS_Alfred_von_Waldstatten
-			AUS_Viktor_Dankl_von_Krasnik			
-			AUS_Erik_von_Kuehnelt_Leddihn
-			AUS_Friedrich_Hayek
-			AUS_Heinrich_Clam_Martinic
-			AUS_Maximilian_Ronge			
+			AUS_head_of_gov_vacant
+			AUS_dip_vacant
+			AUS_inner_vacant
+			AUS_econom_vacant
+			AUS_rec_vacant			
 			}		
 			add_ideas = {
 			AUS_Friedrich_Adler
@@ -1323,12 +1341,11 @@ set_politics = {
 	load_focus_tree = { tree = austrian_initial_socdem_focus }
 		set_country_flag = AUS_the_OAP
 			remove_ideas = {
-			AUS_Alfred_von_Waldstatten
-			AUS_Viktor_Dankl_von_Krasnik			
-			AUS_Erik_von_Kuehnelt_Leddihn
-			AUS_Friedrich_Hayek
-			AUS_Heinrich_Clam_Martinic
-			AUS_Maximilian_Ronge			
+			AUS_head_of_gov_vacant
+			AUS_dip_vacant
+			AUS_inner_vacant
+			AUS_econom_vacant
+			AUS_rec_vacant		
 			}		
 			add_ideas = {
 			AUS_Ernst_Fischer
@@ -1349,12 +1366,11 @@ set_politics = {
 	ruling_party = liberalism
 }
 			remove_ideas = {
-			AUS_Alfred_von_Waldstatten
-			AUS_Viktor_Dankl_von_Krasnik			
-			AUS_Erik_von_Kuehnelt_Leddihn
-			AUS_Friedrich_Hayek
-			AUS_Heinrich_Clam_Martinic
-			AUS_Maximilian_Ronge			
+			AUS_head_of_gov_vacant
+			AUS_dip_vacant
+			AUS_inner_vacant
+			AUS_econom_vacant
+			AUS_rec_vacant			
 			}		
 			add_ideas = {
 			AUS_Johannes_Schober

@@ -51,3 +51,10 @@ soundeffect = {
 	}
 	volume = 1
 }
+soundeffect = {
+	name = "mazurin"
+	sounds = {
+		sound = "mazurin"
+	}
+	volume = 1
+}

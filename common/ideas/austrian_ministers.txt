@@ -79,7 +79,22 @@ ideas = {
 			}
 			
 			traits = { army_leader }
-		}		
+		}
+		AUS_head_of_gov_vacant = {
+
+			picture = vacant_place
+
+			allowed = {
+				has_country_flag = angelis_initial_win
+				original_tag = AUS
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { head_of_gov_vac }
+		}
+		
 }	
 political_advisor = {
 		AUS_Erik_von_Kuehnelt_Leddihn = {
@@ -148,6 +163,62 @@ political_advisor = {
 			
 			traits = { Head_of_the_Evidenzbureau }
 		}
+		AUS_dip_vacant = {
+
+			picture = vacant_place
+
+			allowed = {
+				has_country_flag = angelis_initial_win
+				original_tag = AUS
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { AUS_dip_vacant }
+		}
+		AUS_inner_vacant = {
+
+			picture = vacant_place
+
+			allowed = {
+				has_country_flag = angelis_initial_win
+				original_tag = AUS
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { AUS_inner_vacant }
+		}		
+		AUS_econom_vacant = {
+
+			picture = vacant_place
+
+			allowed = {
+				has_country_flag = angelis_initial_win
+				original_tag = AUS
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { AUS_econom_vacant }
+		}	
+		AUS_rec_vacant = {
+
+			picture = vacant_place
+
+			allowed = {
+				has_country_flag = angelis_initial_win
+				original_tag = AUS
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { AUS_rec_vacant }
+		}			
 		AUS_Ernst_Fischer = {
 
 			picture = Ernst_Fischer

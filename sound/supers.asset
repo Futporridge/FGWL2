@@ -29,15 +29,21 @@ sound = {
 	volume = 1
 	always_load = yes
 }
-sound = {
+sound = { 
 	name = "black_army_win"
 	file = "menu/black_army_win.wav"
 	volume = 1
 	always_load = yes
 }
-sound = {
+sound = { 
 	name = "drieu_super"
 	file = "menu/drieu_super.wav"
+	volume = 1
+	always_load = yes
+}
+sound = { 
+	name = "mazurin"
+	file = "menu/mazurin.wav"
 	volume = 1
 	always_load = yes
 }

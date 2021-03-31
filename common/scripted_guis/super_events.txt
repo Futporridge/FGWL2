@@ -55,6 +55,11 @@ scripted_gui = {
 				has_global_flag  = drieu_victory
 			}
 		}
+		triggers = {
+			Super_Event_mazurin_victory_visible = {
+				has_global_flag  = mazurin_victory
+			}
+		}		
 
 		properties = {
 			Super_Event_Default = {
@@ -121,6 +126,12 @@ scripted_gui = {
 					}
 					clr_global_flag  = drieu_victory
 				}
+				if = {
+					limit = {	
+						has_global_flag = mazurin_victory
+					}
+					clr_global_flag  = mazurin_victory
+				}				
 			}
 		}
 	}

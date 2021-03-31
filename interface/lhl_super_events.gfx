@@ -38,6 +38,10 @@ spriteTypes = {
 		name = "GFX_drieu_victory"
 		texturefile = "gfx/super_events/drieu_unites.dds"
 	}
+	spriteType = {
+		name = "GFX_mazurin_victory"
+		texturefile = "gfx/super_events/Mazurin_victory.dds"
+	}	
 
 	spriteType = {
 		name = "GFX_CLOSE"
