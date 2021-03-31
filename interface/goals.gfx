@@ -2554,5 +2554,25 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_focus_TYR_Create_the_Weapon_Guild"
 		texturefile = "gfx/interface/goals/Focus_TYR_Create_the_Weapon_Guild.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_soldatenring_in_charge"
+		texturefile = "gfx/interface/goals/Focus_AUS_soldatenring_in_charge.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_Proclaim_the_Austrian_Republic"
+		texturefile = "gfx/interface/goals/Focus_AUS_Proclaim_the_Austrian_Republic.dds"
 	}	
+	SpriteType = { 
+		name = "GFX_focus_AUS_martial_law"
+		texturefile = "gfx/interface/goals/Focus_AUS_martial_law.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_AUS_terror_actions"
+		texturefile = "gfx/interface/goals/Focus_AUS_terror_actions.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_the_outcome"
+		texturefile = "gfx/interface/goals/Focus_AUS_the_outcome.dds"
+	}		
 }
