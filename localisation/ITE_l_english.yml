@@ -17,7 +17,7 @@ ITE_oligarchy_party_long:0 "Unione dei Proprietari Terrieri (Union of Landowners
 ITE_paternalism_party:0 "PNM"
 ITE_paternalism_party_long:0 "Partito Nazionale Monarchico (Monarchist National Party)"
 ITE_reactionary_party:0 "UC"
-ITE_reactionary_party_long:0 "Unione Сattolica (Imperial Council)"
+ITE_reactionary_party_long:0 "Unione Сattolica (Catholic Union)"
 #############Министры############
 AUS_Viktor_Dankl_von_Krasnik:0 "Viktor Dankl von Krasnik"
 
@@ -77,6 +77,10 @@ ITE_emergency_nationalization:0 "Emergency Nationalization"
 ITE_emergency_nationalization_desc:0 ""
 ITE_trains_run_on_time:0 "Trains Run on Time"
 ITE_trains_run_on_time_desc:0 ""
+
+ITE_trains_run_on_time:0 "Trains Run on Time"
+ITE_trains_run_on_time_desc:0 ""
+
 ITE_for_italy_and_italians:0 "For Italy and Italians"
 ITE_for_italy_and_italians_desc:0 ""
 ITE_the_emperor_speaks:0 "The Emperor Speaks"

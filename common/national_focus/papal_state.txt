@@ -1,0 +1,12 @@
+focus_tree = {
+	id = papal_state_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = POP
+		}
+	}
+	default = no
+	shared_focus = POP_deus_vult
+}

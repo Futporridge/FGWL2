@@ -26,8 +26,8 @@ state={
 				naval_base = 5
 
 			}
-			11846 = {
-				naval_base = 2
+			9794 = {
+				bunker = 2
 
 			}
 

@@ -1,0 +1,243 @@
+focus_tree = {
+	id = papal_state_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = POP
+		}
+	}
+	default = no
+	focus = {
+		id = POP_deus_vult
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 7
+		y = 0
+		
+		available = {
+        always = no
+        }
+
+	}
+	focus = {
+		id = POP_budget_of_36
+		icon = GFX_goal_unknown
+		cost = 4
+		prerequisite = {
+			focus = POP_deus_vult
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = POP_concrete_landscape
+		icon = GFX_goal_unknown
+		cost = 4
+		prerequisite = {
+			focus = POP_budget_of_36
+		}
+		mutually_exclusive = {
+			focus = POP_defund_the_wall
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = POP_penal_labor
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = POP_concrete_landscape
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = POP_sweat_and_blood
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = POP_penal_labor
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = POP_defund_the_wall
+		icon = GFX_goal_unknown
+		cost = 4
+		prerequisite = {
+			focus = POP_budget_of_36
+		}
+		mutually_exclusive = {
+			focus = POP_concrete_landscape
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = POP_gold_of_the_church 
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = POP_defund_the_wall
+			focus = POP_concrete_landscape
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = POP_bank_of_rome
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = POP_defund_the_wall
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = POP_labor_army
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = POP_bank_of_rome
+			focus = POP_penal_labor
+		}
+		prerequisite = {
+			focus = POP_gold_of_the_church 
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = POP_papal_amnesty
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = POP_bank_of_rome
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = POP_make_the_patricians_pay
+		icon = GFX_goal_unknown
+		cost = 4
+		prerequisite = {
+			focus = POP_labor_army
+			focus = POP_papal_amnesty
+			focus = POP_sweat_and_blood
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = POP_sacra_ligua
+		icon = GFX_goal_unknown
+		cost = 4
+		prerequisite = {
+			focus = POP_deus_vult
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = POP_northern_embassy
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = POP_sacra_ligua
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = POP_the_merchants_of_venice
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = POP_northern_embassy
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = POP_the_aristocrats_of_tuscany
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = POP_northern_embassy
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = POP_the_bureaucrats_of_piedmont
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = POP_northern_embassy
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = POP_the_people_of_italy
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = POP_the_bureaucrats_of_piedmont
+		}
+		prerequisite = {
+			focus = POP_the_aristocrats_of_tuscany
+		}
+		prerequisite = {
+			focus = POP_the_merchants_of_venice
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = POP_the_congregation_of_church
+		icon = GFX_goal_unknown
+		cost = 4
+		prerequisite = {
+			focus = POP_the_people_of_italy
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = POP_new_conscription
+		icon = GFX_goal_unknown
+		cost = 4
+		prerequisite = {
+			focus = POP_the_congregation_of_church
+		}
+		prerequisite = {
+			focus = POP_make_the_patricians_pay
+		}
+		x = 7
+		y = 6
+
+	}
+}

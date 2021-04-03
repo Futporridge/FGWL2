@@ -11,7 +11,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = 0.10
-				stability_weekly = -0.01
+				stability_weekly = -0.005
 				reactionary_drift = -0.05
 			}
 	
