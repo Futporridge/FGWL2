@@ -1,0 +1,12 @@
+focus_tree = {
+	id = italian_empire_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ITE
+		}
+	}
+	default = no
+	shared_focus = ITE_empire_legacy
+}
