@@ -1119,7 +1119,7 @@ hidden_effect = {
 	id = aus.32
 	title = aus.32.t
 	desc = aus.32.d
-	picture = GFX_
+	picture = GFX_report_event_aus_intelligentsia
 
 	is_triggered_only = yes
 
