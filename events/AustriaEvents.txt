@@ -344,7 +344,7 @@
 	id = aus.6
 	title = aus.6.t
 	desc = aus.6.d
-	picture = GFX_
+	picture = GFX_report_event_aus_welserland
 
 	is_triggered_only = yes
 
