@@ -49,8 +49,8 @@ ideas = {
 			picture = Progressive_monarchy
 			
 			modifier = {
-				conservatism_drift = 0.05
-				liberalism_drift = 0.03
+				conservatism_drift = 0.03
+				liberalism_drift = 0.05
 				communitarianism_drift = 0.03
 				conservatism_acceptance = 85
 				liberalism_acceptance = 85
