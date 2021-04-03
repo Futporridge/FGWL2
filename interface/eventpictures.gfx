@@ -2951,4 +2951,12 @@ spriteTypes = {
 		name = "GFX_report_event_aus_intelligentsia"
 		texturefile = "gfx/event_pictures/report_event_aus_intelligentsia.dds"
 	}	
+	spriteType = { 
+		name = "GFX_report_event_aus_parliament"
+		texturefile = "gfx/event_pictures/report_event_aus_parliament.dds"
+	}
+	spriteType = { 
+		name = "GFX_report_event_aus_smoking"
+		texturefile = "gfx/event_pictures/report_event_aus_smoking.dds"
+	}	
 }

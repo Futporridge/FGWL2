@@ -1133,7 +1133,7 @@ hidden_effect = {
 	id = aus.33
 	title = aus.33.t
 	desc = aus.33.d
-	picture = GFX_
+	picture = GFX_report_event_aus_smoking
 
 	is_triggered_only = yes
 
@@ -1412,7 +1412,7 @@ load_oob = AUS_left_initial_win
 	id = aus.41
 	title = aus.41.t
 	desc = aus.41.d
-	picture = GFX_
+	picture = GFX_report_event_aus_parliament
 
 	is_triggered_only = yes
 
