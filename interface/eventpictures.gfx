@@ -2946,5 +2946,9 @@ spriteTypes = {
 	spriteType = { 
 		name = "GFX_report_event_aus_welserland"
 		texturefile = "gfx/event_pictures/report_event_aus_welserland.dds"
+	}
+	spriteType = { 
+		name = "GFX_report_event_aus_intelligentsia"
+		texturefile = "gfx/event_pictures/report_event_aus_intelligentsia.dds"
 	}	
 }
