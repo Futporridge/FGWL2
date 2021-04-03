@@ -1,0 +1,17 @@
+﻿
+	add_namespace = pop
+	
+	country_event = {	
+	id = pop.1
+	title = pop.1.t
+	desc = pop.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = pop.1.a
+		
+    complete_national_focus = POP_deus_vult
+}
+}

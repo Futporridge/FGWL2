@@ -1,0 +1,10 @@
+on_actions = {
+	on_startup = {
+		effect = {
+	ITE = {
+	country_event = { id = pop.1 }		
+		}
+
+	}
+}
+}	
