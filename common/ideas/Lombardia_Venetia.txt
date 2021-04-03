@@ -10,9 +10,9 @@ ideas = {
 			picture = Industrial_oligarchy 
 			
 			modifier = {
-				consumer_goods_factor = -0.15
-				political_power_gain = -0.15
-				production_factory_max_efficiency_factor = 0.2
+				consumer_goods_factor = -0.10
+				political_power_gain = -0.25
+				production_factory_max_efficiency_factor = 0.15
 				production_factory_efficiency_gain_factor = 0.1
 			}
 	
@@ -48,7 +48,7 @@ ideas = {
 			picture = Bende_rosse
 			
 			modifier = {
-				stability_weekly = -0.01
+				stability_weekly = -0.005
 				utopism_drift = 0.03
 				prometeism_drift = 0.03
 				communitarianism_drift = 0.03
