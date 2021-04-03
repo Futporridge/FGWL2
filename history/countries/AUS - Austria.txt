@@ -152,6 +152,26 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
+	name = "Josef Oberegger"
+	desc = "POLITICS_JOSEF_OBREGGER_DESC"
+	picture = "gfx/leaders/AUS/Portrait_Josef_Oberegger.tga"
+	expire = "1965.1.1"
+	ideology = oligarchy
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Irene Harand"
+	desc = "POLITICS_IRENE_HARAND_DESC"
+	picture = "gfx/leaders/AUS/Portrait_Irene_Harand.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
 	name = "Otto Bauer"
 	desc = "POLITICS_OTTO_BAUER_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Otto_Bauer.tga"
