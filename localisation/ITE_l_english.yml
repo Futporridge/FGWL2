@@ -30,9 +30,9 @@ ITE_Progressive_monarchy:0 "Progressive monarchy"
 ITE_Progressive_monarchy_desc:0 ""
 
 #############Ивенты############
-aus.1.t:0 "Preparations for the Reichstag"
-aus.1.d:0 "An important day is approaching - the convocation of the Reichstag. In honor of this, the Austrian government made a simple but elegant decision: to decorate Regensburg in honor of the arrival of numerous representatives of various regions of the "Holy Empire". \n\nThis should cheer up not only the delegates who come to the city, but also its indigenous inhabitants, because the city itself has been hosting Reichstag meetings for a very long time. \n\nIn the mind of common people the image of this convocations is closely associated with Regensburg, and vice versa - everyone knows this city for the fact that almost all the convocations of parliament were held in it."
-aus.1.a:0 "The scenery was prettier last time..."
+ite.1.t:0 "Ricordi di un Impero"
+ite.1.d:0 ""
+ite.1.a:0 "Bridges burned"
 
 #############Решения############
 TYR_shield_of_the_republic:0 "Shield of the Republic"

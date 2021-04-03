@@ -1,0 +1,17 @@
+﻿
+	add_namespace = ite
+	
+	country_event = {	
+	id = ite.1
+	title = ite.1.t
+	desc = ite.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ite.1.a
+		
+    complete_national_focus = ITE_empire_legacy
+}
+}
