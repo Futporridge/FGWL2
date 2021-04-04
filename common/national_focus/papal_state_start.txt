@@ -82,7 +82,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = POP_gold_of_the_church 
+		id = POP_gold_of_the_church
 		icon = GFX_goal_unknown
 		cost = 2
 		prerequisite = {
@@ -135,10 +135,12 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 4
 		prerequisite = {
-			focus = POP_labor_army
 			focus = POP_papal_amnesty
 			focus = POP_sweat_and_blood
 		}
+		prerequisite = {
+		    focus = POP_labor_army
+	    }
 		x = 3
 		y = 5
 
