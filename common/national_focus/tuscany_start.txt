@@ -1,0 +1,319 @@
+focus_tree = {
+	id = tuscany_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TUS
+		}
+	}
+	default = no
+	focus = {
+		id = TUS_clouds_are_gathering
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 12
+		y = 0
+		
+		available = {
+        always = no
+        }
+
+
+	}
+	focus = {
+		id = TUS_gran_сonsiglio
+		icon = GFX_goal_unknown
+		cost = 4
+		prerequisite = {
+			focus = TUS_clouds_are_gathering
+		}
+		x = 12
+		y = 1
+
+	}
+	focus = {
+		id = TUS_duke_and_country
+		icon = GFX_goal_unknown
+		cost = 4
+		prerequisite = {
+			focus = TUS_gran_сonsiglio
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = TUS_giovane_guardia
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = TUS_duke_and_country
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = TUS_cheap_labor
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = TUS_giovane_guardia
+		}
+		mutually_exclusive = {
+			focus = TUS_guarded_paradise
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = TUS_army_inspection
+		icon = GFX_goal_unknown
+		cost = 4
+		prerequisite = {
+			focus = TUS_gran_сonsiglio
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = TUS_new_uniform
+		icon = GFX_goal_unknown
+		cost = 4
+		prerequisite = {
+			focus = TUS_army_inspection
+		}
+		mutually_exclusive = {
+			focus = TUS_dogs_of_war
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = TUS_universal_conscription
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = TUS_new_uniform
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = TUS_guarded_paradise
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = TUS_giovane_guardia
+		}
+		prerequisite = {
+			focus = TUS_universal_conscription
+		}
+		mutually_exclusive = {
+			focus = TUS_cheap_labor
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = TUS_drill_traditions
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = TUS_universal_conscription
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = TUS_military_utilitarianism
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = TUS_drill_traditions
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = TUS_dogs_of_war
+		icon = GFX_goal_unknown
+		cost = 4
+		prerequisite = {
+			focus = TUS_army_inspection
+		}
+		mutually_exclusive = {
+			focus = TUS_new_uniform
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = TUS_a_new_type_of_war
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = TUS_dogs_of_war
+			focus = TUS_new_uniform
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = TUS_learning_from_professionals
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = TUS_dogs_of_war
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = TUS_officer_training_courses
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = TUS_learning_from_professionals
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = TUS_loyalty_paid_in_gold
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = TUS_officer_training_courses
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = TUS_centralization_of_the_economy
+		icon = GFX_goal_unknown
+		cost = 4
+		prerequisite = {
+			focus = TUS_gran_сonsiglio
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = TUS_new_taxes
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = TUS_centralization_of_the_economy
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = TUS_renegotiate_privileges
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = TUS_new_taxes
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = TUS_power_of_greed
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = TUS_renegotiate_privileges
+		}
+		mutually_exclusive = {
+			focus = TUS_fixed_prices
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = TUS_fixed_prices
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = TUS_renegotiate_privileges
+		}
+		mutually_exclusive = {
+			focus = TUS_power_of_greed
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = TUS_no_more_siesta
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = TUS_fixed_prices
+			focus = TUS_power_of_greed
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = TUS_open_door
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = TUS_cheap_labor
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = TUS_the_big_parade
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = TUS_guarded_paradise
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = TUS_one_center
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = TUS_the_big_parade
+			focus = TUS_open_door
+		}
+		prerequisite = {
+			focus = TUS_no_more_siesta
+		}
+		prerequisite = {
+			focus = TUS_military_utilitarianism
+			focus = TUS_loyalty_paid_in_gold
+		}
+		x = 12
+		y = 7
+
+	}
+}

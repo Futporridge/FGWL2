@@ -77,10 +77,10 @@ ITE_emergency_nationalization:0 "Emergency Nationalization"
 ITE_emergency_nationalization_desc:0 ""
 ITE_trains_run_on_time:0 "Trains Run on Time"
 ITE_trains_run_on_time_desc:0 ""
-
 ITE_trains_run_on_time:0 "Trains Run on Time"
 ITE_trains_run_on_time_desc:0 ""
-
+ITE_one_day_as_lion:0 "One Day as Lion"
+ITE_one_day_as_lion_desc:0 ""
 ITE_for_italy_and_italians:0 "For Italy and Italians"
 ITE_for_italy_and_italians_desc:0 ""
 ITE_the_emperor_speaks:0 "The Emperor Speaks"

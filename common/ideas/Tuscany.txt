@@ -1,17 +1,17 @@
 ideas = {
 
 	country = {
-		Cultural_Center = {
+		cultural_center = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = Cultural_Center 
+			picture = cultural_center 
 			
 			modifier = {
 				political_power_gain = 0.3
-				stability_weekly = 0.01
+				research_speed_factor = 0.1
 			}
 	
 			ai_will_do = {
@@ -29,7 +29,27 @@ ideas = {
 			
 			modifier = {
 				stability_factor = 0.05
-				war_support_factor = 0.1
+				stability_weekly = 0.005
+				consumer_goods_factor = 0.2
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		tuscan_guard = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = tuscan_guard
+			
+			modifier = {
+				conscription_factor = -0.50
+				army_morale_factor = -0.20
+				army_org_factor = -0.20
 			}
 	
 			ai_will_do = {

@@ -1,0 +1,12 @@
+focus_tree = {
+	id = Tuscany_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TUS
+		}
+	}
+	default = no
+	shared_focus = TUS_clouds_are_gathering
+}
