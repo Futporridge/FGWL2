@@ -27,6 +27,13 @@ set_popularities = {
 
 add_ideas = {
 
+#advisors
+CZE_Josef_Pekar
+CZE_Jan_Adolf_Lobkowicz
+CZE_Mikulas_z_Bubna_Litic
+CZE_Zdenko_Radslav_Kinsky
+CZE_Frantisek_Borek_Dohalsky
+
 }
 
 set_convoys = 100

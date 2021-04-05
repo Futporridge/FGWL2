@@ -1,0 +1,76 @@
+ideas = {
+  head_of_state = {
+
+		CZE_Josef_Pekar = {
+
+			picture = Josef_Pekar
+
+			allowed = {
+				original_tag = CZE
+			}
+			available = {
+			always = no
+			}
+			
+			traits = {  }
+		}
+
+				
+}	
+political_advisor = {
+		CZE_Mikulas_z_Bubna_Litic = {
+
+			picture = Mikulas_z_Bubna_Litic
+
+			allowed = {
+				original_tag = CZE
+			}
+			available = {
+			always = no
+			}
+			
+			traits = {  }
+		}
+		CZE_Zdenko_Radslav_Kinsky = {
+
+			picture = Zdenko_Radslav_Kinsky
+
+			allowed = {
+				original_tag = CZE
+			}
+			available = {
+			always = no
+			}
+			
+			traits = {  }
+		}	
+		CZE_Jan_Adolf_Lobkowicz = {
+
+			picture = Jan_Adolf_Lobkowicz
+
+			allowed = {
+				original_tag = CZE
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { parliamentary_advocate }
+		}	
+		CZE_Frantisek_Borek_Dohalsky = {
+
+			picture = Frantisek_Borek_Dohalsky
+
+			allowed = {
+				original_tag = CZE
+			}
+			available = {
+			always = no
+			}
+			
+			traits = {  }
+		}
+		
+				
+}
+	}
