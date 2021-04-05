@@ -49,7 +49,8 @@ on_actions = {
 		3 = { set_variable = { nationality = 11 } }	#Bern
 		#sudeten
 		69 = { set_variable = { nationality = 12 } }	#Sudetenland
-		74 = { set_variable = { nationality = 12 } }	#Ostsudeten			
+		74 = { set_variable = { nationality = 12 } }	#Ostsudeten	
+		993 = { set_variable = { nationality = 12 } }	#Ostsudeten			
 		#latvian
 		808 = { set_variable = { nationality = 13 } }	#Selija
 		809 = { set_variable = { nationality = 13 } }	#Latgale		
