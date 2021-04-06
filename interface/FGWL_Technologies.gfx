@@ -195,5 +195,13 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_AUS_infantry_weapons1_medium"
 		texturefile = "gfx/interface/technologies/AUS_infantry_equipment_1.dds"
-	}	
+	}
+	SpriteType = {
+		name = "GFX_AUS_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/AUS_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_AUS_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/AUS_infantry_equipment_2.dds"
+	}		
 }
