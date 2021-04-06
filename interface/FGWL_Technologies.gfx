@@ -192,8 +192,8 @@ spriteTypes = {
 		name = "GFX_AUS_infantry_equipment_0"
 		texturefile = "gfx/interface/technologies/AUS_infantry_equipment_0.dds"
 	}	
-	#SpriteType = {
-	#	name = "GFX_AUS_infantry_weapons1_medium"
-	#	texturefile = "gfx/interface/technologies/AUS_infantry_equipment_1.dds"
-	#}	
+	SpriteType = {
+		name = "GFX_AUS_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/AUS_infantry_equipment_1.dds"
+	}	
 }
