@@ -284,5 +284,26 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_idea_vacant_place"
 		texturefile = "gfx/interface/ideas/Ministers/vacant_place.dds"
-	}		
+	}
+							####CZECH####	
+		spriteType = {
+		name = "GFX_idea_Josef_Pekar"
+		texturefile = "gfx/interface/ideas/Ministers/Czech/Josef_Pekar.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Jan_Adolf_Lobkowicz"
+		texturefile = "gfx/interface/ideas/Ministers/Czech/Jan_Adolf_Lobkowicz.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Frantisek_Borek_Dohalsky"
+		texturefile = "gfx/interface/ideas/Ministers/Czech/Frantisek_Borek_Dohalsky.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Mikulas_z_Bubna_Litic"
+		texturefile = "gfx/interface/ideas/Ministers/Czech/Mikulas_z_Bubna_Litic.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_Zdenko_Radslav_Kinsky"
+		texturefile = "gfx/interface/ideas/Ministers/Czech/Zdenko_Radslav_Kinsky.dds"
+	}
 }

@@ -79,3 +79,73 @@ create_country_leader = {
 
 	}
 }
+create_country_leader = {
+	name = "Alexei Rykov"
+	desc = "POLITICS_ALEXEI_RYKOV_DESC"
+	picture = "gfx/leaders/RUS/Portrait_Alexei_Rykov.tga"
+	expire = "1965.1.1"
+	ideology = prometeism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Anatoly Lunacharsky"
+	desc = "POLITICS_ANATOLY_LUNACHARSKY_DESC"
+	picture = "gfx/leaders/RUS/Portrait_Anatoly_Lunacharksy.tga"
+	expire = "1965.1.1"
+	ideology = individualism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Pavel Gorgulov"
+	desc = "POLITICS_PAVEL_GORGULOV_DESC"
+	picture = "gfx/leaders/RUS/Portrait_Pavel_Gorgulov.tga"
+	expire = "1965.1.1"
+	ideology = communitarianism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Anastasy Vonsiatsky"
+	desc = "POLITICS_ANASTASY_VONSIATSKY_DESC"
+	picture = "gfx/leaders/RUS/Portrait_Anastasy_Vonsiatsky.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Dmitry III Sheremetev"
+	desc = "POLITICS_DMITRIY_SERGEEVICH_DESC"
+	picture = "gfx/leaders/RUS/Portrait_Dmitriy_Sergeevich.tga"
+	expire = "1965.1.1"
+	ideology = reactionary
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Felix Yusupov"
+	desc = "POLITICS_FELIX_YUSUPOV_DESC"
+	picture = "gfx/leaders/RUS/Portrait_Felix_Yusupov.tga"
+	expire = "1965.1.1"
+	ideology = oligarchy
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Pavel Milyukov"
+	desc = "POLITICS_PAVEL_MILYUKOV_DESC"
+	picture = "gfx/leaders/RUS/Portrait_Pavel_Milyukov.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = { 
+
+	}
+}

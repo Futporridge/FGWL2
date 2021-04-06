@@ -27,6 +27,13 @@ set_popularities = {
 
 add_ideas = {
 
+#advisors
+CZE_Josef_Pekar
+CZE_Jan_Adolf_Lobkowicz
+CZE_Mikulas_z_Bubna_Litic
+CZE_Zdenko_Radslav_Kinsky
+CZE_Frantisek_Borek_Dohalsky
+
 }
 
 set_convoys = 100
@@ -37,6 +44,26 @@ create_country_leader = {
 	picture = "gfx/leaders/CZE/Portrait_Frantisek_Schwarzenberg.tga"
 	expire = "1965.1.1"
 	ideology = oligarchy
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Karel Kramář"
+	desc = "POLITICS_KAREL_KRAMAR_DESC"
+	picture = "gfx/leaders/CZE/Portrait_Karel_Kramar.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = { 
+
+	}
+}	
+create_country_leader = {
+	name = "Edvard Beneš"
+	desc = "POLITICS_EDVARD_BENES_DESC"
+	picture = "gfx/leaders/CZE/Portrait_Eduard_Benes.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
 	traits = { 
 
 	}

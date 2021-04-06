@@ -51,7 +51,7 @@ recreate_naval_doctrine:0 "Reform the Naval Doctrine"
 
 #############Фокусы############
 TUS_clouds_are_gathering:0 "Clouds Are Gathering"
-TUS_clouds_are_gathering_desc:0 "Deus Vult"
+TUS_clouds_are_gathering_desc:0 ""
 TUS_gran_сonsiglio:0 "Gran Consiglio"
 TUS_gran_сonsiglio_desc:0 ""
 TUS_duke_and_country:0 "Duke and Country"
