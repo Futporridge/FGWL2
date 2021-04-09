@@ -306,4 +306,46 @@ spriteTypes = {
 		name = "GFX_idea_Zdenko_Radslav_Kinsky"
 		texturefile = "gfx/interface/ideas/Ministers/Czech/Zdenko_Radslav_Kinsky.dds"
 	}
+	
+								####Poland####
+		spriteType = {
+		name = "GFX_idea_Stanislaw_Car"
+		texturefile = "gfx/interface/ideas/Ministers/poland/radical_poland/Stanislaw_Car.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Jozef_Beck"
+		texturefile = "gfx/interface/ideas/Ministers/poland/radical_poland/Jozef_Beck.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Edward_Rydz_Smigly"
+		texturefile = "gfx/interface/ideas/Ministers/poland/radical_poland/Edward_Rydz_Smigly.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Adam_Koc"
+		texturefile = "gfx/interface/ideas/Ministers/poland/radical_poland/Adam_Koc.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Michal_Tokarzewski_Karaszewicz"
+		texturefile = "gfx/interface/ideas/Ministers/poland/radical_poland/Michal_Tokarzewski_Karaszewicz.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Jozef_Haller"
+		texturefile = "gfx/interface/ideas/Ministers/poland/Jozef_Haller.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Stanislaw_Glabinski"
+		texturefile = "gfx/interface/ideas/Ministers/poland/Stanislaw_Glabinski.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Aleksander_Kakowski"
+		texturefile = "gfx/interface/ideas/Ministers/poland/Aleksander_Kakowski.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Zdzislaw_Lubomirski"
+		texturefile = "gfx/interface/ideas/Ministers/poland/Zdzislaw_Lubomirski.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Jan_Stecki"
+		texturefile = "gfx/interface/ideas/Ministers/poland/Jan_Stecki.dds"
+	}
 }
