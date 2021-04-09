@@ -1074,7 +1074,7 @@ country_event = {
 	id = aus.30
 	title = aus.30.t
 	desc = aus.30.d
-	picture = GFX_
+	picture = GFX_report_event_aus_freikorps_machine
 
 	is_triggered_only = yes
 
