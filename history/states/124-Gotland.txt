@@ -10,6 +10,7 @@ state=
 	{
 		owner = KAL
 		add_core_of = KAL
+		add_core_of = DEN		
 		buildings = {
 			infrastructure = 6
 			408 = {

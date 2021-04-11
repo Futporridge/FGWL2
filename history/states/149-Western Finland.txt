@@ -19,6 +19,8 @@ state={
 			}
 		}
 		add_core_of = KAL
+		add_core_of = FIN	
+		add_claim_of = SWE		
 	}
 
 	provinces={
