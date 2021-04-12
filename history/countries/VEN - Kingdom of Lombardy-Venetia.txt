@@ -28,9 +28,9 @@ set_popularities = {
 }
 
 add_ideas = {
-Industrial_oligarchy
-Restoration_of_Venice
-Bende_rosse
+industrial_oligarchy
+restoration_of_venice
+bende_rosse
 }
 if = {
 	limit = {

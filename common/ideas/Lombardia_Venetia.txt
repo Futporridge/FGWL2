@@ -1,13 +1,13 @@
 ideas = {
 
 	country = {
-		Industrial_oligarchy = {
+		industrial_oligarchy = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = Industrial_oligarchy 
+			picture = industrial_oligarchy
 			
 			modifier = {
 				consumer_goods_factor = 0.05
@@ -21,13 +21,13 @@ ideas = {
 			}
 		}
 		
-		Restoration_of_Venice = {
+		restoration_of_venice = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = Restoration_of_Venice
+			picture = restoration_of_venice
 			
 			modifier = {
 				consumer_goods_factor = 0.05
@@ -39,13 +39,13 @@ ideas = {
 			}
 		}
 		
-		Bende_rosse = {
+		bende_rosse = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = Bende_rosse
+			picture = bende_rosse
 			
 			modifier = {
 				stability_weekly = -0.005

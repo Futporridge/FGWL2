@@ -1,0 +1,352 @@
+focus_tree = {
+	id = lombardy_venetia_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = VEN
+		}
+	}
+	default = no
+	focus = {
+		id = VEN_money_flowing_like_a_river
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 8
+		y = 0
+
+	}
+	focus = {
+		id = VEN_milan_strike
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_money_flowing_like_a_river
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = VEN_common_enemy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_milan_strike
+		}
+		mutually_exclusive = {
+			focus = VEN_common_enemy_2
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = VEN_dinner_party
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_common_enemy
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = VEN_untie_their_hands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_dinner_party
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = VEN_preemptive_strike
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_untie_their_hands
+		}
+		x = 0
+		y = 5
+
+	}
+	focus = {
+		id = VEN_rearm_the_police
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_preemptive_strike
+		}
+		x = 0
+		y = 6
+
+	}
+	focus = {
+		id = VEN_right_blind_justice
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_untie_their_hands
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = VEN_christian_values
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_right_blind_justice
+		}
+		x = 2
+		y = 6
+
+	}
+	focus = {
+		id = VEN_sweep_the_streets
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_christian_values
+		}
+		prerequisite = {
+			focus = VEN_rearm_the_police
+		}
+		x = 1
+		y = 7
+
+	}
+	focus = {
+		id = VEN_correct_the_project
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_milan_strike
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = VEN_new_budget
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_correct_the_project
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = VEN_nuova_venezia
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_new_budget
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = VEN_smog_and_steel
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_nuova_venezia
+		}
+		mutually_exclusive = {
+			focus = VEN_heritage_and_splendor
+			focus = VEN_glass_and_money
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = VEN_glass_and_money
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_nuova_venezia
+		}
+		mutually_exclusive = {
+			focus = VEN_heritage_and_splendor
+			focus = VEN_smog_and_steel
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = VEN_city_in_the_center_of_the_world
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_glass_and_money
+			focus = VEN_heritage_and_splendor
+			focus = VEN_smog_and_steel
+		}
+		x = 8
+		y = 7
+
+	}
+	focus = {
+		id = VEN_heritage_and_splendor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_nuova_venezia
+		}
+		mutually_exclusive = {
+			focus = VEN_glass_and_money
+			focus = VEN_smog_and_steel
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = VEN_common_enemy_2
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_milan_strike
+		}
+		mutually_exclusive = {
+			focus = VEN_common_enemy
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = VEN_make_inquiries
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_common_enemy_2
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = VEN_meeting_under_the_olive_leaves
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_make_inquiries
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = VEN_left_blind_justice
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_meeting_under_the_olive_leaves
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = VEN_hand_over_printing_presses
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_meeting_under_the_olive_leaves
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = VEN_new_programs
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_left_blind_justice
+		}
+		prerequisite = {
+			focus = VEN_hand_over_printing_presses
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = VEN_strict_taxation
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_meeting_under_the_olive_leaves
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = VEN_strike_time_fund
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_hand_over_printing_presses
+		}
+		prerequisite = {
+			focus = VEN_strict_taxation
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = VEN_flood_the_streets
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_new_programs
+		}
+		prerequisite = {
+			focus = VEN_strike_time_fund
+		}
+		x = 15
+		y = 7
+
+	}
+	focus = {
+		id = VEN_Gettare
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_sweep_the_streets
+			focus = VEN_flood_the_streets
+		}
+		prerequisite = {
+			focus = VEN_city_in_the_center_of_the_world
+		}
+		x = 8
+		y = 8
+
+	}
+	focus = {
+		id = VEN_Colpire
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VEN_Gettare
+		}
+		x = 8
+		y = 9
+
+	}
+}

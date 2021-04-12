@@ -1,0 +1,12 @@
+focus_tree = {
+	id = lombardy_venetia_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = VEN
+		}
+	}
+	default = no
+	shared_focus = VEN_money_flowing_like_a_river
+}
