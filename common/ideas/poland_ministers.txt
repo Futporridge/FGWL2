@@ -1,0 +1,76 @@
+ideas = {
+  head_of_state = {
+
+		POL_Jozef_Haller = {
+
+			picture = Jozef_Haller
+
+			allowed = {
+				original_tag = POL
+			}
+			available = {
+			always = no
+			}
+			
+			traits = {  }
+		}
+
+				
+}	
+political_advisor = {
+		POL_Stanislaw_Glabinski = {
+
+			picture = Stanislaw_Glabinski
+
+			allowed = {
+				original_tag = POL
+			}
+			available = {
+			always = no
+			}
+			
+			traits = {  }
+		}
+		POL_Aleksander_Kakowski = {
+
+			picture = Aleksander_Kakowski
+
+			allowed = {
+				original_tag = POL
+			}
+			available = {
+			always = no
+			}
+			
+			traits = {  }
+		}	
+		POL_Zdzislaw_Lubomirski = {
+
+			picture = Zdzislaw_Lubomirski
+
+			allowed = {
+				original_tag = POL
+			}
+			available = {
+			always = no
+			}
+			
+			traits = {  }
+		}	
+		POL_Jan_Stecki = {
+
+			picture = Jan_Stecki
+
+			allowed = {
+				original_tag = POL
+			}
+			available = {
+			always = no
+			}
+			
+			traits = {  }
+		}
+		
+				
+}
+	}

@@ -16,6 +16,7 @@ state={
 		}
 		
 		add_core_of = KAL	
+		add_core_of = DEN				
 	}
 	state_category=pastoral			
 	manpower=289821

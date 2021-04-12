@@ -27,7 +27,12 @@ set_popularities = {
 }
 
 add_ideas = {
-
+#advisors
+POL_Jozef_Haller
+POL_Stanislaw_Glabinski
+POL_Aleksander_Kakowski 
+POL_Zdzislaw_Lubomirski
+POL_Jan_Stecki
 }
 
 set_convoys = 100
