@@ -10,9 +10,10 @@ focus_tree = {
 		}
 	}
 
-	shared_focus = TYR_March_on_to_the_Victory
+
 	shared_focus = AUS_Stratocratic_Government	
 	shared_focus = TYR_Economical_Rebirth		
+	shared_focus = TYR_Department_thirty_four
 }	
 	default = no
 
@@ -1171,4 +1172,246 @@ focus_tree = {
 		completion_reward = {
 
 		}
-				}					
+				}
+	shared_focus = {
+		id = TYR_Department_thirty_four
+		icon = GFX_goal_generic_position_armies
+		x = -24
+		y = 2
+		
+		cost = 6
+		relative_position_id = TYR_March_on_to_the_Victory
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = TYR_Police_Rearment
+		icon = GFX_goal_generic_position_armies
+		x = -3
+		y = 1
+		prerequisite = { focus = TYR_Department_thirty_four }	
+		cost = 6
+		relative_position_id = TYR_Department_thirty_four
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = TYR_Special_Forces_Initiative
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Department_thirty_four }	
+		cost = 6
+		relative_position_id = TYR_Department_thirty_four
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = TYR_Form_the_Internal_Affairs_Section
+		icon = GFX_goal_generic_position_armies
+		x = 3
+		y = 1
+		prerequisite = { focus = TYR_Department_thirty_four }	
+		cost = 6
+		relative_position_id = TYR_Department_thirty_four
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = TYR_Joint_Operations
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = TYR_Form_the_Internal_Affairs_Section focus = TYR_Special_Forces_Initiative }	
+		cost = 6
+		relative_position_id = TYR_Form_the_Internal_Affairs_Section
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = TYR_Expand_the_Weaponries
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Form_the_Internal_Affairs_Section focus = TYR_Special_Forces_Initiative focus = TYR_Police_Rearment }	
+		cost = 6
+		relative_position_id = TYR_Special_Forces_Initiative
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = TYR_Military_Police_Squadrons
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = focus = TYR_Special_Forces_Initiative focus = TYR_Police_Rearment }	
+		cost = 6
+		relative_position_id = TYR_Police_Rearment
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = TYR_New_Facilities
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Military_Police_Squadrons }
+		prerequisite = { focus = TYR_Expand_the_Weaponries }
+		prerequisite = { focus = TYR_Joint_Operations }		
+		cost = 6
+		relative_position_id = TYR_Expand_the_Weaponries
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = TYR_Secret_Weapon_Research
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = TYR_New_Facilities }
+		cost = 6
+		relative_position_id = TYR_New_Facilities
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = TYR_Bring_out_the_Werewolfs
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_New_Facilities }
+		cost = 6
+		relative_position_id = TYR_New_Facilities
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+	
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}								
