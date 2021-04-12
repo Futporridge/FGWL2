@@ -1093,6 +1093,12 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_altaic_bashkir
 			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_altaic_kyrgyz"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_altaic_kyrgyz
+			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 	}
 }

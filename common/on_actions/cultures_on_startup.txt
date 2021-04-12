@@ -809,7 +809,14 @@ on_actions = {
 		644 = { set_variable = { nationality = 178 } }	#Pyatirechye	
 		574 = { set_variable = { nationality = 178 } }	#Yakutsk	
 		#Bashkir
-		651 = { set_variable = { nationality = 179 } }	#Ufa		
+		651 = { set_variable = { nationality = 179 } }	#Ufa	
+		#Kyrgyz
+		404 = { set_variable = { nationality = 180 } }	#Kyrgizia
+		402 = { set_variable = { nationality = 180 } }	#Akhtubinsk		
+		587 = { set_variable = { nationality = 180 } }	#Üstyurd
+		585 = { set_variable = { nationality = 180 } }	#Sakia
+		586 = { set_variable = { nationality = 180 } }	#Alma-Ata
+		589 = { set_variable = { nationality = 180 } }	#Ayaguz		
 		}		
 		
 	}

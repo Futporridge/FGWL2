@@ -723,5 +723,9 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_culture_altaic_bashkir"
 		texturefile = "gfx/interface/ideas/culture/culture_altaic_bashkir.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_altaic_kyrgyz"
+		texturefile = "gfx/interface/ideas/culture/culture_altaic_kyrgyz.dds"
 	}	
 }
