@@ -1,5 +1,5 @@
 focus_tree = {
-	id = FocusTree0
+	id = sardinia_piedmon_start
 	country = {
 		factor = 0
 		modifier = {
