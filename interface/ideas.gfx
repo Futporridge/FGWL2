@@ -137,5 +137,22 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_insurgency"
 		texturefile = "gfx/interface/ideas/insurgency.dds"
-	}		
+	}
+					###Scandinavia###
+	spriteType = {
+		name = "GFX_idea_KAL_Colonial_Spending"
+		texturefile = "gfx/interface/ideas/kalmar/Colonial_Spending.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KAL_Economical_growth"
+		texturefile = "gfx/interface/ideas/kalmar/Economical_growth.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KAL_Federal_crisis"
+		texturefile = "gfx/interface/ideas/kalmar/Federal_crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KAL_Swedish_Separatism"
+		texturefile = "gfx/interface/ideas/kalmar/Swedish_Separatism.dds"
+	}
 }
