@@ -1,0 +1,333 @@
+focus_tree = {
+	id = FocusTree0
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PIE
+		}
+	}
+	default = no
+	focus = {
+		id = PIE_french_ambitions
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 7
+		y = 0
+
+	}
+	focus = {
+		id = PIE_mobilize_loyalists
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_french_ambitions
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = PIE_embassy_in_bordeaux
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_mobilize_loyalists
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = PIE_support_the_underground
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_mobilize_loyalists
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = PIE_royal_volunteers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_embassy_in_bordeaux
+		}
+		prerequisite = {
+			focus = PIE_support_the_underground
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = PIE_training_in_the_mountains
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_royal_volunteers
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = PIE_royal_marines
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_training_in_the_mountains
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = PIE_loyal_army
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_mobilize_loyalists
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = PIE_institute_for_industrial_reconstruction
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_french_ambitions
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = PIE_through_the_mountains
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_institute_for_industrial_reconstruction
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = PIE_new_industries
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_through_the_mountains
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = PIE_Italian_panzer
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_loyal_army
+		}
+		prerequisite = {
+			focus = PIE_new_industries
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = PIE_land_acquisition
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_institute_for_industrial_reconstruction
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = PIE_labor_exchange
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_land_acquisition
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = PIE_state_planning
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_labor_exchange
+		}
+		prerequisite = {
+			focus = PIE_new_industries
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = PIE_scientific_approach
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_state_planning
+		}
+		mutually_exclusive = {
+			focus = PIE_traditional_approach
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = PIE_traditional_approach
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_state_planning
+		}
+		mutually_exclusive = {
+			focus = PIE_scientific_approach
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = PIE_establish_the_casellario_politico_centrale
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_french_ambitions
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = PIE_crush_the_left
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_establish_the_casellario_politico_centrale
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = PIE_press_censorship
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_crush_the_left
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = PIE_special_communication
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_press_censorship
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = PIE_crush_the_old
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_establish_the_casellario_politico_centrale
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = PIE_close_nobility_clubs
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_crush_the_old
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = PIE_cancel_pensions
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_close_nobility_clubs
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = PIE_restore_order
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_cancel_pensions
+		}
+		prerequisite = {
+			focus = PIE_special_communication
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = PIE_panzer_forces
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_Italian_panzer
+		}
+		x = 4
+		y = 5
+
+	}
+	focus = {
+		id = PIE_full_scale_intervention
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PIE_scientific_approach
+			focus = PIE_traditional_approach
+		}
+		prerequisite = {
+			focus = PIE_restore_order
+		}
+		prerequisite = {
+			focus = PIE_panzer_forces
+		}
+		prerequisite = {
+			focus = PIE_royal_marines
+		}
+		x = 7
+		y = 6
+
+	}
+}
