@@ -906,6 +906,11 @@ scripted_gui = {
 			culture_altaic_bashkir_visible = {
 				check_variable = { nationality = 179 } 
 			}				
+		}
+		triggers = {
+			culture_altaic_kyrgyz_visible = {
+				check_variable = { nationality = 180 } 
+			}				
 		}		
 	}
 }

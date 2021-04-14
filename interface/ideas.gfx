@@ -121,5 +121,38 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_AUS_trade_union_power_lifts"
 		texturefile = "gfx/interface/ideas/AUS_trade_union_power_lifts.dds"
-	}	
+	}
+	spriteType = {
+		name = "GFX_idea_illegitimate_state"
+		texturefile = "gfx/interface/ideas/illegitimate_state.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TYR_patriotic_fervor"
+		texturefile = "gfx/interface/ideas/TYR_patriotic_fervor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TYR_decline_of_the_country"
+		texturefile = "gfx/interface/ideas/TYR_decline_of_the_country.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_insurgency"
+		texturefile = "gfx/interface/ideas/insurgency.dds"
+	}
+					###Scandinavia###
+	spriteType = {
+		name = "GFX_idea_KAL_Colonial_Spending"
+		texturefile = "gfx/interface/ideas/kalmar/Colonial_Spending.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KAL_Economical_growth"
+		texturefile = "gfx/interface/ideas/kalmar/Economical_growth.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KAL_Federal_crisis"
+		texturefile = "gfx/interface/ideas/kalmar/Federal_crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KAL_Swedish_Separatism"
+		texturefile = "gfx/interface/ideas/kalmar/Swedish_Separatism.dds"
+	}
 }

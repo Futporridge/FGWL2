@@ -1,0 +1,77 @@
+ideas = {
+
+	country = {
+		KAL_Colonial_Spending = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = KAL_Colonial_Spending 
+			
+			modifier = {
+				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		KAL_Economical_growth = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = KAL_Economical_growth 
+			
+			modifier = {
+				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+	KAL_Federal_crisis = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = KAL_Federal_crisis 
+			
+			modifier = {
+				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+	
+	KAL_Swedish_Separatism = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = KAL_Swedish_Separatism 
+			
+			modifier = {
+				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+	
+		}
+  		
+		
+	}
