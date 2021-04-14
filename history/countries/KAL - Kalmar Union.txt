@@ -27,7 +27,10 @@ set_popularities = {
 }
 
 add_ideas = {
-
+KAL_Colonial_Spending
+KAL_Economical_growth
+KAL_Federal_crisis
+KAL_Swedish_Separatism
 }
 
 set_convoys = 100
