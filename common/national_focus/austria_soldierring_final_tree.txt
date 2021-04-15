@@ -15,6 +15,7 @@ focus_tree = {
 	shared_focus = TYR_Economical_Rebirth		
 	shared_focus = TYR_Department_thirty_four
 	shared_focus = TYR_Reform_the_Imperial_Army	
+	shared_focus = TYR_Department_of_External_Affairs
 }	
 	default = no
 
@@ -1419,7 +1420,7 @@ focus_tree = {
 	shared_focus = {
 		id = TYR_Reform_the_Imperial_Army
 		icon = GFX_goal_generic_position_armies
-		x = 12
+		x = 16
 		y = 2
 		cost = 2
 		ai_will_do = {
@@ -1582,7 +1583,12 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		x = -8
 		y = 1
-		prerequisite = { focus = TYR_Republican_Heer }			
+		prerequisite = { focus = TYR_Republican_Heer }	
+		mutually_exclusive = {
+			focus = TYR_Accustomed_Doctrine
+			focus = TYR_Breakthrough_Doctrine
+			focus = TYR_Human_Wave_Doctrine
+		}		
 		cost = 2
 		ai_will_do = {
 			factor = 10
@@ -1598,6 +1604,147 @@ focus_tree = {
 					}
 				}
 	shared_focus = {
+		id = TYR_Bring_the_Mare_to_the_Field
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = TYR_Experimental_Doctrine }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Experimental_Doctrine				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Expand_the_Civil_War_Tactics
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Bring_the_Mare_to_the_Field }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Bring_the_Mare_to_the_Field				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Doppelsoldniers
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Expand_the_Civil_War_Tactics }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Expand_the_Civil_War_Tactics				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	shared_focus = {
+		id = TYR_Army_Motorization
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Experimental_Doctrine }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Experimental_Doctrine				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Panzer_RD_Division
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Army_Motorization }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Army_Motorization				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Streamline_the_Armor_Production
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Panzer_RD_Division }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Panzer_RD_Division				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Blitzkrieg
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Doppelsoldniers }	
+		prerequisite = { focus = TYR_Streamline_the_Armor_Production }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Doppelsoldniers				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	shared_focus = {
 		id = TYR_Breakthrough_Doctrine
 		icon = GFX_goal_generic_position_armies
 		x = -4
@@ -1608,7 +1755,12 @@ focus_tree = {
 			factor = 10
 		}
 		available_if_capitulated = yes
-		relative_position_id = TYR_Republican_Heer				
+		relative_position_id = TYR_Republican_Heer	
+		mutually_exclusive = {
+			focus = TYR_Accustomed_Doctrine
+			focus = TYR_Experimental_Doctrine
+			focus = TYR_Human_Wave_Doctrine
+		}		
 		bypass = {
 			
 				}
@@ -1617,6 +1769,147 @@ focus_tree = {
 		
 					}
 				}
+	shared_focus = {
+		id = TYR_Artillery_Renewal
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = TYR_Breakthrough_Doctrine }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Breakthrough_Doctrine				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Motorized_Artillery
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Artillery_Renewal }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Artillery_Renewal				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Study_the_Results
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Motorized_Artillery }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Motorized_Artillery				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	shared_focus = {
+		id = TYR_Guns_and_Butter
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Breakthrough_Doctrine }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Breakthrough_Doctrine				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Experimental_with_the_Shells
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Guns_and_Butter }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Guns_and_Butter				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Explosive_Rain
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Experimental_with_the_Shells }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Experimental_with_the_Shells				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Shake_the_Earth
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Explosive_Rain }	
+		prerequisite = { focus = TYR_Study_the_Results }		
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Study_the_Results				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}				
 	shared_focus = {
 		id = TYR_Nationalist_Military
 		icon = GFX_goal_generic_position_armies
@@ -1638,6 +1931,107 @@ focus_tree = {
 					}
 				}
 	shared_focus = {
+		id = TYR_Form_the_Military_Corporations
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = TYR_Nationalist_Military }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Nationalist_Military				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Militarist_Propaganda
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Form_the_Military_Corporations }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Form_the_Military_Corporations				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	shared_focus = {
+		id = TYR_Soldatenring_Officers
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Nationalist_Military }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Nationalist_Military				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_No_Piece_of_Land_to_Enemy
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Soldatenring_Officers }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Soldatenring_Officers				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Furor_Teutonicus
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Militarist_Propaganda }	
+		prerequisite = { focus = TYR_No_Piece_of_Land_to_Enemy }		
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Militarist_Propaganda				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}					
+	shared_focus = {
 		id = TYR_Accustomed_Doctrine
 		icon = GFX_goal_generic_position_armies
 		x = 4
@@ -1647,6 +2041,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
+		mutually_exclusive = {
+			focus = TYR_Experimental_Doctrine
+			focus = TYR_Breakthrough_Doctrine
+			focus = TYR_Human_Wave_Doctrine
+		}		
 		available_if_capitulated = yes
 		relative_position_id = TYR_Republican_Heer				
 		bypass = {
@@ -1658,6 +2057,147 @@ focus_tree = {
 					}
 				}
 	shared_focus = {
+		id = TYR_Expand_the_Engineer_Corps
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = TYR_Accustomed_Doctrine }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Accustomed_Doctrine				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Prepare_Troops_to_New_Tactics
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Expand_the_Engineer_Corps }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Expand_the_Engineer_Corps	
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}	
+	shared_focus = {
+		id = TYR_Cooperation_with_the_Officers
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Prepare_Troops_to_New_Tactics }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Prepare_Troops_to_New_Tactics				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}					
+	shared_focus = {
+		id = TYR_Expand_the_Staff
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Accustomed_Doctrine }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Accustomed_Doctrine				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Expand_the_Doctrine
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Expand_the_Staff }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Expand_the_Staff				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Expand_the_Republican_Stormtroopers
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Expand_the_Doctrine }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Expand_the_Doctrine			
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Defence_and_the_Breakthrough
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Expand_the_Republican_Stormtroopers }	
+		prerequisite = { focus = TYR_Cooperation_with_the_Officers }		
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Cooperation_with_the_Officers			
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	shared_focus = {
 		id = TYR_Human_Wave_Doctrine
 		icon = GFX_goal_generic_position_armies
 		x = 8
@@ -1667,8 +2207,316 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
+		mutually_exclusive = {
+			focus = TYR_Accustomed_Doctrine
+			focus = TYR_Breakthrough_Doctrine
+			focus = TYR_Experimental_Doctrine
+		}		
 		available_if_capitulated = yes
 		relative_position_id = TYR_Republican_Heer				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Morale_of_Troops
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = TYR_Human_Wave_Doctrine }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Human_Wave_Doctrine				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Equipment_Renovation
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Morale_of_Troops }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Morale_of_Troops				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Tactical_Renovation
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Equipment_Renovation }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Equipment_Renovation				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}					
+	shared_focus = {
+		id = TYR_Expand_the_Conscription
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Human_Wave_Doctrine }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Human_Wave_Doctrine				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Republican_Rifle_Brotherhoods
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Expand_the_Conscription }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Expand_the_Conscription				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Expand_the_Rifle_Production
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Republican_Rifle_Brotherhoods }			
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Republican_Rifle_Brotherhoods				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Musketeers_of_the_New_Age
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Expand_the_Rifle_Production }	
+		prerequisite = { focus = TYR_Tactical_Renovation }		
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Tactical_Renovation				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}	
+	shared_focus = {
+		id = TYR_Of_Swords_and_Bands
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = TYR_Furor_Teutonicus }	
+		prerequisite = { focus = TYR_Blitzkrieg focus = TYR_Shake_the_Earth focus = TYR_Defence_and_the_Breakthrough focus = TYR_Musketeers_of_the_New_Age }		
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Furor_Teutonicus			
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Department_of_External_Affairs
+		icon = GFX_goal_generic_position_armies
+		x = 12
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Reform_the_Imperial_Army		
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}					
+	shared_focus = {
+		id = TYR_Choose_our_Stance
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = TYR_Department_of_External_Affairs }	
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Department_of_External_Affairs			
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Prepare_the_War_Plans
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Department_of_External_Affairs }	
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Department_of_External_Affairs			
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	shared_focus = {
+		id = TYR_All_Cards_on_Table
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Prepare_the_War_Plans }	
+		prerequisite = { focus = TYR_Choose_our_Stance }		
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Choose_our_Stance			
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = TYR_Knock_on_to_Enemy_Door
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = TYR_All_Cards_on_Table }		
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_All_Cards_on_Table			
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}				
+	shared_focus = {
+		id = TYR_Prepare_the_Covert_Operations
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_All_Cards_on_Table }		
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_All_Cards_on_Table			
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+					}
+				}	
+	shared_focus = {
+		id = TYR_The_Final_Ultimatum
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = TYR_Knock_on_to_Enemy_Door }			
+		prerequisite = { focus = TYR_Prepare_the_Covert_Operations }		
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = TYR_Knock_on_to_Enemy_Door			
 		bypass = {
 			
 				}
