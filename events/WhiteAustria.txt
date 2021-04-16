@@ -1,5 +1,7 @@
 ﻿	add_namespace = tyr
 	add_namespace = tyrendcw
+	add_namespace = tyrang	
+	
 	
 	country_event = {	
 	id = tyrendcw.1
@@ -40,6 +42,8 @@
 		}
 	hidden_effect = {
 	load_focus_tree = { tree = austria_soldierring_final_tree keep_completed = no }
+	remove_ideas = { AUS_decline_of_the_country common_illegitimate_state AUS_econ6 TYR_patriotic_fervor TYR_left_insurgency TYR_army1 TYR_army2 TYR_blitzkrieg TYR_divided_empire TYR_reign_of_the_spear TYR_kriegsministerium TYR_sturmtruppen TYR_army3 AUS_feudal_legacy TYR_ploughshares_into_swords TYR_left_insurgency_2 TYR_oath_of_allegiance TYR_dictator_of_the_danube TYR_march_on_to_the_victory_idea TYR_ploughshares_into_swords2 TYR_ploughshares_into_swords2_1 TYR_ploughshares_into_swords3 }
+	add_ideas = { TYR_dictator_of_the_danube TYR_sturmtruppen TYR_army3 TYR_ang_fractionalism TYR_ploughshares_into_swords3 TYR_oath_of_allegiance AUS_feudal_legacy TYR_ang_left_resistance TYR_destroyed_economy }
 		}
 	}	
 }	
@@ -540,4 +544,28 @@ create_country_leader = {
 		category = cat_mass_assault
 		}
 	}	
+}
+	country_event = {	
+	id = tyrang.1
+	title = tyr.1.t
+	desc = tyr.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	option = {
+		name = tyr.1.a
+
+	}
+}
+	country_event = {	
+	id = tyrang.2
+	title = tyr.2.t
+	desc = tyr.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	option = {
+		name = tyr.2.a
+
+	}
 }

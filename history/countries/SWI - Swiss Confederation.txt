@@ -34,7 +34,12 @@ set_popularities = {
 	liberalism = 14
 }
 add_ideas = {
-
+#advisors
+SWI_Gonzague_de_Reynold
+SWI_Paul_Dinichert
+SWI_Rudolf_Minger
+SWI_Jean_Marie_Musy
+SWI_Roger_Masson
 }
 
 set_stability = 0.50
