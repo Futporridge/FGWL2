@@ -827,6 +827,315 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
+		}
+		TYR_ang_economical_rebirth = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_destroyed_economy 
+		
+			modifier = {
+				consumer_goods_factor = 0.4
+				political_power_factor = -0.25
+				production_speed_buildings_factor = -0.25
+				production_factory_max_efficiency_factor = -0.25				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_feudal_legacy = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_destroyed_economy 
+		
+			modifier = {
+				global_building_slots_factor = -0.1				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_unions_stragnled = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_econ1 
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.05
+				political_power_factor = -0.05				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_economical_rebirth2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_destroyed_economy 
+		
+			modifier = {
+				consumer_goods_factor = 0.375
+				political_power_factor = -0.20
+				production_speed_buildings_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_economical_rebirth3 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_destroyed_economy 
+		
+			modifier = {
+				consumer_goods_factor = 0.35
+				political_power_factor = -0.10
+				production_speed_buildings_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_economical_rebirth4 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_destroyed_economy 
+		
+			modifier = {
+				consumer_goods_factor = 0.5
+				political_power_factor = -0.05
+				production_speed_buildings_factor = -0.05
+				production_factory_max_efficiency_factor = -0.05				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_CRC_CB = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_destroyed_economy 
+		
+			modifier = {
+								
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_CRC_CB2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_destroyed_economy 
+		
+			modifier = {
+			political_power_factor = -0.05
+			consumer_goods_factor = -0.05
+			conversion_cost_civ_to_mil_factor = -0.3
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_CRC_CB3 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_destroyed_economy 
+		
+			modifier = {
+			political_power_factor = -0.05
+			consumer_goods_factor = -0.075
+			conversion_cost_civ_to_mil_factor = -0.3
+			industry_repair_factor = 0.2
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
+		TYR_ang_danube_power_plant = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_destroyed_economy 
+		
+			modifier = {
+			production_speed_buildings_factor = 0.15
+			political_power_gain = 0.1
+			stability_factor = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_unions_stragnled2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_econ1 
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.05			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_unions_stragnled3 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_econ1 
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.05
+				industry_free_repair_factor = 0.3
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}	
+		TYR_unions_stragnled4 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = AUS_econ1 
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.05
+				industry_free_repair_factor = 0.3
+				industry_air_damage_factor = -0.25
+				industry_capacity_factory = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}			
+		TYR_ang_CRC = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_destroyed_economy 
+		
+			modifier = {
+			production_factory_max_efficiency_factor = 0.05	
+			stability_factor = -0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_CRC2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_destroyed_economy 
+		
+			modifier = {
+			production_factory_start_efficiency_factor = 0.1 
+			production_factory_max_efficiency_factor = 0.1
+			stability_factor = -0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_CRC3 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_destroyed_economy 
+		
+			modifier = {
+			production_factory_start_efficiency_factor = 0.1 
+			production_factory_max_efficiency_factor = 0.1
+			stability_factor = -0.1
+			production_factory_efficiency_gain_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_CRC4 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_destroyed_economy 
+		
+			modifier = {
+			production_factory_start_efficiency_factor = 0.15 
+			production_factory_max_efficiency_factor = 0.15
+			stability_factor = -0.1
+			production_factory_efficiency_gain_factor = 0.15
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
 		}		
 	}
 
