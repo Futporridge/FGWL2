@@ -348,4 +348,26 @@ spriteTypes = {
 		name = "GFX_idea_Jan_Stecki"
 		texturefile = "gfx/interface/ideas/Ministers/poland/Jan_Stecki.dds"
 	}
+		
+								####Swiss####
+	spriteType = {
+		name = "GFX_idea_Gonzague_de_Reynold"
+		texturefile = "gfx/interface/ideas/Ministers/swiss/Gonzague_de_Reynold.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Paul_Dinichert"
+		texturefile = "gfx/interface/ideas/Ministers/swiss/Paul_Dinichert.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Rudolf_Minger"
+		texturefile = "gfx/interface/ideas/Ministers/swiss/Rudolf_Minger.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Jean_Marie_Musy"
+		texturefile = "gfx/interface/ideas/Ministers/swiss/Jean_Marie_Musy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Roger_Masson"
+		texturefile = "gfx/interface/ideas/Ministers/swiss/Roger_Masson.dds"
+	}
 }

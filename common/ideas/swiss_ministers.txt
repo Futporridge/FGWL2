@@ -1,0 +1,76 @@
+ideas = {
+  head_of_state = {
+
+		SWI_Gonzague_de_Reynold = {
+
+			picture = Gonzague_de_Reynold
+
+			allowed = {
+				original_tag = SWI
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { Intellectual_aristocrat }
+		}
+
+				
+}	
+political_advisor = {
+		SWI_Paul_Dinichert = {
+
+			picture = Paul_Dinichert
+
+			allowed = {
+				original_tag = SWI
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { Old_Diplomat }
+		}
+		SWI_Rudolf_Minger = {
+
+			picture = Rudolf_Minger
+
+			allowed = {
+				original_tag = SWI
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { protege_of_citizens }
+		}	
+		SWI_Jean_Marie_Musy = {
+
+			picture = Jean_Marie_Musy
+
+			allowed = {
+				original_tag = SWI
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { dirigisme_supporter }
+		}	
+		SWI_Roger_Masson = {
+
+			picture = Roger_Masson
+
+			allowed = {
+				original_tag = SWI
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { intelligence_chief }
+		}
+		
+				
+}
+	}
