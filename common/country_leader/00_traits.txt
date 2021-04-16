@@ -3573,5 +3573,49 @@ young_diplomat = {
 		ai_will_do = {
 			factor = 1
 		}
-	}	
+	}
+	Intellectual_aristocrat = {
+		random = no
+		political_power_cost = -0.05
+		oligarchy_drift = 0.01
+		drift_defence_factor = 0.14
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	dirigisme_supporter = {
+		random = no
+		conversion_cost_mil_to_civ_factor = -0.1
+		industry_repair_factor = 0.3
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	protege_of_citizens = {
+		random = no
+		autonomy_gain = 0.5
+		Stability_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Old_Diplomat  = {
+		random = no
+		trade_opinion_factor = 0.5
+		enemy_declare_war_tension = 0.3
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	intelligence_chief  = {
+		random = no
+		required_garrison_factor = -0.1
+		resistance_target_on_our_occupied_states = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 }
