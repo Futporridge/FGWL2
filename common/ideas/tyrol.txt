@@ -479,10 +479,349 @@ ideas = {
 			picture = AUS_econ1 
 		
 			modifier = {
-				political_power_gain_factor = -0.1
+				political_power_factor = -0.1
 				consumer_goods_factor = 0.1
 				production_speed_buildings_factor = -0.2
 				production_factory_max_efficiency_factor = -0.25 
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+			###angelispostwar###
+		TYR_ang_fractionalism = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_ang_fractionalism 
+		
+			modifier = {
+				army_org_factor = -0.15
+				army_org_regain = -0.15
+				stability_factor = -0.1
+				war_support_factor_factor = -0.1
+				conscription_factor = -0.35
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_left_resistance = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_ang_left_resistance 
+		
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor_factor = -0.2
+				resistance_damage_to_garrison_on_our_occupied_states = -0.5
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_destroyed_economy = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_destroyed_economy 
+		
+			modifier = {
+				consumer_goods_factor = 0.4
+				political_power_factor = -0.5
+				production_speed_buildings_factor = -0.25
+				production_factory_max_efficiency_factor = -0.25				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_left_resistance2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_ang_left_resistance2 
+		
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor_factor = -0.1
+				resistance_damage_to_garrison_on_our_occupied_states = -0.25
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_internal_affairs_comitee = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_ang_internal_affairs_comitee 
+		
+			modifier = {
+				compliance_growth_on_our_occupied_states = -0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}	
+		TYR_ang_nationalist_rhetorics = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_ang_internal_affairs_comitee 
+		
+			modifier = {
+				conscription_factor = 0.15
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_zealots_of_the_regime = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_ang_internal_affairs_comitee 
+		
+			modifier = {
+				conscription_factor = 0.15
+				army_core_attack_factor = 0.1
+				army_core_attack_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_jugendarmee = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_ang_internal_affairs_comitee 
+		
+			modifier = {
+				conscription_factor = 0.15
+				army_core_attack_factor = 0.1
+				army_core_attack_factor = 0.1
+				land_reinforce_rate = 0.1
+				resistance_damage_to_garrison_on_our_occupied_states = 0.2
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_dictator_of_the_danube2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_ang_internal_affairs_comitee 
+		
+			modifier = {
+				surrender_limit = 0.25
+				war_support_factor = 0.1
+				political_power_gain = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_dictator_of_the_danube3 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_ang_internal_affairs_comitee 
+		
+			modifier = {
+				surrender_limit = 0.25
+				war_support_factor = 0.1
+				political_power_gain = 0.1
+				party_popularity_stability_factor = 0.25
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_government_of_strong = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_ang_internal_affairs_comitee 
+		
+			modifier = {
+				offensive_war_stability_factor = 0.35
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_government_of_strong2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_ang_internal_affairs_comitee 
+		
+			modifier = {
+				offensive_war_stability_factor = 0.35
+				economy_cost_factor = -0.15
+				political_power_factor = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_government_of_strong3 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_ang_internal_affairs_comitee 
+		
+			modifier = {
+				offensive_war_stability_factor = 0.35
+				drift_defence_factor = 0.5
+				paternalism_drift = 0.03
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_government_of_strong4 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_ang_internal_affairs_comitee 
+		
+			modifier = {
+				offensive_war_stability_factor = 0.35
+				economy_cost_factor = -0.15
+				political_power_factor = 0.05
+				paternalism_drift = 0.03
+				drift_defence_factor = 0.5				
+				political_power_cost = -0.25
+				stability_factor = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
+		TYR_ang_government_of_strong3_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_ang_internal_affairs_comitee 
+		
+			modifier = {
+				offensive_war_stability_factor = 0.35
+				economy_cost_factor = -0.15
+				political_power_factor = 0.05
+				drift_defence_factor = 0.5	
+				paternalism_drift = 0.03				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_government_of_strong5 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_ang_internal_affairs_comitee 
+		
+			modifier = {
+				offensive_war_stability_factor = 0.35
+				economy_cost_factor = -0.15
+				political_power_factor = 0.05
+				paternalism_drift = 0.03
+				drift_defence_factor = 0.5				
+				political_power_cost = -0.25
+				stability_factor = 0.05
+				conscription = 0.01
+				army_core_attack_factor = 0.025
+				army_core_defence_factor = 0.025
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_jugendarmee2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_ang_internal_affairs_comitee 
+		
+			modifier = {
+				conscription_factor = 0.15
+				army_core_attack_factor = 0.1
+				army_core_attack_factor = 0.1
+				land_reinforce_rate = 0.1
+				resistance_damage_to_garrison_on_our_occupied_states = 0.30
+				stability_factor = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_heartland_of_nation = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_ang_internal_affairs_comitee 
+		
+			modifier = {
+				global_building_slots_factor = 0.3
 			}
 	
 			ai_will_do = {

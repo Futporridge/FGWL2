@@ -37,7 +37,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_political_power = 50
+		country_event = { id = tyrang.1 }
 					}
 				}
 	shared_focus = {
@@ -57,7 +58,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		remove_ideas = { TYR_oath_of_allegiance } 
 					}
 				}				
 	shared_focus = {
@@ -80,7 +81,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-			
+		swap_ideas = { 
+		remove_idea = TYR_ang_left_resistance
+		add_idea = TYR_ang_left_resistance2 
+		}	
 			}
 				}
 	shared_focus = {
@@ -103,7 +107,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-					
+		add_stability = 0.1
+		add_ideas = { TYR_ang_internal_affairs_comitee } 
 					}
 				}
 	shared_focus = {
@@ -127,7 +132,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		add_stability = 0.15
 		}
 				}					
 	shared_focus = {
@@ -151,7 +156,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		country_event = { id = tyrang.2 }
 		}
 				}
 	shared_focus = {
@@ -176,8 +181,20 @@ focus_tree = {
 
 				}
 
-		completion_reward = {
-
+		completion_reward = {	
+		886 = {			
+		add_core_of = TYR
+			}
+		152 = {			
+		add_core_of = TYR
+			}
+		4 = {			
+		add_core_of = TYR
+			}
+		889 = {			
+		add_core_of = TYR
+			}			
+		remove_ideas = { TYR_ang_left_resistance2 }
 		}
 				}
 	shared_focus = {
@@ -201,7 +218,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		add_ideas = { TYR_ang_nationalist_rhetorics }
 		}
 				}
 	shared_focus = {
@@ -225,7 +242,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		add_manpower  = 150000
 		}
 				}
 	shared_focus = {
@@ -249,7 +266,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		swap_ideas = { remove_idea = TYR_ang_nationalist_rhetorics add_idea = TYR_ang_zealots_of_the_regime } 
 		}
 				}				
 	shared_focus = {
@@ -274,7 +291,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		swap_ideas = { remove_idea = TYR_ang_zealots_of_the_regime add_idea = TYR_ang_jugendarmee } 
 		}
 				}				
 	shared_focus = {
@@ -298,7 +315,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		swap_ideas = { remove_idea = TYR_dictator_of_the_danube add_idea = TYR_ang_dictator_of_the_danube2 } 
 		}
 				}
 	shared_focus = {
@@ -322,7 +339,22 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		add_popularity = {
+		ideology = liberalism
+		popularity = -0.05
+		}
+		add_popularity = {
+		ideology = communitarianism
+		popularity = -0.05
+		}
+		add_popularity = {
+		ideology = oligarchy
+		popularity = -0.05
+		}
+		add_popularity = {
+		ideology = prometeism
+		popularity = -0.05
+		}		
 		}
 				}
 	shared_focus = {
@@ -346,7 +378,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		swap_ideas = { remove_idea = TYR_ang_dictator_of_the_danube2 add_idea = TYR_ang_dictator_of_the_danube3 }
 		}
 				}				
 	shared_focus = {
@@ -370,7 +402,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		add_ideas = { TYR_ang_government_of_strong }
 		}
 				}
 	shared_focus = {
@@ -394,7 +426,21 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+	if = {
+	limit = {
+		has_idea = TYR_ang_government_of_strong3
+	}
+		swap_ideas = {
+		remove_idea = TYR_ang_government_of_strong3
+		add_idea = TYR_ang_government_of_strong3_1
+			}
+		else = {			
+		swap_ideas = {
+		remove_idea = TYR_ang_government_of_strong
+		add_idea = TYR_ang_government_of_strong2
+			}
+		}
+}			
 		}
 				}	
 	shared_focus = {
@@ -418,7 +464,21 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+	if = {
+	limit = {
+		has_idea = TYR_ang_government_of_strong2
+	}
+		swap_ideas = {
+		remove_idea = TYR_ang_government_of_strong2
+		add_idea = TYR_ang_government_of_strong3_1
+			}
+		else = {			
+		swap_ideas = {
+		remove_idea = TYR_ang_government_of_strong
+		add_idea = TYR_ang_government_of_strong3
+			}
+		}
+}
 		}
 				}
 	shared_focus = {
@@ -443,7 +503,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		swap_ideas = { remove_idea = TYR_ang_government_of_strong3_1 add_idea = TYR_ang_government_of_strong4 }
 		}
 				}	
 	shared_focus = {
@@ -493,7 +553,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		swap_ideas = { remove_idea = TYR_ang_jugendarmee add_idea = TYR_ang_jugendarmee2 }	
 		}
 				}
 	shared_focus = {
@@ -517,7 +577,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		swap_ideas = { remove_idea = TYR_ang_government_of_strong4 add_idea = TYR_ang_government_of_strong5 }	
 		}
 				}
 	shared_focus = {
@@ -542,7 +602,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		add_ideas = { TYR_ang_heartland_of_nation }
 		}
 				}
 	shared_focus = {
