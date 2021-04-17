@@ -1,4 +1,24 @@
 ﻿l_english:
+#############Название############
+TUS_utopism:0 "Tuscan Commune"
+TUS_prometeism:0 "Tuscan Commune"
+TUS_communitarianism:0 "Tuscan Commune"
+TUS_individualism:0 "Tuscan Commune"
+TUS_liberalism:0 "Tuscan Republic"
+TUS_conservatism:0 "Grand Duchy of Tuscany"
+TUS_oligarchy:0 "Grand Duchy of Tuscany"
+TUS_paternalism:0 "Grand Duchy of Tuscany"
+TUS_reactionary:0 "Grand Duchy of Tuscany"
+TUS_utopism_ADJ:0 "Tuscan"
+TUS_prometeism_ADJ:0 "Tuscan"
+TUS_communitarianism_ADJ:0 "Tuscan"
+TUS_individualism_ADJ:0 "Tuscan"
+TUS_liberalism_ADJ:0 "Tuscan"
+TUS_conservatism_ADJ:0 "Tuscan"
+TUS_oligarchy_ADJ:0 "Tuscan"
+TUS_paternalism_ADJ:0 "Tuscan"
+TUS_reactionary_ADJ:0 "Tuscan"
+
 #############Партии############
 TUS_utopism_party:0 "Bandiera Rossa"
 TUS_utopism_party_long:0 "Bandiera Rossa (Red Banner)"

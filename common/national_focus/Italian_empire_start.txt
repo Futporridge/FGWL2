@@ -1,23 +1,16 @@
-focus_tree = {
-	id = italian_empire_start
-	country = {
-		factor = 0
-		modifier = {
-			add = 10
-			tag = ITE
-		}
-	}
-	default = no
-	focus = {
-		id = ITE_empire_legacy
+	shared_focus = {
+	id = ITE_empire_legacy
 		icon = GFX_goal_unknown
 		cost = 0
 		x = 6
 		y = 0
-
+		
+		available = {
+        always = no
+        }
 
 	}
-	focus = {
+	shared_focus = {
 		id = ITE_army_revision
 		icon = GFX_goal_unknown
 		cost = 4
@@ -27,8 +20,12 @@ focus_tree = {
 		x = 2
 		y = 1
 
+		completion_reward = {
+			add_war_support = 0.1
+			army_experience = 10
+		}
 	}
-	focus = {
+	shared_focus = {
 		id = ITE_new_faces
 		icon = GFX_goal_unknown
 		cost = 3
@@ -40,20 +37,42 @@ focus_tree = {
 		}
 		x = 1
 		y = 2
-
+		
+		completion_reward = {
+			army_experience = 15
+			create_corps_commander = {
+				name = "Raffaele Cadorna"
+				picture = "Portrait_Raffaele_Cadorna.dds"
+				traits = {  armor_officer panzer_leader brilliant_strategist }
+				skill = 4
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 4
+				logistics_skill = 3
+			}	
+		}
 	}
-	focus = {
+	shared_focus = {
 		id = ITE_new_guns
 		icon = GFX_goal_unknown
 		cost = 3
 		prerequisite = {
 			focus = ITE_new_faces
 		}
+		
 		x = 1
 		y = 3
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}	
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = ITE_new_tactics
 		icon = GFX_goal_unknown
 		cost = 3
@@ -62,9 +81,17 @@ focus_tree = {
 		}
 		x = 1
 		y = 4
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 2
+				technology = superior_firepower
+			}	
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = ITE_trust_old_generals
 		icon = GFX_goal_unknown
 		cost = 3
@@ -76,9 +103,20 @@ focus_tree = {
 		}
 		x = 3
 		y = 2
+		
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.05
+			add_tech_bonus = {
+				bonus = 0.2
+				uses = 1
+				technology = trench_warfare
+			}
+			
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = ITE_grande_esercito
 		icon = GFX_goal_unknown
 		cost = 4
@@ -88,9 +126,26 @@ focus_tree = {
 		}
 		x = 2
 		y = 5
+		
+		completion_reward = {
+			add_manpower = 10000
+			if = {
+				limit = {
+					has_completed_focus = ITE_trust_old_generals
+				}
+				add_ideas = grande_esercito_trad
+			}
+			if = {
+				limit = {
+					has_completed_focus = ITE_new_tactics
+				}
+				add_ideas = grande_esercito_mod
+			}
+			Custom_effect_tooltip = ITE_grande_esercito_text
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = ITE_labor_front
 		icon = GFX_goal_unknown
 		cost = 4
@@ -99,9 +154,13 @@ focus_tree = {
 		}
 		x = 6
 		y = 1
-
+		completion_reward = {
+			add_offsite_building = {
+				type = industrial_complex level = 1
+			}
+		}
 	}
-	focus = {
+	shared_focus = {
 		id = ITE_government_quotas
 		icon = GFX_goal_unknown
 		cost = 3
@@ -115,7 +174,7 @@ focus_tree = {
 		y = 2
 
 	}
-	focus = {
+	shared_focus = {
 		id = ITE_solidarity_for_a_while
 		icon = GFX_goal_unknown
 		cost = 3
@@ -126,7 +185,7 @@ focus_tree = {
 		y = 3
 
 	}
-	focus = {
+	shared_focus = {
 		id = ITE_carrot_and_stick
 		icon = GFX_goal_unknown
 		cost = 3
@@ -137,7 +196,7 @@ focus_tree = {
 		y = 4
 
 	}
-	focus = {
+	shared_focus = {
 		id = ITE_emergency_nationalization
 		icon = GFX_goal_unknown
 		cost = 3
@@ -151,7 +210,7 @@ focus_tree = {
 		y = 2
 
 	}
-	focus = {
+	shared_focus = {
 		id = ITE_trains_run_on_time
 		icon = GFX_goal_unknown
 		cost = 4
@@ -163,7 +222,7 @@ focus_tree = {
 		y = 5
 
 	}
-	focus = {
+	shared_focus = {
 		id = ITE_one_day_as_lion
 		icon = GFX_goal_unknown
 		cost = 4
@@ -174,7 +233,7 @@ focus_tree = {
 		y = 1
 
 	}
-	focus = {
+	shared_focus = {
 		id = ITE_for_italy_and_italians
 		icon = GFX_goal_unknown
 		cost = 3
@@ -188,7 +247,7 @@ focus_tree = {
 		y = 2
 
 	}
-	focus = {
+	shared_focus = {
 		id = ITE_the_emperor_speaks
 		icon = GFX_goal_unknown
 		cost = 3
@@ -199,7 +258,7 @@ focus_tree = {
 		y = 3
 
 	}
-	focus = {
+	shared_focus = {
 		id = ITE_divide_and_conquer
 		icon = GFX_goal_unknown
 		cost = 3
@@ -210,7 +269,7 @@ focus_tree = {
 		y = 4
 
 	}
-	focus = {
+	shared_focus = {
 		id = ITE_for_the_empire_and_the_emperor
 		icon = GFX_goal_unknown
 		cost = 3
@@ -224,7 +283,7 @@ focus_tree = {
 		y = 2
 
 	}
-	focus = {
+	shared_focus = {
 		id = ITE_risorgimento
 		icon = GFX_goal_unknown
 		cost = 4
@@ -236,7 +295,7 @@ focus_tree = {
 		y = 5
 
 	}
-	focus = {
+	shared_focus = {
 		id = ITE_as_long_as_austria_dont_look
 		icon = GFX_goal_unknown
 		cost = 4
@@ -253,4 +312,3 @@ focus_tree = {
 		y = 6
 
 	}
-}

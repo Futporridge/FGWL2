@@ -1,4 +1,24 @@
 ﻿l_english:
+#############Название############
+ITE_utopism:0 "Commune of the Two Sicilies"
+ITE_prometeism:0 "Commune of the Two Sicilies"
+ITE_communitarianism:0 "Commune of the Two Sicilies"
+ITE_individualism:0 "Commune of the Two Sicilies"
+ITE_liberalism:0 "Republic of the Two Sicilies"
+ITE_conservatism:0 "Italian Empire"
+ITE_oligarchy:0 "Italian Empire"
+ITE_paternalism:0 "Italian Empire"
+ITE_reactionary:0 "Italian Empire"
+ITE_utopism_ADJ:0 "Italian"
+ITE_prometeism_ADJ:0 "Italian"
+ITE_communitarianism_ADJ:0 "Italian"
+ITE_individualism_ADJ:0 "Italian"
+ITE_liberalism_ADJ:0 "Italian"
+ITE_conservatism_ADJ:0 "Italian"
+ITE_oligarchy_ADJ:0 "Italian"
+ITE_paternalism_ADJ:0 "Italian"
+ITE_reactionary_ADJ:0 "Italian"
+
 #############Партии############
 ITE_utopism_party:0 "VP"
 ITE_utopism_party_long:0 "La Vendetta del Popolo (Рeoples Revenge)" 
@@ -22,12 +42,17 @@ ITE_reactionary_party_long:0 "Unione Сattolica (Catholic Union)"
 AUS_Viktor_Dankl_von_Krasnik:0 "Viktor Dankl von Krasnik"
 
 #############Духи############
-ITE_Renovatio_Imperii:0 "Renovatio Imperii"
-ITE_Renovatio_Imperii_desc:0 ""
-ITE_Undeveloped_industry:0 "Undeveloped industry"
-ITE_Undeveloped_industry_desc:0 ""
-ITE_Progressive_monarchy:0 "Progressive monarchy"
-ITE_Progressive_monarchy_desc:0 ""
+renovatio_imperii:0 "Renovatio Imperii"
+renovatio_imperii_desc:0 ""
+undeveloped_industry:0 "Undeveloped industry"
+undeveloped_industry_desc:0 ""
+progressive_monarchy:0 "Progressive monarchy"
+progressive_monarchy_desc:0 ""
+
+grande_esercito_trad:0 "Grande Esercito"
+grande_esercito_trad_desc:0 ""
+grande_esercito_mod:0 "Grande Esercito"
+grande_esercito_mod_desc:0 ""
 
 #############Ивенты############
 ite.1.t:0 "Ricordi di un Impero"
@@ -36,19 +61,9 @@ ite.1.a:0 "Bridges burned"
 
 #############Решения############
 TYR_shield_of_the_republic:0 "Shield of the Republic"
-TYR_shield_of_the_republic_desc:0 "Reform the fucking army reeee!!!!!"
-recreate_the_heer:0 "Recreate the Heer"
-form_the_austrian_armored_corps:0 "Form the Austrian Armored Corps"
-equipment_renovation:0 "Renovate the Infantry Equipment"
-land_doctrinal_renovation:0 "Expand the Land Doctrine"
-recreate_the_luftstreitkrafte:0 "Recreate the Luftstreitkräfte"
-buy_airfleet:0 "Buy Foreign Aviation"
-create_airfield:0 "Expand Tyrol Airfield"
-air_doctrinal_renovation:0 "Develop the Air Doctrine"
-recreate_the_Kriegsmarine:0 "Recreate the Kriegsmarine"
-expand_dockyards:0 "Expand Dockyards"
-expand_fleet:0 "New Naval Designs"
-recreate_naval_doctrine:0 "Reform the Naval Doctrine"
+
+#############Тултипы############
+ITE_grande_esercito_text:0 "§CBonuses will depend on the branch you choose§"
 
 #############Фокусы############
 ITE_empire_legacy:0 "Empire Legacy"

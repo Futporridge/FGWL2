@@ -1,4 +1,24 @@
 ﻿l_english:
+#############Название############
+PIE_utopism:0 "Sardinian Commune"
+PIE_prometeism:0 "Sardinian Commune"
+PIE_communitarianism:0 "Sardinian Commune"
+PIE_individualism:0 "Sardinian Commune"
+PIE_liberalism:0 "Sardinian Republic"
+PIE_conservatism:0 "Kingdom of Sardinia-Piedmont"
+PIE_oligarchy:0 "Kingdom of Sardinia-Piedmont"
+PIE_paternalism:0 "Kingdom of Sardinia-Piedmont"
+PIE_reactionary:0 "Kingdom of Sardinia-Piedmont"
+PIE_utopism_ADJ:0 "Sardinian"
+PIE_prometeism_ADJ:0 "Sardinian"
+PIE_communitarianism_ADJ:0 "Sardinian"
+PIE_individualism_ADJ:0 "Sardinian"
+PIE_liberalism_ADJ:0 "Sardinian"
+PIE_conservatism_ADJ:0 "Sardinian"
+PIE_oligarchy_ADJ:0 "Sardinian"
+PIE_paternalism_ADJ:0 "Sardinian"
+PIE_reactionary_ADJ:0 "Sardinian"
+
 #############Партии############
 PIE_utopism_party:0 "Bandiera Rossa"
 PIE_utopism_party_long:0 "Bandiera Rossa (Red Banner)" 

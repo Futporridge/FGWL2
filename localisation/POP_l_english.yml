@@ -1,4 +1,24 @@
 ﻿l_english:
+#############Название############
+POP_utopism:0 "Central Italian Commune"
+POP_prometeism:0 "Central Italian Commune"
+POP_communitarianism:0 "Central Italian Commune"
+POP_individualism:0 "Central Italian Commune"
+POP_liberalism:0 "Central Italian Republic"
+POP_conservatism:0 "Papal States"
+POP_oligarchy:0 "Papal States"
+POP_paternalism:0 "Papal States"
+POP_reactionary:0 "Papal States"
+POP_utopism_ADJ:0 "Papal"
+POP_prometeism_ADJ:0 "Papal"
+POP_communitarianism_ADJ:0 "Papal"
+POP_individualism_ADJ:0 "Papal"
+POP_liberalism_ADJ:0 "Papal"
+POP_conservatism_ADJ:0 "Papal"
+POP_oligarchy_ADJ:0 "Papal"
+POP_paternalism_ADJ:0 "Papal"
+POP_reactionary_ADJ:0 "Papal"
+
 #############Партии############
 POP_utopism_party:0 "VP"
 POP_utopism_party_long:0 "La Vendetta del Popolo (Рeoples Revenge)" 
