@@ -81,17 +81,71 @@ ideas = {
 			}
 		}
 		
-		grande_esercito_mod = {
+		labor_front_0 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = grande_esercito_mod 
+			picture = labor_front_0 
 			
 			modifier = {
-				experience_gain_army_factor = 0.20
-				breakthrough_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		labor_front_mod_0 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = labor_front_mod_0 
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.15
+				production_factory_max_efficiency_factor = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		labor_front_tard_0 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = labor_front_tard_0 
+			
+			modifier = {
+			    production_factory_efficiency_gain_factor = 0.1
+				production_lack_of_resource_penalty_factor = -0.20
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		labor_front_mod_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = labor_front_mod_1 
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.15
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_start_efficiency_factor = 0.1
 			}
 	
 			ai_will_do = {
