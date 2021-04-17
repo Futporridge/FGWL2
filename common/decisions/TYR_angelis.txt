@@ -2,7 +2,7 @@
 ##### TYR ######
 ################
 
-TYR_shield_of_the_republic = {                               
+TYR_shield_of_the_republic = {                             
      recreate_the_heer = {  
 	icon = GFX_decision_generic_army_support	 
           allowed = { tag = TYR }  

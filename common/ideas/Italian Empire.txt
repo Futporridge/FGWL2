@@ -81,6 +81,24 @@ ideas = {
 			}
 		}
 		
+		grande_esercito_mod = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = grande_esercito_mod 
+			
+			modifier = {
+				experience_gain_army_factor = 0.20
+				breakthrough_factor = 0.15
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
 		labor_front_0 = {
 			
 			allowed = {

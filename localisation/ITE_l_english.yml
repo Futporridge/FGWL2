@@ -71,6 +71,12 @@ TYR_shield_of_the_republic:0 "Shield of the Republic"
 
 #############Тултипы############
 ITE_grande_esercito_text:0 "§CBonuses will depend on the branch you choose§"
+ITE_one_day_as_lion_text:0 "§GWe will start preparing for Italian the unification§"
+ITE_for_italy_and_italians_text:0 "Every Italian patriot should know what he is fighting for"
+ITE_for_the_empire_and_the_emperor_text:0 "Every Italian patriot should know who he is fighting for"
+ITE_the_emperor_speaks_text:0 "Time for speeches"
+ITE_divide_and_conquer_text:0 "Divide et impera"
+ITE_risorgimento_text:0 "Unity at the muzzle of a rifle"
 
 #############Фокусы############
 ITE_empire_legacy:0 "Empire Legacy"

@@ -142,6 +142,15 @@
 				add_ideas = grande_esercito_mod
 			}
 			Custom_effect_tooltip = ITE_grande_esercito_text
+			if = {
+				limit = {
+					NOT = {
+						has_completed_focus = ITE_new_tactics
+						has_completed_focus = ITE_trust_old_generals
+					}
+				}
+				Custom_effect_tooltip = ITE_grande_esercito_text
+			}
 		}
 
 	}
@@ -309,7 +318,15 @@
 					}
 				}
 			}
-			Custom_effect_tooltip = ITE_grande_esercito_text
+			if = {
+				limit = {
+					NOT = {
+						has_completed_focus = ITE_emergency_nationalization
+						has_completed_focus = ITE_carrot_and_stick
+					}
+				}
+				Custom_effect_tooltip = ITE_grande_esercito_text
+			}
 		}
 	}
 	shared_focus = {
@@ -321,7 +338,9 @@
 		}
 		x = 10
 		y = 1
-
+		completion_reward = {
+			Custom_effect_tooltip = ITE_one_day_as_lion_text
+		}
 	}
 	shared_focus = {
 		id = ITE_for_italy_and_italians
@@ -335,7 +354,9 @@
 		}
 		x = 9
 		y = 2
-
+		completion_reward = {
+			Custom_effect_tooltip = ITE_for_italy_and_italians_text
+		}
 	}
 	shared_focus = {
 		id = ITE_the_emperor_speaks
@@ -346,6 +367,9 @@
 		}
 		x = 9
 		y = 3
+		completion_reward = {
+			Custom_effect_tooltip = ITE_the_emperor_speaks_text
+		}
 
 	}
 	shared_focus = {
@@ -357,6 +381,9 @@
 		}
 		x = 9
 		y = 4
+		completion_reward = {
+			Custom_effect_tooltip = ITE_divide_and_conquer_text
+		}
 
 	}
 	shared_focus = {
@@ -371,6 +398,9 @@
 		}
 		x = 11
 		y = 2
+		completion_reward = {
+			Custom_effect_tooltip = ITE_for_the_empire_and_the_emperor_text
+		}
 
 	}
 	shared_focus = {
@@ -383,6 +413,9 @@
 		}
 		x = 10
 		y = 5
+		completion_reward = {
+			Custom_effect_tooltip = ITE_risorgimento_text
+		}
 
 	}
 	shared_focus = {
