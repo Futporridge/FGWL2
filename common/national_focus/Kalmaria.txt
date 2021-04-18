@@ -1,0 +1,240 @@
+focus_tree = {
+	id = Kalmarian_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = KAL
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 3200 y = 0 }
+
+	focus = {
+		id = KAL_The_End_of_the_Rigstagen
+		icon = GFX_focus_KAL_The_End_of_the_Rigstagen
+		x = 7
+		y = 0
+		cost = 4.6
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.02
+			add_war_support = 0.02			
+			}
+		available_if_capitulated = yes
+				}
+				
+	focus = {
+		id = KAL_House_of_Habsburg
+		icon = GFX_focus_KAL_House_of_Habsburg
+		x = -2
+		y = 1
+		prerequisite = { focus = KAL_The_End_of_the_Rigstagen }
+		mutually_exclusive = { focus = KAL_House_of_Oldenburg }
+		mutually_exclusive = { focus = KAL_House_of_Wittelsbach }
+		cost = 1
+		relative_position_id = KAL_The_End_of_the_Rigstagen
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+    target = AUS
+    modifier = Common_dynasty
+							}
+	add_political_power = 25							
+			}
+		
+		available_if_capitulated = yes
+			}
+			
+			focus = {
+		id = KAL_Austrian_Expirience
+		icon = GFX_focus_KAL_Austrian_Expirience
+		x = 0
+		y = 1
+		prerequisite = { focus = KAL_House_of_Habsburg }
+		cost = 4
+		relative_position_id = KAL_House_of_Habsburg
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			army_experience = 10
+			add_popularity = {
+    ideology = paternalism
+    popularity = 0.02
+}
+			}
+		
+		available_if_capitulated = yes
+			}
+			
+		focus = {
+		id = KAL_Organic_Kingdom
+		icon = GFX_focus_KAL_Organic_Kingdom
+		x = 0
+		y = 1
+		prerequisite = { focus = KAL_Austrian_Expirience }
+		cost = 4
+		relative_position_id = KAL_Austrian_Expirience
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.05
+			}
+		available_if_capitulated = yes
+			}
+			
+		focus = {
+		id = KAL_Natural_Monarch
+		icon = GFX_focus_KAL_Natural_Monarch
+		x = 0
+		y = 1
+		prerequisite = { focus = KAL_Organic_Kingdom }
+		cost = 4.9
+		relative_position_id = KAL_Organic_Kingdom
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available_if_capitulated = yes
+			}	
+			
+			
+			
+			
+		focus = {
+		id = KAL_House_of_Oldenburg
+		icon = GFX_focus_KAL_House_of_Oldenburg
+		x = 0
+		y = 1
+		prerequisite = { focus = KAL_The_End_of_the_Rigstagen }
+		mutually_exclusive = { focus = KAL_House_of_Habsburg }
+		mutually_exclusive = { focus = KAL_House_of_Wittelsbach }
+		cost = 1
+		relative_position_id = KAL_The_End_of_the_Rigstagen
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+			}
+			
+	focus = {
+		id = KAL_Our_Traditions
+		icon = GFX_focus_KAL_Our_Traditions
+		x = 0
+		y = 1
+		prerequisite = { focus = KAL_House_of_Oldenburg }
+		cost = 4
+		relative_position_id = KAL_House_of_Oldenburg
+		ai_will_do = {
+			factor = 10
+		}
+		
+		
+		available_if_capitulated = yes
+			}
+			
+		focus = {
+		id = KAL_People_State
+		icon = GFX_focus_KAL_People_State
+		x = 0
+		y = 1
+		prerequisite = { focus = KAL_Our_Traditions }
+		cost = 4
+		relative_position_id = KAL_Our_Traditions
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available_if_capitulated = yes
+			}
+			
+		focus = {
+		id = KAL_Appoint_a_Cabinet
+		icon = GFX_focus_KAL_Appoint_a_Cabinet
+		x = 0
+		y = 1
+		prerequisite = { focus = KAL_People_State }
+		cost = 4.9
+		relative_position_id = KAL_People_State
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available_if_capitulated = yes
+			}	
+
+
+				focus = {
+		id = KAL_House_of_Wittelsbach
+		icon = GFX_focus_KAL_House_of_Wittelsbach
+		x = 2
+		y = 1
+		prerequisite = { focus = KAL_The_End_of_the_Rigstagen }
+		mutually_exclusive = { focus = KAL_House_of_Habsburg }
+		mutually_exclusive = { focus = KAL_House_of_Oldenburg }
+		cost = 1
+		relative_position_id = KAL_The_End_of_the_Rigstagen
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+			}
+			
+			
+			focus = {
+		id = KAL_United_in_Catholitism
+		icon = GFX_focus_KAL_United_in_Catholitism
+		x = 0
+		y = 1
+		prerequisite = { focus = KAL_House_of_Wittelsbach }
+		cost = 4
+		relative_position_id = KAL_House_of_Wittelsbach
+		ai_will_do = {
+			factor = 10
+		}
+		
+		
+		available_if_capitulated = yes
+			}
+			
+		focus = {
+		id = KAL_Integral_Empire
+		icon = GFX_focus_KAL_Integral_Empire
+		x = 0
+		y = 1
+		prerequisite = { focus = KAL_United_in_Catholitism }
+		cost = 4
+		relative_position_id = KAL_United_in_Catholitism
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available_if_capitulated = yes
+			}
+			
+		focus = {
+		id = KAL_Divine_Authority
+		icon = GFX_focus_KAL_Divine_Authority
+		x = 0
+		y = 1
+		prerequisite = { focus = KAL_Integral_Empire }
+		cost = 4.9
+		relative_position_id = KAL_Integral_Empire
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available_if_capitulated = yes
+			}
+			}
+		

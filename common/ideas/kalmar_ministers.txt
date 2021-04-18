@@ -1,9 +1,9 @@
 ideas = {
   head_of_state = {
 
-		KAL_Jozef_Haller = {
+		KAL_Carl_Glucksburg = {
 
-			picture = Jozef_Haller
+			picture = Carl_Glucksburg
 
 			allowed = {
 				original_tag = KAL
@@ -18,9 +18,9 @@ ideas = {
 				
 }	
 political_advisor = {
-		KAL_Stanislaw_Glabinski = {
+		KAL_Henri_Konow = {
 
-			picture = Stanislaw_Glabinski
+			picture = Henri_Konow
 
 			allowed = {
 				original_tag = KAL
@@ -31,22 +31,9 @@ political_advisor = {
 			
 			traits = {  }
 		}
-		KAL_Aleksander_Kakowski = {
+		KAL_Jens_Hundseid = {
 
-			picture = Aleksander_Kakowski
-
-			allowed = {
-				original_tag = KAL
-			}
-			available = {
-			always = no
-			}
-			
-			traits = {  }
-		}	
-		KAL_Zdzislaw_Lubomirski = {
-
-			picture = Zdzislaw_Lubomirski
+			picture = Jens_Hundseid
 
 			allowed = {
 				original_tag = KAL
@@ -57,9 +44,22 @@ political_advisor = {
 			
 			traits = {  }
 		}	
-		KAL_Jan_Stecki = {
+		KAL_Aksel_Moller = {
 
-			picture = Jan_Stecki
+			picture = Aksel_Moller
+
+			allowed = {
+				original_tag = KAL
+			}
+			available = {
+			always = no
+			}
+			
+			traits = {  }
+		}	
+		KAL_Eigil_Thune_Jacobsen = {
+
+			picture = Eigil_Thune_Jacobsen
 
 			allowed = {
 				original_tag = KAL

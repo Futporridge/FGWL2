@@ -17,13 +17,13 @@ set_politics = {
 }
 
 set_popularities = {
-	utopism = 0
-	prometeism = 0
-	communitarianism = 0
-	oligarchy = 40
-	conservatism = 20
-	reactionary = 20
-	paternalism = 20
+	utopism = 5
+	prometeism = 2
+	communitarianism = 17
+	oligarchy = 34
+	conservatism = 14
+	reactionary = 13
+	paternalism = 15
 }
 
 add_ideas = {
@@ -31,6 +31,12 @@ KAL_Colonial_Spending
 KAL_Economical_growth
 KAL_Federal_crisis
 KAL_Swedish_Separatism
+#advisors
+KAL_Carl_Glucksburg
+KAL_Henri_Konow
+KAL_Jens_Hundseid 
+KAL_Aksel_Moller
+KAL_Eigil_Thune_Jacobsen
 }
 
 set_convoys = 100

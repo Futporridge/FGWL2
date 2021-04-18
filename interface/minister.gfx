@@ -370,4 +370,25 @@ spriteTypes = {
 		name = "GFX_idea_Roger_Masson"
 		texturefile = "gfx/interface/ideas/Ministers/swiss/Roger_Masson.dds"
 	}
+							####Kalmaria####
+	spriteType = {
+		name = "GFX_idea_Carl_Glucksburg"
+		texturefile = "gfx/interface/ideas/Ministers/Kalmar/Carl_Glucksburg.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Henri_Konow"
+		texturefile = "gfx/interface/ideas/Ministers/Kalmar/Henri_Konow.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Jens_Hundseid"
+		texturefile = "gfx/interface/ideas/Ministers/Kalmar/Jens_Hundseid.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Aksel_Moller"
+		texturefile = "gfx/interface/ideas/Ministers/Kalmar/Aksel_Moller.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Eigil_Thune_Jacobsen"
+		texturefile = "gfx/interface/ideas/Ministers/Kalmar/Eigil_Thune_Jacobsen.dds"
+	}
 }
