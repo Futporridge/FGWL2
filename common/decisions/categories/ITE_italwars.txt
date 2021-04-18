@@ -1,0 +1,16 @@
+################
+##### AUS ######
+################
+
+ITE_risorgimento = {
+	
+	icon = GFX_decision_category_army_reform	
+	picture = GFX_ITE_decision_risorgimento	
+	visible_when_empty = yes
+	visible = {
+		has_completed_focus = ITE_one_day_as_lion
+	}
+	allowed = {
+		always = yes
+	}
+}

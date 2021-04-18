@@ -1,0 +1,145 @@
+ITE_risorgimento = {
+
+	ITE_call_to_patriots = {
+		fire_only_once = no
+		visible = {
+			has_completed_focus = ITE_for_italy_and_italians
+			NOT = {
+				has_country_flag = ite_civil_war
+			}
+		}
+		cost = 50
+		days_re_enable = 40
+		available = {	} 
+		complete_effect = {
+		    if = {
+				limit = {
+					check_variable = { ite_voluntary_cons > 4 }
+				}
+				country_event = { id = ite.100 days = 1  }
+			}
+			add_to_variable = { ite_voluntary_cons = 1 }
+			add_manpower = 25000
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	ITE_emperors_speech = {
+		fire_only_once = no
+		visible = {
+			has_completed_focus = ITE_the_emperor_speaks
+		}
+		cost = 25
+		days_re_enable = 30
+		available = {	}
+		complete_effect = {
+			add_stability = 0.05
+			add_popularity = {
+                ideology = conservatism
+			    popularity = 0.05
+            }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	ITE_hand_over_guns = {
+		fire_only_once = no
+		visible = {
+			has_completed_focus = ITE_divide_and_conquer
+			NOT = {
+				has_global_flag = ipr_defeated 
+			}
+		}
+		cost = 15
+		days_re_enable = 20
+		available = {
+			has_equipment = {
+				infantry_equipment > 1000
+			}
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					country_exists = IPR
+				}
+				send_equipment = {
+					equipment = infantry_equipment
+					amount = 1000
+					target = IPR
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						country_exists = IPR
+					}
+				}
+				add_equipment_to_stockpile = {
+					equipment = infantry_equipment
+					amount = -1000
+					target = IPR
+				}
+				add_to_variable = { ipr_napoleons_help = 1 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ITE_shut_up_opposition = {
+		fire_only_once = no
+		visible = {
+			has_completed_focus = ITE_for_the_empire_and_the_emperor
+			NOT = {
+				has_country_flag = ite_civil_war
+			}
+		}
+		cost = 100
+		available = {
+			NOT = {
+				liberalism < 0.1
+				communitarianism < 0.1
+			}
+		}
+		complete_effect = {
+			add_popularity = {
+                ideology = liberalism
+			    popularity = -0.1
+            }
+			add_popularity = {
+                ideology = communitarianism
+			    popularity = -0.1
+            }
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	ITE_announce_the_beginning_of_risorgimento = {
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = ITE_risorgimento
+		}
+		cost = 200
+		available = {
+			NOT = {
+				has_country_flag = ite_civil_war
+			}
+		}
+		complete_effect = {
+			add_stability = 0.20
+			add_war_support = 0.20
+			add_political_power = 100
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

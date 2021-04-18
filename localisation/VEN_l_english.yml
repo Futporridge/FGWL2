@@ -1,4 +1,24 @@
 ﻿l_english:
+#############Название############
+VEN_utopism:0 "Lombardy-Venetian Commune"
+VEN_prometeism:0 "Lombardy-Venetian Commune"
+VEN_communitarianism:0 "Lombardy-Venetian Commune"
+VEN_individualism:0 "Lombardy-Venetian Commune"
+VEN_liberalism:0 "Lombardy-Venetian Republic"
+VEN_conservatism:0 "Kingdom of Lombardy-Venetia"
+VEN_oligarchy:0 "Kingdom of Lombardy-Venetia"
+VEN_paternalism:0 "Kingdom of Lombardy-Venetia"
+VEN_reactionary:0 "Kingdom of Lombardy-Venetia"
+VEN_utopism_ADJ:0 "Lombardy-Venetian"
+VEN_prometeism_ADJ:0 "Lombardy-Venetian"
+VEN_communitarianism_ADJ:0 "Lombardy-Venetian"
+VEN_individualism_ADJ:0 "Lombardy-Venetian"
+VEN_liberalism_ADJ:0 "Lombardy-Venetian"
+VEN_conservatism_ADJ:0 "Lombardy-Venetian"
+VEN_oligarchy_ADJ:0 "Lombardy-Venetian"
+VEN_paternalism_ADJ:0 "Lombardy-Venetian"
+VEN_reactionary_ADJ:0 "Lombardy-Venetian"
+
 #############Партии############
 VEN_utopism_party:0 "Bandiera Rossa"
 VEN_utopism_party_long:0 "Bandiera Rossa (Red Banner)"
