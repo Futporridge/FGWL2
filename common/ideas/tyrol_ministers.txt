@@ -26,7 +26,7 @@ ideas = {
 			always = no
 			}
 			
-			traits = { army_leader }
+			traits = { Salzburg_butcher }
 		}
 		TYR_Theodor_Innitzer = {
 
@@ -145,7 +145,7 @@ political_advisor = {
 			always = no
 			}
 			
-			traits = { army_leader }
+			traits = { Papa_Ringel }
 		}
 		TYR_Ernst_Kaltenbrunner = {
 
@@ -158,7 +158,7 @@ political_advisor = {
 			always = no
 			}
 			
-			traits = { army_leader }
+			traits = { Pedantic_Punisher }
 		}
 		TYR_Hermann_Robert_Senkowsky = {
 
@@ -171,7 +171,7 @@ political_advisor = {
 			always = no
 			}
 			
-			traits = { army_leader }
+			traits = { Warmonger_Economist }
 		}
 		TYR_Otto_Skorzeni = {
 
@@ -184,7 +184,7 @@ political_advisor = {
 			always = no
 			}
 			
-			traits = { army_leader }
+			traits = { The_Werewolf }
 		}
 		TYR_Emil_Fey = {
 

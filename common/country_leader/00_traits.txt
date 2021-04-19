@@ -3617,6 +3617,51 @@ young_diplomat = {
 			factor = 1
 		}
 	}
-	
-	
+	The_Werewolf = {
+		random = no
+		resistance_growth_on_our_occupied_states = +0.3
+		foreign_subversive_activites = -0.3
+		non_core_manpower = 0.05
+		political_power_factor = -0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Salzburg_butcher = {
+		random = no
+		recruitable_population_factor = -0.05
+		stability_factor = 0.025
+		required_garrison_factor = -0.25
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Papa_Ringel = {
+		random = no
+		defensive_war_stability_factor = 0.1
+		offensive_war_stability_factor = 0.1
+		justify_war_goal_time = -0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Pedantic_Punisher = {
+		random = no
+		compliance_growth = 0.05
+		occupation_cost = -0.25
+		political_power_factor = -0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Warmonger_Economist = {
+		random = no
+		production_speed_bunker_factor = 0.2
+		production_speed_arms_factory_factor = 0.3
+		political_power_factor = -0.07
+		consumer_goods_factor = -0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }
