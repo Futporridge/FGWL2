@@ -2610,5 +2610,85 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_focus_AUS_the_grand_restructure"
 		texturefile = "gfx/interface/goals/Focus_AUS_the_grand_restructure.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_the_reign_of_the_spear"
+		texturefile = "gfx/interface/goals/Focus_TYR_the_reign_of_the_spear.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_form_the_kriegsministerium"
+		texturefile = "gfx/interface/goals/Focus_TYR_form_the_kriegsministerium.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_the_shield_of_the_republic"
+		texturefile = "gfx/interface/goals/Focus_TYR_the_shield_of_the_republic.dds"
+	}	
+		SpriteType = { 
+		name = "GFX_focus_TYR_institutionalize_the_soldatenring"
+		texturefile = "gfx/interface/goals/Focus_TYR_institutionalize_the_soldatenring.dds"
+	}
+		SpriteType = { 
+		name = "GFX_focus_TYR_sturmtruppen"
+		texturefile = "gfx/interface/goals/Focus_TYR_sturmtruppen.dds"
+	}	
+		SpriteType = { 
+		name = "GFX_focus_TYR_build_up_military_budget"
+		texturefile = "gfx/interface/goals/Focus_TYR_build_up_military_budget.dds"
+	}
+		SpriteType = { 
+		name = "GFX_focus_TYR_call_to_the_soldiers"
+		texturefile = "gfx/interface/goals/Focus_TYR_call_to_the_soldiers.dds"
+	}
+		SpriteType = { 
+		name = "GFX_focus_TYR_integrate_the_paramilitary"
+		texturefile = "gfx/interface/goals/Focus_TYR_integrate_the_paramilitary.dds"
+	}
+		SpriteType = { 
+		name = "GFX_focus_TYR_the_law_of_the_axe"
+		texturefile = "gfx/interface/goals/Focus_TYR_the_law_of_the_axe.dds"
+	}
+		SpriteType = { 
+		name = "GFX_focus_TYR_oath_of_allegiance"
+		texturefile = "gfx/interface/goals/Focus_TYR_oath_of_allegiance.dds"
+	}
+		SpriteType = { 
+		name = "GFX_focus_TYR_prohibit_political_alliances"
+		texturefile = "gfx/interface/goals/Focus_TYR_prohibit_political_alliances.dds"
+	}
+		SpriteType = { 
+		name = "GFX_focus_TYR_abolish_estate_privileges"
+		texturefile = "gfx/interface/goals/Focus_TYR_abolish_estate_privileges.dds"
+	}
+		SpriteType = { 
+		name = "GFX_focus_TYR_dictator_of_the_danube"
+		texturefile = "gfx/interface/goals/Focus_TYR_dictator_of_the_danube.dds"
+	}
+		SpriteType = { 
+		name = "GFX_focus_TYR_march_on_to_the_victory"
+		texturefile = "gfx/interface/goals/Focus_TYR_march_on_to_the_victory.dds"
+	}
+		SpriteType = { 
+		name = "GFX_focus_TYR_ploughshares_into_swords"
+		texturefile = "gfx/interface/goals/Focus_TYR_ploughshares_into_swords.dds"
+	}
+		SpriteType = { 
+		name = "GFX_focus_TYR_oversight_the_economy"
+		texturefile = "gfx/interface/goals/Focus_TYR_oversight_the_economy.dds"
+	}
+		SpriteType = { 
+		name = "GFX_focus_TYR_emergency_nationalization"
+		texturefile = "gfx/interface/goals/Focus_TYR_emergency_nationalization.dds"
+	}	
+		SpriteType = { 
+		name = "GFX_focus_TYR_tax_the_burgers"
+		texturefile = "gfx/interface/goals/Focus_TYR_tax_the_burgers.dds"
+	}
+		SpriteType = { 
+		name = "GFX_focus_TYR_nationwide_draft"
+		texturefile = "gfx/interface/goals/Focus_TYR_nationwide_draft.dds"
+	}
+		SpriteType = { 
+		name = "GFX_focus_TYR_labor_army"
+		texturefile = "gfx/interface/goals/Focus_TYR_labor_army.dds"
 	}	
 }

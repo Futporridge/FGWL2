@@ -1136,6 +1136,190 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
+		}
+		TYR_ang_fractionalism1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_ang_fractionalism 
+		
+			modifier = {
+				army_org_factor = -0.1
+				army_org_regain = -0.1
+				stability_factor = -0.1
+				war_support_factor_factor = -0.1
+				conscription_factor = -0.15
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_fractionalism2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_ang_fractionalism 
+		
+			modifier = {
+				army_org_factor = -0.1
+				army_org_regain = -0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_sturmtruppen2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+	
+			modifier = {
+				special_forces_cap = 0.5	
+				army_org_regain = 0.05
+				army_speed_factor = 0.1	
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_army4 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+
+				country_lock_all_division_template = yes			
+				research_bonus = {
+				land_doctrine = 0.25
+				}			
+			modifier = {
+				max_command_power = 5
+				army_org_factor = 0.1	
+				army_org_regain = 0.1
+				defence = 0.05
+				experience_loss_factor = 0.15
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_republican_heer = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+
+				country_lock_all_division_template = yes			
+				research_bonus = {
+				land_doctrine = 0.25
+				}			
+			modifier = {
+				max_command_power = 5
+				army_org_factor = 0.1	
+				army_org_regain = 0.1
+				defence = 0.05
+				experience_loss_factor = 0.15
+				special_forces_cap = 0.5	
+				army_org_regain = 0.05
+				army_speed_factor = 0.1					
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_panzer_rnd = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+		
+				research_bonus = {
+				armor = 0.1
+				}
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+			}				
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_panzer_rnd2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+		
+				research_bonus = {
+				armor = 0.15
+				}
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+			}				
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
+		TYR_ang_doppelsoldners = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+
+			modifier = {
+				army_org_factor = 0.05	
+				army_org_regain = 0.05				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_doppelsoldners2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+
+			modifier = {
+				army_org_factor = 0.1	
+				army_org_regain = 0.1				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
 		}		
 	}
 

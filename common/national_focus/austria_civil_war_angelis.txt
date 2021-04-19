@@ -20,7 +20,7 @@ focus_tree = {
 
 	shared_focus = {
 		id = TYR_the_Reign_of_Spear
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_the_reign_of_the_spear
 		x = 7
 		y = 0
 		cost = 2
@@ -44,7 +44,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Form_the_Kriegsministerium
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_form_the_kriegsministerium
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_the_Reign_of_Spear }
@@ -67,7 +67,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_The_Shield_of_the_Republic
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_the_shield_of_the_republic
 		x = -4
 		y = 1
 		prerequisite = { focus = TYR_Form_the_Kriegsministerium }
@@ -92,7 +92,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Institutionalize_the_Soldatenring
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_institutionalize_the_soldatenring
 		x = -2
 		y = 1
 		prerequisite = { focus = TYR_The_Shield_of_the_Republic }
@@ -120,7 +120,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Sturmtruppen
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_sturmtruppen
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Institutionalize_the_Soldatenring }
@@ -147,7 +147,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Build_Up_the_Military_Budget
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_build_up_military_budget
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_The_Shield_of_the_Republic }
@@ -173,7 +173,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Call_to_the_Soldiers
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_call_to_the_soldiers
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Build_Up_the_Military_Budget }
@@ -209,7 +209,7 @@ add_equipment_to_stockpile = {
 				}				
 	shared_focus = {
 		id = TYR_Integrate_the_Paramilitary
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_integrate_the_paramilitary
 		x = 2
 		y = 1
 		prerequisite = { focus = TYR_The_Shield_of_the_Republic }
@@ -250,7 +250,7 @@ add_equipment_to_stockpile = {
 				}
 	shared_focus = {
 		id = TYR_The_Law_of_the_Axe
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_the_law_of_the_axe
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Form_the_Kriegsministerium }
@@ -276,7 +276,7 @@ add_equipment_to_stockpile = {
 				}
 	shared_focus = {
 		id = TYR_Oath_of_Allegiance
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_oath_of_allegiance
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_The_Law_of_the_Axe }
@@ -302,7 +302,7 @@ add_equipment_to_stockpile = {
 				}	
 	shared_focus = {
 		id = TYR_Prohibit_Political_Alliances
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_prohibit_political_alliances
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Oath_of_Allegiance }
@@ -341,7 +341,7 @@ add_equipment_to_stockpile = {
 				}
 	shared_focus = {
 		id = TYR_Abolish_Estate_Privileges
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_abolish_estate_privileges
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Oath_of_Allegiance }
@@ -389,7 +389,7 @@ add_equipment_to_stockpile = {
 				}		
 	shared_focus = {
 		id = TYR_Dictator_of_the_Danube
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_dictator_of_the_danube
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Abolish_Estate_Privileges }
@@ -416,7 +416,7 @@ add_equipment_to_stockpile = {
 				}
 	shared_focus = {
 		id = TYR_March_on_to_the_Victory
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_march_on_to_the_victory
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Dictator_of_the_Danube }
@@ -442,7 +442,7 @@ add_equipment_to_stockpile = {
 				}
 	shared_focus = {
 		id = TYR_Ploughshares_into_Swords
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_ploughshares_into_swords
 		x = 4
 		y = 1
 		prerequisite = { focus = TYR_Form_the_Kriegsministerium }
@@ -468,7 +468,7 @@ add_equipment_to_stockpile = {
 				}
 	shared_focus = {
 		id = TYR_Oversight_the_Economy
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_oversight_the_economy
 		x = -2
 		y = 1
 		prerequisite = { focus = TYR_Ploughshares_into_Swords }
@@ -491,7 +491,7 @@ add_equipment_to_stockpile = {
 				}
 	shared_focus = {
 		id = TYR_Emergency_Nationalization
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_emergency_nationalization
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Ploughshares_into_Swords }
@@ -543,7 +543,7 @@ add_equipment_to_stockpile = {
 				}
 	shared_focus = {
 		id = TYR_Tax_the_Burgers
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_tax_the_burgers
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Emergency_Nationalization }
@@ -581,7 +581,7 @@ add_equipment_to_stockpile = {
 				}				
 	shared_focus = {
 		id = TYR_Nationwide_Draft
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_nationwide_draft
 		x = 2
 		y = 1
 		prerequisite = { focus = TYR_Ploughshares_into_Swords }
@@ -605,7 +605,7 @@ add_equipment_to_stockpile = {
 				}
 	shared_focus = {
 		id = TYR_Labour_Army
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_labor_army
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Nationwide_Draft }
