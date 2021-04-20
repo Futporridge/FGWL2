@@ -35,7 +35,9 @@ bookmarks = {
 			history = "KAL_FGWL"
 			ideology = oligarchy
 			ideas = {
-
+			KAL_House_of_Habsburg
+			KAL_House_of_Oldenburg
+			KAL_House_of_Wittelsbach
 			}
 			focuses = {
 
