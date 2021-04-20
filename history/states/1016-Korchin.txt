@@ -1,0 +1,19 @@
+state={
+	id=1016
+	name="STATE_1016"
+	provinces={
+		1656 10389 12338 
+	}
+	history={
+		owner = HEI
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = HEI
+
+	}	
+	manpower=511780
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

@@ -8,7 +8,7 @@ state={
 
 	history={
 		owner = MHR
-		add_core_of = MHR			
+		add_core_of = MHR
 		buildings = {
 			infrastructure = 4
 
@@ -17,7 +17,7 @@ state={
 	}
 
 	provinces={
-		1510 4557 4953 7497 7574 8120 10401 10801 12375 12420 12480 12854 
+		1510 4410 4557 7497 7574 8120 10332 10401 10801 12375 12420 12480 12854 
 	}
 	manpower=14123100
 	buildings_max_level_factor=1.000

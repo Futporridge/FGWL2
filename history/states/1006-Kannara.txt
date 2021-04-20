@@ -1,0 +1,19 @@
+state={
+	id=1006
+	name="STATE_1006"
+	provinces={
+		7244 7391 7395 10190 
+	}
+	history={
+		owner = HOS
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = HOS
+
+	}	
+	manpower=411780
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

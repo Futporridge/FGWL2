@@ -4,21 +4,20 @@ state={
 	name="STATE_320"
 
 	history={
-			victory_points = {
+		victory_points = {
 			1238 5 
 		}
 		owner = HOS
 		add_core_of = HOS
-		
 		buildings = {
 			infrastructure = 5
-			
+
 		}
 
 	}
 
 	provinces={
-		1238 1321 7244 7391 7395 7447 10190 
+		1238 1321 7447 
 	}
 	manpower=286410
 	buildings_max_level_factor=1.000

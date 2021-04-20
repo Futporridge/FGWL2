@@ -1,0 +1,20 @@
+
+state={
+	id=1011
+	name="STATE_1011"
+	provinces={
+		5019 7430 10311 12781 
+	}
+	history={
+		owner = HYD
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = HYD
+
+	}	
+	manpower=1811780
+	state_category=town
+	buildings_max_level_factor=1.000
+}

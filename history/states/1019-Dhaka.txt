@@ -1,0 +1,19 @@
+state={
+	id=1019
+	name="STATE_1019"
+	provinces={
+		9993 10416 11929 12423 
+	}
+	history={
+		owner = HEI
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = HEI
+
+	}	
+	manpower=6011780
+	state_category=city
+	buildings_max_level_factor=1.000
+}

@@ -509,7 +509,9 @@ on_actions = {
 		#Lappish
 		148 = { set_variable = { nationality = 96 } }	#Laplands
 		213 = { set_variable = { nationality = 96 } }	#Kola	
-		666 = { set_variable = { nationality = 96 } }	#Kola				
+		666 = { set_variable = { nationality = 96 } }	#Kola	
+		995 = { set_variable = { nationality = 96 } }	#Kola	
+		994 = { set_variable = { nationality = 96 } }	#Kola			
 		#Epirus
 		44 = { set_variable = { nationality = 97 } }	#North Epirus
 		185 = { set_variable = { nationality = 97 } }	#Soutehrn Epirus		

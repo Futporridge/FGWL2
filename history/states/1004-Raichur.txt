@@ -1,0 +1,19 @@
+state={
+	id=1004
+	name="STATE_1004"
+	provinces={
+		4278 7411 10259 10799 12105 
+	}
+	history={
+		owner = MYS
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = MYS
+
+	}	
+	manpower=991780
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

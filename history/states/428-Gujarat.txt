@@ -8,13 +8,13 @@ state={
 
 	history={
 		owner = BIN
-		add_core_of = BIN		
+		add_core_of = BIN
 		victory_points = {
 			9975 1 
 		}
 		victory_points = {
 			1349 10 
-		}		
+		}
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
@@ -28,7 +28,7 @@ state={
 	}
 
 	provinces={
-		1061 1103 1144 1190 1349 4064 4090 4132 4187 7013 7020 7150 7165 7207 9975 10118 11952 12037 12092 
+		1103 1144 4064 7150 7165 9975 11952 12092 
 	}
 	manpower=10590200
 	buildings_max_level_factor=1.000
