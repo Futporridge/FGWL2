@@ -30,6 +30,16 @@ bookmarks = {
 			focuses = {
 
 			}
+		}
+		"KAL"={
+			history = "KAL_FGWL"
+			ideology = oligarchy
+			ideas = {
+
+			}
+			focuses = {
+
+			}
 		}		
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
