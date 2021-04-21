@@ -1,0 +1,118 @@
+﻿
+	add_namespace = kal
+	
+	country_event = {	
+	id = kal.1
+	title = kal.1.t
+	desc = kal.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = kal.1.a
+			hidden_effect = {
+			
+		}
+}
+}
+country_event = {	
+	id = kal.2
+	title = kal.2.t
+	desc = kal.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = kal.2.a
+		
+hidden_effect = {
+retire_ideology_leader = paternalism
+}
+create_country_leader = {
+	name = "Maximilian I"
+	desc = "POLITICS_MAXIMILIAN_EUGEN_VON_HABSBURG_DESC"
+	picture = "gfx/leaders/KAL/Portrait_Maximilian_Eugen_von_Habsburg.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = {
+		#
+	}
+	
+}
+set_politics = {
+	ruling_party = paternalism
+}
+}
+}
+country_event = {	
+	id = kal.3
+	title = kal.3.t
+	desc = kal.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = kal.3.a
+			hidden_effect = {
+retire_ideology_leader = oligarchy
+}
+create_country_leader = {
+	name = "Christian X"
+	desc = "POLITICS_CHRISTIAN_OF_DENMARK_DESC"
+	picture = "gfx/leaders/KAL/Portrait_Christian_of_Dennmark.tga"
+	expire = "1965.1.1"
+	ideology = oligarchy
+	traits = {
+		#
+	}
+	
+}
+}
+}
+country_event = {	
+	id = kal.4
+	title = kal.4.t
+	desc = kal.4.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = kal.4.a
+		hidden_effect = {
+retire_ideology_leader = reactionary
+}
+create_country_leader = {
+	name = "Ferdinand I"
+	desc = "POLITICS_FERDINAND_OF_BAVARIA_DESC"
+	picture = "gfx/leaders/KAL/Portrait_Ferdinand_of_Bavaria.tga"
+	expire = "1965.1.1"
+	ideology = reactionary
+	traits = {
+		#
+	}
+	
+}
+set_politics = {
+	ruling_party = reactionary
+}
+}
+}
+country_event = {	
+	id = kal.5
+	title = kal.5.t
+	desc = kal.5.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = kal.5.a
+			hidden_effect = {
+			
+		}
+}
+}

@@ -25,7 +25,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_stability = 0.02
-			add_war_support = 0.02			
+			add_war_support = 0.02
+			country_event = { id = kal.1 }
 			}
 		available_if_capitulated = yes
 				}
@@ -44,6 +45,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+		country_event = { id = kal.2 }
 			add_opinion_modifier = {
     target = AUS
     modifier = Common_dynasty
@@ -104,6 +106,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
+		completion_reward = {
+			add_ideas = {KAL_Natural_Monarch}
+			}
 		
 		available_if_capitulated = yes
 			}	
@@ -124,6 +129,14 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
+		completion_reward = {
+		country_event = { id = kal.3 }
+			add_opinion_modifier = {
+    target = MCL
+    modifier = Common_dynasty
+							}
+	add_stability = 0.05							
+			}
 		available_if_capitulated = yes
 			}
 			
@@ -187,6 +200,14 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
+		completion_reward = {
+		country_event = { id = kal.4 }
+			add_opinion_modifier = {
+    target = BAV
+    modifier = Common_dynasty
+							}
+	add_war_support = 0.05							
+			}
 		available_if_capitulated = yes
 			}
 			

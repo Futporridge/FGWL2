@@ -155,4 +155,8 @@ spriteTypes = {
 		name = "GFX_idea_KAL_Swedish_Separatism"
 		texturefile = "gfx/interface/ideas/kalmar/Swedish_Separatism.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_KAL_Natural_Monarch"
+		texturefile = "gfx/interface/ideas/kalmar/Natural_Monarch.dds"
+	}
 }

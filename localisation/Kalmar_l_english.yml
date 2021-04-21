@@ -29,6 +29,22 @@ KAL_Colonial_Spending:0 "Colonial Spending"
 KAL_Economical_growth:0 "Economical Growth"
 KAL_Federal_crisis:0 "Federal Crisis"
 KAL_Swedish_Separatism:0 "Swedish Separatism"
+KAL_Natural_Monarch:0 "Natural Monarch"
 ###focus###
 
-
+###events###
+kal.1.t:0 "The elections are over"
+kal.1.d:0 "Some interesting Text/// The Kalmarunionen is out of joint. For its integrity, let's fight!"
+kal.1.a:0 "...That ever I was born to set it right!"
+kal.2.t:0 "Archduke Maximilian of Austria becomes a king"
+kal.2.d:0 ""
+kal.2.a:0 ""
+kal.3.t:0 "Prince Christian of Schleswig becomes a king"
+kal.3.d:0 ""
+kal.3.a:0 ""
+kal.4.t:0 "Prince Ferdinand of Bavaria becomes a king"
+kal.4.d:0 ""
+kal.4.a:0 ""
+kal.5.t:0 "Civil disorder"
+kal.5.d:0 ""
+kal.5.a:0 "Something is rotten in the state of Denmark."
