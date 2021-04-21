@@ -2691,4 +2691,11 @@ spriteTypes = {
 		name = "GFX_focus_TYR_labor_army"
 		texturefile = "gfx/interface/goals/Focus_TYR_labor_army.dds"
 	}	
+	
+	
+	####Kalmaria####
+	SpriteType = { 
+		name = "GFX_focus_KAL_The_End_of_the_Rigstagen"
+		texturefile = "gfx/interface/goals/Focus_KAL_The_End_of_the_Rigstagen.dds"
+	}	
 }

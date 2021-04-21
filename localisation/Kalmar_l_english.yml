@@ -31,6 +31,8 @@ KAL_Federal_crisis:0 "Federal Crisis"
 KAL_Swedish_Separatism:0 "Swedish Separatism"
 KAL_Natural_Monarch:0 "Natural Monarch"
 ###focus###
+KAL_The_End_of_the_Rigstagen:0 "The End of the Rigstagen"
+KAL_The_End_of_the_Rigstagen_desc:0 "The election of the king is near it's end. During rather long debates Folketing chose the four most suitable candidates. There is only one small thing left to do - send letters to the lucky ones and wait for their answer."
 
 ###events###
 kal.1.t:0 "The elections are over"
