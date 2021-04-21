@@ -20,20 +20,14 @@
 	is_triggered_only = yes
 	option = { #Да
 		name = pop.2.a
-		reverse_add_opinion_modifier = {
-			target = POP
-			modifier = medium_increase
-		}
+		
 		POP  = {
 			country_event = { id = pop.3 }
 		}
 	}
 	option = { #Нет
 		name = pop.2.b
-		reverse_add_opinion_modifier = {
-			target = pop
-			modifier = medium_decrease
-		}
+		
 		add_political_power = 15
 		POP  = {
 			country_event = { id = pop.4 }
@@ -87,10 +81,6 @@
 	}
 	option = { #Нет
 		name = pop.5.b
-		reverse_add_opinion_modifier = {
-			target = pop
-			modifier = medium_decrease
-		}
 		add_political_power = 15
 		POP  = {
 			country_event = { id = pop.7 }
@@ -140,10 +130,6 @@
 	}
 	option = { #Нет
 		name = pop.8.b
-		reverse_add_opinion_modifier = {
-			target = pop
-			modifier = medium_decrease
-		}
 		add_political_power = 15
 		POP  = {
 			country_event = { id = pop.10 }
