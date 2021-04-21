@@ -331,7 +331,7 @@
 		
 		completion_reward = {
 			VEN = {
-				country_event = { id = pop.2 }
+				country_event = { id = pop.2 days = 5 }
 			}
 		}
 
@@ -347,7 +347,7 @@
 		y = 3
 		completion_reward = {
 			TUS = {
-				country_event = { id = pop.5 }
+				country_event = { id = pop.5 days = 5 }
 			}
 		}
 
@@ -363,7 +363,7 @@
 		y = 3
 		completion_reward = {
 			PIE = {
-				country_event = { id = pop.8 }
+				country_event = { id = pop.8 days = 5 }
 			}
 		}
 	}
@@ -383,6 +383,34 @@
 		x = 11
 		y = 4
 		completion_reward = {
+		if = {
+			limit = {
+				is_in_faction_with = VEN
+			}
+			add_manpower = 10000
+		}
+		if = {
+			limit = {
+				is_in_faction_with = PIE
+			}
+			add_manpower = 10000
+		}
+		if = {
+			limit = {
+				is_in_faction_with = TUS
+			}
+			add_manpower = 10000
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_completed_focus = POP_the_bureaucrats_of_piedmont
+					has_completed_focus = POP_the_aristocrats_of_tuscany
+					has_completed_focus = POP_the_merchants_of_venice
+				}
+			}
+			Custom_effect_tooltip = POP_the_people_of_italy_text
+		}
 		}
 	}
 	shared_focus = {

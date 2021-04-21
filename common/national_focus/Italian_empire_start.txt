@@ -141,7 +141,6 @@
 				}
 				add_ideas = grande_esercito_mod
 			}
-			Custom_effect_tooltip = ITE_grande_esercito_text
 			if = {
 				limit = {
 					NOT = {
