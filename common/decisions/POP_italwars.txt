@@ -1,0 +1,35 @@
+POP_deus_vult = {
+
+	POP_piuss_wall_dec = {
+		fire_only_once = yes
+		allowed = { has_idea = piuss_wall }
+		visible = {
+			NOT = {
+				has_completed_focus = POP_defund_the_wall
+			}
+		}
+		available = {
+			bunker > 24
+		}
+		activation = {
+			has_completed_focus = POP_deus_vult
+			NOT = {
+				has_completed_focus = POP_defund_the_wall
+			}
+		}
+		is_good = no
+		selectable_mission = yes
+		days_mission_timeout = 200
+		timeout_effect = {
+			add_stability = -0.15
+		}
+		complete_effect = {
+			add_political_power = 150
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+}

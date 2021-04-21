@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-		Primatus_Papae = {
+		primatus_papae = {
 			
 			allowed = {
 				always = no # Triggered via event
@@ -20,13 +20,31 @@ ideas = {
 			}
 		}
 		
-		Piuss_Wall  = {
+		primatus_papae_1 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = Piuss_Wall
+			picture = Primatus_Papae 
+			
+			modifier = {
+				stability_factor = 0.10
+				stability_weekly = -0.005
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		piuss_wall  = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = piuss_wall
 			
 			modifier = {
 				production_speed_bunker_factor = 0.35
@@ -34,6 +52,70 @@ ideas = {
 				production_speed_anti_air_building_factor = 0.35
 				consumer_goods_factor = 0.25
 				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		piuss_wall_1  = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = piuss_wall_1
+			
+			modifier = {
+				production_speed_bunker_factor = 0.45
+				production_speed_coastal_bunker_factor = 0.45
+				production_speed_anti_air_building_factor = 0.45
+				consumer_goods_factor = 0.30
+				weekly_manpower = -100 
+				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		piuss_wall_2  = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = piuss_wall_2
+			
+			modifier = {
+				production_speed_bunker_factor = 0.55
+				production_speed_coastal_bunker_factor = 0.55
+				production_speed_anti_air_building_factor = 0.55
+				consumer_goods_factor = 0.35
+				weekly_manpower = -200 
+				monthly_population = -0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		piuss_wall_0  = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = piuss_wall_0
+			
+			modifier = {
+				production_speed_bunker_factor = 0.10
+				production_speed_coastal_bunker_factor = 0.10
+				production_speed_anti_air_building_factor = 0.10
+				consumer_goods_factor = 0.10
 			}
 	
 			ai_will_do = {

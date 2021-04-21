@@ -1,17 +1,177 @@
 ﻿
 	add_namespace = pop
-	
-	country_event = {	
+
+	country_event = { #Вступление
 	id = pop.1
 	title = pop.1.t
 	desc = pop.1.d
+	picture = GFX_
+	is_triggered_only = yes
+	option = {
+		name = pop.1.a
+		complete_national_focus = POP_deus_vult
+	}
+	}
+	country_event = { #Союз венеция
+	id = pop.2
+	title = pop.2.t
+	desc = pop.2.d
+	picture = GFX_
+	is_triggered_only = yes
+	option = { #Да
+		name = pop.2.a
+		reverse_add_opinion_modifier = {
+			target = POP
+			modifier = medium_increase
+		}
+		POP  = {
+			country_event = { id = pop.3 }
+		}
+	}
+	option = { #Нет
+		name = pop.2.b
+		reverse_add_opinion_modifier = {
+			target = pop
+			modifier = medium_decrease
+		}
+		add_political_power = 15
+		POP  = {
+			country_event = { id = pop.4 }
+		}
+	}
+	}
+	country_event = { #Союз венеция согласилась
+	id = pop.3
+	title = pop.3.t
+	desc = pop.3.d
 	picture = GFX_
 
 	is_triggered_only = yes
 
 	option = {
-		name = pop.1.a
-		
-    complete_national_focus = POP_deus_vult
-}
-}
+		name = pop.3.a
+		POP = {
+			add_to_faction = VEN
+		}
+		add_political_power = 10
+	}
+	}
+	country_event = { #Союз венеция отказалась
+	id = pop.4
+	title = pop.4.t
+	desc = pop.4.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = pop.4.a
+		add_political_power = -10
+	}
+	}	
+	country_event = { #Союз тоскана
+	id = pop.5
+	title = pop.5.t
+	desc = pop.5.d
+	picture = GFX_
+	is_triggered_only = yes
+	option = { #Да
+		name = pop.5.a
+		reverse_add_opinion_modifier = {
+			target = POP
+			modifier = medium_increase
+		}
+		POP  = {
+			country_event = { id = pop.6 }
+		}
+	}
+	option = { #Нет
+		name = pop.5.b
+		reverse_add_opinion_modifier = {
+			target = pop
+			modifier = medium_decrease
+		}
+		add_political_power = 15
+		POP  = {
+			country_event = { id = pop.7 }
+		}
+	}
+	}
+	country_event = { #Союз тоскана согласилась
+	id = pop.6
+	title = pop.6.t
+	desc = pop.6.d
+	picture = GFX_
+	is_triggered_only = yes
+	option = {
+		name = pop.6.a
+		POP = {
+			add_to_faction = TUS 
+		}
+		add_political_power = 10
+	}
+	}
+	country_event = { #Союз тоскана отказалась
+	id = pop.7
+	title = pop.7.t
+	desc = pop.7.d
+	picture = GFX_
+	is_triggered_only = yes
+	option = {
+		name = pop.7.a
+		add_political_power = -10
+	}
+	}
+	country_event = { #Союз пьемонд
+	id = pop.8
+	title = pop.8.t
+	desc = pop.8.d
+	picture = GFX_
+	is_triggered_only = yes
+	option = { #Да
+		name = pop.8.a
+		reverse_add_opinion_modifier = {
+			target = POP
+			modifier = medium_increase
+		}
+		POP  = {
+			country_event = { id = pop.9 }
+		}
+	}
+	option = { #Нет
+		name = pop.8.b
+		reverse_add_opinion_modifier = {
+			target = pop
+			modifier = medium_decrease
+		}
+		add_political_power = 15
+		POP  = {
+			country_event = { id = pop.10 }
+		}
+	}
+	}
+	country_event = { #Союз пьемонд согласилась
+	id = pop.9
+	title = pop.9.t
+	desc = pop.9.d
+	picture = GFX_
+	is_triggered_only = yes
+	option = {
+		name = pop.9.a
+		POP = {
+			add_to_faction = PIE 
+		}
+		add_political_power = 10
+	}
+	}
+	country_event = { #Союз пьемонд отказалась
+	id = pop.10
+	title = pop.10.t
+	desc = pop.10.d
+	picture = GFX_
+	is_triggered_only = yes
+	option = {
+		name = pop.10.a
+		add_political_power = -10
+	}
+	}

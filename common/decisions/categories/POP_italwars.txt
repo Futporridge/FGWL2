@@ -1,0 +1,16 @@
+################
+##### AUS ######
+################
+
+POP_deus_vult = {
+	
+	icon = GFX_decision_category_army_reform	
+	picture = GFX_POP_decision_deus_vult
+	visible_when_empty = yes
+	visible = {
+		has_completed_focus = POP_deus_vult
+	}
+	allowed = {
+		always = yes
+	}
+}
