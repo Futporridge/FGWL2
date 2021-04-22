@@ -1,0 +1,19 @@
+state={
+	id=1021
+	name="STATE_1021"
+	provinces={
+		1015 7176 11970 
+	}
+	history={
+		owner = JER
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = JER
+
+	}		
+	manpower=556000
+	state_category=rural	
+	buildings_max_level_factor=1.000
+}
