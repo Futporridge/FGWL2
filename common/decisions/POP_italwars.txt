@@ -9,7 +9,7 @@ POP_deus_vult = {
 			}
 		}
 		available = {
-			bunker > 24
+			bunker > 29
 		}
 		activation = {
 			has_completed_focus = POP_deus_vult
@@ -32,33 +32,119 @@ POP_deus_vult = {
 		}
 	}
 	
-	POP_fortify_the_border = {
+	POP_fortify_the_abruzzo = {
 		fire_only_once = no
 		visible = {
-			has_completed_focus = ITE_for_italy_and_italians
-			NOT = {
-				has_country_flag = ite_civil_war
+			has_completed_focus = POP_concrete_landscape
+			157 = {
+				bunker < 15
 			}
+			NOT = {
+				has_country_flag = pop_patrician_revolt
+			}
+			bunker < 30
 		}
 		cost = 50
-		days_re_enable = 40
-		available = {	} 
+		days_re_enable = 15
+		available = {
+			bunker < 30
+		} 
 		complete_effect = {
-		    if = {
-				limit = {
-					check_variable = { ite_voluntary_cons > 4 }
+		    157 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 11790
 				}
-				country_event = { id = ite.100 days = 1  }
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 157
+				}
 			}
-			add_to_variable = { ite_voluntary_cons = 1 }
-			add_manpower = 25000
 		}
 		
 		ai_will_do = {
 			factor = 10
 		}
 	}
-	
-	
+	POP_fortify_the_umbria = {
+		fire_only_once = no
+		visible = {
+			has_completed_focus = POP_concrete_landscape
+			805 = {
+				bunker < 10
+			}
+			NOT = {
+				has_country_flag = pop_patrician_revolt
+			}
+			bunker < 30
+		}
+		cost = 25
+		days_re_enable = 15
+		available = {
+			bunker < 30
+		} 
+		complete_effect = {
+		    805 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 9794
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	POP_fortify_the_latium = {
+		fire_only_once = no
+		visible = {
+			has_completed_focus = POP_concrete_landscape
+			2 = {
+				bunker < 15
+			}
+			NOT = {
+				has_country_flag = pop_patrician_revolt
+			}
+			bunker < 30
+		}
+		cost = 75
+		days_re_enable = 15
+		available = {
+			bunker < 25
+		} 
+		complete_effect = { 
+		    2 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 11882
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 11846
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 9904
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
 	
 }
