@@ -32,4 +32,33 @@ POP_deus_vult = {
 		}
 	}
 	
+	POP_fortify_the_border = {
+		fire_only_once = no
+		visible = {
+			has_completed_focus = ITE_for_italy_and_italians
+			NOT = {
+				has_country_flag = ite_civil_war
+			}
+		}
+		cost = 50
+		days_re_enable = 40
+		available = {	} 
+		complete_effect = {
+		    if = {
+				limit = {
+					check_variable = { ite_voluntary_cons > 4 }
+				}
+				country_event = { id = ite.100 days = 1  }
+			}
+			add_to_variable = { ite_voluntary_cons = 1 }
+			add_manpower = 25000
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	
+	
 }
