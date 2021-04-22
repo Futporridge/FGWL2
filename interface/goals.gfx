@@ -2698,4 +2698,49 @@ spriteTypes = {
 		name = "GFX_focus_KAL_The_End_of_the_Rigstagen"
 		texturefile = "gfx/interface/goals/Focus_KAL_The_End_of_the_Rigstagen.dds"
 	}	
+	SpriteType = { 
+		name = "GFX_focus_KAL_Austrian_Expirience"
+		texturefile = "gfx/interface/goals/Focus_KAL_Austrian_Expirience.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_Organic_Kingdom"
+		texturefile = "gfx/interface/goals/Focus_KAL_Organic_Kingdom.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_Natural_Monarch"
+		texturefile = "gfx/interface/goals/Focus_KAL_Natural_Monarch.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_House_of_Oldenburg"
+		texturefile = "gfx/interface/goals/Focus_KAL_House_of_Oldenburg.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_Our_Traditions"
+		texturefile = "gfx/interface/goals/Focus_KAL_Our_Traditions.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_People_State"
+		texturefile = "gfx/interface/goals/Focus_KAL_People_State.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_Appoint_a_Cabinet"
+		texturefile = "gfx/interface/goals/Focus_KAL_Appoint_a_Cabinet.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_House_of_Wittelsbach"
+		texturefile = "gfx/interface/goals/Focus_KAL_House_of_Wittelsbacht.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_United_in_Catholitism"
+		texturefile = "gfx/interface/goals/Focus_KAL_United_in_Catholitism.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_Integral_Empire"
+		texturefile = "gfx/interface/goals/Focus_KAL_Integral_Empire.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_Divine_Authority"
+		texturefile = "gfx/interface/goals/Focus_KAL_Divine_Authority.dds"
+	}
+	
 }
