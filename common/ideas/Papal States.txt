@@ -123,5 +123,22 @@ ideas = {
 			}
 		}
 		
+		the_congregation_of_church_ideas  = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = the_congregation_of_church_ideas
+			
+			modifier = {
+				weekly_manpower = 500
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
 		}
 	}

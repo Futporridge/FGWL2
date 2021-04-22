@@ -423,7 +423,7 @@
 		x = 11
 		y = 5
 		completion_reward = {
-		Custom_effect_tooltip = POP_the_congregation_of_church_text
+		add_ideas = the_congregation_of_church_ideas
 		}
 	}
 	shared_focus = {
@@ -439,7 +439,7 @@
 		x = 7
 		y = 6
 		completion_reward = {
-
+		Custom_effect_tooltip = POP_the_congregation_of_church_text
 		}
 
 	}
