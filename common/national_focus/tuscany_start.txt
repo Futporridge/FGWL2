@@ -1,14 +1,4 @@
-focus_tree = {
-	id = tuscany_start
-	country = {
-		factor = 0
-		modifier = {
-			add = 10
-			tag = TUS
-		}
-	}
-	default = no
-	focus = {
+	shared_focus = {
 		id = TUS_clouds_are_gathering
 		icon = GFX_goal_unknown
 		cost = 0
@@ -21,8 +11,8 @@ focus_tree = {
 
 
 	}
-	focus = {
-		id = TUS_gran_сonsiglio
+	shared_focus = {
+		id = TUS_grand_consiglio
 		icon = GFX_goal_unknown
 		cost = 4
 		prerequisite = {
@@ -30,20 +20,32 @@ focus_tree = {
 		}
 		x = 12
 		y = 1
+		
+		completion_reward = {
+			country_event = { id = tus.2 }
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_duke_and_country
 		icon = GFX_goal_unknown
 		cost = 4
 		prerequisite = {
-			focus = TUS_gran_сonsiglio
+			focus = TUS_grand_consiglio
 		}
 		x = 8
 		y = 2
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.10
+            }
+			add_political_power = 50
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_giovane_guardia
 		icon = GFX_goal_unknown
 		cost = 3
@@ -52,9 +54,13 @@ focus_tree = {
 		}
 		x = 8
 		y = 3
+		
+		completion_reward = {
+			add_ideas = giovane_guardia
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_cheap_labor
 		icon = GFX_goal_unknown
 		cost = 3
@@ -66,20 +72,39 @@ focus_tree = {
 		}
 		x = 6
 		y = 5
+		
+		completion_reward = {
+			161 = {
+			    add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+				}
+			}
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_army_inspection
 		icon = GFX_goal_unknown
 		cost = 4
 		prerequisite = {
-			focus = TUS_gran_сonsiglio
+			focus = TUS_grand_consiglio
 		}
 		x = 12
 		y = 2
+		
+		completion_reward = {
+			country_event = { id = tus.3 }
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				technology = land_doctrine
+			}
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_new_uniform
 		icon = GFX_goal_unknown
 		cost = 4
@@ -91,9 +116,17 @@ focus_tree = {
 		}
 		x = 10
 		y = 3
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.40
+				uses = 1
+				category = infantry_tech
+			}
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_universal_conscription
 		icon = GFX_goal_unknown
 		cost = 3
@@ -102,9 +135,16 @@ focus_tree = {
 		}
 		x = 10
 		y = 4
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = tuscan_guard
+				add_idea = tuscan_guard_1
+			}
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_guarded_paradise
 		icon = GFX_goal_unknown
 		cost = 3
@@ -119,9 +159,16 @@ focus_tree = {
 		}
 		x = 8
 		y = 5
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = giovane_guardia
+				add_idea = guarded_paradise
+			}
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_drill_traditions
 		icon = GFX_goal_unknown
 		cost = 3
@@ -130,9 +177,17 @@ focus_tree = {
 		}
 		x = 10
 		y = 5
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = tuscan_guard_1
+				add_idea = tuscan_guard_2
+			}
+			army_experience = 25
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_military_utilitarianism
 		icon = GFX_goal_unknown
 		cost = 3
@@ -141,9 +196,13 @@ focus_tree = {
 		}
 		x = 10
 		y = 6
+		
+		completion_reward = {
+			remove_ideas = tuscan_guard_2
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_dogs_of_war
 		icon = GFX_goal_unknown
 		cost = 4
@@ -155,9 +214,27 @@ focus_tree = {
 		}
 		x = 14
 		y = 3
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = tuscan_guard
+				add_idea = dogs_of_war
+			}
+			create_corps_commander = {
+				name = "Abraham Mialczyn"
+				picture = "Portrait_Abraham_Mialczyn.dds"
+				traits = {  politically_connected harsh_leader commando skirmisher }
+				skill = 2
+				attack_skill = 3
+				defense_skill = 1
+				planning_skill = 3
+				logistics_skill = 3
+			}
+			add_stability = -0.05
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_a_new_type_of_war
 		icon = GFX_goal_unknown
 		cost = 2
@@ -167,9 +244,17 @@ focus_tree = {
 		}
 		x = 12
 		y = 4
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.2
+				uses = 3
+				category = light_air
+			}
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_learning_from_professionals
 		icon = GFX_goal_unknown
 		cost = 3
@@ -178,9 +263,17 @@ focus_tree = {
 		}
 		x = 14
 		y = 4
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = dogs_of_war
+				add_idea = dogs_of_war_1
+			}
+			army_experience = 25
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_officer_training_courses
 		icon = GFX_goal_unknown
 		cost = 3
@@ -189,9 +282,13 @@ focus_tree = {
 		}
 		x = 14
 		y = 5
+		
+		completion_reward = {
+			add_ideas = officer_training_courses
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_loyalty_paid_in_gold
 		icon = GFX_goal_unknown
 		cost = 3
@@ -200,20 +297,42 @@ focus_tree = {
 		}
 		x = 14
 		y = 6
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = dogs_of_war_1
+				add_idea = dogs_of_war_2
+			}
+			add_political_power = -50
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_centralization_of_the_economy
 		icon = GFX_goal_unknown
 		cost = 4
 		prerequisite = {
-			focus = TUS_gran_сonsiglio
+			focus = TUS_grand_consiglio
 		}
 		x = 17
 		y = 2
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = regime_di_prosperita
+				add_idea = regime_di_prosperita_1
+			}
+			161 = {
+			    add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+				}
+			}
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_new_taxes
 		icon = GFX_goal_unknown
 		cost = 3
@@ -222,9 +341,17 @@ focus_tree = {
 		}
 		x = 17
 		y = 3
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = regime_di_prosperita_1
+				add_idea = regime_di_prosperita_2
+			}
+			add_political_power = 100
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_renegotiate_privileges
 		icon = GFX_goal_unknown
 		cost = 3
@@ -233,9 +360,13 @@ focus_tree = {
 		}
 		x = 17
 		y = 4
+		
+		completion_reward = {
+			remove_ideas = regime_di_prosperita_2
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_power_of_greed
 		icon = GFX_goal_unknown
 		cost = 3
@@ -247,9 +378,13 @@ focus_tree = {
 		}
 		x = 16
 		y = 5
+		
+		completion_reward = {
+			add_ideas = power_of_greed
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_fixed_prices
 		icon = GFX_goal_unknown
 		cost = 3
@@ -261,9 +396,13 @@ focus_tree = {
 		}
 		x = 18
 		y = 5
+		
+		completion_reward = {
+			add_ideas = fixed_prices
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_no_more_siesta
 		icon = GFX_goal_unknown
 		cost = 3
@@ -273,9 +412,40 @@ focus_tree = {
 		}
 		x = 17
 		y = 6
+		
+		completion_reward = {
+			add_stability = -0.1
+			if = {
+				limit = {
+					has_completed_focus = TUS_fixed_prices
+				}
+				swap_ideas = {
+					remove_idea = fixed_prices
+					add_idea = fixed_prices_1
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = TUS_power_of_greed
+				}
+				swap_ideas = {
+					remove_idea = power_of_greed
+					add_idea = power_of_greed_1
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_completed_focus = TUS_power_of_greed
+						has_completed_focus = TUS_fixed_prices
+					}
+				}
+				Custom_effect_tooltip = TUS_no_more_siesta_text
+			}
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_open_door
 		icon = GFX_goal_unknown
 		cost = 3
@@ -284,9 +454,16 @@ focus_tree = {
 		}
 		x = 6
 		y = 6
+		
+		completion_reward = {
+			add_manpower = 10000
+			every_owned_state = {
+				add_manpower = 50000
+			}
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_the_big_parade
 		icon = GFX_goal_unknown
 		cost = 3
@@ -295,9 +472,13 @@ focus_tree = {
 		}
 		x = 8
 		y = 6
+		
+		completion_reward = {
+			add_war_support = 0.15
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = TUS_one_center
 		icon = GFX_goal_unknown
 		cost = 5
@@ -314,6 +495,9 @@ focus_tree = {
 		}
 		x = 12
 		y = 7
+		
+		completion_reward = {
+			
+		}
 
 	}
-}

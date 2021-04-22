@@ -38,6 +38,115 @@ ideas = {
 			}
 		}
 		
+		regime_di_prosperita_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = regime_di_prosperita
+			
+			modifier = {
+				stability_weekly = 0.005
+				consumer_goods_factor = 0.15
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		regime_di_prosperita_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = regime_di_prosperita
+			
+			modifier = {
+				stability_weekly = 0.002
+				consumer_goods_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		power_of_greed = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = power_of_greed
+			
+			modifier = {
+				industrial_capacity_factory = 0.15
+				consumer_goods_factor = -0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		power_of_greed_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = power_of_greed
+			
+			modifier = {
+				industrial_capacity_factory = 0.15
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = -0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		fixed_prices = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = fixed_prices
+			
+			modifier = {
+				
+				stability_factor = 0.1
+				consumer_goods_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		fixed_prices_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = fixed_prices
+			
+			modifier = {
+				
+				stability_factor = 0.15
+				consumer_goods_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
 		tuscan_guard = {
 			
 			allowed = {
@@ -50,6 +159,153 @@ ideas = {
 				conscription_factor = -0.50
 				army_morale_factor = -0.20
 				army_org_factor = -0.20
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		tuscan_guard_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = tuscan_guard
+			
+			modifier = {
+				army_morale_factor = -0.20
+				army_org_factor = -0.20
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		tuscan_guard_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = tuscan_guard
+			
+			modifier = {
+				army_org_factor = -0.20
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		dogs_of_war = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = tuscan_guard
+			
+			modifier = {
+				conscription_factor = -0.50
+				army_morale_factor = -0.10
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		dogs_of_war_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = tuscan_guard
+			
+			modifier = {
+				conscription_factor = -0.50
+				army_morale_factor = -0.10
+				experience_gain_army_unit_factor = 0.2
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		dogs_of_war_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = tuscan_guard
+			
+			modifier = {
+				conscription_factor = -0.50
+				training_time_factor = -0.2
+				experience_gain_army_unit_factor = 0.2
+				consumer_goods_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		officer_training_courses = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = officer_training_courses
+			
+			modifier = {
+				experience_loss_factor = -0.15
+				political_power_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		giovane_guardia = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = giovane_guardia
+			
+			modifier = {
+				conscription = 0.005
+				political_power_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		guarded_paradise = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = guarded_paradise
+			
+			modifier = {
+				conscription = 0.005
+				political_power_factor = 0.1
+				production_speed_bunker_factor = 0.15
 			}
 	
 			ai_will_do = {

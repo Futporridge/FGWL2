@@ -1,7 +1,7 @@
 ﻿
 	add_namespace = ven
 	
-	country_event = {	
+	country_event = {
 	id = ven.1
 	title = ven.1.t
 	desc = ven.1.d
@@ -11,15 +11,174 @@
 
 	option = {
 		name = ven.1.a
-			hidden_effect = {
-			
-AUS = {
-set_autonomy = {
-    target = VEN
-    autonomy_state = autonomy_free
-}		
-}
-leave_faction = yes
+		hidden_effect = {
+			AUS = {
+				set_autonomy = {
+				target = VEN
+				autonomy_state = autonomy_free
+				}		
+			}
+			leave_faction = yes
 		}
-}
-}
+	}
+	}
+	
+	country_event = { #Вступление
+	id = ven.2
+	title = ven.2.t
+	desc = ven.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ven.2.a
+		
+		complete_national_focus = VEN_money_flowing_like_a_river
+	}
+	}
+	
+	country_event = { #Переговоры провалились
+	id = ven.3
+	title = ven.3.t
+	desc = ven.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ven.3.a
+		
+		add_stability = -0.15
+		swap_ideas = {
+			remove_idea = bende_rosse
+			add_idea = milan_strike
+		}
+	}
+	}
+	
+	country_event = { #Празничный стол
+	id = ven.4
+	title = ven.4.t
+	desc = ven.4.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ven.4.a
+		
+		add_stability = 0.05
+	}
+	}
+	
+	country_event = { #Просим папу проклясть левых
+	id = ven.5
+	title = ven.5.t
+	desc = ven.5.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = { #да
+		name = ven.5.a
+		
+		VEN = {
+			country_event = { id = ven.6 days = 2 }
+		}
+	}
+	
+	option = { #пососи
+		name = ven.5.b
+		
+		VEN = {
+			country_event = { id = ven.7 days = 2 }
+		}
+	}
+	}
+	
+	country_event = { #Согласился
+	id = ven.6
+	title = ven.6.t
+	desc = ven.6.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ven.6.a
+		
+		add_popularity = {
+			ideology = utopism
+			popularity = -0.05
+        }
+		add_popularity = {
+			ideology = prometeism
+			popularity = -0.08
+        }
+		add_popularity = {
+			ideology = communitarianism
+			popularity = -0.1
+        }
+	}
+	}
+	
+	country_event = { #пососали
+	id = ven.7
+	title = ven.7.t
+	desc = ven.7.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ven.7.a
+		
+		add_political_power = -25
+	}
+	}
+	
+	country_event = { #наводим справки
+	id = ven.8
+	title = ven.8.t
+	desc = ven.8.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ven.8.a
+		
+		add_stability = 0.05
+		add_popularity = {
+			ideology = utopism
+			popularity = -0.05
+        }
+		add_popularity = {
+			ideology = prometeism
+			popularity = -0.05
+        }
+		add_popularity = {
+			ideology = communitarianism
+			popularity = -0.05
+        }
+	}
+	}
+	
+	country_event = { #Хрупкий союз
+	id = ven.9
+	title = ven.9.t
+	desc = ven.9.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ven.9.a
+		
+		swap_ideas = {
+			remove_idea = milan_strike
+			add_idea = milan_strike_all
+		}
+	}
+	}

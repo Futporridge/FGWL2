@@ -62,3 +62,47 @@ create_country_leader = {
 
 	}
 }
+
+create_country_leader = {
+	name = "Luigi Longo" #Bruno Filippi
+	desc = "POLITICS_LUIGI_LONGO_DESC"
+	picture = "gfx/leaders/TUS/Portrait_Luigi_Longo.tga"
+	expire = "1965.1.1"
+	ideology = utopism
+	traits = { 
+
+	}
+}
+
+create_country_leader = {
+	name = "Nicola Bombacci"
+	desc = "POLITICS_NICOLA_BOMBACCI_DESC"
+	picture = "gfx/leaders/TUS/Portrait_Nicola_Bombacci.tga"
+	expire = "1965.1.1"
+	ideology = prometeism
+	traits = { 
+
+	}
+}
+
+create_country_leader = {
+	name = "Amadeo Bordiga"
+	desc = "POLITICS_AMADEO_BORDIGA_DESC"
+	picture = "gfx/leaders/TUS/Portrait_Amadeo_Bordiga.tga"
+	expire = "1965.1.1"
+	ideology = communitarianism
+	traits = { 
+
+	}
+}
+
+create_country_leader = {
+	name = "Alberto Meschi"
+	desc = "POLITICS_ALBERTO_MESCHI_DESC"
+	picture = "gfx/leaders/TUS/Portrait_Alberto_Meschi.tga"
+	expire = "1965.1.1"
+	ideology = communitarianism
+	traits = { 
+
+	}
+}

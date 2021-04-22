@@ -20,9 +20,9 @@ set_popularities = {
 	utopism = 8
 	prometeism = 3
 	communitarianism = 8
-	liberalism = 10
+	liberalism = 0
 	oligarchy = 7
-	conservatism = 44
+	conservatism = 54
 	paternalism = 15
 	reactionary = 5
 }
@@ -45,3 +45,4 @@ create_country_leader = {
 
 	}
 }
+

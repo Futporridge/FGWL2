@@ -9,4 +9,6 @@ focus_tree = {
 	}
 	default = no
 	shared_focus = VEN_money_flowing_like_a_river
+	
+	continuous_focus_position = { x = 50 y = 5000 }
 }

@@ -1,0 +1,41 @@
+TUS_italwars = {
+
+	TUS_research_slot = {
+		fire_only_once = yes
+		visible = {
+		
+		}
+		cost = 200
+		available = {
+
+		} 
+		complete_effect = {
+		    add_research_slot = 1
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}
+
+TUS_mercenaries = {
+
+	TUS_mercenaries_poles = {
+		fire_only_once = yes
+		visible = {
+			
+		}
+		cost = 100
+		available = {
+			
+		} 
+		complete_effect = {
+		    load_oob = "TUS_mercenaries_poles"
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}

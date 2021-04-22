@@ -1,0 +1,29 @@
+################
+##### AUS ######
+################
+
+TUS_italwars = {
+	
+	icon = GFX_decision_category_army_reform	
+	picture = GFX_TUS_italwars
+	visible_when_empty = yes
+	visible = {
+		tag = TUS
+	}
+	allowed = {
+		tag = TUS
+	}
+}
+
+TUS_mercenaries = {
+	
+	icon = GFX_decision_category_army_reform	
+	picture = GFX_TUS_mercenaries
+	visible_when_empty = yes
+	visible = {
+		has_completed_focus = TUS_dogs_of_war
+	}
+	allowed = {
+		has_completed_focus = TUS_dogs_of_war
+	}
+}
