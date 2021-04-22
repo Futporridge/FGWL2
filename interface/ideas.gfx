@@ -159,4 +159,12 @@ spriteTypes = {
 		name = "GFX_idea_KAL_Natural_Monarch"
 		texturefile = "gfx/interface/ideas/kalmar/Natural_Monarch.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_KAL_bicameral_legislature"
+		texturefile = "gfx/interface/ideas/kalmar/bicameral_legislature.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KAL_Divine_Authority"
+		texturefile = "gfx/interface/ideas/kalmar/Divine_Authority.dds"
+	}
 }

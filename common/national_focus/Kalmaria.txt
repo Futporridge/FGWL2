@@ -33,7 +33,7 @@ focus_tree = {
 				
 	focus = {
 		id = KAL_House_of_Habsburg
-		icon = GFX_focus_KAL_House_of_Habsburg
+		icon = GFX_focus_PFT_continue_the_line_of_succesion
 		x = -2
 		y = 1
 		prerequisite = { focus = KAL_The_End_of_the_Rigstagen }
@@ -151,7 +151,17 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		
+		completion_reward = {
+			add_popularity = {
+			ideology = oligarchy
+			popularity = 0.05
+			}
+			add_popularity = {
+			ideology = conservatism
+			popularity = 0.05
+			}
+			add_war_support = 0.05
+			}
 		
 		available_if_capitulated = yes
 			}
@@ -167,7 +177,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		
+		completion_reward = {
+		add_political_power = 50
+		}
 		available_if_capitulated = yes
 			}
 			
@@ -182,7 +194,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		
+		completion_reward = {
+			add_ideas = {KAL_bicameral_legislature}
+			}
 		available_if_capitulated = yes
 			}	
 
@@ -223,7 +237,13 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		
+		completion_reward = {
+		add_stability = 0.05
+		add_popularity = {
+			ideology = reactionary
+			popularity = 0.03
+			}
+		}
 		
 		available_if_capitulated = yes
 			}
@@ -239,7 +259,13 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		
+		completion_reward = {
+		add_political_power = 25
+		add_popularity = {
+			ideology = reactionary
+			popularity = 0.04
+			}
+		}
 		available_if_capitulated = yes
 			}
 			
@@ -254,7 +280,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		
+		completion_reward = {
+			add_ideas = {KAL_Divine_Authority}
+			}
 		available_if_capitulated = yes
 			}
 			}

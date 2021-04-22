@@ -1,5 +1,6 @@
 ideas = {
-
+	economy = {}
+	mobilization_laws = {}
 	country = {
 		KAL_Colonial_Spending = {
 			
@@ -87,7 +88,42 @@ ideas = {
 				factor = 0
 			}
 		}
+	KAL_bicameral_legislature = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = KAL_bicameral_legislature 
+			
+			modifier = {
+				political_power_gain = 0.05
+				economy_cost_factor = -0.1
+				mobilization_laws_cost_factor = -0.1
+			}
 	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+	KAL_Divine_Authority = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = KAL_bicameral_legislature 
+			
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
 	
 		}
   		
