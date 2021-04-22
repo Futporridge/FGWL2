@@ -79,6 +79,7 @@ recreate_naval_doctrine:0 "Reform the Naval Doctrine"
 #############Тултипы############
 POP_concrete_landscape_text:0 "§RThe road to hell is paved with good intentions§"
 POP_the_people_of_italy_text:0 "The result will depend on the countries that have joined your alliance"
+POP_the_congregation_of_church_text:0 "§YGod wills it§"
 
 #############Фокусы############
 POP_deus_vult:0 "Deus Vult"
