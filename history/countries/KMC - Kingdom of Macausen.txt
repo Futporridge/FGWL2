@@ -35,7 +35,7 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Prince Jean de Bourbon-Parma"
+	name = "Prince Jean van Bourbon-Nassau"
 	desc = "POLITICS_JEAN_DE_BOURBON-PARMA_DESC"
 	picture = "gfx/leaders/KMC/Portrait_Jean_de_Bourbon-Parma.tga"
 	expire = "1965.1.1"

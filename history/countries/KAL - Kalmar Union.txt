@@ -41,6 +41,8 @@ KAL_Eigil_Thune_Jacobsen
 
 set_convoys = 100
 
+country_lock_all_division_template = yes 
+
 create_country_leader = {
 	name = "Rigsdagen"
 	desc = "POLITICS_RIGSDAGEN_DESC"
