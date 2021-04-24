@@ -60,7 +60,7 @@ country_event = {
 retire_ideology_leader = oligarchy
 }
 create_country_leader = {
-	name = "Christian X"
+	name = "Christian IV"
 	desc = "POLITICS_CHRISTIAN_OF_DENMARK_DESC"
 	picture = "gfx/leaders/KAL/Portrait_Christian_of_Dennmark.tga"
 	expire = "1965.1.1"
