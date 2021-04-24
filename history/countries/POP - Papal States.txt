@@ -44,3 +44,81 @@ create_country_leader = {
 
 	}
 }
+create_corps_commander = {# Carlo Geloso
+	name = "Carlo Geloso"
+	portrait_path = "gfx/leaders/POP/Portrait_POP_Carlo_Geloso.tga"
+	traits = {
+		politically_connected
+		trait_reckless
+		infantry_leader
+	}
+	id = 544
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Achille Starace"
+	portrait_path = "gfx/leaders/POP/Portrait_Achille_Starace.tga"
+	traits = {
+		media_personality
+		trickster
+	}
+	id = 545
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_field_marshal = {
+	name = "Angelo Cerica"
+	portrait_path = "gfx/leaders/POP/Portrait_Angelo_Cericae.tga"
+	traits = {
+		politically_connected
+		career_officer
+		organisational_leader
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Reginaldo Giuliani"
+	portrait_path = "gfx/leaders/POP/Portrait_Reginaldo_Giuliani.tga"
+	traits = {
+		career_officer
+		politically_connected
+		trait_engineer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_navy_leader = {
+	name = "Antonino Toscano"
+	portrait_path = "gfx/leaders/POP/Portrait_Antonino_Toscano.tga"
+	id = 548
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+create_navy_leader = {
+	name = "Junio Valerio Borghese"
+	portrait_path = "gfx/leaders/POP/Portrait_Junio_Valerio_Borghese.tga"
+	traits = { seawolf }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
+}

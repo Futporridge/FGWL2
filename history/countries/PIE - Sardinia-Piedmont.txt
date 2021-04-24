@@ -45,3 +45,117 @@ create_country_leader = {
 
 	}
 }
+
+create_field_marshal = {# Randolfo Pacciardi
+	name = "Randolfo Pacciardi"
+	portrait_path = "gfx/leaders/PIE/Portrait_Randolfo_Pacciardi.tga"
+	traits = {
+		politically_connected
+		trickster
+		guerilla_fighter
+		inspirational_leader
+	}
+	id = 520
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+create_corps_commander = {# Giovanni Duca
+	name = "Giovanni Duca"
+	portrait_path = "gfx/leaders/PIE/Portrait_Giovanni_Duca.tga"
+	traits = { career_officer }
+	id = 524
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Attilio Teruzzi"
+	portrait_path = "gfx/leaders/PIE/Portrait_Attilio_Teruzzi.tga"
+	traits = {
+		infantry_leader
+		adaptable
+	}
+	id = 528
+	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Enea Navarini"
+	portrait_path = "gfx/leaders/PIE/Portrait_Enea_Navarini.tga"
+	traits = {
+		skilled_staffer
+	}
+	id = 529
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {# Venanzio Gabriotti
+	name = "Venanzio Gabriotti"
+	portrait_path = "gfx/leaders/PIE/Portrait_Venanzio_Gabriotti.tga"
+	traits = { commando }
+	id = 561
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Fedele de Giorgis"
+	portrait_path = "gfx/leaders/PIE/Portrait_Fedele_de_Giorgis.tga"
+	traits = {
+		career_officer
+		trait_cautious
+	}
+	id = 562
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_navy_leader = {# Riccardo Paladini
+	name = "Riccardo Paladini"
+	portrait_path = "gfx/leaders/PIE/Portrait_Riccardo_Paladini.tga"
+	traits = { ironside superior_tactician }
+	id = 533
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 4
+}
+create_navy_leader = {# Romeo Bernotti
+	name = "Romeo Bernotti"
+	portrait_path = "gfx/leaders/PIE/Portrait_Romeo_Bernotti.tga"
+	traits = { air_controller }
+	id = 534
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 3
+}
+create_navy_leader = {
+	name = "Luigi Biancheri"
+	portrait_path = "gfx/leaders/PIE/Portrait_Luigi_Biancheri.tga"
+	traits = { spotter }
+	id = 535
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}

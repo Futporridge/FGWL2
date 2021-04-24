@@ -1,6 +1,6 @@
 ideas = {
 
-	mobilization_laws = { 
+	mobilization_laws = {
 		law = yes
 		use_list_view = yes
 		

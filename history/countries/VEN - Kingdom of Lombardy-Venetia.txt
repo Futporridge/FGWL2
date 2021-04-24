@@ -106,3 +106,137 @@ create_country_leader = {
 
 	}
 }
+
+
+
+create_field_marshal = {# Edmondo Rossoni
+	name = "Edmondo Rossoni"
+	portrait_path = "gfx/leaders/VEN/Portrait_Edmondo_Rossoni.tga"
+	traits = {
+		career_officer
+		organisational_leader
+		organizer
+	}
+	id = 521
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 4
+}
+create_corps_commander = {# Dardano Fenulli
+	name = "Dardano Fenulli"
+	portrait_path = "gfx/leaders/VEN/Portrait_Dardano_Fenulli.tga"
+	traits = {
+		organizer
+		panzer_leader
+	}
+	id = 522
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Igino Ghisellini"
+	portrait_path = "gfx/leaders/VEN/Portrait_Igino_Ghisellini.tga"
+	traits = {
+		trait_reckless
+		hill_fighter
+	}
+	id = 526
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {# Gabriele Nasci
+	name = "Gabriele Nasci"
+	portrait_path = "gfx/leaders/VEN/Portrait_Gabriele_Nasci.tga"
+	traits = {trait_mountaineer}
+	id = 559
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {# Italo Gariboldi
+	name = "Italo Gariboldi"
+	portrait_path = "gfx/leaders/VEN/Portrait_Italo_Gariboldi.tga"
+	traits = {hill_fighter }
+	id = 560
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_navy_leader = {# Carlo Avegno
+	name = "Carlo Avegno"
+	portrait_path = "gfx/leaders/VEN/Portrait_Carlo_Avegno.tga"
+	traits = { superior_tactician }
+	id = 531
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+create_navy_leader = {# Inigo Campioni
+	name = "Inigo Campioni"
+	portrait_path = "gfx/leaders/VEN/Portrait_Inigo_Campioni.tga"
+	traits = { ironside }
+	id = 532
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+create_navy_leader = {# Alberto Da Zara
+	name = "Alberto Da Zara"
+	portrait_path = "gfx/leaders/VEN/Portrait_Alberto_Da_Zara.tga"
+	traits = { superior_tactician spotter }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 4
+	id = 563
+}
+create_navy_leader = {
+	name = "Gino Pavesi"
+	portrait_path = "gfx/leaders/VEN/Portrait_Gino_Pavesi.tga"
+	traits = { superior_tactician ironside}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 4
+	coordination_skill = 4
+	id = 564
+}
+create_navy_leader = {# Raffaele de Courten
+	name = "Raffaele de Courten"
+	portrait_path = "gfx/leaders/VEN/Portrait_Raffaele_de_Courten.tga"
+	traits = { blockade_runner }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 3
+	id = 565
+}
+create_navy_leader = {# Carlo Bergamini
+	name = "Carlo Bergamini"
+	portrait_path = "gfx/leaders/VEN/Portrait_Carlo_Bergamini.tga"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
+	id = 566
+}

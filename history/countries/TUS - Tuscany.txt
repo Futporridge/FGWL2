@@ -38,11 +38,101 @@ set_convoys = 100
 create_country_leader = {
 	name = "Franz Salvator von Habsburg"
 	desc = "POLITICS_FRANZ_SALVATOR_DESC"
-	picture = "gfx/leaders/TUS/Portrait_Franz_Salvator.tga"
+	portrait_path = "gfx/leaders/ITE/Portrait_Franz_Salvator.tga"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = { 
 
 	}
 }
-
+create_field_marshal = {# Rodolfo Graziani
+	name = "Rodolfo Graziani"
+	portrait_path = "gfx/leaders/TUS/Portrait_Rodolfo_Graziani.tga"
+	traits = {
+		offensive_doctrine
+		organizer
+		armor_officer
+		fast_planner
+	}
+	id = 552
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {# Ettore Bastico
+	name = "Ettore Bastico"
+	portrait_path = "gfx/leaders/TUS/Portrait_Ettore_Bastico.tga"
+	traits = {
+		trickster
+		career_officer
+	}
+	id = 553
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}
+create_corps_commander = {# Annibale Bergonzoli
+	name = "Annibale Bergonzoli"
+	portrait_path = "gfx/leaders/TUS/Portrait_Annibale_Bergonzoli.tga"
+	traits = {
+		war_hero
+		brilliant_strategist
+	}
+	id = 554
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {# Alberto Pariani
+	name = "Alberto Pariani"
+	portrait_path = "gfx/leaders/TUS/Portrait_Alberto_Pariani.tga"
+	traits = {
+		organizer
+		trait_mountaineer
+	}
+	id = 555
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {# Sebastiano Visconti Prasca
+	name = "Sebastiano Visconti Prasca"
+	portrait_path = "gfx/leaders/TUS/Portrait_Sebastiano_Visconti_Prasca.tga"
+	id = 556
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_navy_leader = {
+	name = "Romeo Oliva"
+	portrait_path = "gfx/leaders/TUS/Portrait_Romeo_Oliva.tga"
+	traits = {spotter}
+	id = 549
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+create_navy_leader = {
+	name = "Luigi Rizzo"
+	portrait_path = "gfx/leaders/TUS/Portrait_Luigi_Rizzo.tga"
+	traits = {seawolf}
+	id = 550
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
+}

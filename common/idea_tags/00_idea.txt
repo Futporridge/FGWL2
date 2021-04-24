@@ -15,15 +15,9 @@ idea_categories = {
 	}
 	
 	
-government = {
-		slot = mobilization_laws
-		slot = trade_laws
-		slot = economy
-		cost = 150
-		removal_cost = 0
-	}
 	minister_cabinet = {
 		slot = head_of_state
+		slot = political_advisor
 		slot = political_advisor
 		slot = political_advisor
 		slot = political_advisor
@@ -31,6 +25,29 @@ government = {
 		
 		cost = 50
 		removal_cost = -1
+	}
+	
+	government = {
+		slot = mobilization_laws
+		slot = trade_laws
+		slot = economy	
+		slot = economy
+		slot = economy
+		slot = economy
+		cost = 150
+		removal_cost = 0
+	}
+	
+	military_staff = {
+		slot = army_chief 
+		slot = navy_chief 
+		slot = air_chief
+		slot = high_command
+		slot = high_command
+		slot = high_command
+		
+		cost = 150
+		removal_cost = 0
 	}
 	
 	research_production = {
@@ -47,15 +64,5 @@ government = {
 
 	}
 	
-	military_staff = {
-		slot = army_chief 
-		slot = navy_chief 
-		slot = air_chief
-		slot = high_command
-		slot = high_command
-		slot = high_command
-		
-		cost = 150
-		removal_cost = 0
-	}
+	
 }

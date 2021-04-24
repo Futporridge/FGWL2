@@ -72,24 +72,24 @@ ITE_risorgimento = {
 		complete_effect = {
 			if = {
 				limit = {
-					country_exists = IPR
+					country_exists = ISR
 				}
 				send_equipment = {
 					equipment = infantry_equipment
 					amount = 1000
-					target = IPR
+					target = ISR
 				}
 			}
 			if = {
 				limit = {
 					NOT = {
-						country_exists = IPR
+						country_exists = ISR
 					}
 				}
 				add_equipment_to_stockpile = {
 					equipment = infantry_equipment
 					amount = -1000
-					target = IPR
+					target = ISR
 				}
 				add_to_variable = { ipr_napoleons_help = 1 }
 			}

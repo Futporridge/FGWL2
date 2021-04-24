@@ -24,7 +24,7 @@ set_technology = {
 
 add_ideas = {
 	renovatio_Imperii
-	pndeveloped_industry
+	undeveloped_industry
 	progressive_monarchy
 } 
 
@@ -65,4 +65,158 @@ create_country_leader = {
 	traits = { 
 
 	}
+}
+create_country_leader = {
+	name = "Luis Napoleon VI"
+	desc = "POLITICS_LOUIS_NAPOLEON_DESC"
+	picture = "gfx/leaders/ITE/Portrait_Louis_Napoleon.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Luis Napoleon VI"
+	desc = "POLITICS_LOUIS_NAPOLEON_DESC"
+	picture = "gfx/leaders/ITE/Portrait_Louis_Napoleon.tga"
+	expire = "1965.1.1"
+	ideology = reactionary
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Luis Napoleon VI"
+	desc = "POLITICS_LOUIS_NAPOLEON_DESC"
+	picture = "gfx/leaders/ITE/Portrait_Louis_Napoleon.tga"
+	expire = "1965.1.1"
+	ideology = oligarchy
+	traits = { 
+
+	}
+}
+create_field_marshal = {# Emilio di Bono
+	name = "Emilio De Bono"
+	portrait_path = "gfx/leaders/ITE/Portrait_Emilio_De_Bono.tga"
+	traits = {
+		war_hero
+		old_guard
+		thorough_planner
+		organizer
+	}
+	id = 551
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_field_marshal = {# Alessandro Pirzio Biroli
+	name = "Alessandro Pirzio Biroli"
+	portrait_path = "gfx/leaders/ITE/Portrait_Alessandro_Pirzio_Biroli.tga"
+	traits = {
+		trait_cautious
+		brilliant_strategist
+		organizer
+		logistics_wizard
+	}
+	id = 540
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {# Giovanni Messe
+	name = "Giovanni Messe"
+	portrait_path = "gfx/leaders/ITE/Portrait_Giovanni_Messe.tga"
+	traits = {
+		cavalry_officer
+		organizer
+	}
+	id = 541
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {# Antonio Gualano
+	name = "Antonio Gualano"
+	portrait_path = "gfx/leaders/ITE/Portrait_Antonio_Gualano.tga"
+	traits = {
+		politically_connected
+		inflexible_strategist
+	}
+	id = 542
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {# Giuseppe Izzo
+	name = "Giuseppe Izzo"
+	portrait_path = "gfx/leaders/ITE/Portrait_Giuseppe_Izzo.tga"
+	traits = {
+		career_officer
+		infantry_officer
+		infantry_leader
+	}
+	id = 543
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {# Arnaldo Azzi
+	name = "Arnaldo Azzi "
+	portrait_path = "gfx/leaders/ITE/Portrait_Arnaldo_Azzi.tga"
+	traits = {
+		armor_officer
+		panzer_leader
+	}
+	id = 557
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {# Enrico Riccardi
+	name = "Enrico Riccardi"
+	portrait_path = "gfx/leaders/ITE/Portrait_Enrico_Riccardi.tga"
+	id = 558
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_navy_leader = {
+	name = "Giulio Ingianni"
+	portrait_path = "gfx/leaders/ITE/Portrait_Ingianni.tga"
+	id = 546
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+create_navy_leader = {
+	name = "Salvatore Todaro"
+	portrait_path = "gfx/leaders/ITE/Portrait_Salvatore_Todaro.tga"
+	traits = {
+		seawolf
+	}
+	id = 547
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 3
 }
