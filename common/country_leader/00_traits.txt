@@ -3716,4 +3716,29 @@ young_diplomat = {
 			factor = 1
 		}
 	}
+	Secretary_of_Colony_State = {
+        random = no
+        trade_opinion_factor = 0.5
+        required_garrison_factor = -0.15
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    Agriculturalist = {
+        random = no
+        monthly_population = 0.05
+        consumer_goods_factor = -0.04
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    head_of_the_young_conservative = {
+        random = no
+        political_power_factor = 0.05
+        stability_factor = 0.025
+        ai_will_do = {
+            factor = 1
+        }
+	}
 }
