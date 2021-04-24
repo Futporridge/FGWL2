@@ -29,7 +29,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Pansret Bilbataljon"
+	name = "Panservognbataljon"
 
 	division_names_group = DEN_ARC_01
 
@@ -161,7 +161,7 @@ units = {
 				name_order = 1
 		}
 		location = 6287
-		division_template = "Pansret Bilbataljon"
+		division_template = "Panservogn Bilbataljon"
 		start_experience_factor = 0.3
 	}
 	division= {	

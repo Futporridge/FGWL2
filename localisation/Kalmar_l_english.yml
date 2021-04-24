@@ -60,8 +60,9 @@ KAL_Integral_Empire_desc:0 ""
 KAL_Divine_Authority:0 "Divine Authority"
 KAL_Divine_Authority_desc:0 ""
 
-
-
+###tech###
+KAL_armor_car_equipment_1:0 "Panservogn m/25"
+KAL_armor_car_equipment_1_short:0 "Pvogn m/25"
 
 ###events###
 kal.1.t:0 "The elections are over"
