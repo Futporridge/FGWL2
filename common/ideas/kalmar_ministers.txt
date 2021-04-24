@@ -12,7 +12,7 @@ ideas = {
 			always = no
 			}
 			
-			traits = {  }
+			traits = { Intellectual_aristocrat }
 		}
 
 				
@@ -29,7 +29,7 @@ political_advisor = {
 			always = no
 			}
 			
-			traits = {  }
+			traits = { Secretary_of_Colony_State }
 		}
 		KAL_Jens_Hundseid = {
 
@@ -42,7 +42,7 @@ political_advisor = {
 			always = no
 			}
 			
-			traits = {  }
+			traits = { Agriculturalist }
 		}	
 		KAL_Aksel_Moller = {
 
@@ -55,7 +55,7 @@ political_advisor = {
 			always = no
 			}
 			
-			traits = {  }
+			traits = { head_of_the_young_conservative }
 		}	
 		KAL_Eigil_Thune_Jacobsen = {
 
@@ -68,7 +68,7 @@ political_advisor = {
 			always = no
 			}
 			
-			traits = {  }
+			traits = { intelligence_chief }
 		}
 		
 				
