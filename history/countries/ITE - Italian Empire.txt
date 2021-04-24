@@ -48,12 +48,16 @@ set_popularities = {
 
 add_ideas = {
 ITE_Luis_Napoleon
+ITE_Enrico_Nicola
+ITE_Andrea_Finocchiaro_Aprile
+ITE_Vito_Reale
+ITE_Enrico_Caviglia
 }
 
 set_convoys = 100
 
 create_country_leader = {
-	name = "Alvise Napuliuni Bonaparti VI"
+	name = "Luis Napoleon VI"
 	desc = "POLITICS_LOUIS_NAPOLEON_DESC"
 	picture = "gfx/leaders/ITE/Portrait_Louis_Napoleon.tga"
 	expire = "1965.1.1"

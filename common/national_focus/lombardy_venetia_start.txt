@@ -527,7 +527,7 @@
 		completion_reward = {
 			country_event = {
 				id = ven.12
-				 days = 5
+				days = 5
 			}
 		}
 
@@ -545,6 +545,7 @@
 		completion_reward = {
 			country_event = {
 				id = ven.13
+				days = 3
 			}
 		}
 

@@ -10,11 +10,16 @@ ITE_risorgimento = {
 		}
 		cost = 50
 		days_re_enable = 40
-		available = {	} 
+		available = {
+			NOT = {
+			has_country_flag = ite_civil_war
+			ite_voluntary_cons > 6
+			}
+		}
 		complete_effect = {
 		    if = {
 				limit = {
-					check_variable = { ite_voluntary_cons > 4 }
+					check_variable = { ite_voluntary_cons > 6 }
 				}
 				country_event = { id = ite.100 days = 1  }
 			}
@@ -34,12 +39,14 @@ ITE_risorgimento = {
 		}
 		cost = 25
 		days_re_enable = 30
-		available = {	}
+		available = {
+				conservatism < 0.65
+		}
 		complete_effect = {
 			add_stability = 0.05
 			add_popularity = {
                 ideology = conservatism
-			    popularity = 0.05
+			    popularity = 0.1
             }
 		}
 		ai_will_do = {
@@ -59,7 +66,7 @@ ITE_risorgimento = {
 		days_re_enable = 20
 		available = {
 			has_equipment = {
-				infantry_equipment > 1000
+				infantry_equipment > 999
 			}
 		}
 		complete_effect = {
@@ -101,6 +108,7 @@ ITE_risorgimento = {
 			}
 		}
 		cost = 100
+		days_re_enable = 40
 		available = {
 			NOT = {
 				liberalism < 0.1
@@ -108,6 +116,12 @@ ITE_risorgimento = {
 			}
 		}
 		complete_effect = {
+			hidden_effect = {
+				add_popularity = {
+                ideology = conservatism
+			    popularity = 0.05
+				}
+			}
 			add_popularity = {
                 ideology = liberalism
 			    popularity = -0.1
@@ -136,7 +150,6 @@ ITE_risorgimento = {
 		complete_effect = {
 			add_stability = 0.20
 			add_war_support = 0.20
-			add_political_power = 100
 		}
 		ai_will_do = {
 			factor = 100

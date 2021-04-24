@@ -39,7 +39,19 @@ ITE_paternalism_party_long:0 "Partito Nazionale Monarchico (Monarchist National 
 ITE_reactionary_party:0 "UC"
 ITE_reactionary_party_long:0 "Unione Сattolica (Catholic Union)"
 #############Министры############
-AUS_Viktor_Dankl_von_Krasnik:0 "Viktor Dankl von Krasnik"
+ITE_Luis_Napoleon:0 "Luis Napoleon"
+ITE_Enrico_Nicola:0 "Enrico Nicola"
+ITE_Vito_Reale:0 "Vito Reale"
+ITE_Enrico_Caviglia:0 "Enrico Caviglia"
+ITE_Andrea_Finocchiaro_Aprile:0 "Andrea Finocchiaro Aprile"
+
+#############Министры-трейты############
+Prudent_Dilettante:0 "Prudent Dilettante"
+Accommodating_Chairperson:0 "Accommodating Сhairperson"
+Modest_Official:0 "Modest Official"
+Southern_Liberal:0 "Southern Liberal"
+Pedantic_Marshal:0 "Pedantic Marshal"
+
 
 #############Духи############
 renovatio_imperii:0 "Renovatio Imperii"
@@ -67,7 +79,18 @@ ite.1.d:0 ""
 ite.1.a:0 "Bridges burned"
 
 #############Решения############
-TYR_shield_of_the_republic:0 "Shield of the Republic"
+ITE_risorgimento:0 "Risorgimento"
+ITE_risorgimento_desc:0 "Risorgimento"
+ITE_call_to_patriots:0 "Call to Patriots"
+ITE_call_to_patriots_desc:0 "Call to Patriots"
+ITE_emperors_speech:0 "Emperors Speech"
+ITE_emperors_speech_desc:0 "Emperors Speech"
+ITE_hand_over_guns:0 "Hang Over Guns"
+ITE_hand_over_guns_desc:0 "Hang Over Guns"
+ITE_shut_up_opposition:0 "Shut up Opposition"
+ITE_shut_up_opposition_desc:0 "Shut up Opposition"
+ITE_announce_the_beginning_of_risorgimento:0 "Announce the Beginning of Risorgimento"
+ITE_announce_the_beginning_of_risorgimento_desc:0 "Lol"
 
 #############Тултипы############
 ITE_grande_esercito_text:0 "§CBonuses will depend on the branch you choose§"

@@ -185,22 +185,12 @@ ideas = {
 			always = false
 			}
 			
-			traits = {   }
+			traits = {	Prudent_Dilettante	}
 		}
 		}
 		political_advisor = {
 
 		
-		ITE_Alberto_Beneduce = {
-			
-			
-			allowed = {
-				original_tag = "ITE"
-			}
-			
-						
-			traits = {  }
-		}
 		ITE_Enrico_Nicola = {
 			
 			
@@ -209,7 +199,7 @@ ideas = {
 			}
 			
 						
-			traits = {  }
+			traits = { Accommodating_Chairperson  }
 		}
 		ITE_Vito_Reale = {
 			
@@ -219,9 +209,9 @@ ideas = {
 			}
 			
 						
-			traits = {  }
+			traits = { Modest_Official }
 		}
-		ITE_Chiyomi_Anzai = {
+		ITE_Enrico_Caviglia = {
 			
 			
 			allowed = {
@@ -229,7 +219,18 @@ ideas = {
 			}
 			
 						
-			traits = {  }
+			traits = { Pedantic_Marshal }
+		}
+		
+		ITE_Andrea_Finocchiaro_Aprile = {
+			
+			
+			allowed = {
+				original_tag = "ITE"
+			}
+			
+						
+			traits = { Southern_Liberal }
 		}
 		
 		}
