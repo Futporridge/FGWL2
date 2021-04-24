@@ -38,14 +38,14 @@ set_convoys = 100
 create_country_leader = {
 	name = "Franz Salvator von Habsburg"
 	desc = "POLITICS_FRANZ_SALVATOR_DESC"
-	portrait_path = "gfx/leaders/ITE/Portrait_Franz_Salvator.tga"
+	picture = "gfx/leaders/TUS/Portrait_Franz_Salvator.tga"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = { 
 
 	}
 }
-create_field_marshal = {# Rodolfo Graziani
+create_field_marshal = {
 	name = "Rodolfo Graziani"
 	portrait_path = "gfx/leaders/TUS/Portrait_Rodolfo_Graziani.tga"
 	traits = {
@@ -61,7 +61,7 @@ create_field_marshal = {# Rodolfo Graziani
 	planning_skill = 3
 	logistics_skill = 2
 }
-create_corps_commander = {# Ettore Bastico
+create_corps_commander = {
 	name = "Ettore Bastico"
 	portrait_path = "gfx/leaders/TUS/Portrait_Ettore_Bastico.tga"
 	traits = {
@@ -75,7 +75,7 @@ create_corps_commander = {# Ettore Bastico
 	planning_skill = 4
 	logistics_skill = 3
 }
-create_corps_commander = {# Annibale Bergonzoli
+create_corps_commander = {
 	name = "Annibale Bergonzoli"
 	portrait_path = "gfx/leaders/TUS/Portrait_Annibale_Bergonzoli.tga"
 	traits = {
