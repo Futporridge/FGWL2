@@ -887,7 +887,7 @@ ENG = {
 	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
 }
 
-SOV = {
+RUS = {
 	male = {
 		names = { 
 			Aleksander Alexei Andrei Anton Boris Dmitry Fyodor Gennady 
@@ -900,11 +900,11 @@ SOV = {
 		names = { Jelena Ludmila Ella Svetlana Margarita Elena Natalya Lydia Valentina Olga Alexandra Sofia Albina }
 	}
 	surnames = { 
-		Alexseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
-        Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Konev Konstantinov Kornilov 
-        Kolchak Kuropatkin Lazarev Makarov Menshikov Nakhimov Nebogatov 
-        Nikolaevich Nikitin Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
-        Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+		Alexseyev Antonov Azarov Badanov Yeremeyev Tolkachev Chibisov Puchkov 
+        Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Konev Konstantinov Shatalov 
+        Arkhipov Kuropatkin Lazarev Makarov Menshikov Nakhimov Nebogatov 
+        Nikolaevich Nikitin Ostrovsky Pavlov Sokolov Lobanov Rozhestvensky Skobelev 
+        Shuvalov Surkov Nikolayev Yegorov Kolesnikov Vorontsov Zakharov Zavoyko
 	
 	}
 	callsigns = { Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
