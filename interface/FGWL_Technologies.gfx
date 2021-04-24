@@ -200,12 +200,16 @@ spriteTypes = {
 		name = "GFX_AUS_advanced_infantry_weapons_medium" 
 		texturefile = "gfx/interface/technologies/AUS_infantry_equipment_3.dds"
 	}
-	SpriteType = {
+	SpriteType = { 
 		name = "GFX_AUS_improved_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/AUS_infantry_equipment_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_KAL_early_armor_car_medium"
 		texturefile = "gfx/interface/technologies/KAL_01_armor_car.dds"
+	}
+	SpriteType = {
+		name = "GFX_KAL_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/KAL_infantry_equipment_0.dds"
 	}	
 }
