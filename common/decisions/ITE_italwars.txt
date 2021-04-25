@@ -1,5 +1,45 @@
 ITE_risorgimento = {
 
+	ITA_operation_avalanche_rome = {
+		fire_only_once = no
+		allowed = { tag = ITE }
+		visible = {
+			has_war_with = POP
+		}
+		available = {
+			controls_state = 2
+		}
+		activation = {
+			has_global_flag = italian_wars
+			has_war_with = POP
+		}
+		days_re_enable = 1
+		is_good = yes
+		selectable_mission = yes
+		days_mission_timeout = 100
+		timeout_effect = {
+			add_stability = -0.15
+			add_war_support = -0.2
+			add_popularity = {
+                ideology = conservatism
+			    popularity = -0.15
+            }
+		}
+		complete_effect = {
+			add_stability = 0.1
+			add_war_support = 0.20
+			add_popularity = {
+                ideology = conservatism
+			    popularity = 0.15
+            }
+			set_country_flag = ite_capture_of_rome
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
 	ITE_call_to_patriots = {
 		fire_only_once = no
 		visible = {

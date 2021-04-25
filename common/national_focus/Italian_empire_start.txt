@@ -455,6 +455,9 @@
 		prerequisite = {
 			focus = ITE_as_long_as_austria_dont_look
 		}
+		completion_reward = {
+			add_ideas = operation_avalanche
+		}
 
 	}
 	shared_focus = {
@@ -502,6 +505,23 @@
 		}
 		x = 6
 		y = 9
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = ITE_the_eternal_city_text
+				OR = {
+					NOT = {
+						AUS = { has_government = reactionary }
+					}
+					has_global_flag = habsburg_hegemony_collapsed
+				}
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = POP
+				type = annex_everything
+			}
+		}
 
 	}
 	shared_focus = {
@@ -527,7 +547,7 @@
 
 	}
 	shared_focus = {
-		id = ITE_and_breakout_machines
+		id = ITE_and_breakthrough_machines
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
@@ -565,7 +585,7 @@
 			focus = ITE_providence_on_the_side_of_the_big_battalions
 		}
 		mutually_exclusive = {
-			focus = ITE_and_breakout_machines
+			focus = ITE_and_breakthrough_machines
 		}
 		x = 7
 		y = 11
@@ -602,11 +622,16 @@
 		cost = 0
 		prerequisite = {
 			focus = ITE_and_big_guns
-			focus = ITE_and_breakout_machines
+			focus = ITE_and_breakthrough_machines
 		}
 		x = 6
 		y = 12
-
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = ITE_wealth_of_the_north_text
+				has_country_flag = ite_capture_of_rome
+			}
+		}
 	}
 	shared_focus = {
 		id = ITE_royal_marines
