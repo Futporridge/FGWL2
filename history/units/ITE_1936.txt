@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Guardia Imperiale"			
+	name = "Guardia imperiale"			
 	division_names_group = ITE_ELIT_INF_01
 
 	regiments = {
@@ -19,7 +19,7 @@
 	}
 }
 division_template = {
-	name = "Divisione di fanteria"			
+	name = "Divisione Fanteria"			
 	division_names_group = ITE_INF_01
 
 	regiments = {
@@ -36,7 +36,7 @@ division_template = {
 }
 division_template = {
 	name = "Divisione guarnigione"			
-	division_names_group = ITE_INF_01
+	division_names_group = ITE_DEF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -75,7 +75,7 @@ units = {
 			name_order = 1
 		}
 		location = 819
-		division_template = "Guardia Imperiale"
+		division_template = "Guardia imperiale"
 		start_experience_factor = 1
 	}
 	division= {
@@ -84,7 +84,7 @@ units = {
 			name_order = 1
 		}
 		location = 923
-		division_template = "Divisione di fanteria"
+		division_template = "Divisione Fanteria"
 		start_experience_factor = 0.3
 	}
 	division= {
@@ -93,7 +93,7 @@ units = {
 			name_order = 1
 		}
 		location = 963
-		division_template = "Divisione di fanteria"
+		division_template = "Divisione Fanteria"
 		start_experience_factor = 0.3
 	}
 	division= {
@@ -102,7 +102,7 @@ units = {
 			name_order = 1
 		}
 		location = 3910
-		division_template = "Divisione di fanteria"
+		division_template = "Divisione Fanteria"
 		start_experience_factor = 0.3
 	}
 	division= {
@@ -111,7 +111,7 @@ units = {
 			name_order = 1
 		}
 		location = 9838
-		division_template = "Divisione di fanteria"
+		division_template = "Divisione Fanteria"
 		start_experience_factor = 0.3
 	}
 	division= {

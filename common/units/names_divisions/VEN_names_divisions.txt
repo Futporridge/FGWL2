@@ -1,5 +1,4 @@
-﻿VEN_INF_01 = 
-{
+﻿VEN_INF_01 = {
 	name = "Divixione Fanteria"
 
 	for_countries = { VEN }
@@ -25,8 +24,7 @@
 	}
 }
 
-VEN_CAV_01 = 
-{
+VEN_CAV_01 = {
 	name = "Divixione Celere"
 
 	for_countries = { VEN }
