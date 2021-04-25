@@ -83,7 +83,7 @@
 		name = pop.5.a
 		
 		ai_will_do = {
-			factor = 60
+			factor = 50
 		}
 		
 		reverse_add_opinion_modifier = {
@@ -102,7 +102,7 @@
 		}
 		
 		ai_will_do = {
-			factor = 40
+			factor = 50
 		}
 		
 	}
@@ -141,7 +141,7 @@
 	option = { #Да
 	
 		ai_will_do = {
-			factor = 30
+			factor = 25
 		}
 		
 		name = pop.8.a
@@ -161,7 +161,7 @@
 		}
 		
 		ai_will_do = {
-			factor = 70
+			factor = 75
 		}
 	}
 	}

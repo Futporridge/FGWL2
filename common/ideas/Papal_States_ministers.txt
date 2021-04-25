@@ -47,7 +47,7 @@ ideas = {
 			}
 			
 						
-			traits = { сhurch_banker }
+			traits = { Church_Banker }
 		}
 		
 		POP_Josemaria_Escriva = { #разведка
@@ -58,7 +58,7 @@ ideas = {
 			}
 			
 						
-			traits = { young_recruiter }
+			traits = { Young_Recruiter }
 		}
 		
 		}

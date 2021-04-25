@@ -39,7 +39,18 @@ POP_paternalism_party_long:0 "Sancta Sedes (Holy See)"
 POP_reactionary_party:0 "Sancta Sedes"
 POP_reactionary_party_long:0 "Sancta Sedes (Holy See)"
 #############Министры############
-AUS_Viktor_Dankl_von_Krasnik:0 "Viktor Dankl von Krasnik"
+POP_Luigi_Maglione:0 "Luigi Maglione"
+POP_Benedetto_Aloisi_Masella:0 "Benedetto Aloisi Masella"
+POP_Giovanni_Montini:0 "Giovanni Montini"
+POP_Amleto_Giovanni_Cicognani:0 "Amleto Giovanni Cicognani"
+POP_Josemaria_Escriva:0 "Josemaria Escriva"
+
+#############Министры-трейты############
+Soft_Conservative:0 "Soft Conservative"
+Peace_Officer:0 "Peace-Officer"
+Young_Aristocrat:0 "Young Aristocrat"
+Church_Banker:0 "Church Banker"
+Young_Recruiter:0 "Young Recruiter"
 
 #############Духи############
 SACRA_LIGUA:0 "Sacra Ligua"

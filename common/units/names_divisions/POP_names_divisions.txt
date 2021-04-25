@@ -1,0 +1,132 @@
+﻿POP_INF_01 = {
+	name = "Infantry Division"
+	for_countries = { POP }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "%da Divisione di Fanteria"
+	ordered = {
+		23 = { "%da Divisione di Fanteria 'Ferrara'" }
+		3 = { "%da Divisione di Fanteria 'Ravenna'" }
+		4 = { "%da Divisione di Fanteria 'Livorno'" }
+		5 = { "%da Divisione di Fanteria 'Cosseria'" }
+		6 = { "%da Divisione di Fanteria 'Cuneo'" }
+		7 = { "%da Divisione di Fanteria 'Lupi di Toscana'" }
+		11 = { "%da Divisione di Fanteria 'Brennero'" }
+		12 = { "%da Divisione di Fanteria 'Sassari'" }
+		13 = { "%da Divisione di Fanteria 'Repubblica'" }
+		14 = { "%da Divisione di Fanteria 'Isonzo'" }
+		15 = { "%da Divisione di Fanteria 'Bergamo'" }
+		16 = { "%da Divisione di Fanteria 'Pistoia'" }
+		18 = { "%da Divisione di Fanteria 'Messina'" }
+		19 = { "%da Divisione di Fanteria 'Venezia'" }
+		20 = { "%da Divisione di Fanteria 'Friuli'" }
+		21 = { "%da Divisione di Fanteria 'Granatieri d'Italia'" }
+		24 = { "%da Divisione di Fanteria 'Pinerolo'" }
+		28 = { "%da Divisione di Fanteria 'Aosta'" }
+		29 = { "%da Divisione di Fanteria 'Piemonte'" }
+		31 = { "%da Divisione di Fanteria 'Calabria'" }
+		58 = { "%da Divisione di Fanteria 'Legnano'" }
+		26 = { "%da Divisione di Fanteria 'Assietta'" }
+		30 = { "%da Divisione di Fanteria 'Sabauda'" }
+		65 = { "%da Divisione di Fanteria 'Granatieri della Repubblica'" }
+		1 = { "%da Divisione di Fanteria 'Superga'" }
+		2 = { "%da Divisione di Fanteria 'Sforzesca'" }
+		22 = { "%da Divisione di Fanteria 'Cacciatori delle Alpi'" }
+		32 = { "%da Divisione di Fanteria 'Marche'" }
+		33 = { "%da Divisione di Fanteria 'Acqui'" }
+		36 = { "%da Divisione di Fanteria 'Forlì'" }
+		37 = { "%da Divisione di Fanteria 'Modena'" }
+		38 = { "%da Divisione di Fanteria 'Puglie'" }
+		41 = { "%da Divisione di Fanteria 'Firenze'" }
+		44 = { "%da Divisione di Fanteria 'Cremona'" }
+		47 = { "%da Divisione di Fanteria 'Bari'" }
+		48 = { "%da Divisione di Fanteria 'Taro'" }
+		49 = { "%da Divisione di Fanteria 'Parma'" }
+		50 = { "%da Divisione di Fanteria 'Regina'" }
+		51 = { "%da Divisione di Fanteria 'Siena'" }
+		53 = { "%da Divisione di Fanteria 'Arezzo'" }
+		54 = { "%da Divisione di Fanteria 'Napoli'" }
+		56 = { "%da Divisione di Fanteria 'Casale'" }
+		57 = { "%da Divisione di Fanteria 'Lombardia'" }
+		59 = { "%da Divisione di Fanteria 'Cagliari'" }
+		40 = { "%da Divisione di Fanteria" }
+		151 = { "%da Divisione di Fanteria 'Perugia'" }
+		153 = { "%da Divisione di Fanteria 'Macerata'" }
+		154 = { "%da Divisione di Fanteria 'Murge'" }
+		155 = { "%da Divisione di Fanteria 'Emilia'" }
+		152 = { "%da Divisione di Fanteria 'Piceno'" }
+		159 = { "%da Divisione di Fanteria 'Veneto'" }
+		156 = { "%da Divisione di Fanteria 'Vicenza'" }
+		157 = { "%da Divisione di Fanteria 'Novara'" }
+		158 = { "%da Divisione di Fanteria 'Zara'" }
+		66 = { "%da Divisione di Fanteria 'Monferrato'" }
+		67 = { "%da Divisione di Fanteria 'Monviso'" }
+		68 = { "%da Divisione di Fanteria 'Leonessa'" }
+		69 = { "%da Divisione di Fanteria 'Timavo'" }
+		70 = { "%da Divisione di Fanteria 'Montenero'" }
+		71 = { "%da Divisione di Fanteria 'Carnaro'" }
+		72 = { "%da Divisione di Fanteria 'Fossalta'" }
+		73 = { "%da Divisione di Fanteria 'Metauro'" }
+		74 = { "%da Divisione di Fanteria 'Gavinana'" }
+		75 = { "%da Divisione di Fanteria 'Curtatone e Montanara'" }
+		76 = { "%da Divisione di Fanteria 'Gran Sasso'" }
+		77 = { "%da Divisione di Fanteria 'Vespri'" }
+		78 = { "%da Divisione di Fanteria 'Peloritana'" }
+		79 = { "%da Divisione di Fanteria 'Caprera'" }
+		34 = { "%da Divisione di Fanteria" }
+		35 = { "%da Divisione di Fanteria" }
+		39 = { "%da Divisione di Fanteria" }
+		42 = { "%da Divisione di Fanteria" }
+		43 = { "%da Divisione di Fanteria" }
+		45 = { "%da Divisione di Fanteria" }
+		46 = { "%da Divisione di Fanteria" }
+	}
+}
+
+POP_ELIT_INF_01 = {
+	name = "Guardia imperiale"
+	for_countries = { POP }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "%da Divisione di Guardia imperiale"
+	ordered = {
+		1 = { "%da Divisione di Guardia Svizzera" }
+		2 = { "%da Divisione di Guardia Svizzera" }
+		3 = { "%da Divisione di Guardia Svizzera" }
+		4 = { "%da Divisione di Guardia Svizzera" }
+		5 = { "%da Divisione di Guardia Svizzera" }
+		6 = { "%da Divisione di Guardia Svizzera" }
+	}
+}
+
+POP_DEF_01 = {
+	name = "Divisione guarnigione"
+	for_countries = { POP }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "%da Divisione Costiera"
+	ordered = {
+		1 = { "%da Divisione di Guarnigione" }
+		2 = { "%da Divisione di Guarnigione" }
+		3 = { "%da Divisione di Guarnigione" }
+		4 = { "%da Divisione di Guarnigione" }
+		5 = { "%da Divisione di Guarnigione" }
+		6 = { "%da Divisione di Guarnigione" }
+	}
+}
+
+POP_CAV_01 = {
+	name = "Divisione di cavalleria"
+	for_countries = { POP }
+	can_use = { always = yes }
+	division_types = { "cavalry" }
+	fallback_name = "%da Divisione di Cavalleria"
+	ordered = {
+		1 = { "%da Divisione di Cavalleria" }
+		2 = { "%da Divisione di Cavalleria" }
+		3 = { "%da Divisione di Cavalleria" }
+		4 = { "%da Divisione di Cavalleria" }
+		5 = { "%da Divisione di Cavalleria" }
+		6 = { "%da Divisione di Cavalleria" }
+	}
+}

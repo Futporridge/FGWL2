@@ -19,7 +19,7 @@
 	}
 }
 division_template = {
-	name = "Divisione di fanteria"			
+	name = "Divisione di fanteria I"			
 	division_names_group = POP_INF_01
 
 	regiments = {
@@ -35,7 +35,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Divisione guarnigione"			
+	name = "Divisione di fanteria II"			
 	division_names_group = POP_INF_01
 
 	regiments = {
@@ -46,7 +46,8 @@ division_template = {
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 	}
-	support = {	}
+	support = {
+	}
 }
 division_template = {
 	name = "Divisione di cavalleria"
@@ -84,7 +85,7 @@ units = {
 			name_order = 1
 		}
 		location = 11882
-		division_template = "Divisione di fanteria"
+		division_template = "Divisione di fanteria I"
 		start_experience_factor = 0.3
 	}
 	division= {
@@ -93,7 +94,7 @@ units = {
 			name_order = 1
 		}
 		location = 9794
-		division_template = "Divisione di fanteria"
+		division_template = "Divisione di fanteria I"
 		start_experience_factor = 0.3
 	}
 	division= {
@@ -110,8 +111,8 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 157
-		division_template = "Divisione guarnigione"
+		location = 11790
+		division_template = "Divisione di fanteria II"
 		start_experience_factor = 0
 	}
 	division= {
@@ -120,7 +121,7 @@ units = {
 			name_order = 1
 		}
 		location = 9924
-		division_template = "Divisione guarnigione"
+		division_template = "Divisione di fanteria II"
 		start_experience_factor = 0
 	}
 }

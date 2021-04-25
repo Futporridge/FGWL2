@@ -12,6 +12,7 @@ ITE_risorgimento = {
 		activation = {
 			has_global_flag = italian_wars
 			has_war_with = POP
+			NOT = {	controls_state = 2	}
 		}
 		days_re_enable = 1
 		is_good = yes
