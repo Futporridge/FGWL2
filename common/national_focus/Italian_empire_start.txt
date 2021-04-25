@@ -13,7 +13,7 @@
 	shared_focus = {
 		id = ITE_army_revision
 		icon = GFX_goal_unknown
-		cost = 4
+		cost = 3
 		prerequisite = {
 			focus = ITE_empire_legacy
 		}
@@ -119,7 +119,7 @@
 	shared_focus = {
 		id = ITE_grande_esercito
 		icon = GFX_goal_unknown
-		cost = 4
+		cost = 3
 		prerequisite = {
 			focus = ITE_new_tactics
 			focus = ITE_trust_old_generals
@@ -156,7 +156,7 @@
 	shared_focus = {
 		id = ITE_labor_front
 		icon = GFX_goal_unknown
-		cost = 4
+		cost = 3
 		prerequisite = {
 			focus = ITE_empire_legacy
 		}
@@ -225,7 +225,7 @@
 				}
 				add_building_construction = {
 				type = dockyard      
-				level = 2
+				level = 1
 				instant_build = yes
 				}
             }
@@ -276,7 +276,7 @@
 	shared_focus = {
 		id = ITE_trains_run_on_time
 		icon = GFX_goal_unknown
-		cost = 4
+		cost = 3
 		prerequisite = {
 			focus = ITE_carrot_and_stick
 			focus = ITE_emergency_nationalization
@@ -331,7 +331,7 @@
 	shared_focus = {
 		id = ITE_one_day_as_lion
 		icon = GFX_goal_unknown
-		cost = 4
+		cost = 3
 		prerequisite = {
 			focus = ITE_empire_legacy
 		}
@@ -405,7 +405,7 @@
 	shared_focus = {
 		id = ITE_risorgimento
 		icon = GFX_goal_unknown
-		cost = 4
+		cost = 3
 		prerequisite = {
 			focus = ITE_divide_and_conquer
 			focus = ITE_for_the_empire_and_the_emperor
@@ -420,7 +420,7 @@
 	shared_focus = {
 		id = ITE_as_long_as_austria_dont_look
 		icon = GFX_goal_unknown
-		cost = 4
+		cost = 1
 		prerequisite = {
 			focus = ITE_risorgimento
 		}
@@ -446,7 +446,7 @@
 	shared_focus = {
 		id = ITE_long_road_north
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 1
 		x = 6
 		y = 7
 		allow_branch = {
@@ -463,7 +463,7 @@
 	shared_focus = {
 		id = ITE_guerra_in_montagna
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = ITE_long_road_north
 		}
@@ -472,34 +472,55 @@
 		}
 		x = 2
 		y = 8
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = mountaineers_tech
+			}
+		}
 
 	}
 	shared_focus = {
 		id = ITE_blow_from_sky
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = ITE_guerra_in_montagna
 		}
 		x = 1
 		y = 9
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 1
+				category = tactical_bomber
+			}
+		}
 
 	}
 	shared_focus = {
 		id = ITE_reorganize_mountain_garrisons
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = ITE_guerra_in_montagna
 		}
 		x = 3
 		y = 9
+		
+		completion_reward = {
+		tooltip = ITE_reorganize_mountain_garrisons
+		load_obb = ITE_mountaineers
+		}
 
 	}
 	shared_focus = {
 		id = ITE_the_eternal_city
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 2
 		prerequisite = {
 			focus = ITE_long_road_north
 		}
@@ -527,74 +548,126 @@
 	shared_focus = {
 		id = ITE_march_through_the_mountains
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 4
 		prerequisite = {
 			focus = ITE_the_eternal_city
 		}
 		x = 4
 		y = 10
-
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = operation_avalanche
+				add_idea = operation_avalanche_speed
+			}
+		}
 	}
 	shared_focus = {
 		id = ITE_providence_on_the_side_of_the_big_battalions
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 4
 		prerequisite = {
 			focus = ITE_the_eternal_city
 		}
 		x = 6
 		y = 10
+		
+		available = {
+			has_completed_focus = ITE_march_through_the_mountains
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = operation_avalanche_speed
+				add_idea = operation_avalanche_speed_big
+			}
+		}
 
 	}
 	shared_focus = {
 		id = ITE_and_breakthrough_machines
 		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = ITE_march_through_the_mountains
-		}
-		prerequisite = {
-			focus = ITE_providence_on_the_side_of_the_big_battalions
-		}
-		mutually_exclusive = {
-			focus = ITE_and_big_guns
-		}
-		x = 5
-		y = 11
-
-	}
-	shared_focus = {
-		id = ITE_restoration_of_communications
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = ITE_the_eternal_city
-		}
-		x = 8
-		y = 10
-
-	}
-	shared_focus = {
-		id = ITE_and_big_guns
-		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = ITE_restoration_of_communications
 		}
 		prerequisite = {
 			focus = ITE_providence_on_the_side_of_the_big_battalions
 		}
+		prerequisite = {
+			focus = ITE_march_through_the_mountains
+		}
+		mutually_exclusive = {
+			focus = ITE_and_big_guns
+		}
+		x = 5
+		y = 11
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = operation_avalanche_speed_big_comm
+				add_idea = operation_avalanche_speed_big_comm_tank
+			}
+			add_tech_bonus = {
+				bonus = 0.4
+				uses = 1
+				category = armor
+			}
+		}
+
+	}
+	shared_focus = {
+		id = ITE_restoration_of_communications
+		icon = GFX_goal_unknown
+		cost = 4
+		prerequisite = {
+			focus = ITE_the_eternal_city
+		}
+		x = 8
+		y = 10
+		available = {
+			has_completed_focus = ITE_providence_on_the_side_of_the_big_battalions
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = operation_avalanche_speed_big
+				add_idea = operation_avalanche_speed_big_comm
+			}
+		}
+
+	}
+	shared_focus = {
+		id = ITE_and_big_guns
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = ITE_restoration_of_communications
+		}
+		prerequisite = {
+			focus = ITE_providence_on_the_side_of_the_big_battalions
+		}
+		prerequisite = {
+			focus = ITE_march_through_the_mountains
+		}
 		mutually_exclusive = {
 			focus = ITE_and_breakthrough_machines
 		}
 		x = 7
 		y = 11
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = operation_avalanche_speed_big_comm
+				add_idea = operation_avalanche_speed_big_comm_art
+			}
+		}
 
 	}
 	shared_focus = {
 		id = ITE_theory_of_sea_landings
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = ITE_long_road_north
 		}
@@ -603,23 +676,41 @@
 		}
 		x = 10
 		y = 8
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.6
+				uses = 1
+				category = tp_tech
+			}
+		}
 
 	}
 	shared_focus = {
 		id = ITE_new_capacities
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 4
 		prerequisite = {
 			focus = ITE_theory_of_sea_landings
 		}
 		x = 9
 		y = 9
+		
+		completion_reward = {
+			115 = {
+				add_building_construction = {
+				type = dockyard      
+				level = 1
+				instant_build = yes
+				}
+            }
+		}
 
 	}
 	shared_focus = {
 		id = ITE_wealth_of_the_north
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = ITE_and_big_guns
 			focus = ITE_and_breakthrough_machines
@@ -636,11 +727,19 @@
 	shared_focus = {
 		id = ITE_royal_marines
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = ITE_theory_of_sea_landings
 		}
 		x = 11
 		y = 9
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = marine_tech
+			}
+		}
 
 	}
