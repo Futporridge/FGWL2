@@ -140,5 +140,62 @@ ideas = {
 			}
 		}
 		
+		decay_of_the_army  = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = decay_of_the_army
+			
+			modifier = {
+				conscription_factor = -0.80
+				army_morale_factor = -0.5
+				army_org_factor = -0.5
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		political_collapse  = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = political_collapse
+			
+			modifier = {
+				political_power_gain = -0.5
+				stability_factor = -0.10
+				war_support_factor = -0.20
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		plutocracy  = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = plutocracy
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.40
+				production_factory_efficiency_gain_factor = -0.40
+				consumer_goods_factor = 0.30
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
 		}
 	}
