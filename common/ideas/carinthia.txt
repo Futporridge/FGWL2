@@ -1,0 +1,23 @@
+ideas = {
+
+	country = {
+		defend_our_homeland = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = common_colony
+		
+			modifier = {
+				army_core_defence_factor = 0.25
+				army_core_attack_factor = 0.2
+				offence = -0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
+}
+	}	

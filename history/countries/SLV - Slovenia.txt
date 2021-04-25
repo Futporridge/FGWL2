@@ -33,7 +33,7 @@ set_popularities = {
 	reactionary = 0
 }
 add_ideas = {
-
+defend_our_homeland
 }
 
 set_stability = 0.50

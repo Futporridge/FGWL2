@@ -626,7 +626,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = artillery_equipment_1
+			type = artillery_equipment_0
 			creator = "AUS" 
 		}
 		requested_factories = 1
@@ -634,29 +634,10 @@ instant_effect = {
 		efficiency = 50
 	}
 
-	add_equipment_production = {
-		equipment = {
-			type = light_tank_equipment_2
-			creator = "AUS" 
-		}
-		requested_factories = 2
-		progress = 0.4
-		efficiency = 50
-	}
 
 	add_equipment_production = {
 		equipment = {
-			type = motorized_equipment_1
-			creator = "AUS" 
-		}
-		requested_factories = 2
-		progress = 0.4
-		efficiency = 50
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = fighter_equipment_1
+			type = fighter_equipment_0
 			creator = "AUS" 
 		}
 		requested_factories = 1

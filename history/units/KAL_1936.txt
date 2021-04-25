@@ -161,7 +161,7 @@ units = {
 				name_order = 1
 		}
 		location = 6287
-		division_template = "Panservogn Bilbataljon"
+		division_template = "Panservognbataljon"
 		start_experience_factor = 0.3
 	}
 	division= {	
@@ -344,7 +344,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_1
+			type = infantry_equipment_0
 			creator = "KAL"
 		}
 		requested_factories = 5
