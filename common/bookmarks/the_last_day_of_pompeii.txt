@@ -42,6 +42,16 @@ bookmarks = {
 			focuses = {
 
 			}
+		}
+		"ITE"={
+			history = "ITE_FGWL"
+			ideology = conservatism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
 		}		
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
