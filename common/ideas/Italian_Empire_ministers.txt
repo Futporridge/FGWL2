@@ -1,0 +1,65 @@
+ideas = {
+
+		head_of_state = {
+
+		ITE_Luis_Napoleon = {
+
+		
+
+			allowed = {
+				original_tag = "ITE"
+			}
+			available = {
+			always = false
+			}
+			
+			traits = {	Prudent_Dilettante	}
+		}
+		}
+		political_advisor = {
+
+		
+		ITE_Enrico_Nicola = {
+			
+			
+			allowed = {
+				original_tag = "ITE"
+			}
+			
+						
+			traits = { Accommodating_Chairperson  }
+		}
+		ITE_Vito_Reale = {
+			
+			
+			allowed = {
+				original_tag = "ITE"
+			}
+			
+						
+			traits = { Modest_Official }
+		}
+		ITE_Enrico_Caviglia = {
+			
+			
+			allowed = {
+				original_tag = "ITE"
+			}
+			
+						
+			traits = { Pedantic_Marshal }
+		}
+		
+		ITE_Andrea_Finocchiaro_Aprile = {
+			
+			
+			allowed = {
+				original_tag = "ITE"
+			}
+			
+						
+			traits = { Southern_Liberal }
+		}
+		
+		}
+	}

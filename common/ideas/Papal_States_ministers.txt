@@ -1,0 +1,65 @@
+ideas = {
+
+		head_of_state = {
+
+		POP_Luigi_Maglione = {
+
+		
+
+			allowed = {
+				original_tag = "POP"
+			}
+			available = {
+			always = false
+			}
+			
+			traits = {	Soft_Conservative	}
+		}
+		}
+		political_advisor = { 
+
+		
+		POP_Benedetto_Aloisi_Masella = { #Внешка
+			
+			
+			allowed = {
+				original_tag = "POP"
+			}
+			
+						
+			traits = { Peace_Officer }
+		}
+		POP_Giovanni_Montini = { #Внутреняя
+			
+			
+			allowed = {
+				original_tag = "POP"
+			}
+			
+						
+			traits = { Young_Aristocrat }
+		}
+		POP_Amleto_Giovanni_Cicognani = { #экономист
+			
+			
+			allowed = {
+				original_tag = "POP"
+			}
+			
+						
+			traits = { сhurch_banker }
+		}
+		
+		POP_Josemaria_Escriva = { #разведка
+			 
+	
+			allowed = {
+				original_tag = "POP"
+			}
+			
+						
+			traits = { young_recruiter }
+		}
+		
+		}
+	}
