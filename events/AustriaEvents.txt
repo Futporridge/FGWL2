@@ -6,7 +6,7 @@
 	add_namespace = auscw	
 
 
-	country_event = {	
+	country_event = {
 	id = ausrt.1
 	title = ausrt.1.t
 	desc = ausrt.1.d
@@ -27,7 +27,7 @@
 		}		
 	}
 }
-	country_event = {	
+	country_event = {
 	id = ausrt.2
 	title = ausrt.2.t
 	desc = ausrt.2.d
@@ -150,7 +150,7 @@
 	add_stability = -0.05
 	}	
 }
-	country_event = {	
+	country_event = {
 	id = ausrt.8
 	title = ausrt.8.t
 	desc = ausrt.8.d
@@ -388,14 +388,14 @@ country_event = {
 	
 	is_triggered_only = yes
 
-			immediate = {
-	hidden_effect = {
-		swap_ideas = {
-     remove_idea = AUS_econ1
-     add_idea = AUS_econ2
+	immediate = {
+		hidden_effect = {
+			swap_ideas = {
+				remove_idea = AUS_econ1
+				add_idea = AUS_econ2
 			}				
-					}
-						}
+		}
+	}
 	option = {
 		name = aus.9.a
 889 = {		
@@ -1021,7 +1021,7 @@ set_demilitarized_zone = yes
 		}
 }
 }
-	country_event = {	
+	country_event = {
 	id = aus.29
 	title = aus.29.t
 	desc = aus.29.d
@@ -1408,7 +1408,7 @@ load_oob = AUS_left_initial_win
 		}
 	}
 }
-	country_event = {	
+	country_event = {
 	id = aus.41
 	title = aus.41.t
 	desc = aus.41.d
@@ -1420,7 +1420,7 @@ load_oob = AUS_left_initial_win
 		name = aus.41.a
 			}
 }
-	country_event = {	
+	country_event = {
 	id = aus.42
 	title = aus.42.t
 	desc = aus.42.d
@@ -1444,7 +1444,7 @@ load_oob = AUS_left_initial_win
 		name = aus.43.a
 			}
 }
-	country_event = {	
+	country_event = {
 	id = aus.44
 	title = aus.44.t
 	desc = aus.44.d
@@ -1474,7 +1474,7 @@ load_oob = AUS_left_initial_win
 		
 			}
 }
-	country_event = {	
+	country_event = {
 	id = aus.45
 	title = aus.45.t
 	desc = aus.45.d
@@ -1511,7 +1511,7 @@ load_oob = AUS_left_initial_win
 		
 			}
 }
-	country_event = {	
+	country_event = {
 	id = aus.47
 	title = aus.47.t
 	desc = aus.47.d
@@ -1618,7 +1618,7 @@ immediate = {
 		}
 }
 }
-	country_event = {	
+	country_event = {
 	id = aus.48
 	title = aus.48.t
 	desc = aus.48.d
