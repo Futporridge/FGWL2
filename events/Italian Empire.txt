@@ -1,7 +1,7 @@
 ﻿
 	add_namespace = ite
 	
-	country_event = {	
+	country_event = { #Вступление
 	id = ite.1
 	title = ite.1.t
 	desc = ite.1.d
@@ -13,5 +13,41 @@
 		name = ite.1.a
 		
     complete_national_focus = ITE_empire_legacy
-}
-}
+	}
+	}
+	country_event = { #Кончились добровольцы
+	id = ite.2
+	title = ite.2.t
+	desc = ite.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ite.2.a
+		add_war_support = -0.1
+		add_popularity = {
+				ideology = communitarianism
+				popularity = 0.10
+            }
+			add_popularity = {
+				ideology = liberalism
+				popularity = 0.05
+            }
+	}
+	}
+	country_event = { #Начало оъединительных войн
+	id = ite.3
+	title = ite.3.t
+	desc = ite.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ite.3.a
+		add_war_support = 0.2
+		set_global_flag = italian_wars
+		mark_focus_tree_layout_dirty = yes
+	}
+	}

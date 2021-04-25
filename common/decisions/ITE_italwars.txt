@@ -21,7 +21,7 @@ ITE_risorgimento = {
 				limit = {
 					check_variable = { ite_voluntary_cons > 6 }
 				}
-				country_event = { id = ite.100 days = 1  }
+				country_event = { id = ite.2 days = 1  }
 			}
 			add_to_variable = { ite_voluntary_cons = 1 }
 			add_manpower = 25000

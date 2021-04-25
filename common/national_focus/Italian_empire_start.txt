@@ -432,5 +432,190 @@
 		}
 		x = 6
 		y = 6
+		completion_reward = {
+			country_event = {	id = ite.3	}
+		}
+
+	}
+###############################################################################################
+###############################################################################################
+#######################################ITALIAN WARS############################################
+###############################################################################################
+###############################################################################################
+
+	shared_focus = {
+		id = ITE_long_road_north
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 6
+		y = 7
+		allow_branch = {
+			has_global_flag = italian_wars
+		}
+		prerequisite = {
+			focus = ITE_as_long_as_austria_dont_look
+		}
+
+	}
+	shared_focus = {
+		id = ITE_guerra_in_montagna
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_long_road_north
+		}
+		mutually_exclusive = {
+			focus = ITE_theory_of_sea_landings
+		}
+		x = 2
+		y = 8
+
+	}
+	shared_focus = {
+		id = ITE_blow_from_sky
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_guerra_in_montagna
+		}
+		x = 1
+		y = 9
+
+	}
+	shared_focus = {
+		id = ITE_reorganize_mountain_garrisons
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_guerra_in_montagna
+		}
+		x = 3
+		y = 9
+
+	}
+	shared_focus = {
+		id = ITE_the_eternal_city
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_long_road_north
+		}
+		x = 6
+		y = 9
+
+	}
+	shared_focus = {
+		id = ITE_march_through_the_mountains
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_the_eternal_city
+		}
+		x = 4
+		y = 10
+
+	}
+	shared_focus = {
+		id = ITE_providence_on_the_side_of_the_big_battalions
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_the_eternal_city
+		}
+		x = 6
+		y = 10
+
+	}
+	shared_focus = {
+		id = ITE_and_breakout_machines
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_march_through_the_mountains
+		}
+		prerequisite = {
+			focus = ITE_providence_on_the_side_of_the_big_battalions
+		}
+		mutually_exclusive = {
+			focus = ITE_and_big_guns
+		}
+		x = 5
+		y = 11
+
+	}
+	shared_focus = {
+		id = ITE_restoration_of_communications
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_the_eternal_city
+		}
+		x = 8
+		y = 10
+
+	}
+	shared_focus = {
+		id = ITE_and_big_guns
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_restoration_of_communications
+		}
+		prerequisite = {
+			focus = ITE_providence_on_the_side_of_the_big_battalions
+		}
+		mutually_exclusive = {
+			focus = ITE_and_breakout_machines
+		}
+		x = 7
+		y = 11
+
+	}
+	shared_focus = {
+		id = ITE_theory_of_sea_landings
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_long_road_north
+		}
+		mutually_exclusive = {
+			focus = ITE_guerra_in_montagna
+		}
+		x = 10
+		y = 8
+
+	}
+	shared_focus = {
+		id = ITE_new_capacities
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_theory_of_sea_landings
+		}
+		x = 9
+		y = 9
+
+	}
+	shared_focus = {
+		id = ITE_wealth_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_and_big_guns
+			focus = ITE_and_breakout_machines
+		}
+		x = 6
+		y = 12
+
+	}
+	shared_focus = {
+		id = ITE_royal_marines
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_theory_of_sea_landings
+		}
+		x = 11
+		y = 9
 
 	}
