@@ -1,0 +1,67 @@
+﻿l_english:
+#############Название############
+ISR_utopism:0 "Milan Commune"
+ISR_prometeism:0 "Milan Commune"
+ISR_communitarianism:0 "Milan Commune"
+ISR_individualism:0 "Milan Commune"
+ISR_liberalism:0 "Milan Commune"
+ISR_conservatism:0 "Milan Commune"
+ISR_oligarchy:0 "Milan Commune"
+ISR_paternalism:0 "Milan Commune"
+ISR_reactionary:0 "Milan Commune"
+ISR_utopism_ADJ:0 "Milanes"
+ISR_prometeism_ADJ:0 "Milanese"
+ISR_communitarianism_ADJ:0 "Milanese"
+ISR_individualism_ADJ:0 "Milanese"
+ISR_liberalism_ADJ:0 "Milanese"
+ISR_conservatism_ADJ:0 "Milanese"
+ISR_oligarchy_ADJ:0 "Milanese"
+ISR_paternalism_ADJ:0 "Milanese"
+ISR_reactionary_ADJ:0 "Milanese"
+
+#############Партии############
+ISR_utopism_party:0 "BR-VP"
+ISR_utopism_party_long:0 "Bandiera Rossa - Vendetta Popolare (Red Banner - Рeople's Revenge)" 
+ISR_prometeism_party:0 "BR-PSI"
+ISR_prometeism_party_long:0 "Bandiera Rossa - Partito Socialista Italiano (Red Banner - Italian Socialist Party)"
+ISR_communitarianism_party:0 "BR-PSI/BR-P"
+ISR_communitarianism_party_long:0 "Bandiera Rossa - Partito Socialista Italiano/Bandiera Rossa - Populares (Red Banner - Italian Socialist Party/Red Banner - Populares)"
+ISR_individualism_party:0 "Futuristi"
+ISR_individualism_party_long:0 "Futuristi (Futurists)"
+ISR_liberalism_party:0 "liberali"
+ISR_liberalism_party_long:0 "liberali (liberals)" 
+ISR_conservatism_party:0 "Progressisti"
+ISR_conservatism_party_long:0 "Progressisti (Progressives)"
+ISR_oligarchy_party:0 ""
+ISR_oligarchy_party_long:0 ""
+ISR_paternalism_party:0 ""
+ISR_paternalism_party_long:0 ""
+ISR_reactionary_party:0 "S"
+ISR_reactionary_party_long:0 ""
+#############Министры############
+ISR_Luigi_Maglione:0 "Luigi Maglione"
+ISR_Benedetto_Aloisi_Masella:0 "Benedetto Aloisi Masella"
+ISR_Giovanni_Montini:0 "Giovanni Montini"
+ISR_Amleto_Giovanni_Cicognani:0 "Amleto Giovanni Cicognani"
+ISR_Josemaria_Escriva:0 "Josemaria Escriva"
+
+#############Министры-трейты############
+Soft_Conservative:0 "Soft Conservative"
+Peace_Officer:0 "Peace-Officer"
+Young_Aristocrat:0 "Young Aristocrat"
+Church_Banker:0 "Church Banker"
+Young_Recruiter:0 "Young Recruiter"
+
+#############Духи############
+
+#############Ивенты############
+pop.1.t:0 "Shadows from the South"
+pop.1.d:0 ""
+pop.1.a:0 "With God's help"
+
+#############Решения############
+
+
+#############Тултипы############
+
+#############Фокусы############

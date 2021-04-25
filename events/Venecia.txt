@@ -182,3 +182,295 @@
 		}
 	}
 	}
+	country_event = { #Отчистить улицы - не получилось
+	id = ven.13
+	title = ven.13.t
+	desc = ven.13.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ven.13.a
+		842 = {	set_demilitarized_zone = yes	}
+		843 = {	set_demilitarized_zone = yes	}
+		159 = {	set_demilitarized_zone = yes	}
+		add_ideas = milan_strike
+	}
+	}
+	country_event = { #Наводнить улицы - не получилось
+	id = ven.12
+	title = ven.12.t
+	desc = ven.12.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ven.12.a
+		842 = {	set_demilitarized_zone = yes	}
+		843 = {	set_demilitarized_zone = yes	}
+		159 = {	set_demilitarized_zone = yes	}
+		add_ideas = milan_strike
+	}
+	}
+	country_event = { #Провал - Противостояние 
+	id = ven.10
+	title = ven.10.t
+	desc = ven.10.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = { #играть за коммунаров
+		name = ven.10.a
+		
+		hidden_effect = {
+			842 = {	set_demilitarized_zone = no	}
+			843 = {	set_demilitarized_zone = no	}
+			159 = {	set_demilitarized_zone = no	}
+			VEN = {
+				remove_state_core = 159
+				remove_state_core = 842
+				remove_state_core = 843
+				remove_ideas = milan_strike
+				add_popularity = {
+					ideology = utopism
+					popularity = -1
+				}
+				add_popularity = {
+					ideology = prometeism
+					popularity = -1
+				}
+				add_popularity = {
+					ideology = communitarianism
+					popularity = -1
+				}
+			}
+			ISR = {
+			    transfer_state = 159
+			    transfer_state = 842
+				transfer_state = 843
+			}
+			declare_war_on = { target = ISR type = annex_everything }
+		    ISR = {
+
+		        add_state_core = 159
+		        add_state_core = 842
+		        add_state_core = 843
+
+			    set_global_flag = italitan_revolution
+			    inherit_technology = VEN
+			    load_oob = ISR_1936
+			    load_focus_tree = ISR_start
+
+			    declare_war_on = { target = VEN type = annex_everything }
+		    }
+		}
+		
+		ISR = { change_tag_from = VEN }
+		
+	}
+	option = { #играть за коммунаров
+		name = ven.10.b
+		
+		hidden_effect = {
+			842 = {	set_demilitarized_zone = no	}
+			843 = {	set_demilitarized_zone = no	}
+			159 = {	set_demilitarized_zone = no	}
+			VEN = {
+				remove_state_core = 159
+				remove_state_core = 842
+				remove_state_core = 843
+				remove_ideas = milan_strike
+				add_popularity = {
+					ideology = utopism
+					popularity = -1
+				}
+				add_popularity = {
+					ideology = prometeism
+					popularity = -1
+				}
+				add_popularity = {
+					ideology = communitarianism
+					popularity = -1
+				}
+			}
+			ISR = {
+			    transfer_state = 159
+			    transfer_state = 842
+				transfer_state = 843
+			}
+			declare_war_on = { target = ISR type = annex_everything }
+		    ISR = {
+
+		        add_state_core = 159
+		        add_state_core = 842
+		        add_state_core = 843
+
+			    set_global_flag = italitan_revolution
+			    inherit_technology = VEN
+			    load_oob = ISR_1936
+			    load_focus_tree = ISR_start
+
+			    declare_war_on = { target = VEN type = annex_everything }
+		    }
+		}
+		
+	}
+	}
+	
+	country_event = { #Провал - Сотрудничесво
+	id = ven.11
+	title = ven.11.t
+	desc = ven.11.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = { #играть за коммунаров
+		name = ven.11.a
+		
+		hidden_effect = {
+			842 = {	set_demilitarized_zone = no	}
+			843 = {	set_demilitarized_zone = no	}
+			159 = {	set_demilitarized_zone = no	}
+			VEN = {
+				remove_state_core = 159
+				remove_state_core = 842
+				remove_state_core = 843
+				remove_ideas = milan_strike
+				add_popularity = {
+					ideology = utopism
+					popularity = -1
+				}
+				add_popularity = {
+					ideology = prometeism
+					popularity = -1
+				}
+				add_popularity = {
+					ideology = communitarianism
+					popularity = -1
+				}
+			}
+			ISR = {
+			    transfer_state = 159
+			    transfer_state = 842
+				transfer_state = 843
+			}
+			declare_war_on = { target = ISR type = annex_everything }
+		    ISR = {
+
+		        add_state_core = 159
+		        add_state_core = 842
+		        add_state_core = 843
+
+			    set_global_flag = italitan_revolution
+			    inherit_technology = VEN
+			    load_oob = ISR_1936
+			    load_focus_tree = ISR_start
+
+			    declare_war_on = { target = VEN type = annex_everything }
+		    }
+		}
+		
+		ISR = { change_tag_from = VEN }
+		
+	}
+	option = { #играть за коммунаров
+		name = ven.11.b
+		
+		hidden_effect = {
+			842 = {	set_demilitarized_zone = no	}
+			843 = {	set_demilitarized_zone = no	}
+			159 = {	set_demilitarized_zone = no	}
+			VEN = {
+				remove_state_core = 159
+				remove_state_core = 842
+				remove_state_core = 843
+				remove_ideas = milan_strike
+				add_popularity = {
+					ideology = utopism
+					popularity = -1
+				}
+				add_popularity = {
+					ideology = prometeism
+					popularity = -1
+				}
+				add_popularity = {
+					ideology = communitarianism
+					popularity = -1
+				}
+			}
+			ISR = {
+			    transfer_state = 159
+			    transfer_state = 842
+				transfer_state = 843
+			}
+			declare_war_on = { target = ISR type = annex_everything }
+		    ISR = {
+
+		        add_state_core = 159
+		        add_state_core = 842
+		        add_state_core = 843
+
+			    set_global_flag = italitan_revolution
+			    inherit_technology = VEN
+			    load_oob = ISR_1936
+			    load_focus_tree = ISR_start
+
+			    declare_war_on = { target = VEN type = annex_everything }
+		    }
+		}
+		
+	}
+	}
+	
+	country_event = { #Король перехватыввает власть
+	id = ven.14
+	title = ven.14.t
+	desc = ven.14.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ven.14.a
+		set_politics = {
+			ruling_party = paternalism
+		}
+		add_popularity = {
+			ideology = paternalism
+			popularity = 0.40
+        }
+		swap_ideas = {
+			remove_idea = industrial_oligarchy
+			add_idea = industrial_oligarchy_crash
+		}
+	}
+	}
+	
+	country_event = { #Олигархи устранаяют короля
+	id = ven.15
+	title = ven.15.t
+	desc = ven.15.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ven.15.a
+		add_popularity = {
+			ideology = paternalism
+			popularity = -0.30
+        }
+		add_popularity = {
+			ideology = oligarchy
+			popularity = 0.30
+        }
+		swap_ideas = {
+			remove_idea = industrial_oligarchy
+			add_idea = industrial_oligarchy_crash
+		}
+	}
+	}

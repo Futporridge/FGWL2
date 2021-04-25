@@ -190,11 +190,8 @@
 		completion_reward = {
 			remove_ideas = milan_strike_ag_0
 			hidden_effect = {
-				country_event = {
-				    id = ven.10
-				    days = 2
-			    }
-	    }
+				country_event = {	id = ven.13	}
+			}
 		}
 
 	}
@@ -503,12 +500,9 @@
 		completion_reward = {
 			remove_ideas = milan_strike_all
 			hidden_effect = {
-				country_event = {
-				    id = ven.11
-				    days = 2
-			    }
+				country_event = {	id = ven.12	}
+			}
 		}
-
 	}
 	shared_focus = {
 		id = VEN_Gettare
@@ -525,9 +519,21 @@
 		y = 8
 		
 		completion_reward = {
-			country_event = {
-				id = ven.12
-				days = 5
+			if = {
+				limit = {
+					has_completed_focus = VEN_flood_the_streets
+				}
+				country_event = {	id = ven.14	}
+				Custom_effect_tooltip = VEN_Gettare_1_text
+				
+			}
+			if = {
+				limit = {
+					has_completed_focus = VEN_sweep_the_streets
+				}
+				country_event = {	id = ven.15	}
+				Custom_effect_tooltip = VEN_Gettare_2_text
+				
 			}
 		}
 
@@ -543,9 +549,29 @@
 		y = 9
 		
 		completion_reward = {
-			country_event = {
-				id = ven.13
-				days = 3
+			if = {
+				limit = {
+					has_completed_focus = VEN_flood_the_streets
+				}
+				Custom_effect_tooltip = VEN_Colpire_1_text
+				hidden_effect = {
+					country_event = {
+						id = ven.11
+						days = 2
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = VEN_sweep_the_streets
+				}
+				Custom_effect_tooltip = VEN_Colpire_2_text
+				hidden_effect = {
+					country_event = {
+						id = ven.10
+						days = 2
+					}
+				}
 			}
 		}
 
