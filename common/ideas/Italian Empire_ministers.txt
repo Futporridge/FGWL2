@@ -1,0 +1,345 @@
+ideas = {
+
+	country = {
+		renovatio_imperii = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = renovatio_imperii 
+			
+			modifier = {
+				political_power_gain = 0.25
+				research_speed_factor = 0.05
+				stability_factor = 0.10
+				war_support_factor = 0.20
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		undeveloped_industry = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = great_depression
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.2
+				production_factory_efficiency_gain_factor = -0.15
+				consumer_goods_factor = 0.15
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		progressive_monarchy = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = progressive_monarchy
+			
+			modifier = {
+				conservatism_drift = 0.03
+				liberalism_drift = 0.05
+				communitarianism_drift = 0.03
+				conservatism_acceptance = 85
+				liberalism_acceptance = 85
+				communitarianism_acceptance = 85
+				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		grande_esercito_trad = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = grande_esercito_trad 
+			
+			modifier = {
+				conscription = 0.03
+				dig_in_speed = 5
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		grande_esercito_mod = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = grande_esercito_mod 
+			
+			modifier = {
+				experience_gain_army_factor = 0.20
+				breakthrough_factor = 0.15
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		labor_front_0 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = labor_front_0 
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		labor_front_mod_0 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = labor_front_mod_0 
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.15
+				production_factory_max_efficiency_factor = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		labor_front_tard_0 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = labor_front_tard_0 
+			
+			modifier = {
+			    production_factory_efficiency_gain_factor = 0.1
+				production_lack_of_resource_penalty_factor = -0.20
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		labor_front_mod_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = labor_front_mod_1 
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.15
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_start_efficiency_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		operation_avalanche = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = operation_avalanche 
+			
+			modifier = {
+				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		operation_avalanche_speed = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = operation_avalanche 
+			
+			modifier = {
+				terrain_penalty_reduction = 0.25
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		operation_avalanche_speed_big = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = operation_avalanche 
+			
+			modifier = {
+				terrain_penalty_reduction = 0.25
+				recruitable_population = 0.01
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		operation_avalanche_speed_big_comm = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = operation_avalanche 
+			
+			modifier = {
+				terrain_penalty_reduction = 0.25
+				recruitable_population = 0.01
+				industry_repair_factor = 0.3
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		operation_avalanche_speed_big_comm_tank = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = operation_avalanche 
+			
+			modifier = {
+				terrain_penalty_reduction = 0.25
+				recruitable_population = 0.01
+				industry_repair_factor = 0.3
+				army_armor_attack_factor = 0.15
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		operation_avalanche_speed_big_comm_art = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = operation_avalanche 
+			
+			modifier = {
+				terrain_penalty_reduction = 0.25
+				recruitable_population = 0.01
+				industry_repair_factor = 0.3
+				army_artillery_attack_factor = 0.15
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		
+		
+		}
+		head_of_state = {
+
+		ITE_Luis_Napoleon = {
+
+		
+
+			allowed = {
+				original_tag = "ITE"
+			}
+			available = {
+			always = false
+			}
+			
+			traits = {	Prudent_Dilettante	}
+		}
+		}
+		political_advisor = {
+
+		
+		ITE_Enrico_Nicola = {
+			
+			
+			allowed = {
+				original_tag = "ITE"
+			}
+			
+						
+			traits = { Accommodating_Chairperson  }
+		}
+		ITE_Vito_Reale = {
+			
+			
+			allowed = {
+				original_tag = "ITE"
+			}
+			
+						
+			traits = { Modest_Official }
+		}
+		ITE_Enrico_Caviglia = {
+			
+			
+			allowed = {
+				original_tag = "ITE"
+			}
+			
+						
+			traits = { Pedantic_Marshal }
+		}
+		
+		ITE_Andrea_Finocchiaro_Aprile = {
+			
+			
+			allowed = {
+				original_tag = "ITE"
+			}
+			
+						
+			traits = { Southern_Liberal }
+		}
+		
+		}
+	}

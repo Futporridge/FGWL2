@@ -512,7 +512,7 @@
 		y = 9
 		
 		completion_reward = {
-		tooltip = ITE_reorganize_mountain_garrisons
+		Custom_effect_tooltip = ITE_reorganize_mountain_garrisons
 		load_obb = ITE_mountaineers
 		}
 
@@ -528,7 +528,7 @@
 		y = 9
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = ITE_the_eternal_city_text
+				Custom_effect_tooltip = ITE_the_eternal_city_text
 				OR = {
 					NOT = {
 						AUS = { has_government = reactionary }
@@ -719,7 +719,7 @@
 		y = 12
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = ITE_wealth_of_the_north_text
+				Custom_effect_tooltip = ITE_wealth_of_the_north_text
 				has_country_flag = ite_capture_of_rome
 			}
 		}
