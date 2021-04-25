@@ -45,6 +45,16 @@ create_country_leader = {
 
 	}
 }
+create_country_leader = {
+	name = "Filippo Marinetti"
+	desc = "POLITICS_FILIPPO_MARINETTI_DESC"
+	picture = "gfx/leaders/ITE/Portrait_Filippo_Marinetti.tga"
+	expire = "1965.1.1"
+	ideology = individualism
+	traits = { 
+
+	}
+}
 create_field_marshal = {
 	name = "Rodolfo Graziani"
 	portrait_path = "gfx/leaders/TUS/Portrait_Rodolfo_Graziani.tga"

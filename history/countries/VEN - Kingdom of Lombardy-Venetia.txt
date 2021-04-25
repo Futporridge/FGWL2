@@ -62,6 +62,16 @@ create_country_leader = {
 
 	}
 }
+create_country_leader = {
+	name = "Filippo Marinetti"
+	desc = "POLITICS_FILIPPO_MARINETTI_DESC"
+	picture = "gfx/leaders/ITE/Portrait_Filippo_Marinetti.tga"
+	expire = "1965.1.1"
+	ideology = individualism
+	traits = { 
+
+	}
+}
 
 create_country_leader = {
 	name = "Luigi Longo" #Bruno Filippi
