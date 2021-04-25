@@ -1,0 +1,383 @@
+﻿division_template = {
+	name = "Dansk Infanteridivision"
+
+	division_names_group = DAN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+	    artillery = { x = 0 y = 0 }
+	}	
+}
+
+division_template = {
+	name = "Jääkäripataljoona"
+
+	division_names_group = FIN_CHA_01
+
+	regiments = {
+		chasseurs = { x = 0 y = 0 }
+		chasseurs = { x = 0 y = 1 }
+		chasseurs = { x = 0 y = 2 }
+	}
+	
+}
+
+division_template = {
+	name = "Panservognbataljon"
+
+	division_names_group = DEN_ARC_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		armor_car = { x = 0 y = 2 }
+	}
+	
+}
+
+division_template = {
+	name = "Norsk Bergdivison"		#
+	division_names_group = NOR_Mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+	}
+	support = {
+	    artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Dansk Kavaleridivision"
+
+	division_names_group = DEN_Cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Norsk Infanteridivisjon"
+
+	division_names_group = NOR_inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+	}
+	support = {
+	    artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Svensk Infanteridivision"
+
+	division_names_group = SWE_inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+	}
+}
+division_template = {
+	name = "Svensk Kavaleridivision"
+
+	division_names_group = SWE_Cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+	}
+}
+units = {
+
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6287
+		division_template = "Dansk Infanteridivision"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 3325
+		division_template = "Dansk Infanteridivision"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 6364
+		division_template = "Dansk Infanteridivision"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 11251
+		division_template = "Dansk Infanteridivision"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 317
+		division_template = "Dansk Infanteridivision"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6287
+		division_template = "Panservogn Bilbataljon"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6287
+		division_template = "Dansk Kavaleridivision"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 6364
+		division_template = "Dansk Kavaleridivision"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3151
+		division_template = "Jääkäripataljoona"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 104
+		division_template = "Jääkäripataljoona"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6050
+		division_template = "Svensk Infanteridivision"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 299
+		division_template = "Svensk Infanteridivision"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 3083
+		division_template = "Svensk Infanteridivision"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 3122
+		division_template = "Svensk Infanteridivision"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 3137
+		division_template = "Svensk Infanteridivision"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 11105
+		division_template = "Svensk Infanteridivision"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		}
+		location = 9206
+		division_template = "Svensk Infanteridivision"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 383
+		division_template = "Svensk Kavaleridivision"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 11380
+		division_template = "Svensk Kavaleridivision"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6115
+		division_template = "Norsk Infanteridivisjon"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 122
+		division_template = "Norsk Infanteridivisjon"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 3022
+		division_template = "Norsk Infanteridivisjon"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 192
+		division_template = "Norsk Bergdivison"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 53
+		division_template = "Norsk Bergdivison"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 9296
+		division_template = "Norsk Bergdivison"
+		start_experience_factor = 0.3
+	}	
+}
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "KAL"
+		}
+		requested_factories = 5
+		progress = 0.1
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = armor_car_equipment_1
+			creator = "KAL"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "KAL"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "KAL"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}	
+}
+
+#####################

@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = KAL
-		add_core_of = KAL
+
 		buildings = {
 			infrastructure = 3
 			12885 = {
