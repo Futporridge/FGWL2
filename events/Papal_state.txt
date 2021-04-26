@@ -228,11 +228,11 @@
 		tag = POP
 		has_government = reactionary
 		OR = {
-			reactionary < 0.35
-			has_stability < 0.35
+			reactionary < 0.20
+			has_stability < 0.2
 		}
 	}
-	mean_time_to_happen = { days = 10 }
+	mean_time_to_happen = { days = 15 }
 	
 	option = {
 		name = pop.12.a
