@@ -3746,6 +3746,23 @@ young_diplomat = {
             factor = 1
         }
 	}
+	father_of_the_nation = {
+        random = no
+        political_power_factor = 0.05
+        stability_factor = 0.05
+		war_support_factor = 0.025
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	Politicized_priest = {
+        random = no
+        political_power_factor = 0.05
+        enemy_declare_war_tension = 0.3
+        ai_will_do = {
+            factor = 1
+        }
+	}
 	
 	###############################POP##############################
 	Soft_Conservative = {
