@@ -3,7 +3,7 @@
 	add_namespace = auscol
 	add_namespace = ausnews	
 	add_namespace = ausrt	
-	add_namespace = auscw	
+	add_namespace = auscw
 
 
 	country_event = {
@@ -2888,5 +2888,19 @@ load_oob = AUS_order_66
 		GCS = {
 	country_event = { days = 1 id = gcs.2 }
 		}	
+	}
+}
+news_event = {
+	id = ausnews.1
+	title = ausnews.1.t
+	desc = ausnews.1.d
+	picture = GFX_news_event_angelis_republic
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ausnews.1.a
 	}
 }

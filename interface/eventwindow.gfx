@@ -62,7 +62,14 @@ spriteTypes = {
 		name = "GFX_paper_clip_event"
 		texturefile = "gfx/interface/events/clip.dds"
 	}
-
+	spriteType = {
+		name = "GFX_event_button_news_minimize"
+		texturefile = "gfx/interface/events/event_button_news_minimize.dds"
+	}
+	spriteType = {
+		name = "GFX_event_option_news"
+		texturefile = "gfx/interface/events/event_option_news.dds"
+	}	
 	frameAnimatedSpriteType = {
 		name = "GFX_event_operative_background"
 		texturefile = "gfx/interface/events/event_operative_bg.dds"
