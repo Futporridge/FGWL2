@@ -157,7 +157,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "btn_minimize"
-				position = {x=5 y=40}
+				position = {x=14 y=88}
 				spriteType = "GFX_event_button_minimize"
 				clicksound = click_default
 			}
