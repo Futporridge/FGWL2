@@ -1,0 +1,65 @@
+ideas = {
+
+		head_of_state = {
+
+		ISR_Antonio_Gramsci = {
+
+		
+
+			allowed = {
+				original_tag = "ISR"
+			}
+			available = {
+			always = false
+			}
+			
+			traits = {	Respected_Theorist	}
+		}
+		}
+		political_advisor = {
+
+		
+		ISR_Argo_Secondari = {
+			
+			
+			allowed = {
+				original_tag = "ISR"
+			}
+			
+						
+			traits = { Arditi_Leader  }
+		}
+		ISR_Giuseppe_Di_Vittorio = {
+			
+			
+			allowed = {
+				original_tag = "ISR"
+			}
+			
+						
+			traits = { Union_Boss }
+		}
+		ISR_Amadeo_Bordiga = {
+			
+			
+			allowed = {
+				original_tag = "ISR"
+			}
+			
+						
+			traits = { Professional_Revolutionary }
+		}
+		
+		ISR_Vittorio_Vidali = {
+			
+			
+			allowed = {
+				original_tag = "ISR"
+			}
+			
+						
+			traits = { Practitioner_Terrorist }
+		}
+		
+		}
+	}

@@ -440,7 +440,241 @@
 		y = 6
 		completion_reward = {
 			add_ideas = extensive_conscription
-			Custom_effect_tooltip = POP_the_congregation_of_church_text
+			set_country_flag = last_war
+			mark_focus_tree_layout_dirty = yes
 		}
+
+	}
+###################################################################Last war#####################################################################
+	shared_focus = {
+		id = POP_the_last_war
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 7
+		y = 7
+		allow_branch = {
+			has_country_flag = last_war
+		}
+		prerequisite = {
+			focus = POP_new_conscription
+		}
+
+	}
+	shared_focus = {
+		id = POP_redirect_workforces
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = POP_the_last_war
+		}
+		x = 5
+		y = 8
+
+	}
+	shared_focus = {
+		id = POP_emergency_repair
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = POP_redirect_workforces
+		}
+		x = 5
+		y = 9
+
+	}
+	shared_focus = {
+		id = POP_centralized_command
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = POP_the_last_war
+		}
+		x = 7
+		y = 8
+
+	}
+	shared_focus = {
+		id = POP_bites_into_the_ground
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = POP_centralized_command
+		}
+		x = 7
+		y = 9
+
+	}
+	shared_focus = {
+		id = POP_new_methods_of_propaganda
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = POP_the_last_war
+		}
+		x = 9
+		y = 8
+
+	}
+	shared_focus = {
+		id = POP_demonization_of_the_enemy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = POP_new_methods_of_propaganda
+		}
+		x = 9
+		y = 9
+
+	}
+	shared_focus = {
+		id = POP_rome_heritage
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = POP_emergency_repair
+		}
+		prerequisite = {
+			focus = POP_bites_into_the_ground
+		}
+		prerequisite = {
+			focus = POP_demonization_of_the_enemy
+		}
+		mutually_exclusive = {
+			focus = POP_crusader_legacy
+		}
+		x = 5
+		y = 10
+
+	}
+	shared_focus = {
+		id = POP_draft_nobles
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = POP_rome_heritage
+		}
+		x = 3
+		y = 11
+
+	}
+	shared_focus = {
+		id = POP_crusader_legacy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = POP_demonization_of_the_enemy
+		}
+		prerequisite = {
+			focus = POP_bites_into_the_ground
+		}
+		prerequisite = {
+			focus = POP_emergency_repair
+		}
+		mutually_exclusive = {
+			focus = POP_rome_heritage
+		}
+		x = 9
+		y = 10
+
+	}
+	shared_focus = {
+		id = POP_call_to_arms_the_faithful
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = POP_crusader_legacy
+		}
+		x = 9
+		y = 11
+
+	}
+	shared_focus = {
+		id = POP_International_exhortation
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = POP_call_to_arms_the_faithful
+		}
+		x = 9
+		y = 12
+
+	}
+	shared_focus = {
+		id = POP_cohort_after_cohort
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = POP_rome_heritage
+		}
+		x = 5
+		y = 11
+
+	}
+	shared_focus = {
+		id = POP_senate_of_rome
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = POP_draft_nobles
+		}
+		x = 3
+		y = 12
+
+	}
+	shared_focus = {
+		id = POP_people_of_rome
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = POP_cohort_after_cohort
+		}
+		x = 5
+		y = 12
+
+	}
+	shared_focus = {
+		id = POP_church_of_rome
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = POP_people_of_rome
+			focus = POP_senate_of_rome
+		}
+		x = 4
+		y = 13
+
+	}
+	shared_focus = {
+		id = POP_holy_war
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = POP_crusader_legacy
+		}
+		x = 11
+		y = 11
+
+	}
+	shared_focus = {
+		id = POP_leave_nothing
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = POP_holy_war
+		}
+		x = 11
+		y = 12
+
+	}
+	shared_focus = {
+		id = POP_novit_enim_dominus_qui_sunt_eius
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = POP_leave_nothing
+			focus = POP_International_exhortation
+		}
+		x = 10
+		y = 13
 
 	}

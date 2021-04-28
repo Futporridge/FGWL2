@@ -264,7 +264,7 @@
 			    set_global_flag = italitan_revolution
 			    inherit_technology = VEN
 			    load_oob = ISR_1936
-			    load_focus_tree = ISR_start
+			    load_focus_tree = Italian_Socialist_Republic_start
 
 			    declare_war_on = { target = VEN type = annex_everything }
 		    }
@@ -330,7 +330,7 @@
 			    set_global_flag = italitan_revolution
 			    inherit_technology = VEN
 			    load_oob = ISR_1936
-			    load_focus_tree = ISR_start
+			    load_focus_tree = Italian_Socialist_Republic_start
 
 			    declare_war_on = { target = VEN type = annex_everything }
 		    }
@@ -404,7 +404,7 @@
 			    set_global_flag = italitan_revolution
 			    inherit_technology = VEN
 			    load_oob = ISR_1936
-			    load_focus_tree = ISR_start
+			    load_focus_tree = Italian_Socialist_Republic_start
 
 			    declare_war_on = { target = VEN type = annex_everything }
 		    }
@@ -470,7 +470,7 @@
 			    set_global_flag = italitan_revolution
 			    inherit_technology = VEN
 			    load_oob = ISR_1936
-			    load_focus_tree = ISR_start
+			    load_focus_tree = Italian_Socialist_Republic_start
 
 			    declare_war_on = { target = VEN type = annex_everything }
 		    }

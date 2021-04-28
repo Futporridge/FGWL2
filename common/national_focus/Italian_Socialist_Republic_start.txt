@@ -1,0 +1,141 @@
+	shared_focus = {
+		id = ISR_triumph_of_the_revolution
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 9
+		y = 1
+
+	}
+	shared_focus = {
+		id = ISR_unified_propaganda_center
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ISR_triumph_of_the_revolution
+		}
+		x = 6
+		y = 2
+
+	}
+	shared_focus = {
+		id = ISR_art_of_agitation
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ISR_unified_propaganda_center
+		}
+		x = 5
+		y = 3
+
+	}
+	shared_focus = {
+		id = ISR_workers_self_government
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ISR_triumph_of_the_revolution
+		}
+		x = 9
+		y = 2
+
+	}
+	shared_focus = {
+		id = ISR_promote_overtime_work
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ISR_workers_self_government
+		}
+		prerequisite = {
+			focus = ISR_unified_propaganda_center
+		}
+		x = 8
+		y = 3
+
+	}
+	shared_focus = {
+		id = ISR_loot_arsenals
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ISR_triumph_of_the_revolution
+		}
+		x = 12
+		y = 2
+
+	}
+	shared_focus = {
+		id = ISR_factory_combat_squads
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ISR_loot_arsenals
+		}
+		prerequisite = {
+			focus = ISR_workers_self_government
+		}
+		x = 11
+		y = 3
+
+	}
+	shared_focus = {
+		id = ISR_guardia_rossa
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ISR_loot_arsenals
+		}
+		x = 13
+		y = 3
+
+	}
+	shared_focus = {
+		id = ISR_home_production
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ISR_promote_overtime_work
+		}
+		x = 9
+		y = 4
+
+	}
+	shared_focus = {
+		id = ISR_politically_motivated_troops
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ISR_art_of_agitation
+		}
+		x = 5
+		y = 4
+
+	}
+	shared_focus = {
+		id = ISR_free_exchange_with_farmlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ISR_promote_overtime_work
+		}
+		prerequisite = {
+			focus = ISR_unified_propaganda_center
+		}
+		x = 7
+		y = 4
+
+	}
+	shared_focus = {
+		id = ISR_elect_officers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ISR_guardia_rossa
+		}
+		prerequisite = {
+			focus = ISR_factory_combat_squads
+		}
+		x = 12
+		y = 4
+
+	}

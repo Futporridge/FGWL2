@@ -9,7 +9,11 @@ set_technology = {
 }
 
 add_ideas = {
-	
+ISR_Antonio_Gramsci
+ISR_Argo_Secondari
+ISR_Giuseppe_Di_Vittorio
+ISR_Amadeo_Bordiga
+ISR_Vittorio_Vidali
 } 
 
 set_politics = {
@@ -32,7 +36,10 @@ set_popularities = {
 }
 
 add_ideas = {
-
+defense_of_the_revolution
+lack_of_officers
+economic_instability
+food_crisis
 }
 
 set_convoys = 100

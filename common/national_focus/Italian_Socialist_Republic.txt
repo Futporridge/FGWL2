@@ -1,13 +1,14 @@
 focus_tree = {
-	id = papal_state_start
+	id = Italian_Socialist_Republic_start
 	country = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = POP
+			tag = ISR
 		}
 	}
 	default = no
-	shared_focus = POP_deus_vult
+	shared_focus = ISR_triumph_of_the_revolution
+	
 	continuous_focus_position = { x = 50 y = 5000 }
 }

@@ -1,0 +1,82 @@
+ideas = {
+
+	country = {
+		defense_of_the_revolution = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = industrial_oligarchy
+			
+			modifier = {
+				defence = 0.2
+				army_morale_factor = 0.3
+				army_org_factor = 0.3
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		lack_of_officers = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = industrial_oligarchy
+			
+			modifier = {
+				army_org_factor = -0.15
+				experience_gain_army_unit_factor = -0.5
+				max_planning = -15
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		economic_instability = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = industrial_oligarchy
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.1
+				consumer_goods_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		food_crisis = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = industrial_oligarchy
+			
+			modifier = {
+				monthly_population = -0.05
+				stability_weekly = -0.01
+				political_power_gain = -0.3
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		
+		}
+	}
