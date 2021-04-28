@@ -266,7 +266,7 @@
 	id = aus.2
 	title = aus.2.t
 	desc = aus.2.d
-	picture = GFX_
+	picture = GFX_report_event_aus_reichstag
 
 	is_triggered_only = yes
 	immediate = {
