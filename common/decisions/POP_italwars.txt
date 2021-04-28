@@ -190,5 +190,39 @@ POP_deus_vult = {
 			factor = 10
 		}
 	}
+	ITE_papal_call = {
+		fire_only_once = no
+		visible = {
+			always = yes
+		}
+		cost = 25
+		days_re_enable = 30
+		available = {
+			OR = {
+				reactionary < 0.40
+				has_stability < 0.40
+			}
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					reactionary < 0.40
+				}
+				add_popularity = {
+                ideology = reactionary
+			    popularity = 0.1
+				}
+			}
+			if = {
+				limit = {
+					stability < 0.40
+				}
+				add_stability = 0.1
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
 	
 }

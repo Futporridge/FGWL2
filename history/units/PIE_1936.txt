@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Divisione di fanteria II"			
+	name = "Divisione Fanteria I"			
 	division_names_group = ITE_INF_01
 
 	regiments = {
@@ -9,17 +9,12 @@
         infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-        infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
 	}
 	support = {
-       	engineer = { x = 0 y = 0 }
-       	artillery = { x = 0 y = 1 }
 	}
 }
 division_template = {
-	name = "Divisione di fanteria"			
+	name = "Divisione Fanteria II"			
 	division_names_group = ITE_INF_01
 
 	regiments = {
@@ -36,7 +31,7 @@ division_template = {
 }
 division_template = {
 	name = "Divisione di cavalleria"
-	division_names_group = POP_CAV_01
+	division_names_group = ITE_CAV_01
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -46,6 +41,21 @@ division_template = {
 		cavalry = { x = 1 y = 1 }
 		cavalry = { x = 1 y = 2 }
 	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Divisione di cavalleria II"
+	division_names_group = ITE_CAV_01
+
+	regiments = {
+		armor_car = { x = 0 y = 0 }
+		armor_car = { x = 0 y = 1 }
+		armor_car = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
 	support = {
 	}
 }
@@ -60,17 +70,8 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 9907
-		division_template = "Divisione di fanteria II"
-		start_experience_factor = 0.2
-	}
-	division= {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 6606
-		division_template = "Divisione di fanteria"
+		location = 6780
+		division_template = "Divisione Fanteria I"
 		start_experience_factor = 0.3
 	}
 	division= {
@@ -78,15 +79,41 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 6973
+		location = 817
+		division_template = "Divisione Fanteria II"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6788
+		division_template = "Divisione Fanteria II"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9909	
 		division_template = "Divisione di cavalleria"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 764
+		division_template = "Divisione di cavalleria II"
+		start_experience_factor = 0.3
 	}
 }
 	#########################
 	## STARTING PRODUCTION ##
 	#########################
 instant_effect = {
-
 }
 	#####################

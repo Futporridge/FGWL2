@@ -15,3 +15,31 @@ Archaic_Military_System:0 "Archaic Military System"
 Archaic_Military_System_desc:0 "Although the military system of the order has been reformed, it is still very archaic and decentralized, large cities and districts themselves are responsible for their protection and supply, centrally it is all managed only in wartime. With such odd system, it is absolutely impossible to produce any heavy weaponry, due to the fact that even a rich and large city alone does not have the industrial capacity to produce and maintain complex and expensive weapons, in addition to all of that, orders system favors corruption, and even is responsible for the shortages of recruits and underproduction of equipment in many regions."
 Knightly_Aristocracy_of_the_Order:0 "Knightly Aristocracy of the Order"
 Knightly_Aristocracy_of_the_Order_desc:0 "Knightly Aristocracy of the Order - With the entry into ever more recent times, the Teutonic Order had to reform its military system and the presence of the knight brothers was reduced only to generality and governorship, thus turning the order into something like a military aristocratic republic. The presence of the chivalrous aristocracy gave rise to fractionalism, corruption, personal armies, as well as the extreme backwardness of both the army and the political sphere of the Order. With the coup d'etat of the Teutonic Knighthood and the overthrow of Eugen of Austria, the power in the country passed to the very order of the aristocracy, only exacerbating the problems of the crippled Europe, if one is going to do something with the current situation in the order, he will have to start with the ancient aristocracy of the order itself."
+
+
+
+
+
+
+
+################Основные##################
+ undisturbed_isolation:0 "Undisturbed Isolation"
+ undisturbed_isolation_desc:0 "Still recovering from the Great Depression and the Dust Bowl famine, the nation is slowly rebuilding its infrastructure. America's industries are in most cases working at half capacity, and will keep doing so unless major events rouse the nation from torpor."
+ isolation:0 "Isolation"
+ civilian_economy:0 "Civilian Economy"
+ low_economic_mobilisation:0 "Early Mobilization"
+ partial_economic_mobilisation:0 "Partial Mobilization"
+ war_economy:0 "War Economy"
+ tot_economic_mobilisation:0 "Total Mobilization"
+ idea_group_mobilization_laws:0 "Conscription Laws"
+ disarmed_nation:0 "Disarmed Nation"
+ volunteer_only:0 "Volunteer Only"
+ limited_conscription:0 "Limited Conscription"
+ extensive_conscription:0 "Extensive Conscription"
+ service_by_requirement:0 "Service by Requirement"
+ all_adults_serve:0 "All Adults Serve"
+ scraping_the_barrel:0 "Scraping the Barrel"
+ free_trade:0 "Free Trade"
+ export_focus:0 "Export Focus"
+ limited_exports:0 "Limited Exports"
+ closed_economy:0 "Closed Economy"

@@ -439,7 +439,8 @@
 		x = 7
 		y = 6
 		completion_reward = {
-		Custom_effect_tooltip = POP_the_congregation_of_church_text
+			add_ideas = extensive_conscription
+			Custom_effect_tooltip = POP_the_congregation_of_church_text
 		}
 
 	}
