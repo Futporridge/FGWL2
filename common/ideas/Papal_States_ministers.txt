@@ -4,7 +4,7 @@ ideas = {
 
 		POP_Luigi_Maglione = {
 
-		
+		picture = Luigi_Maglione
 
 			allowed = {
 				original_tag = "POP"
@@ -21,6 +21,7 @@ ideas = {
 		
 		POP_Benedetto_Aloisi_Masella = { #Внешка
 			
+			picture = Benedetto_Aloisi_Masella
 			
 			allowed = {
 				original_tag = "POP"
@@ -31,6 +32,7 @@ ideas = {
 		}
 		POP_Giovanni_Montini = { #Внутреняя
 			
+			picture = giovanni_montini
 			
 			allowed = {
 				original_tag = "POP"
@@ -41,6 +43,7 @@ ideas = {
 		}
 		POP_Amleto_Giovanni_Cicognani = { #экономист
 			
+			picture = amleto_giovanni_cicognani
 			
 			allowed = {
 				original_tag = "POP"
@@ -52,6 +55,7 @@ ideas = {
 		
 		POP_Josemaria_Escriva = { #разведка
 			 
+			 picture = josemaria_escriva
 	
 			allowed = {
 				original_tag = "POP"
