@@ -193,7 +193,7 @@ ideas = {
 			picture = milan_strike
 			
 			modifier = {
-				stability_weekly = -0.05
+				stability_weekly = -0.01
 				utopism_drift = 0.2
 				prometeism_drift = 0.2
 				communitarianism_drift = 0.2
@@ -239,9 +239,6 @@ ideas = {
 			picture = milan_strike
 			
 			modifier = {
-				utopism_drift = 0.05
-				prometeism_drift = 0.05
-				communitarianism_drift = 0.07
 				consumer_goods_factor = 0.3
 				industrial_capacity_factory = -0.25
 				industrial_capacity_dockyard = -0.25

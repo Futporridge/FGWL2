@@ -233,7 +233,6 @@
 				remove_state_core = 159
 				remove_state_core = 842
 				remove_state_core = 843
-				remove_ideas = milan_strike
 				add_popularity = {
 					ideology = utopism
 					popularity = -1
@@ -246,6 +245,9 @@
 					ideology = communitarianism
 					popularity = -1
 				}
+				remove_ideas = milan_strike
+				remove_ideas = milan_strike_all
+				remove_ideas = milan_strike_ag_0
 			}
 			ISR = {
 			    transfer_state = 159
@@ -282,7 +284,6 @@
 				remove_state_core = 159
 				remove_state_core = 842
 				remove_state_core = 843
-				remove_ideas = milan_strike
 				add_popularity = {
 					ideology = utopism
 					popularity = -1
@@ -295,6 +296,9 @@
 					ideology = communitarianism
 					popularity = -1
 				}
+				remove_ideas = milan_strike
+				remove_ideas = milan_strike_all
+				remove_ideas = milan_strike_ag_0
 			}
 			ISR = {
 			    transfer_state = 159
@@ -339,7 +343,6 @@
 				remove_state_core = 159
 				remove_state_core = 842
 				remove_state_core = 843
-				remove_ideas = milan_strike
 				add_popularity = {
 					ideology = utopism
 					popularity = -1
@@ -352,6 +355,9 @@
 					ideology = communitarianism
 					popularity = -1
 				}
+				remove_ideas = milan_strike
+				remove_ideas = milan_strike_all
+				remove_ideas = milan_strike_ag_0
 			}
 			ISR = {
 			    transfer_state = 159
@@ -388,7 +394,6 @@
 				remove_state_core = 159
 				remove_state_core = 842
 				remove_state_core = 843
-				remove_ideas = milan_strike
 				add_popularity = {
 					ideology = utopism
 					popularity = -1
@@ -401,6 +406,9 @@
 					ideology = communitarianism
 					popularity = -1
 				}
+				remove_ideas = milan_strike
+				remove_ideas = milan_strike_all
+				remove_ideas = milan_strike_ag_0
 			}
 			ISR = {
 			    transfer_state = 159

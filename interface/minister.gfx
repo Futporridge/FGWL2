@@ -391,4 +391,25 @@ spriteTypes = {
 		name = "GFX_idea_Eigil_Thune_Jacobsen"
 		texturefile = "gfx/interface/ideas/Ministers/Kalmar/Eigil_Thune_Jacobsen.dds"
 	}
+						####Papal####
+	spriteType = {
+		name = "GFX_idea_Luigi_Maglione"
+		texturefile = "gfx/interface/ideas/Ministers/Papal/Luigi_Maglione.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_Benedetto_Aloisi_Masella"
+		texturefile = "gfx/interface/ideas/Ministers/Papal/Benedetto_Aloisi_Masella.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_giovanni_montini"
+		texturefile = "gfx/interface/ideas/Ministers/Papal/giovanni_montini.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_amleto_giovanni_cicognani"
+		texturefile = "gfx/interface/ideas/Ministers/Papal/amleto_giovanni_cicognani.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_josemaria_escriva"
+		texturefile = "gfx/interface/ideas/Ministers/Papal/josemaria_escriva.dds"
+	}	
 }
