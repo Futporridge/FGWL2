@@ -268,6 +268,21 @@
 
 			    declare_war_on = { target = VEN type = annex_everything }
 		    }
+			
+			159 = {
+				add_building_construction = {
+				type = industrial_complex
+				level = 4
+				instant_build = yes
+				}
+			}
+			159 = {
+				add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+				}
+			}
 		}
 		
 		ISR = { change_tag_from = VEN }
@@ -319,6 +334,21 @@
 
 			    declare_war_on = { target = VEN type = annex_everything }
 		    }
+			
+			159 = {
+				add_building_construction = {
+				type = industrial_complex
+				level = 4
+				instant_build = yes
+				}
+			}
+			159 = {
+				add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+				}
+			}
 		}
 		
 	}
@@ -378,6 +408,21 @@
 
 			    declare_war_on = { target = VEN type = annex_everything }
 		    }
+			159 = {
+				add_building_construction = {
+				type = industrial_complex
+				level = 4
+				instant_build = yes
+				}
+			}
+			159 = {
+				add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+				}
+			}
+			
 		}
 		
 		ISR = { change_tag_from = VEN }
@@ -429,6 +474,21 @@
 
 			    declare_war_on = { target = VEN type = annex_everything }
 		    }
+			
+			159 = {
+				add_building_construction = {
+				type = industrial_complex
+				level = 4
+				instant_build = yes
+				}
+			}
+			159 = {
+				add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+				}
+			}
 		}
 		
 	}

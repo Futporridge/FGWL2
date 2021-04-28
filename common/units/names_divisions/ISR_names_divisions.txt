@@ -1,0 +1,236 @@
+﻿ISR_GUAROSS_01 = {# Red Guard
+	name = "Red Guard Division"
+	for_countries = { ISR }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	link_numbering_with = { ISR_INF_01 }
+	fallback_name = "%da Divisione di Guardie Rosse"
+	ordered = {
+		1 = { "%da Divisione di Guardie Rosse" }
+		2 = { "%da Divisione di Guardie Rosse" }
+		3 = { "%da Divisione di Guardie Rosse" }
+		4 = { "%da Divisione di Guardie Rosse" }
+		5 = { "%da Divisione di Guardie Rosse" }
+		6 = { "%da Divisione di Guardie Rosse" }
+		7 = { "%da Divisione di Guardie Rosse" }
+		8 = { "%da Divisione di Guardie Rosse" }
+		9 = { "%da Divisione di Guardie Rosse" }
+		10 = { "%da Divisione di Guardie Rosse" }
+		11 = { "%da Divisione di Guardie Rosse" }
+		12 = { "%da Divisione di Guardie Rosse" }
+		13 = { "%da Divisione di Guardie Rosse" }
+		14 = { "%da Divisione di Guardie Rosse" }
+		15 = { "%da Divisione di Guardie Rosse" }
+		16 = { "%da Divisione di Guardie Rosse" }
+		17 = { "%da Divisione di Guardie Rosse" }
+		18 = { "%da Divisione di Guardie Rosse" }
+		19 = { "%da Divisione di Guardie Rosse" }
+		20 = { "%da Divisione di Guardie Rosse" }
+		21 = { "%da Divisione di Guardie Rosse" }
+		22 = { "%da Divisione di Guardie Rosse" }
+		23 = { "%da Divisione di Guardie Rosse" }
+		24 = { "%da Divisione di Guardie Rosse" }
+		25 = { "%da Divisione di Guardie Rosse" }
+		26 = { "%da Divisione di Guardie Rosse" }
+		27 = { "%da Divisione di Guardie Rosse" }
+		28 = { "%da Divisione di Guardie Rosse" }
+		29 = { "%da Divisione di Guardie Rosse" }
+		30 = { "%da Divisione di Guardie Rosse" }
+		31 = { "%da Divisione di Guardie Rosse" }
+		32 = { "%da Divisione di Guardie Rosse" }
+		33 = { "%da Divisione di Guardie Rosse" }
+		34 = { "%da Divisione di Guardie Rosse" }
+		35 = { "%da Divisione di Guardie Rosse" }
+		36 = { "%da Divisione di Guardie Rosse" }
+		37 = { "%da Divisione di Guardie Rosse" }
+		38 = { "%da Divisione di Guardie Rosse" }
+		39 = { "%da Divisione di Guardie Rosse" }
+		40 = { "%da Divisione di Guardie Rosse" }
+		41 = { "%da Divisione di Guardie Rosse" }
+		42 = { "%da Divisione di Guardie Rosse" }
+		43 = { "%da Divisione di Guardie Rosse" }
+		44 = { "%da Divisione di Guardie Rosse" }
+		45 = { "%da Divisione di Guardie Rosse" }
+		46 = { "%da Divisione di Guardie Rosse" }
+		47 = { "%da Divisione di Guardie Rosse" }
+		48 = { "%da Divisione di Guardie Rosse" }
+		49 = { "%da Divisione di Guardie Rosse" }
+		50 = { "%da Divisione di Guardie Rosse" }
+	}
+}
+
+ISR_MAR_01 = {# Marines
+	name = "Marine Regiment"
+	for_countries = { ISR }
+	can_use = { always = yes }
+	division_types = { "marine" }
+	fallback_name = "%d° Reggimento da Sbarco"
+	ordered = {
+		1 = { "%d° Reggimento da Sbarco " }
+		2 = { "%d° Reggimento da Sbarco" }
+		3 = { "%d° Reggimento da Sbarco" }
+		4 = { "%d° Reggimento da Sbarco" }
+		5 = { "%d° Reggimento da Sbarco" }
+		6 = { "%d° Reggimento da Sbarco" }
+		7 = { "%d° Reggimento da Sbarco" }
+		8 = { "%d° Reggimento da Sbarco" }
+		9 = { "%d° Reggimento da Sbarco" }
+		10 = { "%d° Reggimento da Sbarco" }
+		11 = { "%d° Reggimento da Sbarco" }
+		12 = { "%d° Reggimento da Sbarco" }
+		13 = { "%d° Reggimento da Sbarco" }
+		14 = { "%d° Reggimento da Sbarco" }
+		15 = { "%d° Reggimento da Sbarco" }
+	}
+}
+ISR_MTN_01 = {# Mountaineers
+	name = "Mountain Division"
+	for_countries = { ISR }
+	can_use = { always = yes }
+	division_types = { "mountaineers" }
+	fallback_name = "%da Divisione Alpina"
+	ordered = {
+		1 = { "%da Divisione Alpina 'Castellino'" }
+		2 = { "%da Divisione Alpina 'Mondovì'" }
+		3 = { "%da Divisione Alpina 'Langhe Ovest'" }
+		4 = { "%da Divisione Alpina 'Pedaggera'" }
+		5 = { "%da Divisione Alpina 'Pusteria'" }
+		6 = { "%da Divisione Alpina 'Alpi Graje'" }
+		7 = { "%da Divisione Alpina 'Orobica'" }
+		8 = { "%da Divisione Alpina 'Cadore'" }
+	}
+}
+ISR_PAR_01 = {# Paratroopers
+	name = "Paratrooper Division"
+	for_countries = { ISR }
+	can_use = { always = yes }
+	division_types = { "paratrooper" }
+	link_numbering_with = { ISR_INF_02 }
+	fallback_name = "%da Divisione Paracadutisti"
+	ordered = {
+		80 = { "%da Divisione Aviotrasportabile 'La Spezia'" }
+		185 = { "%da Divisione Paracadutisti 'Folgore'" }
+		184 = { "%da Divisione Paracadutisti 'Nembo'" }
+		183 = { "%da Divisione Paracadutisti 'Ciclone'" }
+		181 = { "%da Divisione Paracadutisti" }
+		182 = { "%da Divisione Paracadutisti" }
+		186 = { "%da Divisione Paracadutisti" }
+		187 = { "%da Divisione Paracadutisti" }
+		188 = { "%da Divisione Paracadutisti" }
+		189 = { "%da Divisione Paracadutisti" }
+	}
+}
+ISR_CAV_01 = {# Cavalry Divisions
+	name = "Cavalry Regiment"
+	for_countries = { ISR }
+	can_use = { always = yes }
+	division_types = { "cavalry" }
+	fallback_name = "%d° Reggimento di Cavalleria"
+	ordered = {
+		10 = { "%d° Reggimento di Cavalleria" }
+		11 = { "%d° Reggimento di Cavalleria" }
+		12 = { "%d° Reggimento di Cavalleria" }
+		14 = { "%d° Reggimento di Cavalleria" }
+		16 = { "%d° Reggimento di Cavalleria" }
+		17 = { "%d° Reggimento di Cavalleria" }
+		18 = { "%d° Reggimento di Cavalleria" }
+		20 = { "%d° Reggimento di Cavalleria" }
+	}
+}
+ISR_MOT_01 = {# Motorized
+	name = "Motorized Division"
+	for_countries = { ISR }
+	can_use = { always = yes }
+	division_types = { "motorized" }
+	link_numbering_with = { ISR_INF_02 }	fallback_name = "%da Divisione Motorizzata"
+	ordered = {
+		9 = { "%da Divisione Autotrasportabile 'Pasubio'" }
+		10 = { "%da Divisione Autotrasportabile 'Cichero'" }
+		11 = { "%da Divisione Autotrasportabile 'Piave'" }
+		12 = { "%da Divisione Autotrasportabile 'Mingo'" }
+		13 = { "%da Divisione Autotrasportabile 'Pinan-Cichero'" }
+		14 = { "%da Divisione Autotrasportabile 'Nino Nannetti'" }
+		15 = { "%da Divisione Autotrasportabile 'Mario Gordini'" }
+		17 = { "%da Divisione Autotrasportabile 'Pavia'" }
+		25 = { "%da Divisione Autotrasportabile 'Bologna'" }
+		27 = { "%da Divisione Autotrasportabile 'Brescia'" }
+		8 = { "%da Divisione Motorizzata 'Po'" }
+		60 = { "%da Divisione Autotrasportabile 'Sabratha'" }
+		61 = { "%da Divisione Autotrasportabile 'Sirte'" }
+		62 = { "%da Divisione Autotrasportabile 'Marmarica'" }
+		63 = { "%da Divisione Autotrasportabile 'Cirene'" }
+		55 = { "%da Divisione Autotrasportabile 'Savona'" }
+		102 = { "%da Divisione Motorizzata 'Trento'" }
+		101 = { "%da Divisione Motorizzata 'Trieste'" }
+		52 = { "%da Divisione Autotrasportabile 'Torino'" }
+		64 = { "%da Divisione Autotrasportabile 'Catanzaro'" }
+		103 = { "%da Divisione Motorizzata 'Piacenza'" }
+		104 = { "%da Divisione Motorizzata 'Mantova'" }
+		105 = { "%da Divisione Motorizzata 'Rovigo'" }
+		106 = { "%da Divisione Motorizzata 'Rubicone'" }
+		107 = { "%da Divisione Motorizzata 'Volturno'" }
+		108 = { "%da Divisione Motorizzata 'Sila'" }
+		109 = { "%da Divisione Motorizzata" }
+		110 = { "%da Divisione Motorizzata" }
+		111 = { "%da Divisione Motorizzata" }
+		112 = { "%da Divisione Motorizzata" }
+		113 = { "%da Divisione Motorizzata" }
+		114 = { "%da Divisione Motorizzata" }
+		115 = { "%da Divisione Motorizzata" }
+	}
+}
+ISR_MEC_01 = {# Mechanized
+	name = "Mechanized Division"
+	for_countries = { ISR }
+	can_use = { always = yes }
+	division_types = { "mechanized" }
+	link_numbering_with = { ISR_INF_02 }
+	fallback_name = "%da Divisione Meccanizzata"
+	ordered = {
+		116 = { "%da Divisione Meccanizzata" }										# Filler divisions (116 - 130) start here
+		117 = { "%da Divisione Meccanizzata" }
+		118 = { "%da Divisione Meccanizzata" }
+		119 = { "%da Divisione Meccanizzata" }
+		120 = { "%da Divisione Meccanizzata" }
+		121 = { "%da Divisione Meccanizzata" }
+		122 = { "%da Divisione Meccanizzata" }
+		123 = { "%da Divisione Meccanizzata" }
+		124 = { "%da Divisione Meccanizzata" }
+		125 = { "%da Divisione Meccanizzata" }
+		126 = { "%da Divisione Meccanizzata" }
+		127 = { "%da Divisione Meccanizzata" }
+		128 = { "%da Divisione Meccanizzata" }
+		129 = { "%da Divisione Meccanizzata" }
+		130 = { "%da Divisione Meccanizzata" }
+	}
+}
+ISR_ARM_01 = {# Tanks
+	name = "Armored Division"
+	for_countries = { ISR }
+	can_use = { always = yes }
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+	link_numbering_with = { ISR_INF_02 }
+	fallback_name = "%da Divisione Corazzata"
+	ordered = {
+		132 = { "%da Divisione Corazzata" }
+		131 = { "%da Divisione Corazzata" }
+		133 = { "%da Divisione Corazzata" }
+		134 = { "%da Divisione Corazzata" }
+		136 = { "%da Divisione Corazzata" }
+		135 = { "%da Divisione Corazzata" }
+		137 = { "%da Divisione Corazzata" }
+		138 = { "%da Divisione Corazzata" }
+		139 = { "%da Divisione Corazzata" }
+		140 = { "%da Divisione Corazzata" }
+		141 = { "%da Divisione Corazzata" }
+		142 = { "%da Divisione Corazzata" }
+		143 = { "%da Divisione Corazzata" }
+		144 = { "%da Divisione Corazzata" }
+		145 = { "%da Divisione Corazzata" }
+		146 = { "%da Divisione Corazzata" }
+		147 = { "%da Divisione Corazzata" }
+		148 = { "%da Divisione Corazzata" }
+		149 = { "%da Divisione Corazzata" }
+		150 = { "%da Divisione Corazzata" }
+	}
+}
