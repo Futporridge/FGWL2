@@ -1627,7 +1627,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_fractionalism add_idea = TYR_ang_fractionalism1 }
 					}
 				}
 	shared_focus = {
@@ -1647,7 +1647,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_fractionalism1 add_idea = TYR_ang_fractionalism2 }		
 					}
 				}
 	shared_focus = {
@@ -1655,19 +1655,19 @@ focus_tree = {
 		icon = GFX_focus_TYR_political_guidance
 		x = 0
 		y = 1
-		prerequisite = { focus = TYR_Nationalist_Zeal }		
+		prerequisite = { focus = TYR_Reintegrate_the_Former_Red_Generals }		
 		cost = 2
 		ai_will_do = {
 			factor = 10
 		}
 		available_if_capitulated = yes
-		relative_position_id = TYR_Nationalist_Zeal				
+		relative_position_id = TYR_Reintegrate_the_Former_Red_Generals				
 		bypass = {
 			
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_sturmtruppen add_idea = TYR_sturmtruppen2 }
 					}
 				}				
 	shared_focus = {
@@ -1687,7 +1687,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_stability = -0.05
 					}
 				}
 	shared_focus = {
@@ -1695,19 +1695,19 @@ focus_tree = {
 		icon = GFX_focus_TYR_fight_the_old_guard
 		x = 0
 		y = 1
-		prerequisite = { focus = TYR_Reintegrate_the_Former_Red_Generals }		
+		prerequisite = { focus = TYR_Nationalist_Zeal }		
 		cost = 2
 		ai_will_do = {
 			factor = 10
 		}
 		available_if_capitulated = yes
-		relative_position_id = TYR_Reintegrate_the_Former_Red_Generals				
+		relative_position_id = TYR_Nationalist_Zeal				
 		bypass = {
 			
 				}
 
 		completion_reward = {
-		
+		remove_ideas = { TYR_ang_fractionalism2 }
 					}
 				}				
 	shared_focus = {
@@ -1727,7 +1727,9 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_stability = 0.05
+		add_political_power = 50
+		add_manpower = -9000
 					}
 				}
 	shared_focus = {
@@ -1747,7 +1749,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_army3 add_idea = TYR_army4 }
 					}
 				}
 	shared_focus = {
@@ -1769,7 +1771,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		remove_ideas = { TYR_army4 TYR_sturmtruppen2 }
+		add_ideas = { TYR_ang_republican_heer }
 					}
 				}
 	shared_focus = {
