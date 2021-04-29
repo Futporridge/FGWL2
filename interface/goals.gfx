@@ -2691,7 +2691,162 @@ spriteTypes = {
 		name = "GFX_focus_TYR_labor_army"
 		texturefile = "gfx/interface/goals/Focus_TYR_labor_army.dds"
 	}	
-	
+	SpriteType = { 
+		name = "GFX_focus_TYR_reform_the_imperial_army"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_reform_the_imperial_army.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_TYR_nationalist_zeal"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_nationalist_zeal.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_political_guidance"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_political_guidance.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_fight_the_old_guard"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_fight_the_old_guard.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_TYR_iron_discipline"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_iron_discipline.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_republican_heer"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_republican_heer.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_TYR_experimental_doctrine"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_experimental_doctrine.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_bring_the_mare_to_the_field"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_bring_the_mare_to_the_field.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_TYR_dopplesoldniers"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_dopplesoldniers.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_TYR_panzer_rnd_division"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_panzer_rnd_division.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_blitzkrieg"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_blitzkrieg.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_breakthrough_doctrine"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_breakthrough_doctrine.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_TYR_artillery_renewal"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_artillery_renewal.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_motorized_artillery"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_motorized_artillery.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_study_the_results"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_study_the_results.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_TYR_guns_and_butter"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_guns_and_butter.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_experiment_with_the_shells"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_experiment_with_the_shells.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_explosive_rain"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_explosive_rain.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_shake_the_earth"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_shake_the_earth.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_TYR_nationalist_military"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_nationalist_military.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_form_military_corporations"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_form_military_corporations.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_TYR_militarist_propoganda"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_militarist_propoganda.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_soldatenring_officers"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_soldatenring_officers.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_no_piece_of_land_to_enemy"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_no_piece_of_land_to_enemy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_furor_teutonicus"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_furor_teutonicus.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_accustomed_doctrine"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_accustomed_doctrine.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_expand_the_engineer_corps"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_expand_the_engineer_corps.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_prepare_troops_to_new_tactics"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_prepare_troops_to_new_tactics.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_expand_the_staff"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_expand_the_staff.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_explore_the_doctrine"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_explore_the_doctrine.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_expand_republican_stormtroopers"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_expand_republican_stormtroopers.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_defence_and_breakthrough"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_defence_and_breakthrough.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_human_wave_doctrines"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_human_wave_doctrines.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_morale_of_troops"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_morale_of_troops.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_equipment_renovation"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_equipment_renovation.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_tactical_renovation"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_tactical_renovation.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_expand_the_rifle_production"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_expand_the_rifle_production.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_musketeers_of_the_new_age"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_musketeers_of_the_new_age.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_of_swords_and_bands"
+		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_of_swords_and_bands.dds"
+	}	
 	
 	####Kalmaria####
 	SpriteType = { 
@@ -2742,5 +2897,14 @@ spriteTypes = {
 		name = "GFX_focus_KAL_Divine_Authority"
 		texturefile = "gfx/interface/goals/Focus_KAL_Divine_Authority.dds"
 	}
-	
+	####ESA####
+	SpriteType = { 
+		name = "GFX_Focus_ESA_be_quick_or_be_dead"
+		texturefile = "gfx/interface/goals/Focus_ESA_be_quick_or_be_dead.dds"
+	}
+	####ENG####
+	SpriteType = { 
+		name = "GFX_Focus_ENG_soldier_councils"
+		texturefile = "gfx/interface/goals/Focus_ENG_soldier_councils.dds"
+	}	
 }
