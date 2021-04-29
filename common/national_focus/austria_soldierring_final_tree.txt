@@ -1765,7 +1765,7 @@ focus_tree = {
 			factor = 10
 		}
 		available_if_capitulated = yes
-		relative_position_id = TYR_Fight_the_Old_Guard				
+		relative_position_id = TYR_Political_Guidance				
 		bypass = {
 			
 				}
