@@ -51,3 +51,98 @@
 		mark_focus_tree_layout_dirty = yes
 	}
 	}
+	
+	country_event = { #Востание либералов на сицилии
+	id = ite.4
+	title = ite.4.t
+	desc = ite.4.d
+	picture = GFX_
+	is_triggered_only = no
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ITE
+		has_global_flag = italian_wars
+		OR = {
+			liberalism > 0.40
+			has_stability < 0.1
+		}
+	}
+
+	option = {
+		name = ite.4.a
+		Custom_effect_tooltip = ite_4_a_text
+		hidden_effect = {
+			ITE = {
+				set_country_flag = ite_civil_war
+				set_politics = {
+					ruling_party = paternalism
+				}
+				set_political_party = {
+					ideology = paternalism
+					popularity = 40
+				}
+				remove_ideas = {
+					ITE_Andrea_Finocchiaro_Aprile
+					progressive_monarchy
+				}
+				remove_state_core = 115
+				declare_war_on = { target = SIC type = annex_everything }
+				add_popularity = {
+					ideology = liberalism
+					popularity = -1
+				}
+				add_popularity = {
+					ideology = communitarianism
+					popularity = -1
+				}
+			}
+			SIC = {
+				transfer_state = 115
+				add_state_core = 115
+				load_obb = SIC_1936
+				inherit_technology = ITE
+				declare_war_on = { target = ITE type = annex_everything }
+			}
+		}
+	}
+	
+	option = {
+		name = ite.4.b
+		Custom_effect_tooltip = ite_4_b_text
+		hidden_effect = {
+			ITE = {
+				set_country_flag = ite_civil_war
+				set_politics = {
+					ruling_party = paternalism
+				}
+				set_political_party = {
+					ideology = paternalism
+					popularity = 40
+				}
+				remove_ideas = {
+					ITE_Andrea_Finocchiaro_Aprile
+					progressive_monarchy
+				}
+				remove_state_core = 115
+				declare_war_on = { target = SIC type = annex_everything }
+				add_popularity = {
+					ideology = liberalism
+					popularity = -1
+				}
+				add_popularity = {
+					ideology = communitarianism
+					popularity = -1
+				}
+			}
+			SIC = {
+				transfer_state = 115
+				add_state_core = 115
+				load_obb = SIC_1936
+				inherit_technology = ITE
+				declare_war_on = { target = ITE type = annex_everything }
+			}
+			SIC = { change_tag_from = ITE }
+		}
+	}
+	}

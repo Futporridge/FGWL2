@@ -82,14 +82,30 @@ ITE_risorgimento = {
 		cost = 25
 		days_re_enable = 30
 		available = {
-				conservatism < 0.65
+			conservatism < 0.65
 		}
 		complete_effect = {
 			add_stability = 0.05
-			add_popularity = {
-                ideology = conservatism
-			    popularity = 0.1
-            }
+				if = {
+					limit = {
+						has_country_flag = ite_civil_war
+					}
+					add_popularity = {
+						ideology = paternalism
+						popularity = 0.1
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = ite_civil_war
+						}
+					}
+					add_popularity = {
+						ideology = conservatism
+						popularity = 0.1
+					}
+				}
 		}
 		ai_will_do = {
 			factor = 10

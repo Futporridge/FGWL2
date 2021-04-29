@@ -1,0 +1,57 @@
+capital = 115
+
+OOB = "SIC_1936"
+
+set_research_slots = 3
+
+set_technology = {
+}
+
+add_ideas = {
+	
+} 
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	utopism = 0
+	prometeism = 0
+	communitarianism = 30
+	liberalism = 60
+	oligarchy = 10
+	conservatism = 0
+	paternalism = 0
+	reactionary = 0
+}
+
+add_ideas = {
+
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Andrea Finocchiaro Aprile"
+	desc = "POLITICS_ANDREA_FINOCCHIARO_APRILE_DESC"
+	picture = "gfx/leaders/SIC/Portrait_Andrea_Finocchiaro_Aprile.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Filippo Marinetti"
+	desc = "POLITICS_FILIPPO_MARINETTI_DESC"
+	picture = "gfx/leaders/ITE/Portrait_Filippo_Marinetti.tga"
+	expire = "1965.1.1"
+	ideology = individualism
+	traits = { 
+
+	}
+}
