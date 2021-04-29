@@ -3820,4 +3820,59 @@ young_diplomat = {
 			factor = 1
 		}
 	}
+####################################################################ISR##############################################################
+	Respected_Theorist = {
+		random = no
+		
+		political_power_factor = 0.1
+		stability_factor = 0.05
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Arditi_Leader = {
+		random = no
+		
+		recruitable_population_factor = 0.05
+		breakthrough_factor = 0.05
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Union_Boss = {
+		random = no
+		
+		production_factory_max_efficiency_factor = 0.05
+		consumer_goods_factor = 0.01
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Professional_Revolutionary = {
+		random = no
+		
+		drift_defence_factor = 0.25
+		political_power_factor = -0.07
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Practitioner_Terrorist = {
+		random = no
+		
+		decryption_factor = 0.5
+		resistance_growth_on_our_occupied_states = -0.1
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

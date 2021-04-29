@@ -1,0 +1,62 @@
+﻿l_english:
+#############Название############
+SIC_utopism:0 "Sicilian Commune"
+SIC_prometeism:0 "Sicilian Commune"
+SIC_communitarianism:0 "Sicilian Commune"
+SIC_individualism:0 "Sicilian Commune"
+SIC_liberalism:0 "Republic of Sicily"
+SIC_conservatism:0 "Republic of Sicily"
+SIC_oligarchy:0 "Republic of Sicily"
+SIC_paternalism:0 "Republic of Sicily"
+SIC_reactionary:0 "Kingdom of the two Sicilies"
+SIC_utopism_ADJ:0 "Sicilian"
+SIC_prometeism_ADJ:0 "Sicilian"
+SIC_communitarianism_ADJ:0 "Sicilian"
+SIC_individualism_ADJ:0 "Sicilian"
+SIC_liberalism_ADJ:0 "Sicilian"
+SIC_conservatism_ADJ:0 "Sicilian"
+SIC_oligarchy_ADJ:0 "Sicilian"
+SIC_paternalism_ADJ:0 "Sicilian"
+SIC_reactionary_ADJ:0 "Sicilian"
+
+#############Партии############
+SIC_utopism_party:0 "VP"
+SIC_utopism_party_long:0 "La Vendetta del Popolo (Рeoples Revenge)" 
+SIC_prometeism_party:0 "PSI"
+SIC_prometeism_party_long:0 "Partito Socialista Italiano (Italian Socialist Party)"
+SIC_communitarianism_party:0 "PPI"
+SIC_communitarianism_party_long:0 "Partito Popolare Italiano (Italian People's Party)"
+SIC_individualism_party:0 "Futuristi"
+SIC_individualism_party_long:0 "Futuristi (Futurists)"
+SIC_liberalism_party:0 "Repubblicani"
+SIC_liberalism_party_long:0 "Repubblicani (Republicans)" 
+SIC_conservatism_party:0 "Progressisti"
+SIC_conservatism_party_long:0 "Progressisti (Progressives)"
+SIC_oligarchy_party:0 "UPT"
+SIC_oligarchy_party_long:0 "Unione dei Proprietari Terrieri (Union of Landowners)"
+SIC_paternalism_party:0 "PNM"
+SIC_paternalism_party_long:0 "Partito Nazionale Monarchico (Monarchist National Party)"
+SIC_reactionary_party:0 "UC"
+SIC_reactionary_party_long:0 "Unione Сattolica (Catholic Union)"
+#############Министры############
+
+
+#############Министры-трейты############
+
+
+
+#############Духи############
+
+#############Ивенты############
+ite.1.t:0 "Ricordi di un Impero"
+ite.1.d:0 ""
+ite.1.a:0 "Bridges burned"
+
+#############Решения############
+
+
+
+#############Тултипы############
+
+
+#############Фокусы############

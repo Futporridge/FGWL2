@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Guardia imperiale"			
-	division_names_group = ITE_ELIT_INF_01
+	division_names_group = ITAL_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -21,7 +21,39 @@
 	priority = 2 
 }
 division_template = {
-	name = "Divisione Fanteria"			
+	name = "Divisione Fanteria I"			
+	division_names_group = ITAL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+	
+	}
+}
+division_template = {
+	name = "Divisione Fanteria II"			
+	division_names_group = ITAL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Divisione Fanteria III"			
 	division_names_group = ITE_INF_01
 
 	regiments = {
@@ -33,20 +65,19 @@ division_template = {
 		infantry = { x = 1 y = 2 }
 	}
 	support = {
+		engineer = { x = 0 y = 0 }
        	artillery = { x = 0 y = 1 }
 	}
 }
 division_template = {
 	name = "Divisione guarnigione"			
-	division_names_group = ITE_DEF_01
+	division_names_group = ITAL_GAR_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
         infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
 	}
 	support = {	}
 	
@@ -54,7 +85,7 @@ division_template = {
 }
 division_template = {
 	name = "Divisione di cavalleria"
-	division_names_group = ITE_CAV_01
+	division_names_group = ITAL_CAV_01
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -88,7 +119,7 @@ units = {
 			name_order = 1
 		}
 		location = 923
-		division_template = "Divisione Fanteria"
+		division_template = "Divisione Fanteria I"
 		start_experience_factor = 0.3
 	}
 	division= {
@@ -97,7 +128,7 @@ units = {
 			name_order = 1
 		}
 		location = 963
-		division_template = "Divisione Fanteria"
+		division_template = "Divisione Fanteria II"
 		start_experience_factor = 0.3
 	}
 	division= {
@@ -106,7 +137,7 @@ units = {
 			name_order = 1
 		}
 		location = 3910
-		division_template = "Divisione Fanteria"
+		division_template = "Divisione Fanteria II"
 		start_experience_factor = 0.3
 	}
 	division= {
@@ -115,7 +146,7 @@ units = {
 			name_order = 1
 		}
 		location = 9838
-		division_template = "Divisione Fanteria"
+		division_template = "Divisione Fanteria III"
 		start_experience_factor = 0.3
 	}
 	division= {
@@ -146,7 +177,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
-			creator = "VEN"
+			creator = "ITE"
 		}
 		requested_factories = 3
 		progress = 0.1
@@ -155,7 +186,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = artillery_equipment_1
-			creator = "VEN"
+			creator = "ITE"
 		}
 		requested_factories = 2
 		progress = 0.1
@@ -165,7 +196,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "VEN" 
+			creator = "ITE" 
 		}
 		requested_factories = 1
 		progress = 0.3

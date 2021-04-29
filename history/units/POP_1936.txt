@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Guardia Svizzera"			
-	division_names_group = POP_ELIT_INF_01
+	division_names_group = ITAL_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -19,8 +19,8 @@
 	}
 }
 division_template = {
-	name = "Divisione di fanteria I"			
-	division_names_group = POP_INF_01
+	name = "Divisione Fanteria I"			
+	division_names_group = ITAL_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -31,12 +31,12 @@ division_template = {
 		infantry = { x = 1 y = 2 }
 	}
 	support = {
-       	artillery = { x = 0 y = 1 }
+	
 	}
 }
 division_template = {
-	name = "Divisione di fanteria II"			
-	division_names_group = POP_INF_01
+	name = "Divisione Fanteria II"			
+	division_names_group = ITAL_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -47,11 +47,12 @@ division_template = {
 		infantry = { x = 1 y = 2 }
 	}
 	support = {
+		artillery = { x = 0 y = 1 }
 	}
 }
 division_template = {
 	name = "Divisione di cavalleria"
-	division_names_group = POP_CAV_01
+	division_names_group = ITAL_CAV_01
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -62,6 +63,7 @@ division_template = {
 		cavalry = { x = 1 y = 2 }
 	}
 	support = {
+		recon = { x = 0 y = 0 }
 	}
 }
 
@@ -133,11 +135,30 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_1
-			creator = "VEN"
+			type = infantry_equipment_0
+			creator = "POP"
 		}
-		requested_factories = 3
+		requested_factories = 2
 		progress = 0.1
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "POP"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "POP" 
+		}
+		requested_factories = 1
+		progress = 0.3
 		efficiency = 50
 	}
 }
