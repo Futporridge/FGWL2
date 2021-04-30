@@ -13,7 +13,6 @@ set_technology = {
 	motorised_infantry = 1
 	gw_artillery = 1
 	early_armor_car = 1
-	01_armor_car = 1
 	early_heavy_tank = 1
 	early_fighter = 1
 	early_bomber = 1

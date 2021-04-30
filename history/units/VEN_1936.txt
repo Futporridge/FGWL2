@@ -1,6 +1,6 @@
 ﻿division_template = {
-	name = "Divixione Fanteria"			
-	division_names_group = VEN_INF_01
+	name = "Divixione Fanteria I"		
+	division_names_group = ITAL_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -19,8 +19,45 @@
 	}
 }
 division_template = {
+	name = "Divixione Fanteria II"		
+	division_names_group = ITAL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+       	artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Divixione Fanteria III"		
+	division_names_group = ITAL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+division_template = {
 	name = "Divixione Celere"
-	division_names_group = VEN_CAV_01
+	division_names_group = ITAL_CAV_01
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -35,8 +72,8 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Divixione Celere"
-	division_names_group = VEN_CAV_01
+	name = "Divixione Corazzata"
+	division_names_group = ITAL_ARM_01
 
 	regiments = {
 		armor_car = { x = 0 y = 0 }
@@ -48,23 +85,6 @@ division_template = {
 	}
 	support = {
 	}
-}
-division_template = {
-	name = "Divixione Celere II"			
-	division_names_group = VEN_CAV_01
-
-	regiments = {
-		armor_car = { x = 0 y = 0 }
-		armor_car = { x = 0 y = 1 }
-		armor_car = { x = 0 y = 2 }
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
-	}
-	support = {
-	}
-	
-	priority = 2 
 }
 units = {
 	division= {
@@ -73,7 +93,7 @@ units = {
 			name_order = 1
 		}
 		location = 11584
-		division_template = "Divixione Fanteria"
+		division_template = "Divixione Fanteria I"
 		start_experience_factor = 0.3
 	}
 	division= {
@@ -82,7 +102,7 @@ units = {
 			name_order = 1
 		}
 		location = 11584
-		division_template = "Divixione Celere II"
+		division_template = "Divixione Corazzata"
 		start_experience_factor = 0.3
 	}
 	division= {	
@@ -91,7 +111,7 @@ units = {
 			name_order = 2
 		}
 		location = 603
-		division_template = "Divixione Fanteria"
+		division_template = "Divixione Fanteria II"
 		start_experience_factor = 0.3
 	}
 	division= {	
@@ -100,7 +120,7 @@ units = {
 			name_order = 3
 		}
 		location = 3780
-		division_template = "Divixione Fanteria"
+		division_template = "Divixione Fanteria III"
 		start_experience_factor = 0.3
 	}
 	division= {	
@@ -109,7 +129,7 @@ units = {
 			name_order = 1
 		}
 		location = 9613
-		division_template = "Divixione Celere"
+		division_template = "Divixione Fanteria III"
 		start_experience_factor = 0.3
 	}
 	division= {	
@@ -150,6 +170,15 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
+			creator = "VEN" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized
 			creator = "VEN" 
 		}
 		requested_factories = 1

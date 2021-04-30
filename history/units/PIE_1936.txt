@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Divisione Fanteria I"			
-	division_names_group = ITE_INF_01
+	division_names_group = ITAL_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -15,7 +15,7 @@
 }
 division_template = {
 	name = "Divisione Fanteria II"			
-	division_names_group = ITE_INF_01
+	division_names_group = ITAL_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -31,7 +31,7 @@ division_template = {
 }
 division_template = {
 	name = "Divisione di cavalleria"
-	division_names_group = ITE_CAV_01
+	division_names_group = ITAL_CAV_01
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -46,17 +46,18 @@ division_template = {
 }
 
 division_template = {
-	name = "Divisione di cavalleria II"
-	division_names_group = ITE_CAV_01
+	name = "Divisione di Corazzata"
+	division_names_group = ITAL_ARM_01
 
 	regiments = {
-		armor_car = { x = 0 y = 0 }
-		armor_car = { x = 0 y = 1 }
-		armor_car = { x = 0 y = 2 }
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
+		heavy_armor = { x = 0 y = 0 }
+		heavy_armor = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
 	support = {
+		artillery = { x = 0 y = 1 }
 	}
 }
 
@@ -107,7 +108,7 @@ units = {
 			name_order = 1
 		}
 		location = 764
-		division_template = "Divisione di cavalleria II"
+		division_template = "Divisione di Corazzata""
 		start_experience_factor = 0.3
 	}
 }
