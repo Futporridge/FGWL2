@@ -54,6 +54,7 @@
 			remove_idea = bende_rosse
 			add_idea = milan_strike
 		}
+		set_country_flag = milan_strike
 		mark_focus_tree_layout_dirty = yes
 	}
 	}

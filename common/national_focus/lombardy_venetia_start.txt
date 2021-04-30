@@ -39,7 +39,7 @@
 			focus = VEN_common_enemy_2
 		}
 		allow_branch = {
-			has_idea = milan_strike
+			has_country_flag = milan_strike
 		}
 		x = 1
 		y = 2
@@ -355,7 +355,7 @@
 			focus = VEN_common_enemy
 		}
 		allow_branch = {
-			has_idea = milan_strike
+			has_country_flag = milan_strike
 		}
 		x = 15
 		y = 2
