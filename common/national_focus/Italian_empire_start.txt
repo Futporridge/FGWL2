@@ -722,6 +722,9 @@
 				Custom_effect_tooltip = ITE_wealth_of_the_north_text
 				has_country_flag = ite_capture_of_rome
 			}
+			completion_reward = {
+			country_event = {	id = ite.5	}
+			}
 		}
 	}
 	shared_focus = {
@@ -741,5 +744,123 @@
 				category = marine_tech
 			}
 		}
+
+	}
+####################################################################################################################################
+####################################################################################################################################
+#######################################################ФАЗА2########################################################################
+####################################################################################################################################
+####################################################################################################################################
+
+	shared_focus = {
+		id = ITE_crossing_the_rubicon
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 6
+		y = 13
+		allow_branch = {
+			has_country_flag = ite_capture_of_rome
+		}
+		prerequisite = {
+			focus = ITE_as_long_as_austria_dont_look
+		}
+
+	}
+	shared_focus = {
+		id = ITE_truce_with_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 8
+		y = 13
+
+	}
+	shared_focus = {
+		id = ITE_maneuvers_in_tuscany
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_crossing_the_rubicon
+		}
+		x = 6
+		y = 14
+
+	}
+	shared_focus = {
+		id = ITE_burn_the_fields
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_maneuvers_in_tuscany
+		}
+		x = 4
+		y = 15
+
+	}
+	shared_focus = {
+		id = ITE_emperor_liberator
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_burn_the_fields
+		}
+		x = 4
+		y = 16
+
+	}
+	shared_focus = {
+		id = ITE_air_superiority
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_maneuvers_in_tuscany
+		}
+		x = 6
+		y = 15
+
+	}
+	shared_focus = {
+		id = ITE_naval_blockade
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_air_superiority
+		}
+		x = 6
+		y = 16
+
+	}
+	shared_focus = {
+		id = ITE_new_infantry_tactics
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_maneuvers_in_tuscany
+		}
+		x = 8
+		y = 15
+
+	}
+	shared_focus = {
+		id = ITE_imperial_panzer
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_new_infantry_tactics
+		}
+		x = 8
+		y = 16
+
+	}
+	shared_focus = {
+		id = ITE_coordinated_strike
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ITE_emperor_liberator
+			focus = ITE_naval_blockade
+			focus = ITE_imperial_panzer
+		}
+		x = 6
+		y = 17
 
 	}

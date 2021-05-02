@@ -146,3 +146,18 @@
 		}
 	}
 	}
+	
+	country_event = { #Рим захвачаен, война с тосканой
+	id = ite.5
+	title = ite.5.t
+	desc = ite.5.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ite.5.a
+		add_war_support = 0.1
+		mark_focus_tree_layout_dirty = yes
+	}
+	}
