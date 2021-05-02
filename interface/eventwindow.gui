@@ -131,7 +131,7 @@ guiTypes = {
 			iconType = {
 				name ="event_picture"
 				spriteType = "GFX_news_event_001"
-				position = { x = 24 y = 120 }
+				position = { x = 24 y = 141 }
 				Orientation = "UPPER_LEFT"
 				allwaystransparent = yes
 			}
@@ -139,14 +139,14 @@ guiTypes = {
 			iconType = {
 				name ="event_picture_overlay"
 				spriteType = "GFX_event_news_pic_overlay"
-				position = { x = 27 y = 139 }
+				position = { x = 24 y = 141 }
 				Orientation = "UPPER_LEFT"
 				allwaystransparent = yes
 			}
 
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 35 y = 91 }
+				position = { x = 35 y = 93 }
 				font = "hoi4_typewriter22"
 				borderSize = {x = 0 y = 0}
 				text = "Title text here!"
@@ -157,7 +157,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "btn_minimize"
-				position = {x=14 y=88}
+				position = {x=14 y=97}
 				spriteType = "GFX_event_button_minimize"
 				clicksound = click_default
 			}
@@ -165,7 +165,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "midsection"
-			position = { x=0 y=121 }
+			position = { x=0 y=138 }
 			size = { width = 580 height = 385 }
 			Orientation = UPPER_LEFT
 
@@ -194,7 +194,7 @@ guiTypes = {
 
 			gridBoxType = {
 				name = "options_grid"
-				position = { x = 134 y = -10 }
+				position = { x = 134 y = -20 }
 				size = { width = 300 height = 30 }
 				slotsize = { width = 300 height = 52 }
 				max_slots_horizontal = 1
