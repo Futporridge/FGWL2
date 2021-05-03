@@ -146,7 +146,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 35 y = 93 }
+				position = { x = 35 y = 91 }
 				font = "hoi4_typewriter22"
 				borderSize = {x = 0 y = 0}
 				text = "Title text here!"

@@ -2847,7 +2847,122 @@ spriteTypes = {
 		name = "GFX_focus_TYR_of_swords_and_bands"
 		texturefile = "gfx/interface/goals/angelis/army/focus_TYR_of_swords_and_bands.dds"
 	}	
-	
+	SpriteType = { 
+		name = "GFX_focus_TYR_department_34"
+		texturefile = "gfx/interface/goals/angelis/abteilung/focus_TYR_department_34.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_TYR_police_rearmament"
+		texturefile = "gfx/interface/goals/angelis/abteilung/focus_TYR_police_rearmament.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_special_forces_initiative"
+		texturefile = "gfx/interface/goals/angelis/abteilung/focus_TYR_special_forces_initiative.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_form_the_internal_affairs_section"
+		texturefile = "gfx/interface/goals/angelis/abteilung/focus_TYR_form_the_internal_affairs_section.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_military_police_squadrons"
+		texturefile = "gfx/interface/goals/angelis/abteilung/focus_TYR_military_police_squadrons.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_expand_the_weaponries"
+		texturefile = "gfx/interface/goals/angelis/abteilung/focus_TYR_expand_the_weaponries.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_joint_operations"
+		texturefile = "gfx/interface/goals/angelis/abteilung/focus_TYR_joint_operations.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_new_fascilities"
+		texturefile = "gfx/interface/goals/angelis/abteilung/focus_TYR_new_fascilities.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_der_wunderwaffe"
+		texturefile = "gfx/interface/goals/angelis/abteilung/focus_TYR_der_wunderwaffe.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_bring_out_the_werewolfs"
+		texturefile = "gfx/interface/goals/angelis/abteilung/focus_TYR_bring_out_the_werewolfs.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_administrative_reforms"
+		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_administrative_reforms.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_rob_the_barons"
+		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_rob_the_barons.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_strangling_the_unions"
+		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_strangling_the_unions.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_political_indoctrination"
+		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_political_indoctrination.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_TYR_first_signs_of_relief"
+		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_first_signs_of_relief.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_civilian_branch_of_crc"
+		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_civilian_branch_of_crc.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_construction_of_the_danube_hes"
+		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_construction_of_the_danube_hes.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_electrification_of_the_vienna"
+		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_electrification_of_the_vienna.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_further_economical_reforms"
+		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_further_economical_reforms.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_TYR_women_suffrage"
+		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_women_suffrage.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_nation_of_fire_and_steel"
+		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_nation_of_fire_and_steel.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_military_branch_of_crc"
+		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_military_branch_of_crc.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_rekindle_the_forge"
+		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_rekindle_the_forge.dds"
+	}		
+	SpriteType = { 
+		name = "GFX_focus_TYR_rapid_militarisation"
+		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_rapid_militarisation.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_adaptive_production"
+		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_adaptive_production.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_faster_and_faster"
+		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_faster_and_faster.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_spirit_of_hephaestus"
+		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_spirit_of_hephaestus.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_expand_the_military_plants"
+		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_expand_the_military_plants.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_the_great_iron_ring"
+		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_the_great_iron_ring.dds"
+	}	
 	####Kalmaria####
 	SpriteType = { 
 		name = "GFX_focus_KAL_The_End_of_the_Rigstagen"

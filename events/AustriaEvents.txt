@@ -2902,5 +2902,45 @@ news_event = {
 	
 	option = {
 		name = ausnews.1.a
+		trigger = {
+	NOT = { TAG = AUS }		
+	has_government = reactionary
+		}
 	}
+	option = {
+		name = ausnews.1.b
+		trigger = {
+	NOT = { TAG = AUS }		
+	if = {	
+	has_government = prometeism
+	}
+	else_if = {
+	has_government = communitarianism	
+	}	
+		}	
+	}
+	option = {
+		name = ausnews.1.c
+	trigger = {
+	NOT = { TAG = AUS }
+	if = {
+	has_government = liberalism	
+	}
+	else_if = {
+	has_government = individualism	
+	}
+		}			
+	}
+	option = {
+		name = ausnews.1.e
+		trigger = {
+	NOT = {	TAG = AUS has_government = individualism	has_government = liberalism	has_government = communitarianism has_government = prometeism 	has_government = reactionary } 
+		}
+	}
+	option = {
+		name = ausnews.1.f
+	trigger = {
+	TAG = AUS
+		}			
+	}	
 }

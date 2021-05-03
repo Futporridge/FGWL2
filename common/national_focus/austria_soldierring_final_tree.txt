@@ -607,7 +607,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Economical_Rebirth
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_PAR_mass_production
 		x = -12
 		y = 2
 		
@@ -631,7 +631,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Administative_Reforms
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_administrative_reforms
 		x = -2
 		y = 1
 		prerequisite = { focus = TYR_Economical_Rebirth }
@@ -655,7 +655,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Rob_the_Barons
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_rob_the_barons
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Administative_Reforms }
@@ -692,7 +692,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Strangling_the_Unions
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_strangling_the_unions
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Economical_Rebirth }
@@ -716,7 +716,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Political_Indoctrination
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_political_indoctrination
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Strangling_the_Unions }
@@ -742,7 +742,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Restoration_Projects
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_PFT_rebuilding_the_city
 		x = 2
 		y = 1
 		prerequisite = { focus = TYR_Economical_Rebirth }
@@ -766,7 +766,7 @@ focus_tree = {
 				}					
 	shared_focus = {
 		id = TYR_Send_Army_to_Construction
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_PFT_formalize_the_conscription
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Restoration_Projects }
@@ -790,7 +790,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_First_Signs_of_Relief
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_first_signs_of_relief
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Rob_the_Barons }
@@ -816,7 +816,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Civilian_Branch_of_Central_Restruction_Comitee
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_civilian_branch_of_crc
 		x = -3
 		y = 1
 		prerequisite = { focus = TYR_First_Signs_of_Relief }		
@@ -840,7 +840,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Expand_the_Railroad_Lines
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_PFT_raildoad_restoration
 		x = -2
 		y = 1
 		prerequisite = { focus = TYR_Civilian_Branch_of_Central_Restruction_Comitee }		
@@ -891,7 +891,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Construction_of_the_Danube_Hydroelectrostation
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_construction_of_the_danube_hes
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Expand_the_Railroad_Lines }		
@@ -915,7 +915,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Civilian_Build_Up
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_PFT_militarize_the_industrial_sector
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Civilian_Branch_of_Central_Restruction_Comitee }		
@@ -962,7 +962,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Minimize_the_Civilian_Needs
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_PAR_standartize_and_minimalize
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Civilian_Build_Up }		
@@ -986,7 +986,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Electrifictaion_of_the_Vienna
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_electrification_of_the_vienna
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Construction_of_the_Danube_Hydroelectrostation }
@@ -1012,7 +1012,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Further_Economical_Reforms
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_further_economical_reforms
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Electrifictaion_of_the_Vienna }	
@@ -1036,7 +1036,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_State_Appointed_Unions
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_PFT_workers_rights
 		x = 0
 		y = 2
 		prerequisite = { focus = TYR_Civilian_Branch_of_Central_Restruction_Comitee focus = TYR_Military_Branch_of_Central_Restruction_Comitee  }		
@@ -1060,7 +1060,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Women_Suffrage
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_women_suffrage
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_State_Appointed_Unions }		
@@ -1086,7 +1086,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Nation_of_Fire_and_Steel
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_nation_of_fire_and_steel
 		x = 0
 		y = 2
 		prerequisite = { focus = TYR_Women_Suffrage }		
@@ -1110,7 +1110,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Military_Branch_of_Central_Restruction_Comitee
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_military_branch_of_crc
 		x = 3
 		y = 1
 		prerequisite = { focus = TYR_First_Signs_of_Relief }		
@@ -1134,7 +1134,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Rekindle_the_Forge
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_rekindle_the_forge
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Military_Branch_of_Central_Restruction_Comitee }		
@@ -1165,7 +1165,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Rapid_Militarization
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_rapid_militarisation
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Rekindle_the_Forge }		
@@ -1189,7 +1189,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Adaptive_Production
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_adaptive_production
 		x = 2
 		y = 1
 		prerequisite = { focus = TYR_Military_Branch_of_Central_Restruction_Comitee }		
@@ -1213,7 +1213,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Faster_and_Faster
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_faster_and_faster
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Adaptive_Production }		
@@ -1237,7 +1237,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Spirit_of_the_Hephaestus
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_spirit_of_hephaestus
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Rapid_Militarization }		
@@ -1262,7 +1262,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Expand_the_Military_Plants
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_expand_the_military_plants
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Spirit_of_the_Hephaestus }			
@@ -1309,7 +1309,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Great_Iron_Ring
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_the_great_iron_ring
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Expand_the_Military_Plants }
@@ -1356,7 +1356,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Department_thirty_four
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_department_34
 		x = -24
 		y = 2
 		
@@ -1395,7 +1395,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Police_Rearment
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_police_rearmament
 		x = -3
 		y = 1
 		prerequisite = { focus = TYR_Department_thirty_four }	
@@ -1419,7 +1419,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Special_Forces_Initiative
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_special_forces_initiative
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Department_thirty_four }	
@@ -1443,7 +1443,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Form_the_Internal_Affairs_Section
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_form_the_internal_affairs_section
 		x = 3
 		y = 1
 		prerequisite = { focus = TYR_Department_thirty_four }	
@@ -1467,7 +1467,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Joint_Operations
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_joint_operations
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Form_the_Internal_Affairs_Section focus = TYR_Special_Forces_Initiative }	
@@ -1491,7 +1491,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Expand_the_Weaponries
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_expand_the_weaponries
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Form_the_Internal_Affairs_Section focus = TYR_Special_Forces_Initiative focus = TYR_Police_Rearment }	
@@ -1515,7 +1515,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Military_Police_Squadrons
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_military_police_squadrons
 		x = 1
 		y = 1
 		prerequisite = { focus = focus = TYR_Special_Forces_Initiative focus = TYR_Police_Rearment }	
@@ -1539,7 +1539,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_New_Facilities
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_new_fascilities
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Military_Police_Squadrons }
@@ -1565,7 +1565,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Secret_Weapon_Research
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_der_wunderwaffe
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_New_Facilities }
@@ -1589,7 +1589,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Bring_out_the_Werewolfs
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_bring_out_the_werewolfs
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_New_Facilities }
