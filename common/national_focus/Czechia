@@ -1,0 +1,160 @@
+focus_tree = {
+	id = CZE_focus
+	
+	country = {
+		modifier = {
+			add = 10
+			tag = CZE
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 5000 }
+  	focus = {
+		id = CZE_nation_spring
+		icon = 
+		x = 10
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = {
+				remove_idea = CZE_idea_national Spring
+				add_idea = CZE_idea_new_Goverment_1_timed
+			}
+		}
+	}
+	focus = {
+		id = CZE_new_military
+		icon = 
+		prerequisite = { focus = CZE_nation_spring }
+		relative_position_id = CZE_nation_spring
+		x = -1
+		y = 1
+		
+		cost = 3
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = oligarchy 
+				popularity = 0.05
+			}
+			swap_ideas = {
+				remove_idea = CZE_unorganized_military
+				add_idea = CZE_organizing_military
+			hide = {
+				national_event = CZE_national_army_1
+			}
+			custom_effect_tooltip = CZE_national_army_1_tt
+		}
+	}
+	focus = {
+		id = CZE_expand_military
+		icon = 
+		prerequisite = { focus = CZE_new_military }
+		relative_position_id = CZE_new_military
+		x = 0
+		y = 1
+		
+		cost = 3
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = oligarchy 
+				popularity = 0.05
+			}
+			swap_ideas = {
+				remove_idea = CZE_organizing_military
+				add_idea = CZE_organized_military
+			hide = {
+				national_event = CZE_national_army_2
+			}
+			custom_effect_tooltip = CZE_national_army_2_tt
+		}
+	}
+	focus = {
+		id = CZE_new_administration
+		icon = 
+		prerequisite = { focus = CZE_nation_spring }
+		relative_position_id = CZE_nation_spring
+		x = 1
+		y = 1
+		
+		cost = 3
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = oligarchy 
+				popularity = 0.05
+			}
+			swap_ideas = {
+				remove_idea = CZE_idea_new_Goverment_1_timed
+				add_idea = CZE_idea_new_Goverment_2
+			}
+		}
+	}
+	focus = {
+		id = CZE_new_bureaucrat
+		icon = 
+		prerequisite = { focus = CZE_new_administration }
+		relative_position_id = CZE_new_administration
+		x = 0
+		y = 1
+		
+		cost = 3
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = oligarchy 
+				popularity = 0.05
+			}
+			swap_ideas = {
+				remove_idea = CZE_idea_new_Goverment_2
+				add_idea = CZE_idea_new_Goverment_3
+			}
+		}
+	}
+	focus = {
+		id = CZE_new_Czechia
+		icon = 
+		prerequisite = { 
+			AND = {
+				focus = CZE_expand_military
+				focus = CZE_new_bureaucrat's
+			}
+		relative_position_id = CZE_nation_spring
+		x = 0
+		y = 3
+		
+		cost = 3
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = oligarchy 
+				popularity = 0.05
+			}
+			swap_ideas = {
+				remove_idea = CZE_idea_new_Goverment_3
+				remove_idea = CZE_czech_spring
+				add_idea = CZE_idea_new_Goverment_4
+			}
+			swap_ideas = {
+				remove_idea = CZE_organized_military
+				add_idea = CZE_new_military
+			}
+		}
+	}
+}
