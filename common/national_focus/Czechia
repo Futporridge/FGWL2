@@ -9,7 +9,7 @@ focus_tree = {
 	}
 	default = no
 	continuous_focus_position = { x = 50 y = 5000 }
-  	focus = {
+	focus = {
 		id = CZE_nation_spring
 		icon = 
 		x = 10
@@ -20,15 +20,15 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = {
-				remove_idea = CZE_idea_national Spring
-				add_idea = CZE_idea_new_Goverment_1_timed
+				CZE_idea_national Spring
+				CZE_idea_new_Goverment_1_timed
 			}
 		}
 	}
 	focus = {
 		id = CZE_new_military
 		icon = 
-		prerequisite = { focus = CZE_nation_spring }
+		prerequisite = focus = { CZE_nation_spring }
 		relative_position_id = CZE_nation_spring
 		x = -1
 		y = 1
@@ -45,7 +45,8 @@ focus_tree = {
 			}
 			swap_ideas = {
 				remove_idea = CZE_unorganized_military
-				add_idea = CZE_organizing_military
+				add_idea = CZE_organizing_military^
+			}
 			hide = {
 				national_event = CZE_national_army_1
 			}
@@ -55,7 +56,7 @@ focus_tree = {
 	focus = {
 		id = CZE_expand_military
 		icon = 
-		prerequisite = { focus = CZE_new_military }
+		prerequisite = { focus = CZE_new_military}
 		relative_position_id = CZE_new_military
 		x = 0
 		y = 1
@@ -72,7 +73,8 @@ focus_tree = {
 			}
 			swap_ideas = {
 				remove_idea = CZE_organizing_military
-				add_idea = CZE_organized_military
+				add_idea = CZE_organized_military^
+			}
 			hide = {
 				national_event = CZE_national_army_2
 			}
@@ -82,7 +84,7 @@ focus_tree = {
 	focus = {
 		id = CZE_new_administration
 		icon = 
-		prerequisite = { focus = CZE_nation_spring }
+		prerequisite = focus = { CZE_nation_spring }
 		relative_position_id = CZE_nation_spring
 		x = 1
 		y = 1
