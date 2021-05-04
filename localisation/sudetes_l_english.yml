@@ -1,0 +1,21 @@
+﻿l_english:
+####ministers####
+###parties####
+SDD_utopism_party:0 "NFB"
+SDD_utopism_party_long:0 "Nationalistische Freiheitsbewegung (Nationalist Freedom Movement)"
+SDD_prometeism_party:0 "DNSVP"
+SDD_prometeism_party_long:0 "Deutsche Nationalsozialistische Volkspartei (German National Socialist People's Party)"
+SDD_communitarianism_party:0 "ČSSD"
+SDD_communitarianism_party_long:0 "Česká Strana Sociálně Demokratická (SDDch Social Democratic Party)"
+SDD_individualism_party:0 "PEU"
+SDD_individualism_party_long:0 "Paneuropäische Union (Pan-European Union)"
+SDD_liberalism_party:0 "ČSNS"
+SDD_liberalism_party_long:0 "Česká Strana Národně Sociální (SDDch National Social Party)"
+SDD_conservatism_party:0 "NL"
+SDD_conservatism_party_long:0 "Sudetendeutsche Volkspartei (Sudeten German People's Party)"
+SDD_oligarchy_party:0 "AKP"
+SDD_oligarchy_party_long:0 "Arbeiterkatholische Partei (Worker Catholic Party)"
+SDD_paternalism_party:0 "Soldatenring"
+SDD_paternalism_party_long:0 "Soldatenring (Soldier Ring)"
+SDD_reactionary_party:0 "RVP"
+SDD_reactionary_party_long:0 "Reich Volkspartei (Imperial People's Party)"
