@@ -2,17 +2,16 @@
 state={
 	id=763
 	name="STATE_763"
-	manpower = 2140234
-	state_category = large_town
 
 	history={
 		owner = TEU
 		controller = TEU
-		
 		victory_points = {
 			6332 10 
 		}
-
+		victory_points = {
+			6402 20 
+		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
@@ -26,16 +25,23 @@ state={
 
 			}
 			air_base = 6
+
 		}
 		add_core_of = TEU
 		1939.1.1 = {
 			buildings = {
 				anti_air_building = 5
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		281 348 395 3384 6332 11265
+		3380 6332 6402 
 	}
+	manpower=2140234
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }

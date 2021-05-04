@@ -1,0 +1,19 @@
+state={
+	id=1022
+	name="STATE_1022"
+	provinces={
+		530 6229 6360 6376 9246 9357 9374 9404 9438 11226 11498 
+	}
+	history={
+		owner = TEU
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = TEU
+
+	}		
+	manpower=923212
+	state_category=rural		
+	buildings_max_level_factor=1.000
+}

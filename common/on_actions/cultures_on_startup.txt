@@ -6,6 +6,7 @@ on_actions = {
 		85 = { set_variable = { nationality = 1 } }	#Danzig		
 		188 = { set_variable = { nationality = 1 } }	#Memel		
 		763 = { set_variable = { nationality = 1 } }	#Danzig-Westpreußen		
+		1023 = { set_variable = { nationality = 1 } }	#Sambia			
 		#baltic germans
 		810 = { set_variable = { nationality = 2 } }	#Riga
 		811 = { set_variable = { nationality = 2 } }	#Zemgale		
@@ -177,7 +178,8 @@ on_actions = {
 		#lithuanian
 		189 = { set_variable = { nationality = 14 } }	#Shaulaj	
 		11 = { set_variable = { nationality = 14 } }	#Kovno			
-		784 = { set_variable = { nationality = 14 } }	#Vilno						
+		784 = { set_variable = { nationality = 14 } }	#Vilno		
+		1022 = { set_variable = { nationality = 14 } }	#Oberlituania			
 		#Pontic Tatars
 		234 = { set_variable = { nationality = 17 } }	#Tartaria	
 		853 = { set_variable = { nationality = 17 } }	#Crimea			

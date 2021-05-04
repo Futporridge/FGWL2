@@ -1,4 +1,4 @@
-﻿capital = 5
+﻿capital = 763
 
 OOB = "TEU_1936"
 
