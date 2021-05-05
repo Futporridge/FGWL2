@@ -59,8 +59,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/Ministers/Italy_emp/Luis_Napoleon.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_ITE_Alberto_Beneduce"
-		texturefile = "gfx/interface/ideas/Ministers/Italy_emp/Alberto_Beneduce.dds"
+		name = "GFX_idea_ITE_Andrea_Finocchiaro_Aprile"
+		texturefile = "gfx/interface/ideas/Ministers/Italy_emp/Andrea_Finocchiaro_Aprile.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ITE_Enrico_Nicola"
@@ -73,6 +73,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_ITE_Chiyomi_Anzai"
 		texturefile = "gfx/interface/ideas/Ministers/Italy_emp/Chiyomi_Anzai.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ITE_Enrico_Caviglia"
+		texturefile = "gfx/interface/ideas/Ministers/Italy_emp/Enrico_Caviglia.dds"
 	}
 								####KingdomOfFrance####	
 		spriteType = {

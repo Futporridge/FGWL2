@@ -4,7 +4,7 @@ ideas = {
 
 		ITE_Luis_Napoleon = {
 
-		
+		picture = Luis_Napoleon
 
 			allowed = {
 				original_tag = "ITE"
@@ -21,7 +21,7 @@ ideas = {
 		
 		ITE_Enrico_Nicola = {
 			
-			
+			picture = Enrico_Nicola
 			allowed = {
 				original_tag = "ITE"
 			}
@@ -31,7 +31,7 @@ ideas = {
 		}
 		ITE_Vito_Reale = {
 			
-			
+			picture = Vito_Reale
 			allowed = {
 				original_tag = "ITE"
 			}
@@ -41,7 +41,7 @@ ideas = {
 		}
 		ITE_Enrico_Caviglia = {
 			
-			
+			picture = Enrico_Caviglia
 			allowed = {
 				original_tag = "ITE"
 			}
@@ -52,7 +52,7 @@ ideas = {
 		
 		ITE_Andrea_Finocchiaro_Aprile = {
 			
-			
+			picture = Andrea_Finocchiaro_Aprile
 			allowed = {
 				original_tag = "ITE"
 			}
