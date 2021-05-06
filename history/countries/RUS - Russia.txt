@@ -90,9 +90,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Anatoly Lunacharsky"
-	desc = "POLITICS_ANATOLY_LUNACHARSKY_DESC"
-	picture = "gfx/leaders/RUS/Portrait_Anatoly_Lunacharksy.tga"
+	name = "Lev Chernyi"
+	desc = "POLITICS_LEV_CHERNYI_DESC"
+	picture = "gfx/leaders/RUS/Portrait_Lev_Chernyi.tga"
 	expire = "1965.1.1"
 	ideology = individualism
 	traits = { 
@@ -140,9 +140,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Pavel Milyukov"
-	desc = "POLITICS_PAVEL_MILYUKOV_DESC"
-	picture = "gfx/leaders/RUS/Portrait_Pavel_Milyukov.tga"
+	name = "Mikhail Muravyov"
+	desc = "POLITICS_MIKHAIL_MURAVYOV_DESC"
+	picture = "gfx/leaders/RUS/Portrait_Mikhail_Muravyov.tga"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = { 
