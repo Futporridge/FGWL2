@@ -316,5 +316,253 @@ focus_tree = {
 			}
 		available_if_capitulated = yes
 			}
+			
+			
+			
+			
+			
+		focus = {
+		id = KAL_Elfenbenskysten_problem
+		icon = GFX_focus_KAL_Elfenbenskysten_problem
+		x = 14
+		y = 0
+		cost = 4.6
+		relative_position_id = KAL_Assemble_Folketing
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		available_if_capitulated = yes
+				}
+				
+		focus = {
+		id = KAL_Gold_Rush_in_Africa
+		icon = GFX_focus_KAL_Gold_Rush_in_Africa
+		x = -3
+		y = 1
+		prerequisite = { focus = KAL_Elfenbenskysten_problem }
+		cost = 4.6
+		relative_position_id = KAL_Elfenbenskysten_problem
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		available_if_capitulated = yes
+				}
+				
+		focus = {
+		id = KAL_Weaken_Apartheid
+		icon = GFX_focus_KAL_Weaken_Apartheid
+		x = 1
+		y = 4
+		prerequisite = { focus = KAL_Gold_Rush_in_Africa }
+		prerequisite = { focus = KAL_The_New_Land }
+		cost = 4.6
+		relative_position_id = KAL_Gold_Rush_in_Africa
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		available_if_capitulated = yes
+				}
+				
+		focus = {
+		id = KAL_Political_liberty
+		icon = GFX_focus_KAL_Political_liberty
+		x = 1
+		y = 1
+		prerequisite = { focus = KAL_Weaken_Apartheid }
+		prerequisite = { focus = KAL_Guvernor_s_Authorityicon }
+		cost = 4.6
+		relative_position_id = KAL_Weaken_Apartheid
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		available_if_capitulated = yes
+				}
+		
+		focus = {
+		id = KAL_Reform_Colonial_Garrison
+		icon = GFX_focus_KAL_Reform_Colonial_Garrison
+		x = -1
+		y = 1
+		prerequisite = { focus = KAL_Elfenbenskysten_problem }
+		cost = 4.6
+		relative_position_id = KAL_Elfenbenskysten_problem
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		available_if_capitulated = yes
+				}
+				
+		focus = {
+		id = KAL_Investment_in_Trade
+		icon = GFX_focus_KAL_Investment_in_Trade
+		x = 1
+		y = 1
+		prerequisite = { focus = KAL_Elfenbenskysten_problem }
+		cost = 4.6
+		relative_position_id = KAL_Elfenbenskysten_problem
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		available_if_capitulated = yes
+				}
+				
+		focus = {
+		id = KAL_Conquest_Ashanti
+		icon = GFX_focus_KAL_Conquest_Ashanti
+		x = -1
+		y = 1
+		prerequisite = { focus = KAL_Investment_in_Trade }
+		prerequisite = { focus = KAL_Reform_Colonial_Garrison }
+		cost = 4.6
+		relative_position_id = KAL_Investment_in_Trade
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		available_if_capitulated = yes
+				}
+				
+		focus = {
+		id = KAL_Arms_Supply
+		icon = GFX_focus_KAL_Arms_Supply
+		x = 1
+		y = 1
+		prerequisite = { focus = KAL_Conquest_Ashanti }
+		cost = 4.6
+		relative_position_id = KAL_Conquest_Ashanti
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		available_if_capitulated = yes
+				}
+				
+		focus = {
+		id = KAL_Increas_Colonial_Army
+		icon = GFX_focus_KAL_Increas_Colonial_Army
+		x = -1
+		y = 1
+		prerequisite = { focus = KAL_Conquest_Ashanti }
+		cost = 4.6
+		relative_position_id = KAL_Conquest_Ashanti
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		available_if_capitulated = yes
+				}
+				
+		focus = {
+		id = KAL_The_New_Land
+		icon = GFX_focus_KAL_The_New_Land
+		x = 1
+		y = 1
+		prerequisite = { focus = KAL_Arms_Supply }
+		prerequisite = { focus = KAL_Increas_Colonial_Army }
+		cost = 4.6
+		relative_position_id = KAL_Increas_Colonial_Army
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		available_if_capitulated = yes
+				}
+				
+		focus = {
+		id = KAL_Guvernor_s_Authorityicon
+		icon = GFX_focus_KAL_Guvernor_s_Authorityicon
+		x = 0
+		y = 1
+		prerequisite = { focus = KAL_The_New_Land }
+		cost = 4.6
+		relative_position_id = KAL_The_New_Land
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		available_if_capitulated = yes
+				}
+		
+		focus = {
+		id = KAL_Start_Iron_Mining
+		icon = GFX_focus_KAL_Start_Iron_Mining
+		x = 3
+		y = 1
+		prerequisite = { focus = KAL_Elfenbenskysten_problem }
+		cost = 4.6
+		relative_position_id = KAL_Elfenbenskysten_problem
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		available_if_capitulated = yes
+				}
+		
+		focus = {
+		id = KAL_New_Burgeois
+		icon = GFX_focus_KAL_New_Burgeois
+		x = -1
+		y = 4
+		prerequisite = { focus = KAL_Start_Iron_Mining }
+		prerequisite = { focus = KAL_The_New_Land }
+		cost = 4.6
+		relative_position_id = KAL_Start_Iron_Mining
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		available_if_capitulated = yes
+				}
+				
+		focus = {
+		id = KAL_Economic_Freedom
+		icon = GFX_focus_KAL_Economic_Freedom
+		x = -1
+		y = 1
+		prerequisite = { focus = KAL_New_Burgeois }
+		prerequisite = { focus = KAL_Guvernor_s_Authorityicon }
+		cost = 4.6
+		relative_position_id = KAL_New_Burgeois
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		available_if_capitulated = yes
+				}
+				
 }
 		
