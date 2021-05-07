@@ -149,3 +149,91 @@ create_country_leader = {
 
 	}
 }
+create_field_marshal = {
+	name = "Anton Denikin"
+	id = 400	
+	portrait_path = "gfx/leaders/RUS/Portrait_Anton_Denikin.tga"
+	traits = { infantry_officer career_officer }
+	skill = 4
+    attack_skill = 4
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 2
+}
+create_field_marshal = {
+	name = "Lavr Kornilov"
+	id = 401	
+	portrait_path = "gfx/leaders/RUS/Portrait_Lavr_Kornilov.tga"
+	traits = { brilliant_strategist inspirational_leader trait_reckless politically_connected }
+	skill = 4
+    attack_skill = 4
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 3
+}
+create_field_marshal = {
+	name = "Mikhail Drozdovsky"
+	id = 402	
+	portrait_path = "gfx/leaders/RUS/Portrait_Mikhail_Drozdovsky.tga"
+	traits = { brilliant_strategist inspirational_leader trait_reckless politically_connected }
+	skill = 4
+    attack_skill = 4
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Mikhail Levitov"
+	id = 403	
+	portrait_path = "gfx/leaders/RUS/Portrait_Mikhail_Levitov.tga"
+	traits = {  }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Mikhail Muravyov"
+	id = 404	
+	portrait_path = "gfx/leaders/RUS/Portrait_Mikhail_Muravyov.tga"
+	traits = { media_personality career_officer politically_connected harsh_leader }
+	skill = 2
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Vladimir Manshtein"
+	id = 405	
+	portrait_path = "gfx/leaders/RUS/Portrait_Vladimir_Manshtein.tga"
+	traits = { harsh_leader commando trait_reckless }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 2
+}
+create_field_marshal = {
+	name = "Sergei Markov"
+	id = 406	
+	portrait_path = "gfx/leaders/RUS/Portrait_Sergei_Markov.tga"
+	traits = { infantry_officer trait_reckless inspirational_leader }
+	skill = 4
+    attack_skill = 4
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Abram Dragomirov"
+	id = 407	
+	portrait_path = "gfx/leaders/RUS/Portrait_Abram_Dragomirov.tga"
+	traits = { cavalry_officer old_guard }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 2
+}

@@ -6,15 +6,8 @@ state={
 	history={
 		owner = ASG
 		add_core_of = ASG
-		victory_points = {
-			10919 2 
-		}
 		buildings = {
 			infrastructure = 3
-			10919 = {
-				naval_base = 3
-
-			}
 
 		}
 
