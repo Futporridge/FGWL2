@@ -1,7 +1,25 @@
 capital = 37
 
 OOB = "KAL_1936"
-
+set_research_slots = 3
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = ELB
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = CFB
+		autonomous_state = autonomy_puppet
+	}	
+	else = {
+		puppet = ELB
+		puppet = CFB
+				
+	}
+}
 set_technology = {
 	infantry_weapons = 1
 	tech_support = 1

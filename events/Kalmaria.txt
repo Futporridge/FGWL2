@@ -1,5 +1,6 @@
 ﻿
 	add_namespace = kal
+	add_namespace = kal_g
 	
 	country_event = {	
 	id = kal.1
@@ -112,6 +113,24 @@ country_event = {
 	option = {
 		name = kal.5.a
 			hidden_effect = {
+			
+		}
+}
+}
+country_event = {	
+	id = kal_g.1
+	title = kal_g.1.t
+	desc = kal_g.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = kal_g.1.a
+			hidden_effect = {
+			load_focus_tree = { tree = Kalmaria_Gluks_focus keep_completed = yes }
+				
+					
 			
 		}
 }

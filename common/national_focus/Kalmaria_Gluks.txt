@@ -1,0 +1,320 @@
+focus_tree = {
+	id = Kalmaria_Gluks_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 0
+			tag = KAL
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 3200 y = 0 }
+	shared_focus = KAL_Assemble_Folketing
+	focus = {
+		id = KAL_Assemble_Folketing
+		icon = GFX_focus_KAL_Assemble_Folketing
+		x = 7
+		y = 0
+		cost = 4.6
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		available_if_capitulated = yes
+				}
+				
+	focus = {
+		id = KAL_Hojre
+		icon = GFX_focus_KAL_Hojre
+		x = 2
+		y = 1
+		prerequisite = { focus = KAL_Assemble_Folketing }
+		mutually_exclusive = { focus = KAL_Venstre }
+		cost = 1
+		relative_position_id = KAL_Assemble_Folketing
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+								
+			}
+		
+		available_if_capitulated = yes
+			}
+			
+			focus = {
+		id = KAL_Reduce_State_Fees
+		icon = GFX_focus_KAL_Reduce_State_Fees
+		x = 0
+		y = 1
+		prerequisite = { focus = KAL_Hojre }
+		cost = 4
+		relative_position_id = KAL_Hojre
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		
+		available_if_capitulated = yes
+			}
+			
+		focus = {
+		id = KAL_Fermer_Subsidies
+		icon = GFX_focus_KAL_Fermer_Subsidies
+		x = 0
+		y = 1
+		prerequisite = { focus = KAL_Reduce_State_Fees }
+		cost = 4
+		relative_position_id = KAL_Reduce_State_Fees
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			}
+		available_if_capitulated = yes
+			}
+			
+		focus = {
+		id = KAL_Renunication_of_Estate_Privileges
+		icon = GFX_focus_KAL_Renunication_of_Estate_Privileges
+		x = 2
+		y = 1
+		prerequisite = { focus = KAL_Reduce_State_Fees }
+		cost = 4.9
+		relative_position_id = KAL_Reduce_State_Fees
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		
+		available_if_capitulated = yes
+			}
+		focus = {
+		id = KAL_Constitutional_Kingdom
+		icon = GFX_focus_KAL_Constitutional_Kingdom
+		x = 0
+		y = 1
+		prerequisite = { focus = KAL_Renunication_of_Estate_Privileges }
+		prerequisite = { focus = KAL_Fermer_Subsidies }
+		cost = 4.9
+		relative_position_id = KAL_Renunication_of_Estate_Privileges
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		
+		available_if_capitulated = yes
+			}
+			
+			
+			
+			
+		focus = {
+		id = KAL_Venstre
+		icon = GFX_focus_KAL_Venstre
+		x = -2
+		y = 1
+		prerequisite = { focus = KAL_Assemble_Folketing }
+		mutually_exclusive = { focus = KAL_Hojre }
+		cost = 1
+		relative_position_id = KAL_Assemble_Folketing
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+									
+			}
+		available_if_capitulated = yes
+			}
+			
+	focus = {
+		id = KAL_Freedom_of_Speech
+		icon = GFX_focus_KAL_Freedom_of_Speech
+		x = 0
+		y = 1
+		prerequisite = { focus = KAL_Venstre }
+		cost = 4
+		relative_position_id = KAL_Venstre
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		
+		available_if_capitulated = yes
+			}
+			
+		focus = {
+		id = KAL_Trade_Union_Support
+		icon = GFX_focus_KAL_Trade_Union_Support
+		x = 0
+		y = 1
+		prerequisite = { focus = KAL_Freedom_of_Speech }
+		cost = 4
+		relative_position_id = KAL_Freedom_of_Speech
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		
+		}
+		available_if_capitulated = yes
+			}
+			
+		focus = {
+		id = KAL_Fight_Against_Unemployment
+		icon = GFX_focus_KAL_Fight_Against_Unemployment
+		x = -2
+		y = 1
+		prerequisite = { focus = KAL_Freedom_of_Speech }
+		cost = 4.9
+		relative_position_id = KAL_Freedom_of_Speech
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		
+			}
+		available_if_capitulated = yes
+			}
+
+		focus = {
+		id = KAL_Welfare_State
+		icon = GFX_focus_KAL_Welfare_State
+		x = 0
+		y = 1
+		prerequisite = { focus = KAL_Fight_Against_Unemployment }
+		prerequisite = { focus = KAL_Trade_Union_Support }
+		cost = 4.9
+		relative_position_id = KAL_Fight_Against_Unemployment
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		available_if_capitulated = yes
+			}
+			
+			
+			
+			
+		focus = {
+		id = KAL_Start_Federal_Reform
+		icon = GFX_focus_KAL_Start_Federal_Reform
+		x = -2
+		y = 1
+		prerequisite = { focus = KAL_Venstre 
+						 focus = KAL_Hojre}
+		
+		cost = 4.9
+		relative_position_id = KAL_Hojre
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+			}
+		available_if_capitulated = yes
+			}
+			
+			focus = {
+		id = KAL_Swedish_Question
+		icon = GFX_focus_KAL_Swedish_Question
+		x = 0
+		y = 1
+		prerequisite = { focus = KAL_Start_Federal_Reform }
+		cost = 4.9
+		relative_position_id = KAL_Start_Federal_Reform
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		
+			}
+		available_if_capitulated = yes
+			}
+			
+			focus = {
+		id = KAL_General_Referendum
+		icon = GFX_focus_KAL_General_Referendum
+		x = 0
+		y = 1
+		prerequisite = { focus = KAL_Swedish_Question }
+		cost = 4.9
+		relative_position_id = KAL_Swedish_Question
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		
+			}
+		available_if_capitulated = yes
+			}
+			
+			focus = {
+		id = KAL_Invoke_the_King
+		icon = GFX_focus_KAL_Invoke_the_King
+		x = -1
+		y = 1
+		prerequisite = { focus = KAL_General_Referendum }
+		cost = 4.9
+		relative_position_id = KAL_General_Referendum
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		
+			}
+		available_if_capitulated = yes
+			}
+			
+			focus = {
+		id = KAL_Dismiss_Swedish_Generals
+		icon = GFX_focus_KAL_Dismiss_Swedish_Generals
+		x = 1
+		y = 1
+		prerequisite = { focus = KAL_General_Referendum }
+		cost = 4.9
+		relative_position_id = KAL_General_Referendum
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		
+			}
+		available_if_capitulated = yes
+			}
+			
+			focus = {
+		id = KAL_Farvel_Sverige
+		icon = GFX_focus_KAL_Farvel_Sverige
+		x = -1
+		y = 1
+		prerequisite = { focus = KAL_Dismiss_Swedish_Generals }
+		prerequisite = { focus = KAL_Invoke_the_King }
+		cost = 4.9
+		relative_position_id = KAL_Dismiss_Swedish_Generals
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		
+			}
+		available_if_capitulated = yes
+			}
+}
+		
