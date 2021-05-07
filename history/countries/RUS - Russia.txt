@@ -150,17 +150,6 @@ create_country_leader = {
 	}
 }
 create_field_marshal = {
-	name = "Anton Denikin"
-	id = 400	
-	portrait_path = "gfx/leaders/RUS/Portrait_Anton_Denikin.tga"
-	traits = { infantry_officer career_officer }
-	skill = 4
-    attack_skill = 4
-    defense_skill = 3
-    planning_skill = 3
-    logistics_skill = 2
-}
-create_field_marshal = {
 	name = "Lavr Kornilov"
 	id = 401	
 	portrait_path = "gfx/leaders/RUS/Portrait_Lavr_Kornilov.tga"
@@ -181,6 +170,17 @@ create_field_marshal = {
     defense_skill = 4
     planning_skill = 3
     logistics_skill = 3
+}
+create_field_marshal = {
+	name = "Anton Denikin"
+	id = 400	
+	portrait_path = "gfx/leaders/RUS/Portrait_Anton_Denikin.tga"
+	traits = { infantry_officer career_officer }
+	skill = 4
+    attack_skill = 4
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Mikhail Levitov"
@@ -280,4 +280,15 @@ create_corps_commander = {
     defense_skill = 3
     planning_skill = 3
     logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Georgy Zhukov"
+	id = 412
+	portrait_path = "gfx/leaders/RUS/Portrait_Georgy_Zhukov.tga"
+	traits = { armor_officer brilliant_strategist }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
 }
