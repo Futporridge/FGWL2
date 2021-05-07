@@ -727,5 +727,21 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_culture_altaic_kyrgyz"
 		texturefile = "gfx/interface/ideas/culture/culture_altaic_kyrgyz.dds"
-	}	
+	}
+		spriteType = {
+		name = "GFX_culture_gur_senufo"
+		texturefile = "gfx/interface/ideas/culture/culture_gur_senufo.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_ghana_elfenben"
+		texturefile = "gfx/interface/ideas/culture/culture_ghanian_elfenben.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_kwa_akan"
+		texturefile = "gfx/interface/ideas/culture/culture_kwa_akan.dds"
+	}
+		spriteType = {
+		name = "GFX_culture_kwa_ashanti"
+		texturefile = "gfx/interface/ideas/culture/culture_kwa_ashanti.dds"
+	}		
 }

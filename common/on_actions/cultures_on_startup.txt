@@ -528,7 +528,8 @@ on_actions = {
 		119 = { set_variable = { nationality = 100 } }	#	
 		134 = { set_variable = { nationality = 100 } }	#
 		135 = { set_variable = { nationality = 100 } }	#		
-		113 = { set_variable = { nationality = 100 } }	#		
+		113 = { set_variable = { nationality = 100 } }	#	
+		992 = { set_variable = { nationality = 100 } }	#			
 		#Swedish
 		140 = { set_variable = { nationality = 101 } }	#	
 		139 = { set_variable = { nationality = 101 } }	#
@@ -731,7 +732,6 @@ on_actions = {
 		#Mossi
 		944 = { set_variable = { nationality = 155 } }	#Mossiland	
 		778 = { set_variable = { nationality = 155 } }	#Gao	
-		947 = { set_variable = { nationality = 155 } }	#Bandama
 		#Guinean
 		298 = { set_variable = { nationality = 156 } }	#Guinea	
 		#Louisianian
@@ -822,6 +822,14 @@ on_actions = {
 		585 = { set_variable = { nationality = 180 } }	#Sakia
 		586 = { set_variable = { nationality = 180 } }	#Alma-Ata
 		589 = { set_variable = { nationality = 180 } }	#Ayaguz		
+		#Senufo
+		947 = { set_variable = { nationality = 181 } }	#Bandama
+		#Elfenben
+		779 = { set_variable = { nationality = 182 } }	#Elfenbenskisten		
+		#Elfenben
+		938 = { set_variable = { nationality = 183 } }	#Akan
+		#Ashanti
+		274 = { set_variable = { nationality = 184 } }	#Ashanti		
 		}		
 		
 	}

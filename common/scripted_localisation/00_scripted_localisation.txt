@@ -1099,5 +1099,29 @@ defined_text = {
 			check_variable = { nationality = 180 }
 		}
 		localization_key = var_nationality_180
+	}
+		text = {
+		trigger = {
+			check_variable = { nationality = 181 }
+		}
+		localization_key = var_nationality_181
+	}
+		text = {
+		trigger = {
+			check_variable = { nationality = 182 }
+		}
+		localization_key = var_nationality_182
+	}
+		text = {
+		trigger = {
+			check_variable = { nationality = 183 }
+		}
+		localization_key = var_nationality_183
+	}
+		text = {
+		trigger = {
+			check_variable = { nationality = 184 }
+		}
+		localization_key = var_nationality_184
 	}	
 }

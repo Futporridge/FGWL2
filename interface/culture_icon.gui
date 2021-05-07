@@ -1099,6 +1099,30 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_altaic_kyrgyz
 			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_gur_senufo"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_gur_senufo
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_ghana_elfenben"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_ghana_elfenben
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_kwa_akan"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_kwa_akan
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_kwa_ashanti"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_kwa_ashanti
+			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 	}
 }

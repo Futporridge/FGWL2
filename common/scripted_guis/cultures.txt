@@ -911,6 +911,26 @@ scripted_gui = {
 			culture_altaic_kyrgyz_visible = {
 				check_variable = { nationality = 180 } 
 			}				
+		}
+		triggers = {
+			culture_gur_senufo_visible = {
+				check_variable = { nationality = 181 } 
+			}				
+		}	
+		triggers = {
+			culture_ghana_elfenben_visible = {
+				check_variable = { nationality = 182 } 
+			}				
+		}
+		triggers = {
+			culture_kwa_akan_visible = {
+				check_variable = { nationality = 183 } 
+			}				
+		}
+		triggers = {
+			culture_kwa_ashanti_visible = {
+				check_variable = { nationality = 184 } 
+			}				
 		}		
 	}
 }
