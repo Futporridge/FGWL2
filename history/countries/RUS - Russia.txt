@@ -237,3 +237,47 @@ create_corps_commander = {
     planning_skill = 3
     logistics_skill = 2
 }
+create_corps_commander = {
+	name = "Yakov Slashchov"
+	id = 408
+	portrait_path = "gfx/leaders/RUS/Portrait_Yakov_Slashchov.tga"
+	traits = { brilliant_strategist skilled_staffer trait_reckless substance_abuser }
+	skill = 4
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Alexander Yegorov"
+	id = 409
+	portrait_path = "gfx/leaders/RUS/Portrait_Alexander_Yegorov.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Vasily Pavlov"
+	id = 410
+	portrait_path = "gfx/leaders/RUS/Portrait_Vasily_Pavlov.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Dmitry Karbyshev"
+	id = 411
+	portrait_path = "gfx/leaders/RUS/Portrait_Dmitry_Karbyshev.tga"
+	traits = { inflexible_strategist trait_engineer }
+	skill = 4
+    attack_skill = 2
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 3
+}
