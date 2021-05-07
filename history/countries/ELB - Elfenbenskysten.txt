@@ -20,8 +20,10 @@ set_popularities = {
 	utopism = 0
 	prometeism = 0
 	communitarianism = 0
-	oligarchy = 100
-	conservatism = 0
+	individualism = 13
+	liberalism = 21
+	oligarchy = 36
+	conservatism = 30
 	reactionary = 0
 }
 
@@ -32,9 +34,9 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Olof Wallenius"
-	desc = "POLITICS_OLOF_WALLENIUS_DESC"
-	picture = "gfx/leaders/ELB/Portrait_Olof_Wallenius.tga"
+	name = "Prince Friedrich Solms-Baruth III"
+	desc = "POLITICS_PRINCE_FRIEDRICH_SOLMS_BARUTH_III_DESC"
+	picture = "gfx/leaders/ELB/Portrait_Prince_Friedrich_Solms_Baruth_III.tga"
 	expire = "1965.1.1"
 	ideology = oligarchy
 	traits = { 
