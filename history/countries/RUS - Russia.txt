@@ -369,3 +369,25 @@ create_corps_commander = {
     planning_skill = 2
     logistics_skill = 2
 }
+create_corps_commander = {
+	name = "Vladimir Kappel"
+	id = 420
+	portrait_path = "gfx/leaders/RUS/Portrait_Vladimir_Kappel.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Alexander Vasilevsky"
+	id = 421
+	portrait_path = "gfx/leaders/RUS/Portrait_Alexander_Vasilevsky.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
