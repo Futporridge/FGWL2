@@ -292,3 +292,47 @@ create_corps_commander = {
     planning_skill = 2
     logistics_skill = 2
 }
+create_corps_commander = {
+	name = "Pavel Batov"
+	id = 413
+	portrait_path = "gfx/leaders/RUS/Portrait_Pavel_Batov.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Pyotr Krasnov"
+	id = 414
+	portrait_path = "gfx/leaders/RUS/Portrait_Pyotr_Krasnov.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Alexander Borovsky"
+	id = 415
+	portrait_path = "gfx/leaders/RUS/Portrait_Alexander_Borovsky.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Vyacheslav Naumenko"
+	id = 416
+	portrait_path = "gfx/leaders/RUS/Portrait_Vyacheslav_Naumenko.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
