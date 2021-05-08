@@ -282,8 +282,19 @@ create_corps_commander = {
     logistics_skill = 3
 }
 create_corps_commander = {
-	name = "Georgy Zhukov"
+	name = "Anton Turkul"
 	id = 412
+	portrait_path = "gfx/leaders/RUS/Portrait_Anton_Turkul.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Georgy Zhukov"
+	id = 413
 	portrait_path = "gfx/leaders/RUS/Portrait_Georgy_Zhukov.tga"
 	traits = { armor_officer brilliant_strategist }
 	skill = 2
@@ -294,7 +305,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Pavel Batov"
-	id = 413
+	id = 414
 	portrait_path = "gfx/leaders/RUS/Portrait_Pavel_Batov.tga"
 	traits = { }
 	skill = 2
@@ -305,7 +316,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Pyotr Krasnov"
-	id = 414
+	id = 415
 	portrait_path = "gfx/leaders/RUS/Portrait_Pyotr_Krasnov.tga"
 	traits = { }
 	skill = 2
@@ -316,7 +327,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Alexander Borovsky"
-	id = 415
+	id = 416
 	portrait_path = "gfx/leaders/RUS/Portrait_Alexander_Borovsky.tga"
 	traits = { }
 	skill = 2
@@ -327,8 +338,30 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Vyacheslav Naumenko"
-	id = 416
+	id = 417
 	portrait_path = "gfx/leaders/RUS/Portrait_Vyacheslav_Naumenko.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Ivan Konev"
+	id = 418
+	portrait_path = "gfx/leaders/RUS/Portrait_Ivan_Konev.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Vasily Boldyrev"
+	id = 419
+	portrait_path = "gfx/leaders/RUS/Portrait_Vasily_Boldyrev.tga"
 	traits = { }
 	skill = 2
     attack_skill = 2
