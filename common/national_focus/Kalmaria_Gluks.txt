@@ -67,8 +67,8 @@ focus_tree = {
 			}
 			
 		focus = {
-		id = KAL_Fermer_Subsidies
-		icon = GFX_focus_KAL_Fermer_Subsidies
+		id = KAL_Farmer_Subsidies
+		icon = GFX_focus_KAL_Farmer_Subsidies
 		x = 0
 		y = 1
 		prerequisite = { focus = KAL_Reduce_State_Fees }
@@ -105,7 +105,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = KAL_Renunication_of_Estate_Privileges }
-		prerequisite = { focus = KAL_Fermer_Subsidies }
+		prerequisite = { focus = KAL_Farmer_Subsidies }
 		cost = 4.9
 		relative_position_id = KAL_Renunication_of_Estate_Privileges
 		ai_will_do = {
@@ -312,7 +312,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-		
+		country_event = { id = kal_g.2 }
+		remove_ideas = { KAL_Swedish_Separatism } 
+			}
 			}
 		available_if_capitulated = yes
 			}
@@ -326,6 +328,7 @@ focus_tree = {
 		icon = GFX_focus_KAL_Elfenbenskysten_problem
 		x = 14
 		y = 0
+		available = { has_completed_focus = KAL_Farvel_Sverige }
 		cost = 4.6
 		relative_position_id = KAL_Assemble_Folketing
 		ai_will_do = {

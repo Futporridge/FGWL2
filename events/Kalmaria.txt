@@ -135,3 +135,63 @@ country_event = {
 		}
 }
 }
+country_event = {	
+	id = kal_g.2
+	title = kal_g.2.t
+	desc = kal_g.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = kal_g.2.a
+			hidden_effect = {
+			SWE = {
+		transfer_state = 139		
+		transfer_state = 140		
+		transfer_state = 141 
+		transfer_state = 38
+		transfer_state = 148 	
+		transfer_state = 150
+		transfer_state = 111		
+		transfer_state = 195
+		transfer_state = 208
+		transfer_state = 244
+		transfer_state = 145		
+		transfer_state = 666
+		transfer_state = 994
+		transfer_state = 213
+		transfer_state = 215
+		transfer_state = 149
+		transfer_state = 146
+		transfer_state = 216
+			
+		country_event = {  }			
+		}
+		KAL = {
+		remove_state_core = 807		
+		remove_state_core = 139		
+		remove_state_core = 140		
+		remove_state_core = 141 
+		remove_state_core = 38
+		remove_state_core = 148 	
+		remove_state_core = 150
+		remove_state_core = 111		
+		remove_state_core = 195
+		remove_state_core = 208
+		remove_state_core = 244
+		remove_state_core = 145		
+		remove_state_core = 666
+		remove_state_core = 994
+		remove_state_core = 213
+		remove_state_core = 215
+		remove_state_core = 149
+		remove_state_core = 146
+		remove_state_core = 216	
+		}
+				
+					
+			
+		}
+}
+}

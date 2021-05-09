@@ -12,19 +12,20 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = paternalism
+	ruling_party = conservatism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	utopism = 0
+	utopism = 53
 	prometeism = 0
+	liberalism = 16
 	communitarianism = 0
 	oligarchy = 0
-	conservatism = 0
-	paternalism = 100
+	conservatism = 17
+	paternalism = 14
 	reactionary = 0
 }
 
@@ -35,11 +36,11 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS_KARL_GEORG_HUYN_DESC"
-	picture = "gfx/leaders/SWE/"
+	name = "Karl XIV"
+	desc = "POLITICS_KARL_XIV_DESC"
+	picture = "gfx/leaders/KAL/Portrait_Earl_Grey.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = conservatism
 	traits = { 
 
 	}
