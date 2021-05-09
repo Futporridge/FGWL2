@@ -97,7 +97,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Erik af Edholm"
-	id = 301
+	id = 302
 	portrait_path = "gfx/leaders/KAL/Portrait_Erik_af_Edholm.tga"
 	traits = { skilled_staffer }
 	skill = 3
@@ -105,4 +105,15 @@ create_corps_commander = {
     defense_skill = 2
     planning_skill = 3
     logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Erik With"
+	id = 303
+	portrait_path = "gfx/leaders/KAL/Portrait_Erik_With.tga"
+	traits = { trickster }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
 }

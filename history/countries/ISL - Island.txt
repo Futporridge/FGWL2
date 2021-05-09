@@ -44,3 +44,13 @@ create_country_leader = {
 
 	}
 }
+create_country_leader = {
+	name = "Björn Sveinsson Björnsson"
+	desc = "POLITICS_BJORN_SVEINSSON_BJORNSSON_DESC"
+	picture = "gfx/leaders/ISL/"
+	expire = "1965.1.1"
+	ideology = utopism
+	traits = { 
+
+	}
+}
