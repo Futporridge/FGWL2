@@ -73,3 +73,36 @@ create_country_leader = {
 
 	}
 }
+create_field_marshal = {
+	name = "Otto Ruge"
+	id = 300	
+	portrait_path = "gfx/leaders/KAL/Portrait_Otto_Ruge.tga"
+	traits = { career_officer infantry_officer inflexible_strategist }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Kristian Laake"
+	id = 301
+	portrait_path = "gfx/leaders/KAL/Portrait_Kristian_Laake.tga"
+	traits = { trait_cautious }
+	skill = 2
+    attack_skill = 1
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Erik af Edholm"
+	id = 301
+	portrait_path = "gfx/leaders/KAL/Portrait_Erik_af_Edholm.tga"
+	traits = { skilled_staffer }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 3
+}
