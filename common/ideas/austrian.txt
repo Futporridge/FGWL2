@@ -103,7 +103,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = AUS_econom_countermeasures 
+			picture = aus_economic_countermeasures 
 			
 			modifier = {
 				consumer_goods_factor = -0.01	
@@ -120,7 +120,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = AUS_dirigisme
+			picture = aus_dirigisme
 					
 			modifier = {
 				political_power_factor = -0.05	
@@ -137,7 +137,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = AUS_laissez_fair
+			picture = aus_laissez_fair
 					
 			modifier = {
 				political_power_factor = 0.05	
@@ -154,7 +154,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = AUS_cutting_the_excesses 
+			picture = aus_cutting_the_exesses
 			
 				research_bonus = {
 				land_doctrine = -0.15
@@ -174,7 +174,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = AUS_alcabala 
+			picture = aus_alcabala 
 			
 				
 			modifier = {
@@ -193,7 +193,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = AUS_divide_empire_2 
+			picture = aus_divide_empire_2 
 			
 				
 			modifier = {
@@ -212,7 +212,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = AUS_angelis_new_order 
+			picture = aus_angelis_new_order 
 			
 				
 			modifier = {
@@ -231,7 +231,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = AUS_angelis_military_influence 
+			picture = aus_angelis_military_influence 
 			
 				
 			modifier = {
@@ -306,7 +306,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = AUS_liberalizatiob_of_army 
+			picture = aus_army_liberalisation 
 			
 				
 			modifier = {
