@@ -195,3 +195,17 @@ country_event = {
 		}
 }
 }
+country_event = {	
+	id = kal_g.3
+	title = kal_g.3.t
+	desc = kal_g.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = kal_g.3.a
+	add_political_power = 75
+			
+}
+}

@@ -88,6 +88,25 @@ ideas = {
 				factor = 0
 			}
 		}
+		KAL_Swedish_Separatism_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = KAL_Swedish_Separatism 
+			
+			modifier = {
+				conscription = -0.01
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				consumer_goods_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
 		KAL_Natural_Monarch = {
 			
 			allowed = {
