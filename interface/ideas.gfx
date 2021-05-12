@@ -167,4 +167,45 @@ spriteTypes = {
 		name = "GFX_idea_KAL_Divine_Authority"
 		texturefile = "gfx/interface/ideas/kalmar/Divine_Authority.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_ELB_Economic_situation"
+		texturefile = "gfx/interface/ideas/kalmar/Economic_situation.dds"
+	}
+					###Austria###
+	spriteType = {
+		name = "GFX_idea_aus_economic_countermeasures"
+		texturefile = "gfx/interface/ideas/austria/aus_economic_countermeasures.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aus_dirigisme"
+		texturefile = "gfx/interface/ideas/austria/aus_dirigisme.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_aus_laissez_fair"
+		texturefile = "gfx/interface/ideas/austria/aus_laissez_fair.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aus_alcabala"
+		texturefile = "gfx/interface/ideas/austria/aus_alcabala.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aus_cutting_the_exesses"
+		texturefile = "gfx/interface/ideas/austria/aus_cutting_the_exesses.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aus_divide_empire_2"
+		texturefile = "gfx/interface/ideas/austria/aus_divide_empire_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aus_angelis_new_order"
+		texturefile = "gfx/interface/ideas/austria/aus_angelis_new_order.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aus_angelis_military_influence"
+		texturefile = "gfx/interface/ideas/austria/aus_angelis_military_influence.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_aus_army_liberalisation"
+		texturefile = "gfx/interface/ideas/austria/aus_army_liberalisation.dds"
+	}		
 }
