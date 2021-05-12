@@ -226,7 +226,8 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			 swap_ideas = { remove_idea = KAL_Federal_crisis
+						add_idea = KAL_Federal_crisis_1 }
 			}
 		available_if_capitulated = yes
 			}
