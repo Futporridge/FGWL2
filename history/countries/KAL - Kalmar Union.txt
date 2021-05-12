@@ -51,6 +51,7 @@ KAL_Colonial_Spending
 KAL_Economical_growth
 KAL_Federal_crisis
 KAL_Swedish_Separatism
+KAL_Economic_situation
 #advisors
 KAL_Carl_Glucksburg
 KAL_Henri_Konow

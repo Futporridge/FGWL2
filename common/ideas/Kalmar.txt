@@ -80,9 +80,9 @@ ideas = {
 				army_attack_factor = -0.1
 				army_defence_factor = -0.025
 				stability_factor = -0.12
-				war_support_factor = -0.9
+				war_support_factor = -0.09
 				production_speed_buildings_factor = -0.1 
-				consumer_goods_factor = 0.5
+				consumer_goods_factor = 0.05
 				
 			}
 	
@@ -186,7 +186,34 @@ ideas = {
 			}
 		}
 	
-		}
-  		
 		
+  		
+		###kolony###
+		
+		ELB_Economic_situation = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = ELB_Economic_situation
+			
+			modifier = {
+				army_attack_factor = -0.013
+				army_defence_factor = -0.025
+				stability_factor = -0.25
+				war_support_factor = -0.3
+				production_speed_buildings_factor = -0.5
+				consumer_goods_factor = 0.2
+				monthly_population = 0.2
+				production_factory_efficiency_gain_factor = -0.15	
+				industrial_capacity_dockyard = -0.15
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+	}
 	}

@@ -317,7 +317,7 @@ focus_tree = {
 		country_event = { id = kal_g.2 }
 		remove_ideas = { KAL_Swedish_Separatism_1 } 
 			}
-			}
+			
 		available_if_capitulated = yes
 			}
 			
@@ -442,8 +442,11 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
-			}
+			declare_war_on = {
+								target = ASH
+								type = annex_everything
+							 }
+							}
 		available_if_capitulated = yes
 				}
 				
@@ -528,7 +531,11 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_resource = {
+								type = steel
+								amount = 3
+								state = 88
+						   }
 			}
 		available_if_capitulated = yes
 				}

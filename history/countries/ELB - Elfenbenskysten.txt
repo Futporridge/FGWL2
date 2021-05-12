@@ -28,7 +28,7 @@ set_popularities = {
 }
 
 add_ideas = {
-
+ELB_Economic_situation
 }
 
 set_convoys = 100

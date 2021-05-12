@@ -167,6 +167,10 @@ spriteTypes = {
 		name = "GFX_idea_KAL_Divine_Authority"
 		texturefile = "gfx/interface/ideas/kalmar/Divine_Authority.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_ELB_Economic_situation"
+		texturefile = "gfx/interface/ideas/kalmar/Economic_situation.dds"
+	}
 					###Austria###
 	spriteType = {
 		name = "GFX_idea_aus_economic_countermeasures"
