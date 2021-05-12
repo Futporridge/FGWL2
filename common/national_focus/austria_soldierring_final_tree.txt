@@ -1771,6 +1771,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		country_event = { id = tyrangmil.1 }		
 		remove_ideas = { TYR_army4 TYR_sturmtruppen2 }
 		add_ideas = { TYR_ang_republican_heer }
 					}
@@ -1785,7 +1786,10 @@ focus_tree = {
 			focus = TYR_Accustomed_Doctrine
 			focus = TYR_Breakthrough_Doctrine
 			focus = TYR_Human_Wave_Doctrine
-		}		
+		}
+		available = {
+		always = no
+		}
 		cost = 2
 		ai_will_do = {
 			factor = 10
@@ -1797,7 +1801,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+
 					}
 				}
 	shared_focus = {
@@ -1817,7 +1821,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 0.5
+		uses = 2
+		category = armor
+		}
 					}
 				}
 	shared_focus = {
@@ -1837,7 +1845,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 0.5
+		uses = 2
+		category = land_doctrine
+		}		
 					}
 				}
 	shared_focus = {
@@ -1857,7 +1869,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_ideas = { TYR_ang_doppelsoldners }
 					}
 				}				
 	shared_focus = {
@@ -1877,7 +1889,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 0.5
+		uses = 2
+		category = motorized_equipment
+		}		
 					}
 				}
 	shared_focus = {
@@ -1897,7 +1913,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_ideas = { TYR_ang_panzer_rnd }		
 					}
 				}
 	shared_focus = {
@@ -1917,7 +1933,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_panzer_rnd add_idea = TYR_ang_panzer_rnd2 }
 					}
 				}
 	shared_focus = {
@@ -1938,7 +1954,13 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		remove_ideas = { TYR_ang_doppelsoldners TYR_ang_panzer_rnd2 }
+		add_ideas = { TYR_ang_doppelsoldners2 }
+		add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = land_doctrine
+		}		
 					}
 				}				
 	shared_focus = {
@@ -1957,6 +1979,9 @@ focus_tree = {
 			focus = TYR_Accustomed_Doctrine
 			focus = TYR_Experimental_Doctrine
 			focus = TYR_Human_Wave_Doctrine
+		}
+		available = {
+		always = no
 		}		
 		bypass = {
 			
@@ -1983,7 +2008,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 0.05
+		uses = 3
+		category = artillery
+		}		
 					}
 				}
 	shared_focus = {
@@ -2003,7 +2032,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		set_technology = {
+		motorized_rocket_unit = 1
+		motorised_infantry = 1
+		}		
 					}
 				}
 	shared_focus = {
@@ -2023,7 +2055,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 0.05
+		uses = 2
+		category = land_doctrine
+		}		
 					}
 				}				
 	shared_focus = {
@@ -2043,7 +2079,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_ideas = { TYR_ang_guns_and_butter }
 					}
 				}
 	shared_focus = {
@@ -2063,7 +2099,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_guns_and_butter add_idea = TYR_ang_guns_and_butter2 }		
 					}
 				}
 	shared_focus = {
@@ -2083,7 +2119,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_guns_and_butter2 add_idea = TYR_ang_guns_and_butter3 }			
 					}
 				}
 	shared_focus = {
@@ -2104,7 +2140,12 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = land_doctrine
+		}		
+		swap_ideas = { remove_idea = TYR_ang_guns_and_butter3 add_idea = TYR_ang_guns_and_butter4 }	
 					}
 				}				
 	shared_focus = {
@@ -2124,7 +2165,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_republican_heer add_idea = TYR_ang_republican_heer2 }
 					}
 				}
 	shared_focus = {
@@ -2164,7 +2205,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_ideas = { ang_militarist_propoganda }
 					}
 				}				
 	shared_focus = {
@@ -2184,7 +2225,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_republican_heer2 add_idea = TYR_ang_republican_heer3 }			
 					}
 				}
 	shared_focus = {
@@ -2204,7 +2245,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_republican_heer3 add_idea = TYR_ang_republican_heer4 }		
 					}
 				}
 	shared_focus = {
@@ -2225,7 +2266,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		remove_ideas = { ang_militarist_propoganda TYR_ang_republican_heer4 }
+		add_ideas = { add_idea = TYR_ang_republican_heer5 }
 					}
 				}					
 	shared_focus = {
@@ -2242,6 +2284,9 @@ focus_tree = {
 			focus = TYR_Experimental_Doctrine
 			focus = TYR_Breakthrough_Doctrine
 			focus = TYR_Human_Wave_Doctrine
+		}	
+		available = {
+		always = no
 		}		
 		available_if_capitulated = yes
 		relative_position_id = TYR_Republican_Heer				
@@ -2270,7 +2315,16 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = engineers_tech
+		}
+		add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = maintenance_company_tech
+		}		
 					}
 				}
 	shared_focus = {
@@ -2290,7 +2344,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_ideas = { TYR_ang_prepare_troops1 }
 					}
 				}	
 	shared_focus = {
@@ -2310,7 +2364,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_prepare_troops1 add_idea = TYR_ang_prepare_troops2 }
 					}
 				}					
 	shared_focus = {
@@ -2330,7 +2384,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_ideas = { TYR_ang_expand_staff1  }
 					}
 				}
 	shared_focus = {
@@ -2350,7 +2404,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 0.05
+		uses = 2
+		category = land_doctrine
+		}		
 					}
 				}
 	shared_focus = {
@@ -2370,7 +2428,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_expand_staff1 add_idea = TYR_ang_expand_staff2 }	
 					}
 				}
 	shared_focus = {
@@ -2391,7 +2449,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		remove_ideas = { TYR_ang_expand_staff2 TYR_ang_prepare_troops2 }
+		add_ideas = { TYR_ang_defence_doctrine }
 					}
 				}				
 	shared_focus = {
@@ -2404,6 +2463,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
+		available = {
+		always = no
+		}		
 		mutually_exclusive = {
 			focus = TYR_Accustomed_Doctrine
 			focus = TYR_Breakthrough_Doctrine
@@ -2436,7 +2498,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_ideas = { TYR_ang_morale_of_troops }
 					}
 				}
 	shared_focus = {
@@ -2456,7 +2518,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 1
+		uses = 2
+		category = infantry_weapons
+		}			
 					}
 				}
 	shared_focus = {
@@ -2476,7 +2542,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 0.05
+		uses = 2
+		category = land_doctrine
+		}			
 					}
 				}					
 	shared_focus = {
@@ -2496,7 +2566,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_ideas = { TYR_ang_expand_conscription }
 					}
 				}
 	shared_focus = {
@@ -2516,7 +2586,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_expand_conscription add_idea = TYR_ang_expand_conscription2 }
 					}
 				}
 	shared_focus = {
@@ -2536,7 +2606,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_expand_conscription2 add_idea = TYR_ang_expand_conscription3 }		
 					}
 				}
 	shared_focus = {
@@ -2557,7 +2627,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		remove_ideas = { TYR_ang_expand_conscription3 TYR_ang_morale_of_troops }
+		add_ideas = { TYR_ang_expand_conscription4 }
 					}
 				}	
 	shared_focus = {
@@ -2578,7 +2649,49 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+			if = {
+				limit = {
+					has_completed_focus = TYR_Blitzkrieg
+				}
+				remove_ideas = { TYR_ang_republican_heer5 TYR_ang_doppelsoldners2 }
+				add_ideas = TYR_ang_republican_heer_blitzkrieg
+				Custom_effect_tooltip = TYR_Of_Swords_and_Bands_tooltip				
+			}
+			if = {
+				limit = {
+					has_completed_focus = TYR_Shake_the_Earth
+				}
+				remove_ideas = { TYR_ang_guns_and_butter4 TYR_ang_republican_heer5 }
+				add_ideas = TYR_ang_republican_heer_guns_and_butter
+				Custom_effect_tooltip = TYR_Of_Swords_and_Bands_tooltip				
+			}
+			if = {
+				limit = {
+					has_completed_focus = TYR_Defence_and_the_Breakthrough
+				}
+				remove_ideas = { TYR_ang_defence_doctrine TYR_ang_republican_heer5 }
+				add_ideas = TYR_ang_republican_heer_defence_doctrine 
+				Custom_effect_tooltip = TYR_Of_Swords_and_Bands_tooltip				
+			}
+			if = {
+				limit = {
+					has_completed_focus = TYR_Musketeers_of_the_New_Age
+				}
+				remove_ideas = { TYR_ang_expand_conscription4 TYR_ang_republican_heer5 }
+				add_ideas = TYR_ang_republican_heer_musketeers
+				Custom_effect_tooltip = TYR_Of_Swords_and_Bands_tooltip				
+			}			
+			if = {
+				limit = {
+					NOT = {
+						has_completed_focus = ITE_new_tactics
+						has_completed_focus = ITE_trust_old_generals
+						has_completed_focus = ITE_new_tactics
+						has_completed_focus = ITE_trust_old_generals						
+					}
+				}
+				Custom_effect_tooltip = TYR_Of_Swords_and_Bands_tooltip
+			}
 					}
 				}
 	shared_focus = {
