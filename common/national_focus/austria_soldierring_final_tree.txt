@@ -23,7 +23,7 @@ focus_tree = {
 
 	shared_focus = {
 		id = TYR_Stratocratic_Government
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_stratocratic_government
 		x = 0
 		y = 2
 		cost = 2
@@ -43,7 +43,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Cement_Angelis_Authority
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_cement_angelis_authority
 		x = 0
 		y = 1
 		cost = 2
@@ -63,7 +63,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Creation_of_the_Civilian_Branch_of_Government
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_creation_of_the_civilian_branch_of_government
 		x = -2
 		y = 1
 		prerequisite = { focus = TYR_Stratocratic_Government }
@@ -89,7 +89,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Form_the_Internal_Affairs_Comitee
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_forn_the_internal_affairs_comitee
 		x = 2
 		y = 1
 		prerequisite = { focus = TYR_Stratocratic_Government }
@@ -137,7 +137,7 @@ focus_tree = {
 				}					
 	shared_focus = {
 		id = TYR_Matters_of_Leadership
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_matters_of_leadership
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Creation_of_the_Civilian_Branch_of_Government }		
@@ -161,7 +161,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Initial_Grasp_on_Austria
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_initial_grasp_on_austria
 		x = 0
 		y = 2
 		prerequisite = { focus = TYR_Matters_of_Leadership }	
@@ -199,7 +199,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Nationalist_Rhetorics
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_nationalist_rhetorics
 		x = -2
 		y = 1
 		prerequisite = { focus = TYR_Initial_Grasp_on_Austria }		
@@ -223,7 +223,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Popularize_the_Army
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_popularize_the_army
 		x = -2
 		y = 1
 		prerequisite = { focus = TYR_Nationalist_Rhetorics }		
@@ -247,7 +247,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Zealots_of_the_Regime
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_zealots_of_the_regime
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Nationalist_Rhetorics }		
@@ -271,7 +271,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Jugendarmee
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_judendarmee
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Popularize_the_Army }		
@@ -296,7 +296,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Cult_of_Angelis
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_cult_of_de_angelis
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Initial_Grasp_on_Austria }		
@@ -320,7 +320,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Ideological_Crusade
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_ideological_crusade
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Cult_of_Angelis }				
@@ -359,7 +359,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Republican_Ideals
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_republican_ideals
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Ideological_Crusade }				
@@ -383,7 +383,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Government_of_Strong
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_government_of_strong
 		x = 2
 		y = 1
 		prerequisite = { focus = TYR_Initial_Grasp_on_Austria }		
@@ -407,7 +407,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Militaristic_Meritocracy
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_militaristic_meritocracy
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Government_of_Strong }				
@@ -445,7 +445,7 @@ focus_tree = {
 				}	
 	shared_focus = {
 		id = TYR_Political_Tutelage
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_political_tutelage
 		x = 2
 		y = 1
 		prerequisite = { focus = TYR_Government_of_Strong }				
@@ -483,7 +483,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Expand_the_Soldatenring
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_expand_the_soldatenring
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Militaristic_Meritocracy }		
@@ -508,7 +508,7 @@ focus_tree = {
 				}	
 	shared_focus = {
 		id = TYR_Battle_for_Souls_and_Hearts
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_battle_for_souls_and_hearts
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Jugendarmee }		
@@ -534,7 +534,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Neighbourhood_Watches
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_neighbourhood_watches
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Battle_for_Souls_and_Hearts }			
@@ -558,7 +558,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Ideals_of_the_Great_Fatherland
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_ideals_of_the_great_fatherland
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Battle_for_Souls_and_Hearts }			
@@ -582,7 +582,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Heartland_of_Nation
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_heartland_of_nation
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Neighbourhood_Watches }
@@ -2696,7 +2696,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Department_of_External_Affairs
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_department_of_external_affairs
 		x = 12
 		y = 0
 		cost = 2
@@ -2710,12 +2710,12 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_ideas = { TYR_ang_external_affairs }
 					}
 				}					
 	shared_focus = {
 		id = TYR_Choose_our_Stance
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_choose_our_stance
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Department_of_External_Affairs }	
@@ -2730,12 +2730,12 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		country_event = { id = tyrangdip.1 }
 					}
 				}
 	shared_focus = {
 		id = TYR_Prepare_the_War_Plans
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_prepare_the_war_plans
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Department_of_External_Affairs }	
@@ -2750,12 +2750,13 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+	set_country_flag = TYR_ang_war_plans
+	unlock_decision_category_tooltip = TYR_ang_war_plans			
 					}
 				}				
 	shared_focus = {
 		id = TYR_All_Cards_on_Table
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_all_cards_on_table
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Prepare_the_War_Plans }	
@@ -2771,12 +2772,12 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		custom_effect_tooltip = TYR_All_Cards_on_Table_tooltip				
 					}
 				}
 	shared_focus = {
 		id = TYR_Knock_on_to_Enemy_Door
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_knock_on_to_the_enemy_door
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_All_Cards_on_Table }		
@@ -2796,7 +2797,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Prepare_the_Covert_Operations
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_prepare_the_covert_operations
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_All_Cards_on_Table }		
@@ -2811,12 +2812,43 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_political_power = 25
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}		
+		custom_effect_tooltip = TYR_Prepare_the_Covert_Operations_tooltip			
 					}
 				}	
 	shared_focus = {
 		id = TYR_The_Final_Ultimatum
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_the_final_ultimatum
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Knock_on_to_Enemy_Door }			

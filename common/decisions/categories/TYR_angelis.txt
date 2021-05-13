@@ -10,4 +10,12 @@ TYR_shield_of_the_republic = {
 		has_completed_focus = TYR_The_Shield_of_the_Republic
 		}
 	}
-}
+TYR_ang_war_plans = {
+	
+	icon = GFX_TYR_ang_war_plans
+	picture = GFX_TYR_ang_war_plans	
+	visible = {
+		has_completed_focus = TYR_Prepare_the_War_Plans
+		}
+	}	
+

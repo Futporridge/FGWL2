@@ -2962,6 +2962,118 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_focus_TYR_the_great_iron_ring"
 		texturefile = "gfx/interface/goals/angelis/economy/focus_TYR_the_great_iron_ring.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_stratocratic_government"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_stratocratic_government.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_creation_of_the_civilian_branch_of_government"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_creation_of_the_civilian_branch_of_government.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_matters_of_leadership"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_matters_of_leadership.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_cement_angelis_authority"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_cement_angelis_authority.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_forn_the_internal_affairs_comitee"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_forn_the_internal_affairs_comitee.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_initial_grasp_on_austria"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_initial_grasp_on_austria.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_nationalist_rhetorics"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_nationalist_rhetorics.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_popularize_the_army"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_popularize_the_army.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_TYR_zealots_of_the_regime"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_zealots_of_the_regime.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_judendarmee"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_judendarmee.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_cult_of_de_angelis"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_cult_of_de_angelis.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_ideological_crusade"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_ideological_crusade.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_republican_ideals"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_republican_ideals.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_government_of_strong"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_government_of_strong.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_militaristic_meritocracy"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_militaristic_meritocracy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_political_tutelage"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_political_tutelage.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_expand_the_soldatenring"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_expand_the_soldatenring.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_battle_for_souls_and_hearts"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_battle_for_souls_and_hearts.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_neighbourhood_watches"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_neighbourhood_watches.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_ideals_of_the_great_fatherland"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_ideals_of_the_great_fatherland.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_heartland_of_nation"
+		texturefile = "gfx/interface/goals/angelis/internal/focus_TYR_heartland_of_nation.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_TYR_department_of_external_affairs"
+		texturefile = "gfx/interface/goals/angelis/diplomacy/focus_TYR_department_of_external_affairs.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_choose_our_stance"
+		texturefile = "gfx/interface/goals/angelis/diplomacy/focus_TYR_choose_our_stance.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_prepare_the_war_plans"
+		texturefile = "gfx/interface/goals/angelis/diplomacy/focus_TYR_prepare_the_war_plans.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_all_cards_on_table"
+		texturefile = "gfx/interface/goals/angelis/diplomacy/focus_TYR_all_cards_on_table.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_knock_on_to_the_enemy_door"
+		texturefile = "gfx/interface/goals/angelis/diplomacy/focus_TYR_knock_on_to_the_enemy_door.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_prepare_the_covert_operations"
+		texturefile = "gfx/interface/goals/angelis/diplomacy/focus_TYR_prepare_the_covert_operations.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_TYR_the_final_ultimatum"
+		texturefile = "gfx/interface/goals/angelis/diplomacy/focus_TYR_the_final_ultimatum.dds"
 	}	
 	####Kalmaria####
 	SpriteType = { 

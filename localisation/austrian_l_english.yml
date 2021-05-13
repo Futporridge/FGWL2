@@ -107,6 +107,7 @@ AUS_arm_the_paramilitary_tooltip:0 "§GWe will gain decisions to arm paramilitar
 AUS_red_guard_tooltip:0 "§GWe will deploy two elite Red Guard divisions in our capital"
 AUS_intbrig_tooltip:0 "§GWe will deploy two International brigades divisions in our capital"
 TYR_Of_Swords_and_Bands_tooltip:0 "§GAs the reforms finishes, the army is slowly moulding into shape..."
+TYR_Prepare_the_Covert_Operations_tooltip:0 "§GWe will gain ability to form our own secret intelligence service"
 ###events###
 super.8.t:0 "Angelis unite Germany"
 super.8.d:0 "Germany Ain't free. The tree of liberty and freedom gotta be litterd with the blood of Patriots. otto VON Habsburg aka "funny boy" is not my kaiser. he is noble degenerate and probbaly italian as well :DD. Wachse, du Freiheit der deutschen Eichen wachse empor über unsere Leichen!"

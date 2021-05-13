@@ -2,6 +2,7 @@
 	add_namespace = tyrendcw
 	add_namespace = tyrang	
 	add_namespace = tyrangmil	
+	add_namespace = tyrangdip		
 	
 	country_event = {	
 	id = tyrendcw.1
@@ -132,6 +133,22 @@ create_country_leader = {
 		name = tyrangmil.1.f
 	unlock_national_focus = TYR_Human_Wave_Doctrine	
 	}	
+}
+	country_event = {	
+	id = tyrangdip.1
+	title = tyrangdip.1.t
+	desc = tyrangdip.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	option = {
+		name = tyrangdip.1.a
+	swap_ideas = { remove_idea = TYR_ang_external_affairs add_idea = TYR_ang_external_affairs_1 }
+	}
+	option = {
+		name = tyrangdip.1.b
+	swap_ideas = { remove_idea = TYR_ang_external_affairs add_idea = TYR_ang_external_affairs_2 }	
+	}
 }
 	country_event = {	
 	id = tyr.2
