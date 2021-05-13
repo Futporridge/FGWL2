@@ -1,6 +1,7 @@
 ﻿
 	add_namespace = kal
 	add_namespace = kal_g
+	add_namespace = swe
 	
 	country_event = {	
 	id = kal.1
@@ -142,11 +143,11 @@ country_event = {
 	picture = GFX_
 
 	is_triggered_only = yes
-
-	option = {
-		name = kal_g.2.a
+	immediate = {
+	
 			hidden_effect = {
 			SWE = {
+		country_event = { id = swe.1 days = 14 }
 		transfer_state = 139		
 		transfer_state = 140		
 		transfer_state = 141 
@@ -194,6 +195,15 @@ country_event = {
 			
 		}
 }
+option = {
+name = kal_g.2.a
+}
+option = {
+name = kal_g.2.b
+hidden_effect = {				
+	SWE = { change_tag_from = FROM }	 
+		}
+}
 }
 country_event = {	
 	id = kal_g.3
@@ -207,5 +217,84 @@ country_event = {
 		name = kal_g.3.a
 	add_political_power = 75
 			
+}
+}
+country_event = {	
+	id = swe.1
+	title = swe.1.t
+	desc = swe.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	immediate = {
+	hidden_effect = {
+	country_event = { id = swe.2 days = 8 }
+				set_politics = {
+								ruling_party = utopism
+							   }
+				}
+				}
+	option = {
+		name = swe.1.a
+		
+
+}
+}
+country_event = {	
+	id = swe.2
+	title = swe.2.t
+	desc = swe.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	immediate = {
+	
+			hidden_effect = {
+			FIN = {
+		transfer_state = 145		
+		transfer_state = 666
+		transfer_state = 994
+		transfer_state = 213
+		transfer_state = 215
+		transfer_state = 149
+		transfer_state = 146
+		transfer_state = 216
+			
+		country_event = {  }			
+		}
+		SWE = {
+		
+		remove_state_core = 145		
+		remove_state_core = 666
+		remove_state_core = 994
+		remove_state_core = 213
+		remove_state_core = 215
+		remove_state_core = 149
+		remove_state_core = 146
+		remove_state_core = 216	
+		}
+				
+					
+			
+		}
+}
+option = {
+name = swe.2.a
+declare_war_on = {
+    target = FIN
+    type = annex_everything
+}
+}
+option = {
+name = swe.2.b
+hidden_effect = {	
+			declare_war_on = {
+    target = FIN
+    type = annex_everything
+}
+	FIN = { change_tag_from = FROM }	 
+		}
 }
 }
