@@ -1368,7 +1368,7 @@ focus_tree = {
 		available_if_capitulated = yes
 	
 		available = {
-		
+		has_completed_focus = TYR_Prepare_the_Covert_Operations		
 		}
 		bypass = {
 
@@ -2705,6 +2705,11 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		relative_position_id = TYR_Reform_the_Imperial_Army		
+		available = { 
+		has_completed_focus = TYR_First_Signs_of_Relief
+		has_completed_focus = TYR_Initial_Grasp_on_Austria
+		has_completed_focus = TYR_Republican_Heer		
+		}
 		bypass = {
 			
 				}
