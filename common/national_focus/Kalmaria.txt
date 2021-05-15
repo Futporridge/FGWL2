@@ -195,6 +195,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			country_event = { id = kal_g.1 }
 			add_ideas = {KAL_bicameral_legislature}
 			}
 		available_if_capitulated = yes
