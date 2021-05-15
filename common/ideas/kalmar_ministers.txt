@@ -71,6 +71,46 @@ political_advisor = {
 			traits = { intelligence_chief }
 		}
 		
+		KAL_Ole_Bjorn_Kraft = {
+
+			picture = Ole_Bjorn_Kraft
+
+			allowed = {
+				original_tag = KAL
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { knight_of_the_regime }
+		}
+		KAL_Halfdan_Hendriksen = {
+
+			picture = Halfdan_Hendriksen
+
+			allowed = {
+				original_tag = KAL
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { supporter_of_colonial_economy }
+		}
+		KAL_Carl_Georg_Bartholdy = {
+
+			picture = Carl_Georg_Bartholdy
+
+			allowed = {
+				original_tag = KAL
+			}
+			available = {
+			always = no
+			}
+			
+			traits = {  }
+		}
+		
 				
 }
 	}

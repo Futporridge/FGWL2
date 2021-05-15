@@ -38,8 +38,8 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 819
-		division_template = "Guardia imperiale"
+		location = 10074
+		division_template = "Divisione guarnigione"
 		start_experience_factor = 1
 	}
 	division= {
@@ -47,54 +47,9 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 923
-		division_template = "Divisione Fanteria I"
-		start_experience_factor = 0.3
-	}
-	division= {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 963
-		division_template = "Divisione Fanteria II"
-		start_experience_factor = 0.3
-	}
-	division= {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 3910
-		division_template = "Divisione Fanteria II"
-		start_experience_factor = 0.3
-	}
-	division= {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 9838
-		division_template = "Divisione Fanteria III"
-		start_experience_factor = 0.3
-	}
-	division= {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 10074
+		location = 4159
 		division_template = "Divisione di cavalleria"
 		start_experience_factor = 0.3
-	}
-	division= {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 3838
-		division_template = "Divisione guarnigione"
-		start_experience_factor = 0
 	}
 }
 	#########################
@@ -102,34 +57,5 @@ units = {
 	#########################
 instant_effect = {
 	
-
-	add_equipment_production = {
-		equipment = {
-			type = infantry_equipment_1
-			creator = "ITE"
-		}
-		requested_factories = 3
-		progress = 0.1
-		efficiency = 50
-	}
-	add_equipment_production = {
-		equipment = {
-			type = artillery_equipment_1
-			creator = "ITE"
-		}
-		requested_factories = 2
-		progress = 0.1
-		efficiency = 50
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = support_equipment_1
-			creator = "ITE" 
-		}
-		requested_factories = 1
-		progress = 0.3
-		efficiency = 50
-	}
 }
 	#####################

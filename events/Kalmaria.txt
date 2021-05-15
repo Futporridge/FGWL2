@@ -253,27 +253,34 @@ country_event = {
 	
 			hidden_effect = {
 			FIN = {
-		transfer_state = 145		
-		transfer_state = 666
-		transfer_state = 994
+		transfer_state = 195
+		transfer_state = 148
+		transfer_state = 150
+		transfer_state = 111
 		transfer_state = 213
 		transfer_state = 215
 		transfer_state = 149
 		transfer_state = 146
+		transfer_state = 208
+		transfer_state = 244
 		transfer_state = 216
-			
 		country_event = {  }			
 		}
 		SWE = {
 		
-		remove_state_core = 145		
-		remove_state_core = 666
-		remove_state_core = 994
+		remove_state_core = 195
+		remove_state_core = 148
+		remove_state_core = 150
+		remove_state_core = 111
 		remove_state_core = 213
 		remove_state_core = 215
 		remove_state_core = 149
 		remove_state_core = 146
-		remove_state_core = 216	
+		remove_state_core = 208
+		remove_state_core = 244
+		remove_state_core = 216
+		remove_state_core = 994
+			
 		}
 				
 					
