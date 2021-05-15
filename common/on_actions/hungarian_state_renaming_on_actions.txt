@@ -23,6 +23,10 @@ on_actions = {
 							id = 9660
 							name = "Budapest"
 						}
+						set_province_name = {
+							id = 684
+							name = "Kecskemét"
+						}
 					}
 				}
 				if = {
@@ -84,7 +88,11 @@ on_actions = {
 						}
 					}
 					FROM.FROM = {
-						set_state_name = "Tolnau"						
+						set_state_name = "Tolnau"
+						set_province_name = {
+							id = 3670
+							name = "Zalaegerszeg"
+						}						
 					}
 				}
 				if = {
@@ -95,6 +103,14 @@ on_actions = {
 					}
 					FROM.FROM = {
 						set_state_name = "Győr"
+							set_province_name = {
+							id = 686
+							name = "Szombathely"
+						}
+						set_province_name = {
+							id = 6720
+							name = "Győr"
+						}
 					}
 				}
 				if = {
@@ -104,7 +120,11 @@ on_actions = {
 						}
 					}
 					FROM.FROM = {
-						set_state_name = "Fehérvár"						
+						set_state_name = "Fehérvár"	
+							set_province_name = {
+							id = 6703
+							name = "Székesfehérvár"
+						}						
 					}
 				}
 				if = {
@@ -124,7 +144,11 @@ on_actions = {
 						}
 					}
 					FROM.FROM = {
-						set_state_name = "Bácska"					
+						set_state_name = "Szeged"	
+						set_province_name = {
+							id = 6700
+							name = "Szeged"
+						}											
 					}
 				}
 				if = {
@@ -152,7 +176,11 @@ on_actions = {
 						}
 					}
 					FROM.FROM = {
-						set_state_name = "Besztercebánya"					
+						set_state_name = "Besztercebánya"
+						set_province_name = {
+							id = 3550
+							name = "Kassa"
+						}						
 					}
 				}		
 				if = {
@@ -202,9 +230,9 @@ on_actions = {
 					FROM.FROM = {
 						set_state_name = "Miskolc"
 						set_province_name = {
-							id = 6573
-							name = "Kassa"
-						}											
+							id = 6751
+							name = "Miskolc"
+						}						
 					}
 				}					
 				if = {
@@ -218,7 +246,11 @@ on_actions = {
 						set_province_name = {
 							id = 11659
 							name = "Debrecen"
-						}							
+						}	
+						set_province_name = {
+							id = 3730
+							name = "Nyíregyháza"
+						}						
 					}
 				}				
 				if = {
@@ -245,8 +277,16 @@ on_actions = {
 						set_state_name = "Észak-Erdély"
 						set_province_name = {
 							id = 6711
-							name = "Kolozsvár "
-						}						
+							name = "Kolozsvár"
+						}
+						set_province_name = {
+							id = 3696
+							name = "Nagyvárad"
+						}
+						set_province_name = {
+							id = 746
+							name = "Szatmárnémeti"
+						}
 					}
 				}
 				if = {

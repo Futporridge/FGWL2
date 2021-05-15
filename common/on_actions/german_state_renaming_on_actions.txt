@@ -315,6 +315,14 @@ on_actions = {
 					}
 					FROM.FROM = {
 						set_state_name = "Raab"
+						set_province_name = {
+							id = 686
+							name = "Steinamanger"
+						}
+						set_province_name = {
+							id = 6720
+							name = "Raab"
+						}
 					}
 				}
 				if = {
@@ -325,6 +333,10 @@ on_actions = {
 					}
 					FROM.FROM = {
 						set_state_name = "Stuhlweißenburg"
+						set_province_name = {
+							id = 6703
+							name = "Stuhlweißenburg"
+						}
 					}
 				}
 				if = {
@@ -335,6 +347,10 @@ on_actions = {
 					}
 					FROM.FROM = {
 						set_state_name = "Tolnau"
+						set_province_name = {
+							id = 3670
+							name = "Egersee"
+						}
 					}
 				}
 				if = {
@@ -358,7 +374,11 @@ on_actions = {
 						}
 					}
 					FROM.FROM = {
-						set_state_name = "Batschka"
+						set_state_name = "Segedin"
+						set_province_name = {
+							id = 6700
+							name = "Segedin"
+						}							
 					}
 				}
 				if = {
@@ -387,6 +407,10 @@ on_actions = {
 							id = 9660
 							name = "Budapest"
 						}
+						set_province_name = {
+							id = 684
+							name = "Ketschkemet"
+						}
 					}
 				}
 				if = {
@@ -398,8 +422,8 @@ on_actions = {
 					FROM.FROM = {
 						set_state_name = "Mischkolz"
 						set_province_name = {
-							id = 6573
-							name = "Kaschau"
+							id = 6751
+							name = "Mischkolz"
 						}
 					}
 				}
@@ -410,10 +434,14 @@ on_actions = {
 						}
 					}
 					FROM.FROM = {
-						set_state_name = "Segedin"
+						set_state_name = "Debrezin"
 						set_province_name = {
 							id = 11659
 							name = "Debrezin"
+						}
+						set_province_name = {
+							id = 3730
+							name = "Birkenkirchen"
 						}
 					}
 				}
@@ -428,6 +456,14 @@ on_actions = {
 						set_province_name = {
 							id = 6711
 							name = "Klausenburg"
+						}
+						set_province_name = {
+							id = 3696
+							name = "Großwardein"
+						}
+						set_province_name = {
+							id = 746
+							name = "Sathmar"
 						}
 					}
 				}
@@ -501,6 +537,10 @@ on_actions = {
 					}
 					FROM.FROM = {
 						set_state_name = "Neusohl"
+						set_province_name = {
+							id = 3550
+							name = "Kaschau"
+						}
 					}
 				}
 				if = {
