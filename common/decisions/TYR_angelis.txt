@@ -215,5 +215,33 @@ add_equipment_to_stockpile = {
 		}		
 		  
      }	 
-	 
+TYR_ang_war_plans = {
+     unternehmen_rosselsprung = {                                         
+          availabe = {                           
+		NOT = {
+		has_country_flag = ang_end_unternehmen_rosselsprung		
+			}		
+          }
+		visible = { 
+		has_completed_focus = TYR_All_Cards_on_Table    		
+		NOT = {
+		has_country_flag = ang_end_unternehmen_rosselsprung		
+			}
+		}
+	icon = GFX_decision_generic_tank	  	  
+          is_good = yes                           
+          days_remove = 25
+          remove_effect = {
+		  declare_war_on = {
+		  target = CZE
+		  type = annex_everything
+			}
+		  declare_war_on = {
+		  target = SLV
+		  type = annex_everything
+			}				
+		set_country_flag = ang_end_unternehmen_rosselsprung			
+			}
+		  
+     }	 	 
 }

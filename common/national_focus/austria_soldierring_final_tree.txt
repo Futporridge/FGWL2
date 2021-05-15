@@ -23,7 +23,7 @@ focus_tree = {
 
 	shared_focus = {
 		id = TYR_Stratocratic_Government
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_stratocratic_government
 		x = 0
 		y = 2
 		cost = 2
@@ -43,7 +43,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Cement_Angelis_Authority
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_cement_angelis_authority
 		x = 0
 		y = 1
 		cost = 2
@@ -63,7 +63,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Creation_of_the_Civilian_Branch_of_Government
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_creation_of_the_civilian_branch_of_government
 		x = -2
 		y = 1
 		prerequisite = { focus = TYR_Stratocratic_Government }
@@ -89,7 +89,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Form_the_Internal_Affairs_Comitee
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_forn_the_internal_affairs_comitee
 		x = 2
 		y = 1
 		prerequisite = { focus = TYR_Stratocratic_Government }
@@ -117,7 +117,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Form_the_Internal_Affairs_Comitee }		
-		cost = 6
+		cost = 2
 		relative_position_id = TYR_Form_the_Internal_Affairs_Comitee
 		ai_will_do = {
 			factor = 10
@@ -137,11 +137,11 @@ focus_tree = {
 				}					
 	shared_focus = {
 		id = TYR_Matters_of_Leadership
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_matters_of_leadership
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Creation_of_the_Civilian_Branch_of_Government }		
-		cost = 6
+		cost = 2
 		relative_position_id = TYR_Creation_of_the_Civilian_Branch_of_Government
 		ai_will_do = {
 			factor = 10
@@ -161,13 +161,13 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Initial_Grasp_on_Austria
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_initial_grasp_on_austria
 		x = 0
 		y = 2
 		prerequisite = { focus = TYR_Matters_of_Leadership }	
 		prerequisite = { focus = TYR_Cement_Angelis_Authority }
 		prerequisite = { focus = TYR_Final_Push_Against_Opposition }		
-		cost = 6
+		cost = 2
 		relative_position_id = TYR_Cement_Angelis_Authority
 		ai_will_do = {
 			factor = 10
@@ -199,11 +199,11 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Nationalist_Rhetorics
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_nationalist_rhetorics
 		x = -2
 		y = 1
 		prerequisite = { focus = TYR_Initial_Grasp_on_Austria }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Initial_Grasp_on_Austria
 		ai_will_do = {
 			factor = 10
@@ -223,11 +223,11 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Popularize_the_Army
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_popularize_the_army
 		x = -2
 		y = 1
 		prerequisite = { focus = TYR_Nationalist_Rhetorics }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Nationalist_Rhetorics
 		ai_will_do = {
 			factor = 10
@@ -247,11 +247,11 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Zealots_of_the_Regime
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_zealots_of_the_regime
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Nationalist_Rhetorics }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Nationalist_Rhetorics
 		ai_will_do = {
 			factor = 10
@@ -271,12 +271,12 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Jugendarmee
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_judendarmee
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Popularize_the_Army }		
 		prerequisite = { focus = TYR_Zealots_of_the_Regime }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Popularize_the_Army
 		ai_will_do = {
 			factor = 10
@@ -296,11 +296,11 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Cult_of_Angelis
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_cult_of_de_angelis
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Initial_Grasp_on_Austria }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Initial_Grasp_on_Austria
 		ai_will_do = {
 			factor = 10
@@ -320,11 +320,11 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Ideological_Crusade
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_ideological_crusade
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Cult_of_Angelis }				
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Cult_of_Angelis
 		ai_will_do = {
 			factor = 10
@@ -359,11 +359,11 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Republican_Ideals
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_republican_ideals
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Ideological_Crusade }				
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Ideological_Crusade
 		ai_will_do = {
 			factor = 10
@@ -383,11 +383,11 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Government_of_Strong
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_government_of_strong
 		x = 2
 		y = 1
 		prerequisite = { focus = TYR_Initial_Grasp_on_Austria }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Initial_Grasp_on_Austria
 		ai_will_do = {
 			factor = 10
@@ -407,11 +407,11 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Militaristic_Meritocracy
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_militaristic_meritocracy
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Government_of_Strong }				
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Government_of_Strong
 		ai_will_do = {
 			factor = 10
@@ -445,11 +445,11 @@ focus_tree = {
 				}	
 	shared_focus = {
 		id = TYR_Political_Tutelage
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_political_tutelage
 		x = 2
 		y = 1
 		prerequisite = { focus = TYR_Government_of_Strong }				
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Government_of_Strong
 		ai_will_do = {
 			factor = 10
@@ -483,12 +483,12 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Expand_the_Soldatenring
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_expand_the_soldatenring
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Militaristic_Meritocracy }		
 		prerequisite = { focus = TYR_Political_Tutelage }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Political_Tutelage
 		ai_will_do = {
 			factor = 10
@@ -508,13 +508,13 @@ focus_tree = {
 				}	
 	shared_focus = {
 		id = TYR_Battle_for_Souls_and_Hearts
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_battle_for_souls_and_hearts
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Jugendarmee }		
 		prerequisite = { focus = TYR_Republican_Ideals }	
 		prerequisite = { focus = TYR_Expand_the_Soldatenring }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Republican_Ideals
 		ai_will_do = {
 			factor = 10
@@ -534,11 +534,11 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Neighbourhood_Watches
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_neighbourhood_watches
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Battle_for_Souls_and_Hearts }			
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Battle_for_Souls_and_Hearts
 		ai_will_do = {
 			factor = 10
@@ -558,11 +558,11 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Ideals_of_the_Great_Fatherland
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_ideals_of_the_great_fatherland
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Battle_for_Souls_and_Hearts }			
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Battle_for_Souls_and_Hearts
 		ai_will_do = {
 			factor = 10
@@ -582,12 +582,12 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = TYR_Heartland_of_Nation
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_heartland_of_nation
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Neighbourhood_Watches }
 		prerequisite = { focus = TYR_Ideals_of_the_Great_Fatherland }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Neighbourhood_Watches
 		ai_will_do = {
 			factor = 10
@@ -611,7 +611,7 @@ focus_tree = {
 		x = -12
 		y = 2
 		
-		cost = 6
+		cost = 2
 		relative_position_id = TYR_March_on_to_the_Victory
 		ai_will_do = {
 			factor = 10
@@ -635,7 +635,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		prerequisite = { focus = TYR_Economical_Rebirth }
-		cost = 6
+		cost = 2
 		relative_position_id = TYR_Economical_Rebirth
 		ai_will_do = {
 			factor = 10
@@ -659,7 +659,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Administative_Reforms }
-		cost = 6
+		cost = 2
 		relative_position_id = TYR_Administative_Reforms
 		ai_will_do = {
 			factor = 10
@@ -696,7 +696,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Economical_Rebirth }
-		cost = 6
+		cost = 2
 		relative_position_id = TYR_Economical_Rebirth
 		ai_will_do = {
 			factor = 10
@@ -720,7 +720,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Strangling_the_Unions }
-		cost = 6
+		cost = 2
 		relative_position_id = TYR_Strangling_the_Unions
 		ai_will_do = {
 			factor = 10
@@ -746,7 +746,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		prerequisite = { focus = TYR_Economical_Rebirth }
-		cost = 6
+		cost = 2
 		relative_position_id = TYR_Economical_Rebirth
 		ai_will_do = {
 			factor = 10
@@ -770,7 +770,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Restoration_Projects }
-		cost = 6
+		cost = 2
 		relative_position_id = TYR_Restoration_Projects
 		ai_will_do = {
 			factor = 10
@@ -796,7 +796,7 @@ focus_tree = {
 		prerequisite = { focus = TYR_Rob_the_Barons }
 		prerequisite = { focus = TYR_Political_Indoctrination }
 		prerequisite = { focus = TYR_Send_Army_to_Construction }		
-		cost = 6
+		cost = 2
 		relative_position_id = TYR_Political_Indoctrination
 		ai_will_do = {
 			factor = 10
@@ -820,7 +820,7 @@ focus_tree = {
 		x = -3
 		y = 1
 		prerequisite = { focus = TYR_First_Signs_of_Relief }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_First_Signs_of_Relief
 		ai_will_do = {
 			factor = 10
@@ -844,7 +844,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		prerequisite = { focus = TYR_Civilian_Branch_of_Central_Restruction_Comitee }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Civilian_Branch_of_Central_Restruction_Comitee
 		ai_will_do = {
 			factor = 10
@@ -895,7 +895,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Expand_the_Railroad_Lines }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Expand_the_Railroad_Lines
 		ai_will_do = {
 			factor = 10
@@ -919,7 +919,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Civilian_Branch_of_Central_Restruction_Comitee }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Civilian_Branch_of_Central_Restruction_Comitee
 		ai_will_do = {
 			factor = 10
@@ -966,7 +966,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Civilian_Build_Up }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Civilian_Build_Up
 		ai_will_do = {
 			factor = 10
@@ -991,7 +991,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = TYR_Construction_of_the_Danube_Hydroelectrostation }
 		prerequisite = { focus = TYR_Minimize_the_Civilian_Needs }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Minimize_the_Civilian_Needs
 		ai_will_do = {
 			factor = 10
@@ -1016,7 +1016,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Electrifictaion_of_the_Vienna }	
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Electrifictaion_of_the_Vienna
 		ai_will_do = {
 			factor = 10
@@ -1040,7 +1040,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		prerequisite = { focus = TYR_Civilian_Branch_of_Central_Restruction_Comitee focus = TYR_Military_Branch_of_Central_Restruction_Comitee  }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_First_Signs_of_Relief
 		ai_will_do = {
 			factor = 10
@@ -1064,7 +1064,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_State_Appointed_Unions }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_State_Appointed_Unions
 		ai_will_do = {
 			factor = 10
@@ -1090,7 +1090,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		prerequisite = { focus = TYR_Women_Suffrage }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Women_Suffrage
 		ai_will_do = {
 			factor = 10
@@ -1114,7 +1114,7 @@ focus_tree = {
 		x = 3
 		y = 1
 		prerequisite = { focus = TYR_First_Signs_of_Relief }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_First_Signs_of_Relief
 		ai_will_do = {
 			factor = 10
@@ -1138,7 +1138,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Military_Branch_of_Central_Restruction_Comitee }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Military_Branch_of_Central_Restruction_Comitee
 		ai_will_do = {
 			factor = 10
@@ -1169,7 +1169,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Rekindle_the_Forge }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Rekindle_the_Forge
 		ai_will_do = {
 			factor = 10
@@ -1193,7 +1193,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		prerequisite = { focus = TYR_Military_Branch_of_Central_Restruction_Comitee }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Military_Branch_of_Central_Restruction_Comitee
 		ai_will_do = {
 			factor = 10
@@ -1217,7 +1217,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Adaptive_Production }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Adaptive_Production
 		ai_will_do = {
 			factor = 10
@@ -1242,7 +1242,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = TYR_Rapid_Militarization }		
 		prerequisite = { focus = TYR_Faster_and_Faster }			
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Rapid_Militarization
 		ai_will_do = {
 			factor = 10
@@ -1266,7 +1266,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Spirit_of_the_Hephaestus }			
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Spirit_of_the_Hephaestus
 		ai_will_do = {
 			factor = 10
@@ -1315,7 +1315,7 @@ focus_tree = {
 		prerequisite = { focus = TYR_Expand_the_Military_Plants }
 		prerequisite = { focus = TYR_Further_Economical_Reforms }	
 		prerequisite = { focus = TYR_Nation_of_Fire_and_Steel }			
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Nation_of_Fire_and_Steel
 		ai_will_do = {
 			factor = 10
@@ -1360,7 +1360,7 @@ focus_tree = {
 		x = -24
 		y = 2
 		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_March_on_to_the_Victory
 		ai_will_do = {
 			factor = 10
@@ -1368,7 +1368,7 @@ focus_tree = {
 		available_if_capitulated = yes
 	
 		available = {
-		
+		has_completed_focus = TYR_Prepare_the_Covert_Operations		
 		}
 		bypass = {
 
@@ -1399,7 +1399,7 @@ focus_tree = {
 		x = -3
 		y = 1
 		prerequisite = { focus = TYR_Department_thirty_four }	
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Department_thirty_four
 		ai_will_do = {
 			factor = 10
@@ -1423,7 +1423,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Department_thirty_four }	
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Department_thirty_four
 		ai_will_do = {
 			factor = 10
@@ -1447,7 +1447,7 @@ focus_tree = {
 		x = 3
 		y = 1
 		prerequisite = { focus = TYR_Department_thirty_four }	
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Department_thirty_four
 		ai_will_do = {
 			factor = 10
@@ -1471,7 +1471,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Form_the_Internal_Affairs_Section focus = TYR_Special_Forces_Initiative }	
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Form_the_Internal_Affairs_Section
 		ai_will_do = {
 			factor = 10
@@ -1495,7 +1495,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Form_the_Internal_Affairs_Section focus = TYR_Special_Forces_Initiative focus = TYR_Police_Rearment }	
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Special_Forces_Initiative
 		ai_will_do = {
 			factor = 10
@@ -1519,7 +1519,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		prerequisite = { focus = focus = TYR_Special_Forces_Initiative focus = TYR_Police_Rearment }	
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Police_Rearment
 		ai_will_do = {
 			factor = 10
@@ -1545,7 +1545,7 @@ focus_tree = {
 		prerequisite = { focus = TYR_Military_Police_Squadrons }
 		prerequisite = { focus = TYR_Expand_the_Weaponries }
 		prerequisite = { focus = TYR_Joint_Operations }		
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_Expand_the_Weaponries
 		ai_will_do = {
 			factor = 10
@@ -1569,7 +1569,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_New_Facilities }
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_New_Facilities
 		ai_will_do = {
 			factor = 10
@@ -1593,7 +1593,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_New_Facilities }
-		cost = 6
+		cost = 5
 		relative_position_id = TYR_New_Facilities
 		ai_will_do = {
 			factor = 10
@@ -1771,6 +1771,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
+		country_event = { id = tyrangmil.1 }		
 		remove_ideas = { TYR_army4 TYR_sturmtruppen2 }
 		add_ideas = { TYR_ang_republican_heer }
 					}
@@ -1785,7 +1786,10 @@ focus_tree = {
 			focus = TYR_Accustomed_Doctrine
 			focus = TYR_Breakthrough_Doctrine
 			focus = TYR_Human_Wave_Doctrine
-		}		
+		}
+		available = {
+		always = no
+		}
 		cost = 2
 		ai_will_do = {
 			factor = 10
@@ -1797,7 +1801,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+
 					}
 				}
 	shared_focus = {
@@ -1806,7 +1810,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Experimental_Doctrine }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -1817,7 +1821,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 0.5
+		uses = 2
+		category = armor
+		}
 					}
 				}
 	shared_focus = {
@@ -1826,7 +1834,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Bring_the_Mare_to_the_Field }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -1837,7 +1845,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 0.5
+		uses = 2
+		category = land_doctrine
+		}		
 					}
 				}
 	shared_focus = {
@@ -1846,7 +1858,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Expand_the_Civil_War_Tactics }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -1857,7 +1869,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_ideas = { TYR_ang_doppelsoldners }
 					}
 				}				
 	shared_focus = {
@@ -1866,7 +1878,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Experimental_Doctrine }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -1877,7 +1889,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 0.5
+		uses = 2
+		category = motorized_equipment
+		}		
 					}
 				}
 	shared_focus = {
@@ -1886,7 +1902,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Army_Motorization }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -1897,7 +1913,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_ideas = { TYR_ang_panzer_rnd }		
 					}
 				}
 	shared_focus = {
@@ -1906,7 +1922,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Panzer_RD_Division }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -1917,7 +1933,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_panzer_rnd add_idea = TYR_ang_panzer_rnd2 }
 					}
 				}
 	shared_focus = {
@@ -1927,7 +1943,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = TYR_Doppelsoldniers }	
 		prerequisite = { focus = TYR_Streamline_the_Armor_Production }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -1938,7 +1954,13 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		remove_ideas = { TYR_ang_doppelsoldners TYR_ang_panzer_rnd2 }
+		add_ideas = { TYR_ang_doppelsoldners2 }
+		add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = land_doctrine
+		}		
 					}
 				}				
 	shared_focus = {
@@ -1957,6 +1979,9 @@ focus_tree = {
 			focus = TYR_Accustomed_Doctrine
 			focus = TYR_Experimental_Doctrine
 			focus = TYR_Human_Wave_Doctrine
+		}
+		available = {
+		always = no
 		}		
 		bypass = {
 			
@@ -1972,7 +1997,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Breakthrough_Doctrine }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -1983,7 +2008,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 0.05
+		uses = 3
+		category = artillery
+		}		
 					}
 				}
 	shared_focus = {
@@ -1992,7 +2021,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Artillery_Renewal }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2003,7 +2032,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		set_technology = {
+		motorized_rocket_unit = 1
+		motorised_infantry = 1
+		}		
 					}
 				}
 	shared_focus = {
@@ -2012,7 +2044,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Motorized_Artillery }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2023,7 +2055,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 0.05
+		uses = 2
+		category = land_doctrine
+		}		
 					}
 				}				
 	shared_focus = {
@@ -2032,7 +2068,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Breakthrough_Doctrine }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2043,7 +2079,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_ideas = { TYR_ang_guns_and_butter }
 					}
 				}
 	shared_focus = {
@@ -2052,7 +2088,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Guns_and_Butter }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2063,7 +2099,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_guns_and_butter add_idea = TYR_ang_guns_and_butter2 }		
 					}
 				}
 	shared_focus = {
@@ -2072,7 +2108,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Experimental_with_the_Shells }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2083,7 +2119,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_guns_and_butter2 add_idea = TYR_ang_guns_and_butter3 }			
 					}
 				}
 	shared_focus = {
@@ -2093,7 +2129,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = TYR_Explosive_Rain }	
 		prerequisite = { focus = TYR_Study_the_Results }		
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2104,7 +2140,12 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = land_doctrine
+		}		
+		swap_ideas = { remove_idea = TYR_ang_guns_and_butter3 add_idea = TYR_ang_guns_and_butter4 }	
 					}
 				}				
 	shared_focus = {
@@ -2113,7 +2154,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		prerequisite = { focus = TYR_Experimental_Doctrine focus = TYR_Breakthrough_Doctrine focus = TYR_Accustomed_Doctrine focus = TYR_Human_Wave_Doctrine }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2124,7 +2165,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_republican_heer add_idea = TYR_ang_republican_heer2 }
 					}
 				}
 	shared_focus = {
@@ -2133,7 +2174,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Nationalist_Military }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2153,7 +2194,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Form_the_Military_Corporations }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2164,7 +2205,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_ideas = { ang_militarist_propoganda }
 					}
 				}				
 	shared_focus = {
@@ -2173,7 +2214,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Nationalist_Military }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2184,7 +2225,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_republican_heer2 add_idea = TYR_ang_republican_heer3 }			
 					}
 				}
 	shared_focus = {
@@ -2193,7 +2234,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Soldatenring_Officers }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2204,7 +2245,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_republican_heer3 add_idea = TYR_ang_republican_heer4 }		
 					}
 				}
 	shared_focus = {
@@ -2214,7 +2255,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = TYR_Militarist_Propaganda }	
 		prerequisite = { focus = TYR_No_Piece_of_Land_to_Enemy }		
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2225,7 +2266,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		remove_ideas = { ang_militarist_propoganda TYR_ang_republican_heer4 }
+		add_ideas = { add_idea = TYR_ang_republican_heer5 }
 					}
 				}					
 	shared_focus = {
@@ -2242,6 +2284,9 @@ focus_tree = {
 			focus = TYR_Experimental_Doctrine
 			focus = TYR_Breakthrough_Doctrine
 			focus = TYR_Human_Wave_Doctrine
+		}	
+		available = {
+		always = no
 		}		
 		available_if_capitulated = yes
 		relative_position_id = TYR_Republican_Heer				
@@ -2259,7 +2304,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Accustomed_Doctrine }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2270,7 +2315,16 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = engineers_tech
+		}
+		add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = maintenance_company_tech
+		}		
 					}
 				}
 	shared_focus = {
@@ -2279,7 +2333,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Expand_the_Engineer_Corps }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2290,7 +2344,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_ideas = { TYR_ang_prepare_troops1 }
 					}
 				}	
 	shared_focus = {
@@ -2299,7 +2353,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Prepare_Troops_to_New_Tactics }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2310,7 +2364,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_prepare_troops1 add_idea = TYR_ang_prepare_troops2 }
 					}
 				}					
 	shared_focus = {
@@ -2319,7 +2373,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Accustomed_Doctrine }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2330,7 +2384,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_ideas = { TYR_ang_expand_staff1  }
 					}
 				}
 	shared_focus = {
@@ -2339,7 +2393,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Expand_the_Staff }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2350,7 +2404,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 0.05
+		uses = 2
+		category = land_doctrine
+		}		
 					}
 				}
 	shared_focus = {
@@ -2359,7 +2417,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Expand_the_Doctrine }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2370,7 +2428,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_expand_staff1 add_idea = TYR_ang_expand_staff2 }	
 					}
 				}
 	shared_focus = {
@@ -2380,7 +2438,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = TYR_Expand_the_Republican_Stormtroopers }	
 		prerequisite = { focus = TYR_Cooperation_with_the_Officers }		
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2391,7 +2449,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		remove_ideas = { TYR_ang_expand_staff2 TYR_ang_prepare_troops2 }
+		add_ideas = { TYR_ang_defence_doctrine }
 					}
 				}				
 	shared_focus = {
@@ -2404,6 +2463,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
+		available = {
+		always = no
+		}		
 		mutually_exclusive = {
 			focus = TYR_Accustomed_Doctrine
 			focus = TYR_Breakthrough_Doctrine
@@ -2425,7 +2487,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Human_Wave_Doctrine }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2436,7 +2498,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_ideas = { TYR_ang_morale_of_troops }
 					}
 				}
 	shared_focus = {
@@ -2445,7 +2507,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Morale_of_Troops }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2456,7 +2518,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 1
+		uses = 2
+		category = infantry_weapons
+		}			
 					}
 				}
 	shared_focus = {
@@ -2465,7 +2531,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Equipment_Renovation }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2476,7 +2542,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_tech_bonus = {
+		bonus = 0.05
+		uses = 2
+		category = land_doctrine
+		}			
 					}
 				}					
 	shared_focus = {
@@ -2485,7 +2555,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Human_Wave_Doctrine }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2496,7 +2566,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_ideas = { TYR_ang_expand_conscription }
 					}
 				}
 	shared_focus = {
@@ -2505,7 +2575,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Expand_the_Conscription }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2516,7 +2586,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_expand_conscription add_idea = TYR_ang_expand_conscription2 }
 					}
 				}
 	shared_focus = {
@@ -2525,7 +2595,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = TYR_Republican_Rifle_Brotherhoods }			
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2536,7 +2606,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		swap_ideas = { remove_idea = TYR_ang_expand_conscription2 add_idea = TYR_ang_expand_conscription3 }		
 					}
 				}
 	shared_focus = {
@@ -2546,7 +2616,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = TYR_Expand_the_Rifle_Production }	
 		prerequisite = { focus = TYR_Tactical_Renovation }		
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2557,7 +2627,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		remove_ideas = { TYR_ang_expand_conscription3 TYR_ang_morale_of_troops }
+		add_ideas = { TYR_ang_expand_conscription4 }
 					}
 				}	
 	shared_focus = {
@@ -2567,7 +2638,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = TYR_Furor_Teutonicus }	
 		prerequisite = { focus = TYR_Blitzkrieg focus = TYR_Shake_the_Earth focus = TYR_Defence_and_the_Breakthrough focus = TYR_Musketeers_of_the_New_Age }		
-		cost = 2
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -2578,35 +2649,82 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+			if = {
+				limit = {
+					has_completed_focus = TYR_Blitzkrieg
+				}
+				remove_ideas = { TYR_ang_republican_heer5 TYR_ang_doppelsoldners2 }
+				add_ideas = TYR_ang_republican_heer_blitzkrieg
+				Custom_effect_tooltip = TYR_Of_Swords_and_Bands_tooltip				
+			}
+			if = {
+				limit = {
+					has_completed_focus = TYR_Shake_the_Earth
+				}
+				remove_ideas = { TYR_ang_guns_and_butter4 TYR_ang_republican_heer5 }
+				add_ideas = TYR_ang_republican_heer_guns_and_butter
+				Custom_effect_tooltip = TYR_Of_Swords_and_Bands_tooltip				
+			}
+			if = {
+				limit = {
+					has_completed_focus = TYR_Defence_and_the_Breakthrough
+				}
+				remove_ideas = { TYR_ang_defence_doctrine TYR_ang_republican_heer5 }
+				add_ideas = TYR_ang_republican_heer_defence_doctrine 
+				Custom_effect_tooltip = TYR_Of_Swords_and_Bands_tooltip				
+			}
+			if = {
+				limit = {
+					has_completed_focus = TYR_Musketeers_of_the_New_Age
+				}
+				remove_ideas = { TYR_ang_expand_conscription4 TYR_ang_republican_heer5 }
+				add_ideas = TYR_ang_republican_heer_musketeers
+				Custom_effect_tooltip = TYR_Of_Swords_and_Bands_tooltip				
+			}			
+			if = {
+				limit = {
+					NOT = {
+						has_completed_focus = ITE_new_tactics
+						has_completed_focus = ITE_trust_old_generals
+						has_completed_focus = ITE_new_tactics
+						has_completed_focus = ITE_trust_old_generals						
+					}
+				}
+				Custom_effect_tooltip = TYR_Of_Swords_and_Bands_tooltip
+			}
 					}
 				}
 	shared_focus = {
 		id = TYR_Department_of_External_Affairs
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_department_of_external_affairs
 		x = 12
 		y = 0
-		cost = 2
+		cost = 3
 		ai_will_do = {
 			factor = 10
 		}
 		available_if_capitulated = yes
 		relative_position_id = TYR_Reform_the_Imperial_Army		
+		available = { 
+		has_completed_focus = TYR_First_Signs_of_Relief
+		has_completed_focus = TYR_Initial_Grasp_on_Austria
+		has_completed_focus = TYR_Republican_Heer		
+		}
 		bypass = {
 			
 				}
 
 		completion_reward = {
-		
+		add_ideas = { TYR_ang_external_affairs }
 					}
 				}					
 	shared_focus = {
 		id = TYR_Choose_our_Stance
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_choose_our_stance
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_Department_of_External_Affairs }	
-		cost = 2
+		cost = 3
 		ai_will_do = {
 			factor = 10
 		}
@@ -2617,16 +2735,16 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		country_event = { id = tyrangdip.1 }
 					}
 				}
 	shared_focus = {
 		id = TYR_Prepare_the_War_Plans
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_prepare_the_war_plans
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Department_of_External_Affairs }	
-		cost = 2
+		cost = 3
 		ai_will_do = {
 			factor = 10
 		}
@@ -2637,17 +2755,18 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+	set_country_flag = TYR_ang_war_plans
+	unlock_decision_category_tooltip = TYR_ang_war_plans			
 					}
 				}				
 	shared_focus = {
 		id = TYR_All_Cards_on_Table
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_all_cards_on_table
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Prepare_the_War_Plans }	
 		prerequisite = { focus = TYR_Choose_our_Stance }		
-		cost = 2
+		cost = 3
 		ai_will_do = {
 			factor = 10
 		}
@@ -2658,16 +2777,16 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		custom_effect_tooltip = TYR_All_Cards_on_Table_tooltip				
 					}
 				}
 	shared_focus = {
 		id = TYR_Knock_on_to_Enemy_Door
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_knock_on_to_the_enemy_door
 		x = -1
 		y = 1
 		prerequisite = { focus = TYR_All_Cards_on_Table }		
-		cost = 2
+		cost = 3
 		ai_will_do = {
 			factor = 10
 		}
@@ -2683,11 +2802,11 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = TYR_Prepare_the_Covert_Operations
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_prepare_the_covert_operations
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_All_Cards_on_Table }		
-		cost = 2
+		cost = 3
 		ai_will_do = {
 			factor = 10
 		}
@@ -2698,17 +2817,48 @@ focus_tree = {
 				}
 
 		completion_reward = {
-		
+		add_political_power = 25
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}		
+		custom_effect_tooltip = TYR_Prepare_the_Covert_Operations_tooltip			
 					}
 				}	
 	shared_focus = {
 		id = TYR_The_Final_Ultimatum
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_TYR_the_final_ultimatum
 		x = 1
 		y = 1
 		prerequisite = { focus = TYR_Knock_on_to_Enemy_Door }			
 		prerequisite = { focus = TYR_Prepare_the_Covert_Operations }		
-		cost = 2
+		cost = 3
 		ai_will_do = {
 			factor = 10
 		}

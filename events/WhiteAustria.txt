@@ -1,7 +1,8 @@
 ﻿	add_namespace = tyr
 	add_namespace = tyrendcw
 	add_namespace = tyrang	
-	
+	add_namespace = tyrangmil	
+	add_namespace = tyrangdip		
 	
 	country_event = {	
 	id = tyrendcw.1
@@ -44,6 +45,7 @@
 	load_focus_tree = { tree = austria_soldierring_final_tree keep_completed = no }
 	remove_ideas = { AUS_decline_of_the_country common_illegitimate_state AUS_econ6 TYR_patriotic_fervor TYR_left_insurgency TYR_army1 TYR_army2 TYR_blitzkrieg TYR_divided_empire TYR_reign_of_the_spear TYR_kriegsministerium TYR_sturmtruppen TYR_army3 AUS_feudal_legacy TYR_ploughshares_into_swords TYR_left_insurgency_2 TYR_oath_of_allegiance TYR_dictator_of_the_danube TYR_march_on_to_the_victory_idea TYR_ploughshares_into_swords2 TYR_ploughshares_into_swords2_1 TYR_ploughshares_into_swords3 }
 	add_ideas = { TYR_dictator_of_the_danube TYR_sturmtruppen TYR_army3 TYR_ang_fractionalism TYR_ploughshares_into_swords3 TYR_oath_of_allegiance AUS_feudal_legacy TYR_ang_left_resistance TYR_destroyed_economy }
+	set_cosmetic_tag = TYR_angelis_final_austria	
 		}
 	}	
 }	
@@ -107,6 +109,46 @@ create_country_leader = {
 			}		
 		}
 }
+}
+	country_event = {	
+	id = tyrangmil.1
+	title = tyrangmil.1.t
+	desc = tyrangmil.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	option = {
+		name = tyrangmil.1.a
+	unlock_national_focus = TYR_Experimental_Doctrine	
+	}
+	option = {
+		name = tyrangmil.1.b
+	unlock_national_focus = TYR_Breakthrough_Doctrine	
+	}
+	option = {
+		name = tyrangmil.1.c
+	unlock_national_focus = TYR_Accustomed_Doctrine	
+	}
+	option = {
+		name = tyrangmil.1.f
+	unlock_national_focus = TYR_Human_Wave_Doctrine	
+	}	
+}
+	country_event = {	
+	id = tyrangdip.1
+	title = tyrangdip.1.t
+	desc = tyrangdip.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	option = {
+		name = tyrangdip.1.a
+	swap_ideas = { remove_idea = TYR_ang_external_affairs add_idea = TYR_ang_external_affairs_1 }
+	}
+	option = {
+		name = tyrangdip.1.b
+	swap_ideas = { remove_idea = TYR_ang_external_affairs add_idea = TYR_ang_external_affairs_2 }	
+	}
 }
 	country_event = {	
 	id = tyr.2

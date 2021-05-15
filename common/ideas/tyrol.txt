@@ -45,7 +45,7 @@ ideas = {
 
 			picture = TYR_army1 
 
-				country_lock_all_division_template = yes			
+		
 				research_bonus = {
 				land_doctrine = 0.25
 				}			
@@ -67,7 +67,7 @@ ideas = {
 
 			picture = TYR_army2 
 
-				country_lock_all_division_template = yes			
+		
 				research_bonus = {
 				land_doctrine = 0.25
 				}			
@@ -189,7 +189,7 @@ ideas = {
 
 			picture = TYR_army3 
 
-				country_lock_all_division_template = yes			
+		
 				research_bonus = {
 				land_doctrine = 0.25
 				}			
@@ -1200,7 +1200,7 @@ ideas = {
 
 			picture = TYR_army3 
 
-				country_lock_all_division_template = yes			
+		
 				research_bonus = {
 				land_doctrine = 0.25
 				}			
@@ -1209,7 +1209,7 @@ ideas = {
 				army_org_factor = 0.1	
 				army_org_regain = 0.1
 				defence = 0.05
-				experience_loss_factor = 0.15
+				experience_loss_factor = -0.15
 			}
 	
 			ai_will_do = {
@@ -1224,7 +1224,7 @@ ideas = {
 
 			picture = TYR_army3 
 
-				country_lock_all_division_template = yes			
+		
 				research_bonus = {
 				land_doctrine = 0.25
 				}			
@@ -1233,7 +1233,7 @@ ideas = {
 				army_org_factor = 0.1	
 				army_org_regain = 0.1
 				defence = 0.05
-				experience_loss_factor = 0.15
+				experience_loss_factor = -0.15
 				special_forces_cap = 0.5	
 				army_org_regain = 0.05
 				army_speed_factor = 0.1					
@@ -1243,6 +1243,134 @@ ideas = {
 				factor = 0
 			}
 		}
+		TYR_ang_republican_heer2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+
+		
+				research_bonus = {
+				land_doctrine = 0.25
+				}			
+			modifier = {
+				max_command_power = 5
+				army_org_factor = 0.1	
+				army_org_regain = 0.1
+				defence = 0.05
+				experience_loss_factor = -0.15
+				special_forces_cap = 0.5	
+				army_org_regain = 0.05
+				army_speed_factor = 0.1
+				political_power_factor = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_republican_heer3 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+
+		
+				research_bonus = {
+				land_doctrine = 0.25
+				}			
+			modifier = {
+				max_command_power = 5
+				army_org_factor = 0.1	
+				army_org_regain = 0.15
+				defence = 0.05
+				experience_loss_factor = -0.15
+				special_forces_cap = 0.5	
+				army_org_regain = 0.1
+				army_speed_factor = 0.1
+				political_power_factor = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_republican_heer4 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+
+		
+				research_bonus = {
+				land_doctrine = 0.25
+				}			
+			modifier = {
+				max_command_power = 5
+				army_org_factor = 0.1	
+				army_org_regain = 0.15
+				defence = 0.05
+				army_core_defence_factor = 0.05
+				experience_loss_factor = -0.15
+				special_forces_cap = 0.5	
+				army_org_regain = 0.1
+				army_speed_factor = 0.1
+				political_power_factor = 0.05
+				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_republican_heer5 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+		
+				research_bonus = {
+				land_doctrine = 0.25
+				}			
+			modifier = {
+				max_command_power = 5
+				army_org_factor = 0.1	
+				army_org_regain = 0.15
+				defence = 0.05
+				army_core_defence_factor = 0.05
+				experience_loss_factor = -0.15
+				special_forces_cap = 0.5	
+				army_org_regain = 0.1
+				army_speed_factor = 0.1
+				political_power_factor = 0.05
+				offence = 0.1
+				industry_free_repair_factor	 = 0.1
+			}
+		}	
+		ang_militarist_propoganda = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+			
+			modifier = {
+				industry_free_repair_factor	 = 0.1
+			}			
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}			
 		TYR_ang_panzer_rnd = {
 			
 			allowed = {
@@ -1316,9 +1444,431 @@ ideas = {
 				army_org_factor = 0.1	
 				army_org_regain = 0.1				
 			}
+				research_bonus = {
+				armor = 0.15
+				}
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+			}		
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_guns_and_butter = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture =  
+
+			modifier = {
+			
+			}
+			equipment_bonus = {
+				artillery = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+			}		
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_guns_and_butter2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture =  
+
+			modifier = {
+							
+			}
+			equipment_bonus = {
+				artillery = {
+					build_cost_ic = -0.2
+					instant = yes
+					soft_attack = 0.05
+					hard_attack = 0.05
+				}
+			}		
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_guns_and_butter3 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture =  
+
+			modifier = {
+							
+			}
+			equipment_bonus = {
+				artillery = {
+					build_cost_ic = -0.3
+					instant = yes
+					soft_attack = 0.1
+					hard_attack = 0.1
+				}
+			}		
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_guns_and_butter4 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture =  
+
+			modifier = {
+			breakthrough_factor = 0.1				
+			}
+			equipment_bonus = {
+				artillery = {
+					build_cost_ic = -0.3
+					instant = yes
+					soft_attack = 0.1
+					hard_attack = 0.1 				
+				}
+			}		
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_prepare_troops1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+	
+			modifier = {
+				army_core_defence_factor = 0.05	
+				defence = 0.05
+			}
 	
 			ai_will_do = {
 				factor = 0
+			}
+		}
+		TYR_ang_prepare_troops2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+	
+			modifier = {
+				army_core_defence_factor = 0.05	
+				defence = 0.05
+				army_org_factor = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ang_expand_staff1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+	
+			modifier = {
+				max_command_power = 15	
+			}
+		}
+		TYR_ang_expand_staff2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+	
+			modifier = {
+				max_command_power = 15
+				special_forces_cap = 0.25	
+			}
+		}
+		TYR_ang_defence_doctrine = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+	
+			modifier = {
+				max_command_power = 20
+				special_forces_cap = 0.3
+				army_core_defence_factor = 0.05	
+				defence = 0.05
+				army_org_factor = 0.075				
+				
+			}
+		}
+		TYR_ang_morale_of_troops = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+	
+			modifier = {
+				army_org_regain = 0.1			
+				
+			}
+		}
+		TYR_ang_expand_conscription = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+	
+			modifier = {
+				conscription_factor = 0.1			
+				
+			}
+		}
+		TYR_ang_expand_conscription2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+	
+			modifier = {
+				conscription_factor = 0.25			
+			}
+			equipment_bonus = {
+				infantry = {
+					build_cost_ic = -0.05
+					instant = yes
+					soft_attack = 0.05			
+				}
+			}			
+		}
+		TYR_ang_expand_conscription3 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+	
+			modifier = {
+				conscription_factor = 0.25			
+			}
+			equipment_bonus = {
+				infantry = {
+					build_cost_ic = -0.25
+					instant = yes
+					soft_attack = 0.05			
+				}
+			}			
+		}
+		TYR_ang_expand_conscription4 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+	
+			modifier = {
+				conscription_factor = 0.25	
+				army_org_regain = 0.15					
+			}
+			equipment_bonus = {
+				infantry = {
+					build_cost_ic = -0.3
+					instant = yes
+					soft_attack = 0.05			
+				}
+			}			
+		}
+		TYR_ang_republican_heer_blitzkrieg = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+		
+				research_bonus = {
+				land_doctrine = 0.3
+				armor = 0.2				
+				}
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+			}					
+			modifier = {
+				max_command_power = 5
+				army_org_factor = 0.2	
+				defence = 0.05
+				army_core_defence_factor = 0.05
+				experience_loss_factor = -0.15
+				special_forces_cap = 0.5	
+				army_org_regain = 0.2
+				army_speed_factor = 0.1
+				political_power_factor = 0.05
+				offence = 0.125
+				industry_free_repair_factor	 = 0.1
+				
+			}
+		}
+		TYR_ang_republican_heer_guns_and_butter = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+		
+				research_bonus = {
+				land_doctrine = 0.25
+				}
+			equipment_bonus = {
+				artillery = {
+					build_cost_ic = -0.3
+					instant = yes
+					soft_attack = 0.1
+					hard_attack = 0.1 				
+				}
+			}				
+			modifier = {
+				max_command_power = 5
+				army_org_factor = 0.1	
+				army_org_regain = 0.15
+				defence = 0.05
+				army_core_defence_factor = 0.05
+				experience_loss_factor = -0.15
+				special_forces_cap = 0.5	
+				army_org_regain = 0.1
+				army_speed_factor = 0.1
+				political_power_factor = 0.05
+				offence = 0.1
+				industry_free_repair_factor	 = 0.1
+				breakthrough_factor = 0.2	
+			}
+		}		
+		TYR_ang_republican_heer_defence_doctrine = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+		
+				research_bonus = {
+				land_doctrine = 0.25
+				}			
+			modifier = {
+				max_command_power = 30
+				army_org_factor = 0.2	
+				army_org_regain = 0.15
+				defence = 0.1
+				army_core_defence_factor = 0.1
+				experience_loss_factor = -0.15
+				special_forces_cap = 1	
+				army_speed_factor = 0.1
+				political_power_factor = 0.05
+				offence = 0.1
+				industry_free_repair_factor	 = 0.1
+			}
+		}			
+		TYR_ang_republican_heer_musketeers = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+		
+				research_bonus = {
+				land_doctrine = 0.25
+				}
+			equipment_bonus = {
+				infantry = {
+					build_cost_ic = -0.3
+					instant = yes
+					soft_attack = 0.1	
+				}
+			}				
+			modifier = {
+				conscription_factor = 0.3			
+				max_command_power = 5
+				army_org_factor = 0.1	
+				army_org_regain = 0.3
+				defence = 0.05
+				army_core_defence_factor = 0.05
+				experience_loss_factor = -0.15
+				special_forces_cap = 0.5	
+				army_org_regain = 0.1
+				army_speed_factor = 0.1
+				political_power_factor = 0.05
+				offence = 0.1
+				industry_free_repair_factor	 = 0.1
+			}
+		}
+		TYR_ang_external_affairs = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+						
+			modifier = {
+
+			}
+		}
+		TYR_ang_external_affairs_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+						
+			modifier = {
+
+			}
+		}
+		TYR_ang_external_affairs_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_army3 
+						
+			modifier = {
+
 			}
 		}		
 	}
