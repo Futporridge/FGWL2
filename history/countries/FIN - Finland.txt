@@ -35,9 +35,9 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS_KARL_GEORG_HUYN_DESC"
-	picture = "gfx/leaders/FIN/"
+	name = "Carl Gustaf Emil Mannerheim"
+	desc = "POLITICS_CARL_GUSTAF_EMIL_MANNERGHEIM_DESC"
+	picture = "gfx/leaders/FIN/Carl_Gustaf_Emil_Mannerheim.tga"
 	expire = "1965.1.1"
 	ideology = paternalism
 	traits = { 
