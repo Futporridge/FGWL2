@@ -395,6 +395,24 @@ spriteTypes = {
 		name = "GFX_idea_Eigil_Thune_Jacobsen"
 		texturefile = "gfx/interface/ideas/Ministers/Kalmar/Eigil_Thune_Jacobsen.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_John_Christmas_Moller"
+		texturefile = "gfx/interface/ideas/Ministers/Kalmar/gluk/hojre/John_Christmas_Moller.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Ole_Bjorn_Kraft"
+		texturefile = "gfx/interface/ideas/Ministers/Kalmar/gluk/hojre/Ole_Bjorn_Kraft.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Halfdan_Hendriksen"
+		texturefile = "gfx/interface/ideas/Ministers/Kalmar/gluk/hojre/Halfdan_Hendriksen.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Carl_Georg_Bartholdy"
+		texturefile = "gfx/interface/ideas/Ministers/Kalmar/gluk/hojre/Carl_Georg_Bartholdy.dds"
+	}
+	
+	
 						####Papal####
 	spriteType = {
 		name = "GFX_idea_Luigi_Maglione"

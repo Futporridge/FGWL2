@@ -3763,7 +3763,28 @@ young_diplomat = {
             factor = 1
         }
 	}
-	
+	knight_of_the_regime = {
+		random = no
+		
+		opinion_gain_monthly_same_ideology = 5
+		opinion_gain_monthly_same_ideology_factor = 0.3
+		opinion_gain_monthly_factor = 0.3
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	supporter_of_colonial_economy = {
+		random = no
+		production_speed_dockyard_factor = 0.5
+		trade_opinion_factor = 0.5
+		consumer_goods_factor = -0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	###############################POP##############################
 	Soft_Conservative = {
 		random = no
@@ -3820,6 +3841,7 @@ young_diplomat = {
 			factor = 1
 		}
 	}
+	
 ####################################################################ISR##############################################################
 	Respected_Theorist = {
 		random = no

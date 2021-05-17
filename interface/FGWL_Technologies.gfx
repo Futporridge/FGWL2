@@ -208,8 +208,40 @@ spriteTypes = {
 		name = "GFX_KAL_early_armor_car_medium"
 		texturefile = "gfx/interface/technologies/KAL_01_armor_car.dds"
 	}
-	SpriteType = {
+	SpriteType = { 
 		name = "GFX_KAL_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/KAL_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_VWS_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/VWS_infantry_equipment_0.dds"
+	}
+	SpriteType = { 
+		name = "GFX_VWS_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/VWS_infantry_equipment_1.dds"
+	}	
+	SpriteType = {  
+		name = "GFX_VWS_improved_infantry_weapons_medium" 
+		texturefile = "gfx/interface/technologies/VWS_infantry_equipment_2.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_VWS_advanced_infantry_weapons_medium" 
+		texturefile = "gfx/interface/technologies/VWS_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_BCL_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/BCL_infantry_equipment_0.dds"
+	}
+	SpriteType = { 
+		name = "GFX_BCL_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/BCL_infantry_equipment_1.dds"
+	}
+	SpriteType = {  
+		name = "GFX_BCL_improved_infantry_weapons_medium" 
+		texturefile = "gfx/interface/technologies/BCL_infantry_equipment_2.dds"
+	}		
+	SpriteType = { 
+		name = "GFX_BCL_advanced_infantry_weapons_medium" 
+		texturefile = "gfx/interface/technologies/BCL_infantry_equipment_3.dds"
 	}	
 }

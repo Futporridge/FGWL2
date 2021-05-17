@@ -24,7 +24,8 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+		add_stability = 0.05
+		add_political_power = 35	
 			}
 		available_if_capitulated = yes
 				}
@@ -42,7 +43,22 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-								
+			remove_ideas = {
+			KAL_Carl_Glucksburg
+			KAL_Henri_Konow
+			KAL_Jens_Hundseid 
+			KAL_Aksel_Moller
+			KAL_Eigil_Thune_Jacobsen			
+			}		
+			add_ideas = {
+			AUS_dip_vacant
+			AUS_inner_vacant
+			AUS_econom_vacant
+			AUS_rec_vacant
+			}		
+			add_ideas = { 
+			AUS_head_of_gov_vacant
+			}					
 			}
 		
 		available_if_capitulated = yes
@@ -534,7 +550,7 @@ focus_tree = {
 			add_resource = {
 								type = steel
 								amount = 3
-								state = 88
+								state = 779
 						   }
 			}
 		available_if_capitulated = yes
