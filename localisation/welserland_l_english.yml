@@ -23,5 +23,9 @@
 ###tech####
 VWS_infantry_equipment_0:0 "Mauser M24"
 VWS_infantry_equipment_0_short:0 "Mauser M24"
+VWS_infantry_equipment_1:0 "Karabiner 98k"
+VWS_infantry_equipment_1_short:0 "Kar98k"
+VWS_infantry_equipment_2:0 "Maschinenpistole 38"
+VWS_infantry_equipment_2_short:0 "MP 38"
 VWS_infantry_equipment_3:0 "StG 44"
 VWS_infantry_equipment_3_short:0 "Sturmgewehr 44"
