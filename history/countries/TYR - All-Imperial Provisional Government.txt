@@ -11,6 +11,8 @@ add_ideas = {
 
 }
 
+set_research_slots = 4
+
 set_politics = {
 	ruling_party = oligarchy
 	last_election = "1933.3.5"
