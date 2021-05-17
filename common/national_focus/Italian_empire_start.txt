@@ -722,9 +722,9 @@
 				Custom_effect_tooltip = ITE_wealth_of_the_north_text
 				has_country_flag = ite_capture_of_rome
 			}
-			completion_reward = {
+		}
+		completion_reward = {
 			country_event = {	id = ite.5	}
-			}
 		}
 	}
 	shared_focus = {
