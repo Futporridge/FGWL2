@@ -1,0 +1,29 @@
+﻿l_english:
+####ministers####
+
+###parties####
+ BCL_utopism_party:0 "Böhme Gesellschaften"
+ BCL_utopism_party_long:0 "Böhme Gesellschaften (Böhmian Societies)"
+ BCL_prometeism_party:0 "CAP" 
+ BCL_prometeism_party_long:0 "Colinsland Arbeiterpartei (Labor Party of Colinsland)"
+ BCL_communitarianism_party:0 "VP-LF"
+ BCL_communitarianism_party_long:0 "Volkspartei - Linker Flügel (Volksparty - Left Wing)"
+ BCL_liberalism_party:0 "VP-RF"
+ BCL_liberalism_party_long:0 "Volkspartei - Rechter Flügel (Volksparty - Right Wing)"   
+ BCL_oligarchy_party:0 "DKV-V"
+ BCL_oligarchy_party_long:0 "Deutsche Kolonialverwaltung - Verwaltungsrat (German Colonial Administration - Board of Directors)"
+ BCL_conservatism_party:0 "DKV-R"
+ BCL_conservatism_party_long:0 "Deutsche Kolonialverwaltung - Reformisten (German Colonial Administration - Reformists)"
+ BCL_paternalism_party:0 "DKV"
+ BCL_paternalism_party_long:0 "Deutsche Kolonialverwaltung (German Colonial Administration)"
+ BCL_reactionary_party:0 "CU"
+ BCL_reactionary_party_long:0 "Christliche Union (Christian Union)" 
+###tech####
+BCL_infantry_equipment_0:0 "Mauser Gewehr 1871/84"
+BCL_infantry_equipment_0_short:0 "Gew71/84"
+BCL_infantry_equipment_1:0 "Schutztruppen G98"
+BCL_infantry_equipment_1_short:0 "G98"
+BCL_infantry_equipment_2:0 "Maschinenpistole 39"
+BCL_infantry_equipment_2_short:0 "MP 39"
+BCL_infantry_equipment_3:0 "StG 44K"
+BCL_infantry_equipment_3_short:0 "Sturmgewehr 44K"
