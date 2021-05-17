@@ -19,13 +19,13 @@ set_politics = {
 }
 
 set_popularities = {
-	utopism = 35
-	prometeism = 10
-	communitarianism = 5
-	oligarchy = 10
+	utopism = 7
+	prometeism = 5
+	communitarianism = 11
+	oligarchy = 37
 	conservatism = 30
-	paternalism = 10
-	reactionary = 0
+	paternalism = 5
+	reactionary = 5
 }
 
 add_ideas = {
@@ -40,17 +40,6 @@ create_country_leader = {
 	picture = "gfx/leaders/VWS/Portrait_Johannes_von_Liechtenstein.tga"
 	expire = "1965.1.1"
 	ideology = oligarchy
-	traits = { 
-
-	}
-}
-
-create_country_leader = {
-	name = "Ernst Jünger"
-	desc = "POLITICS_ERNST_JUNGER_DESC"
-	picture = "gfx/leaders/ANS/Portrait_Ernst_Junger.tga"
-	expire = "1965.1.1"
-	ideology = utopism
 	traits = { 
 
 	}
