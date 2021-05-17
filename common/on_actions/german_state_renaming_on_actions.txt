@@ -374,7 +374,7 @@ on_actions = {
 						}
 					}
 					FROM.FROM = {
-						set_state_name = "Segedin"
+						set_state_name = "Batschka"
 						set_province_name = {
 							id = 6700
 							name = "Segedin"
