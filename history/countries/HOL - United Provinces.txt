@@ -117,3 +117,53 @@ create_country_leader = {
 
 	}
 }
+create_country_leader = {
+	name = "Charlotte van Nassau-Weilburg"
+	desc = "POLITICS_CHARLOTTE_VAN_NASSAU_DESC"
+	picture = "gfx/leaders/HOL/Portrait_Charlotte.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Hank Sneevliet"
+	desc = "POLITICS_HANK_SNEEVLIET_DESC"
+	picture = "gfx/leaders/HOL/Portrait_Hank_Sneevliet.tga"
+	expire = "1965.1.1"
+	ideology = prometeism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Jan Baars"
+	desc = "POLITICS_JAN_BAARS_DESC"
+	picture = "gfx/leaders/HOL/Portrait_Jan_Baars.tga"
+	expire = "1965.1.1"
+	ideology = communitarianism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Willem Hendrik de Buisonjé"
+	desc = "POLITICS_WILLEM_HENDRIK_DE_BUISONJE_DESC"
+	picture = "gfx/leaders/HOL/Portrait_Willem_Hendrik_de_Buisonje.tga"
+	expire = "1965.1.1"
+	ideology = individualism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Lizzy van Dorp"
+	desc = "POLITICS_LIZZY_VAN_DORP_DESC"
+	picture = "gfx/leaders/HOL/Portrait_Lizzy_Van_Dorp.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = { 
+
+	}
+}
