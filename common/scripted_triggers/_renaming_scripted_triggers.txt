@@ -239,15 +239,13 @@ is_germany_or_splinter_tag = {
 }
 is_italian_tag = {
 	OR = {
-		tag = ITA
-		tag = SRI
+		tag = ITE
+		tag = PIE
 		tag = SIC
-		tag = SRD
-		tag = PAP
-		tag = VNC
-		tag = EMI
+		tag = POP
+		tag = VEN
 		tag = TUS
-		tag = LOM
+		tag = ISR
 	}
 }
 is_polish_tag = {

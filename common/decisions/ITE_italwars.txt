@@ -35,6 +35,21 @@ ITE_risorgimento = {
             }
 			set_country_flag = ite_capture_of_rome
 			mark_focus_tree_layout_dirty = yes
+			hidden_effect = {
+				unlock_national_focus = ITE_and_big_guns
+				unlock_national_focus = ITE_restoration_of_communications
+				unlock_national_focus = ITE_and_breakthrough_machines
+				unlock_national_focus = ITE_providence_on_the_side_of_the_big_battalions
+				unlock_national_focus = ITE_march_through_the_mountains
+				remove_ideas = operation_avalanche
+				remove_ideas = operation_avalanche_speed
+				remove_ideas = operation_avalanche_speed_big
+				remove_ideas = operation_avalanche_speed_big_comm
+				remove_ideas = operation_avalanche_speed_big_comm_tank
+				remove_ideas = operation_avalanche_speed_big_comm_art
+			
+			}
+			
 		}
 		
 		ai_will_do = {

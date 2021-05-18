@@ -708,6 +708,25 @@
 
 	}
 	shared_focus = {
+		id = ITE_royal_marines
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = ITE_theory_of_sea_landings
+		}
+		x = 11
+		y = 9
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = marine_tech
+			}
+		}
+
+	}
+	shared_focus = {
 		id = ITE_wealth_of_the_north
 		icon = GFX_goal_unknown
 		cost = 3
@@ -728,24 +747,142 @@
 		}
 	}
 	shared_focus = {
-		id = ITE_royal_marines
+		id = ITE_humane_approach
 		icon = GFX_goal_unknown
-		cost = 3
+		cost = 2
 		prerequisite = {
-			focus = ITE_theory_of_sea_landings
+			focus = ITE_wealth_of_the_north
 		}
-		x = 11
-		y = 9
+		allow_branch = {
+			has_country_flag = ite_resistenza_flag
+		}
+		x = 9
+		y = 13
 		
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.25
-				uses = 1
-				category = marine_tech
+			swap_ideas = {
+				remove_idea = resistenza
+				add_idea = resistenza_civ_1
 			}
 		}
-
 	}
+	shared_focus = {
+		id = ITE_food_program
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = ITE_humane_approach
+		}
+		x = 10
+		y = 14
+		
+		completion_reward = {
+			
+		}
+	}
+	shared_focus = {
+		id = ITE_live_and_work
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = ITE_food_program
+		}
+		x = 10
+		y = 15
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = resistenza_civ_1
+				add_idea = resistenza_civ_2
+			}
+		}
+	}
+	shared_focus = {
+		id = ITE_сivil_administration
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = ITE_live_and_work
+		}
+		x = 10
+		y = 16
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = resistenza_civ_2
+				add_idea = resistenza_civ_3
+			}
+		}
+	}
+	shared_focus = {
+		id = ITE_pragmatic_approach
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = ITE_wealth_of_the_north
+		}
+		allow_branch = {
+			has_country_flag = ite_resistenza_flag
+		}
+		x = 3
+		y = 13
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = resistenza
+				add_idea = resistenza_mil_1
+			}
+		}
+	}
+	shared_focus = {
+		id = ITE_industry_relocation
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = ITE_pragmatic_approach
+		}
+		x = 2
+		y = 14
+		
+		completion_reward = {
+			
+		}
+	}
+	shared_focus = {
+		id = ITE_work_for_live
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = ITE_industry_relocation
+		}
+		x = 2
+		y = 15
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = resistenza_mil_1
+				add_idea = resistenza_mil_2
+			}
+		}
+	}
+	shared_focus = {
+		id = ITE_military_administration
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = ITE_work_for_live
+		}
+		x = 2
+		y = 16
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = resistenza_mil_2
+				add_idea = resistenza_mil_3
+			}
+		}
+	}
+	
 ####################################################################################################################################
 ####################################################################################################################################
 #######################################################ФАЗА2########################################################################
@@ -753,7 +890,7 @@
 ####################################################################################################################################
 
 	shared_focus = {
-		id = ITE_crossing_the_rubicon
+		id = ITE_truce_with_honor
 		icon = GFX_goal_unknown
 		cost = 0
 		x = 6
@@ -761,17 +898,20 @@
 		allow_branch = {
 			has_country_flag = ite_capture_of_rome
 		}
-		prerequisite = {
-			focus = ITE_as_long_as_austria_dont_look
+		available = {
+			custom_trigger_tooltip = {
+				Custom_effect_tooltip = ITE_truce_with_honor_text
+				controls_state = 805
+				controls_state = 2
+			}
 		}
-
-	}
-	shared_focus = {
-		id = ITE_truce_with_honor
-		icon = GFX_goal_unknown
-		cost = 0
-		x = 8
-		y = 13
+		prerequisite = {
+			focus = ITE_wealth_of_the_north
+		}
+		
+		completion_reward = {
+			country_event = {	id = ite.6	}
+		}
 
 	}
 	shared_focus = {
@@ -779,7 +919,7 @@
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = ITE_crossing_the_rubicon
+			focus = ITE_truce_with_honor
 		}
 		x = 6
 		y = 14
