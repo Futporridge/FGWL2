@@ -276,7 +276,133 @@ ideas = {
 				factor = 0
 			}
 		}
+		resistenza = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = resistenza 
+			
+			modifier = {
+				resistance_damage_to_garrison_on_our_occupied_states = 0.5
+				resistance_growth_on_our_occupied_states = 0.25
+				occupation_cost = 0.5
+				compliance_growth_on_our_occupied_states = -0.5
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
 		
+		resistenza_mil_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = resistenza 
+			
+			modifier = {
+				resistance_growth_on_our_occupied_states = 0.25
+				occupation_cost = 0.5
+				compliance_growth_on_our_occupied_states = -0.5
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		resistenza_mil_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = resistenza 
+			
+			modifier = {
+				occupation_cost = 0.5
+				compliance_growth_on_our_occupied_states = -0.5
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		resistenza_mil_3 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = resistenza 
+			
+			modifier = {
+				compliance_growth_on_our_occupied_states = -0.5
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		resistenza_civ_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = resistenza 
+			
+			modifier = {
+				resistance_damage_to_garrison_on_our_occupied_states = 0.5
+				resistance_growth_on_our_occupied_states = 0.25
+				compliance_growth_on_our_occupied_states = -0.5
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		resistenza_civ_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = resistenza 
+			
+			modifier = {
+				resistance_damage_to_garrison_on_our_occupied_states = 0.5
+				resistance_growth_on_our_occupied_states = 0.25
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		resistenza_civ_3 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = resistenza 
+			
+			modifier = {
+				resistance_damage_to_garrison_on_our_occupied_states = 0.5
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
 		
 		
 		}
