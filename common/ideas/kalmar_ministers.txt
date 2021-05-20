@@ -14,6 +14,19 @@ ideas = {
 			
 			traits = { Intellectual_aristocrat }
 		}
+		John_Christmas_Moller = {
+
+			picture = John_Christmas_Moller
+
+			allowed = {
+				original_tag = KAL
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { pragmatist }
+		}
 
 				
 }	
@@ -108,7 +121,7 @@ political_advisor = {
 			always = no
 			}
 			
-			traits = {  }
+			traits = { Ardent_Militarist }
 		}
 		
 				

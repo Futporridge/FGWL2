@@ -51,13 +51,13 @@ focus_tree = {
 			KAL_Eigil_Thune_Jacobsen			
 			}		
 			add_ideas = {
-			AUS_dip_vacant
-			AUS_inner_vacant
-			AUS_econom_vacant
-			AUS_rec_vacant
+			KAL_Ole_Bjorn_Kraft
+			KAL_Halfdan_Hendriksen
+			KAL_Carl_Georg_Bartholdy
+			KAL_Eigil_Thune_Jacobsen
 			}		
 			add_ideas = { 
-			AUS_head_of_gov_vacant
+			John_Christmas_Moller
 			}					
 			}
 		
