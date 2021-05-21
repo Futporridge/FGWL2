@@ -2967,4 +2967,29 @@ spriteTypes = {
 		name = "GFX_news_event_angelis_republic"
 		texturefile = "gfx/event_pictures/news_event_angelis_republic.dds"
 	}	
+	###KALMARIA###
+	spriteType = { 
+		name = "GFX_INVOKE_KING"
+		texturefile = "gfx/event_pictures/kalmar/INVOKE_KING.dds"
+	}	
+		spriteType = { 
+		name = "GFX_max_king"
+		texturefile = "gfx/event_pictures/kalmar/max_king.dds"
+	}
+	spriteType = { 
+		name = "GFX_chris_king"
+		texturefile = "gfx/event_pictures/kalmar/chris_king.dds"
+	}
+	spriteType = { 
+		name = "GFX_ferd_king"
+		texturefile = "gfx/event_pictures/kalmar/ferd_king.dds"
+	}
+	spriteType = { 
+		name = "GFX_endrik"
+		texturefile = "gfx/event_pictures/kalmar/endrik.dds"
+	}
+	spriteType = { 
+		name = "GFX_referendum"
+		texturefile = "gfx/event_pictures/kalmar/referendum.dds"
+	}
 }
