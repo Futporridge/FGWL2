@@ -764,5 +764,9 @@ spriteTypes = {
 	spriteType = {
 			name = "GFX_trait_AUS_hungarian"
 			texturefile = "gfx/interface/traits/trait_AUS_hungarian.dds"
+	}
+	spriteType = {
+			name = "GFX_trait_artillery_officer"
+			texturefile = "gfx/interface/traits/trait_artillery_officer.dds"
 	}	
 }
