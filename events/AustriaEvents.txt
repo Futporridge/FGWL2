@@ -2002,9 +2002,11 @@ immediate = {
 	}
 	TYR = {
 	load_oob = TYR_civil_war
+	inherit_technology = AUS
 	}	
 	SLV = {
 	load_oob = SLV_1936
+	inherit_technology = AUS	
 	}
 		add_ideas = {
 		AUS_feudal_legacy
