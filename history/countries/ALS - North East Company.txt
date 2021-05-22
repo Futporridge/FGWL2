@@ -1,6 +1,13 @@
 capital = 981
 
 OOB = "ALS_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "ALS_1936_naval_mtg"
+	else = {
+		set_naval_oob = "ALS_1936_naval_legacy"
+	}
+}
 
 set_technology = {
 	infantry_weapons = 1
@@ -43,4 +50,81 @@ create_country_leader = {
 	traits = { 
 
 	}
+}
+create_field_marshal = {
+	name = "Grigory Semyonov"
+	id = 1000	
+	portrait_path = "gfx/leaders/ALS/Portrait_Grigory_Semyonov.tga"
+	traits = { cavalry_officer }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Boris Annenkov"
+	id = 1001
+	portrait_path = "gfx/leaders/ALS/Portrait_Boris_Annenkov.tga"
+	traits = { trickster harsh_leader trait_reckless cavalry_officer }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Nikolay Kazagrandi"
+	id = 1002
+	portrait_path = "gfx/leaders/ALS/Portrait_Nikolay_Kazagrandi.tga"
+	traits = { trait_engineer }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Anatoly Pepelyayev"
+	id = 1003
+	portrait_path = "gfx/leaders/ALS/Portrait_Anatoly_Pepelyayev.tga"
+	traits = { infantry_officer career_officer }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Mikhail Tornovsky"
+	id = 1004
+	portrait_path = "gfx/leaders/ALS/Portrait_Mikhail_Tornovsky.tga"
+	traits = { trait_reckless cavalry_officer }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Boris Rezukhin"
+	id = 1005
+	portrait_path = "gfx/leaders/ALS/Portrait_Boris_Rezukhin.tga"
+	traits = { trait_reckless harsh_leader cavalry_officer }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 2
+}
+create_navy_leader = {
+	name = "Nikolay Volkov" 
+	id = 2251
+		picture = "Portrait_Nikolay_Volkov.tga"
+	traits = { navy_career_officer }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	maneuvering_skill = 4
+	coordination_skill = 4
 }

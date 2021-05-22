@@ -130,17 +130,6 @@ create_field_marshal = {
     logistics_skill = 3
 }
 create_corps_commander = {
-	name = "Erik With"
-	id = 305
-	portrait_path = "gfx/leaders/KAL/Portrait_Erik_With.tga"
-	traits = { politically_connected }
-	skill = 4
-    attack_skill = 3
-    defense_skill = 4
-    planning_skill = 4
-    logistics_skill = 4
-}
-create_corps_commander = {
 	name = "Hans Lunding"
 	id = 306
 	portrait_path = "gfx/leaders/KAL/Portrait_Hans_Mathiesen_Lunding.tga"
@@ -154,7 +143,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Erik Leschly"
 	id = 307
-	portrait_path = "gfx/leaders/KAL/Portrait_Hans_Mathiesen_Lunding.tga"
+	portrait_path = "gfx/leaders/KAL/Portrait_Erik_Leschly.tga"
 	traits = { cavalry_officer old_guard }
 	skill = 3
     attack_skill = 2
