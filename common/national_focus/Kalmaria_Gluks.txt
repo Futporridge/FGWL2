@@ -51,13 +51,13 @@ focus_tree = {
 			KAL_Eigil_Thune_Jacobsen			
 			}		
 			add_ideas = {
-			AUS_dip_vacant
-			AUS_inner_vacant
-			AUS_econom_vacant
-			AUS_rec_vacant
+			KAL_Ole_Bjorn_Kraft
+			KAL_Halfdan_Hendriksen
+			KAL_Carl_Georg_Bartholdy
+			KAL_Eigil_Thune_Jacobsen
 			}		
 			add_ideas = { 
-			AUS_head_of_gov_vacant
+			John_Christmas_Moller
 			}					
 			}
 		
@@ -254,7 +254,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = KAL_Start_Federal_Reform }
-		cost = 4.9
+		cost = 4.6
 		relative_position_id = KAL_Start_Federal_Reform
 		ai_will_do = {
 			factor = 10
@@ -272,7 +272,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		prerequisite = { focus = KAL_Swedish_Question }
-		cost = 4.9
+		cost = 1
 		relative_position_id = KAL_Swedish_Question
 		ai_will_do = {
 			factor = 10
@@ -289,13 +289,13 @@ focus_tree = {
 		x = -1
 		y = 1
 		prerequisite = { focus = KAL_General_Referendum }
-		cost = 4.9
+		cost = 1
 		relative_position_id = KAL_General_Referendum
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-		
+		country_event = { id = kal_g.4 }
 			}
 		available_if_capitulated = yes
 			}
@@ -306,7 +306,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		prerequisite = { focus = KAL_General_Referendum }
-		cost = 4.9
+		cost = 2
 		relative_position_id = KAL_General_Referendum
 		ai_will_do = {
 			factor = 10
@@ -324,7 +324,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = KAL_Dismiss_Swedish_Generals }
 		prerequisite = { focus = KAL_Invoke_the_King }
-		cost = 4.9
+		cost = 3
 		relative_position_id = KAL_Dismiss_Swedish_Generals
 		ai_will_do = {
 			factor = 10

@@ -42,6 +42,27 @@ ideas = {
 				factor = 0
 			}
 		}
+		
+		KAL_Economical_growth_hojre_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = KAL_Economical_growth 
+			
+			modifier = {
+				production_speed_buildings_factor = 0.16
+				conversion_cost_mil_to_civ_factor = -0.2
+				production_factory_efficiency_gain_factor = 0.2
+				
+				industrial_capacity_dockyard = 0.14
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
 	
 	KAL_Federal_crisis = {
 			

@@ -3777,10 +3777,26 @@ young_diplomat = {
 	}
 	supporter_of_colonial_economy = {
 		random = no
-		production_speed_dockyard_factor = 0.5
-		trade_opinion_factor = 0.5
+		production_speed_dockyard_factor = 0.24
+		trade_opinion_factor = 0.3
 		consumer_goods_factor = -0.05
 		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Ardent_Militarist = {
+		random = no
+		war_stability_factor = 0.05
+		drift_defence_factor = 0.3
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	pragmatist = {
+		random = no
+		political_power_gain = 0.15
+		opinion_gain_monthly_factor = 0.14
 		ai_will_do = {
 			factor = 1
 		}

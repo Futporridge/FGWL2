@@ -1,0 +1,26 @@
+leader_traits = {
+
+	
+##################################
+# Common Traits
+##################################
+	artillery_officer = { 
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+
+		modifier = {
+			army_artillery_attack_factor = 0.1	
+			attack_skill_factor = 1		
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 10
+		}
+	}	
+}

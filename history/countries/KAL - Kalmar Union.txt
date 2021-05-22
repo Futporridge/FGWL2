@@ -118,3 +118,58 @@ create_corps_commander = {
     planning_skill = 2
     logistics_skill = 2
 }
+create_field_marshal = {
+	name = "William Wain Prior"
+	id = 304	
+	portrait_path = "gfx/leaders/KAL/Portrait_William_Wain_Prior.tga"
+	traits = { inflexible_strategist }
+	skill = 4
+    attack_skill = 2
+    defense_skill = 4
+    planning_skill = 4
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Hans Lunding"
+	id = 306
+	portrait_path = "gfx/leaders/KAL/Portrait_Hans_Mathiesen_Lunding.tga"
+	traits = { trickster }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Erik Leschly"
+	id = 307
+	portrait_path = "gfx/leaders/KAL/Portrait_Erik_Leschly.tga"
+	traits = { cavalry_officer old_guard }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 4
+}
+create_corps_commander = { 
+	name = "Erik C.V. Møller"
+	id = 308
+	portrait_path = "gfx/leaders/KAL/Portrait_Erik_C_V_Moller.tga"
+	traits = { artillery_officer }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 4
+}
+create_field_marshal = {
+	name = "Ebbe Gørtz"
+	id = 309	
+	portrait_path = "gfx/leaders/KAL/Portrait_Ebbe_Gortz.tga"
+	traits = { career_officer }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 2
+}

@@ -7,7 +7,7 @@
 	id = kal.1
 	title = kal.1.t
 	desc = kal.1.d
-	picture = GFX_
+	picture = GFX_endrik
 
 	is_triggered_only = yes
 
@@ -22,7 +22,7 @@ country_event = {
 	id = kal.2
 	title = kal.2.t
 	desc = kal.2.d
-	picture = GFX_
+	picture = GFX_max_king
 
 	is_triggered_only = yes
 
@@ -52,7 +52,7 @@ country_event = {
 	id = kal.3
 	title = kal.3.t
 	desc = kal.3.d
-	picture = GFX_
+	picture = GFX_chris_king
 
 	is_triggered_only = yes
 
@@ -78,7 +78,7 @@ country_event = {
 	id = kal.4
 	title = kal.4.t
 	desc = kal.4.d
-	picture = GFX_
+	picture = GFX_ferd_king
 
 	is_triggered_only = yes
 
@@ -146,6 +146,18 @@ country_event = {
 	immediate = {
 	
 			hidden_effect = {
+			delete_unit_template_and_units = {
+			division_template = "Svensk Infanteridivision"
+			disband = no
+			}
+			delete_unit_template_and_units = {
+			division_template = "Svensk Kavaleridivision"
+			disband = no
+			}
+			delete_unit_template_and_units = {
+			division_template = "Jääkäripataljoona"
+			disband = no
+			}
 			SWE = {
 		country_event = { id = swe.1 days = 14 }
 		transfer_state = 139		
@@ -209,7 +221,7 @@ country_event = {
 	id = kal_g.3
 	title = kal_g.3.t
 	desc = kal_g.3.d
-	picture = GFX_
+	picture = GFX_referendum
 
 	is_triggered_only = yes
 
@@ -217,6 +229,19 @@ country_event = {
 		name = kal_g.3.a
 	add_political_power = 75
 			
+}
+}
+country_event = {	
+	id = kal_g.4
+	title = kal_g.4.t
+	desc = kal_g.4.d
+	picture = GFX_INVOKE_KING
+
+	is_triggered_only = yes
+
+	option = {
+		name = kal_g.4.a
+				
 }
 }
 country_event = {	
