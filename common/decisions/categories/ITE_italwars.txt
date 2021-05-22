@@ -14,3 +14,16 @@ ITE_risorgimento = {
 		always = yes
 	}
 }
+
+ITE_resistenza = {
+	
+	icon = GFX_decision_category_army_reform	
+	picture = GFX_decision_risorgimento
+	visible_when_empty = yes
+	visible = {
+		has_country_flag = ite_resistenza_flag
+	}
+	allowed = {
+		has_country_flag = ite_resistenza_flag
+	}
+}

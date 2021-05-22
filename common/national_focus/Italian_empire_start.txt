@@ -513,7 +513,7 @@
 		
 		completion_reward = {
 		Custom_effect_tooltip = ITE_reorganize_mountain_garrisons
-		load_obb = ITE_mountaineers
+		load_obb = ITE_mountaineers.txt
 		}
 
 	}
@@ -828,10 +828,12 @@
 		y = 13
 		
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = resistenza
-				add_idea = resistenza_mil_1
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = military_police_tech
 			}
+			
 		}
 	}
 	shared_focus = {
@@ -849,7 +851,7 @@
 		}
 	}
 	shared_focus = {
-		id = ITE_work_for_live
+		id = ITE_seek_and_destroy
 		icon = GFX_goal_unknown
 		cost = 2
 		prerequisite = {
@@ -859,10 +861,6 @@
 		y = 15
 		
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = resistenza_mil_1
-				add_idea = resistenza_mil_2
-			}
 		}
 	}
 	shared_focus = {
@@ -870,16 +868,12 @@
 		icon = GFX_goal_unknown
 		cost = 2
 		prerequisite = {
-			focus = ITE_work_for_live
+			focus = ITE_seek_and_destroy
 		}
 		x = 2
 		y = 16
 		
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = resistenza_mil_2
-				add_idea = resistenza_mil_3
-			}
 		}
 	}
 	

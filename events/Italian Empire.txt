@@ -226,7 +226,7 @@
 	}
 	}
 	
-	country_event = { #Империя предлогает мир
+	country_event = { #Империя_предлогает_мир
 	id = ite.7
 	title = ite.7.t
 	desc = ite.7.d
@@ -300,11 +300,35 @@
 	}
 	mean_time_to_happen = { days = 30 }
 	
-	option = { #Одной проблемой больше 
+	option = { #Одной проблемой больше
 		name = ite.9.a
 		Custom_effect_tooltip = pop_12_text
 		add_ideas = resistenza
 		set_country_flag = ite_resistenza_flag
 		mark_focus_tree_layout_dirty = yes
+		set_variable = { ite_resistenza_central_italy = 9 }
+		clamp_variable = {
+			var = ite_resistenza_central_italy
+			min = 0
+			max = 10
+		}
+		set_variable = { ite_resistenza_tuscan = 9 }
+		clamp_variable = {
+			var = ite_resistenza_tuscan
+			min = 0
+			max = 10
+		}
+		set_variable = { ite_resistenza_venetia = 9 }
+		clamp_variable = {
+			var = ite_resistenza_venetia
+			min = 0
+			max = 10
+		}
+		set_variable = { ite_resistenza_piemond = 9 }
+		clamp_variable = {
+			var = ite_resistenza_piemond
+			min = 0
+			max = 10
+		}
 		}
 	}
