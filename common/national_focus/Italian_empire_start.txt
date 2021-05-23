@@ -420,7 +420,7 @@
 	shared_focus = {
 		id = ITE_as_long_as_austria_dont_look
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 3
 		prerequisite = {
 			focus = ITE_risorgimento
 		}

@@ -10,8 +10,7 @@ ideas = {
 			picture = renovatio_imperii 
 			
 			modifier = {
-				political_power_gain = 0.25
-				research_speed_factor = 0.05
+				political_power_gain = 0.1
 				stability_factor = 0.10
 				war_support_factor = 0.20
 			}
@@ -55,6 +54,7 @@ ideas = {
 				conservatism_acceptance = 85
 				liberalism_acceptance = 85
 				communitarianism_acceptance = 85
+				research_speed_factor = 0.05
 				
 			}
 	
@@ -285,8 +285,25 @@ ideas = {
 			picture = resistenza 
 			
 			modifier = {
-				occupation_cost = 0.5
+				occupation_cost = 0.2
 				no_compliance_gain = 1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		resistenza = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = resistenza 
+			
+			modifier = {
+				occupation_cost = 0.2
 			}
 	
 			ai_will_do = {
