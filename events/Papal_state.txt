@@ -21,9 +21,7 @@
 	option = { #Да
 		name = pop.2.a
 		
-		ai_chance = {
-			base = 90
-		}
+		ai_chance = { factor = 85 }
 		
 		POP  = {
 			country_event = { id = pop.3 }
@@ -32,9 +30,7 @@
 	option = { #Нет
 		name = pop.2.b
 		
-		ai_chance = {
-			base = 10
-		}
+		ai_chance = { factor = 15 }
 		
 		add_political_power = 15
 		POP  = {
@@ -83,9 +79,7 @@
 	option = { #Да
 		name = pop.5.a
 		
-		ai_chance = {
-			base = 50
-		}
+		ai_chance = { factor = 60 }
 		
 		reverse_add_opinion_modifier = {
 			target = POP
@@ -102,9 +96,7 @@
 			country_event = { id = pop.7 }
 		}
 		
-		ai_chance = {
-			base = 50
-		}
+		ai_chance = { factor = 40 }
 		
 	}
 	}
@@ -141,12 +133,8 @@
 	picture = GFX_
 	is_triggered_only = yes
 	option = { #Да
-	
-		ai_will_do = {
-			base = 25
-		}
-		
 		name = pop.8.a
+		ai_chance = { factor = 10 }
 		reverse_add_opinion_modifier = {
 			target = POP
 			modifier = medium_increase
@@ -157,13 +145,10 @@
 	}
 	option = { #Нет
 		name = pop.8.b
+		ai_chance = { factor = 90 }
 		add_political_power = 15
 		POP  = {
 			country_event = { id = pop.10 }
-		}
-		
-		ai_will_do = {
-			base = 75
 		}
 	}
 	}

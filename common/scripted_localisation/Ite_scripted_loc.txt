@@ -24,7 +24,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			check_variable = { ite_resistenza_central_italy  > 3 }
+			check_variable = { ite_resistenza_central_italy > 3 }
 		}
 		localization_key = ITE_REZIST_CENTRAL_medium
 	}

@@ -148,6 +148,9 @@ ITE_truce_with_honor_text:0 "Control over Central Italy"
 ITE_industry_relocation_central_italy_text:0 "Resistenza support in Central Italy lower then §Ymoderate§!"
 ITE_industry_relocation_central_italy_text_2:0 "Start industrial relocation from Central Italy. Make sure that the Resistenza activity doesn't rise above §Ymoderate§!"
 ITE_industry_relocation_central_italy_mission_text:0 "Resistenza didn't interfere industry relocation"
+ITE_resistenza_low_buf_text:0 "Resistenza support in this region will rise §Gslightly§!"
+ITE_resistenza_medium_buf_text:0 "Resistenza support in this region will rise §Ymoderately§!"
+ITE_resistenza_high_text:0 "Resistenza support in this region will rise §Rstrongly§!"
 
 #############Фокуcы############
 ITE_empire_legacy:0 "Empire Legacy"
