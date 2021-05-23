@@ -111,6 +111,52 @@ create_country_leader = {
 }
 }
 	country_event = {	
+	id = tyrang.3
+	title = tyrang.3.t
+	desc = tyrang.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	immediate = { 
+		hidden_effect = {
+	886 = {
+		add_dynamic_modifier = { modifier = ang_indifferent_population }
+	}
+	152 = {
+		add_dynamic_modifier = { modifier = ang_indifferent_population }
+	}
+	4 = {
+		add_dynamic_modifier = { modifier = ang_indifferent_population }
+	}
+	889 = {
+		add_dynamic_modifier = { modifier = ang_indifferent_population }
+	}
+	if = { 
+	limit = { 
+	owns_state = 887
+	}
+	887 = {
+		add_dynamic_modifier = { modifier = ang_indifferent_population }
+	}
+		}
+	if = { 
+	limit = { 
+	owns_state = 910
+	}
+	910 = {
+		add_dynamic_modifier = { modifier = ang_indifferent_population }
+	}
+		}		
+		}
+	}
+	
+	option = {
+		name = tyrang.3.a
+
+	}
+}	
+	country_event = {	
 	id = tyrangmil.1
 	title = tyrangmil.1.t
 	desc = tyrangmil.1.d

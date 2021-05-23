@@ -1,0 +1,10 @@
+ang_indifferent_population = {
+	enable = { always = yes }
+
+	icon = GFX_ang_indifferent_population
+	
+	recruitable_population_factor = -0.10
+	state_resources_factor = -0.15
+	state_production_speed_buildings_factor = -0.05
+	army_speed_factor_for_controller = -0.025	
+}
