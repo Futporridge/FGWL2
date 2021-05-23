@@ -45,14 +45,23 @@ create_country_leader = {
 
 	}
 }
-
 create_country_leader = {
-	name = "Ernst Jünger"
-	desc = "POLITICS_ERNST_JUNGER_DESC"
-	picture = "gfx/leaders/ANS/Portrait_Ernst_Junger.tga"
+	name = "Horst Wessel"
+	desc = "POLITICS_HORST_WESSEL_DESC"
+	picture = "gfx/leaders/ANS/Portrait_Horst_Wessel.tga"
 	expire = "1965.1.1"
 	ideology = utopism
 	traits = { 
 
 	}
 }
+#create_country_leader = {
+#	name = "Ernst Jünger"
+#	desc = "POLITICS_ERNST_JUNGER_DESC"
+#	picture = "gfx/leaders/ANS/Portrait_Ernst_Junger.tga"
+#	expire = "1965.1.1"
+#	ideology = utopism
+#	traits = { 
+#
+#	}
+#}
