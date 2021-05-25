@@ -1,0 +1,22 @@
+
+state={
+	id=1032
+	name="STATE_1032"
+
+	history={
+		owner = SRC
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SRC
+
+	}
+
+	provinces={
+		1498 2133 2177 2186 7579 7608 8134 8155 10473 12904 12912 12926 
+	}
+	manpower=14231
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}
