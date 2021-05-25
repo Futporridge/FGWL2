@@ -15,7 +15,7 @@ focus_tree = {
 	
 
 	shared_focus = PAR_anarchy
-	shared_focus = PAR_new_legions
+	shared_focus = PAR_raise_the_banners
 	shared_focus = PAR_pierre_drieu_la_rochelle
 	}
 
@@ -24,8 +24,8 @@ focus_tree = {
 
 
 	shared_focus = {
-		id = PAR_new_legions
-		icon = GFX_goal_generic_position_armies
+		id = PAR_raise_the_banners
+		icon = GFX_focus_PAR_raise_the_banners
 		x = 0
 		y = 1
 		cost = 10
@@ -47,7 +47,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = PAR_monopoly_on_weapons
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_PAR_monopoly_on_weapons
 		x = -1
 		y = 1
 		cost = 10
@@ -55,8 +55,8 @@ focus_tree = {
 			factor = 10
 		}
 		available_if_capitulated = yes
-		prerequisite = { focus = PAR_new_legions }
-		relative_position_id = PAR_new_legions
+		prerequisite = { focus = PAR_raise_the_banners }
+		relative_position_id = PAR_raise_the_banners
 		available = {
 
 		}
@@ -70,7 +70,7 @@ focus_tree = {
 				}				
 	shared_focus = {
 		id = PAR_total_war
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_PAR_total_war
 		x = 0
 		y = 1
 		cost = 10
@@ -93,7 +93,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = PAR_sweat_preserves_blood
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_PAR_sweat_preserves_blood
 		x = 1
 		y = 1
 		cost = 10
@@ -101,8 +101,8 @@ focus_tree = {
 			factor = 10
 		}
 		available_if_capitulated = yes
-		prerequisite = { focus = PAR_new_legions }
-		relative_position_id = PAR_new_legions
+		prerequisite = { focus = PAR_raise_the_banners }
+		relative_position_id = PAR_raise_the_banners
 		available = {
 
 		}
@@ -116,7 +116,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = PAR_proletarian_spirit
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_PAR_proletarian_spirit
 		x = 0
 		y = 1
 		cost = 10
@@ -139,7 +139,7 @@ focus_tree = {
 				}
 	shared_focus = {
 		id = PAR_vive_la_morte
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_PAR_vive_la_morte
 		x = 1
 		y = 1
 		cost = 10

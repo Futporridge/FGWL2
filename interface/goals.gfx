@@ -1623,6 +1623,32 @@ spriteTypes = {
 		name = "GFX_focus_hol_liberation"
 		texturefile = "gfx/interface/goals/focus_hol_liberation.dds"
 	}
+	####PAR Drieu####
+	SpriteType = { 
+		name = "GFX_focus_PAR_raise_the_banners"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_raise_the_banners.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_PAR_monopoly_on_weapons"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_monopoly_on_weapons.dds"
+	}		
+	SpriteType = { 
+		name = "GFX_focus_PAR_total_war"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_total_war.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_sweat_preserves_blood"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_sweat_preserves_blood.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_proletarian_spirit"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_proletarian_spirit.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_vive_la_morte"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_vive_la_morte.dds"
+	}
+	####PAR Doriot####	
 	SpriteType = { 
 		name = "GFX_focus_PAR_agitprop"
 		texturefile = "gfx/interface/goals/focus_PAR_agitprop.dds"
