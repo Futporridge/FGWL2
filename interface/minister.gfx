@@ -79,6 +79,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/Ministers/Italy_emp/Enrico_Caviglia.dds"
 	}
 								####KingdomOfFrance####	
+	####drieu####
+	spriteType = {
+		name = "GFX_idea_PAR_Andre_Malraux"
+		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/drieu/Andre_Malraux.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_PAR_Edgar_Puaud"
+		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/drieu/Edgar_Puaud.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PAR_Francois_Coty"
+		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/drieu/Francois_Coty.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PAR_Lucien_Rebatet"
+		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/drieu/Lucien_Rebatet.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PAR_Robert_Brasillach"
+		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/drieu/Robert_Brasillach.dds"
+	}		
+	####start####	
 		spriteType = {
 		name = "GFX_idea_PAR_Henry_Cheron"
 		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/Henry_Cheron.dds"
@@ -99,6 +121,7 @@ spriteTypes = {
 		name = "GFX_idea_PAR_Raymond_Grasset"
 		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/Raymond_Grasset.dds"
 	}	
+	####doriot####
 		spriteType = {
 		name = "GFX_idea_PAR_Marcel_Deat"
 		texturefile = "gfx/interface/ideas/Ministers/kingdomoffrance/Marcel_Deat.dds"

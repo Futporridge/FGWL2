@@ -39,7 +39,20 @@ ideas = {
 			}
 			
 			traits = { progressive_technocrat }
-		}		
+		}
+		PAR_Robert_Brasillach = {
+
+			picture = GFX_robert_brasillach
+
+			allowed = {
+				original_tag = PAR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { knight_of_the_france }
+		}			
 }
 political_advisor = {
 		PAR_Georges_Bonnet = {
@@ -175,5 +188,57 @@ political_advisor = {
 			}
 			
 			traits = { young_blood }
-		}			
+		}
+		PAR_Andre_Malraux = {
+
+
+
+			allowed = {
+				original_tag = PAR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { young_diplomat }
+		}
+		PAR_Lucien_Rebatet = {
+
+
+
+			allowed = {
+				original_tag = PAR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { trait_chasseur }
+		}
+		PAR_Francois_Coty = {
+
+
+
+			allowed = {
+				original_tag = PAR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { wealthy_patron }
+		}
+		PAR_Edgar_Puaud = {
+
+
+
+			allowed = {
+				original_tag = PAR
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { Cruel_General }
+		}		
 }	
