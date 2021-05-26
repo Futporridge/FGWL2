@@ -35,19 +35,25 @@ country_event = {
 	picture = GFX_
 
 	is_triggered_only = yes
-	
-	
+		immediate = {
+			hidden_effect = {
+		annex_country = {
+		target = PFT
+		transfer_troops = no
+			}
+	add_state_core = 16
+		}
+	}
 
 	option = {
 		name = paris_border_conflict.3.a
-			hidden_effect = {
-	annex_country = {
-    target = PFT
-    transfer_troops = no
-}
-	add_state_core = 16
-	}
-	}
+		trigger = {
+		has_country_flag = PAR_utopists_won	
+		}
+		hidden_effect = {
+		set_global_flag = pierre_drieu_won_initial
+		mark_focus_tree_layout_dirty = yes		
+		}
 	}
 
 }

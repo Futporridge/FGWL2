@@ -17,6 +17,7 @@ focus_tree = {
 	shared_focus = PAR_anarchy
 	shared_focus = PAR_raise_the_banners
 	shared_focus = PAR_pierre_drieu_la_rochelle
+	shared_focus = PAR_death_is_a_traitors_reward	
 	}
 
 
@@ -160,6 +161,845 @@ focus_tree = {
 		completion_reward = {
 		
 					}
+				}
+###############################################################################################
+###############################################################################################
+#######################################DRIEU INITIAL TREE############################################
+###############################################################################################
+###############################################################################################
+
+	shared_focus = {
+		id = PAR_death_is_a_traitors_reward
+		icon = GFX_focus_PAR_death_is_a_traitors_reward
+		cost = 1
+		x = 0
+		y = 4
+		allow_branch = {
+			has_global_flag = pierre_drieu_won_initial
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = PAR_vive_la_morte
+	}
+	shared_focus = {
+		id = PAR_national_recovery_comittee
+		icon = GFX_focus_PAR_national_recovery_comitee
+		x = -7
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_death_is_a_traitors_reward }
+		relative_position_id = PAR_death_is_a_traitors_reward
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}	
+	shared_focus = {
+		id = PAR_patriotic_labour
+		icon = GFX_focus_PAR_patriotic_labor
+		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_national_recovery_comittee }
+		relative_position_id = PAR_national_recovery_comittee
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_contracts_with_local_manufacturers
+		icon = GFX_focus_PAR_contracts_with_local_manufacturers
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_national_recovery_comittee }
+		relative_position_id = PAR_national_recovery_comittee
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_drieu_exploit_the_prisoners
+		icon = GFX_focus_PAR_drieu_exploit_the_prisioners
+		x = 2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_national_recovery_comittee }
+		relative_position_id = PAR_national_recovery_comittee
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_grand_steel_axis
+		icon = GFX_focus_PAR_grand_steel_axis
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_patriotic_labour }
+		prerequisite = { focus = PAR_contracts_with_local_manufacturers }
+		prerequisite = { focus = PAR_drieu_exploit_the_prisoners }		
+		relative_position_id = PAR_contracts_with_local_manufacturers
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_localize_the_production
+		icon = GFX_focus_PAR_localize_the_production
+		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_grand_steel_axis }
+		relative_position_id = PAR_grand_steel_axis
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_reintroduction_of_the_guild_system
+		icon = GFX_focus_PAR_reintroduce_the_guild_system
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_localize_the_production }
+		relative_position_id = PAR_localize_the_production
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_restoration_of_the_infrstructure
+		icon = GFX_focus_PAR_restoration_of_infrastructure
+		x = 2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_grand_steel_axis }
+		relative_position_id = PAR_grand_steel_axis
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_return_to_basics
+		icon = GFX_focus_PAR_return_to_basics
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_reintroduction_of_the_guild_system }
+		prerequisite = { focus = PAR_restoration_of_the_infrstructure }		
+		relative_position_id = PAR_reintroduction_of_the_guild_system
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_destroy_chains_of_capitalism
+		icon = GFX_focus_PAR_destroy_chains_of_capitalism
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_return_to_basics }
+		relative_position_id = PAR_return_to_basics
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_escouades_de_chasse
+		icon = GFX_focus_PAR_escouades_de_chasse
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_death_is_a_traitors_reward }
+		relative_position_id = PAR_death_is_a_traitors_reward
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_light_the_torches
+		icon = GFX_focus_PAR_light_the_torches
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_escouades_de_chasse }
+		relative_position_id = PAR_escouades_de_chasse
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_france_freed_from_the_basilisk
+		icon = GFX_focus_PAR_france_freed_from_the_basilisk
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_light_the_torches }
+		relative_position_id = PAR_light_the_torches
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
 				}				
-	
+	shared_focus = {
+		id = PAR_formalize_the_society
+		icon = GFX_focus_PAR_formalize_the_society
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_escouades_de_chasse }
+		relative_position_id = PAR_escouades_de_chasse
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_kingdom_come
+		icon = GFX_focus_PAR_kingdom_come
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_france_freed_from_the_basilisk }
+		prerequisite = { focus = PAR_formalize_the_society }		
+		relative_position_id = PAR_france_freed_from_the_basilisk
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_culture_of_war
+		icon = GFX_focus_PAR_culture_of_war
+		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_kingdom_come }	
+		relative_position_id = PAR_kingdom_come
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_national_aristocracy
+		icon = GFX_focus_PAR_national_aristocracy
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_kingdom_come }	
+		relative_position_id = PAR_kingdom_come
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_crusader_army
+		icon = GFX_focus_PAR_crusader_army
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_national_aristocracy }	
+		prerequisite = { focus = PAR_culture_of_war }			
+		relative_position_id = PAR_national_aristocracy
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_revanchist_propaganda
+		icon = GFX_focus_PAR_drieu_revanchist_propoganda
+		x = 2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_crusader_army }	
+		relative_position_id = PAR_crusader_army
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_antique_spirit
+		icon = GFX_focus_PAR_antique_spirit
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_crusader_army }	
+		relative_position_id = PAR_crusader_army
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}	
+	shared_focus = {
+		id = PAR_draw_the_sword
+		icon = GFX_focus_PAR_draw_the_sword
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_antique_spirit }	
+		prerequisite = { focus = PAR_revanchist_propaganda }			
+		relative_position_id = PAR_antique_spirit
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}	
+	shared_focus = {
+		id = PAR_blow_the_olifant
+		icon = GFX_focus_PAR_blow_the_olifant
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_draw_the_sword }			
+		relative_position_id = PAR_draw_the_sword
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_return_of_chivalry
+		icon = GFX_focus_PAR_return_of_the_chivalry
+		x = 7
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_death_is_a_traitors_reward }
+		relative_position_id = PAR_death_is_a_traitors_reward
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_military_branch_of_chasseurs
+		icon = GFX_focus_PAR_military_branch_of_chasseurs
+		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_return_of_chivalry }
+		relative_position_id = PAR_return_of_chivalry
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_reform_the_conscription_model
+		icon = GFX_focus_PAR_reform_the_conscription_model
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_return_of_chivalry }
+		relative_position_id = PAR_return_of_chivalry
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_trials_and_punishments
+		icon = GFX_focus_PAR_trials_and_punishments
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_reform_the_conscription_model }
+		relative_position_id = PAR_reform_the_conscription_model
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_discipline_and_obedience
+		icon = GFX_focus_PAR_discipline_and_obedience
+		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_military_branch_of_chasseurs }
+		prerequisite = { focus = PAR_trials_and_punishments }		
+		relative_position_id = PAR_trials_and_punishments
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_forge_the_military
+		icon = GFX_focus_PAR_forge_the_military
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_military_branch_of_chasseurs }
+		prerequisite = { focus = PAR_trials_and_punishments }		
+		relative_position_id = PAR_trials_and_punishments
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_nooses_and_swords
+		icon = GFX_focus_PAR_nooses_and_swords
+		x = 2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_military_branch_of_chasseurs }
+		prerequisite = { focus = PAR_trials_and_punishments }		
+		relative_position_id = PAR_trials_and_punishments
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_ecuyers
+		icon = GFX_focus_PAR_ecuyers
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_discipline_and_obedience }
+		prerequisite = { focus = PAR_forge_the_military }		
+		prerequisite = { focus = PAR_nooses_and_swords }		
+		relative_position_id = PAR_forge_the_military
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_royalty_obtained_through_blood
+		icon = GFX_focus_PAR_royalty_obtained_through_blood
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_discipline_and_obedience }
+		prerequisite = { focus = PAR_forge_the_military }		
+		prerequisite = { focus = PAR_nooses_and_swords }		
+		relative_position_id = PAR_forge_the_military
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_new_horizons
+		icon = GFX_focus_PAR_new_horizons
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_ecuyers }
+		prerequisite = { focus = PAR_royalty_obtained_through_blood }			
+		relative_position_id = PAR_ecuyers
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_popularization_of_the_aviation
+		icon = GFX_focus_PAR_popularization_of_the_aviation
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_new_horizons }			
+		relative_position_id = PAR_new_horizons
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_drieu_royal_fleet
+		icon = GFX_focus_PAR_drieu_royal_fleet
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_new_horizons }			
+		relative_position_id = PAR_new_horizons
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}
+	shared_focus = {
+		id = PAR_century_of_the_french_might
+		icon = GFX_focus_PAR_century_of_the_french_might
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		prerequisite = { focus = PAR_popularization_of_the_aviation }	
+		prerequisite = { focus = PAR_drieu_royal_fleet }			
+		relative_position_id = PAR_popularization_of_the_aviation
+		available = {
+
+		}
+		bypass = {
+		
+				}
+
+		completion_reward = {
+		
+					}
+				}				
 }			

@@ -1648,6 +1648,150 @@ spriteTypes = {
 		name = "GFX_focus_PAR_vive_la_morte"
 		texturefile = "gfx/interface/goals/drieu/focus_PAR_vive_la_morte.dds"
 	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_death_is_a_traitors_reward"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_death_is_a_traitors_reward.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_national_recovery_comitee"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_national_recovery_comitee.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_patriotic_labor"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_patriotic_labor.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_contracts_with_local_manufacturers"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_contracts_with_local_manufacturers.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_drieu_exploit_the_prisioners"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_drieu_exploit_the_prisioners.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_grand_steel_axis"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_grand_steel_axis.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_localize_the_production"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_localize_the_production.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_reintroduce_the_guild_system"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_reintroduce_the_guild_system.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_PAR_restoration_of_infrastructure"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_restoration_of_infrastructure.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_return_to_basics"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_return_to_basics.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_destroy_chains_of_capitalism"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_destroy_chains_of_capitalism.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_escouades_de_chasse"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_escouades_de_chasse.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_light_the_torches"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_light_the_torches.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_formalize_the_society"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_formalize_the_society.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_PAR_france_freed_from_the_basilisk"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_france_freed_from_the_basilisk.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_kingdom_come"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_kingdom_come.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_culture_of_war"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_culture_of_war.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_national_aristocracy"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_national_aristocracy.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_PAR_crusader_army"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_crusader_army.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_antique_spirit"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_antique_spirit.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_drieu_revanchist_propoganda"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_drieu_revanchist_propoganda.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_draw_the_sword"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_draw_the_sword.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_blow_the_olifant"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_blow_the_olifant.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_PAR_return_of_the_chivalry"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_return_of_the_chivalry.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_military_branch_of_chasseurs"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_military_branch_of_chasseurs.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_reform_the_conscription_model"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_reform_the_conscription_model.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_trials_and_punishments"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_trials_and_punishments.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_discipline_and_obedience"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_discipline_and_obedience.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_forge_the_military"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_forge_the_military.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_nooses_and_swords"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_nooses_and_swords.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_ecuyers"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_ecuyers.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_royalty_obtained_through_blood"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_royalty_obtained_through_blood.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_PAR_new_horizons"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_new_horizons.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_popularization_of_the_aviation"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_popularization_of_the_aviation.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_drieu_royal_fleet"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_drieu_royal_fleet.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_PAR_century_of_the_french_might"
+		texturefile = "gfx/interface/goals/drieu/focus_PAR_century_of_the_french_might.dds"
+	}	
 	####PAR Doriot####	
 	SpriteType = { 
 		name = "GFX_focus_PAR_agitprop"
