@@ -1395,6 +1395,9 @@ set_politics = {
 	is_triggered_only = yes
 immediate = {
 hidden_effect = {
+	192 = {
+set_nationality = TYR	
+	}
 load_oob = AUS_left_initial_win
 		}
 	}

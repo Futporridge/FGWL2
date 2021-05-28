@@ -1,5 +1,6 @@
 ﻿	add_namespace = tyr
 	add_namespace = tyrendcw
+	add_namespace = tyrore	
 	add_namespace = tyrang	
 	add_namespace = tyrangmil	
 	add_namespace = tyrangdip		
@@ -34,7 +35,9 @@
 	trigger = {
 	has_country_flag = TYR_Orel_victory	
 		}		
- 		
+ 		hidden_effect = {
+		load_focus_tree = { tree = austria_orel_final_tree keep_completed = no }
+		}
 	}	
 	option = {
 		name = tyrendcw.1.d
@@ -50,6 +53,70 @@
 	}	
 }	
 	country_event = {	
+	id = tyrore.1
+	title = tyrore.1.t
+	desc = tyrore.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+immediate = {
+		hidden_effect = {
+		retire_country_leader = yes
+		retire_ideology_leader = paternalism
+		retire_ideology_leader = oligarchy
+		retire_ideology_leader = conservatism		
+		create_country_leader = {
+			name = "Otto von Habsburg"
+			desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
+			picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
+			expire = "1965.1.1"
+			ideology = reactionary
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "Otto von Habsburg"
+			desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
+			picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
+			expire = "1965.1.1"
+			ideology = paternalism
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "Otto von Habsburg"
+			desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
+			picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
+			expire = "1965.1.1"
+			ideology = oligarchy
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "Otto von Habsburg"
+			desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
+			picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				#
+			}
+		}
+			set_country_flag = TYR_orel_return_monarchy
+			set_cosmetic_tag = TYR_orel_monarchy
+	}
+}
+	option = {
+		name = tyrore.1.a
+			hidden_effect = {		
+		}
+}
+
+	}
+	country_event = {	
 	id = tyr.1
 	title = tyr.1.t
 	desc = tyr.1.d
@@ -58,7 +125,9 @@
 	is_triggered_only = yes
 immediate = {
 			hidden_effect = {		
-	
+	192 = {
+set_nationality = TYR	
+	}
 }
 }
 	option = {

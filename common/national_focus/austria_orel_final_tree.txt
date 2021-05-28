@@ -1,0 +1,282 @@
+focus_tree = {
+	id = austria_orel_final_tree
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 0
+			tag = AUS
+		}
+	}
+
+
+	shared_focus = TYR_Eagle_Rises	
+}	
+	default = no
+
+	continuous_focus_position = { x = 3200 y = 0 }
+
+	shared_focus = {
+		id = TYR_Eagle_Rises 
+		icon = GFX_
+		x = 7
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		relative_position_id = 				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		add_political_power = 50
+		country_event = { id = tyrore.1 }
+					}
+				}
+	shared_focus = {
+		id = TYR_Return_the_Monarchists
+		icon = GFX_
+		x = -2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Eagle_Rises }		
+		relative_position_id = TYR_Eagle_Rises		
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Negotiate_with_Factions
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Eagle_Rises }		
+		relative_position_id = TYR_Eagle_Rises		
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Occupation_Forces
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Eagle_Rises }		
+		relative_position_id = TYR_Eagle_Rises		
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Prepare_the_Inquisition
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Return_the_Monarchists }	
+		prerequisite = { focus = TYR_Negotiate_with_Factions }			
+		relative_position_id = TYR_Negotiate_with_Factions
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}					
+	shared_focus = {
+		id = TYR_Paramilitary_into_Police
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Occupation_Forces }	
+		prerequisite = { focus = TYR_Negotiate_with_Factions }			
+		relative_position_id = TYR_Negotiate_with_Factions
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Сatch_the_Rat_King_and_his_Retinue
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Prepare_the_Inquisition }	
+		prerequisite = { focus = TYR_Paramilitary_into_Police }			
+		relative_position_id = TYR_Prepare_the_Inquisition
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}				
+	shared_focus = {
+		id = TYR_Goodbye_Great_Moloch
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Сatch_the_Rat_King_and_his_Retinue }			
+		relative_position_id = TYR_Сatch_the_Rat_King_and_his_Retinue
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_The_Army_of_the_Faithful
+		icon = GFX_
+		x = -10
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Goodbye_Great_Moloch }			
+		relative_position_id = TYR_Goodbye_Great_Moloch
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Rats_into_Knights
+		icon = GFX_
+		x = -6
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Goodbye_Great_Moloch }			
+		relative_position_id = TYR_Goodbye_Great_Moloch
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Rebirth_of_the_Nation
+		icon = GFX_
+		x = -2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Goodbye_Great_Moloch }			
+		relative_position_id = TYR_Goodbye_Great_Moloch
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Empire_Salvation_Committee
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Goodbye_Great_Moloch }			
+		relative_position_id = TYR_Goodbye_Great_Moloch
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Whispers_and_Insights
+		icon = GFX_
+		x = 6
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Goodbye_Great_Moloch }			
+		relative_position_id = TYR_Goodbye_Great_Moloch
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}				
