@@ -1,0 +1,19 @@
+state={
+	id=1036
+	name="STATE_1036"
+	provinces={
+		1300 4334 4405 10162 
+	}
+	history={
+		owner = VIE
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = VIE
+
+	}	
+	state_category=rural		
+	manpower=0
+	buildings_max_level_factor=1.000
+}
