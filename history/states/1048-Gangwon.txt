@@ -1,0 +1,20 @@
+
+state={
+	id=1048
+	name="STATE_1048"
+	provinces={
+		1148 4004 7021 9936 11958 12011 
+	}
+	history={
+		owner = JOS
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = JOS
+
+	}	
+	state_category=rural		
+	manpower=0
+	buildings_max_level_factor=1.000
+}

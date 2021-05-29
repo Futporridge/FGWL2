@@ -1,0 +1,19 @@
+state={
+	id=1052
+	name="STATE_1052"
+	provinces={
+		912 978 3912 4052 6963 7171 9790 9795 9918 10065 11775 11828 11835 11896 
+	}
+	history={
+		owner = JOS
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = JOS
+
+	}	
+	state_category=rural		
+	manpower=0
+	buildings_max_level_factor=1.000
+}
