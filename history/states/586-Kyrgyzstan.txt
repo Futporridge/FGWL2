@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = QIG
+		owner = RUS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
@@ -19,7 +19,7 @@ state={
 		victory_points = {
 			1591 3 
 		}
-		add_core_of = QIG
+		add_core_of = RUS
 	}
 
 	provinces={
