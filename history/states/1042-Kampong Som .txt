@@ -1,0 +1,19 @@
+state={
+	id=1042
+	name="STATE_1042"
+	provinces={
+		7432 10317 
+	}
+	history={
+		owner = CAM
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = CAM
+
+	}	
+	state_category=rural	
+	manpower=0
+	buildings_max_level_factor=1.000
+}
