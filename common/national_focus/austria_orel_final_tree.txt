@@ -183,7 +183,7 @@ focus_tree = {
 	shared_focus = {
 		id = TYR_The_Army_of_the_Faithful
 		icon = GFX_
-		x = -10
+		x = -18
 		y = 1
 		cost = 2
 		ai_will_do = {
@@ -209,6 +209,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
+		mutually_exclusive = {
+		focus = TYR_Emphasis_on_the_Command
+		}			
 		prerequisite = { focus = TYR_The_Army_of_the_Faithful }			
 		relative_position_id = TYR_The_Army_of_the_Faithful
 		available_if_capitulated = yes
@@ -333,6 +336,9 @@ focus_tree = {
 		prerequisite = { focus = TYR_The_Army_of_the_Faithful }			
 		relative_position_id = TYR_The_Army_of_the_Faithful
 		available_if_capitulated = yes
+		mutually_exclusive = {
+		focus = TYR_Emphasis_on_the_People
+		}	
 		bypass = {
 			
 				}
@@ -667,14 +673,14 @@ focus_tree = {
 	shared_focus = {
 		id = TYR_Reforge_the_Socialists
 		icon = GFX_
-		x = -4
+		x = -2
 		y = 1
 		cost = 2
 		ai_will_do = {
 			factor = 10
 		}
-		prerequisite = { focus = TYR_Goodbye_Great_Moloch }			
-		relative_position_id = TYR_Goodbye_Great_Moloch
+		prerequisite = { focus = TYR_Rats_into_Knights }			
+		relative_position_id = TYR_Rats_into_Knights
 		available_if_capitulated = yes
 		bypass = {
 			
@@ -753,8 +759,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		prerequisite = { focus = TYR_Reforge_the_Socialists }			
-		relative_position_id = TYR_Reforge_the_Socialists
+		prerequisite = { focus = TYR_Carrot_and_the_Stick }			
+		relative_position_id = TYR_Carrot_and_the_Stick
 		available_if_capitulated = yes
 		bypass = {
 			
@@ -767,7 +773,7 @@ focus_tree = {
 	shared_focus = {
 		id = TYR_Communal_Society
 		icon = GFX_
-		x = -1
+		x = 1
 		y = 1
 		cost = 2
 		ai_will_do = {
@@ -775,6 +781,26 @@ focus_tree = {
 		}
 		prerequisite = { focus = TYR_Populist_Rhetorics }
 		prerequisite = { focus = TYR_Fighting_for_the_Freedom }				
+		relative_position_id = TYR_Fighting_for_the_Freedom
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Religious_Ideal
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Communal_Society }				
 		relative_position_id = TYR_Communal_Society
 		available_if_capitulated = yes
 		bypass = {
@@ -784,18 +810,108 @@ focus_tree = {
 		completion_reward = {
 
 					}
-				}					
+				}
 	shared_focus = {
-		id = TYR_Prepare_the_People
+		id = TYR_Release_Prisoners
 		icon = GFX_
-		x = 4
+		x = 0
 		y = 1
 		cost = 2
 		ai_will_do = {
 			factor = 10
 		}
-		prerequisite = { focus = TYR_Goodbye_Great_Moloch }			
-		relative_position_id = TYR_Goodbye_Great_Moloch
+		prerequisite = { focus = TYR_Religious_Ideal }				
+		relative_position_id = TYR_Religious_Ideal
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}				
+	shared_focus = {
+		id = TYR_The_Common_Sense
+		icon = GFX_
+		x = 0
+		y = 2
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Populist_Rhetorics }			
+		relative_position_id = TYR_Populist_Rhetorics
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Gentle_Push
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_The_Common_Sense }		
+		prerequisite = { focus = TYR_Religious_Ideal }	
+		prerequisite = { focus = TYR_Peoples_Law }		
+		relative_position_id = TYR_The_Common_Sense
+		available_if_capitulated = yes
+		mutually_exclusive = {
+		focus = TYR_ore_Iron_Fist
+		}				
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_ore_Iron_Fist
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_The_Common_Sense }		
+		prerequisite = { focus = TYR_Religious_Ideal }	
+		prerequisite = { focus = TYR_Peoples_Law }		
+		relative_position_id = TYR_The_Common_Sense
+		available_if_capitulated = yes
+		mutually_exclusive = {
+		focus = TYR_Gentle_Push
+		}			
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}				
+	shared_focus = {
+		id = TYR_Prepare_the_People
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Rats_into_Knights }			
+		relative_position_id = TYR_Rats_into_Knights
 		available_if_capitulated = yes
 		bypass = {
 			
@@ -865,7 +981,318 @@ focus_tree = {
 		completion_reward = {
 
 					}
+				}
+	shared_focus = {
+		id = TYR_Renew_our_Ideas
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Populist_Rhetorics }		
+		prerequisite = { focus = TYR_Indoctrination_of_the_Young }			
+		relative_position_id = TYR_Indoctrination_of_the_Young
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Peoples_Law
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Renew_our_Ideas }			
+		relative_position_id = TYR_Renew_our_Ideas
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Hand_Out_Estates_and_Farms
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Peoples_Law }			
+		relative_position_id = TYR_Peoples_Law
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Achieving_the_Utopia
+		icon = GFX_
+		x = 0
+		y = 2
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Gentle_Push focus = TYR_ore_Iron_Fist }	
+		prerequisite = { focus = TYR_Hand_Out_Estates_and_Farms }		
+		prerequisite = { focus = TYR_Release_Prisoners }			
+		relative_position_id = TYR_The_Common_Sense
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Enlarge_our_Dotations
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		mutually_exclusive = {
+		focus = TYR_ore_The_Resettlment
+		}		
+		prerequisite = { focus = TYR_Achieving_the_Utopia }			
+		relative_position_id = TYR_Achieving_the_Utopia
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_ore_The_Reichsrat
+		icon = GFX_
+		x = -2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}	
+		prerequisite = { focus = TYR_Enlarge_our_Dotations }			
+		relative_position_id = TYR_Enlarge_our_Dotations
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_ore_Expand_the_Rights
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}	
+		prerequisite = { focus = TYR_Enlarge_our_Dotations }			
+		relative_position_id = TYR_Enlarge_our_Dotations
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}	
+	shared_focus = {
+		id = TYR_Peasant_Princes
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}	
+		prerequisite = { focus = TYR_ore_Expand_the_Rights }			
+		relative_position_id = TYR_ore_Expand_the_Rights
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
 				}				
+	shared_focus = {
+		id = TYR_ore_Folk_Leader
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}	
+		prerequisite = { focus = TYR_ore_The_Reichsrat }			
+		relative_position_id = TYR_ore_The_Reichsrat
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}				
+	shared_focus = {
+		id = TYR_ore_The_Resettlment
+		mutually_exclusive = {
+		focus = TYR_Enlarge_our_Dotations
+		}	
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}	
+		prerequisite = { focus = TYR_Achieving_the_Utopia }			
+		relative_position_id = TYR_Achieving_the_Utopia
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Abolish_the_Total_Government
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}	
+		prerequisite = { focus = TYR_ore_The_Resettlment }			
+		relative_position_id = TYR_ore_The_Resettlment
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}	
+	shared_focus = {
+		id = TYR_Finalize_the_City_Reforms
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}	
+		prerequisite = { focus = TYR_ore_The_Resettlment }			
+		relative_position_id = TYR_ore_The_Resettlment
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Pastoral_Culture
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}	
+		prerequisite = { focus = TYR_Finalize_the_City_Reforms }			
+		relative_position_id = TYR_Finalize_the_City_Reforms
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}				
+	shared_focus = {
+		id = TYR_Barons_and_Feuds
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}	
+		prerequisite = { focus = TYR_Abolish_the_Total_Government }			
+		relative_position_id = TYR_Abolish_the_Total_Government
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}	
+	shared_focus = {
+		id = TYR_ore_The_Utopia
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+	
+		prerequisite = { focus = TYR_ore_Folk_Leader focus = TYR_Pastoral_Culture }
+		prerequisite = { focus = TYR_Barons_and_Feuds focus = TYR_Peasant_Princes }			
+		relative_position_id = TYR_Peasant_Princes
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}					
 	shared_focus = {
 		id = TYR_Rebirth_of_the_Nation
 		icon = GFX_
