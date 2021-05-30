@@ -17,13 +17,13 @@ set_politics = {
 }
 
 set_popularities = {
-	utopism = 4
-	prometeism = 6
-	communitarianism = 6
-	oligarchy = 19
-	conservatism = 13
-	paternalism = 37
-	reactionary = 15
+	utopism = 5
+	prometeism = 4
+	communitarianism = 1
+	oligarchy = 28
+	conservatism = 7
+	paternalism = 48
+	reactionary = 7
 }
 
 add_ideas = {

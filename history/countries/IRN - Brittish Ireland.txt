@@ -10,7 +10,7 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = paternalism
+	ruling_party = oligarchy
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -19,11 +19,11 @@ set_politics = {
 set_popularities = {
 	utopism = 0
 	prometeism = 0
-	communitarianism = 0
-	oligarchy = 0
+	communitarianism = 46
+	oligarchy = 33
 	conservatism = 0
 	reactionary = 0
-	paternalism = 100
+	paternalism = 21
 }
 
 add_ideas = {
@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_ADRIAN_CARTON_DE_WIART_DESC"
 	picture = "gfx/leaders/IRN/Portrait_Adrian_Carton_de_Wiart.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = oligarchy
 	traits = { 
 
 	}

@@ -27,14 +27,15 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	utopism = 0
-	prometeism = 10
-	communitarianism = 15
-	oligarchy = 10
-	conservatism = 16
-	reactionary = 14
-	liberalism = 20
-	paternalism = 15
+	utopism = 1
+	prometeism = 6
+	communitarianism = 11
+	individualism = 1
+	oligarchy = 14
+	conservatism = 19
+	reactionary = 1
+	liberalism = 1
+	paternalism = 46
 }
 
 create_country_leader = {
