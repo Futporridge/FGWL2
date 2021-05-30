@@ -1350,6 +1350,21 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+			if = {
+				limit = { has_dlc = "La Resistance" }
+				if = {
+					limit = { has_intelligence_agency = no }
+					create_intelligence_agency = yes
+				}
+				else_if = {
+					limit = {
+						NOT = { has_done_agency_upgrade = upgrade_army_department }
+					}
+					upgrade_intelligence_agency = upgrade_army_department
+				}
+				else = {
+					add_political_power = 50
+				}
+			}
 					}
 				}				
