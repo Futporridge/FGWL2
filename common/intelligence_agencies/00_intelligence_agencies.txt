@@ -252,3 +252,13 @@ intelligence_agency = {
 	available = { has_country_flag = TYR_angelis_in_power }
 	default = { has_country_flag = TYR_angelis_in_power }	
 }
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_tyr_inq
+	names = { "Heilige Inquisition" }
+
+	available = { always = yes }
+	
+	available = { has_country_flag = TYR_Orel_victory }
+	default = { has_country_flag = TYR_Orel_victory }	
+}

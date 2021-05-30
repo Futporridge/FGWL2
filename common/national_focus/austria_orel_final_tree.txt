@@ -201,6 +201,450 @@ focus_tree = {
 					}
 				}
 	shared_focus = {
+		id = TYR_Emphasis_on_the_People
+		icon = GFX_
+		x = -2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_The_Army_of_the_Faithful }			
+		relative_position_id = TYR_The_Army_of_the_Faithful
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_ore_Prepare_the_Troops
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Emphasis_on_the_People }			
+		relative_position_id = TYR_Emphasis_on_the_People
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_The_Right_to_Serve
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_ore_Prepare_the_Troops }			
+		relative_position_id = TYR_ore_Prepare_the_Troops
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}				
+	shared_focus = {
+		id = TYR_Prepare_the_Volunteer_Army
+		icon = GFX_
+		x = -2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Emphasis_on_the_People }			
+		relative_position_id = TYR_Emphasis_on_the_People
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Kornetts_and_their_Banners
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Prepare_the_Volunteer_Army }			
+		relative_position_id = TYR_Prepare_the_Volunteer_Army
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_the_Volksgarde
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_The_Right_to_Serve }		
+		prerequisite = { focus = TYR_Kornetts_and_their_Banners }			
+		relative_position_id = TYR_The_Right_to_Serve
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}				
+	shared_focus = {
+		id = TYR_Emphasis_on_the_Command
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_The_Army_of_the_Faithful }			
+		relative_position_id = TYR_The_Army_of_the_Faithful
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Our_New_Frundsbergs
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Emphasis_on_the_Command }			
+		relative_position_id = TYR_Emphasis_on_the_Command
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Personal_Presence
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Our_New_Frundsbergs }			
+		relative_position_id = TYR_Our_New_Frundsbergs
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}				
+	shared_focus = {
+		id = TYR_Tie_Bonds_of_Loyalty
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Emphasis_on_the_Command }			
+		relative_position_id = TYR_Emphasis_on_the_Command
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_ore_Religious_Indoctrination
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Tie_Bonds_of_Loyalty }			
+		relative_position_id = TYR_Tie_Bonds_of_Loyalty
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Renew_Reichsgeneralstab
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Personal_Presence }	
+		prerequisite = { focus = TYR_ore_Religious_Indoctrination }			
+		relative_position_id = TYR_Personal_Presence
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}				
+	shared_focus = {
+		id = TYR_Espirit_de_Corps
+		icon = GFX_
+		x = 0
+		y = 2
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Emphasis_on_the_Command focus = TYR_Emphasis_on_the_People }			
+		relative_position_id = TYR_The_Army_of_the_Faithful
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Militarkapelle
+		icon = GFX_
+		x = 0
+		y = 2
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Espirit_de_Corps }			
+		relative_position_id = TYR_Espirit_de_Corps
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Expand_the_Heimatskrieg_Doctrine
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Militarkapelle }			
+		relative_position_id = TYR_Militarkapelle
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_ore_Development_of_Army
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_the_Volksgarde focus = TYR_Renew_Reichsgeneralstab }	
+		prerequisite = { focus = TYR_Expand_the_Heimatskrieg_Doctrine }		
+		relative_position_id = TYR_Expand_the_Heimatskrieg_Doctrine
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Most_Noble_of_Army_Branches
+		icon = GFX_
+		x = -2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_ore_Development_of_Army }	
+		relative_position_id = TYR_ore_Development_of_Army
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_ore_Quality_over_Quantity
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Most_Noble_of_Army_Branches }	
+		relative_position_id = TYR_Most_Noble_of_Army_Branches
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}				
+	shared_focus = {
+		id = TYR_Polish_the_Swords
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_ore_Development_of_Army }	
+		relative_position_id = TYR_ore_Development_of_Army
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}	
+	shared_focus = {
+		id = TYR_ore_Doctrinal_Research
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_ore_Development_of_Army }	
+		relative_position_id = TYR_ore_Development_of_Army
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_ore_Expand_the_Reichsgeneralstab
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_ore_Doctrinal_Research }	
+		relative_position_id = TYR_ore_Doctrinal_Research
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Return_Traditions_to_Army
+		icon = GFX_
+		x = 0
+		y = 2
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_ore_Expand_the_Reichsgeneralstab }	
+		prerequisite = { focus = TYR_ore_Quality_over_Quantity }			
+		relative_position_id = TYR_Polish_the_Swords
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}								
+	shared_focus = {
 		id = TYR_Rats_into_Knights
 		icon = GFX_
 		x = -6
@@ -220,6 +664,208 @@ focus_tree = {
 
 					}
 				}
+	shared_focus = {
+		id = TYR_Reforge_the_Socialists
+		icon = GFX_
+		x = -4
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Goodbye_Great_Moloch }			
+		relative_position_id = TYR_Goodbye_Great_Moloch
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Carrot_and_the_Stick
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Reforge_the_Socialists }			
+		relative_position_id = TYR_Reforge_the_Socialists
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Usage_of_Common_Ideas
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Reforge_the_Socialists }			
+		relative_position_id = TYR_Reforge_the_Socialists
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Populist_Rhetorics
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Usage_of_Common_Ideas focus = TYR_ore_Agrarian_Schools }			
+		relative_position_id = TYR_Usage_of_Common_Ideas
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}				
+	shared_focus = {
+		id = TYR_Fighting_for_the_Freedom
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Reforge_the_Socialists }			
+		relative_position_id = TYR_Reforge_the_Socialists
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Communal_Society
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Populist_Rhetorics }
+		prerequisite = { focus = TYR_Fighting_for_the_Freedom }				
+		relative_position_id = TYR_Communal_Society
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}					
+	shared_focus = {
+		id = TYR_Prepare_the_People
+		icon = GFX_
+		x = 4
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Goodbye_Great_Moloch }			
+		relative_position_id = TYR_Goodbye_Great_Moloch
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_ore_Agrarian_Schools
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Prepare_the_People }			
+		relative_position_id = TYR_Prepare_the_People
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Return_the_Traditional_Institutions
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Prepare_the_People }			
+		relative_position_id = TYR_Prepare_the_People
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}	
+	shared_focus = {
+		id = TYR_Indoctrination_of_the_Young
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_ore_Agrarian_Schools }			
+		prerequisite = { focus = TYR_Return_the_Traditional_Institutions }			
+		relative_position_id = TYR_Return_the_Traditional_Institutions
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}				
 	shared_focus = {
 		id = TYR_Rebirth_of_the_Nation
 		icon = GFX_

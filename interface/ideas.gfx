@@ -207,5 +207,18 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_aus_army_liberalisation"
 		texturefile = "gfx/interface/ideas/austria/aus_army_liberalisation.dds"
-	}		
+	}
+					###ItaliaEmpr###
+	spriteType = {
+		name = "GFX_idea_progressive_monarchy"
+		texturefile = "gfx/interface/ideas/italian_empire/progressive_monarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_renovaccio_emperii"
+		texturefile = "gfx/interface/ideas/italian_empire/renovaccio_emperii.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_small_industry"
+		texturefile = "gfx/interface/ideas/italian_empire/small_industry.dds"
+	}	
 }

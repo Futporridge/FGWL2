@@ -7,7 +7,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = renovatio_imperii 
+			picture = renovaccio_emperii 
 			
 			modifier = {
 				political_power_gain = 0.1
@@ -26,7 +26,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = great_depression
+			picture = small_industry
 			
 			modifier = {
 				production_factory_max_efficiency_factor = -0.2
