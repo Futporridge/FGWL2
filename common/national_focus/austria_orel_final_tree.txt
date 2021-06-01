@@ -2133,7 +2133,7 @@ focus_tree = {
 			factor = 10
 		}
 		prerequisite = { focus = TYR_Sow_Fear }	
-		prerequisite = { focus = focus = TYR_Dagger_in_Shadows }		
+		prerequisite = { focus = TYR_Dagger_in_Shadows }		
 		relative_position_id = TYR_Sow_Fear
 		available_if_capitulated = yes
 		bypass = {
@@ -2154,7 +2154,7 @@ focus_tree = {
 			factor = 10
 		}
 		prerequisite = { focus = TYR_Preemptive_Strikes }
-		prerequisite = { focus = focus = TYR_Dagger_in_Shadows }			
+		prerequisite = { focus = TYR_Dagger_in_Shadows }			
 		relative_position_id = TYR_Preemptive_Strikes
 		available_if_capitulated = yes
 		bypass = {
