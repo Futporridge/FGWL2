@@ -2175,7 +2175,7 @@ focus_tree = {
 			factor = 10
 		}
 		prerequisite = { focus = TYR_Fear_our_Scharfrichters }
-		prerequisite = { focus = focus = TYR_The_Gods_Will }			
+		prerequisite = { focus = TYR_The_Gods_Will }			
 		relative_position_id = TYR_The_Gods_Will
 		available_if_capitulated = yes
 		bypass = {
