@@ -183,7 +183,7 @@ focus_tree = {
 	shared_focus = {
 		id = TYR_The_Army_of_the_Faithful
 		icon = GFX_
-		x = -18
+		x = -17
 		y = 1
 		cost = 2
 		ai_will_do = {
@@ -653,7 +653,7 @@ focus_tree = {
 	shared_focus = {
 		id = TYR_Rats_into_Knights
 		icon = GFX_
-		x = -6
+		x = 0
 		y = 1
 		cost = 2
 		ai_will_do = {
@@ -1296,7 +1296,7 @@ focus_tree = {
 	shared_focus = {
 		id = TYR_Rebirth_of_the_Nation
 		icon = GFX_
-		x = -2
+		x = -8
 		y = 1
 		cost = 2
 		ai_will_do = {
@@ -1304,6 +1304,414 @@ focus_tree = {
 		}
 		prerequisite = { focus = TYR_Goodbye_Great_Moloch }			
 		relative_position_id = TYR_Goodbye_Great_Moloch
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+
+	shared_focus = {
+		id = TYR_Expand_the_Weapon_Guilds
+		icon = GFX_
+		x = -2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Rebirth_of_the_Nation }			
+		relative_position_id = TYR_Rebirth_of_the_Nation
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Local_Productions
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Rebirth_of_the_Nation }			
+		relative_position_id = TYR_Rebirth_of_the_Nation
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Arming_the_Mob
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Expand_the_Weapon_Guilds }			
+		relative_position_id = TYR_Expand_the_Weapon_Guilds
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}	
+	shared_focus = {
+		id = TYR_Guild_Communitarianism
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Expand_the_Weapon_Guilds }		
+		prerequisite = { focus = TYR_Local_Productions }			
+		relative_position_id = TYR_Expand_the_Weapon_Guilds
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Expanding_the_Imperial_Armouries 
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Guild_Communitarianism }		
+		prerequisite = { focus = TYR_Arming_the_Mob }			
+		relative_position_id = TYR_Arming_the_Mob
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Blow_the_Bellows 
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Expanding_the_Imperial_Armouries }			
+		relative_position_id = TYR_Expanding_the_Imperial_Armouries
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Forges_of_Vienna
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Expanding_the_Imperial_Armouries }			
+		relative_position_id = TYR_Expanding_the_Imperial_Armouries
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}	
+	shared_focus = {
+		id = TYR_Swords_for_Military
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Blow_the_Bellows }		
+		prerequisite = { focus = TYR_Forges_of_Vienna }			
+		relative_position_id = TYR_Blow_the_Bellows
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}				
+	shared_focus = {
+		id = TYR_Repopulate_the_Countryside
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Rebirth_of_the_Nation }			
+		relative_position_id = TYR_Rebirth_of_the_Nation
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}	
+	shared_focus = {
+		id = TYR_Handicraft_Production
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Repopulate_the_Countryside }		
+		prerequisite = { focus = TYR_Local_Productions }			
+		relative_position_id = TYR_Local_Productions
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Expand_the_Artisans
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Handicraft_Production }				
+		relative_position_id = TYR_Handicraft_Production
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Rural_Exports
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Expand_the_Artisans }				
+		relative_position_id = TYR_Expand_the_Artisans
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}				
+	shared_focus = {
+		id = TYR_Help_the_Peasantry
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Handicraft_Production }				
+		relative_position_id = TYR_Handicraft_Production
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Redistribute_the_Wealth
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Help_the_Peasantry }				
+		relative_position_id = TYR_Help_the_Peasantry
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Finalize_the_Economical_Reform
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Rural_Exports }	
+		prerequisite = { focus = TYR_Redistribute_the_Wealth }		
+		relative_position_id = TYR_Rural_Exports
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Enlightened_Feudalism
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Swords_for_Military }	
+		prerequisite = { focus = TYR_Finalize_the_Economical_Reform }		
+		relative_position_id = TYR_Swords_for_Military
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Restore_the_Faith_of_Nation
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Enlightened_Feudalism }		
+		relative_position_id = TYR_Enlightened_Feudalism
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Work_with_Communes
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Enlightened_Feudalism }		
+		relative_position_id = TYR_Enlightened_Feudalism
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Work_Ethic
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Restore_the_Faith_of_Nation }		
+		prerequisite = { focus = TYR_Work_with_Communes }				
+		relative_position_id = TYR_Restore_the_Faith_of_Nation
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}		
+	shared_focus = {
+		id = TYR_Alternative_Economics
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Work_Ethic }				
+		relative_position_id = TYR_Work_Ethic
 		available_if_capitulated = yes
 		bypass = {
 			
@@ -1316,7 +1724,7 @@ focus_tree = {
 	shared_focus = {
 		id = TYR_Empire_Salvation_Committee
 		icon = GFX_
-		x = 2
+		x = 8
 		y = 1
 		cost = 2
 		ai_will_do = {
@@ -1332,11 +1740,258 @@ focus_tree = {
 		completion_reward = {
 
 					}
+				}	
+	shared_focus = {
+		id = TYR_Turn_Attention_to_Hungary
+		icon = GFX_
+		x = -2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Empire_Salvation_Committee }			
+		relative_position_id = TYR_Empire_Salvation_Committee
+		available_if_capitulated = yes
+		bypass = {
+			
 				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Pressure_the_Slovenia
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Empire_Salvation_Committee }			
+		relative_position_id = TYR_Empire_Salvation_Committee
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Deal_with_the_Slavic_Countries
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Empire_Salvation_Committee }			
+		relative_position_id = TYR_Empire_Salvation_Committee
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Proclaim_the_Eagle_Reborn
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Turn_Attention_to_Hungary }		
+		prerequisite = { focus = TYR_Pressure_the_Slovenia }	
+		prerequisite = { focus = TYR_Deal_with_the_Slavic_Countries }		
+		relative_position_id = TYR_Pressure_the_Slovenia
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Integrity_in_Christianity
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Proclaim_the_Eagle_Reborn }			
+		relative_position_id = TYR_Proclaim_the_Eagle_Reborn
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Western_Brotherhood
+		icon = GFX_
+		x = -2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Integrity_in_Christianity }			
+		relative_position_id = TYR_Integrity_in_Christianity
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Dialog_with_Gnostics
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Integrity_in_Christianity }			
+		relative_position_id = TYR_Integrity_in_Christianity
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Mend_the_Eastern_Schism
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Integrity_in_Christianity }			
+		relative_position_id = TYR_Integrity_in_Christianity
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Pax_Instituta
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Western_Brotherhood }	
+		prerequisite = { focus = TYR_Dialog_with_Gnostics }		
+		prerequisite = { focus = TYR_Mend_the_Eastern_Schism }		
+		relative_position_id = TYR_Western_Brotherhood
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Cure_the_Empire 
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Western_Brotherhood }	
+		prerequisite = { focus = TYR_Dialog_with_Gnostics }		
+		prerequisite = { focus = TYR_Mend_the_Eastern_Schism }		
+		relative_position_id = TYR_Dialog_with_Gnostics
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Unite_in_Fight_against_the_End_Times
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Pax_Instituta }	
+		prerequisite = { focus = TYR_Cure_the_Empire }			
+		relative_position_id = TYR_Pax_Instituta
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_The_Last_Roman_Emperor
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Unite_in_Fight_against_the_End_Times }				
+		relative_position_id = TYR_Unite_in_Fight_against_the_End_Times
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}				
 	shared_focus = {
 		id = TYR_Whispers_and_Insights
 		icon = GFX_
-		x = 6
+		x = 17
 		y = 1
 		cost = 2
 		ai_will_do = {
@@ -1366,5 +2021,168 @@ focus_tree = {
 					add_political_power = 50
 				}
 			}
+					}
+				}
+	shared_focus = {
+		id = TYR_Prepare_the_Hunt
+		icon = GFX_
+		x = -2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Whispers_and_Insights }			
+		relative_position_id = TYR_Whispers_and_Insights
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Sow_Fear
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Prepare_the_Hunt }			
+		relative_position_id = TYR_Prepare_the_Hunt
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}				
+	shared_focus = {
+		id = TYR_The_Holy_Court
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Whispers_and_Insights }			
+		relative_position_id = TYR_Whispers_and_Insights
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Preemptive_Strikes
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_The_Holy_Court }			
+		relative_position_id = TYR_The_Holy_Court
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}					
+	shared_focus = {
+		id = TYR_Dagger_in_Shadows
+		icon = GFX_
+		x = 0
+		y = 2
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Prepare_the_Hunt focus = TYR_The_Holy_Court }			
+		relative_position_id = TYR_Whispers_and_Insights
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Fear_our_Scharfrichters
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Sow_Fear }	
+		prerequisite = { focus = focus = TYR_Dagger_in_Shadows }		
+		relative_position_id = TYR_Sow_Fear
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_The_Gods_Will
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Preemptive_Strikes }
+		prerequisite = { focus = focus = TYR_Dagger_in_Shadows }			
+		relative_position_id = TYR_Preemptive_Strikes
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}	
+	shared_focus = {
+		id = TYR_The_Holy_Shield
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Fear_our_Scharfrichters }
+		prerequisite = { focus = focus = TYR_The_Gods_Will }			
+		relative_position_id = TYR_The_Gods_Will
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
 					}
 				}				
