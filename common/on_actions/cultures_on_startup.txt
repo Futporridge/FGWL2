@@ -542,7 +542,9 @@ on_actions = {
 		143 = { set_variable = { nationality = 102 } }	#		
 		144 = { set_variable = { nationality = 102 } }	#	
 		722 = { set_variable = { nationality = 102 } }	#				
-		337 = { set_variable = { nationality = 102 } }	#					
+		337 = { set_variable = { nationality = 102 } }	#	
+		318 = { set_variable = { nationality = 102 } }	#Hedmark			
+		507 = { set_variable = { nationality = 102 } }	#Ostfold			
 		#Gaut
 		124 = { set_variable = { nationality = 103 } }	#	
 		#Finnish
@@ -829,7 +831,9 @@ on_actions = {
 		#Elfenben
 		938 = { set_variable = { nationality = 183 } }	#Akan
 		#Ashanti
-		274 = { set_variable = { nationality = 184 } }	#Ashanti		
+		274 = { set_variable = { nationality = 184 } }	#Ashanti
+		#Consalian Welsh
+		1057 = { set_variable = { nationality = 185 } }	#		
 		}		
 		
 	}

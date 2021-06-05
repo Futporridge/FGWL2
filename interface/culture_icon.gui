@@ -1123,6 +1123,12 @@ guiTypes = {
 			position = {x=-32 y=-22}
 			spriteType = GFX_culture_kwa_ashanti
 			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+		iconType = {
+			name = "culture_celt_consalian_welsh"
+			position = {x=-32 y=-22}
+			spriteType = GFX_culture_celt_consalian_welsh
+			pdx_tooltip = "EOANB_CULTURE_INFO"
 		}		
 	}
 }

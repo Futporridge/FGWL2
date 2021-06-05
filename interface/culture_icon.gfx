@@ -744,4 +744,8 @@ spriteTypes = {
 		name = "GFX_culture_kwa_ashanti"
 		texturefile = "gfx/interface/ideas/culture/culture_kwa_ashanti.dds"
 	}		
+		spriteType = {
+		name = "GFX_culture_celt_consalian_welsh"
+		texturefile = "gfx/interface/ideas/culture/culture_celt_consalian_welsh.dds"
+	}		
 }
