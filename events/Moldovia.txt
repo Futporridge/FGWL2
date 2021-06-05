@@ -1,4 +1,5 @@
 ﻿	add_namespace = mol
+	add_namespace = moluni	
 	
 	country_event = {	
 	id = mol.1
@@ -19,3 +20,18 @@ remove_state_core = 920
 }
 }		}
 }
+	country_event = {	
+	id = moluni.1
+	title = moluni.1.t
+	desc = moluni.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = moluni.1.a
+			hidden_effect = {
+			set_cosmetic_tag = MOL_unification
+				}		
+			}
+	}

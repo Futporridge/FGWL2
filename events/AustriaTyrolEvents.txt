@@ -37,6 +37,8 @@
 		}		
  		hidden_effect = {
 		load_focus_tree = { tree = austria_orel_final_tree keep_completed = no }
+		remove_ideas = { TYR_fight_the_red TYR_latin_attache AUS_decline_of_the_country common_illegitimate_state AUS_econ6 TYR_patriotic_fervor TYR_left_insurgency TYR_economical_half_crash TYR_holy_sanction TYR_heimatkrieg TYR_new_austrian_army TYR_new_austrian_army_2 TYR_new_austrian_army_3 }
+		add_ideas = { TYR_new_austrian_army_3 TYR_divided_empire }
 		}
 	}	
 	option = {

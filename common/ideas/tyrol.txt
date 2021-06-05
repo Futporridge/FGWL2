@@ -1870,6 +1870,21 @@ ideas = {
 			modifier = {
 
 			}
+		}
+		TYR_authority_of_the_high_regent = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_authority_of_the_high_regent 
+						
+			modifier = {
+			stability_factor = -0.2
+			offence = -0.05
+			army_org_factor = -0.05
+			army_org_regain = -0.05
+			}
 		}		
 	}
 
