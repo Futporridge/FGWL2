@@ -1,0 +1,19 @@
+state={
+	id=1057
+	name="STATE_1057"
+	provinces={
+		8176 10953 11005 12349 
+	}
+	history={
+		owner = VLP
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = VLP
+
+	}		
+	state_category=pastoral		
+	manpower=0
+	buildings_max_level_factor=1.000
+}

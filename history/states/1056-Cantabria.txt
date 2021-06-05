@@ -1,0 +1,19 @@
+state={
+	id=1056
+	name="STATE_1056"
+	provinces={
+		5143 5163 5184 7500 8208 8255 10975 10985 13000 
+	}
+	history={
+		owner = UPC
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = UPC
+
+	}		
+	state_category=rural		
+	manpower=0
+	buildings_max_level_factor=1.000
+}

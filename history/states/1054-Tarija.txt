@@ -1,0 +1,19 @@
+state={
+	id=1054
+	name="STATE_1054"
+	provinces={
+		5179 5229 10987 12930 12979 
+	}
+	history={
+		owner = UPC
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = UPC
+
+	}		
+	state_category=pastoral		
+	manpower=0
+	buildings_max_level_factor=1.000
+}
