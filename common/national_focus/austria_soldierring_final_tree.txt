@@ -193,6 +193,12 @@ focus_tree = {
 			}
 		889 = {			
 		add_core_of = TYR
+			}
+		887 = {			
+		add_core_of = TYR
+			}
+		910 = {			
+		add_core_of = TYR
 			}			
 		remove_ideas = { TYR_ang_left_resistance2 }
 		}

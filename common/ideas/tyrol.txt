@@ -1885,6 +1885,427 @@ ideas = {
 			army_org_factor = -0.05
 			army_org_regain = -0.05
 			}
+		}
+		TYR_authority_of_the_high_regent_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_authority_of_the_high_regent 
+						
+			modifier = {
+			stability_factor = -0.15
+			offence = -0.05
+			army_org_factor = -0.05
+			army_org_regain = -0.05
+			}
+		}
+		TYR_authority_of_the_high_regent_1_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_authority_of_the_high_regent 
+						
+			modifier = {
+			stability_factor = -0.15
+			}
+		}		
+		TYR_authority_of_the_high_regent_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_authority_of_the_high_regent 
+						
+			modifier = {
+			stability_factor = -0.2
+			}
+		}
+		TYR_paramilitary_into_police = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_paramilitary_into_police 
+						
+			modifier = {
+			recruitable_population_factor = -0.05
+			occupation_cost = -0.1
+			}
+		}
+		TYR_new_austrian_army_4 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army_4 
+		
+			modifier = {
+				army_core_defence_factor = 0.2
+				war_support_factor = 0.1
+				offence = 0.05
+				army_org_factor = 0.1
+				army_org_regain = 0.05
+				conscription_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_new_austrian_army_emph_on_peop = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army_emph_on_peop 
+		
+			modifier = {
+				army_core_defence_factor = 0.2
+				war_support_factor = 0.1
+				offence = 0.05
+				army_org_factor = 0.1
+				army_org_regain = 0.05
+				conscription_factor = 0.1
+				conscription = 0.01
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_new_austrian_army_emph_on_peop_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army_emph_on_peop 
+		
+			modifier = {
+				dig_in_speed = 0.05			
+				army_core_defence_factor = 0.2
+				war_support_factor = 0.1
+				offence = 0.05
+				army_org_factor = 0.1
+				army_org_regain = 0.05
+				conscription_factor = 0.1
+				conscription = 0.01
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
+		TYR_new_austrian_army_emph_on_peop_3 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army_emph_on_peop 
+		
+			modifier = {
+				dig_in_speed = 0.05				
+				army_core_defence_factor = 0.2
+				war_support_factor = 0.1
+				offence = 0.05
+				defence = 0.05
+				army_org_factor = 0.1
+				army_org_regain = 0.05
+				conscription_factor = 0.15
+				conscription = 0.01
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_frontline_chaplains = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army_emph_on_peop 
+		
+			modifier = {
+				offence = 0.05
+				army_org_factor = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_frontline_chaplains_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army_emph_on_peop 
+		
+			modifier = {
+				offence = 0.05
+				army_org_factor = 0.05
+				army_org_regain = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_new_austrian_army_volksgarde = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army_emph_on_peop 
+		
+			modifier = {
+				dig_in_speed = 0.05				
+				army_core_defence_factor = 0.2
+				war_support_factor = 0.1
+				offence = 0.1
+				defence = 0.05
+				army_org_factor = 0.1
+				army_org_regain = 0.1
+				conscription_factor = 0.2
+				conscription = 0.02
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ore_espirit_de_corps = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army_emph_on_peop 
+		
+			modifier = {
+				army_core_attack_factor = 0.05
+				army_org_regain = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_ore_espirit_de_corps_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army_emph_on_peop 
+		
+			modifier = {
+				army_core_attack_factor = 0.05
+				army_org_regain = 0.05
+				attrition = -0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_new_austrian_army_emph_on_command_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army_4 
+		
+			modifier = {
+				army_core_defence_factor = 0.2
+				war_support_factor = 0.1
+				offence = 0.05
+				army_org_factor = 0.1
+				army_org_regain = 0.05
+				conscription_factor = 0.1
+				planning_speed = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_new_austrian_army_emph_on_command_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army_4 
+		
+			modifier = {
+				army_core_defence_factor = 0.2
+				war_support_factor = 0.1
+				offence = 0.05
+				army_org_factor = 0.1
+				army_org_regain = 0.05
+				conscription_factor = 0.1
+				planning_speed = 0.1
+				breakthrough_factor = 0.15
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_new_austrian_army_emph_on_command_3 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army_4 
+		
+			modifier = {
+				army_core_defence_factor = 0.2
+				war_support_factor = 0.1
+				offence = 0.05
+				army_org_factor = 0.1
+				army_org_regain = 0.05
+				conscription_factor = 0.1
+				planning_speed = 0.1
+				breakthrough_factor = 0.15
+				experience_gain_army_unit_factor = 0.25
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_bonds_of_loyalty = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army_4 
+		
+			modifier = {
+			army_org_regain = 0.05
+			cas_damage_reduction = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_bonds_of_loyalty_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army_4 
+		
+			modifier = {
+			army_org_regain = 0.05
+			cas_damage_reduction = 0.05
+			army_speed_factor = 0.05
+			offence = 0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_new_austrian_army_reichsgeneralstab = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army_reichsgeneralstab 
+		
+			modifier = {
+				army_core_defence_factor = 0.2
+				war_support_factor = 0.1
+				offence = 0.1
+				army_org_factor = 0.1
+				army_org_regain = 0.1
+				conscription_factor = 0.1
+				planning_speed = 0.1
+				breakthrough_factor = 0.2
+				experience_gain_army_unit_factor = 0.3
+				army_speed_factor = 0.05		
+				cas_damage_reduction = 0.05				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_new_austrian_army_reichsgeneralstab_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army_reichsgeneralstab 
+				
+			modifier = {
+				army_core_attack_factor = 0.05			
+				army_core_defence_factor = 0.2
+				war_support_factor = 0.1
+				offence = 0.1
+				army_org_factor = 0.1
+				army_org_regain = 0.15
+				conscription_factor = 0.1
+				planning_speed = 0.1
+				breakthrough_factor = 0.2
+				experience_gain_army_unit_factor = 0.3
+				army_speed_factor = 0.05		
+				cas_damage_reduction = 0.05		
+				attrition = -0.1				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		TYR_new_austrian_army_volksgarde_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = TYR_new_austrian_army_emph_on_peop 
+
+			modifier = {
+				dig_in_speed = 0.05		
+				army_core_attack_factor = 0.05				
+				army_core_defence_factor = 0.2
+				war_support_factor = 0.1
+				offence = 0.1
+				defence = 0.05
+				army_org_factor = 0.1
+				army_org_regain = 0.15
+				conscription_factor = 0.2
+				conscription = 0.02
+				attrition = -0.1				
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
 		}		
 	}
 

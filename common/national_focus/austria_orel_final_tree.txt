@@ -54,7 +54,21 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+	if = {
+	limit = {
+		has_idea = TYR_authority_of_the_high_regent_2
+	}
+		swap_ideas = {
+		remove_idea = TYR_authority_of_the_high_regent_2
+		add_idea = TYR_authority_of_the_high_regent_1_1
+			}	
+	else = {
+		swap_ideas = {
+		remove_idea = TYR_authority_of_the_high_regent
+		add_idea = TYR_authority_of_the_high_regent_1
+			}		
+	}
+		}		
 					}
 				}
 	shared_focus = {
@@ -74,7 +88,21 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+	if = {
+	limit = {
+		has_idea = TYR_authority_of_the_high_regent_1
+	}
+		swap_ideas = {
+		remove_idea = TYR_authority_of_the_high_regent_1
+		add_idea = TYR_authority_of_the_high_regent_1_1
+			}	
+	else = {
+		swap_ideas = {
+		remove_idea = TYR_authority_of_the_high_regent
+		add_idea = TYR_authority_of_the_high_regent_2
+			}		
+	}
+		}	
 					}
 				}
 	shared_focus = {
@@ -94,9 +122,14 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
-					}
-				}
+		add_manpower = 10000
+		add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 5000
+		producer = TYR
+		}		
+						}
+			}
 	shared_focus = {
 		id = TYR_Prepare_the_Inquisition
 		icon = GFX_
@@ -115,7 +148,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		swap_ideas = {
+		remove_idea = TYR_ang_left_resistance
+		add_idea = TYR_ang_left_resistance2
+		}
 					}
 				}					
 	shared_focus = {
@@ -136,7 +172,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		add_ideas = { TYR_paramilitary_into_police }
 					}
 				}
 	shared_focus = {
@@ -157,7 +193,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		remove_ideas = { TYR_ang_left_resistance2 }
 					}
 				}				
 	shared_focus = {
@@ -177,7 +213,24 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		886 = {			
+		add_core_of = TYR
+			}
+		152 = {			
+		add_core_of = TYR
+			}
+		4 = {			
+		add_core_of = TYR
+			}
+		889 = {			
+		add_core_of = TYR
+			}
+		887 = {			
+		add_core_of = TYR
+			}
+		910 = {			
+		add_core_of = TYR
+			}			
 					}
 				}
 	shared_focus = {
@@ -197,7 +250,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		swap_ideas = {
+		remove_idea = TYR_new_austrian_army_3
+		add_idea = TYR_new_austrian_army_4
+		}
 					}
 				}
 	shared_focus = {
@@ -220,11 +276,14 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		swap_ideas = {
+		remove_idea = TYR_new_austrian_army_4
+		add_idea = TYR_new_austrian_army_emph_on_peop
+		}
 					}
 				}
 	shared_focus = {
-		id = TYR_ore_Prepare_the_Troops
+		id = TYR_ore_Frontline_Chaplains
 		icon = GFX_
 		x = 0
 		y = 1
@@ -240,7 +299,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		add_ideas = TYR_frontline_chaplains
 					}
 				}
 	shared_focus = {
@@ -252,15 +311,18 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		prerequisite = { focus = TYR_ore_Prepare_the_Troops }			
-		relative_position_id = TYR_ore_Prepare_the_Troops
+		prerequisite = { focus = TYR_Prepare_the_Volunteer_Army }			
+		relative_position_id = TYR_Prepare_the_Volunteer_Army
 		available_if_capitulated = yes
 		bypass = {
 			
 				}
 
 		completion_reward = {
-
+		swap_ideas = {
+		remove_idea = TYR_new_austrian_army_emph_on_peop_2
+		add_idea = TYR_new_austrian_army_emph_on_peop_3
+		}
 					}
 				}				
 	shared_focus = {
@@ -280,7 +342,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		swap_ideas = {
+		remove_idea = TYR_new_austrian_army_emph_on_peop
+		add_idea = TYR_new_austrian_army_emph_on_peop_2
+		}
 					}
 				}
 	shared_focus = {
@@ -292,21 +357,24 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		prerequisite = { focus = TYR_Prepare_the_Volunteer_Army }			
-		relative_position_id = TYR_Prepare_the_Volunteer_Army
+		prerequisite = { focus = TYR_ore_Frontline_Chaplains }			
+		relative_position_id = TYR_ore_Frontline_Chaplains
 		available_if_capitulated = yes
 		bypass = {
 			
 				}
 
 		completion_reward = {
-
+		swap_ideas = {
+		remove_idea = TYR_frontline_chaplains
+		add_idea = TYR_frontline_chaplains_2
+		}
 					}
 				}
 	shared_focus = {
 		id = TYR_the_Volksgarde
 		icon = GFX_
-		x = -1
+		x = 1
 		y = 1
 		cost = 2
 		ai_will_do = {
@@ -321,7 +389,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		remove_ideas = { TYR_frontline_chaplains_2 TYR_new_austrian_army_emph_on_peop_3 }
+		add_ideas = { TYR_new_austrian_army_volksgarde }
 					}
 				}				
 	shared_focus = {
@@ -344,7 +413,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		swap_ideas = {
+		remove_idea = TYR_new_austrian_army_4
+		add_idea = TYR_new_austrian_army_emph_on_command_1
+		}
 					}
 				}
 	shared_focus = {
@@ -364,7 +436,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		swap_ideas = {
+		remove_idea = TYR_new_austrian_army_emph_on_command_1
+		add_idea = TYR_new_austrian_army_emph_on_command_2
+		}
 					}
 				}
 	shared_focus = {
@@ -384,7 +459,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		swap_ideas = {
+		remove_idea = TYR_new_austrian_army_emph_on_command_2
+		add_idea = TYR_new_austrian_army_emph_on_command_3
+		}
 					}
 				}				
 	shared_focus = {
@@ -404,7 +482,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		add_ideas = { TYR_bonds_of_loyalty }
 					}
 				}
 	shared_focus = {
@@ -424,7 +502,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		swap_ideas = { 
+		remove_idea = TYR_bonds_of_loyalty
+		add_idea = TYR_bonds_of_loyalty_1
+		}
 					}
 				}
 	shared_focus = {
@@ -445,7 +526,8 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		remove_ideas = { TYR_bonds_of_loyalty_1 TYR_new_austrian_army_emph_on_command_3 }
+		add_ideas = { TYR_new_austrian_army_reichsgeneralstab }
 					}
 				}				
 	shared_focus = {
@@ -465,7 +547,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		add_ideas = { TYR_ore_espirit_de_corps }
 					}
 				}
 	shared_focus = {
@@ -485,27 +567,10 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
-					}
-				}
-	shared_focus = {
-		id = TYR_Expand_the_Heimatskrieg_Doctrine
-		icon = GFX_
-		x = 0
-		y = 1
-		cost = 2
-		ai_will_do = {
-			factor = 10
+		swap_ideas = {
+		remove_idea = TYR_ore_espirit_de_corps
+		add_idea = TYR_ore_espirit_de_corps_1
 		}
-		prerequisite = { focus = TYR_Militarkapelle }			
-		relative_position_id = TYR_Militarkapelle
-		available_if_capitulated = yes
-		bypass = {
-			
-				}
-
-		completion_reward = {
-
 					}
 				}
 	shared_focus = {
@@ -518,15 +583,28 @@ focus_tree = {
 			factor = 10
 		}
 		prerequisite = { focus = TYR_the_Volksgarde focus = TYR_Renew_Reichsgeneralstab }	
-		prerequisite = { focus = TYR_Expand_the_Heimatskrieg_Doctrine }		
-		relative_position_id = TYR_Expand_the_Heimatskrieg_Doctrine
+		prerequisite = { focus = TYR_Militarkapelle }		
+		relative_position_id = TYR_Militarkapelle
 		available_if_capitulated = yes
 		bypass = {
 			
 				}
 
 		completion_reward = {
-
+	if = {
+	limit = {
+		has_idea = TYR_new_austrian_army_reichsgeneralstab
+	}
+		remove_ideas = { TYR_new_austrian_army_reichsgeneralstab TYR_ore_espirit_de_corps_1 }
+		add_ideas = { TYR_new_austrian_army_reichsgeneralstab_1 }
+			
+		else = {			
+		swap_ideas = {
+		remove_ideas = { TYR_new_austrian_army_volksgarde TYR_ore_espirit_de_corps_1 }
+		add_ideas = { TYR_new_austrian_army_volksgarde_1 }
+			}
+		}
+	}			
 					}
 				}
 	shared_focus = {
