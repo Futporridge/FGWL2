@@ -35,6 +35,16 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
+	name = "Wenzel Jaksch"
+	desc = "POLITICS_WENZEL_JAKSCH_DESC"
+	picture = "gfx/leaders/SDD/Portrait_Wenzel_Jaksch.tga"
+	expire = "1965.1.1"
+	ideology = prometeism
+	traits = { 
+
+	}
+}
+create_country_leader = {
 	name = "Irene Harand"
 	desc = "POLITICS_IRENE_HARAND_DESC"
 	picture = "gfx/leaders/SDD/Portrait_Irene_Harand.tga"
