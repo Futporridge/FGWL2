@@ -528,3 +528,25 @@ create_corps_commander = {
     planning_skill = 2
     logistics_skill = 2
 }
+create_corps_commander = {
+	name = "Carl von Bardolff"
+	id = 213	
+	portrait_path = "gfx/leaders/AUS/Portrait_Carl_von_Bardolff.tga"
+	traits = { AUS_militarist old_guard politically_connected }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Otto Ellison von Nidlef"
+	id = 214	
+	portrait_path = "gfx/leaders/AUS/Portrait_Otto_Ellison_von_Nidlef.tga"
+	traits = { AUS_militarist infantry_officer trait_reckless }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+}
