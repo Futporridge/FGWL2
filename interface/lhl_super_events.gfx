@@ -41,7 +41,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_mazurin_victory"
 		texturefile = "gfx/super_events/Mazurin_victory.dds"
-	}	
+	}
+	spriteType = {
+		name = "GFX_blood_axis"
+		texturefile = "gfx/super_events/blood_axis.dds"
+	}		
 
 	spriteType = {
 		name = "GFX_CLOSE"

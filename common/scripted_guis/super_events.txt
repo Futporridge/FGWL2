@@ -60,6 +60,11 @@ scripted_gui = {
 				has_global_flag  = mazurin_victory
 			}
 		}		
+		triggers = {
+			Super_Event_blood_axis_visible = {
+				has_global_flag  = blood_axis
+			}
+		}
 
 		properties = {
 			Super_Event_Default = {
@@ -131,6 +136,12 @@ scripted_gui = {
 						has_global_flag = mazurin_victory
 					}
 					clr_global_flag  = mazurin_victory
+				}
+				if = {
+					limit = {	
+						has_global_flag = blood_axis
+					}
+					clr_global_flag  = blood_axis
 				}				
 			}
 		}

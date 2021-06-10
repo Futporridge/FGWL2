@@ -58,3 +58,10 @@ soundeffect = {
 	}
 	volume = 1
 }
+soundeffect = {
+	name = "blood_axis"
+	sounds = {
+		sound = "blood_axis"
+	}
+	volume = 1
+}
