@@ -8,12 +8,18 @@ state={
 		owner = JOS
 		buildings = {
 			infrastructure = 3
-
+			
+		}
+		victory_points = {
+			12040 1 
+		}
+		victory_points = {
+			4107 1 
 		}
 		add_core_of = JOS
 
 	}	
 	state_category=rural		
-	manpower=0
+	manpower=2213672
 	buildings_max_level_factor=1.000
 }

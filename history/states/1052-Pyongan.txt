@@ -10,10 +10,16 @@ state={
 			infrastructure = 3
 
 		}
+		victory_points = {
+			4052 5 
+		}
+		victory_points = {
+			11775 1 
+		}
 		add_core_of = JOS
 
 	}	
 	state_category=rural		
-	manpower=0
+	manpower=2828000
 	buildings_max_level_factor=1.000
 }

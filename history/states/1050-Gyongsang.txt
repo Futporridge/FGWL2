@@ -8,12 +8,27 @@ state={
 		owner = JOS
 		buildings = {
 			infrastructure = 3
+			dockyard = 1
+			4056 = {
+				naval_base = 3
+
+			}
+
 
 		}
 		add_core_of = JOS
-
+		
+		victory_points = {
+			4056 7 
+		}
+		victory_points = {
+			4086 3 
+		}
+		victory_points = {
+			10115 1 
+		}
 	}	
 	state_category=rural		
-	manpower=0
+	manpower=5350254
 	buildings_max_level_factor=1.000
 }
