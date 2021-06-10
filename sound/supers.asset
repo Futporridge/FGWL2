@@ -47,3 +47,9 @@ sound = {
 	volume = 1
 	always_load = yes
 }
+sound = { 
+	name = "blood_axis"
+	file = "menu/blood_axis.wav"
+	volume = 1
+	always_load = yes
+}

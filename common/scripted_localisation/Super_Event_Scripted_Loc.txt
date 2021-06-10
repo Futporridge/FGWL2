@@ -68,5 +68,11 @@ defined_text = { #SUPER EVENT CLOSE
             has_global_flag = mazurin_victory
         }
         localization_key = "GFX_mazurin_victory_CLOSE"
-    }	
+    }
+	    text = { 
+        trigger = {
+            has_global_flag = blood_axis
+        }
+        localization_key = "GFX_blood_axis_CLOSE"
+    }		
 }
