@@ -23,9 +23,9 @@ set_popularities = {
 	prometeism = 0
 	communitarianism = 0
 	oligarchy = 0
-	conservativism = 0
-	paternalism = 0
+	conservatism = 0
 	reactionary = 100
+	paternalism = 0
 }
 
 add_ideas = {
