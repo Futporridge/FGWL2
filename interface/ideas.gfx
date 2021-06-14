@@ -152,6 +152,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/kalmar/Federal_crisis.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_KAL_Federal_crisis_1"
+		texturefile = "gfx/interface/ideas/kalmar/Federal_crisis_1.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_KAL_Swedish_Separatism"
 		texturefile = "gfx/interface/ideas/kalmar/Swedish_Separatism.dds"
 	}

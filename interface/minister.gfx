@@ -434,7 +434,19 @@ spriteTypes = {
 		name = "GFX_idea_Carl_Georg_Bartholdy"
 		texturefile = "gfx/interface/ideas/Ministers/Kalmar/gluk/hojre/Carl_Georg_Bartholdy.dds"
 	}
-	
+							####SWEDEN####
+	spriteType = {
+	name = "GFX_idea_Gosta_Bagge"
+	texturefile = "gfx/interface/ideas/Ministers/Kalmar/sweden/Gosta_Bagge.dds"
+	}	
+	spriteType = {
+	name = "GFX_idea_Gustaf_Bernadot"
+	texturefile = "gfx/interface/ideas/Ministers/Kalmar/sweden/Gustaf_Bernadot.dds"
+	}	
+	spriteType = {
+	name = "GFX_idea_Helge_Jung"
+	texturefile = "gfx/interface/ideas/Ministers/Kalmar/sweden/Helge_Jung.dds"
+	}	
 	
 						####Papal####
 	spriteType = {

@@ -1,0 +1,86 @@
+focus_tree = {
+	id = Sweden_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SWE
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 3200 y = 0 }
+
+	focus = {
+		id = SWE_Sweet_Independence
+		icon = GFX_focus_SWE_Sweet_Independence
+		x = 7
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.05
+
+			}
+		available_if_capitulated = yes
+				}
+				
+	focus = {
+		id = SWE_The_King_s_Manifesto
+		icon = GFX_focus_SWE_The_King_s_Manifesto
+		x = -1
+		y = 1
+		prerequisite = { focus = SWE_Sweet_Independence }
+		cost = 1
+		relative_position_id = SWE_Sweet_Independence
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		country_event = { id = swe.4 }
+		available_if_capitulated = yes
+							}
+			}
+
+	focus = {
+		id = SWE_Appoint_a_Chancellor
+		icon = GFX_focus_SWE_Appoint_a_Chancellor
+		x = 1
+		y = 1
+		prerequisite = { focus = SWE_Sweet_Independence }
+		cost = 1
+		relative_position_id = SWE_Sweet_Independence
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		country_event = { id = swe.3 }
+							}
+		
+		available_if_capitulated = yes
+			}
+			
+	focus = {
+		id = SWE_Begin_Our_Duty
+		icon = GFX_focus_SWE_Begin_Our_Duty
+		x = -1
+		y = 1
+		prerequisite = { focus = SWE_Appoint_a_Chancellor }
+		prerequisite = { focus = SWE_The_King_s_Manifesto }
+		cost = 3
+		relative_position_id = SWE_Appoint_a_Chancellor
+		ai_will_do = {
+			factor = 10
+		}
+
+		
+		available_if_capitulated = yes
+			}
+			
+			}
+		
