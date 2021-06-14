@@ -599,10 +599,8 @@ focus_tree = {
 		add_ideas = { TYR_new_austrian_army_reichsgeneralstab_1 }
 			
 		else = {			
-		swap_ideas = {
 		remove_ideas = { TYR_new_austrian_army_volksgarde TYR_ore_espirit_de_corps_1 }
 		add_ideas = { TYR_new_austrian_army_volksgarde_1 }
-			}
 		}
 	}			
 					}
@@ -644,7 +642,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		add_ideas = { TYR_ore_quality_over_quantity }
 					}
 				}				
 	shared_focus = {
@@ -664,7 +662,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		add_tech_bonus = {
+		bonus = 1
+		uses = 2
+		category = infantry_weapons
+		}
 					}
 				}	
 	shared_focus = {
@@ -684,7 +686,11 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		add_tech_bonus = {
+		bonus = 1
+		uses = 3
+		category = land_doctrine
+		}
 					}
 				}
 	shared_focus = {
@@ -704,7 +710,22 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+	if = {
+	limit = {
+		has_idea = TYR_new_austrian_army_reichsgeneralstab_1
+	}
+		swap_ideas = {
+		remove_idea = { TYR_new_austrian_army_reichsgeneralstab_1 }
+		add_idea = { TYR_new_austrian_army_reichsgeneralstab_2 }
+			}
+			
+		else = {			
+		swap_ideas = {
+		remove_idea = { TYR_new_austrian_army_volksgarde_1 }
+		add_idea = { TYR_new_austrian_army_volksgarde_2 }
+			}
+		}
+	}
 					}
 				}
 	shared_focus = {
@@ -745,7 +766,7 @@ focus_tree = {
 				}
 
 		completion_reward = {
-
+		country_event = { id = tyrore.2 }
 					}
 				}
 	shared_focus = {

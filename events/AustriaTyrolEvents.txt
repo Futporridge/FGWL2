@@ -119,6 +119,20 @@ immediate = {
 
 	}
 	country_event = {	
+	id = tyrore.2
+	title = tyrore.2.t
+	desc = tyrore.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = tyrore.2.a
+		add_political_power = 50 
+	}
+}	
+	country_event = {	
 	id = tyr.1
 	title = tyr.1.t
 	desc = tyr.1.d

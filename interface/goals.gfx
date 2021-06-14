@@ -3294,6 +3294,58 @@ spriteTypes = {
 		name = "GFX_focus_KAL_Divine_Authority"
 		texturefile = "gfx/interface/goals/Focus_KAL_Divine_Authority.dds"
 	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_Assemble_Folketing"
+		texturefile = "gfx/interface/goals/oldenburg/Focus_KAL_Assemble_Folketing.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_Hojre"
+		texturefile = "gfx/interface/goals/oldenburg/Focus_KAL_Hojre.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_Reduce_State_Fees"
+		texturefile = "gfx/interface/goals/oldenburg/Focus_KAL_Reduce_State_Fees.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_Renunication_of_Estate_Privileges"
+		texturefile = "gfx/interface/goals/oldenburg/Focus_KAL_Renunication_of_Estate_Privileges.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_Constitutional_Kingdom"
+		texturefile = "gfx/interface/goals/oldenburg/Focus_KAL_Constitutional_Kingdom.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_Venstre"
+		texturefile = "gfx/interface/goals/oldenburg/Focus_KAL_Venstre.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_Trade_Union_Support"
+		texturefile = "gfx/interface/goals/oldenburg/Focus_KAL_Trade_Union_Support.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_Welfare_State"
+		texturefile = "gfx/interface/goals/oldenburg/Focus_KAL_Welfare_State.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_Start_Federal_Reform"
+		texturefile = "gfx/interface/goals/oldenburg/Focus_KAL_Start_Federal_Reform.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_Swedish_Question"
+		texturefile = "gfx/interface/goals/oldenburg/Focus_KAL_Swedish_Question.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_Invoke_the_King"
+		texturefile = "gfx/interface/goals/oldenburg/Focus_KAL_Invoke_the_King.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_Dismiss_Swedish_Generals"
+		texturefile = "gfx/interface/goals/oldenburg/Focus_KAL_Dismiss_Swedish_Generals.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_KAL_Farvel_Sverige"
+		texturefile = "gfx/interface/goals/oldenburg/Focus_KAL_Farvel_Sverige.dds"
+	}
 	####ESA####
 	SpriteType = { 
 		name = "GFX_Focus_ESA_be_quick_or_be_dead"
