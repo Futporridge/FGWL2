@@ -84,7 +84,7 @@ focus_tree = {
 			
 		focus = {
 		id = KAL_Farmer_Subsidies
-		icon = GFX_focus_KAL_Farmer_Subsidies
+		icon = GFX_focus_PFT_restoring_the_farmlands
 		x = 0
 		y = 1
 		prerequisite = { focus = KAL_Reduce_State_Fees }
@@ -157,7 +157,7 @@ focus_tree = {
 			
 	focus = {
 		id = KAL_Freedom_of_Speech
-		icon = GFX_focus_KAL_Freedom_of_Speech
+		icon = GFX_focus_PFT_focus_on_populism
 		x = 0
 		y = 1
 		prerequisite = { focus = KAL_Venstre }
@@ -192,7 +192,7 @@ focus_tree = {
 			
 		focus = {
 		id = KAL_Fight_Against_Unemployment
-		icon = GFX_focus_KAL_Fight_Against_Unemployment
+		icon = GFX_focus_PFT_workers_rights
 		x = -2
 		y = 1
 		prerequisite = { focus = KAL_Freedom_of_Speech }
@@ -268,7 +268,7 @@ focus_tree = {
 			
 			focus = {
 		id = KAL_General_Referendum
-		icon = GFX_focus_KAL_General_Referendum
+		icon = GFX_focus_TYR_forn_the_internal_affairs_comitee
 		x = 0
 		y = 1
 		prerequisite = { focus = KAL_Swedish_Question }
