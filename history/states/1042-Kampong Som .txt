@@ -8,12 +8,15 @@ state={
 		owner = CAM
 		buildings = {
 			infrastructure = 3
+			7432 = {
+				naval_base = 1
 
+			}
 		}
 		add_core_of = CAM
 
 	}	
 	state_category=rural	
-	manpower=0
+	manpower=120850
 	buildings_max_level_factor=1.000
 }
