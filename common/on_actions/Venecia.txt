@@ -1,9 +1,97 @@
 on_actions = {
 	on_startup = {
 		effect = {
-	VEN = {
-	country_event = { id = ven.2 }		
+			VEN = {
+				country_event = { id = ven.2 }		
+			}
 		}
 	}
-}
+	on_peaceconference_ended = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { tag = VEN }
+					FROM = { tag = ISR }
+				}
+
+				ROOT = {
+					annex_country = { target = ISR }				
+				}
+			}
+		}
+	}
+	on_peaceconference_ended = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { tag = ISR }
+					FROM = { tag = VEN }
+				}
+
+				ROOT = {
+					transfer_state = 803
+					transfer_state = 160
+					transfer_state = 908					
+				}
+				
+				any_country = {
+					limit = {
+						owns_state = 806
+					}
+					transfer_state = 736
+				}
+				
+				any_country = {
+					limit = {
+						owns_state = 807
+					}
+					transfer_state = 103
+				}
+				
+				LTE = {
+					transfer_state = 44
+					transfer_state = 820
+					transfer_state = 932
+					transfer_state = 182
+				}
+			}
+		}
+	}
+	on_peaceconference_ended = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { tag = ITE }
+					FROM = { tag = VEN }
+				}
+
+				ROOT = {
+					transfer_state = 803
+					transfer_state = 160
+					transfer_state = 908					
+				}
+				
+				any_country = {
+					limit = {
+						owns_state = 806
+					}
+					transfer_state = 736
+				}
+				
+				any_country = {
+					limit = {
+						owns_state = 807
+					}
+					transfer_state = 103
+				}
+				
+				LTE = {
+					transfer_state = 44
+					transfer_state = 820
+					transfer_state = 932
+					transfer_state = 182
+				}
+			}
+		}
+	}
 }	
