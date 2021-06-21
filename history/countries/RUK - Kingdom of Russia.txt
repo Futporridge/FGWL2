@@ -33,7 +33,7 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Ivan II Radziwill"
+	name = "Ivan II"
 	desc = "POLITICS_JANUSZ_RADZIWILL_DESC"
 	picture = "gfx/leaders/RUK/Portrait_Janusz_Radziwill.tga"
 	expire = "1965.1.1"

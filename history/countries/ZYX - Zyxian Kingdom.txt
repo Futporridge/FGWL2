@@ -31,7 +31,7 @@ set_popularities = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Leïla de Karm"
+	name = "Leïla I"
 	desc = "POLITICS_LEILA_DE_KARM_DESC"
 	picture = "gfx/leaders/ZYX/Portrait_Leila_de_Karm.tga"
 	expire = "1965.1.1"
