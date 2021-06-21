@@ -10,10 +10,12 @@ ideas = {
 			picture = industrial_oligarchy
 			
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_factor = 0.15
 				political_power_gain = -0.25
 				production_factory_max_efficiency_factor = 0.15
 				production_factory_efficiency_gain_factor = 0.1
+				economy_cost_factor = 2
+				trade_laws_cost_factor = 2
 			}
 	
 			ai_will_do = {
@@ -30,6 +32,7 @@ ideas = {
 			picture = industrial_oligarchy_crash
 			
 			modifier = {
+				consumer_goods_factor = 0.1
 				production_factory_max_efficiency_factor = 0.1
 				production_factory_efficiency_gain_factor = 0.05
 			}
@@ -48,9 +51,33 @@ ideas = {
 			picture = industrial_oligarchy_domination
 			
 			modifier = {
-				consumer_goods_factor = 0.1
+				consumer_goods_factor = 0.20
+				political_power_gain = -0.4
 				production_factory_max_efficiency_factor = 0.2
 				production_factory_efficiency_gain_factor = 0.15
+				economy_cost_factor = 0.5
+				trade_laws_cost_factor = 0.5
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		forgotten_army = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = forgotten_army
+			
+			modifier = {
+				custom_modifier_tooltip = VEN_forgotten_army_tt
+				command_power_gain_mult = -0.5
+				conscription_factor  = -0.70
+				military_leader_cost_factor = 1
+				mobilization_laws_cost_factor = 2
 			}
 	
 			ai_will_do = {

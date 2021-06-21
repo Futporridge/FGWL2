@@ -2,6 +2,8 @@ capital = 160
 
 OOB = "VEN_1936"
 
+country_lock_all_division_template = yes
+
 set_research_slots = 3
 
 set_technology = {
@@ -52,8 +54,11 @@ set_popularities = {
 
 add_ideas = {
 industrial_oligarchy
+forgotten_army
 restoration_of_venice
 bende_rosse
+###Economic###
+free_trade
 }
 if = {
 	limit = {

@@ -1,0 +1,56 @@
+on_actions = {
+
+	# FROM = winner
+	# ROOT = country being capitulated/loser
+	
+	on_capitulation = {
+		effect = {
+			if = { #Ломбардия-венеция побеждавет левых
+				limit = {
+					FROM = { original_tag = VEN }
+					ROOT = { original_tag = ISR }
+				}
+
+				FROM = {
+					white_peace = ROOT
+					annex_country = {
+					 	target = ROOT
+					 	transfer_troops = no
+					 }
+				}
+			}
+			if = { #Левые побеждают ломбардию-венецию
+				limit = {
+					FROM = { tag = ISR }
+					ROOT = { tag = VEN }
+				}
+
+				ISR = {
+					transfer_state = 803
+					transfer_state = 160
+					transfer_state = 908
+					add_state_core = 803
+					add_state_core = 160
+					add_state_core = 908
+				}
+				
+				SLV = {
+					transfer_state = 736
+					add_state_core = 736
+				}
+				
+				RCR = {
+					transfer_state = 103
+					add_state_core = 103
+				}
+				
+				LTE = {
+					transfer_state = 44
+					transfer_state = 820
+					transfer_state = 932
+					transfer_state = 182
+				}
+			}
+		}
+	}
+}	

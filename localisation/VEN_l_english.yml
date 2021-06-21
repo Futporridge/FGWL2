@@ -60,6 +60,10 @@ bende_rosse:0 "Bende Rosse"
 bende_rosse_desc:0 ""
 milan_strike:0 "Milan Strike"
 milan_strike_desc:0 ""
+forgotten_army:0 "Forgotten Army"
+forgotten_army_desc:0 ""
+#############Тултипы############
+VEN_forgotten_army_tt:0 "§RCannot train units, disband units, or edit unit templates.§!"
 #############Ивенты############
 tus.1.t:0 "Strength through unity"
 tus.1.d:0 ""
