@@ -47,7 +47,7 @@ tuscan_guard
 set_convoys = 100
 
 create_country_leader = {
-	name = "Franz Salvator von Habsburg"
+	name = "Franz Salvator I"
 	desc = "POLITICS_FRANZ_SALVATOR_DESC"
 	picture = "gfx/leaders/TUS/Portrait_Franz_Salvator.tga"
 	expire = "1965.1.1"

@@ -35,7 +35,7 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Daphne du Maurier"
+	name = "Daphne I"
 	desc = "POLITICS_DAPHNE_DU_MAURIER_DESC"
 	picture = "gfx/leaders/CRN/Portrait_Daphne_du_Maurier.tga"
 	expire = "1965.1.1"
@@ -45,7 +45,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Daphne du Maurier"
+	name = "Daphne I"
 	desc = "POLITICS_DAPHNE_DU_MAURIER_DESC"
 	picture = "gfx/leaders/CRN/Portrait_Daphne_du_Maurier.tga"
 	expire = "1965.1.1"
@@ -55,7 +55,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Daphne du Maurier"
+	name = "Daphne I"
 	desc = "POLITICS_DAPHNE_DU_MAURIER_DESC"
 	picture = "gfx/leaders/CRN/Portrait_Daphne_du_Maurier.tga"
 	expire = "1965.1.1"
@@ -65,7 +65,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Daphne du Maurier"
+	name = "Daphne I"
 	desc = "POLITICS_DAPHNE_DU_MAURIER_DESC"
 	picture = "gfx/leaders/CRN/Portrait_Daphne_du_Maurier.tga"
 	expire = "1965.1.1"

@@ -3,7 +3,8 @@
 	add_namespace = tyrore	
 	add_namespace = tyrang	
 	add_namespace = tyrangmil	
-	add_namespace = tyrangdip		
+	add_namespace = tyrangdip	
+	add_namespace = tyrsteidle
 	
 	country_event = {	
 	id = tyrendcw.1
@@ -21,7 +22,9 @@
 	trigger = {
 	has_country_flag = TYR_Steidle_victory	
 		}		
- 		
+ 	hidden_effect = {
+	load_focus_tree = { tree = austria_steidle_final_tree keep_completed = no }
+	}	
 	}
 	option = {
 		name = tyrendcw.1.b
@@ -742,3 +745,72 @@ create_country_leader = {
 
 	}
 }
+	country_event = {	
+	id = tyrsteidle.1
+	title = tyrsteidle.1.t
+	desc = tyrsteidle.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+immediate = {
+		hidden_effect = {
+		retire_country_leader = yes
+		retire_ideology_leader = paternalism
+		retire_ideology_leader = oligarchy
+		retire_ideology_leader = conservatism		
+		create_country_leader = {
+			name = "Otto von Habsburg"
+			desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
+			picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
+			expire = "1965.1.1"
+			ideology = reactionary
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "Otto von Habsburg"
+			desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
+			picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
+			expire = "1965.1.1"
+			ideology = paternalism
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "Otto von Habsburg"
+			desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
+			picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
+			expire = "1965.1.1"
+			ideology = oligarchy
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "Otto von Habsburg"
+			desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
+			picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				#
+			}
+		}
+			set_country_flag = TYR_steidle_return_monarchy
+			set_cosmetic_tag = TYR_steidle_monarchy
+		set_party_name = { 
+			ideology = oligarchy 
+			long_name = TYR_steidle_party_long 
+			name = TYR_steidle_party_short
+		}			
+	}
+}
+	option = {
+		name = tyrsteidle.1.a
+			hidden_effect = {		
+		}
+}
+
+	}

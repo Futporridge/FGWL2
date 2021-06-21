@@ -60,7 +60,7 @@ if = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Dmitry III Sheremetev"
+	name = "Dmitry III"
 	desc = "POLITICS_DMITRIY_SERGEEVICH_DESC"
 	picture = "gfx/leaders/RUS/Portrait_Dmitriy_Sergeevich.tga"
 	expire = "1965.1.1"
@@ -120,7 +120,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Dmitry III Sheremetev"
+	name = "Dmitry III"
 	desc = "POLITICS_DMITRIY_SERGEEVICH_DESC"
 	picture = "gfx/leaders/RUS/Portrait_Dmitriy_Sergeevich.tga"
 	expire = "1965.1.1"

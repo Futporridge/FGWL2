@@ -36,7 +36,7 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Alphonse-Charles de Bourbon-Parma"
+	name = "Alphonse-Charles I"
 	desc = "POLITICS_ALPHONES_CHARLES_AQUITAINE_DESC"
 	picture = "gfx/leaders/AQU/Portrait_Alphonse_Charles.tga"
 	expire = "1965.1.1"

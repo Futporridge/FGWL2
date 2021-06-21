@@ -881,11 +881,14 @@ country_event = {
 	title = aus.24.t
 	desc = aus.24.d
 	picture = GFX_
+	immediate = {
+	
+	}
 
 	is_triggered_only = yes
 	option = {
 		name = aus.24.a
-
+		
 	}
 }
 country_event = {	

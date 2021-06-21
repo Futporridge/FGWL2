@@ -35,7 +35,7 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Berthold von Zähringen"
+	name = "Berthold V"
 	desc = "POLITICS_BERTHOLD_VON_BADEN_DESC"
 	picture = "gfx/leaders/BAD/Portrait_Berthold_von_Baden.tga"
 	expire = "1965.1.1"

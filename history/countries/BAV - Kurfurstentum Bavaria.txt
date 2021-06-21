@@ -53,7 +53,7 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Rupprecht von Wittelsbach"
+	name = "Rupprecht I"
 	desc = "POLITICS_RUPPRECHT_OF_BAVARIA_DESC"
 	picture = "gfx/leaders/BAV/Portrait_Rupprecht.tga"
 	expire = "1965.1.1"

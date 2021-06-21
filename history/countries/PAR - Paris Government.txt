@@ -44,7 +44,7 @@ PAR_Raymond_Grasset
 set_convoys = 100
 
 create_country_leader = {
-	name = "Maria IV de France"
+	name = "Maria IV"
 	desc = "POLITICS_BLANKA_DESC"
 	picture = "gfx/leaders/PAR/Portrait_Blanka.tga"
 	expire = "1965.1.1"
@@ -54,7 +54,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Maria IV de France"
+	name = "Maria IV"
 	desc = "POLITICS_BLANKA_DESC"
 	picture = "gfx/leaders/PAR/Portrait_Blanka.tga"
 	expire = "1965.1.1"
@@ -64,7 +64,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Maria IV de France"
+	name = "Maria IV"
 	desc = "POLITICS_BLANKA_DESC"
 	picture = "gfx/leaders/PAR/Portrait_Blanka.tga"
 	expire = "1965.1.1"
@@ -84,7 +84,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Maria IV de France"
+	name = "Maria IV"
 	desc = "POLITICS_BLANKA_DESC"
 	picture = "gfx/leaders/PAR/Portrait_Blanka.tga"
 	expire = "1965.1.1"

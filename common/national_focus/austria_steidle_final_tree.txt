@@ -1,0 +1,535 @@
+focus_tree = {
+	id = austria_steidle_final_tree
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 0
+			tag = AUS
+		}
+	}
+
+
+	shared_focus = TYR_Vienna_Welcomes_Its_Saviours
+}	
+	default = no
+
+	continuous_focus_position = { x = 3200 y = 0 }
+
+	shared_focus = {
+		id = TYR_Vienna_Welcomes_Its_Saviours 
+		icon = GFX_
+		x = 7
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes			
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Proclaim_the_Austrian_Empire
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Vienna_Welcomes_Its_Saviours }		
+		relative_position_id = TYR_Vienna_Welcomes_Its_Saviours		
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		country_event = { id = tyrsteidle.1 }
+					}
+				}
+	shared_focus = {
+		id = TYR_Return_the_Autonomies
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Proclaim_the_Austrian_Empire }			
+		relative_position_id = TYR_Proclaim_the_Austrian_Empire
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+					
+					}
+				}
+	shared_focus = {
+		id = TYR_Helping_Hand
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Return_the_Autonomies }			
+		relative_position_id = TYR_Return_the_Autonomies
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+					
+					}
+				}				
+	shared_focus = {
+		id = TYR_Recreate_the_Police
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Vienna_Welcomes_Its_Saviours }		
+		relative_position_id = TYR_Vienna_Welcomes_Its_Saviours		
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = TYR_Continue_the_Crackdowns
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Recreate_the_Police }		
+		relative_position_id = TYR_Recreate_the_Police		
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		
+						}
+			}
+	shared_focus = {
+		id = TYR_Fight_the_Socialist_Thought
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Continue_the_Crackdowns }				
+		relative_position_id = TYR_Continue_the_Crackdowns
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}					
+	shared_focus = {
+		id = TYR_Our_Promises
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Proclaim_the_Austrian_Empire }	
+		prerequisite = { focus = TYR_Recreate_the_Police }			
+		relative_position_id = TYR_Proclaim_the_Austrian_Empire
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		add_ideas = { TYR_paramilitary_into_police }
+					}
+				}
+	shared_focus = {
+		id = TYR_Triumph_of_Regent
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Our_Promises }			
+		relative_position_id = TYR_Our_Promises
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+					}
+				}				
+	shared_focus = {
+		id = TYR_Begin_the_Renovation
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Helping_Hand }		
+		prerequisite = { focus = TYR_Triumph_of_Regent }	
+		prerequisite = { focus = TYR_Fight_the_Socialist_Thought }			
+		relative_position_id = TYR_Triumph_of_Regent
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		886 = {			
+		add_core_of = TYR
+			}
+		152 = {			
+		add_core_of = TYR
+			}
+		4 = {			
+		add_core_of = TYR
+			}
+		889 = {			
+		add_core_of = TYR
+			}
+		887 = {			
+		add_core_of = TYR
+			}
+		910 = {			
+		add_core_of = TYR
+			}			
+					}
+				}
+	shared_focus = {
+		id = TYR_Salvage_the_Empire
+		icon = GFX_
+		x = 7
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Begin_the_Renovation }					
+		relative_position_id = TYR_Begin_the_Renovation
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+			
+					}
+				}
+	shared_focus = {
+		id = TYR_Diplomatic_Missions
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Salvage_the_Empire }					
+		relative_position_id = TYR_Salvage_the_Empire
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+			
+					}
+				}
+	shared_focus = {
+		id = TYR_Oversee_the_Situation
+		icon = GFX_
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Salvage_the_Empire }					
+		relative_position_id = TYR_Salvage_the_Empire
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+			
+					}
+				}
+	shared_focus = {
+		id = TYR_Marsch_des_Reiches
+		icon = GFX_
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Diplomatic_Missions }		
+		prerequisite = { focus = TYR_Oversee_the_Situation }					
+		relative_position_id = TYR_Oversee_the_Situation
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+			
+					}
+				}
+	shared_focus = {
+		id = TYR_Federation_of_the_Many_Crowns
+		icon = GFX_
+		x = -4
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Marsch_des_Reiches }					
+		relative_position_id = TYR_Marsch_des_Reiches
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		hidden_effect = {
+		clr_country_flag = TYR_steidle_monarchy
+		set_cosmetic_tag = TYR_steidle_federation_of_many_crowns	
+		}
+					}
+				}
+	shared_focus = {
+		id = TYR_Act_for_the_Freedom_of_Empire
+		icon = GFX_
+		x = 4
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = TYR_Marsch_des_Reiches }					
+		relative_position_id = TYR_Marsch_des_Reiches
+		available_if_capitulated = yes
+		bypass = {
+			
+				}
+
+		completion_reward = {
+		hidden_effect = {
+		CZE = {
+		set_cosmetic_tag = CZE_hab_federation
+		transfer_state = 9		
+		transfer_state = 69		
+		transfer_state = 75 
+		transfer_state = 74		
+
+		set_politics = {
+			ruling_party = oligarchy
+		}
+		create_country_leader = {
+		name = "Otto I"
+		desc = "POLITICS_OTTO_CZE_DESC"
+		picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
+		expire = "1965.1.1"
+		ideology = oligarchy
+		traits = {
+		
+		}
+	}
+		}
+		CRO = {
+		set_cosmetic_tag = CRO_hab_federation
+		transfer_state = 109		
+		transfer_state = 894	
+		transfer_state = 807
+		transfer_state = 895		
+		transfer_state = 897	
+		transfer_state = 896	
+
+		set_politics = {
+			ruling_party = oligarchy
+		}
+		create_country_leader = {
+		name = "Otto I"
+		desc = "POLITICS_OTTO_CRO_DESC"
+		picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
+		expire = "1965.1.1"
+		ideology = oligarchy
+		traits = {
+		
+		}
+	}			
+		}
+		SER = {
+		set_cosmetic_tag = SER_hab_federation
+		transfer_state = 107		
+		transfer_state = 901		
+		transfer_state = 104	
+
+		set_politics = {
+			ruling_party = oligarchy
+		}
+		create_country_leader = {
+		name = "Otto I"
+		desc = "POLITICS_OTTO_SER_DESC"
+		picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
+		expire = "1965.1.1"
+		ideology = oligarchy
+		traits = {
+		
+		}
+	}		
+		}
+		HUN = {
+		set_cosmetic_tag = HUN_hab_federation			
+		transfer_state = 892 
+		transfer_state = 893
+		transfer_state = 899 	
+		transfer_state = 900		
+		transfer_state = 155
+		transfer_state = 154
+		transfer_state = 76
+		transfer_state = 82		
+		transfer_state = 83
+		transfer_state = 84
+		transfer_state = 764			
+		transfer_state = 902		
+		transfer_state = 905
+		transfer_state = 70
+		transfer_state = 71		
+		transfer_state = 73		
+		transfer_state = 43
+		transfer_state = 45		
+		transfer_state = 910	
+		transfer_state = 913
+		transfer_state = 914	
+
+		set_politics = {
+			ruling_party = oligarchy
+		}
+		create_country_leader = {
+		name = "Otto I"
+		desc = "POLITICS_OTTO_HUN_DESC"
+		picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
+		expire = "1965.1.1"
+		ideology = oligarchy
+		traits = {
+		
+		}
+	}		
+		}
+		KGL = {
+		set_cosmetic_tag = KGL_hab_federation
+		transfer_state = 89		
+		transfer_state = 80	
+		transfer_state = 91	
+		transfer_state = 912
+		transfer_state = 920	
+		transfer_state = 911
+		transfer_state = 88	
+		transfer_state = 72		
+		
+		set_politics = {
+			ruling_party = oligarchy
+		}
+		create_country_leader = {
+		name = "Otto I"
+		desc = "POLITICS_OTTO_KGL_DESC"
+		picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
+		expire = "1965.1.1"
+		ideology = oligarchy
+		traits = {
+		
+		}
+	}		
+		
+		}
+		SIL = {
+		set_cosmetic_tag = SIL_hab_federation
+		transfer_state = 762		
+		transfer_state = 67	
+		transfer_state = 66	
+		
+		set_politics = {
+			ruling_party = oligarchy
+		}
+		create_country_leader = {
+		name = "Otto I"
+		desc = "POLITICS_OTTO_SIL_DESC"
+		picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
+		expire = "1965.1.1"
+		ideology = oligarchy
+		traits = {
+		
+		}
+	}		
+		}
+		TYR = {
+		set_autonomy = {
+		target = CZE
+		autonomy_state = autonomy_integrated_puppet
+				}
+		set_autonomy = {
+		target = CRO
+		autonomy_state = autonomy_integrated_puppet
+				}
+		set_autonomy = {
+		target = SER
+		autonomy_state = autonomy_integrated_puppet
+				}
+		set_autonomy = {
+		target = HUN
+		autonomy_state = autonomy_integrated_puppet
+				}
+		set_autonomy = {
+		target = KGL
+		autonomy_state = autonomy_integrated_puppet
+				}
+		set_autonomy = {
+		target = SIL
+		autonomy_state = autonomy_integrated_puppet
+				}				
+			}
+		}		
+					}
+				}				

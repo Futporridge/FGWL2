@@ -34,7 +34,7 @@ HRE_member
 set_convoys = 10
 
 create_country_leader = {
-	name = "Franz von Wittelsbach"
+	name = "Franz I"
 	desc = "POLITICS_FRANZ_SALVATOR_DESC"
 	picture = "gfx/leaders/JUL/Portrait_Franz_von_Bayern.tga"
 	expire = "1965.1.1"

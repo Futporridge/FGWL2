@@ -34,7 +34,7 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Elijah of Bourbon-Parma"
+	name = "Elijah I"
 	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Elias_Normandy.tga"
 	expire = "1965.1.1"
@@ -44,7 +44,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Elijah of Bourbon-Parma"
+	name = "Elijah I"
 	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Elias_Normandy.tga"
 	expire = "1965.1.1"
@@ -54,7 +54,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Elijah of Bourbon-Parma"
+	name = "Elijah I"
 	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Elias_Normandy.tga"
 	expire = "1965.1.1"

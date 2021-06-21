@@ -50,25 +50,25 @@
 		name = pft.2.a
 			hidden_effect = {
 			create_country_leader = {
-		name = "Assunta von Habsburg"
+		name = "Assunta I"
 		picture = "gfx/leaders/CHA/Portrait_Assunta.tga"
 		expire = "1965.1.1"
 		ideology = paternalism
 	}
 			create_country_leader = {
-		name = "Assunta von Habsburg"
+		name = "Assunta I"
 		picture = "gfx/leaders/CHA/Portrait_Assunta.tga"
 		expire = "1965.1.1"
 		ideology = conservatism
 	}	
 			create_country_leader = {
-		name = "Assunta von Habsburg"
+		name = "Assunta I"
 		picture = "gfx/leaders/CHA/Portrait_Assunta.tga"
 		expire = "1965.1.1"
 		ideology = oligarchy
 	}	
 			create_country_leader = {
-		name = "Assunta von Habsburg"
+		name = "Assunta I"
 		picture = "gfx/leaders/CHA/Portrait_Assunta.tga"
 		expire = "1965.1.1"
 		ideology = reactionary
