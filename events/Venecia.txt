@@ -197,7 +197,7 @@
 		842 = {	set_demilitarized_zone = yes	}
 		843 = {	set_demilitarized_zone = yes	}
 		159 = {	set_demilitarized_zone = yes	}
-		add_ideas = milan_strike
+		add_ideas = milan_strike_standoff
 	}
 	}
 	country_event = { #Наводнить улицы - не получилось
@@ -213,7 +213,12 @@
 		842 = {	set_demilitarized_zone = yes	}
 		843 = {	set_demilitarized_zone = yes	}
 		159 = {	set_demilitarized_zone = yes	}
-		add_ideas = milan_strike
+		add_ideas = milan_strike_standoff
+		remove_ideas = milan_strike
+		remove_ideas = milan_strike_all
+		remove_ideas = milan_strike_out
+		remove_ideas = strike_pay
+		
 	}
 	}
 	country_event = { #Провал - Противостояние 
@@ -249,7 +254,7 @@
 				}
 				remove_ideas = milan_strike
 				remove_ideas = milan_strike_all
-				remove_ideas = milan_strike_ag_0
+				remove_ideas = milan_strike_out
 			}
 			ISR = {
 			    transfer_state = 159
@@ -315,7 +320,7 @@
 				}
 				remove_ideas = milan_strike
 				remove_ideas = milan_strike_all
-				remove_ideas = milan_strike_ag_0
+				remove_ideas = milan_strike_out
 			}
 			ISR = {
 			    transfer_state = 159
@@ -389,7 +394,8 @@
 				}
 				remove_ideas = milan_strike
 				remove_ideas = milan_strike_all
-				remove_ideas = milan_strike_ag_0
+				remove_ideas = milan_strike_out
+				remove_ideas = milan_standoff
 			}
 			ISR = {
 			    transfer_state = 159
@@ -455,7 +461,8 @@
 				}
 				remove_ideas = milan_strike
 				remove_ideas = milan_strike_all
-				remove_ideas = milan_strike_ag_0
+				remove_ideas = milan_strike_out
+				remove_ideas = milan_standoff
 			}
 			ISR = {
 			    transfer_state = 159
@@ -495,7 +502,6 @@
 		
 	}
 	}
-	
 	country_event = { #Король перехватыввает власть
 	id = ven.14
 	title = ven.14.t
@@ -517,6 +523,7 @@
 			remove_idea = industrial_oligarchy
 			add_idea = industrial_oligarchy_crash
 		}
+		remove_ideas = forgotten_army
 	}
 	}
 	

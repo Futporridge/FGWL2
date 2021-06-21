@@ -530,7 +530,7 @@
 					has_completed_focus = VEN_flood_the_streets
 				}
 				country_event = {	id = ven.14	}
-				Custom_effect_tooltip = VEN_Gettare_1_text
+				Custom_effect_tooltip = VEN_Gettare_1_tt
 				
 			}
 			if = {
@@ -538,8 +538,11 @@
 					has_completed_focus = VEN_sweep_the_streets
 				}
 				country_event = {	id = ven.15	}
-				Custom_effect_tooltip = VEN_Gettare_2_text
+				Custom_effect_tooltip = VEN_Gettare_2_tt
 				
+			}
+			hidden_effect = {
+				country_lock_all_division_template = no
 			}
 		}
 
@@ -559,7 +562,7 @@
 				limit = {
 					has_completed_focus = VEN_flood_the_streets
 				}
-				Custom_effect_tooltip = VEN_Colpire_1_text
+				Custom_effect_tooltip = VEN_Colpire_1_tt
 				hidden_effect = {
 					country_event = {
 						id = ven.11
@@ -571,7 +574,7 @@
 				limit = {
 					has_completed_focus = VEN_sweep_the_streets
 				}
-				Custom_effect_tooltip = VEN_Colpire_2_text
+				Custom_effect_tooltip = VEN_Colpire_2_tt
 				hidden_effect = {
 					country_event = {
 						id = ven.10
