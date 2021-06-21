@@ -36,7 +36,7 @@ FRN_casualties
 set_convoys = 100
 
 create_country_leader = {
-	name = "Henri de Toulouse-Lautrec"
+	name = "Henri I"
 	desc = "POLITICS_HENRI_DE_TOULOUSE_DESC"
 	picture = "gfx/leaders/TOU/Portrait_Henri_de_Toulouse_Lautrec.tga"
 	expire = "1965.1.1"
