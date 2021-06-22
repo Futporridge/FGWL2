@@ -177,6 +177,7 @@ HUN = {
 		transfer_state = 893	
 		transfer_state = 910		
 		}
+		RHG = { load_oob = RHG_1936 }
 			887 = {
 			set_demilitarized_zone = no
 			}
@@ -245,6 +246,7 @@ set_demilitarized_zone = no
 			ruling_party = oligarchy
 		}
 		}
+				SER = { load_oob = SER_1936 }		
 		}
 				}
 	option = {
@@ -286,6 +288,9 @@ add_core_of = RCR
 		transfer_state = 897	
 		transfer_state = 807
 		transfer_state = 909		
+		}
+		RCR = {
+			load_oob = RCR_1936			
 		}			
 		}
 				}
@@ -313,6 +318,9 @@ add_core_of = RCR
 		transfer_state = 109		
 		transfer_state = 894			
 	}
+	CRO = {
+		load_oob = CRO_1936			
+	}	
 	}
 	}
 	is_triggered_only = yes
@@ -348,6 +356,7 @@ CRO = { change_tag_from = FROM }
 		transfer_state = 45
 		transfer_state = 895		
 	}
+	SRR = { load_oob = SRR_1936 }			
 		}
 }
 
@@ -375,6 +384,7 @@ immediate = {
 			ruling_party = utopism
 		}		
 		}
+		TRN = { load_oob = TRN_1936 }		
 	}
 	}
 	is_triggered_only = yes
@@ -409,7 +419,8 @@ immediate = {
 		BAN = {
 		transfer_state = 82		
 		transfer_state = 764		
-		}	
+		}
+		BAN = { load_oob = BAN_1936 }		
 				}	
 			}
 	option = {

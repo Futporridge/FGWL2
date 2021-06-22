@@ -1,0 +1,76 @@
+﻿CRO_Inf_01 = 
+{
+	name = "Pješačka Divizija"
+
+	for_countries = { CRO }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { HUN_INF_01 }
+
+	fallback_name = "%d. Pješačka Divizija"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "1. Pješačka Divizija" }
+		2 = { "2. Pješačka Divizija" }
+		3 = { "3. Pješačka Divizija" }
+		4 = { "4. Pješačka Divizija" }
+		5 = { "5. Pješačka Divizija" }
+		6 = { "6. Pješačka Divizija" }
+		7 = { "7. Pješačka Divizija" }
+		8 = { "8. Pješačka Divizija" }
+	}
+}
+
+CRO_Cav_01 = 
+{
+	name = "Konjički Eskadron"
+
+	for_countries = { CRO }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { AUS_INF_01 }
+
+	fallback_name = "%d. Konjički Eskadron"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "1. Konjički Eskadron" }
+		2 = { "2. Konjički Eskadron" }		
+	}
+}
+
+RHG_INF_02 = 
+{
+	name = "Tengerészdandár"
+
+	for_countries = { RHG }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { AUS_INF_01 }
+
+	fallback_name = "%d. Tengerészdandár"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "1. Tengerészdandár" }
+	}
+}

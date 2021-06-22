@@ -1,0 +1,69 @@
+﻿division_template = {
+	name = "Pesadijska Divizija"	# Infantry Division	
+	# Note: infantry divisions were all at low reserve levels even just prior to Axis 
+	#	invasion of 1941
+
+	division_names_group = SER_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+}
+division_template = {
+	name = "Četnici"		
+
+	division_names_group = SER_cetniki_01
+
+	regiments = {
+		chasseurs = { x = 0 y = 0 }
+		chasseurs = { x = 0 y = 1 }
+		chasseurs = { x = 0 y = 2 }
+		chasseurs = { x = 0 y = 3 }		
+	}
+}
+division_template = {
+
+	division_names_group = SER_CAV_01
+
+	name = "Konjička Divizija" 			# Cavalry Division
+	# Note: regiments within the brigade were battalion-sized units
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+}
+
+
+units = {
+	division = {	
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = no
+		}
+		location = 3617
+		division_template = "Četnici"
+		start_experience_factor = 0.2
+
+	}
+	division = {		
+		division_name = {   
+			is_name_ordered = no
+		}
+		location = 9621
+		division_template = "Četnici"
+		start_experience_factor = 0.2
+
+	}
+	division = {		
+		division_name = {   
+			is_name_ordered = no
+		}
+		location = 11580
+		division_template = "Konjička Divizija"
+		start_experience_factor = 0.2
+
+	}
+	}

@@ -1,0 +1,118 @@
+﻿BAN_INF_01 = 
+{
+	name = "Freikorps"
+
+	for_countries = { BAN }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { AUS_INF_01 }
+
+	fallback_name = "%d. Freikorps"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Freikorps 'Wulf Isebrand'" }
+		2 = { "Freikorps 'Jörg von Frundsberg'" }
+		3 = { "Freikorps 'Heinrich der Vogeler'" }
+		4 = { "Freikorps 'Alarich'" }
+		5 = { "Freikorps 'Friedrich Rotbart'" }
+
+	}
+}
+
+BAN_CAV_01 = 
+{
+	name = "Cavalry Division"
+
+	for_countries = { BAN }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { AUS_INF_01 }
+
+	fallback_name = "%d. Kavallerietruppendivision"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "1. Kavallerietruppendivision" }
+	}
+}
+BAN_MNT_01 = 
+{
+	name = "Landesschützenregiment"
+
+	for_countries = { BAN }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { AUS_INF_01 }
+
+	fallback_name = "Landesschützenregiment Nr.%d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Landesschützenregiment "Siebenbürgen" Nr. I" }
+	}
+}
+
+BAN_CHA_01 = 
+{
+	name = "Jägerkorps"
+
+	for_countries = { BAN }
+
+	can_use = { always = yes }
+
+	division_types = { "chasseurs" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { AUS_INF_01 }
+
+	fallback_name = "Nr.%d. Jägerkorps"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "1. Volksjäger Brigade" }
+	}
+}
+
+BAN_ARC_01 = 
+{
+	name = "Panzerwagen Regiment"
+
+	for_countries = { BAN }
+
+	can_use = { always = yes }
+
+	division_types = { "armor_car" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { AUS_INF_01 }
+
+	fallback_name = "Panzerwagen-Regiment Nr.%"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Freikorps Panzerwagen-Regiment 'Arminius'" }
+	}
+}
