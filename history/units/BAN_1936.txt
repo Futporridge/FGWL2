@@ -1,0 +1,131 @@
+﻿division_template = {
+	name = "Freikorps-Division"
+
+	division_names_group = BAN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	
+}
+
+division_template = {
+	name = "Jäger-Regimenter"
+
+	division_names_group = BAN_CHA_01
+
+	regiments = {
+		chasseurs = { x = 0 y = 0 }
+		chasseurs = { x = 0 y = 1 }
+		chasseurs = { x = 0 y = 2 }
+        chasseurs = { x = 1 y = 0 }
+		chasseurs = { x = 1 y = 1 }
+	}
+	
+}
+
+division_template = {
+	name = "Panzerwagen-Regiment"
+
+	division_names_group = BAN_ARC_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		armor_car = { x = 0 y = 2 }
+        armor_car = { x = 1 y = 0 }
+		armor_car = { x = 1 y = 1 }
+	}
+	
+}
+
+division_template = {
+	name = "Kavalleriedivision"
+
+	division_names_group = BAN_Cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Landesschützenregiment"		#
+	division_names_group = BAN_Mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 9606
+		division_template = "Panzerwagen-Regiment"
+		start_experience_factor = 0.1	
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11787
+		division_template = "Jäger-Regimenter"
+		start_experience_factor = 0.2	
+	}
+
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 3614
+		division_template = "Freikorps-Division"
+		start_experience_factor = 0.3	
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 6643
+		division_template = "Freikorps-Division"
+		start_experience_factor = 0.3	
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 662
+		division_template = "Kavalleriedivision"
+		start_experience_factor = 0.3	
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11592
+		division_template = "Landesschützenregiment"
+		start_experience_factor = 0.3	
+	}		

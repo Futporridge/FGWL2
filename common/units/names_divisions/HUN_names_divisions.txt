@@ -1,0 +1,56 @@
+﻿HUN_INF_01 = 
+{
+	name = "Gyalogdandár"
+
+	for_countries = { HUN }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { HUN_INF_01 }
+
+	fallback_name = "%d. Gyalogdandár"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "1. Gyalogdandár" }
+		2 = { "2. Gyalogdandár" }
+		3 = { "3. Gyalogdandár" }
+		4 = { "4. Gyalogdandár" }
+		5 = { "5. Gyalogdandár" }
+		6 = { "6. Gyalogdandár" }
+		7 = { "7. Gyalogdandár" }
+		8 = { "8. Gyalogdandár" }
+		9 = { "9. Gyalogdandár" }
+		10 = { "10. Gyalogdandár" }
+	}
+}
+
+HUN_Cav_01 = 
+{
+	name = "Lovashadosztály"
+
+	for_countries = { HUN }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { AUS_INF_01 }
+
+	fallback_name = "%d. Lovashadosztály"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "1. Lovashadosztály" }
+		2 = { "2. Lovashadosztály" }
+		3 = { "3. Lovashadosztály" }
+	}
+}

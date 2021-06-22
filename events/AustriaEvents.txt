@@ -1530,6 +1530,7 @@ immediate = {
 	country_event = { id = aus.48 days = 14 }	
 			
 		HUN = {
+		inherit_technology = AUS		
 		transfer_state = 807		
 		transfer_state = 887		
 		transfer_state = 892 
@@ -1565,6 +1566,7 @@ immediate = {
 		transfer_state = 914	
 		country_event = { id = hun.1 days = 6 }			
 		}
+		HUN = { load_oob = HUN_1936 }
 		AUS = {
 		remove_state_core = 807		
 		remove_state_core = 887		

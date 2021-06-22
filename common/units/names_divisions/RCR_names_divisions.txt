@@ -1,0 +1,56 @@
+﻿RCR_Inf_01 = 
+{
+	name = "Crvena Garda"
+
+	for_countries = { CRO }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { HUN_INF_01 }
+
+	fallback_name = "%d. Crvena Garda"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "1. Crvena Garda" }
+		2 = { "2. Crvena Garda" }
+		3 = { "3. Crvena Garda" }
+		4 = { "4. Crvena Garda" }
+		5 = { "5. Crvena Garda" }
+		6 = { "6. Crvena Garda" }
+		7 = { "7. Crvena Garda" }
+		8 = { "8. Crvena Garda" }
+		9 = { "9. Crvena Garda" }
+		10 = { "10. Crvena Garda" }	
+		11 = { "11. Crvena Garda" }				
+	}
+}
+
+RCR_Inf_02 = 
+{
+	name = "Morska Revolucionarna Divizija"
+
+	for_countries = { CRO }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { AUS_INF_01 }
+
+	fallback_name = "%d. Morska Revolucionarna Divizija"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Rijeka Revolucionarna garda" }
+		2 = { "Rijeka Revolucionarna garda" }		
+	}
+}

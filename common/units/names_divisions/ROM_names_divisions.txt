@@ -1,0 +1,45 @@
+﻿ROM_Inf_01 = 
+{
+	name = "Divizia de Infanterie"
+
+	for_countries = { CRO }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { HUN_INF_01 }
+
+	fallback_name = "%d. Divizia de Infanterie"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+
+	}
+}
+
+ROM_Cav_01 = 
+{
+	name = "Divizia de Cavalerie"
+
+	for_countries = { CRO }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { AUS_INF_01 }
+
+	fallback_name = "%d. Divizia de Cavalerie"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+
+	}
+}

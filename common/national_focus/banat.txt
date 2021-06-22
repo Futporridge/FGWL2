@@ -1,0 +1,391 @@
+focus_tree = {
+	id = banat_inital_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BAN
+		}
+	}
+		default = no
+
+	continuous_focus_position = { x = 3200 y = 0 }
+	
+
+	shared_focus = BAN_on_the_border_of_the_german_world
+	}
+
+
+	
+
+
+	shared_focus = {
+		id = BAN_on_the_border_of_the_german_world
+		icon = GFX_
+		x = 12
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = BAN_new_faith_is_born
+		icon = GFX_
+		x = 0
+		y = 1
+		prerequisite = { focus = BAN_on_the_border_of_the_german_world }
+		cost = 1
+		relative_position_id = BAN_on_the_border_of_the_german_world
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = BAN_to_save_our_soil
+		icon = GFX_
+		x = -2
+		y = 1
+		prerequisite = { focus = BAN_new_faith_is_born }
+		cost = 1
+		relative_position_id = BAN_new_faith_is_born
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = BAN_take_your_weaponry
+		icon = GFX_
+		x = 0
+		y = 1
+		prerequisite = { focus = BAN_to_save_our_soil }
+		cost = 1
+		relative_position_id = BAN_to_save_our_soil
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = BAN_drive_back_the_enemy
+		icon = GFX_
+		x = 0
+		y = 1
+		prerequisite = { focus = BAN_take_your_weaponry }
+		cost = 1
+		relative_position_id = BAN_take_your_weaponry
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = BAN_patriotical_proclamation
+		icon = GFX_
+		x = -2
+		y = 1
+		prerequisite = { focus = BAN_to_save_our_soil }
+		cost = 1
+		relative_position_id = BAN_to_save_our_soil
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = BAN_negotiations_with_the_army
+		icon = GFX_
+		x = 0
+		y = 1
+		prerequisite = { focus = BAN_patriotical_proclamation }
+		cost = 1
+		relative_position_id = BAN_patriotical_proclamation
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = BAN_our_brothers_over_the_river
+		icon = GFX_
+		x = 1
+		y = 1
+		prerequisite = { focus = BAN_negotiations_with_the_army }
+		prerequisite = { focus = BAN_drive_back_the_enemy }		
+		cost = 1
+		relative_position_id = BAN_negotiations_with_the_army
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}				
+	shared_focus = {
+		id = BAN_and_humanity_in_general
+		icon = GFX_
+		x = 2
+		y = 1
+		prerequisite = { focus = BAN_new_faith_is_born }
+		cost = 1
+		relative_position_id = BAN_new_faith_is_born
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = BAN_dethrone_the_wounded_king
+		icon = GFX_
+		x = 0
+		y = 1
+		prerequisite = { focus = BAN_and_humanity_in_general }
+		cost = 1
+		relative_position_id = BAN_and_humanity_in_general
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}				
+	shared_focus = {
+		id = BAN_freedom_for_all
+		icon = GFX_
+		x = 0
+		y = 1
+		prerequisite = { focus = BAN_dethrone_the_wounded_king }
+		cost = 1
+		relative_position_id = BAN_dethrone_the_wounded_king
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = BAN_emergency_nationalization
+		icon = GFX_
+		x = 2
+		y = 1
+		prerequisite = { focus = BAN_and_humanity_in_general }
+		cost = 1
+		relative_position_id = BAN_and_humanity_in_general
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = BAN_negotiations_with_the_councils
+		icon = GFX_
+		x = 0
+		y = 1
+		prerequisite = { focus = BAN_emergency_nationalization }
+		cost = 1
+		relative_position_id = BAN_emergency_nationalization
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = BAN_german_republic
+		icon = GFX_
+		x = 1
+		y = 1
+		prerequisite = { focus = BAN_negotiations_with_the_councils }
+		prerequisite = { focus = BAN_freedom_for_all }		
+		cost = 1
+		relative_position_id = BAN_freedom_for_all
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = BAN_defenders_of_law_on_danube
+		icon = GFX_
+		x = 3
+		y = 1
+		prerequisite = { focus = BAN_our_brothers_over_the_river }
+		prerequisite = { focus = BAN_german_republic }		
+		cost = 1
+		relative_position_id = BAN_our_brothers_over_the_river
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = BAN_if_it_has_to_be_let_it_be_now
+		icon = GFX_
+		x = 0
+		y = 1
+		prerequisite = { focus = BAN_defenders_of_law_on_danube }	
+		cost = 1
+		relative_position_id = BAN_defenders_of_law_on_danube
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}				

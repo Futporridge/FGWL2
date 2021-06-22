@@ -22,15 +22,15 @@ set_politics = {
 }
 
 set_popularities = {
-	utopism = 0
-	prometeism = 100
-	communitarianism = 0
-	individualism = 0
-	liberalism = 0
-	oligarchy = 0
-	conservatism = 0
-	paternalism = 0
-	reactionary = 0
+	utopism = 1
+	prometeism = 42
+	communitarianism = 20
+	individualism = 1
+	liberalism = 12
+	oligarchy = 1
+	conservatism = 3
+	paternalism = 6
+	reactionary = 14
 }
 add_ideas = {
 AUS_econ6
