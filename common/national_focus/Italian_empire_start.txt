@@ -512,8 +512,8 @@
 		y = 9
 		
 		completion_reward = {
-		Custom_effect_tooltip = ITE_reorganize_mountain_garrisons
-		load_obb = ITE_mountaineers.txt
+		Custom_effect_tooltip = ITE_reorganize_mountain_garrisons_tt
+		load_obb = ITE_mountaineers
 		}
 
 	}

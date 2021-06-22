@@ -48,7 +48,7 @@
 	shared_focus = {
 		id = TUS_giovane_guardia
 		icon = GFX_goal_unknown
-		cost = 3
+		cost = 4
 		prerequisite = {
 			focus = TUS_duke_and_country
 		}
@@ -63,7 +63,7 @@
 	shared_focus = {
 		id = TUS_cheap_labor
 		icon = GFX_goal_unknown
-		cost = 3
+		cost = 4
 		prerequisite = {
 			focus = TUS_giovane_guardia
 		}
@@ -135,7 +135,7 @@
 	shared_focus = {
 		id = TUS_universal_conscription
 		icon = GFX_goal_unknown
-		cost = 3
+		cost = 4
 		prerequisite = {
 			focus = TUS_new_uniform
 		}
@@ -153,7 +153,7 @@
 	shared_focus = {
 		id = TUS_guarded_paradise
 		icon = GFX_goal_unknown
-		cost = 3
+		cost = 4
 		prerequisite = {
 			focus = TUS_giovane_guardia
 		}
@@ -184,7 +184,7 @@
 	shared_focus = {
 		id = TUS_drill_traditions
 		icon = GFX_goal_unknown
-		cost = 3
+		cost = 4
 		prerequisite = {
 			focus = TUS_universal_conscription
 		}
@@ -203,7 +203,7 @@
 	shared_focus = {
 		id = TUS_military_utilitarianism
 		icon = GFX_goal_unknown
-		cost = 3
+		cost = 4
 		prerequisite = {
 			focus = TUS_drill_traditions
 		}
@@ -250,7 +250,7 @@
 	shared_focus = {
 		id = TUS_a_new_type_of_war
 		icon = GFX_goal_unknown
-		cost = 2
+		cost = 3
 		prerequisite = {
 			focus = TUS_dogs_of_war
 			focus = TUS_new_uniform
@@ -270,7 +270,7 @@
 	shared_focus = {
 		id = TUS_learning_from_professionals
 		icon = GFX_goal_unknown
-		cost = 3
+		cost = 4
 		prerequisite = {
 			focus = TUS_dogs_of_war
 		}
@@ -289,7 +289,7 @@
 	shared_focus = {
 		id = TUS_officer_training_courses
 		icon = GFX_goal_unknown
-		cost = 3
+		cost = 4
 		prerequisite = {
 			focus = TUS_learning_from_professionals
 		}
@@ -304,7 +304,7 @@
 	shared_focus = {
 		id = TUS_loyalty_paid_in_gold
 		icon = GFX_goal_unknown
-		cost = 3
+		cost = 4
 		prerequisite = {
 			focus = TUS_officer_training_courses
 		}
@@ -348,7 +348,7 @@
 	shared_focus = {
 		id = TUS_new_taxes
 		icon = GFX_goal_unknown
-		cost = 3
+		cost = 4
 		prerequisite = {
 			focus = TUS_centralization_of_the_economy
 		}
@@ -367,7 +367,7 @@
 	shared_focus = {
 		id = TUS_renegotiate_privileges
 		icon = GFX_goal_unknown
-		cost = 3
+		cost = 4
 		prerequisite = {
 			focus = TUS_new_taxes
 		}
@@ -382,7 +382,7 @@
 	shared_focus = {
 		id = TUS_power_of_greed
 		icon = GFX_goal_unknown
-		cost = 3
+		cost = 4
 		prerequisite = {
 			focus = TUS_renegotiate_privileges
 		}
@@ -400,7 +400,7 @@
 	shared_focus = {
 		id = TUS_fixed_prices
 		icon = GFX_goal_unknown
-		cost = 3
+		cost = 4
 		prerequisite = {
 			focus = TUS_renegotiate_privileges
 		}
@@ -418,7 +418,7 @@
 	shared_focus = {
 		id = TUS_no_more_siesta
 		icon = GFX_goal_unknown
-		cost = 3
+		cost = 4
 		prerequisite = {
 			focus = TUS_fixed_prices
 			focus = TUS_power_of_greed
@@ -461,7 +461,7 @@
 	shared_focus = {
 		id = TUS_open_door
 		icon = GFX_goal_unknown
-		cost = 3
+		cost = 4
 		prerequisite = {
 			focus = TUS_cheap_labor
 		}
@@ -483,7 +483,7 @@
 	shared_focus = {
 		id = TUS_the_big_parade
 		icon = GFX_goal_unknown
-		cost = 3
+		cost = 4
 		prerequisite = {
 			focus = TUS_guarded_paradise
 		}
@@ -514,13 +514,24 @@
 		y = 7
 		
 		completion_reward = {
-			
+			country_event = { id = tus.5 }
 		}
 
 	}
 ############################################################################################################################
 ############################################################################################################################
-#####################################################ФАЗА 2 БЕЗ НАЕМНИКОВ###################################################
+#####################################################ФАЗА 2#################################################################
 ############################################################################################################################
 ############################################################################################################################
+	shared_focus = {
+		id = TUS_concentrate_power
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+		
+		completion_reward = {
+			Custom_effect_tooltip = TUS_reorganize_mountain_garrisons
+		}
 
+	}

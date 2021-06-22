@@ -237,6 +237,7 @@
 		name = ven.10.a
 		
 		hidden_effect = {
+			set_global_flag = italitan_revolution
 			842 = {	set_demilitarized_zone = no	}
 			843 = {	set_demilitarized_zone = no	}
 			159 = {	set_demilitarized_zone = no	}
@@ -273,7 +274,6 @@
 		        add_state_core = 842
 		        add_state_core = 843
 
-			    set_global_flag = italitan_revolution
 			    inherit_technology = VEN
 			    load_oob = ISR_1936
 			    load_focus_tree = Italian_Socialist_Republic_start
@@ -304,6 +304,7 @@
 		name = ven.10.b
 		
 		hidden_effect = {
+			set_global_flag = italitan_revolution
 			842 = {	set_demilitarized_zone = no	}
 			843 = {	set_demilitarized_zone = no	}
 			159 = {	set_demilitarized_zone = no	}
@@ -340,7 +341,6 @@
 		        add_state_core = 842
 		        add_state_core = 843
 
-			    set_global_flag = italitan_revolution
 			    inherit_technology = VEN
 			    load_oob = ISR_1936
 			    load_focus_tree = Italian_Socialist_Republic_start
@@ -379,6 +379,7 @@
 		name = ven.11.a
 		
 		hidden_effect = {
+			set_global_flag = italitan_revolution
 			842 = {	set_demilitarized_zone = no	}
 			843 = {	set_demilitarized_zone = no	}
 			159 = {	set_demilitarized_zone = no	}
@@ -415,7 +416,6 @@
 		        add_state_core = 842
 		        add_state_core = 843
 
-			    set_global_flag = italitan_revolution
 			    inherit_technology = VEN
 			    load_oob = ISR_1936
 			    load_focus_tree = Italian_Socialist_Republic_start
@@ -446,6 +446,7 @@
 		name = ven.11.b
 		
 		hidden_effect = {
+			set_global_flag = italitan_revolution
 			842 = {	set_demilitarized_zone = no	}
 			843 = {	set_demilitarized_zone = no	}
 			159 = {	set_demilitarized_zone = no	}
@@ -482,7 +483,6 @@
 		        add_state_core = 842
 		        add_state_core = 843
 
-			    set_global_flag = italitan_revolution
 			    inherit_technology = VEN
 			    load_oob = ISR_1936
 			    load_focus_tree = Italian_Socialist_Republic_start
