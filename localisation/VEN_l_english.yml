@@ -72,7 +72,7 @@ milan_standoff:0 "Milan Standoff"
 milan_standoff_desc:0 ""
 strike_pay:0 "Strike Pay"
 strike_pay_desc:0 ""
-forgotten_army:0 "Forgotten Army"
+forgotten_army:0 "Abandoned Army"
 forgotten_army_desc:0 ""
 #############Тултипы############
 VEN_forgotten_army_tt:0 "§RCannot train units, disband units, or edit unit templates.§!"

@@ -110,18 +110,7 @@
 					damage = 2
 				}
 			}
-			add_popularity = {
-				ideology = utopism
-				popularity = -0.1
-            }
-			add_popularity = {
-				ideology = prometeism
-				popularity = -0.15
-            }
-			add_popularity = {
-				ideology = communitarianism
-				popularity = -0.1
-            }
+			add_stability = 0.1
 		}
 
 	}
@@ -136,10 +125,16 @@
 		y = 6
 		
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = milan_strike
-				add_idea = milan_strike_ag_0
+			add_manpower = -1000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+				producer = VEN
 			}
+			add_popularity = {
+				ideology = oligarchy
+				popularity = 0.05
+            }
 		}
 
 	}
@@ -154,9 +149,19 @@
 		y = 5
 		
 		completion_reward = {
-			add_stability = -0.1
 			manpower = -1000
-			Custom_effect_tooltip = VEN_right_blind_justice_text
+			add_popularity = {
+				ideology = utopism
+				popularity = -0.1
+            }
+			add_popularity = {
+				ideology = prometeism
+				popularity = -0.1
+            }
+			add_popularity = {
+				ideology = communitarianism
+				popularity = -0.1
+            }
 		}
 
 	}
@@ -191,7 +196,7 @@
 		y = 7
 		
 		completion_reward = {
-			remove_ideas = milan_strike_ag_0
+			remove_ideas = milan_strike_out
 			hidden_effect = {
 				country_event = {	id = ven.13	}
 			}
@@ -530,6 +535,7 @@
 					has_completed_focus = VEN_flood_the_streets
 				}
 				country_event = {	id = ven.14	}
+				remove_ideas = forgotten_army
 				Custom_effect_tooltip = VEN_Gettare_1_tt
 				
 			}
@@ -538,6 +544,7 @@
 					has_completed_focus = VEN_sweep_the_streets
 				}
 				country_event = {	id = ven.15	}
+				remove_ideas = forgotten_army
 				Custom_effect_tooltip = VEN_Gettare_2_tt
 				
 			}

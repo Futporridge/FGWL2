@@ -71,6 +71,10 @@
 		name = ven.4.a
 		
 		add_stability = 0.05
+		swap_ideas = {
+			remove_idea = milan_strike
+			add_idea = milan_strike_out
+		}
 	}
 	}
 	
@@ -255,6 +259,7 @@
 				remove_ideas = milan_strike
 				remove_ideas = milan_strike_all
 				remove_ideas = milan_strike_out
+				remove_ideas = milan_strike_standoff
 			}
 			ISR = {
 			    transfer_state = 159
@@ -321,6 +326,7 @@
 				remove_ideas = milan_strike
 				remove_ideas = milan_strike_all
 				remove_ideas = milan_strike_out
+				remove_ideas = milan_strike_standoff
 			}
 			ISR = {
 			    transfer_state = 159
@@ -547,7 +553,7 @@
         }
 		swap_ideas = {
 			remove_idea = industrial_oligarchy
-			add_idea = industrial_oligarchy_crash
+			add_idea = industrial_oligarchy_domination
 		}
 	}
 	}
