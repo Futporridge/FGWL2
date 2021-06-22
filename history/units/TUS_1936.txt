@@ -58,7 +58,7 @@ units = {
 			name_order = 1
 		}
 		location = 9907
-		division_template = "Divisione di fanteria II"
+		division_template = "Divisione Fanteria I"
 		start_experience_factor = 0.2
 	}
 	division= {
@@ -67,7 +67,7 @@ units = {
 			name_order = 1
 		}
 		location = 6606
-		division_template = "Divisione di fanteria I"
+		division_template = "Divisione Fanteria II"
 		start_experience_factor = 0.3
 	}
 	division= {

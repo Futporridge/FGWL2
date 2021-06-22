@@ -74,11 +74,17 @@ giovane_guardia:0 "Tuscan Guard"
 giovane_guardia_desc:0 ""
 guarded_paradise:0 "Guarded Paradise"
 guarded_paradise_desc:0 ""
+migrant_crisis:0 "Migrant Crisis"
+migrant_crisis_desc:0 ""
+migrant_crisis_1:0 "Open borders"
+migrant_crisis_1_desc:0 ""
 #############Ивенты############
 tus.1.t:0 "Strength through unity"
 tus.1.d:0 ""
 tus.1.a:0 "Soon everything will be as usual"
-
+#############Тултипы############
+TUS_cheap_labor_tt:0 "Migrant crisis"
+TUS_guarded_paradise_tt:0 "Migrant crisis"
 #############Решения############
 TYR_shield_of_the_republic:0 "Shield of the Republic"
 TYR_shield_of_the_republic_desc:0 "Reform the fucking army reeee!!!!!"

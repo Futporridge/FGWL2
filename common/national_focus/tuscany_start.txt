@@ -70,6 +70,12 @@
 		mutually_exclusive = {
 			focus = TUS_guarded_paradise
 		}
+		available = {
+			custom_trigger_tooltip = {
+				Custom_effect_tooltip = TUS_cheap_labor_tt
+				TUS = { has_idea = migrant_crisis }
+			}
+		}
 		x = 6
 		y = 5
 		
@@ -157,6 +163,12 @@
 		mutually_exclusive = {
 			focus = TUS_cheap_labor
 		}
+		available = {
+			custom_trigger_tooltip = {
+				Custom_effect_tooltip = TUS_guarded_paradise_tt
+				TUS = { has_idea = migrant_crisis }
+			}
+		}
 		x = 8
 		y = 5
 		
@@ -165,6 +177,7 @@
 				remove_idea = giovane_guardia
 				add_idea = guarded_paradise
 			}
+			remove_ideas = migrant_crisis
 		}
 
 	}
@@ -216,17 +229,18 @@
 		y = 3
 		
 		completion_reward = {
+		completion_reward = {
 			swap_ideas = {
 				remove_idea = tuscan_guard
 				add_idea = dogs_of_war
 			}
 			create_corps_commander = {
-				name = "Abraham Mialczyn"
-				picture = "Portrait_Abraham_Mialczyn.dds"
+				name = "Thord Ivar Hallström"
+				picture = "Portrait_Ivar_Hallström.dds"
 				traits = {  politically_connected harsh_leader commando skirmisher }
-				skill = 2
+				skill = 3
 				attack_skill = 3
-				defense_skill = 1
+				defense_skill = 2
 				planning_skill = 3
 				logistics_skill = 3
 			}
@@ -460,6 +474,10 @@
 			every_owned_state = {
 				add_manpower = 50000
 			}
+			swap_ideas = {
+				remove_idea = migrant_crisis
+				add_idea = migrant_crisis_1
+			}
 		}
 
 	}
@@ -507,270 +525,3 @@
 ############################################################################################################################
 ############################################################################################################################
 
-	shared_focus = {
-		id = TUS_prepare_defense
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_one_center
-		}
-		x = 12
-		y = 8
-
-	}
-	shared_focus = {
-		id = TUS_fields_of_tuscany 
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_prepare_defense
-		}
-		x = 10
-		y = 9
-
-	}
-	shared_focus = {
-		id = TUS_streets_of_florence
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_prepare_defense
-		}
-		x = 12
-		y = 9
-
-	}
-	shared_focus = {
-		id = TUS_hills_of_parma
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_prepare_defense
-		}
-		x = 14
-		y = 9
-
-	}
-	shared_focus = {
-		id = TUS_convene_the_general_staff
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_streets_of_florence
-			focus = TUS_hills_of_parma
-			focus = TUS_fields_of_tuscany 
-		}
-		x = 12
-		y = 10
-
-	}
-	shared_focus = {
-		id = TUS_factory_act
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_convene_the_general_staff
-		}
-		x = 11
-		y = 11
-
-	}
-	shared_focus = {
-		id = TUS_complex_production
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_factory_act
-		}
-		x = 10
-		y = 12
-
-	}
-	shared_focus = {
-		id = TUS_rearmament_of_the_fleet
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_complex_production
-		}
-		mutually_exclusive = {
-			focus = TUS_new_type_of_war_machines
-		}
-		x = 6
-		y = 13
-
-	}
-	shared_focus = {
-		id = TUS_new_type_of_war_machines
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_complex_production
-		}
-		mutually_exclusive = {
-			focus = TUS_rearmament_of_the_fleet
-		}
-		x = 8
-		y = 13
-
-	}
-	shared_focus = {
-		id = TUS_rural_population_census
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_convene_the_general_staff
-		}
-		x = 13
-		y = 11
-
-	}
-	shared_focus = {
-		id = TUS_orderly_conscription
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_rural_population_census
-		}
-		prerequisite = {
-			focus = TUS_factory_act
-		}
-		x = 12
-		y = 12
-
-	}
-	shared_focus = {
-		id = TUS_new_type_of_officer
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_orderly_conscription
-		}
-		x = 12
-		y = 13
-
-	}
-	shared_focus = {
-		id = TUS_additional_education
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_new_type_of_officer
-		}
-		x = 12
-		y = 14
-
-	}
-	shared_focus = {
-		id = TUS_meal_ticket
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_rural_population_census
-		}
-		x = 14
-		y = 12
-
-	}
-	shared_focus = {
-		id = TUS_police_modernization
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_meal_ticket
-		}
-		x = 14
-		y = 13
-
-	}
-	shared_focus = {
-		id = TUS_unified_rifle
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_complex_production
-		}
-		x = 10
-		y = 13
-
-	}
-	shared_focus = {
-		id = TUS_submarine_fleet
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_rearmament_of_the_fleet
-		}
-		x = 6
-		y = 14
-
-	}
-	shared_focus = {
-		id = TUS_death_from_the_sky
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_new_type_of_war_machines
-		}
-		x = 8
-		y = 14
-
-	}
-	shared_focus = {
-		id = TUS_sky_knights
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_death_from_the_sky
-		}
-		x = 8
-		y = 15
-
-	}
-	shared_focus = {
-		id = TUS_mosquito_force
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_submarine_fleet
-		}
-		x = 6
-		y = 15
-
-	}
-	shared_focus = {
-		id = TUS_siege_artillery
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_unified_rifle
-		}
-		x = 10
-		y = 14
-
-	}
-	shared_focus = {
-		id = TUS_experiments_with_armor
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_additional_education
-		}
-		prerequisite = {
-			focus = TUS_siege_artillery
-		}
-		x = 11
-		y = 15
-
-	}
-	shared_focus = {
-		id = TUS_discipline_and_punish
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = TUS_police_modernization
-		}
-		x = 14
-		y = 14
-
-	}

@@ -1,7 +1,7 @@
 ﻿
 	add_namespace = tus
 	
-	country_event = {	
+	country_event = {
 	id = tus.1
 	title = tus.1.t
 	desc = tus.1.d
@@ -13,5 +13,57 @@
 		name = tus.1.a
 		
     complete_national_focus = TUS_clouds_are_gathering
+}
+}
+
+country_event = {
+	id = tus.2
+	title = tus.2.t
+	desc = tus.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = tus.2.a
+		
+    add_political_power = -25
+}
+}
+
+country_event = {
+	id = tus.3
+	title = tus.3.t
+	desc = tus.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = tus.3.a
+		
+    add_command_power = 25
+	army_experience = 5
+}
+}
+
+country_event = {
+	id = tus.4
+	title = tus.4.t
+	desc = tus.4.d
+	picture = GFX_
+
+	is_triggered_only = no
+	fire_only_once = yes
+	
+	trigger = {
+		tag = TUS
+		has_global_flag = italian_wars
+	}
+
+	option = {
+		name = tus.4.a
+		
+    add_ideas = migrant_crisis
 }
 }

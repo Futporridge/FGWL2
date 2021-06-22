@@ -31,6 +31,7 @@ ideas = {
 				stability_factor = 0.05
 				stability_weekly = 0.005
 				consumer_goods_factor = 0.2
+				economy_cost_factor = 0.5
 			}
 	
 			ai_will_do = {
@@ -49,6 +50,7 @@ ideas = {
 			modifier = {
 				stability_weekly = 0.005
 				consumer_goods_factor = 0.15
+				economy_cost_factor = 0.25
 			}
 	
 			ai_will_do = {
@@ -84,7 +86,7 @@ ideas = {
 			
 			modifier = {
 				industrial_capacity_factory = 0.15
-				consumer_goods_factor = -0.1
+				consumer_goods_factor = 0.1
 			}
 	
 			ai_will_do = {
@@ -101,7 +103,7 @@ ideas = {
 			
 			modifier = {
 				industrial_capacity_factory = 0.15
-				consumer_goods_factor = -0.1
+				consumer_goods_factor = 0.1
 				production_speed_buildings_factor = -0.1
 			}
 	
@@ -306,6 +308,42 @@ ideas = {
 				conscription = 0.005
 				political_power_factor = 0.1
 				production_speed_bunker_factor = 0.15
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		migrant_crisis = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = migrant_crisis
+			
+			modifier = {
+				monthly_population = 0.05
+				stability_weekly = 0.0075
+				political_power_gain = -0.2
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		migrant_crisis_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = guarded_paradise
+			
+			modifier = {
+				monthly_population = 0.075
+				political_power_gain = -0.2
 			}
 	
 			ai_will_do = {
