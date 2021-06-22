@@ -72,7 +72,7 @@
 		}
 		available = {
 			custom_trigger_tooltip = {
-				Custom_effect_tooltip = TUS_cheap_labor_tt
+				tooltip = TUS_cheap_labor_tt
 				TUS = { has_idea = migrant_crisis }
 			}
 		}
@@ -165,8 +165,8 @@
 		}
 		available = {
 			custom_trigger_tooltip = {
-				Custom_effect_tooltip = TUS_guarded_paradise_tt
-				TUS = { has_idea = migrant_crisis }
+				tooltip = TUS_guarded_paradise_tt
+				has_idea = migrant_crisis
 			}
 		}
 		x = 8

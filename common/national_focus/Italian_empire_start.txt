@@ -528,7 +528,7 @@
 		y = 9
 		available = {
 			custom_trigger_tooltip = {
-				Custom_effect_tooltip = ITE_the_eternal_city_text
+				tooltip = ITE_the_eternal_city_text
 				OR = {
 					NOT = {
 						AUS = { has_government = reactionary }
@@ -738,7 +738,7 @@
 		y = 12
 		available = {
 			custom_trigger_tooltip = {
-				Custom_effect_tooltip = ITE_wealth_of_the_north_text
+				tooltip = ITE_wealth_of_the_north_tt
 				has_country_flag = ite_capture_of_rome
 			}
 		}
@@ -894,7 +894,7 @@
 		}
 		available = {
 			custom_trigger_tooltip = {
-				Custom_effect_tooltip = ITE_truce_with_honor_text
+				tooltip = ITE_truce_with_honor_tt
 				controls_state = 805
 				controls_state = 2
 			}
