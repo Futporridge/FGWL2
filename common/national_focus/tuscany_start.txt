@@ -227,8 +227,7 @@
 		}
 		x = 14
 		y = 3
-		
-		completion_reward = {
+
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = tuscan_guard
