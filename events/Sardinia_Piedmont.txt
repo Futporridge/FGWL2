@@ -1,0 +1,17 @@
+﻿
+	add_namespace = pie
+	
+country_event = {
+	id = tus.1
+	title = tus.1.t
+	desc = tus.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = tus.1.a
+		
+		complete_national_focus = PIE_french_ambitions
+	}
+}

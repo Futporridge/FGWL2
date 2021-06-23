@@ -96,8 +96,6 @@ country_event = {
 				centrifugal_force
 				commoner_discontent
 			}
-			}
 		}
-		load_focus_tree = tuscany_main
 	}
 }

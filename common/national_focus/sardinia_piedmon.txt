@@ -7,6 +7,6 @@ focus_tree = {
 			tag = PIE
 		}
 	}
-	default = no
+	default = yes
 	shared_focus = PIE_french_ambitions
 }
