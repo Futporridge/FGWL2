@@ -1,0 +1,9 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			PIE = {
+				country_event = { id = pie.1 }		
+			}
+		}
+	}
+}	

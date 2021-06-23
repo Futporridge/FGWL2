@@ -1,58 +1,71 @@
-focus_tree = {
-	id = sardinia_piedmon_start
-	country = {
-		factor = 0
-		modifier = {
-			add = 10
-			tag = PIE
-		}
-	}
-	default = no
-	focus = {
+	shared_focus = {
 		id = PIE_french_ambitions
 		icon = GFX_goal_unknown
 		cost = 0
 		x = 7
 		y = 0
+		
+		available = {
+			always = no
+        }
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_mobilize_loyalists
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 4
 		prerequisite = {
 			focus = PIE_french_ambitions
 		}
 		x = 2
 		y = 1
+		
+		completion_reward = {
+			add_manpower = 15000
+			add_stability = 0.1
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_embassy_in_bordeaux
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_mobilize_loyalists
 		}
 		x = 0
 		y = 2
-
+		
+		completion_reward = {
+			AQU = {
+				country_event = { id = pie.2 days = 5 }
+			}
+		}
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_support_the_underground
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_mobilize_loyalists
 		}
 		x = 2
 		y = 2
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -750
+				producer = PIE
+			}
+			Custom_effect_tooltip = PIE_support_the_underground_tt
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_royal_volunteers
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_embassy_in_bordeaux
 		}
@@ -61,67 +74,104 @@ focus_tree = {
 		}
 		x = 2
 		y = 3
+		
+		completion_reward = {
+			add_war_support = 0.1
+			add_political_power = 50
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_training_in_the_mountains
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_royal_volunteers
 		}
 		x = 2
 		y = 4
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = special_bonus
+				ahead_reduction = 2
+				uses = 1
+				category = mountaineers_tech
+			}
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_royal_marines
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_training_in_the_mountains
 		}
 		x = 2
 		y = 5
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = special_bonus
+				ahead_reduction = 2
+				uses = 1
+				category = marine_tech
+			}
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_loyal_army
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_mobilize_loyalists
 		}
 		x = 4
 		y = 2
+		
+		completion_reward = {
+			add_manpower = -700
+			army_experience = -5
+			add_war_support = 0.05
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_institute_for_industrial_reconstruction
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 4
 		prerequisite = {
 			focus = PIE_french_ambitions
 		}
 		x = 7
 		y = 1
+		
+		completion_reward = {
+			Custom_effect_tooltip = PIE_institute_for_industrial_reconstruction_tt
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_through_the_mountains
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_institute_for_industrial_reconstruction
 		}
 		x = 6
 		y = 2
+		
+		completion_reward = {
+			Custom_effect_tooltip = PIE_through_the_mountains_tt
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_new_industries
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_through_the_mountains
 		}
@@ -129,10 +179,10 @@ focus_tree = {
 		y = 3
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_italian_panzer
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_loyal_army
 		}
@@ -141,34 +191,46 @@ focus_tree = {
 		}
 		x = 4
 		y = 4
+		
+		completion_reward = {
+			Custom_effect_tooltip = PIE_italian_panzer_tt
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_land_acquisition
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_institute_for_industrial_reconstruction
 		}
 		x = 8
 		y = 2
+		
+		completion_reward = {
+			Custom_effect_tooltip = PIE_land_acquisition_tt
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_labor_exchange
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_land_acquisition
 		}
 		x = 8
 		y = 3
+		
+		completion_reward = {
+			Custom_effect_tooltip = PIE_labor_exchange_tt
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_state_planning
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_labor_exchange
 		}
@@ -177,12 +239,16 @@ focus_tree = {
 		}
 		x = 7
 		y = 4
+		
+		completion_reward = {
+			
+		}
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_scientific_approach
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_state_planning
 		}
@@ -193,10 +259,10 @@ focus_tree = {
 		y = 5
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_traditional_approach
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_state_planning
 		}
@@ -207,10 +273,10 @@ focus_tree = {
 		y = 5
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_establish_the_casellario_politico_centrale
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_french_ambitions
 		}
@@ -218,10 +284,10 @@ focus_tree = {
 		y = 1
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_crush_the_left
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_establish_the_casellario_politico_centrale
 		}
@@ -229,10 +295,10 @@ focus_tree = {
 		y = 2
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_press_censorship
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_crush_the_left
 		}
@@ -240,10 +306,10 @@ focus_tree = {
 		y = 3
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_special_communication
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_press_censorship
 		}
@@ -251,10 +317,10 @@ focus_tree = {
 		y = 4
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_crush_the_old
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_establish_the_casellario_politico_centrale
 		}
@@ -262,10 +328,10 @@ focus_tree = {
 		y = 2
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_close_nobility_clubs
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_crush_the_old
 		}
@@ -273,10 +339,10 @@ focus_tree = {
 		y = 3
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_cancel_pensions
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_close_nobility_clubs
 		}
@@ -284,10 +350,10 @@ focus_tree = {
 		y = 4
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_restore_order
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_cancel_pensions
 		}
@@ -298,10 +364,10 @@ focus_tree = {
 		y = 5
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_panzer_forces
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_italian_panzer
 		}
@@ -309,10 +375,10 @@ focus_tree = {
 		y = 5
 
 	}
-	focus = {
+	shared_focus = {
 		id = PIE_full_scale_intervention
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 3
 		prerequisite = {
 			focus = PIE_scientific_approach
 			focus = PIE_traditional_approach
@@ -330,4 +396,3 @@ focus_tree = {
 		y = 6
 
 	}
-}

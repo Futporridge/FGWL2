@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-		Bureaucratic_economy = {
+		bureaucratic_economy = {
 			
 			allowed = {
 				always = no # Triggered via event
@@ -20,7 +20,7 @@ ideas = {
 			}
 		}
 		
-		Pensions_to_aristocrats = {
+		pensions_to_aristocrats = {
 			
 			allowed = {
 				always = no # Triggered via event
@@ -38,7 +38,7 @@ ideas = {
 			}
 		}
 		
-		Bende_rosse = {
+		PIE_bende_rosse = {
 			
 			allowed = {
 				always = no # Triggered via event
@@ -47,7 +47,7 @@ ideas = {
 			picture = Bende_rosse
 			
 			modifier = {
-				stability_weekly = -0.005
+				stability_weekly = -0.001
 				utopism_drift = 0.03
 				prometeism_drift = 0.03
 				communitarianism_drift = 0.03

@@ -1,5 +1,6 @@
 ﻿
 	add_namespace = tus
+	add_namespace = tusmerc
 	
 	country_event = {
 	id = tus.1
@@ -27,8 +28,8 @@ country_event = {
 	option = {
 		name = tus.2.a
 		
-    add_political_power = -25
-}
+		add_political_power = -25
+	}
 }
 
 country_event = {
@@ -42,9 +43,9 @@ country_event = {
 	option = {
 		name = tus.3.a
 		
-    add_command_power = 25
-	army_experience = 5
-}
+		add_command_power = 25
+		army_experience = 5
+	}
 }
 
 country_event = {
@@ -59,11 +60,42 @@ country_event = {
 	trigger = {
 		tag = TUS
 		has_global_flag = italian_wars
+		has_global_flag = italitan_revolution
 	}
 
 	option = {
 		name = tus.4.a
 		
-    add_ideas = migrant_crisis
+		add_ideas = migrant_crisis
+	}
 }
+
+country_event = {
+	id = tus.5
+	title = tus.5.t
+	desc = tus.5.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+
+	option = {
+		name = tus.5.a
+		
+		hidden_effect = {
+			load_focus_tree = tuscany_main
+			set_politics = {
+				ruling_party = paternalism
+			}
+			set_political_party = {
+				ideology = paternalism
+				popularity = 30
+			}
+			add_ideas  = {
+				centrifugal_force
+				commoner_discontent
+			}
+		}
+	}
 }

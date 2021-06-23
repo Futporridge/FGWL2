@@ -10,3 +10,15 @@ focus_tree = {
 	default = yes
 	shared_focus = TUS_clouds_are_gathering
 }
+focus_tree = {
+	id = tuscany_main
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TUS
+		}
+	}
+	default = no
+	shared_focus = TUS_concentrate_power
+}

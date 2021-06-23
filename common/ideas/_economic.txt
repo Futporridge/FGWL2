@@ -398,7 +398,7 @@ ideas = {
 		}
 	}
 	
-	trade_laws = { 
+	trade_laws = {
 		law = yes
 		use_list_view = yes
 		

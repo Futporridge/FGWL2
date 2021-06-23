@@ -308,7 +308,7 @@ ideas = {
 			
 			modifier = {
 				paternalism_drift = 0.05
-				stability_weekly = 0.05
+				stability_weekly = 0.005
 			}
 	
 			ai_will_do = {

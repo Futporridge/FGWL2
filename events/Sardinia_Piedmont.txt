@@ -1,0 +1,36 @@
+﻿
+	add_namespace = pie
+	
+country_event = { #Вступление
+	id = pie.1
+	title = pie.1.t
+	desc = pie.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = pie.1.a
+		
+		complete_national_focus = PIE_french_ambitions
+	}
+}
+
+country_event = { #Письмо в Бордо
+	id = pie.2
+	title = pie.2.t
+	desc = pie.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = { #Да
+		name = pie.2.a
+		save_global_event_target_as = Eendrahsland
+		
+		PIE  = {
+			
+			country_event = { id = pie.3 }
+		}
+	}
+}

@@ -57,6 +57,36 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
+	name = "Franz Salvator I"
+	desc = "POLITICS_FRANZ_SALVATOR_DESC"
+	picture = "gfx/leaders/TUS/Portrait_Franz_Salvator.tga"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Franz Salvator I"
+	desc = "POLITICS_FRANZ_SALVATOR_DESC"
+	picture = "gfx/leaders/TUS/Portrait_Franz_Salvator.tga"
+	expire = "1965.1.1"
+	ideology = oligarchy
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Franz Salvator I"
+	desc = "POLITICS_FRANZ_SALVATOR_DESC"
+	picture = "gfx/leaders/TUS/Portrait_Franz_Salvator.tga"
+	expire = "1965.1.1"
+	ideology = reactionary
+	traits = { 
+
+	}
+}
+create_country_leader = {
 	name = "Filippo Marinetti"
 	desc = "POLITICS_FILIPPO_MARINETTI_DESC"
 	picture = "gfx/leaders/ITE/Portrait_Filippo_Marinetti.tga"
