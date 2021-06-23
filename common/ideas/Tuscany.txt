@@ -351,5 +351,44 @@ ideas = {
 			}
 		}
 		
+		centrifugal_force = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = centrifugal_force
+			
+			modifier = {
+				drift_defence_factor = -0.5
+				stability_factor = -0.15
+				party_popularity_stability_factor = -0.35
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		commoner_discontent = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = commoner_discontent
+			
+			modifier = {
+				
+				production_factory_efficiency_gain_factor = -0.1
+				political_power_factor = -0.3
+				local_manpower = -0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
 		}
 	}
