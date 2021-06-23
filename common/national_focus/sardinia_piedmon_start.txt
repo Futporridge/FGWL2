@@ -35,7 +35,12 @@
 		}
 		x = 0
 		y = 2
-
+		
+		completion_reward = {
+			AQU = {
+				country_event = { id = pie.2 days = 5 }
+			}
+		}
 	}
 	shared_focus = {
 		id = PIE_support_the_underground
@@ -186,6 +191,10 @@
 		}
 		x = 4
 		y = 4
+		
+		completion_reward = {
+			Custom_effect_tooltip = PIE_italian_panzer_tt
+		}
 
 	}
 	shared_focus = {
