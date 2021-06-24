@@ -61,6 +61,9 @@ PIE_through_the_mountains_tt:0 "§GUnlocks§! §Ydecisions§!£GFX_decision_icon
 PIE_labor_exchange_tt:0 "§GUnlocks Labor reallocation§! §Ydecisions§!£GFX_decision_icon_small"
 PIE_support_the_underground_tt:0 "§GWhen the war with the§! §BRepublicans§! §Gbegins,§! §WLoyalist§! §Gunderground will support us§"
 PIE_italian_panzer_tt:0 "§GUnlocks armored forces creation§! §Ydecisions§!£GFX_decision_icon_small"
+PIE_state_planning_tt:0 "§YIRI§! §Gwill begin to develop and apply the theory of state planning§!"
+PIE_scientific_approach_tt:0 "§YIRI§! §Gwill adopt advanced§! §Rplanist§! §Gideas§!"
+PIE_traditional_approach_tt:0 "§YIRI§! §Gwill adopt proven ideas of§! §Lconservatives§!"
 #############Фокусы############
 PIE_french_ambitions:0 "French Ambitions"
 PIE_french_ambitions_desc:0 "French Ambitions"

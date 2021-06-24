@@ -26,11 +26,30 @@ country_event = { #Письмо в Бордо
 
 	option = { #Да
 		name = pie.2.a
-		save_global_event_target_as = Eendrahsland
 		
 		PIE  = {
 			
 			country_event = { id = pie.3 }
+		}
+	}
+}
+
+country_event = { #Письмо в Бордо
+	id = pie.3
+	title = pie.3.t
+	desc = pie.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = { #Да
+		name = pie.3.a
+		
+		PIE  = {
+			give_guarantee = AQU
+			AQU = {
+				give_guarantee = PIE
+			}
 		}
 	}
 }

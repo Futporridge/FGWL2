@@ -241,7 +241,8 @@
 		y = 4
 		
 		completion_reward = {
-			
+			add_ideas = state_planning
+			Custom_effect_tooltip = PIE_state_planning_tt
 		}
 
 	}
@@ -257,6 +258,14 @@
 		}
 		x = 6
 		y = 5
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = state_planning
+				add_idea = state_planning_sci
+			}
+			Custom_effect_tooltip = PIE_scientific_approach_tt
+		}
 
 	}
 	shared_focus = {
@@ -271,6 +280,14 @@
 		}
 		x = 8
 		y = 5
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = state_planning
+				add_idea = state_planning_trad
+			}
+			Custom_effect_tooltip = PIE_traditional_approach_tt
+		}
 
 	}
 	shared_focus = {
@@ -282,6 +299,14 @@
 		}
 		x = 11
 		y = 1
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = paternalism
+				popularity = 0.1
+            }
+			add_stability = 0.1
+		}
 
 	}
 	shared_focus = {
@@ -293,6 +318,13 @@
 		}
 		x = 10
 		y = 2
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = PIE_bende_rosse
+				add_idea = PIE_bende_rosse_1
+			}
+		}
 
 	}
 	shared_focus = {
@@ -304,6 +336,13 @@
 		}
 		x = 10
 		y = 3
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = PIE_bende_rosse_1
+				add_idea = PIE_bende_rosse_2
+			}
+		}
 
 	}
 	shared_focus = {
@@ -315,6 +354,21 @@
 		}
 		x = 10
 		y = 4
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = encryption_tech_bonus
+				bonus = 1
+				uses = 1
+				category = encryption_tech
+			}
+			add_tech_bonus = {
+				name = decryption_tech_bonus
+				bonus = 1
+				uses = 1
+				category = decryption_tech
+			}
+		}
 
 	}
 	shared_focus = {
@@ -326,7 +380,13 @@
 		}
 		x = 12
 		y = 2
-
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = oligarchy
+				popularity = -0.1
+            }
+		}
 	}
 	shared_focus = {
 		id = PIE_close_nobility_clubs
@@ -337,6 +397,14 @@
 		}
 		x = 12
 		y = 3
+		
+		completion_reward = {
+			add_stability = -0.05
+			add_popularity = {
+				ideology = reactionary
+				popularity = -0.05
+            }
+		}
 
 	}
 	shared_focus = {
@@ -348,6 +416,11 @@
 		}
 		x = 12
 		y = 4
+		
+		completion_reward = {
+			add_stability = -0.1
+			remove_ideas = pensions_to_aristocrats
+		}
 
 	}
 	shared_focus = {
@@ -362,6 +435,10 @@
 		}
 		x = 11
 		y = 5
+		
+		completion_reward = {
+			add_political_power = 75
+		}
 
 	}
 	shared_focus = {
@@ -373,6 +450,16 @@
 		}
 		x = 4
 		y = 5
+		
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 2
+				category = land_doctrine
+			}
+		}
 
 	}
 	shared_focus = {

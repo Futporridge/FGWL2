@@ -6,4 +6,43 @@ on_actions = {
 			}
 		}
 	}
+	
+	on_declare_war = {
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							tag = PIE
+							FROM = {
+								OR = {
+									tag = ITE
+								}
+							}
+						}
+						AND = {
+							OR = {
+								tag = ITE
+							}
+							FROM = { tag = PIE }
+						}
+					}
+				}
+				PIE = {
+					diplomatic_relation = {
+						country = AQU
+						relation = guarantee
+						active = no
+					}
+				}
+				AQU = {
+					diplomatic_relation = {
+						country = PIE
+						relation = guarantee
+						active = no
+					}
+				}
+			}
+		}
+	}
 }	
