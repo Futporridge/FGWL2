@@ -1,0 +1,14 @@
+PIE_iri = {
+
+	PIE_reset_debug = {
+		fire_only_once = no
+		visible = {
+			is_debug = yes
+		}
+		cost = 0
+		complete_effect = {
+			
+		}
+	}
+	
+}

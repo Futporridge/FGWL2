@@ -47,12 +47,26 @@ pensions_to_aristocrats:0 "Pensions to Aristocrats"
 pensions_to_aristocrats_desc:0 ""
 PIE_bende_rosse:0 "Bandiera Rossa"
 PIE_bende_rosse_desc:0 ""
+PIE_bende_rosse_1:0 "Bandiera Rossa"
+PIE_bende_rosse_1_desc:0 ""
+PIE_bende_rosse_2:0 "Bandiera Rossa"
+PIE_bende_rosse_2_desc:0 ""
+state_planning:0 "State Planning"
+state_planning_desc:0 ""
+state_planning_sci:0 "State Planning"
+state_planning_sci_desc:0 ""
+state_planning_trad:0 "State Planning"
+state_planning_trad_desc:0 ""
 #############Ивенты############
 pie.1.t:0 "There behind the mountain..."
 pie.1.d:0 ""
 pie.1.a:0 "Mon honneur s'appelle fidélité"
 
 #############Решения############
+###############IRI##############
+PIE_iri:0 "Istituto per la Ricostruzione Industriale"
+PIE_iri_desc:0 "Piedmont:\nmanpower [?piedmont_manpower]/5\nindustry [?piedmont_industry]/5\nindustry [?piedmont_agriculture]/5\ninfrastructure [?piedmont_infrastructure]/5\n\nGenova:\nmanpower [?genova_manpower]/5\nindustry [?genova_industry]/5\nindustry [?genova_agriculture]/5\ninfrastructure [?genova_infrastructure]/5\n\nNice:\nmanpower [?nice_manpower]/5\nindustry [?nice_industry]/5\nindustry [?nice_agriculture]/5\ninfrastructure [?nice_infrastructure]/5\n\nAlps:\nmanpower [?alps_manpower]/5\nindustry [?alps_industry]/5\nindustry [?alps_agriculture]/5\ninfrastructure [?alps_infrastructure]/5"
+
 
 #############тултипы############
 PIE_institute_for_industrial_reconstruction_tt:0 "§GOpens IRI §Ydecisions§!£GFX_decision_icon_small§"
