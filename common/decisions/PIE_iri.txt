@@ -7,7 +7,361 @@ PIE_iri = {
 		}
 		cost = 0
 		complete_effect = {
-			
+			set_variable = {
+				var = piedmont_manpower
+				value = 3
+			}
+			set_variable = {
+				var = piedmont_manpower_max
+				value = 5
+			}
+			set_variable = {
+				var = piedmont_industry_max
+				value = 3
+			}
+			set_variable = {
+				var = piedmont_agriculture_max
+				value = 3
+			}
+			set_variable = {
+				var = piedmont_infrastructure_max
+				value = 3
+			}
+			set_variable = {
+				var = nice_manpower
+				value = 2
+			}
+			set_variable = {
+				var = nice_manpower_max
+				value = 3
+			}
+			set_variable = {
+				var = nice_industry_max
+				value = 2
+			}
+			set_variable = {
+				var = nice_agriculture_max
+				value = 1
+			}
+			set_variable = {
+				var = nice_infrastructure_max
+				value = 2
+			}
+			set_variable = {
+				var = genova_manpower
+				value = 3
+			}
+			set_variable = {
+				var = genova_manpower_max
+				value = 4
+			}
+			set_variable = {
+				var = genova_industry_max
+				value = 3
+			}
+			set_variable = {
+				var = genova_agriculture_max
+				value = 2
+			}
+			set_variable = {
+				var = genova_infrastructure_max
+				value = 3
+			}
+			set_variable = {
+				var = alps_manpower
+				value = 1
+			}
+			set_variable = {
+				var = alps_manpower_max
+				value = 2
+			}
+			set_variable = {
+				var = alps_industry_max
+				value = 1
+			}
+			set_variable = {
+				var = alps_agriculture_max
+				value = 1
+			}
+			set_variable = {
+				var = alps_infrastructure_max
+				value = 1
+			}
+		}
+	}
+	
+	PIE_debug_iri_mission = {
+		fire_only_once = no
+		allowed = { tag = PIE }
+		visible = { is_debug = yes	}
+		available = { always = no	}
+		activation = { has_country_flag = iri_flag	}
+		is_good = yes
+		days_mission_timeout = 5
+		timeout_effect = {	}
+		complete_effect = {
+		force_update_dynamic_modifier = yes 
+					735 = {
+						add_dynamic_modifier = {
+							modifier = iri_infrastructure_2
+						}
+					}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	PIE_alps_highway_mission = {
+		fire_only_once = yes
+		allowed = { tag = PIE }
+		visible = {	}
+		available = {
+			always = no
+		}
+		activation = { always = no	}
+		is_good = yes
+		days_mission_timeout = 120
+		timeout_effect = {
+			add_to_variable = {alps_infrastructure_max = 2}
+			add_to_variable = {alps_infrastructure = 2}
+			clamp_variable = {
+				var = alps_infrastructure
+				min = 0
+				max = alps_infrastructure_max
+			}
+			735 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				if = {
+					limit = {
+						check_variable = { alps_infrastructure = 1 }
+					}
+					remove_dynamic_modifier = {
+						modifier = iri_infrastructure_2
+						modifier = iri_infrastructure_3
+						modifier = iri_infrastructure_4
+						modifier = iri_infrastructure_5
+						modifier = iri_infrastructure_6
+						modifier = iri_infrastructure_7
+						modifier = iri_infrastructure_8
+						modifier = iri_infrastructure_9
+						modifier = iri_infrastructure_10
+					}
+					add_dynamic_modifier = {
+						modifier = iri_infrastructure_1
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { alps_infrastructure = 2 }
+					}
+					remove_dynamic_modifier = {
+						modifier = iri_infrastructure_1
+						modifier = iri_infrastructure_3
+						modifier = iri_infrastructure_4
+						modifier = iri_infrastructure_5
+						modifier = iri_infrastructure_6
+						modifier = iri_infrastructure_7
+						modifier = iri_infrastructure_8
+						modifier = iri_infrastructure_9
+						modifier = iri_infrastructure_10
+					}
+					add_dynamic_modifier = {
+						modifier = iri_infrastructure_2
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { alps_infrastructure = 3 }
+					}
+					remove_dynamic_modifier = {
+						modifier = iri_infrastructure_1
+						modifier = iri_infrastructure_2
+						modifier = iri_infrastructure_4
+						modifier = iri_infrastructure_5
+						modifier = iri_infrastructure_6
+						modifier = iri_infrastructure_7
+						modifier = iri_infrastructure_8
+						modifier = iri_infrastructure_9
+						modifier = iri_infrastructure_10
+					}
+					add_dynamic_modifier = {
+						modifier = iri_infrastructure_3
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { alps_infrastructure = 4 }
+					}
+					remove_dynamic_modifier = {
+						modifier = iri_infrastructure_1
+						modifier = iri_infrastructure_2
+						modifier = iri_infrastructure_3
+						modifier = iri_infrastructure_5
+						modifier = iri_infrastructure_6
+						modifier = iri_infrastructure_7
+						modifier = iri_infrastructure_8
+						modifier = iri_infrastructure_9
+						modifier = iri_infrastructure_10
+					}
+					add_dynamic_modifier = {
+						modifier = iri_infrastructure_4
+					}
+				}
+			}
+		}
+		complete_effect = {	}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	PIE_redeploy_labor = {
+		fire_only_once = no
+		visible = {
+			has_country_flag = iri_redeploy_labor_flag
+		}
+		cost = 15
+		days_re_enable = 5
+		available = {	}
+		complete_effect = {
+			country_event = { id = pie_iri.1 }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	PIE_alps_highway = {
+		fire_only_once = yes
+		visible = {
+			has_country_flag = iri_alps_highway_flag
+		}
+		cost = 100
+		available = {
+			check_variable = {
+				var = alps_manpower
+				value = 2
+				compare = greater_than_or_equals
+			}
+			PIE = {
+				controls_state = 735
+			}
+		}
+		complete_effect = {
+			add_to_variable = {alps_manpower = -2}
+			activate_mission = PIE_alps_highway_mission
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	PIE_land_acquisition_piedmont = {
+		fire_only_once = yes
+		visible = {
+			has_country_flag = iri_land_acquisition_flag
+		}
+		cost = 115
+		available = {
+			NOT = {
+				check_variable = {
+					var = piedmont_manpower
+					value = piedmont_manpower_max
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		complete_effect = {
+			add_to_variable = { piedmont_manpower = 1 }
+			add_to_variable = { piedmont_agriculture_max = 1 }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	PIE_land_acquisition_nice = {
+		fire_only_once = yes
+		visible = {
+			has_country_flag = iri_land_acquisition_flag
+		}
+		cost = 115
+		available = {
+			NOT = {
+				check_variable = {
+					var = nice_manpower
+					value = nice_manpower_max
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		complete_effect = {
+			add_to_variable = { nice_manpower = 1 }
+			add_to_variable = { nice_agriculture_max = 1 }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	PIE_land_acquisition_genova = {
+		fire_only_once = yes
+		visible = {
+			has_country_flag = iri_land_acquisition_flag
+		}
+		cost = 115
+		available = {
+			NOT = {
+				check_variable = {
+					var = genova_manpower
+					value = genova_manpower_max
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		complete_effect = {
+			add_to_variable = { genova_manpower = 1 }
+			add_to_variable = { genova_agriculture_max = 1 }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	PIE_land_acquisition_alps = {
+		fire_only_once = yes
+		visible = {
+			has_country_flag = iri_land_acquisition_flag
+		}
+		cost = 115
+		available = {
+			NOT = {
+				check_variable = {
+					var = alps_manpower
+					value = alps_manpower_max
+					compare = alps_than_or_equals
+				}
+			}
+		}
+		complete_effect = {
+			add_to_variable = { alps_manpower = 1 }
+			add_to_variable = { alps_agriculture_max = 1 }
+		}
+		
+		ai_will_do = {
+			factor = 0
 		}
 	}
 	

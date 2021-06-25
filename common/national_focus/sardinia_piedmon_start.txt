@@ -160,37 +160,17 @@
 					var = piedmont_manpower_max
 					value = 5
 				}
-				clamp_variable = {
-					var = piedmont_manpower
-					min = 0
-					max = piedmont_manpower_max
-				}
 				set_variable = {
 					var = piedmont_industry_max
 					value = 3
-				}
-				clamp_variable = {
-					var = piedmont_industry
-					min = 0
-					max = piedmont_industry_max
 				}
 				set_variable = {
 					var = piedmont_agriculture_max
 					value = 3
 				}
-				clamp_variable = {
-					var = piedmont_agriculture
-					min = 0
-					max = piedmont_agriculture_max
-				}
 				set_variable = {
 					var = piedmont_infrastructure_max
 					value = 3
-				}
-				clamp_variable = {
-					var = piedmont_infrastructure
-					min = 0
-					max = piedmont_infrastructure_max
 				}
 				set_variable = {
 					var = nice_manpower
@@ -198,39 +178,19 @@
 				}
 				set_variable = {
 					var = nice_manpower_max
-					value = 5
-				}
-				clamp_variable = {
-					var = nice_manpower
-					min = 0
-					max = nice_manpower_max
+					value = 3
 				}
 				set_variable = {
 					var = nice_industry_max
-					value = 3
-				}
-				clamp_variable = {
-					var = nice_industry
-					min = 0
-					max = nice_industry_max
+					value = 2
 				}
 				set_variable = {
 					var = nice_agriculture_max
-					value = 3
-				}
-				clamp_variable = {
-					var = nice_agriculture
-					min = 0
-					max = nice_agriculture_max
+					value = 1
 				}
 				set_variable = {
 					var = nice_infrastructure_max
-					value = 3
-				}
-				clamp_variable = {
-					var = nice_infrastructure
-					min = 0
-					max = nice_infrastructure_max
+					value = 2
 				}
 				set_variable = {
 					var = genova_manpower
@@ -238,39 +198,19 @@
 				}
 				set_variable = {
 					var = genova_manpower_max
-					value = 5
-				}
-				clamp_variable = {
-					var = genova_manpower
-					min = 0
-					max = genova_manpower_max
+					value = 4
 				}
 				set_variable = {
 					var = genova_industry_max
 					value = 3
 				}
-				clamp_variable = {
-					var = genova_industry
-					min = 0
-					max = genova_industry_max
-				}
 				set_variable = {
 					var = genova_agriculture_max
-					value = 3
-				}
-				clamp_variable = {
-					var = genova_agriculture
-					min = 0
-					max = genova_agriculture_max
+					value = 2
 				}
 				set_variable = {
 					var = genova_infrastructure_max
 					value = 3
-				}
-				clamp_variable = {
-					var = genova_infrastructure
-					min = 0
-					max = genova_infrastructure_max
 				}
 				set_variable = {
 					var = alps_manpower
@@ -278,39 +218,19 @@
 				}
 				set_variable = {
 					var = alps_manpower_max
-					value = 5
-				}
-				clamp_variable = {
-					var = alps_manpower
-					min = 0
-					max = alps_manpower_max
+					value = 2
 				}
 				set_variable = {
 					var = alps_industry_max
-					value = 3
-				}
-				clamp_variable = {
-					var = alps_industry
-					min = 0
-					max = alps_industry_max
+					value = 1
 				}
 				set_variable = {
 					var = alps_agriculture_max
-					value = 3
-				}
-				clamp_variable = {
-					var = alps_agriculture
-					min = 0
-					max = alps_agriculture_max
+					value = 1
 				}
 				set_variable = {
 					var = alps_infrastructure_max
-					value = 3
-				}
-				clamp_variable = {
-					var = alps_infrastructure
-					min = 0
-					max = alps_infrastructure_max
+					value = 1
 				}
 			}
 		}
@@ -328,6 +248,7 @@
 		
 		completion_reward = {
 			Custom_effect_tooltip = PIE_through_the_mountains_tt
+			set_country_flag = iri_alps_highway_flag
 		}
 
 	}
@@ -380,7 +301,20 @@
 		y = 2
 		
 		completion_reward = {
+			set_variable = {
+				var = piedmont_minor_increase_iri
+				value = 1
+			}
+			set_variable = {
+				var = piedmont_medium_increase_iri
+				value = 2
+			}
+			set_variable = {
+				var = piedmont_large_increase_iri
+				value = 3
+			}
 			Custom_effect_tooltip = PIE_land_acquisition_tt
+			set_country_flag = iri_land_acquisition_flag
 		}
 
 	}
@@ -396,6 +330,7 @@
 		
 		completion_reward = {
 			Custom_effect_tooltip = PIE_labor_exchange_tt
+			set_country_flag = iri_redeploy_labor_flag
 		}
 
 	}
@@ -653,5 +588,13 @@
 		}
 		x = 7
 		y = 6
+		
+		completion_reward = {
+			country_event = { id = pie.5 day = 3}
+			hidden_effect = {
+				country_event = { id = pie.4 day = 2}
+			}
+			
+		}
 
 	}
