@@ -23,21 +23,19 @@ set_popularities = {
 	liberalism = 9
 	oligarchy = 6
 	conservatism = 5
-	paternalism = 3
-	reactionary = 70
+	paternalism = 70
+	reactionary = 3
 }
 
 add_ideas = {
-Demilitarized_economy
-Peaceful_island_in_raging_sea
 }
 
 set_convoys = 100
 
 create_country_leader = {
-	name = "Carl Rainer"
-	desc = "POLITICS_CARL_RAINER_DESC"
-	picture = "gfx/leaders/MOD/Portrait_Carl_Rainer.tga"
+	name = "Maurice Pujo"
+	desc = "POLITICS_MAURICE_PUJO_DESC"
+	picture = "gfx/leaders/MOD/Portrait_Maurice_Pujo.tga"
 	expire = "1965.1.1"
 	ideology = paternalism
 	traits = { 

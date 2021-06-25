@@ -590,9 +590,9 @@
 		y = 6
 		
 		completion_reward = {
-			country_event = { id = pie.5 day = 3}
+			country_event = { id = pie.5 days = 5}
 			hidden_effect = {
-				country_event = { id = pie.4 day = 2}
+				country_event = { id = pie.4 days = 2}
 			}
 			
 		}

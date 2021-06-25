@@ -51,6 +51,211 @@ on_actions = {
 					transfer_state = 182
 				}
 			}
+			if = { #республиканцы побеждают пъемонд 
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = LYO
+							original_tag = VCH
+							original_tag = PRO
+						}
+					}
+					ROOT = { original_tag = PIE }
+				}
+				
+				if = {
+					limit = {
+						country_exists = LYO
+					}
+					LYO = {
+						transfer_state = 918
+						transfer_state = 845
+						white_peace = ROOT
+					}
+					if = {
+						limit = {
+							NOT = {
+								country_exists = PRO
+							}
+						}
+						LYO = {
+							transfer_state = 735
+							transfer_state = 919
+							transfer_state = 21
+						}
+					}
+				}
+				if = {
+					limit = {
+						country_exists = PRO
+					}
+					PRO = {
+						transfer_state = 735
+						transfer_state = 919
+						white_peace = ROOT
+					}
+					if = {
+						limit = {
+							NOT = {
+								country_exists = LYO
+							}
+						}
+						PRO = {
+							transfer_state = 918
+							transfer_state = 845
+							transfer_state = 800
+							transfer_state = 20
+						}
+					}
+				}
+				if = {
+					limit = {
+						country_exists = VCH
+					}
+					VCH = {
+						white_peace = ROOT
+					}
+					if = {
+						limit = {
+							NOT = {
+								country_exists = LYO
+								country_exists = PRO
+							}
+						}
+						VCH = {
+							transfer_state = 918
+							transfer_state = 845
+							transfer_state = 800
+							transfer_state = 20
+							transfer_state = 735
+							transfer_state = 919
+							transfer_state = 21
+						}
+					}
+				}
+			}
+			if = { #пъемонд побеждает прованс
+				limit = {
+					FROM = { original_tag = PIE }
+					ROOT = { original_tag = PRO }
+				}
+				FROM = {
+					white_peace = ROOT
+				}
+				MOD = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+					load_oob = MOD_1936
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infantry Division I\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
+						owner = MOD
+						prioritize_location = 11834
+					}
+				}
+				PIE = {
+					puppet = MOD
+				}
+			}
+			if = { #пъемонд побеждает лион
+				limit = {
+					FROM = { original_tag = PIE }
+					ROOT = { original_tag = LYO }
+				}
+				FROM = {
+					white_peace = ROOT
+				}
+				MOD = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+					load_oob = MOD_1936
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infantry Division I\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
+						owner = MOD
+						prioritize_location = 6613
+					}
+				}
+				PIE = {
+					puppet = MOD
+				}
+			}
+			if = { #пъемонд побеждает виши
+				limit = {
+					FROM = { original_tag = PIE }
+					ROOT = { original_tag = VCH }
+				}
+				FROM = {
+					white_peace = ROOT
+				}
+				MOD = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+					load_oob = MOD_1936
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infantry Division I\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
+						owner = MOD
+						prioritize_location = 3594
+					}
+				}
+				PIE = {
+					puppet = MOD
+				}
+			}
 		}
 	}
-}	
+	on_state__changed = {
+		if = {	#Пьемонд создает марионетку побеждая респбликанцев 
+			limit = {
+				FROM.FROM = {
+					OR = {
+						state = 21
+						state = 20
+						state = 800
+					}
+				}
+				FROM = {
+					OR = {
+						original_tag = LYO
+						original_tag = PRO
+						original_tag = VCH
+					}
+				}
+				ROOT = {
+					OR = {
+						original_tag = PIE
+						is_in_faction_with = PIE
+					}
+				}
+			}
+			if = {
+				ROOT = {
+					controls_state = 21
+				}
+				21 = {
+					set_state_owner = ITE
+				}
+			}
+			if = {
+				ROOT = {
+					controls_state = 20
+				}
+				20 = {
+					set_state_owner = ITE
+				}
+			}
+			if = {
+				ROOT = {
+					controls_state = 800
+				}
+				800 = {
+					set_state_owner = ITE
+				}
+			}
+		}
+	}
+}
