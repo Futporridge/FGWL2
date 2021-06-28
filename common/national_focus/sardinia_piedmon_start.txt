@@ -67,13 +67,10 @@
 		icon = GFX_goal_unknown
 		cost = 3
 		prerequisite = {
-			focus = PIE_embassy_in_bordeaux
+			focus = PIE_mobilize_loyalists
 		}
-		prerequisite = {
-			focus = PIE_support_the_underground
-		}
-		x = 2
-		y = 3
+		x = 4
+		y = 2
 		
 		completion_reward = {
 			add_war_support = 0.1
@@ -88,8 +85,14 @@
 		prerequisite = {
 			focus = PIE_royal_volunteers
 		}
+		prerequisite = {
+			focus = PIE_support_the_underground
+		}
+		prerequisite = {
+			focus = PIE_embassy_in_bordeaux
+		}
 		x = 2
-		y = 4
+		y = 3
 		
 		completion_reward = {
 			add_tech_bonus = {
@@ -109,7 +112,7 @@
 			focus = PIE_training_in_the_mountains
 		}
 		x = 2
-		y = 5
+		y = 4
 		
 		completion_reward = {
 			add_tech_bonus = {
@@ -118,23 +121,6 @@
 				uses = 1
 				category = marine_tech
 			}
-		}
-
-	}
-	shared_focus = {
-		id = PIE_loyal_army
-		icon = GFX_goal_unknown
-		cost = 3
-		prerequisite = {
-			focus = PIE_mobilize_loyalists
-		}
-		x = 4
-		y = 2
-		
-		completion_reward = {
-			add_manpower = -700
-			army_experience = -5
-			add_war_support = 0.05
 		}
 
 	}
@@ -277,7 +263,7 @@
 		icon = GFX_goal_unknown
 		cost = 3
 		prerequisite = {
-			focus = PIE_loyal_army
+			focus = PIE_mobilize_loyalists
 		}
 		prerequisite = {
 			focus = PIE_new_industries
@@ -335,7 +321,7 @@
 
 	}
 	shared_focus = {
-		id = PIE_state_planning
+		id = PIE_scientific_approach
 		icon = GFX_goal_unknown
 		cost = 3
 		prerequisite = {
@@ -344,27 +330,11 @@
 		prerequisite = {
 			focus = PIE_new_industries
 		}
-		x = 7
-		y = 4
-		
-		completion_reward = {
-			add_ideas = state_planning
-			Custom_effect_tooltip = PIE_state_planning_tt
-		}
-
-	}
-	shared_focus = {
-		id = PIE_scientific_approach
-		icon = GFX_goal_unknown
-		cost = 3
-		prerequisite = {
-			focus = PIE_state_planning
-		}
 		mutually_exclusive = {
 			focus = PIE_traditional_approach
 		}
 		x = 6
-		y = 5
+		y = 4
 		
 		completion_reward = {
 			swap_ideas = {
@@ -380,13 +350,16 @@
 		icon = GFX_goal_unknown
 		cost = 3
 		prerequisite = {
-			focus = PIE_state_planning
+			focus = PIE_labor_exchange
+		}
+		prerequisite = {
+			focus = PIE_new_industries
 		}
 		mutually_exclusive = {
 			focus = PIE_scientific_approach
 		}
 		x = 8
-		y = 5
+		y = 4
 		
 		completion_reward = {
 			swap_ideas = {
@@ -453,32 +426,6 @@
 
 	}
 	shared_focus = {
-		id = PIE_special_communication
-		icon = GFX_goal_unknown
-		cost = 3
-		prerequisite = {
-			focus = PIE_press_censorship
-		}
-		x = 10
-		y = 4
-		
-		completion_reward = {
-			add_tech_bonus = {
-				name = encryption_tech_bonus
-				bonus = 1
-				uses = 1
-				category = encryption_tech
-			}
-			add_tech_bonus = {
-				name = decryption_tech_bonus
-				bonus = 1
-				uses = 1
-				category = decryption_tech
-			}
-		}
-
-	}
-	shared_focus = {
 		id = PIE_crush_the_old
 		icon = GFX_goal_unknown
 		cost = 3
@@ -496,7 +443,7 @@
 		}
 	}
 	shared_focus = {
-		id = PIE_close_nobility_clubs
+		id = PIE_cancel_pensions
 		icon = GFX_goal_unknown
 		cost = 3
 		prerequisite = {
@@ -504,25 +451,6 @@
 		}
 		x = 12
 		y = 3
-		
-		completion_reward = {
-			add_stability = -0.05
-			add_popularity = {
-				ideology = reactionary
-				popularity = -0.05
-            }
-		}
-
-	}
-	shared_focus = {
-		id = PIE_cancel_pensions
-		icon = GFX_goal_unknown
-		cost = 3
-		prerequisite = {
-			focus = PIE_close_nobility_clubs
-		}
-		x = 12
-		y = 4
 		
 		completion_reward = {
 			add_stability = -0.1
@@ -538,34 +466,13 @@
 			focus = PIE_cancel_pensions
 		}
 		prerequisite = {
-			focus = PIE_special_communication
+			focus = PIE_press_censorship
 		}
 		x = 11
-		y = 5
+		y = 4
 		
 		completion_reward = {
 			add_political_power = 75
-		}
-
-	}
-	shared_focus = {
-		id = PIE_panzer_forces
-		icon = GFX_goal_unknown
-		cost = 3
-		prerequisite = {
-			focus = PIE_italian_panzer
-		}
-		x = 4
-		y = 5
-		
-		completion_reward = {
-			army_experience = 10
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 1.0
-				uses = 1
-				category = land_doctrine
-			}
 		}
 
 	}
@@ -581,13 +488,13 @@
 			focus = PIE_restore_order
 		}
 		prerequisite = {
-			focus = PIE_panzer_forces
+			focus = PIE_italian_panzer
 		}
 		prerequisite = {
 			focus = PIE_royal_marines
 		}
 		x = 7
-		y = 6
+		y = 5
 		
 		completion_reward = {
 			country_event = { id = pie.5 days = 5}
