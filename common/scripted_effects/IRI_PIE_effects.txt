@@ -1,0 +1,108 @@
+low_increase_piedmont_industry = {
+	add_to_variable = { piedmont_industry = 1 }
+	hidden_effect = {
+		state_event = {
+			id = pie_iri.3
+		}
+	}
+}
+low_increase_piedmont_infrastructure = {
+	add_to_variable = { piedmont_infrastructure = 1 }
+	hidden_effect = {
+		state_event = {
+			id = pie_iri.3
+		}
+	}
+}
+
+low_increase_piedmont_infrastructure = {
+	add_to_variable = { piedmont_agriculture = 1 }
+	hidden_effect = {
+		state_event = {
+			id = pie_iri.3
+		}
+	}
+}
+low_increase_genova_industry = {
+	add_to_variable = { genova_industry = 1 }
+	hidden_effect = {
+		state_event = {
+			id = pie_iri.5
+		}
+	}
+}
+low_increase_genova_infrastructure = {
+	add_to_variable = { genova_infrastructure = 1 }
+	hidden_effect = {
+		state_event = {
+			id = pie_iri.5
+		}
+	}
+}
+
+low_increase_genova_infrastructure = {
+	add_to_variable = { genova_agriculture = 1 }
+	hidden_effect = {
+		state_event = {
+			id = pie_iri.5
+		}
+	}
+}
+low_increase_nice_industry = {
+	add_to_variable = { nice_industry = 1 }
+	hidden_effect = {
+		state_event = {
+			id = pie_iri.7
+		}
+	}
+}
+low_increase_nice_infrastructure = {
+	add_to_variable = { nice_infrastructure = 1 }
+	hidden_effect = {
+		state_event = {
+			id = pie_iri.7
+		}
+	}
+}
+
+low_increase_nice_infrastructure = {
+	add_to_variable = { nice_agriculture = 1 }
+	hidden_effect = {
+		state_event = {
+			id = pie_iri.7
+		}
+	}
+}
+low_increase_alps_industry = {
+	add_to_variable = { alps_industry = 1 }
+	hidden_effect = {
+		state_event = {
+			id = pie_iri.9
+		}
+	}
+}
+med_increase_alps_industry = {
+	add_to_variable = { alps_industry = 2 }
+	hidden_effect = {
+		state_event = {
+			id = pie_iri.9
+		}
+	}
+}
+low_increase_nice_infrastructure = {
+	add_to_variable = { alps_infrastructure = 1 }
+	hidden_effect = {
+		state_event = {
+			id = pie_iri.9
+		}
+	}
+}
+
+low_increase_nice_infrastructure = {
+	add_to_variable = { alps_agriculture = 1 }
+	hidden_effect = {
+		state_event = {
+			id = pie_iri.9
+		}
+	}
+}

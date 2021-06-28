@@ -78,6 +78,7 @@ PIE_italian_panzer_tt:0 "§GUnlocks armored forces creation§! §Ydecisions§!£
 PIE_state_planning_tt:0 "§YIRI§! §Gwill begin to develop and apply the theory of state planning§!"
 PIE_scientific_approach_tt:0 "§YIRI§! §Gwill adopt advanced§! §Rplanist§! §Gideas§!"
 PIE_traditional_approach_tt:0 "§YIRI§! §Gwill adopt proven ideas of§! §Lconservatives§!"
+PIE_new_industries_tt:0 "Add §G1§! £GFX_industry_texticon in Piedmont"
 #############Фокусы############
 PIE_french_ambitions:0 "French Ambitions"
 PIE_french_ambitions_desc:0 "French Ambitions"

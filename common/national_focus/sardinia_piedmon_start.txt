@@ -95,11 +95,12 @@
 		y = 3
 		
 		completion_reward = {
+			army_experience = 10
 			add_tech_bonus = {
-				name = special_bonus
-				ahead_reduction = 2
+				name = PIE_training_in_the_mountains
+				bonus = 1.0
 				uses = 1
-				category = mountaineers_tech
+				category = land_doctrine
 			}
 		}
 
@@ -248,6 +249,8 @@
 		x = 6
 		y = 3
 		completion_reward = {
+			Custom_effect_tooltip = PIE_new_industries_tt
+			low_increase_piedmont_industry = yes
 			802 = {
 				add_building_construction = {
 				type = industrial_complex
@@ -287,18 +290,6 @@
 		y = 2
 		
 		completion_reward = {
-			set_variable = {
-				var = piedmont_minor_increase_iri
-				value = 1
-			}
-			set_variable = {
-				var = piedmont_medium_increase_iri
-				value = 2
-			}
-			set_variable = {
-				var = piedmont_large_increase_iri
-				value = 3
-			}
 			Custom_effect_tooltip = PIE_land_acquisition_tt
 			set_country_flag = iri_land_acquisition_flag
 		}
@@ -337,10 +328,6 @@
 		y = 4
 		
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = state_planning
-				add_idea = state_planning_sci
-			}
 			Custom_effect_tooltip = PIE_scientific_approach_tt
 		}
 
@@ -362,10 +349,6 @@
 		y = 4
 		
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = state_planning
-				add_idea = state_planning_trad
-			}
 			Custom_effect_tooltip = PIE_traditional_approach_tt
 		}
 
