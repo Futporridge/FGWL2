@@ -147,12 +147,8 @@ on_actions = {
 						target = ROOT
 						transfer_troops = no
 					}
-					load_oob = MOD_1936
-					create_unit = {
-						division = "name = \"Infantry Division\" division_template = \"Infantry Division I\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
-						owner = MOD
-						prioritize_location = 11834
-					}
+					load_oob = MOD_PRO
+					add_state_core = 21
 				}
 				PIE = {
 					puppet = MOD
@@ -171,12 +167,9 @@ on_actions = {
 						target = ROOT
 						transfer_troops = no
 					}
-					load_oob = MOD_1936
-					create_unit = {
-						division = "name = \"Infantry Division\" division_template = \"Infantry Division I\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
-						owner = MOD
-						prioritize_location = 6613
-					}
+					load_oob = MOD_LYO
+					add_state_core = 20
+					add_state_core = 800
 				}
 				PIE = {
 					puppet = MOD
@@ -195,65 +188,12 @@ on_actions = {
 						target = ROOT
 						transfer_troops = no
 					}
-					load_oob = MOD_1936
-					create_unit = {
-						division = "name = \"Infantry Division\" division_template = \"Infantry Division I\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
-						owner = MOD
-						prioritize_location = 3594
-					}
+					load_oob = MOD_VCH
+					add_state_core = 799
+					add_state_core = 21
 				}
 				PIE = {
 					puppet = MOD
-				}
-			}
-		}
-	}
-	on_state__changed = {
-		if = {	#Пьемонд создает марионетку побеждая респбликанцев 
-			limit = {
-				FROM.FROM = {
-					OR = {
-						state = 21
-						state = 20
-						state = 800
-					}
-				}
-				FROM = {
-					OR = {
-						original_tag = LYO
-						original_tag = PRO
-						original_tag = VCH
-					}
-				}
-				ROOT = {
-					OR = {
-						original_tag = PIE
-						is_in_faction_with = PIE
-					}
-				}
-			}
-			if = {
-				ROOT = {
-					controls_state = 21
-				}
-				21 = {
-					set_state_owner = ITE
-				}
-			}
-			if = {
-				ROOT = {
-					controls_state = 20
-				}
-				20 = {
-					set_state_owner = ITE
-				}
-			}
-			if = {
-				ROOT = {
-					controls_state = 800
-				}
-				800 = {
-					set_state_owner = ITE
 				}
 			}
 		}

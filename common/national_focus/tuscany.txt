@@ -7,7 +7,7 @@ focus_tree = {
 			tag = TUS
 		}
 	}
-	default = yes
+	default = no
 	shared_focus = TUS_clouds_are_gathering
 }
 focus_tree = {
