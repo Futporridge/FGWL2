@@ -14,6 +14,9 @@ set_technology = {
 	early_destroyer = 1
 	early_light_cruiser = 1
 }
+add_ideas = {
+limited_conscription
+}
 
 set_politics = {
 	ruling_party = individualism

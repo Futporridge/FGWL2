@@ -15,7 +15,7 @@ low_increase_piedmont_infrastructure = {
 	}
 }
 
-low_increase_piedmont_infrastructure = {
+low_increase_piedmont_agriculture = {
 	add_to_variable = { piedmont_agriculture = 1 }
 	hidden_effect = {
 		state_event = {
@@ -40,7 +40,7 @@ low_increase_genova_infrastructure = {
 	}
 }
 
-low_increase_genova_infrastructure = {
+low_increase_genova_agriculture = {
 	add_to_variable = { genova_agriculture = 1 }
 	hidden_effect = {
 		state_event = {
@@ -65,7 +65,7 @@ low_increase_nice_infrastructure = {
 	}
 }
 
-low_increase_nice_infrastructure = {
+low_increase_nice_agriculture = {
 	add_to_variable = { nice_agriculture = 1 }
 	hidden_effect = {
 		state_event = {
@@ -89,8 +89,8 @@ med_increase_alps_industry = {
 		}
 	}
 }
-low_increase_nice_infrastructure = {
-	add_to_variable = { alps_infrastructure = 1 }
+low_increase_alps_agriculture = {
+	add_to_variable = { alps_agriculture = 1 }
 	hidden_effect = {
 		state_event = {
 			id = pie_iri.9
@@ -98,8 +98,16 @@ low_increase_nice_infrastructure = {
 	}
 }
 
-low_increase_nice_infrastructure = {
-	add_to_variable = { alps_agriculture = 1 }
+low_increase_alps_infrastructure = {
+	add_to_variable = { alps_infrastructure = 1 }
+	hidden_effect = {
+		state_event = {
+			id = pie_iri.9
+		}
+	}
+}
+med_increase_alps_infrastructure = {
+	add_to_variable = { alps_infrastructure = 2 }
 	hidden_effect = {
 		state_event = {
 			id = pie_iri.9

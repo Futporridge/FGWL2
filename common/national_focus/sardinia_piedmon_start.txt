@@ -201,7 +201,7 @@
 				}
 				set_variable = {
 					var = alps_manpower
-					value = 1
+					value = 0
 				}
 				set_variable = {
 					var = alps_manpower_max
@@ -275,6 +275,7 @@
 		y = 4
 		
 		completion_reward = {
+			set_country_flag = iri_cdarb_flag
 			Custom_effect_tooltip = PIE_italian_panzer_tt
 		}
 

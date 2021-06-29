@@ -2,7 +2,10 @@
 state={
 	id=735
 	name="STATE_735"
-
+	resources={
+		chromium=2.000
+		tungsten=1.000
+	}
 	history={
 		owner = PIE
 		add_core_of = PIE

@@ -101,8 +101,33 @@ PIE_iri = {
 		is_good = yes
 		days_mission_timeout = 120
 		timeout_effect = {
+			custom_effect_tooltip = PIE_alps_highway_mission_tt
 			add_to_variable = {alps_infrastructure_max = 2}
-			med_increase_alps_industry = yes
+			med_increase_alps_infrastructure = yes
+		}
+		
+		complete_effect = {	}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	PIE_central_design_and_research_bureau_mission = {
+		fire_only_once = yes
+		allowed = { tag = PIE }
+		visible = {	}
+		available = {
+			always = no
+		}
+		activation = { always = no	}
+		is_good = yes
+		days_mission_timeout = 100
+		timeout_effect = {
+			custom_effect_tooltip = PIE_central_design_and_research_bureau_mission_tt
+			hidden_effect = {
+				country_event = { id = pie_iri.13 days = 15 }
+			}
 		}
 		
 		complete_effect = {	}
@@ -136,10 +161,13 @@ PIE_iri = {
 		}
 		cost = 100
 		available = {
-			check_variable = {
-				var = alps_manpower
-				value = 2
-				compare = greater_than_or_equals
+			custom_trigger_tooltip = {
+				tooltip = PIE_alps_highway_tt		
+				check_variable = {
+					var = alps_manpower
+					value = 2
+					compare = greater_than_or_equals
+				}
 			}
 			PIE = {
 				controls_state = 735
@@ -148,6 +176,29 @@ PIE_iri = {
 		complete_effect = {
 			add_to_variable = {alps_manpower = -2}
 			activate_mission = PIE_alps_highway_mission
+			hidden_effect = {
+				country_event = { id = pie_iri.11 days = 25 }
+				country_event = { id = pie_iri.12 days = 75 }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	PIE_central_design_and_research_bureau = {
+		fire_only_once = yes
+		visible = {
+			has_country_flag = iri_cdarb_flag
+		}
+		cost = 100
+		available = {
+		
+		}
+		complete_effect = {
+			custom_effect_tooltip = PIE_central_design_and_research_bureau_mission_tt
+			activate_mission = PIE_central_design_and_research_bureau_mission
 		}
 		
 		ai_will_do = {

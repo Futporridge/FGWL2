@@ -1101,7 +1101,7 @@ country_event = { #дебаг альпы
 		}
 	}
 }
-country_event = { #дебаг ницца 2
+country_event = { #дебаг альпы 2
 	id = pie_iri.10
 	title = pie_iri.10.t
 	desc = pie_iri.10.d
@@ -1381,6 +1381,106 @@ country_event = { #дебаг ницца 2
 			845 = {
 				add_dynamic_modifier = { modifier = iri_agriculture_5 }
 			}
+		}
+	}
+}
+
+country_event = { #Вступление
+	id = pie_iri.11
+	title = pie.11.t
+	desc = pie.11.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = pie_iri.11.a
+		
+		add_days_mission_timeout = {
+			mission = PIE_alps_highway_mission
+			days = 30
+		}
+	}
+	
+	option = {
+		name = pie_iri.11.b
+		
+		add_political_power = -50
+	}
+	
+	option = {
+		name = pie_iri.11.c
+		
+		add_political_power = -75
+		add_days_mission_timeout = {
+			mission = PIE_alps_highway_mission
+			days = -15
+		}
+	}
+}
+
+country_event = { #Вступление
+	id = pie_iri.12
+	title = pie.12.t
+	desc = pie.12.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = pie_iri.12.a
+		
+		add_manpower = -200
+		add_days_mission_timeout = {
+			mission = PIE_alps_highway_mission
+			days = 35
+		}
+	}
+	
+	option = {
+		name = pie_iri.12.b
+		
+		add_political_power = -75
+	}
+	
+	option = {
+		name = pie_iri.12.c
+		
+		add_political_power = -100
+		add_days_mission_timeout = {
+			mission = PIE_alps_highway_mission
+			days = -30
+		}
+	}
+}
+
+country_event = { #Вступление
+	id = pie_iri.13
+	title = pie.13.t
+	desc = pie.13.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = pie_iri.13.a
+		
+		add_tech_bonus = {
+			name = PIE_heavy_panzer
+			bonus = 1.0
+			uses = 1
+			category = cat_heavy_armor
+		}
+	}
+	
+	option = {
+		name = pie_iri.13.b
+		
+		add_tech_bonus = {
+			name = PIE_light_panzer
+			bonus = 1.0
+			uses = 1
+			category = cat_light_armor
 		}
 	}
 }

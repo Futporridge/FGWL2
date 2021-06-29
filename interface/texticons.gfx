@@ -1149,5 +1149,17 @@ spriteTypes = {
 		texturefile = "gfx/texticons/faction_gre_venezelist.dds"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_agriculture1"
+		texturefile = "gfx/texticons/agriculture1.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_agriculture2"
+		texturefile = "gfx/texticons/agriculture2.dds"
+		legacy_lazy_load = no
+	}
 
 }
