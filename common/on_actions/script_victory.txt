@@ -7,8 +7,12 @@ on_actions = {
 		effect = {
 			if = { #Ломбардия-венеция побеждавет левых
 				limit = {
-					FROM = { original_tag = VEN }
-					ROOT = { original_tag = ISR }
+					FROM = {
+						OR = {
+							is_in_faction_with = VEN
+							original_tag = VEN 
+						}
+					ROOT = { original_tag = ISR	}
 				}
 
 				FROM = {

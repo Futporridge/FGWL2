@@ -37,4 +37,5 @@ replace_path="common/units/names_divisions"
 replace_path="common/units/names_ships"
 replace_path="common/country_leader"
 replace_path="common/operations"
-
+replace_path="music"
+replace_path="common/country_tags"
