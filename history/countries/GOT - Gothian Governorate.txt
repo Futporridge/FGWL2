@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_KARL_STUMPP_DESC"
 	picture = "gfx/leaders/GOT/Portrait_Karl_Stummp.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}

@@ -54,7 +54,7 @@ create_country_leader = {
 	desc = "POLITICS_DUARTE_II_DESC"
 	picture = "gfx/leaders/POR/Portrait_Duarte.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_VASILIY_GIRAY_DESC"
 	picture = "gfx/leaders/CRM/Portrait_Vasiliy_Giray.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

@@ -43,7 +43,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANTISEK_SCHWARZENBERG_DESC"
 	picture = "gfx/leaders/CZE/Portrait_Frantisek_Schwarzenberg.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}
@@ -53,7 +53,7 @@ create_country_leader = {
 	desc = "POLITICS_KAREL_KRAMAR_DESC"
 	picture = "gfx/leaders/CZE/Portrait_Karel_Kramar.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}
@@ -63,7 +63,7 @@ create_country_leader = {
 	desc = "POLITICS_EDVARD_BENES_DESC"
 	picture = "gfx/leaders/CZE/Portrait_Eduard_Benes.tga"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_subtype
 	traits = { 
 
 	}

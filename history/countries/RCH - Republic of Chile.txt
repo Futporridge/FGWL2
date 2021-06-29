@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSE_MARIATEGUI_DESC"
 	picture = "gfx/leaders/RCH/Portrait_Jose_Carlos_Mariategui.tga"
 	expire = "1965.1.1"
-	ideology = individualism
+	ideology = individualism_subtype
 	traits = { 
 
 	}

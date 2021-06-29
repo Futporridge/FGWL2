@@ -46,7 +46,7 @@ create_country_leader = {
 	desc = "POLITICS_ALEXANDER_RUSIN_DESC"
 	picture = "gfx/leaders/ALS/Portrait_Aleksandr_Rusin.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}

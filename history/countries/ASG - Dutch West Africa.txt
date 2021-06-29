@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_PIM_VAN_OOSTERHOUT_DESC"
 	picture = "gfx/leaders/AGS/Portrait_Pim_van_Boetzelaer_van_Oosterhout.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}

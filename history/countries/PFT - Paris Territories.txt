@@ -38,7 +38,7 @@ create_country_leader = {
 	desc = "POLITICS_PFT_COUNCIL_DESC"
 	picture = "gfx/leaders/PFT/Local_Governments.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}

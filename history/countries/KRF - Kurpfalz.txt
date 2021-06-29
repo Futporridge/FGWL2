@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_GEORG_FRANZ_VON_BAYERN_DESC"
 	picture = "gfx/leaders/KRF/Portrait_Georg_Franz.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

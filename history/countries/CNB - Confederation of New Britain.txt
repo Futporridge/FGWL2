@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
 	picture = "gfx/leaders/CNB/Portrait_Douglas_MacArthur.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}
@@ -50,7 +50,7 @@ create_country_leader = {
 	desc = "POLITICS_RICHARD_SQUIRES_DESC"
 	picture = "gfx/leaders/CNB/Portrait_Richard_Squires.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}

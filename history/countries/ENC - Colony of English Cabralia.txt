@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_ROBERT_RANDOLPH_BRUCE_DESC"
 	picture = "gfx/leaders/ENC/Portrait_Robert_Randolph_Bruce.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_JANUSZ_RADZIWILL_DESC"
 	picture = "gfx/leaders/RUK/Portrait_Janusz_Radziwill.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

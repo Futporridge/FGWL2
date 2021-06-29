@@ -44,7 +44,7 @@ create_country_leader = {
 	desc = "POLITICS_JEAN_MOULIN_DESC"
 	picture = "gfx/leaders/PRO/Portrait_Jean_Moulin.tga"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_subtype
 	traits = { 
 
 	}

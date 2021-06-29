@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_JEAN_DE_BOURBON-PARMA_DESC"
 	picture = "gfx/leaders/KMC/Portrait_Jean_de_Bourbon-Parma.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}

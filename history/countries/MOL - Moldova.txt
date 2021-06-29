@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_CORNELIU_ZELIA_KODRIANU_DESC"
 	picture = "gfx/leaders/MOL/Portrait_Corneliu_Zelia_Codrianu.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_SANDOR_SIMONYI_SEMADAM_DESC"
 	picture = "gfx/leaders/HUN/Portrait_Sandor_Simonyi_Semadam.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}
@@ -50,7 +50,7 @@ create_country_leader = {
 	desc = "POLITICS_PAL_PRONAY_DESC"
 	picture = "gfx/leaders/HUN/Portrait_Pal_Pronay.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

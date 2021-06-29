@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_ALPHONES_CHARLES_AQUITAINE_DESC"
 	picture = "gfx/leaders/POI/Portrait_Jean_d_Orleans.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

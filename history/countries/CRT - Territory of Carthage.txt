@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_MARCEL_PEYROUTON_DESC"
 	picture = "gfx/leaders/CRT/Portrait_Marcel_Peyrouton.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

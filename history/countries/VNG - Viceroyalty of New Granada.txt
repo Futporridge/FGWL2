@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSE_SANJURJO_DESC"
 	picture = "gfx/leaders/VNG/Portrait_Jose_Sanjurjo.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

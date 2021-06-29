@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_JULES_CORNELIS_VAN_RADWICJCK_DESC"
 	picture = "gfx/leaders/EEN/Portrait_Jules_Cornelis_van_Randwijck.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}

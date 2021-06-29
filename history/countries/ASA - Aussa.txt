@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_MAHAMMAD_YAYYO_DESC"
 	picture = "gfx/leaders/ASA/Portrait_Mahammad_Yayyo.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

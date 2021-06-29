@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_KARL_GEORG_HUYN_DESC"
 	picture = "gfx/leaders/DEN/"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

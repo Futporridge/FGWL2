@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_AARNOUD_CAN_HEEMSTRA_DESC"
 	picture = "gfx/leaders/CAP/Portrait_Aarnoud_van_Heemstra.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}

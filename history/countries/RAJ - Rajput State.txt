@@ -36,7 +36,7 @@ create_country_leader = {
 	desc = "POLITICS_MAN_SINGH_DESC"
 	picture = "gfx/leaders/RAJ/Portraits_Man_Singh.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

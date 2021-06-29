@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_PERCY_HOWARD_HANSEN_DESC"
 	picture = "gfx/leaders/ESA/Portrait_Percy_Howard_Hansen.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHAN_LAIDONER_DESC"
 	picture = "gfx/leaders/EST/Portrait_Johan_Laidoner.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 }
 }

@@ -48,7 +48,7 @@ create_country_leader = {
 	desc = "POLITICS_BLANKA_DESC"
 	picture = "gfx/leaders/PAR/Portrait_Blanka.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}
@@ -58,7 +58,7 @@ create_country_leader = {
 	desc = "POLITICS_BLANKA_DESC"
 	picture = "gfx/leaders/PAR/Portrait_Blanka.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}
@@ -68,7 +68,7 @@ create_country_leader = {
 	desc = "POLITICS_BLANKA_DESC"
 	picture = "gfx/leaders/PAR/Portrait_Blanka.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}
@@ -78,7 +78,7 @@ create_country_leader = {
 	desc = "POLITICS_CHAUTEMPST_DESC"
 	picture = "gfx/leaders/PAR/Portrait_Chautempst.tga"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_subtype
 	traits = { 
 
 	}
@@ -88,7 +88,7 @@ create_country_leader = {
 	desc = "POLITICS_BLANKA_DESC"
 	picture = "gfx/leaders/PAR/Portrait_Blanka.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}
@@ -98,7 +98,7 @@ create_country_leader = {
 	desc = "POLITICS_DRIEU_DESC"
 	picture = "gfx/leaders/PAR/Portrait_Drieu.tga"
 	expire = "1965.1.1"
-	ideology = utopism
+	ideology = utopism_subtype
 	traits = { 
 
 	}
@@ -108,7 +108,7 @@ create_country_leader = {
 	desc = "POLITICS_DORIOT_DESC"
 	picture = "gfx/leaders/PAR/Portrait_Jacques_Doriot.tga"
 	expire = "1965.1.1"
-	ideology = prometeism
+	ideology = prometeism_subtype
 	traits = { 
 
 	}
@@ -118,7 +118,7 @@ create_country_leader = {
 	desc = "POLITICS_MARIUS_JACOB_DESC"
 	picture = "gfx/leaders/PAR/Portrait_Marius_Jacob.tga"
 	expire = "1965.1.1"
-	ideology = communitarianism
+	ideology = communitarianism_subtype
 	traits = { 
 
 	}
@@ -128,7 +128,7 @@ create_country_leader = {
 	desc = "POLITICS_BATAILLE_DESC"
 	picture = "gfx/leaders/PAR/Portrait_Bataille.tga"
 	expire = "1965.1.1"
-	ideology = individualism
+	ideology = individualism_subtype
 	traits = { 
 
 	}

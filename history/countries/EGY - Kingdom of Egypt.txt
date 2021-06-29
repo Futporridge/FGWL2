@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_HENRI_GOURAUD_DESC"
 	picture = "gfx/leaders/EGY/Portrait_Henri_Gouraud.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

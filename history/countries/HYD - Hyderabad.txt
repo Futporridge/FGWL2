@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_MAHBUB_ALI_KHAN_DESC"
 	picture = "gfx/leaders/HYD/Portrait_Mahbub_Ali_Khan.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

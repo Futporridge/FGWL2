@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_FRIEDRIECH_FRANZ_IV_DESC"
 	picture = "gfx/leaders/MCL/Portrait_Friedrich_Franz_IV.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

@@ -36,7 +36,7 @@ create_country_leader = {
 	desc = "POLITICS_PANAIT_ISTRATI_DESC"
 	picture = "gfx/leaders/TRN/Portrait_Panait_Istrati.tga"
 	expire = "1965.1.1"
-	ideology = utopism
+	ideology = utopism_subtype
 	traits = { 
 
 	}

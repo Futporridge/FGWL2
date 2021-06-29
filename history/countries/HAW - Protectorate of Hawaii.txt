@@ -46,7 +46,7 @@ create_country_leader = {
 	desc = "POLITICS_MIKHAIL_KITITSYN_DESC"
 	picture = "gfx/leaders/HAW/Portrait_Kiticin.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}

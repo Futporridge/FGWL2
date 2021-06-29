@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_IBRAHIM_NIASS_DESC"
 	picture = "gfx/leaders/TDJ/Portrait_Ibrahim_Niass.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

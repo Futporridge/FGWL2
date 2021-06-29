@@ -36,7 +36,7 @@ create_country_leader = {
 	desc = "POLITICS_ADELARD_GODBOUT_DESC"
 	picture = "gfx/leaders/ILN/Portrait_Adelard_Godbout.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}

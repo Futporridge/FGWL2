@@ -38,7 +38,7 @@ create_country_leader = {
 	desc = "POLITICS_PGILIPPE_HAUTECLOCQUE_DESC"
 	picture = "gfx/leaders/JER/Portrait_Philippe_de_Hauteclocque.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

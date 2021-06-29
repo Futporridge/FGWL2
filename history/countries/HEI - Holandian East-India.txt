@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_ALDIUS_STARCKENBORGH_DESC"
 	picture = "gfx/leaders/HEI/Portrait_Alidius_Tjarda_van_Starkenborgh_Stachouwer.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

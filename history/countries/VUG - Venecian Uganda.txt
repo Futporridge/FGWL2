@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_CAMILLO_OLIVETTI_DESC"
 	picture = "gfx/leaders/VUG/Portrait_Camillo_Olivetti.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}

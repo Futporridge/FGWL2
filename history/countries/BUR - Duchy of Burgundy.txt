@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANZ_IOSIF_BURGUNDY_DESC"
 	picture = "gfx/leaders/BUR/Portrait_Franz_Iosif.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

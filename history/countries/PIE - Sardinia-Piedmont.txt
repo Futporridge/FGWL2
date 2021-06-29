@@ -58,7 +58,7 @@ create_country_leader = {
 	desc = "POLITICS__DESC"
 	picture = "gfx/leaders/PIE/Portrait_Victor_Emmanuel_III.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}
@@ -68,7 +68,7 @@ create_country_leader = {
 	desc = "POLITICS__DESC"
 	picture = "gfx/leaders/PIE/Portrait_Victor_Emmanuel_III.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}
@@ -78,7 +78,7 @@ create_country_leader = {
 	desc = "POLITICS__DESC"
 	picture = "gfx/leaders/PIE/Portrait_Victor_Emmanuel_III.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}
@@ -88,7 +88,7 @@ create_country_leader = {
 	desc = "POLITICS_FILIPPO_MARINETTI_DESC"
 	picture = "gfx/leaders/ITE/Portrait_Filippo_Marinetti.tga"
 	expire = "1965.1.1"
-	ideology = individualism
+	ideology = individualism_subtype
 	traits = { 
 
 	}

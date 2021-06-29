@@ -36,7 +36,7 @@ create_country_leader = {
 	desc = "POLITICS_KARL_ARTELT_DESC"
 	picture = "gfx/leaders/VRS/Portrait_Karl_Artelt.tga"
 	expire = "1965.1.1"
-	ideology = prometeism
+	ideology = prometeism_subtype
 	traits = { 
 
 	}

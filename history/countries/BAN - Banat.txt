@@ -43,7 +43,7 @@ create_country_leader = {
 	desc = "POLITICS_HERMANN_RESCHNY_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Hermann_Reschny.tga"
 	expire = "1965.1.1"
-	ideology = utopism
+	ideology = utopism_subtype
 	traits = {
 		#
 	}

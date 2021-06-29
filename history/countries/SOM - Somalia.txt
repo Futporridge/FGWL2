@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_MOHAMOUD_ALI_SHIRE_DESC"
 	picture = "gfx/leaders/SOM/Portrait_Mahmud_ali_Shire.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

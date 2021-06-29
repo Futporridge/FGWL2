@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_MICHAEL_NASSAU_DESC"
 	picture = "gfx/leaders/NAS/Portrait_Michael_of_Torby.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}

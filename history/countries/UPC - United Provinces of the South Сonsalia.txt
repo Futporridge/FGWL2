@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_LIBORIO_JUSTO_DESC"
 	picture = "gfx/leaders/UPC/Portrait_Liborio_Justo.tga"
 	expire = "1965.1.1"
-	ideology = prometeism
+	ideology = prometeism_subtype
 	traits = { 
 
 	}

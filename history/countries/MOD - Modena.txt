@@ -41,7 +41,7 @@ create_country_leader = {
 	desc = "POLITICS_François_Vigerie_DESC"
 	picture = "gfx/leaders/MOD/Portrait_Francois_d_Astier_de_La_Vigerie.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

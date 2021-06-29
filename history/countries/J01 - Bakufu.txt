@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_TETSUZAN_NAGATA_DESC"
 	picture = "gfx/leaders/BAK/Portrait_Tetsuzan_Nagata.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}
@@ -49,7 +49,7 @@ create_country_leader = {
 	desc = "POLITICS_HITOSHI_YAMAKAWA_DESC"
 	picture = "gfx/leaders/BAK/Portrait_Hitoshi_Yamakawa.tga"
 	expire = "1965.1.1"
-	ideology = prometeism
+	ideology = prometeism_subtype
 	traits = { 
 
 	}

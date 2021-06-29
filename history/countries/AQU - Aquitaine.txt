@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_ALPHONES_CHARLES_AQUITAINE_DESC"
 	picture = "gfx/leaders/AQU/Portrait_Alphonse_Charles.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}

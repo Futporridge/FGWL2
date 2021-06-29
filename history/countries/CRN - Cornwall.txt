@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_DAPHNE_DU_MAURIER_DESC"
 	picture = "gfx/leaders/CRN/Portrait_Daphne_du_Maurier.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}
@@ -49,7 +49,7 @@ create_country_leader = {
 	desc = "POLITICS_DAPHNE_DU_MAURIER_DESC"
 	picture = "gfx/leaders/CRN/Portrait_Daphne_du_Maurier.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}
@@ -59,7 +59,7 @@ create_country_leader = {
 	desc = "POLITICS_DAPHNE_DU_MAURIER_DESC"
 	picture = "gfx/leaders/CRN/Portrait_Daphne_du_Maurier.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}
@@ -69,7 +69,7 @@ create_country_leader = {
 	desc = "POLITICS_DAPHNE_DU_MAURIER_DESC"
 	picture = "gfx/leaders/CRN/Portrait_Daphne_du_Maurier.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}

@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_ALBERT_STOHR_DESC"
 	picture = "gfx/leaders/MNZ/Portrait_Albert_Stohr.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

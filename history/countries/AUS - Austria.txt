@@ -136,7 +136,7 @@ create_country_leader = {
 	desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = {
 		#
 	}
@@ -146,7 +146,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANZ_BOHME_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Franz_Bohme.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}
@@ -156,7 +156,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSEF_OBREGGER_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Josef_Oberegger.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = {
 		#
 	}
@@ -166,7 +166,7 @@ create_country_leader = {
 	desc = "POLITICS_IRENE_HARAND_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Irene_Harand.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = {
 		#
 	}
@@ -176,7 +176,7 @@ create_country_leader = {
 	desc = "POLITICS_OTTO_BAUER_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Otto_Bauer.tga"
 	expire = "1965.1.1"
-	ideology = communitarianism
+	ideology = communitarianism_subtype
 	traits = {
 		#
 	}
@@ -186,7 +186,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANZ_KORITSCHONER_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Franz_Koritschoner.tga"
 	expire = "1965.1.1"
-	ideology = prometeism
+	ideology = prometeism_subtype
 	traits = {
 		#
 	}
@@ -196,7 +196,7 @@ create_country_leader = {
 	desc = "POLITICS_RICHARD_COUDENHOVE_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Richard_von_Coudenhove_Kalergi.tga"
 	expire = "1965.1.1"
-	ideology = individualism
+	ideology = individualism_subtype
 	traits = {
 		#
 	}
@@ -206,7 +206,7 @@ create_country_leader = {
 	desc = "POLITICS_KARL_RENNER_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Karl_Renner.tga"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_subtype
 	traits = {
 		#
 	}
@@ -216,7 +216,7 @@ create_country_leader = {
 	desc = "POLITICS_HERMANN_RESCHNY_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Hermann_Reschny.tga"
 	expire = "1965.1.1"
-	ideology = utopism
+	ideology = utopism_subtype
 	traits = {
 		#
 	}

@@ -2,7 +2,7 @@ ideologies = {
 
 	utopism = {
 		types = {
-			utopism = {} 
+			utopism_subtype = {} 
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_UTOPISM_1"
@@ -29,7 +29,7 @@ ideologies = {
 
 	prometeism = {
 		types = {
-			prometeism = {} 
+			 prometeism_subtype = {} 
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_PROMETEISM_1"
@@ -53,7 +53,7 @@ ideologies = {
 
 	communitarianism = {
 		types = {
-			communitarianism = {}
+			communitarianism_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_ANARCHIST_1"
@@ -75,7 +75,7 @@ ideologies = {
 	}
 	individualism = {
 		types = {
-			individualism = {}
+			individualism_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_INDIVIDUALISM_1"
@@ -98,7 +98,7 @@ ideologies = {
 
 	liberalism = {
 		types = {
-			liberalism = {}
+			liberalism_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_conservatism_1"
@@ -121,7 +121,7 @@ ideologies = {
 
     conservatism = {
 		types = {
-			conservatism = {}
+			conservatism_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_conservatism_1"
@@ -144,7 +144,7 @@ ideologies = {
 
 	oligarchy = {
 		types = {
-			oligarchy = {}
+			oligarchy_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_OLIGARCHY_1"
@@ -167,7 +167,7 @@ ideologies = {
 	
 	paternalism = {
 		types = {
-			paternalism = {}
+			paternalism_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_PATERNALISM_1"
@@ -190,7 +190,7 @@ ideologies = {
 
 	reactionary = {
 		types = {
-			reactionary = {}
+			reactionary_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_REACTIONARY_1"

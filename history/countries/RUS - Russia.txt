@@ -64,7 +64,7 @@ create_country_leader = {
 	desc = "POLITICS_DMITRIY_SERGEEVICH_DESC"
 	picture = "gfx/leaders/RUS/Portrait_Dmitriy_Sergeevich.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}
@@ -74,7 +74,7 @@ create_country_leader = {
 	desc = "POLITICS_VLADIMIR_MAZURIN_DESC"
 	picture = "gfx/leaders/RUS/Portrait_Vladimir_Mazurin.tga"
 	expire = "1965.1.1"
-	ideology = utopism
+	ideology = utopism_subtype
 	traits = { 
 
 	}
@@ -84,7 +84,7 @@ create_country_leader = {
 	desc = "POLITICS_ALEXEI_RYKOV_DESC"
 	picture = "gfx/leaders/RUS/Portrait_Alexei_Rykov.tga"
 	expire = "1965.1.1"
-	ideology = prometeism
+	ideology = prometeism_subtype
 	traits = { 
 
 	}
@@ -94,7 +94,7 @@ create_country_leader = {
 	desc = "POLITICS_LEV_CHERNYI_DESC"
 	picture = "gfx/leaders/RUS/Portrait_Lev_Chernyi.tga"
 	expire = "1965.1.1"
-	ideology = individualism
+	ideology = individualism_subtype
 	traits = { 
 
 	}
@@ -104,7 +104,7 @@ create_country_leader = {
 	desc = "POLITICS_PAVEL_GORGULOV_DESC"
 	picture = "gfx/leaders/RUS/Portrait_Pavel_Gorgulov.tga"
 	expire = "1965.1.1"
-	ideology = communitarianism
+	ideology = communitarianism_subtype
 	traits = { 
 
 	}
@@ -114,7 +114,7 @@ create_country_leader = {
 	desc = "POLITICS_ANASTASY_VONSIATSKY_DESC"
 	picture = "gfx/leaders/RUS/Portrait_Anastasy_Vonsiatsky.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}
@@ -124,7 +124,7 @@ create_country_leader = {
 	desc = "POLITICS_DMITRIY_SERGEEVICH_DESC"
 	picture = "gfx/leaders/RUS/Portrait_Dmitriy_Sergeevich.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}
@@ -134,7 +134,7 @@ create_country_leader = {
 	desc = "POLITICS_FELIX_YUSUPOV_DESC"
 	picture = "gfx/leaders/RUS/Portrait_Felix_Yusupov.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}
@@ -144,7 +144,7 @@ create_country_leader = {
 	desc = "POLITICS_MIKHAIL_MURAVYOV_DESC"
 	picture = "gfx/leaders/RUS/Portrait_Mikhail_Muravyov.tga"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_subtype
 	traits = { 
 
 	}

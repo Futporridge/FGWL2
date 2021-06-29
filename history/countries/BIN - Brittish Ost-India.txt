@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_VICTOR_HOPE_OF_LINLITHGOW_DESC"
 	picture = "gfx/leaders/BIN/Portrait_Victor_Hope_of_Linlithgow.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

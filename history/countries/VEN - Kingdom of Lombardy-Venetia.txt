@@ -85,7 +85,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSEPH_AUGUST_DESC"
 	picture = "gfx/leaders/VEN/Portrait_Joseph_August.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}
@@ -95,7 +95,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSEPH_AUGUST_DESC"
 	picture = "gfx/leaders/VEN/Portrait_Joseph_August.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}
@@ -105,7 +105,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSEPH_AUGUST_DESC"
 	picture = "gfx/leaders/VEN/Portrait_Joseph_August.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}
@@ -115,7 +115,7 @@ create_country_leader = {
 	desc = "POLITICS_FILIPPO_MARINETTI_DESC"
 	picture = "gfx/leaders/ITE/Portrait_Filippo_Marinetti.tga"
 	expire = "1965.1.1"
-	ideology = individualism
+	ideology = individualism_subtype
 	traits = { 
 
 	}
@@ -126,7 +126,7 @@ create_country_leader = {
 	desc = "POLITICS_LUIGI_LONGO_DESC"
 	picture = "gfx/leaders/TUS/Portrait_Luigi_Longo.tga"
 	expire = "1965.1.1"
-	ideology = utopism
+	ideology = utopism_subtype
 	traits = { 
 
 	}
@@ -137,7 +137,7 @@ create_country_leader = {
 	desc = "POLITICS_NICOLA_BOMBACCI_DESC"
 	picture = "gfx/leaders/TUS/Portrait_Nicola_Bombacci.tga"
 	expire = "1965.1.1"
-	ideology = prometeism
+	ideology = prometeism_subtype
 	traits = { 
 
 	}
@@ -148,7 +148,7 @@ create_country_leader = {
 	desc = "POLITICS_AMADEO_BORDIGA_DESC"
 	picture = "gfx/leaders/TUS/Portrait_Amadeo_Bordiga.tga"
 	expire = "1965.1.1"
-	ideology = communitarianism
+	ideology = communitarianism_subtype
 	traits = { 
 
 	}
@@ -159,7 +159,7 @@ create_country_leader = {
 	desc = "POLITICS_ALBERTO_MESCHI_DESC"
 	picture = "gfx/leaders/TUS/Portrait_Alberto_Meschi.tga"
 	expire = "1965.1.1"
-	ideology = communitarianism
+	ideology = communitarianism_subtype
 	traits = { 
 
 	}

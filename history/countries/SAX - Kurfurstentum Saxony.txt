@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_GEORG_VON_SACHSEN_DESC"
 	picture = "gfx/leaders/SAX/Portrait_Friedrich_Christian.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}

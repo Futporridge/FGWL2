@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_KARL_GEORG_HUYN_DESC"
 	picture = "gfx/leaders/ISL/"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}
@@ -49,7 +49,7 @@ create_country_leader = {
 	desc = "POLITICS_BJORN_SVEINSSON_BJORNSSON_DESC"
 	picture = "gfx/leaders/ISL/Portrait_Bjorn_Sveinsson_Bjornsson.tga"
 	expire = "1965.1.1"
-	ideology = utopism
+	ideology = utopism_subtype
 	traits = { 
 
 	}

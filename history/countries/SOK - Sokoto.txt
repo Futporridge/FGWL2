@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_SIDDIQ_ABUBAKAR_III_DESC"
 	picture = "gfx/leaders/SOK/Portrait_Siddiq_Abubakar_III.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

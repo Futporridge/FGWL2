@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_CYPRIAN_KA_SOLOMON_DESC"
 	picture = "gfx/leaders/ZUL/Portrait_Cyprian_Bhekuzulu_kaSolomon.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_BERTHOLD_VON_BADEN_DESC"
 	picture = "gfx/leaders/BAD/Portrait_Berthold_von_Baden.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}

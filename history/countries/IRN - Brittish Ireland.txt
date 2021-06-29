@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_ADRIAN_CARTON_DE_WIART_DESC"
 	picture = "gfx/leaders/IRN/Portrait_Adrian_Carton_de_Wiart.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}

@@ -52,7 +52,7 @@ create_country_leader = {
 	desc = "POLITICS_SHAHAJI_II_DESC"
 	picture = "gfx/leaders/MRH/Portrait_Shahaji_II.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_ERNST_III_DESC"
 	picture = "gfx/leaders/HAN/Portrait_Ernst_August_III.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

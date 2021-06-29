@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_HENRI_DE_TOULOUSE_DESC"
 	picture = "gfx/leaders/TOU/Portrait_Henri_de_Toulouse_Lautrec.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

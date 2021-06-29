@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_ABDULLAH_IBN_AL_HUSAYN_DESC"
 	picture = "gfx/leaders/HSH/Portrait_Abdullah_I.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}
