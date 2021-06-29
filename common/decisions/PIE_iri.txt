@@ -292,7 +292,7 @@ PIE_iri = {
 				check_variable = {
 					var = alps_manpower
 					value = alps_manpower_max
-					compare = alps_than_or_equals
+					compare = greater_than_or_equals
 				}
 			}
 		}
