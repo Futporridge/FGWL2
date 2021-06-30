@@ -80,24 +80,11 @@ pop.1.d:0 ""
 pop.1.a:0 "With God's help"
 
 #############Решения############
-TYR_shield_of_the_republic:0 "Shield of the Republic"
-TYR_shield_of_the_republic_desc:0 "Reform the fucking army reeee!!!!!"
-recreate_the_heer:0 "Recreate the Heer"
-form_the_austrian_armored_corps:0 "Form the Austrian Armored Corps"
-equipment_renovation:0 "Renovate the Infantry Equipment"
-land_doctrinal_renovation:0 "Expand the Land Doctrine"
-recreate_the_luftstreitkrafte:0 "Recreate the Luftstreitkräfte"
-buy_airfleet:0 "Buy Foreign Aviation"
-create_airfield:0 "Expand Tyrol Airfield"
-air_doctrinal_renovation:0 "Develop the Air Doctrine"
-recreate_the_Kriegsmarine:0 "Recreate the Kriegsmarine"
-expand_dockyards:0 "Expand Dockyards"
-expand_fleet:0 "New Naval Designs"
-recreate_naval_doctrine:0 "Reform the Naval Doctrine"
+
 
 #############Тултипы############
-POP_concrete_landscape_text:0 "§RThe road to hell is paved with good intentions§"
-POP_the_people_of_italy_text:0 "The result will depend on the countries that have joined your alliance"
+POP_concrete_landscape_text:0 "§GForts will be built on the border with the Italian Empire§"
+POP_the_people_of_italy_text:0 "§CThe result will depend on the countries that have joined your alliance§"
 POP_the_congregation_of_church_text:0 "§YGod wills it§"
 pop_12_text:0 "This is the end"
 #############Фокусы############
