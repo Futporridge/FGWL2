@@ -1,0 +1,22 @@
+﻿	add_namespace = rhg
+	add_namespace = rhguni	
+	
+	country_event = {	
+	id = rhguni.1
+	title = rhguni.1.t
+	desc = rhguni.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	immediate = {
+	hidden_effect = {
+		set_cosmetic_tag = RHG_republic
+		}
+				}
+	option = {
+		name = rhguni.1.a
+			hidden_effect = {
+
+			}
+		}
+}
