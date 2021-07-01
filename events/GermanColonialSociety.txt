@@ -45,7 +45,7 @@ retire_country_leader = yes
 	desc = "POLITICS_HAROLD_DASPREMONT_LYNDEN_DESC"
 	picture = "Portrait_Harold_dAspremont_Lynden.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = {
 		
 	}

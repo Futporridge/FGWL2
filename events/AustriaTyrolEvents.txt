@@ -75,7 +75,7 @@ immediate = {
 			desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
 			picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
 			expire = "1965.1.1"
-			ideology = reactionary
+			ideology = reactionary_subtype
 			traits = {
 				#
 			}
@@ -85,7 +85,7 @@ immediate = {
 			desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
 			picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
 			expire = "1965.1.1"
-			ideology = paternalism
+			ideology = paternalism_subtype
 			traits = {
 				#
 			}
@@ -95,7 +95,7 @@ immediate = {
 			desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
 			picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
 			expire = "1965.1.1"
-			ideology = oligarchy
+			ideology = oligarchy_subtype
 			traits = {
 				#
 			}
@@ -105,7 +105,7 @@ immediate = {
 			desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
 			picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
 			expire = "1965.1.1"
-			ideology = conservatism
+			ideology = conservatism_subtype
 			traits = {
 				#
 			}
@@ -168,7 +168,7 @@ create_country_leader = {
 	desc = "POLITICS_MAXIMILIAN_DE_ANGELIS_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Maximilian_de_Angelis.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}
@@ -763,7 +763,7 @@ immediate = {
 			desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
 			picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
 			expire = "1965.1.1"
-			ideology = reactionary
+			ideology = reactionary_subtype
 			traits = {
 				#
 			}
@@ -773,7 +773,7 @@ immediate = {
 			desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
 			picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
 			expire = "1965.1.1"
-			ideology = paternalism
+			ideology = paternalism_subtype
 			traits = {
 				#
 			}
@@ -783,7 +783,7 @@ immediate = {
 			desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
 			picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
 			expire = "1965.1.1"
-			ideology = oligarchy
+			ideology = oligarchy_subtype
 			traits = {
 				#
 			}
@@ -793,7 +793,7 @@ immediate = {
 			desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
 			picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
 			expire = "1965.1.1"
-			ideology = conservatism
+			ideology = conservatism_subtype
 			traits = {
 				#
 			}
