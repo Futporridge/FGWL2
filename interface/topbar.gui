@@ -58,7 +58,7 @@ guiTypes = {
 			buttonType = {
 				name = "music_pause_button"
 				quadTextureSprite ="GFX_music_pause_button"
-				position = { x= -195 y = 6 }
+				position = { x= -200 y = 5 }
 				Orientation = "UPPER_RIGHT"
 			}	
 
@@ -398,7 +398,7 @@ guiTypes = {
 		buttonType ={
 			name ="threat_button"
 			spriteType = "GFX_world_tension_icon_big_strip"
-			position = { x=-96 y=20 }
+			position = { x=-95 y=23 }
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_default
 		}
