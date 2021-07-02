@@ -246,9 +246,9 @@ on_actions = {
 						election_frequency = 48
 					}
 					create_country_leader = {
-						name = "Ferdinando Pio Maria"
-						desc = "POLITICS_FERDINANDO_PIO_MARIA_DESC"
-						picture = "gfx/leaders/ITE/Portrait_Ferdinando_Pio_Maria.tga"
+						name = "Consiglio di reggenza"
+						desc = "POLITICS_CONSIGLIO_REGGENZA_DESC"
+						picture = "gfx/leaders/ITE/Portrait_Consiglio_di_reggenza.tga"
 						expire = "1965.1.1"
 						ideology = reactionary_subtype
 						traits = {	}
