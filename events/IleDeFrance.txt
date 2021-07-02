@@ -23,7 +23,7 @@
 		name = "Henri Giraud"
 		picture = "gfx/leaders/PFT/Portrait_Henri_Giraud.tga"
 		expire = "1965.1.1"
-		ideology = paternalism
+		ideology = paternalism_subtype
 	}
 	set_politics = {
 			ruling_party = paternalism
@@ -53,25 +53,25 @@
 		name = "Assunta I"
 		picture = "gfx/leaders/CHA/Portrait_Assunta.tga"
 		expire = "1965.1.1"
-		ideology = paternalism
+		ideology = paternalism_subtype
 	}
 			create_country_leader = {
 		name = "Assunta I"
 		picture = "gfx/leaders/CHA/Portrait_Assunta.tga"
 		expire = "1965.1.1"
-		ideology = conservatism
+		ideology = conservatism_subtype
 	}	
 			create_country_leader = {
 		name = "Assunta I"
 		picture = "gfx/leaders/CHA/Portrait_Assunta.tga"
 		expire = "1965.1.1"
-		ideology = oligarchy
+		ideology = oligarchy_subtype
 	}	
 			create_country_leader = {
 		name = "Assunta I"
 		picture = "gfx/leaders/CHA/Portrait_Assunta.tga"
 		expire = "1965.1.1"
-		ideology = reactionary
+		ideology = reactionary_subtype
 	}	
 	set_politics = {
 			ruling_party = conservatism

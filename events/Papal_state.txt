@@ -235,7 +235,7 @@
 				desc = "POLITICS_CONSIGLIO_PATRIZIO_DESC"
 				picture = "gfx/leaders/POP/Portrait_Consiglio_Patrizio.dds"
 				expire = "1965.1.1"
-				ideology = oligarchy
+				ideology = oligarchy_subtype
 				traits = {	}
 			}
 			set_political_party = {

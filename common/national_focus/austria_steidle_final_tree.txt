@@ -371,7 +371,7 @@ focus_tree = {
 		desc = "POLITICS_OTTO_CZE_DESC"
 		picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
 		expire = "1965.1.1"
-		ideology = oligarchy
+		ideology = oligarchy_subtype
 		traits = {
 		
 		}
@@ -394,7 +394,7 @@ focus_tree = {
 		desc = "POLITICS_OTTO_CRO_DESC"
 		picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
 		expire = "1965.1.1"
-		ideology = oligarchy
+		ideology = oligarchy_subtype
 		traits = {
 		
 		}
@@ -414,7 +414,7 @@ focus_tree = {
 		desc = "POLITICS_OTTO_SER_DESC"
 		picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
 		expire = "1965.1.1"
-		ideology = oligarchy
+		ideology = oligarchy_subtype
 		traits = {
 		
 		}
@@ -452,7 +452,7 @@ focus_tree = {
 		desc = "POLITICS_OTTO_HUN_DESC"
 		picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
 		expire = "1965.1.1"
-		ideology = oligarchy
+		ideology = oligarchy_subtype
 		traits = {
 		
 		}
@@ -477,7 +477,7 @@ focus_tree = {
 		desc = "POLITICS_OTTO_KGL_DESC"
 		picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
 		expire = "1965.1.1"
-		ideology = oligarchy
+		ideology = oligarchy_subtype
 		traits = {
 		
 		}
@@ -498,7 +498,7 @@ focus_tree = {
 		desc = "POLITICS_OTTO_SIL_DESC"
 		picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
 		expire = "1965.1.1"
-		ideology = oligarchy
+		ideology = oligarchy_subtype
 		traits = {
 		
 		}

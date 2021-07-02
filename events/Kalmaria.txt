@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_MAXIMILIAN_EUGEN_VON_HABSBURG_DESC"
 	picture = "gfx/leaders/KAL/Portrait_Maximilian_Eugen_von_Habsburg.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}
@@ -66,7 +66,7 @@ create_country_leader = {
 	desc = "POLITICS_CHRISTIAN_OF_DENMARK_DESC"
 	picture = "gfx/leaders/KAL/Portrait_Christian_of_Dennmark.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = {
 		#
 	}
@@ -92,7 +92,7 @@ create_country_leader = {
 	desc = "POLITICS_FERDINAND_OF_BAVARIA_DESC"
 	picture = "gfx/leaders/KAL/Portrait_Ferdinand_of_Bavaria.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = {
 		#
 	}
