@@ -276,38 +276,4 @@ ideas = {
 				factor = 0
 			}
 		}
-		resistenza = {
-			
-			allowed = {
-				always = no # Triggered via event
-			}
-
-			picture = resistenza 
-			
-			modifier = {
-				occupation_cost = 0.2
-				no_compliance_gain = 1
-			}
-	
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		
-		resistenza = {
-			
-			allowed = {
-				always = no # Triggered via event
-			}
-
-			picture = resistenza 
-			
-			modifier = {
-				occupation_cost = 0.2
-			}
-	
-			ai_will_do = {
-				factor = 0
-			}
-		}
 	}
