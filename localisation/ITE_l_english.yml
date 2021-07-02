@@ -18,6 +18,8 @@ ITE_conservatism_ADJ:0 "Italian"
 ITE_oligarchy_ADJ:0 "Italian"
 ITE_paternalism_ADJ:0 "Italian"
 ITE_reactionary_ADJ:0 "Italian"
+#############Название-окуппация############
+ITE_TOWSIC_reactionary:0 "Kingdom of the Two Sicilies"
 
 #############Партии############
 ITE_utopism_party:0 "VP"
