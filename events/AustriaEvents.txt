@@ -1790,9 +1790,17 @@ immediate = {
 			hidden_effect = {
 		53 = {			
 		add_core_of = BFR
-			}			
+			}
+		1071 = {			
+		add_core_of = BFR
+			}	
+		1072 = {			
+		add_core_of = BFR
+			}				
 		BFR = {
-		transfer_state = 53				
+		transfer_state = 53	
+		transfer_state = 1071			
+		transfer_state = 1072			
 		}		
 	}	
 }

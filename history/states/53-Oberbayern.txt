@@ -12,13 +12,13 @@ state={
 		add_core_of = AUS
 		add_core_of = BAV
 		victory_points = {
-			9515 15 
+			3299 15 
 		}
 
 	}
 
 	provinces={
-		532 571 586 3299 3541 3571 6725 9515 9681 11497 
+		571 586 3299 3571 
 	}
 	manpower=1453365
 	buildings_max_level_factor=1.000

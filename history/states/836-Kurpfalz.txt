@@ -1,9 +1,8 @@
+
 state={
 	id=836
 	name="STATE_836"
-	provinces={
-		563 3558 6568 11531 11547 
-	}
+
 	history={
 		owner = KRF
 		victory_points = {
@@ -17,9 +16,12 @@ state={
 		}
 		add_core_of = KRF
 
-	
-	}	
-	state_category=town	
+	}
+
+	provinces={
+		6568 
+	}
 	manpower=2054332
 	buildings_max_level_factor=1.000
+	state_category=city
 }

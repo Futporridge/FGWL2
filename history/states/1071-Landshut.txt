@@ -1,0 +1,23 @@
+state={
+	id=1071
+	name="STATE_1071"
+	provinces={
+		6725 9515 9681 
+	}
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = AUS
+		add_core_of = BAV
+		victory_points = {
+			6725 5 
+		}
+
+	}
+	state_category=rural	
+	manpower=735523
+	buildings_max_level_factor=1.000
+}

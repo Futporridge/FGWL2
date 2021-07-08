@@ -18,18 +18,13 @@ state={
 			infrastructure = 7
 			arms_factory = 2
 			industrial_complex = 1
-			dockyard = 2
-			6325 = {
-				naval_base = 1
-
-			}
-
 		}
 		add_core_of = HAN
+
 	}
 
 	provinces={
-		526 3271 3395 6218 6263 6298 6325 6377 9238 9264 9375 11493 
+		3271 3395 6377 11493 
 	}
 	manpower=2438286
 	buildings_max_level_factor=1.000

@@ -1,0 +1,22 @@
+state={
+	id=1061
+	name="STATE_1061"
+	provinces={
+		9294 9320 11305 
+	}
+	history={
+		owner = MCL
+		victory_points = {
+			11305 3
+		}
+		
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = MCL
+
+	}	
+	state_category=rural	
+	manpower=653213
+	buildings_max_level_factor=1.000
+}
