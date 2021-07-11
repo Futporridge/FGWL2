@@ -29,7 +29,7 @@ set_popularities = {
 }
 
 add_ideas = {
-
+colonial_economy
 }
 
 set_convoys = 100

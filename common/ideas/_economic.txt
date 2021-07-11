@@ -4,7 +4,7 @@ ideas = {
 		law = yes
 		use_list_view = yes
 		
-		undisturbed_isolation = {
+		colonial_economy = {
 			
 			
 			allowed = {
@@ -13,20 +13,13 @@ ideas = {
 			removal_cost = -1
 		
 			modifier = {
-				consumer_goods_factor = 0.50
-				production_speed_industrial_complex_factor = -0.5
-				production_speed_arms_factory_factor = -0.5
-				production_speed_dockyard_factor = -0.5
-				conversion_cost_civ_to_mil_factor = 0.5
-				conversion_cost_mil_to_civ_factor = 0.5
-				generate_wargoal_tension = 1.00
-				join_faction_tension = 0.20
-				lend_lease_tension = 0.50
-				send_volunteers_tension = 0.20
-				guarantee_tension = 0.75
-				max_fuel_factor = -0.45
-				fuel_gain_factor = -0.6
-				agency_upgrade_time = 1.0
+				stability_factor = -0.20
+				war_support_factor = -0.20
+				production_speed_buildings_factor = -0.25
+				consumer_goods_factor = 0.2
+				monthly_population = 0.2
+				production_factory_efficiency_gain_factor = -0.15	
+				industrial_capacity_dockyard = -0.30
 			}
 			
 			cancel_if_invalid = no
@@ -46,10 +39,6 @@ ideas = {
 				production_speed_dockyard_factor = -0.4
 				conversion_cost_civ_to_mil_factor= 0.4
 				conversion_cost_mil_to_civ_factor = 0.4
-				generate_wargoal_tension = 1.00
-				join_faction_tension = 0.20
-				send_volunteers_tension = 0.20
-				guarantee_tension = 0.5
 				max_fuel_factor = -0.35
 				fuel_gain_factor = -0.5
 				agency_upgrade_time = 0.8

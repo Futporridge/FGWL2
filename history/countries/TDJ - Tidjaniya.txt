@@ -29,7 +29,7 @@ set_popularities = {
 }
 
 add_ideas = {
-
+isolation
 }
 
 set_convoys = 100
