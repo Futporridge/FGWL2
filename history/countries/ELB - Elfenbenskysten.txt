@@ -38,7 +38,7 @@ create_country_leader = {
 	desc = "POLITICS_PRINCE_FRIEDRICH_SOLMS_BARUTH_III_DESC"
 	picture = "gfx/leaders/ELB/Portrait_Prince_Friedrich_Solms_Baruth_III.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}

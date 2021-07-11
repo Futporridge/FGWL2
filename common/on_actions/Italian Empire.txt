@@ -1,10 +1,10 @@
 on_actions = {
 	on_startup = {
 		effect = {
-	ITE = {
-	country_event = { id = ite.1 }		
-		}
+			ITE = {
+				country_event = { id = ite.1 }		
+			}
 
+		}
 	}
 }
-}	

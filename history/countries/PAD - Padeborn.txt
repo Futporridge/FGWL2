@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_KASPAR_KLEIN_DESC"
 	picture = "gfx/leaders/PAD/Portrait_Kaspar_Klein.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

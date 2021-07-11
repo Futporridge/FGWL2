@@ -41,7 +41,7 @@ create_country_leader = {
 	desc = "POLITICS_CLEMENS_GALEN_DESC"
 	picture = "gfx/leaders/MUN/Portrait_Clemens_August.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 	der_lowe_von_munster
 	}

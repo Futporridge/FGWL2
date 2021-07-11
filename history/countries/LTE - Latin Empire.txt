@@ -114,11 +114,11 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Joseph Ferdinand von Habsburg"
+	name = "Joseph Ferrand I"
 	desc = "POLITICS_JOSEPH_FERDINAND_DESC"
 	picture = "gfx/leaders/LTE/Portrait_Joseph_Ferdinand.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

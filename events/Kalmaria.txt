@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_MAXIMILIAN_EUGEN_VON_HABSBURG_DESC"
 	picture = "gfx/leaders/KAL/Portrait_Maximilian_Eugen_von_Habsburg.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}
@@ -66,7 +66,7 @@ create_country_leader = {
 	desc = "POLITICS_CHRISTIAN_OF_DENMARK_DESC"
 	picture = "gfx/leaders/KAL/Portrait_Christian_of_Dennmark.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = {
 		#
 	}
@@ -92,7 +92,7 @@ create_country_leader = {
 	desc = "POLITICS_FERDINAND_OF_BAVARIA_DESC"
 	picture = "gfx/leaders/KAL/Portrait_Ferdinand_of_Bavaria.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = {
 		#
 	}
@@ -242,91 +242,5 @@ country_event = {
 	option = {
 		name = kal_g.4.a
 				
-}
-}
-country_event = {	
-	id = swe.1
-	title = swe.1.t
-	desc = swe.1.d
-	picture = GFX_
-
-	is_triggered_only = yes
-	
-	immediate = {
-	hidden_effect = {
-	country_event = { id = swe.2 days = 8 }
-				set_politics = {
-								ruling_party = utopism
-							   }
-				}
-				}
-	option = {
-		name = swe.1.a
-		
-
-}
-}
-country_event = {	
-	id = swe.2
-	title = swe.2.t
-	desc = swe.2.d
-	picture = GFX_
-
-	is_triggered_only = yes
-	
-	immediate = {
-	
-			hidden_effect = {
-			FIN = {
-		transfer_state = 195
-		transfer_state = 148
-		transfer_state = 150
-		transfer_state = 111
-		transfer_state = 213
-		transfer_state = 215
-		transfer_state = 149
-		transfer_state = 146
-		transfer_state = 208
-		transfer_state = 244
-		transfer_state = 216
-		country_event = {  }			
-		}
-		SWE = {
-		
-		remove_state_core = 195
-		remove_state_core = 148
-		remove_state_core = 150
-		remove_state_core = 111
-		remove_state_core = 213
-		remove_state_core = 215
-		remove_state_core = 149
-		remove_state_core = 146
-		remove_state_core = 208
-		remove_state_core = 244
-		remove_state_core = 216
-		remove_state_core = 994
-			
-		}
-				
-					
-			
-		}
-}
-option = {
-name = swe.2.a
-declare_war_on = {
-    target = FIN
-    type = annex_everything
-}
-}
-option = {
-name = swe.2.b
-hidden_effect = {	
-			declare_war_on = {
-    target = FIN
-    type = annex_everything
-}
-	FIN = { change_tag_from = FROM }	 
-		}
 }
 }

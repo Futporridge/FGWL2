@@ -1,0 +1,24 @@
+state={
+	id=1070
+	name="STATE_1070"
+	provinces={
+		708 9666 11638 
+	}
+	history={
+		owner = BAV
+		victory_points = {
+			708 3 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = BAV
+
+	}
+	state_category=town	
+	manpower=1085232
+	buildings_max_level_factor=1.000
+}

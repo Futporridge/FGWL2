@@ -1,0 +1,34 @@
+﻿l_english:
+####ministers####
+Gosta_Bagge:0 "Gösta Bagge"
+Gustaf_Bernadot:0 "Gustaf Bernadot"
+Helge_Jung:0 "Helge Jung"
+###parties####
+SWE_utopism_party:0 "SSS"
+SWE_utopism_party_long:0 "Svensk Socialistisk Samling (Swedish Socialist Gathering)"
+SWE_prometeism_party:0 "SP"
+SWE_prometeism_party_long:0 "Socialistiska Partiet (Socialist Party)"
+SWE_communitarianism_party:0 "V"
+SWE_communitarianism_party_long:0 "Vänsterpartiet (Left Party)"
+SWE_individualism_party:0 "CP"
+SWE_individualism_party_long:0 "Civilisationspartiet (Civilization Party)"
+SWE_liberalism_party:0 "FP"
+SWE_liberalism_party_long:0 "Folkpartiet (Liberal People's Party)"
+SWE_conservatism_party:0 "M"
+SWE_conservatism_party_long:0 "Moderata Samlingspartiet (Moderate Party)"
+SWE_oligarchy_party:0 "B"
+SWE_oligarchy_party_long:0 "Bondeförbundet (Farmers' League)"
+SWE_paternalism_party:0 "Militärjunta"
+SWE_paternalism_party_long:0 "Militärjunta (Military Junta)"
+SWE_reactionary_party:0 "HP"
+SWE_reactionary_party_long:0 "Hovpartiet (The Royal Court Party)"
+###ideas###
+
+###events###
+swe.1.t:0 ""
+swe.1.d:0 ""
+swe.1.a:0 ""
+swe.2.t:0 ""
+swe.2.d:0 ""
+swe.2.a:0 ""
+

@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_EDGARD_DE_LARMINAT_DESC"
 	picture = "gfx/leaders/FGB/Portrait_Edgard_de_Larminat.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

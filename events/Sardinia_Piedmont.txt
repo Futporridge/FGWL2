@@ -1,0 +1,1486 @@
+﻿
+	add_namespace = pie
+	add_namespace = pie_iri
+	
+country_event = { #Вступление
+	id = pie.1
+	title = pie.1.t
+	desc = pie.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = pie.1.a
+		
+		complete_national_focus = PIE_french_ambitions
+	}
+}
+
+country_event = { #Письмо в Бордо
+	id = pie.2
+	title = pie.2.t
+	desc = pie.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = { #Да
+		name = pie.2.a
+		
+		PIE  = {
+			
+			country_event = { id = pie.3 }
+		}
+	}
+}
+
+country_event = { #Республиканцйы обединаются 
+	id = pie.4
+	title = pie.4.t
+	desc = pie.4.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			LYO = {
+				give_guarantee = VCH
+				give_military_access = VCH
+				give_guarantee = PRO
+				give_military_access = PRO
+			}
+			VCH = {
+				give_guarantee = LYO
+				give_military_access = LYO
+				give_guarantee = PRO
+				give_military_access = PRO
+			}
+			PRO = {
+				give_guarantee = LYO
+				give_military_access = LYO
+				give_guarantee = VCH
+				give_military_access = VCH
+			}
+		}
+	}
+
+	option = { #offff
+		name = pie.4.a
+		
+	}
+}
+
+country_event = { #Республиканцйы обединаются 
+	id = pie.5
+	title = pie.5.t
+	desc = pie.5.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = { #offff
+		name = pie.5.a 
+		PIE = {
+			declare_war_on = {
+				target = LYO
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = VCH
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = PRO
+				type = annex_everything
+			}
+		}
+	}
+}
+
+###########################################################
+#########################IRI EVENTS########################
+###########################################################
+
+country_event = { #Перераспредление менпавера
+	id = pie_iri.1
+	title = pie_iri.1.t
+	desc = pie_iri.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = { #из пьемонда
+		name = pie_iri.1.a
+		trigger = {
+			NOT = {
+				check_variable = {
+					var = piedmont_manpower
+					value = 0
+					compare = less_than_or_equals
+				}
+			}
+		}
+		set_country_flag = iri_redeploy_labor_piedmont_flag
+		country_event = { id = pie_iri.2 }
+	}
+	
+	option = { #из Генуи
+		name = pie_iri.1.b
+		trigger = {
+			NOT = {
+				check_variable = {
+					var = genova_manpower
+					value = 0
+					compare = less_than_or_equals
+				}
+			}
+		}
+		set_country_flag = iri_redeploy_labor_genova_flag
+		country_event = { id = pie_iri.2 }
+	}
+	
+	option = { #из Ниццы
+		name = pie_iri.1.c
+		trigger = {
+			NOT = {
+				check_variable = {
+					var = nice_manpower
+					value = 0
+					compare = less_than_or_equals
+				}
+			}
+		}
+		set_country_flag = iri_redeploy_labor_nice_flag
+		country_event = { id = pie_iri.2 }
+	}
+	
+	option = { #из Альп
+		name = pie_iri.1.d
+		trigger = {
+			NOT = {
+				check_variable = {
+					var = alps_manpower
+					value = 0
+					compare = less_than_or_equals
+				}
+			}
+		}
+		set_country_flag = iri_redeploy_labor_alps_flag
+		country_event = { id = pie_iri.2 }
+	}
+	
+	option = { #Закрыть
+		name = pie_iri.1.e
+		add_political_power = 15
+	}
+}
+
+country_event = { #Перераспредление менпавера
+	id = pie_iri.2
+	title = pie_iri.2.t
+	desc = pie_iri.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = { #в пьемонд
+		name = pie_iri.2.a
+		trigger = {
+			NOT = {
+				check_variable = {
+					var = piedmont_manpower
+					value = piedmont_manpower_max
+					compare = greater_than_or_equals
+				}
+			}
+			NOT = {
+				has_country_flag = iri_redeploy_labor_piedmont_flag
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = iri_redeploy_labor_genova_flag
+			}
+			add_to_variable = {genova_manpower = -1}
+			add_to_variable = {piedmont_manpower = 1}
+			clr_country_flag = iri_redeploy_labor_genova_flag
+		}
+		if = {
+			limit = {
+				has_country_flag = iri_redeploy_labor_nice_flag
+			}
+			add_to_variable = {nice_manpower = -1}
+			add_to_variable = {piedmont_manpower = 1}
+			clr_country_flag = iri_redeploy_labor_nice_flag
+		}
+		if = {
+			limit = {
+				has_country_flag = iri_redeploy_labor_alps_flag
+			}
+			add_to_variable = {alps_manpower = -1}
+			add_to_variable = {piedmont_manpower = 1}
+			clr_country_flag = iri_redeploy_labor_alps_flag
+		}
+	}
+	
+	option = { #в Генуи
+		name = pie_iri.2.b
+		trigger = {
+			NOT = {
+				check_variable = {
+					var = genova_manpower
+					value = genova_manpower_max
+					compare = greater_than_or_equals
+				}
+			}
+			NOT = {
+				has_country_flag = iri_redeploy_labor_genova_flag
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = iri_redeploy_labor_piedmont_flag
+			}
+			clr_country_flag = iri_redeploy_labor_piedmont_flag
+			add_to_variable = {piedmont_manpower = -1}
+			add_to_variable = {genova_manpower = 1}
+		}
+		if = {
+			limit = {
+				has_country_flag = iri_redeploy_labor_nice_flag
+			}
+			clr_country_flag = iri_redeploy_labor_nice_flag
+			add_to_variable = {nice_manpower = -1}
+			add_to_variable = {genova_manpower = 1}
+		}
+		if = {
+			limit = {
+				has_country_flag = iri_redeploy_labor_alps_flag
+			}
+			clr_country_flag = iri_redeploy_labor_alps_flag
+			add_to_variable = {alps_manpower = -1}
+			add_to_variable = {genova_manpower = 1}
+		}
+	}
+	
+	option = { #в Ниццы
+		name = pie_iri.2.c
+		trigger = {
+			NOT = {
+				check_variable = {
+					var = nice_manpower
+					value = nice_manpower_max
+					compare = greater_than_or_equals
+				}
+			}
+			NOT = {
+				has_country_flag = iri_redeploy_labor_nice_flag
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = iri_redeploy_labor_piedmont_flag
+			}
+			clr_country_flag = iri_redeploy_labor_piedmont_flag
+			add_to_variable = {piedmont_manpower = -1}
+			add_to_variable = {nice_manpower = 1}
+		}
+		if = {
+			limit = {
+				has_country_flag = iri_redeploy_labor_genova_flag
+			}
+			clr_country_flag = iri_redeploy_labor_genova_flag
+			add_to_variable = {genova_manpower = -1}
+			add_to_variable = {nice_manpower = 1}
+		}
+		if = {
+			limit = {
+				has_country_flag = iri_redeploy_labor_alps_flag
+			}
+			clr_country_flag = iri_redeploy_labor_alps_flag
+			add_to_variable = {alps_manpower = -1}
+			add_to_variable = {nice_manpower = 1}
+		}
+	}
+	
+	option = { #в Альп
+		name = pie_iri.2.d
+		trigger = {
+			NOT = {
+				check_variable = {
+					var = alps_manpower
+					value = alps_manpower_max
+					compare = greater_than_or_equals
+				}
+			}
+			NOT = {
+				has_country_flag = iri_redeploy_labor_alps_flag
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = iri_redeploy_labor_piedmont_flag
+			}
+			clr_country_flag = iri_redeploy_labor_piedmont_flag
+			add_to_variable = { piedmont_manpower = -1 }
+			add_to_variable = { alps_manpower = 1 }
+		}
+		if = {
+			limit = {
+				has_country_flag = iri_redeploy_labor_genova_flag
+			}
+			clr_country_flag = iri_redeploy_labor_genova_flag
+			add_to_variable = { genova_manpower = -1 }
+			add_to_variable = { alps_manpower = 1 }
+		}
+		if = {
+			limit = {
+				has_country_flag = iri_redeploy_labor_nice_flag
+			}
+			clr_country_flag = iri_redeploy_labor_nice_flag
+			add_to_variable = { nice_manpower = -1 }
+			add_to_variable = { alps_manpower = 1 }
+		}
+	}
+	
+	option = { #Закрыть
+		name = pie_iri.2.e
+		add_political_power = 15
+	}
+}
+
+country_event = { #дебаг пъемонта
+	id = pie_iri.3
+	title = pie_iri.3.t
+	desc = pie_iri.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	immediate = {
+		158 = {
+			remove_dynamic_modifier = { modifier = iri_industry_1 }
+			remove_dynamic_modifier = { modifier = iri_industry_2 }
+			remove_dynamic_modifier = { modifier = iri_industry_3 }
+			remove_dynamic_modifier = { modifier = iri_industry_4 }
+			remove_dynamic_modifier = { modifier = iri_industry_5 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_1 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_2 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_3 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_4 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_5 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_1 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_2 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_3 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_4 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_5 }
+		}
+		force_update_dynamic_modifier = yes
+		state_event = {
+			id = pie_iri.4
+		}
+	}
+}
+
+country_event = { #дебаг пьемонда 2
+	id = pie_iri.4
+	title = pie_iri.4.t
+	desc = pie_iri.4.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				check_variable = {
+					var = piedmont_industry
+					value = 1
+					compare = equals
+				}
+			}
+			158 = {
+				add_dynamic_modifier = { modifier = iri_industry_1 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = piedmont_industry
+					value = 2
+					compare = equals
+				}
+			}
+			158 = {
+				add_dynamic_modifier = { modifier = iri_industry_2 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = piedmont_industry
+					value = 3
+					compare = equals
+				}
+			}
+			158 = {
+				add_dynamic_modifier = { modifier = iri_industry_3 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = piedmont_industry
+					value = 4
+					compare = equals
+				}
+			}
+			158 = {
+				add_dynamic_modifier = { modifier = iri_industry_4 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = piedmont_industry
+					value = 5
+					compare = equals
+				}
+			}
+			158 = {
+				add_dynamic_modifier = { modifier = iri_industry_5 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = piedmont_infrastructure
+					value = 1
+					compare = equals
+				}
+			}
+			158 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_1 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = piedmont_infrastructure
+					value = 2
+					compare = equals
+				}
+			}
+			158 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_2 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = piedmont_infrastructure
+					value = 3
+					compare = equals
+				}
+			}
+			158 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_3 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = piedmont_infrastructure
+					value = 4
+					compare = equals
+				}
+			}
+			158 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_4 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = piedmont_infrastructure
+					value = 5
+					compare = equals
+				}
+			}
+			158 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_5 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = piedmont_agriculture
+					value = 1
+					compare = equals
+				}
+			}
+			158 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_1 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = piedmont_agriculture
+					value = 2
+					compare = equals
+				}
+			}
+			158 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_2 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = piedmont_agriculture
+					value = 3
+					compare = equals
+				}
+			}
+			158 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_3 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = piedmont_agriculture
+					value = 4
+					compare = equals
+				}
+			}
+			158 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_4 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = piedmont_agriculture
+					value = 5
+					compare = equals
+				}
+			}
+			158 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_5 }
+			}
+		}
+	}
+}
+country_event = { #дебаг генуя
+	id = pie_iri.5
+	title = pie_iri.5.t
+	desc = pie_iri.5.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	immediate = {
+		802 = {
+			remove_dynamic_modifier = { modifier = iri_industry_1 }
+			remove_dynamic_modifier = { modifier = iri_industry_2 }
+			remove_dynamic_modifier = { modifier = iri_industry_3 }
+			remove_dynamic_modifier = { modifier = iri_industry_4 }
+			remove_dynamic_modifier = { modifier = iri_industry_5 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_1 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_2 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_3 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_4 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_5 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_1 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_2 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_3 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_4 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_5 }
+		}
+		force_update_dynamic_modifier = yes
+		state_event = {
+			id = pie_iri.6
+		}
+	}
+}
+country_event = { #дебаг генуя 2
+	id = pie_iri.6
+	title = pie_iri.6.t
+	desc = pie_iri.6.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_industry
+					value = 1
+					compare = equals
+				}
+			}
+			802 = {
+				add_dynamic_modifier = { modifier = iri_industry_1 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_industry
+					value = 2
+					compare = equals
+				}
+			}
+			802 = {
+				add_dynamic_modifier = { modifier = iri_industry_2 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_industry
+					value = 3
+					compare = equals
+				}
+			}
+			802 = {
+				add_dynamic_modifier = { modifier = iri_industry_3 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_industry
+					value = 4
+					compare = equals
+				}
+			}
+			802 = {
+				add_dynamic_modifier = { modifier = iri_industry_4 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_industry
+					value = 5
+					compare = equals
+				}
+			}
+			802 = {
+				add_dynamic_modifier = { modifier = iri_industry_5 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_infrastructure
+					value = 1
+					compare = equals
+				}
+			}
+			802 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_1 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_infrastructure
+					value = 2
+					compare = equals
+				}
+			}
+			802 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_2 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_infrastructure
+					value = 3
+					compare = equals
+				}
+			}
+			802 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_3 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_infrastructure
+					value = 4
+					compare = equals
+				}
+			}
+			802 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_4 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_infrastructure
+					value = 5
+					compare = equals
+				}
+			}
+			802 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_5 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_agriculture
+					value = 1
+					compare = equals
+				}
+			}
+			802 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_1 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_agriculture
+					value = 2
+					compare = equals
+				}
+			}
+			802 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_2 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_agriculture
+					value = 3
+					compare = equals
+				}
+			}
+			802 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_3 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_agriculture
+					value = 4
+					compare = equals
+				}
+			}
+			802 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_4 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_agriculture
+					value = 5
+					compare = equals
+				}
+			}
+			802 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_5 }
+			}
+		}
+	}
+}
+country_event = { #дебаг ницца
+	id = pie_iri.7
+	title = pie_iri.7.t
+	desc = pie_iri.7.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	immediate = {
+		919 = {
+			remove_dynamic_modifier = { modifier = iri_industry_1 }
+			remove_dynamic_modifier = { modifier = iri_industry_2 }
+			remove_dynamic_modifier = { modifier = iri_industry_3 }
+			remove_dynamic_modifier = { modifier = iri_industry_4 }
+			remove_dynamic_modifier = { modifier = iri_industry_5 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_1 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_2 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_3 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_4 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_5 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_1 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_2 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_3 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_4 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_5 }
+		}
+		force_update_dynamic_modifier = yes
+		state_event = {
+			id = pie_iri.8
+		}
+	}
+}
+country_event = { #дебаг ницца 2
+	id = pie_iri.8
+	title = pie_iri.8.t
+	desc = pie_iri.8.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_industry
+					value = 1
+					compare = equals
+				}
+			}
+			919 = {
+				add_dynamic_modifier = { modifier = iri_industry_1 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_industry
+					value = 2
+					compare = equals
+				}
+			}
+			919 = {
+				add_dynamic_modifier = { modifier = iri_industry_2 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_industry
+					value = 3
+					compare = equals
+				}
+			}
+			919 = {
+				add_dynamic_modifier = { modifier = iri_industry_3 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_industry
+					value = 4
+					compare = equals
+				}
+			}
+			919 = {
+				add_dynamic_modifier = { modifier = iri_industry_4 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_industry
+					value = 5
+					compare = equals
+				}
+			}
+			919 = {
+				add_dynamic_modifier = { modifier = iri_industry_5 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_infrastructure
+					value = 1
+					compare = equals
+				}
+			}
+			919 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_1 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_infrastructure
+					value = 2
+					compare = equals
+				}
+			}
+			919 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_2 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_infrastructure
+					value = 3
+					compare = equals
+				}
+			}
+			919 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_3 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_infrastructure
+					value = 4
+					compare = equals
+				}
+			}
+			919 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_4 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_infrastructure
+					value = 5
+					compare = equals
+				}
+			}
+			919 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_5 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_agriculture
+					value = 1
+					compare = equals
+				}
+			}
+			919 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_1 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_agriculture
+					value = 2
+					compare = equals
+				}
+			}
+			919 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_2 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_agriculture
+					value = 3
+					compare = equals
+				}
+			}
+			919 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_3 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_agriculture
+					value = 4
+					compare = equals
+				}
+			}
+			919 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_4 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = genova_agriculture
+					value = 5
+					compare = equals
+				}
+			}
+			919 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_5 }
+			}
+		}
+	}
+}
+country_event = { #дебаг альпы
+	id = pie_iri.9
+	title = pie_iri.9.t
+	desc = pie_iri.9.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	immediate = {
+		735 = {
+			remove_dynamic_modifier = { modifier = iri_industry_1 }
+			remove_dynamic_modifier = { modifier = iri_industry_2 }
+			remove_dynamic_modifier = { modifier = iri_industry_3 }
+			remove_dynamic_modifier = { modifier = iri_industry_4 }
+			remove_dynamic_modifier = { modifier = iri_industry_5 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_1 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_2 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_3 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_4 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_5 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_1 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_2 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_3 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_4 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_5 }
+		}
+		918 = {
+			remove_dynamic_modifier = { modifier = iri_industry_1 }
+			remove_dynamic_modifier = { modifier = iri_industry_2 }
+			remove_dynamic_modifier = { modifier = iri_industry_3 }
+			remove_dynamic_modifier = { modifier = iri_industry_4 }
+			remove_dynamic_modifier = { modifier = iri_industry_5 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_1 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_2 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_3 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_4 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_5 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_1 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_2 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_3 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_4 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_5 }
+		}
+		845 = {
+			remove_dynamic_modifier = { modifier = iri_industry_1 }
+			remove_dynamic_modifier = { modifier = iri_industry_2 }
+			remove_dynamic_modifier = { modifier = iri_industry_3 }
+			remove_dynamic_modifier = { modifier = iri_industry_4 }
+			remove_dynamic_modifier = { modifier = iri_industry_5 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_1 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_2 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_3 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_4 }
+			remove_dynamic_modifier = { modifier = iri_infrastructure_5 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_1 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_2 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_3 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_4 }
+			remove_dynamic_modifier = { modifier = iri_agriculture_5 }
+		}
+		force_update_dynamic_modifier = yes
+		state_event = {
+			id = pie_iri.10
+		}
+	}
+}
+country_event = { #дебаг альпы 2
+	id = pie_iri.10
+	title = pie_iri.10.t
+	desc = pie_iri.10.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				check_variable = {
+					var = alps_industry
+					value = 1
+					compare = equals
+				}
+			}
+			735 = {
+				add_dynamic_modifier = { modifier = iri_industry_1 }
+			}
+			918 = {
+				add_dynamic_modifier = { modifier = iri_industry_1 }
+			}
+			845 = {
+				add_dynamic_modifier = { modifier = iri_industry_1 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = alps_industry
+					value = 2
+					compare = equals
+				}
+			}
+			735 = {
+				add_dynamic_modifier = { modifier = iri_industry_2 }
+			}
+			918 = {
+				add_dynamic_modifier = { modifier = iri_industry_2 }
+			}
+			845 = {
+				add_dynamic_modifier = { modifier = iri_industry_2 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = alps_industry
+					value = 3
+					compare = equals
+				}
+			}
+			735 = {
+				add_dynamic_modifier = { modifier = iri_industry_3 }
+			}
+			918 = {
+				add_dynamic_modifier = { modifier = iri_industry_3 }
+			}
+			845 = {
+				add_dynamic_modifier = { modifier = iri_industry_3 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = alps_industry
+					value = 4
+					compare = equals
+				}
+			}
+			735 = {
+				add_dynamic_modifier = { modifier = iri_industry_4 }
+			}
+			918 = {
+				add_dynamic_modifier = { modifier = iri_industry_4 }
+			}
+			845 = {
+				add_dynamic_modifier = { modifier = iri_industry_4 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = alps_industry
+					value = 5
+					compare = equals
+				}
+			}
+			735 = {
+				add_dynamic_modifier = { modifier = iri_industry_5 }
+			}
+			918 = {
+				add_dynamic_modifier = { modifier = iri_industry_5 }
+			}
+			845 = {
+				add_dynamic_modifier = { modifier = iri_industry_5 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = alps_infrastructure
+					value = 1
+					compare = equals
+				}
+			}
+			735 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_1 }
+			}
+			918 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_1 }
+			}
+			845 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_1 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = alps_infrastructure
+					value = 2
+					compare = equals
+				}
+			}
+			735 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_2 }
+			}
+			918 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_2 }
+			}
+			845 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_2 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = alps_infrastructure
+					value = 3
+					compare = equals
+				}
+			}
+			735 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_3 }
+			}
+			918 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_3 }
+			}
+			845 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_3 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = alps_infrastructure
+					value = 4
+					compare = equals
+				}
+			}
+			735 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_4 }
+			}
+			918 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_4 }
+			}
+			845 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_4 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = alps_infrastructure
+					value = 5
+					compare = equals
+				}
+			}
+			735 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_5 }
+			}
+			918 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_5 }
+			}
+			845 = {
+				add_dynamic_modifier = { modifier = iri_infrastructure_5 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = alps_agriculture
+					value = 1
+					compare = equals
+				}
+			}
+			735 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_1 }
+			}
+			918 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_1 }
+			}
+			845 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_1 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = alps_agriculture
+					value = 2
+					compare = equals
+				}
+			}
+			735 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_2 }
+			}
+			918 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_2 }
+			}
+			845 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_2 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = alps_agriculture
+					value = 3
+					compare = equals
+				}
+			}
+			735 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_3 }
+			}
+			918 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_3 }
+			}
+			845 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_3 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = alps_agriculture
+					value = 4
+					compare = equals
+				}
+			}
+			735 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_4 }
+			}
+			918 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_4 }
+			}
+			845 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_4 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = alps_agriculture
+					value = 5
+					compare = equals
+				}
+			}
+			735 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_5 }
+			}
+			918 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_5 }
+			}
+			845 = {
+				add_dynamic_modifier = { modifier = iri_agriculture_5 }
+			}
+		}
+	}
+}
+
+country_event = { #Вступление
+	id = pie_iri.11
+	title = pie.11.t
+	desc = pie.11.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = pie_iri.11.a
+		
+		add_days_mission_timeout = {
+			mission = PIE_alps_highway_mission
+			days = 30
+		}
+	}
+	
+	option = {
+		name = pie_iri.11.b
+		
+		add_political_power = -50
+	}
+	
+	option = {
+		name = pie_iri.11.c
+		
+		add_political_power = -75
+		add_days_mission_timeout = {
+			mission = PIE_alps_highway_mission
+			days = -15
+		}
+	}
+}
+
+country_event = { #Вступление
+	id = pie_iri.12
+	title = pie.12.t
+	desc = pie.12.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = pie_iri.12.a
+		
+		add_manpower = -200
+		add_days_mission_timeout = {
+			mission = PIE_alps_highway_mission
+			days = 35
+		}
+	}
+	
+	option = {
+		name = pie_iri.12.b
+		
+		add_political_power = -75
+	}
+	
+	option = {
+		name = pie_iri.12.c
+		
+		add_political_power = -100
+		add_days_mission_timeout = {
+			mission = PIE_alps_highway_mission
+			days = -30
+		}
+	}
+}
+
+country_event = { #Вступление
+	id = pie_iri.13
+	title = pie.13.t
+	desc = pie.13.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = pie_iri.13.a
+		
+		add_tech_bonus = {
+			name = PIE_heavy_panzer
+			bonus = 1.0
+			uses = 1
+			category = cat_heavy_armor
+		}
+	}
+	
+	option = {
+		name = pie_iri.13.b
+		
+		add_tech_bonus = {
+			name = PIE_light_panzer
+			bonus = 1.0
+			uses = 1
+			category = cat_light_armor
+		}
+	}
+}

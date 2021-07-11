@@ -38,7 +38,7 @@ create_country_leader = {
 	desc = "POLITICS_ANATOL_LIEVEN_DESC"
 	picture = "gfx/leaders/PSK/Portrait_Anatol_von_Lieven.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}

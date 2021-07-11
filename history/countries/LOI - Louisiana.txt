@@ -35,7 +35,7 @@ create_country_leader = {
 	desc = "POLITICS_LAMMOT_DU_PONT_DESC"
 	picture = "gfx/leaders/LOI/Portrait_Lammot_du_Pont_II.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}

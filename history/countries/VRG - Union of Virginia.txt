@@ -50,7 +50,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSEPH_RUTHERFORD_DESC"
 	picture = "gfx/leaders/VRG/Portrait_Joseph_Franklin_Rutherford.tga"
 	expire = "1965.1.1"
-	ideology = utopism
+	ideology = utopism_subtype
 	traits = { 
 
 	}
@@ -60,7 +60,7 @@ create_country_leader = {
 	desc = "POLITICS_SMEDLEY_BUTLER_DESC"
 	picture = "gfx/leaders/VRG/Portrait_Smedley_Butler.tga"
 	expire = "1965.1.1"
-	ideology = prometeism
+	ideology = prometeism_subtype
 	traits = { 
 
 	}
@@ -70,7 +70,7 @@ create_country_leader = {
 	desc = "POLITICS_MARK_MATTHEWS_DESC"
 	picture = "gfx/leaders/VRG/Portrait_Mark_A_Matthews.tga"
 	expire = "1965.1.1"
-	ideology = communitarianism
+	ideology = communitarianism_subtype
 	traits = { 
 
 	}
@@ -80,7 +80,7 @@ create_country_leader = {
 	desc = "POLITICS_ALBERT_NOCK_DESC"
 	picture = "gfx/leaders/VRG/Portrait_Albert_Jay_Nock.tga"
 	expire = "1965.1.1"
-	ideology = individualism
+	ideology = individualism_subtype
 	traits = { 
 
 	}
@@ -90,7 +90,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHN_DEWEY_DESC"
 	picture = "gfx/leaders/VRG/Portrait_John_Dewey.tga"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_subtype
 	traits = { 
 
 	}
@@ -100,7 +100,7 @@ create_country_leader = {
 	desc = "POLITICS_ALEXANDER_RUSIN_DESC"
 	picture = "gfx/leaders/VRG/Portrait_Congress_of_the_union.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}
@@ -110,7 +110,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSEPH_KENNEDY_SR_DESC"
 	picture = "gfx/leaders/VRG/Portrait_Joseph_P_Kennedy_Sr.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}
@@ -120,7 +120,7 @@ create_country_leader = {
 	desc = "POLITICS_HERBERT_AGAR_DESC"
 	picture = "gfx/leaders/VRG/Portrait_Herbert_Agar.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}
@@ -130,7 +130,7 @@ create_country_leader = {
 	desc = "POLITICS_DONALD_S_DAY_DESC"
 	picture = "gfx/leaders/VRG/Portrait_Donald_S_Day.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

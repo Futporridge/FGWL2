@@ -9,7 +9,6 @@ ideas = {
 				original_tag = AUS
 			}
 			available = {
-			always = no
 			}
 			
 			traits = { The_Old_Regent }
@@ -25,6 +24,7 @@ ideas = {
 			available = {
 			always = no
 			}
+			cancel_if_invalid = yes
 			
 			traits = { army_leader }
 		}

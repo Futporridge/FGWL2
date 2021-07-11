@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSEPH_JULES_BREVIE_DESC"
 	picture = "gfx/leaders/FSG/Portrait_Joseph_Jules_Brevie.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

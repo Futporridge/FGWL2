@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_PAUL_LETTOW_VORBECK_DESC"
 	picture = "gfx/leaders/BCL/Portrait_Lettow_Vorbeck.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

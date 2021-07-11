@@ -1,9 +1,9 @@
 on_actions = {
 	on_startup = {
 		effect = {
-	VEN = {
-	country_event = { id = ven.2 }		
+			VEN = {
+				country_event = { id = ven.2 }		
+			}
 		}
 	}
-}
 }	

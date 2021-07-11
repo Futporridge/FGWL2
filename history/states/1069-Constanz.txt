@@ -1,0 +1,23 @@
+state={
+	id=1069
+	name="STATE_1069"
+	provinces={
+		3679 
+	}
+	history={
+		owner = BAD
+		victory_points = {
+			3679 5 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = BAD
+
+	}	
+	state_category=town	
+	manpower=420433
+	buildings_max_level_factor=1.000
+}

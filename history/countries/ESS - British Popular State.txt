@@ -41,7 +41,7 @@ create_country_leader = {
 	desc = "POLITICS_HARRY_POLLITT_DESC"
 	picture = "gfx/leaders/ESS/Portrait_Harry_Pollitt.tga"
 	expire = "1965.1.1"
-	ideology = prometeism
+	ideology = prometeism_subtype
 	traits = { 
 
 	}

@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHAN_PAUL_VAN_LIMBURG_DESC"
 	picture = "gfx/leaders/DEA/Portrait_Johan_Paul_van_Limburg_Stirum.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}

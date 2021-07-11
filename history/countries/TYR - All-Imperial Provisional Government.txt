@@ -53,7 +53,7 @@ create_country_leader = {
 	desc = "POLITICS_RICHARD_STEIDLE_DESC"
 	picture = "gfx/leaders/TYR/Portrait_Richard_Steidle.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}
@@ -63,7 +63,7 @@ create_country_leader = {
 	desc = "POLITICS_MILLIMETTERNICH_DESC"
 	picture = "gfx/leaders/TYR/Portrait_Engelbert_Dollfuss.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}
@@ -73,7 +73,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTON_OREL_DESC"
 	picture = "gfx/leaders/TYR/Portrait_Anton_Orel.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = {
 		#
 	}

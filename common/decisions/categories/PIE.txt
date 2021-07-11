@@ -1,0 +1,16 @@
+################
+##### AUS ######
+################
+
+PIE_iri = {
+	
+	icon = GFX_decision_generic_factory	
+	picture = GFX_decision_cat_generic_mefo_bills
+	visible_when_empty = yes
+	allowed = {
+		tag = PIE
+	}
+	visible = {
+		has_country_flag = iri_flag
+	}
+}

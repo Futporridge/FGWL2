@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_CARL_GUSTAF_EMIL_MANNERGHEIM_DESC"
 	picture = "gfx/leaders/FIN/Carl_Gustaf_Emil_Mannerheim.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

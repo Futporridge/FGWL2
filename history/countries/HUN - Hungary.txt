@@ -16,13 +16,15 @@ set_politics = {
 }
 
 set_popularities = {
-	utopism = 35
-	prometeism = 10
-	communitarianism = 5
-	oligarchy = 10
-	conservatism = 30
-	paternalism = 10
-	reactionary = 0
+	utopism = 11
+	prometeism = 12
+	communitarianism = 13
+	liberalism = 7
+	individualism = 0
+	oligarchy = 13
+	conservatism = 16
+	paternalism = 14
+	reactionary = 14
 }
 
 add_ideas = {
@@ -38,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_SANDOR_SIMONYI_SEMADAM_DESC"
 	picture = "gfx/leaders/HUN/Portrait_Sandor_Simonyi_Semadam.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}
@@ -48,7 +50,7 @@ create_country_leader = {
 	desc = "POLITICS_PAL_PRONAY_DESC"
 	picture = "gfx/leaders/HUN/Portrait_Pal_Pronay.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

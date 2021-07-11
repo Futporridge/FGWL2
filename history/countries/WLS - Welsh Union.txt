@@ -41,7 +41,7 @@ create_country_leader = {
 	desc = "POLITICS_NICLAS_Y_GLAIS_DESC"
 	picture = "gfx/leaders/WLS/Portrait_Niclas.tga"
 	expire = "1965.1.1"
-	ideology = communitarianism
+	ideology = communitarianism_subtype
 	traits = { 
 
 	}

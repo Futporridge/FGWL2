@@ -1,0 +1,134 @@
+﻿
+	add_namespace = swe
+	
+country_event = {	
+	id = swe.1
+	title = swe.1.t
+	desc = swe.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	immediate = {
+	hidden_effect = {
+	country_event = { id = swe.2 days = 16 }
+				set_politics = {
+								ruling_party = utopism
+							   }
+				}
+				}
+	option = {
+		name = swe.1.a
+		
+
+}
+}
+country_event = {	
+	id = swe.2
+	title = swe.2.t
+	desc = swe.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	immediate = {
+	
+			hidden_effect = {
+			FIN = {
+		transfer_state = 195
+		transfer_state = 148
+		transfer_state = 150
+		transfer_state = 111
+		transfer_state = 213
+		transfer_state = 215
+		transfer_state = 149
+		transfer_state = 146
+		transfer_state = 208
+		transfer_state = 244
+		transfer_state = 216
+		country_event = {  }			
+		}
+		SWE = {
+		
+		remove_state_core = 195
+		remove_state_core = 148
+		remove_state_core = 150
+		remove_state_core = 111
+		remove_state_core = 213
+		remove_state_core = 215
+		remove_state_core = 149
+		remove_state_core = 146
+		remove_state_core = 208
+		remove_state_core = 244
+		remove_state_core = 216
+		remove_state_core = 994
+			
+		}
+				
+					
+			
+		}
+}
+option = {
+name = swe.2.a
+declare_war_on = {
+    target = FIN
+    type = annex_everything
+}
+}
+option = {
+name = swe.2.b
+hidden_effect = {	
+			declare_war_on = {
+    target = FIN
+    type = annex_everything
+}
+	FIN = { change_tag_from = FROM }	 
+		}
+}
+}
+country_event = {	
+	id = swe.3
+	title = swe.3.t
+	desc = swe.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	immediate = {
+
+				}
+   option = {
+				name = swe.3.a
+				hidden_effect = {
+								remove_ideas = {
+									AUS_head_of_gov_vacant
+									           }
+								add_ideas = { 
+									Gustaf_Bernadot
+											}
+								}
+			}
+   option = {
+				name = swe.3.b
+				hidden_effect = {
+								remove_ideas = {
+									AUS_head_of_gov_vacant
+									           }
+								add_ideas = { 
+									Helge_Jung
+											}				
+								}
+			}
+   option = {
+				name = swe.3.c
+				hidden_effect = {
+								remove_ideas = {
+									AUS_head_of_gov_vacant
+									           }
+								add_ideas = { 
+									Gosta_Bagge
+											}
+								}
+			}
+}

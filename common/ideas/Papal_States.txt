@@ -11,8 +11,9 @@ ideas = {
 			
 			modifier = {
 				stability_factor = 0.10
-				stability_weekly = -0.005
+				stability_weekly = -0.001
 				reactionary_drift = -0.05
+				conscription_factor = -0.3
 			}
 	
 			ai_will_do = {
@@ -30,7 +31,8 @@ ideas = {
 			
 			modifier = {
 				stability_factor = 0.10
-				stability_weekly = -0.005
+				stability_weekly = -0.001
+				conscription_factor = -0.15
 			}
 	
 			ai_will_do = {
@@ -50,7 +52,7 @@ ideas = {
 				production_speed_bunker_factor = 0.35
 				production_speed_coastal_bunker_factor = 0.35
 				production_speed_anti_air_building_factor = 0.35
-				consumer_goods_factor = 0.25
+				consumer_goods_factor = 0.10
 				
 			}
 	
@@ -71,7 +73,7 @@ ideas = {
 				production_speed_bunker_factor = 0.45
 				production_speed_coastal_bunker_factor = 0.45
 				production_speed_anti_air_building_factor = 0.45
-				consumer_goods_factor = 0.30
+				consumer_goods_factor = 0.15
 				weekly_manpower = -100 
 				
 			}
@@ -93,7 +95,7 @@ ideas = {
 				production_speed_bunker_factor = 0.55
 				production_speed_coastal_bunker_factor = 0.55
 				production_speed_anti_air_building_factor = 0.55
-				consumer_goods_factor = 0.35
+				consumer_goods_factor = 0.20
 				weekly_manpower = -200 
 				monthly_population = -0.05
 			}
@@ -115,7 +117,6 @@ ideas = {
 				production_speed_bunker_factor = 0.10
 				production_speed_coastal_bunker_factor = 0.10
 				production_speed_anti_air_building_factor = 0.10
-				consumer_goods_factor = 0.10
 			}
 	
 			ai_will_do = {

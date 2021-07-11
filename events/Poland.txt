@@ -23,7 +23,7 @@ create_country_leader = {
 	desc = "POLITICS_WALERY_JANPSLAWEK_DESC"
 	picture = "Portrait_Walery_Slawek.tga"
 	expire = "1965.1.1"
-	ideology = individualism
+	ideology = individualism_subtype
 	traits = {
 		
 	}

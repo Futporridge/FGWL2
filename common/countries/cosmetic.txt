@@ -1,0 +1,4 @@
+ITE_TOWSIC = {
+    color = rgb { 200 150 00 }
+    color_ui = rgb { 255 73 121 }
+}

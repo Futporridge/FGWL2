@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_JEAN_MARIE_ABRIAL_DESC"
 	picture = "gfx/leaders/CFA/Portrait_Jean_Marie_Charles_Abrial.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

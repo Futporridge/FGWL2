@@ -859,7 +859,7 @@ create_country_leader = {
 	desc = "POLITICS_VIKTOR_DANKL_DESC"
 	picture = "Portrait_Viktor_Dankl.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = {
 		
 	}
@@ -881,11 +881,14 @@ country_event = {
 	title = aus.24.t
 	desc = aus.24.d
 	picture = GFX_
+	immediate = {
+	
+	}
 
 	is_triggered_only = yes
 	option = {
 		name = aus.24.a
-
+		
 	}
 }
 country_event = {	
@@ -911,7 +914,7 @@ create_country_leader = {
 	desc = "POLITICS_MAXIMILIAN_DE_ANGELIS_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Maximilian_de_Angelis.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}
@@ -1527,6 +1530,7 @@ immediate = {
 	country_event = { id = aus.48 days = 14 }	
 			
 		HUN = {
+		inherit_technology = AUS		
 		transfer_state = 807		
 		transfer_state = 887		
 		transfer_state = 892 
@@ -1562,6 +1566,7 @@ immediate = {
 		transfer_state = 914	
 		country_event = { id = hun.1 days = 6 }			
 		}
+		HUN = { load_oob = HUN_1936 }
 		AUS = {
 		remove_state_core = 807		
 		remove_state_core = 887		
@@ -1785,9 +1790,17 @@ immediate = {
 			hidden_effect = {
 		53 = {			
 		add_core_of = BFR
-			}			
+			}
+		1071 = {			
+		add_core_of = BFR
+			}	
+		1072 = {			
+		add_core_of = BFR
+			}				
 		BFR = {
-		transfer_state = 53				
+		transfer_state = 53	
+		transfer_state = 1071			
+		transfer_state = 1072			
 		}		
 	}	
 }

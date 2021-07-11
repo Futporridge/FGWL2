@@ -44,7 +44,7 @@ create_country_leader = {
 	desc = "POLITICS_KARL_XIV_DESC"
 	picture = "gfx/leaders/KAL/Portrait_Earl_Grey.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}
@@ -55,7 +55,7 @@ create_country_leader = {
 	desc = "POLITICS_SVEN_OLOV_LINDHOLM_DESC"
 	picture = "gfx/leaders/SWE/Sven_Olov_Lindholm.tga"
 	expire = "1998.1.1"
-	ideology = utopism
+	ideology = utopism_subtype
 	traits = { 
 
 	}

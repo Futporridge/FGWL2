@@ -49,7 +49,7 @@ create_country_leader = {
 	desc = "POLITICS_PIERRE_LAVAL_DESC"
 	picture = "gfx/leaders/SWI/Portrait_Carl_Rainer.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = {
 		#
 	}

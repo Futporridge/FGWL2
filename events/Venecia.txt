@@ -71,6 +71,10 @@
 		name = ven.4.a
 		
 		add_stability = 0.05
+		swap_ideas = {
+			remove_idea = milan_strike
+			add_idea = milan_strike_out
+		}
 	}
 	}
 	
@@ -197,7 +201,7 @@
 		842 = {	set_demilitarized_zone = yes	}
 		843 = {	set_demilitarized_zone = yes	}
 		159 = {	set_demilitarized_zone = yes	}
-		add_ideas = milan_strike
+		add_ideas = milan_strike_standoff
 	}
 	}
 	country_event = { #Наводнить улицы - не получилось
@@ -213,7 +217,12 @@
 		842 = {	set_demilitarized_zone = yes	}
 		843 = {	set_demilitarized_zone = yes	}
 		159 = {	set_demilitarized_zone = yes	}
-		add_ideas = milan_strike
+		add_ideas = milan_strike_standoff
+		remove_ideas = milan_strike
+		remove_ideas = milan_strike_all
+		remove_ideas = milan_strike_out
+		remove_ideas = strike_pay
+		
 	}
 	}
 	country_event = { #Провал - Противостояние 
@@ -228,6 +237,7 @@
 		name = ven.10.a
 		
 		hidden_effect = {
+			set_global_flag = italitan_revolution
 			842 = {	set_demilitarized_zone = no	}
 			843 = {	set_demilitarized_zone = no	}
 			159 = {	set_demilitarized_zone = no	}
@@ -249,7 +259,8 @@
 				}
 				remove_ideas = milan_strike
 				remove_ideas = milan_strike_all
-				remove_ideas = milan_strike_ag_0
+				remove_ideas = milan_strike_out
+				remove_ideas = milan_strike_standoff
 			}
 			ISR = {
 			    transfer_state = 159
@@ -263,7 +274,6 @@
 		        add_state_core = 842
 		        add_state_core = 843
 
-			    set_global_flag = italitan_revolution
 			    inherit_technology = VEN
 			    load_oob = ISR_1936
 			    load_focus_tree = Italian_Socialist_Republic_start
@@ -294,6 +304,7 @@
 		name = ven.10.b
 		
 		hidden_effect = {
+			set_global_flag = italitan_revolution
 			842 = {	set_demilitarized_zone = no	}
 			843 = {	set_demilitarized_zone = no	}
 			159 = {	set_demilitarized_zone = no	}
@@ -315,7 +326,8 @@
 				}
 				remove_ideas = milan_strike
 				remove_ideas = milan_strike_all
-				remove_ideas = milan_strike_ag_0
+				remove_ideas = milan_strike_out
+				remove_ideas = milan_strike_standoff
 			}
 			ISR = {
 			    transfer_state = 159
@@ -329,7 +341,6 @@
 		        add_state_core = 842
 		        add_state_core = 843
 
-			    set_global_flag = italitan_revolution
 			    inherit_technology = VEN
 			    load_oob = ISR_1936
 			    load_focus_tree = Italian_Socialist_Republic_start
@@ -368,6 +379,7 @@
 		name = ven.11.a
 		
 		hidden_effect = {
+			set_global_flag = italitan_revolution
 			842 = {	set_demilitarized_zone = no	}
 			843 = {	set_demilitarized_zone = no	}
 			159 = {	set_demilitarized_zone = no	}
@@ -389,7 +401,8 @@
 				}
 				remove_ideas = milan_strike
 				remove_ideas = milan_strike_all
-				remove_ideas = milan_strike_ag_0
+				remove_ideas = milan_strike_out
+				remove_ideas = milan_standoff
 			}
 			ISR = {
 			    transfer_state = 159
@@ -403,7 +416,6 @@
 		        add_state_core = 842
 		        add_state_core = 843
 
-			    set_global_flag = italitan_revolution
 			    inherit_technology = VEN
 			    load_oob = ISR_1936
 			    load_focus_tree = Italian_Socialist_Republic_start
@@ -434,6 +446,7 @@
 		name = ven.11.b
 		
 		hidden_effect = {
+			set_global_flag = italitan_revolution
 			842 = {	set_demilitarized_zone = no	}
 			843 = {	set_demilitarized_zone = no	}
 			159 = {	set_demilitarized_zone = no	}
@@ -455,7 +468,8 @@
 				}
 				remove_ideas = milan_strike
 				remove_ideas = milan_strike_all
-				remove_ideas = milan_strike_ag_0
+				remove_ideas = milan_strike_out
+				remove_ideas = milan_standoff
 			}
 			ISR = {
 			    transfer_state = 159
@@ -469,7 +483,6 @@
 		        add_state_core = 842
 		        add_state_core = 843
 
-			    set_global_flag = italitan_revolution
 			    inherit_technology = VEN
 			    load_oob = ISR_1936
 			    load_focus_tree = Italian_Socialist_Republic_start
@@ -495,7 +508,6 @@
 		
 	}
 	}
-	
 	country_event = { #Король перехватыввает власть
 	id = ven.14
 	title = ven.14.t
@@ -517,6 +529,7 @@
 			remove_idea = industrial_oligarchy
 			add_idea = industrial_oligarchy_crash
 		}
+		remove_ideas = forgotten_army
 	}
 	}
 	
@@ -540,7 +553,7 @@
         }
 		swap_ideas = {
 			remove_idea = industrial_oligarchy
-			add_idea = industrial_oligarchy_crash
+			add_idea = industrial_oligarchy_domination
 		}
 	}
 	}

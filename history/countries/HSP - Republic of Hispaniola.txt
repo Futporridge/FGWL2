@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_RAFAEL_ESTRELLA_DESC"
 	picture = "gfx/leaders/HSP/Portrait_Rafael_Estrella_Urena.tga"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_subtype
 	traits = { 
 
 	}

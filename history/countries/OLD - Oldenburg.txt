@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_NIC_VON_OLD_DESC"
 	picture = "gfx/leaders/OLD/Portrait_Nikolaus_von_Oldenburg.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = {
 		#
 	}

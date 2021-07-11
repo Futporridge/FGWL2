@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_ALDHARD_DE_CASTELO_BRANCO_DESC"
 	picture = "gfx/leaders/CNH/Portrait_Aldhard_Castelo_Branco.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

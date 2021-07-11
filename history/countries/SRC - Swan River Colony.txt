@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_WILLIAM_CAMPION_DESC"
 	picture = "gfx/leaders/SRC/Portrait_William_Campion.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

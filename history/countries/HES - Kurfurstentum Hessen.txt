@@ -33,11 +33,11 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Ernst Ludwig von Hessen"
+	name = "Ernst Ludwig I"
 	desc = "POLITICS_ERNST_LUDWIG_HESSEN_DESC"
 	picture = "gfx/leaders/HES/Portrait_Ernst_Ludwig.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

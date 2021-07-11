@@ -1,0 +1,302 @@
+on_actions = {
+
+	# FROM = winner
+	# ROOT = country being capitulated/loser
+	
+	on_capitulation = {
+		effect = {
+			if = { #Ломбардия-венеция побеждавет левых
+				limit = {
+					FROM = {
+						OR = {
+							is_in_faction_with = VEN
+							original_tag = VEN 
+						}
+					}
+					ROOT = { original_tag = ISR	}
+				}
+
+				FROM = {
+					white_peace = ROOT
+					annex_country = {
+					 	target = ROOT
+					 	transfer_troops = no
+					 }
+				}
+			}
+			if = { #Левые побеждают ломбардию-венецию
+				limit = {
+					FROM = { tag = ISR }
+					ROOT = { tag = VEN }
+				}
+
+				ISR = {
+					transfer_state = 803
+					transfer_state = 160
+					transfer_state = 908
+					add_state_core = 803
+					add_state_core = 160
+					add_state_core = 908
+				}
+				
+				SLV = {
+					transfer_state = 736
+					add_state_core = 736
+				}
+				
+				RCR = {
+					transfer_state = 103
+					add_state_core = 103
+				}
+				
+				LTE = {
+					transfer_state = 44
+					transfer_state = 820
+					transfer_state = 932
+					transfer_state = 182
+				}
+			}
+			if = { #республиканцы побеждают пъемонд 
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = LYO
+							original_tag = VCH
+							original_tag = PRO
+						}
+					}
+					ROOT = { original_tag = PIE }
+				}
+				
+				if = {
+					limit = {
+						country_exists = LYO
+					}
+					LYO = {
+						transfer_state = 918
+						transfer_state = 845
+						white_peace = ROOT
+					}
+					if = {
+						limit = {
+							NOT = {
+								country_exists = PRO
+							}
+						}
+						LYO = {
+							transfer_state = 735
+							transfer_state = 919
+							transfer_state = 21
+						}
+					}
+				}
+				if = {
+					limit = {
+						country_exists = PRO
+					}
+					PRO = {
+						transfer_state = 735
+						transfer_state = 919
+						white_peace = ROOT
+					}
+					if = {
+						limit = {
+							NOT = {
+								country_exists = LYO
+							}
+						}
+						PRO = {
+							transfer_state = 918
+							transfer_state = 845
+							transfer_state = 800
+							transfer_state = 20
+						}
+					}
+				}
+				if = {
+					limit = {
+						country_exists = VCH
+					}
+					VCH = {
+						white_peace = ROOT
+					}
+					if = {
+						limit = {
+							NOT = {
+								country_exists = LYO
+								country_exists = PRO
+							}
+						}
+						VCH = {
+							transfer_state = 918
+							transfer_state = 845
+							transfer_state = 800
+							transfer_state = 20
+							transfer_state = 735
+							transfer_state = 919
+							transfer_state = 21
+						}
+					}
+				}
+			}
+			if = { #пъемонд побеждает прованс
+				limit = {
+					FROM = { original_tag = PIE }
+					ROOT = { original_tag = PRO }
+				}
+				FROM = {
+					white_peace = ROOT
+				}
+				MOD = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+					load_oob = MOD_PRO
+					add_state_core = 21
+				}
+				PIE = {
+					puppet = MOD
+				}
+			}
+			if = { #пъемонд побеждает лион
+				limit = {
+					FROM = { original_tag = PIE }
+					ROOT = { original_tag = LYO }
+				}
+				FROM = {
+					white_peace = ROOT
+				}
+				MOD = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+					load_oob = MOD_LYO
+					add_state_core = 20
+					add_state_core = 800
+				}
+				PIE = {
+					puppet = MOD
+				}
+			}
+			if = { #пъемонд побеждает виши
+				limit = {
+					FROM = { original_tag = PIE }
+					ROOT = { original_tag = VCH }
+				}
+				FROM = {
+					white_peace = ROOT
+				}
+				MOD = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+					load_oob = MOD_VCH
+					add_state_core = 799
+					add_state_core = 21
+				}
+				PIE = {
+					puppet = MOD
+				}
+			}
+			if = { #Сигма лига побеждает наполеона 
+				limit = {
+					FROM = {
+						OR = {
+							is_in_faction_with = POP
+							original_tag = POP 
+						}
+					}
+					ROOT = { original_tag = ITE	}
+				}
+
+				FROM = {
+					white_peace = ROOT
+					set_autonomy = {
+						target = ITE
+						autonomy_state = autonomy_puppet
+					}
+				}
+				
+				POP = {
+				 transfer_state = 766
+				}
+				
+				ITE = {
+					retire_ideology_leader = paternalism
+					retire_ideology_leader = oligarchy
+					retire_ideology_leader = conservatism
+					set_popularities = {
+						reactionary = 15
+						paternalism = 20
+						oligarchy = 5
+						conservatism = 10
+						liberalism = 20
+						individualism = 0
+						communitarianism = 20
+						prometeism = 0
+						utopism = 0
+					}
+					set_politics = {
+						ruling_party = reactionary
+						elections_allowed = no
+						last_election = "1935.12.17"
+						election_frequency = 48
+					}
+					create_country_leader = {
+						name = "Consiglio di reggenza"
+						desc = "POLITICS_CONSIGLIO_REGGENZA_DESC"
+						picture = "gfx/leaders/ITE/Portrait_Consiglio_di_reggenza.tga"
+						expire = "1965.1.1"
+						ideology = reactionary_subtype
+						traits = {	}
+					}
+					remove_ideas = {
+						renovatio_imperii
+						undeveloped_industry
+						progressive_monarchy
+						grande_esercito_trad
+						grande_esercito_mod
+						labor_front_0
+						labor_front_mod_0
+						labor_front_tard_0
+						labor_front_mod_1
+						operation_avalanche
+						operation_avalanche_speed
+						operation_avalanche_speed_big
+						operation_avalanche_speed_big_comm
+						operation_avalanche_speed_big_comm_tank
+						operation_avalanche_speed_big_comm_art
+						resistenza
+					}
+					set_cosmetic_tag = ITE_TOWSIC
+					if = {
+						limit = {
+							has_war_with = POP
+						}
+						white_peace = POP
+					}
+					if = {
+						limit = {
+							has_war_with = TUS
+						}
+						white_peace = TUS
+					}
+					if = {
+						limit = {
+							has_war_with = VEN
+						}
+						white_peace = VEN
+					}
+					if = {
+						limit = {
+							has_war_with = PIE
+						}
+						white_peace = PIE
+					}
+				}
+			}
+	}
+}

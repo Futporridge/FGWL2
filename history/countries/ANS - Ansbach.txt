@@ -36,11 +36,11 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Eitel Friedrich von Hohenzollern"
+	name = "Eitel Friedrich I"
 	desc = "POLITICS_EITEL_FRIEDRICH_DESC"
 	picture = "gfx/leaders/ANS/Portrait_Eitel_Friedrich.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}
@@ -50,7 +50,7 @@ create_country_leader = {
 	desc = "POLITICS_HORST_WESSEL_DESC"
 	picture = "gfx/leaders/ANS/Portrait_Horst_Wessel.tga"
 	expire = "1965.1.1"
-	ideology = utopism
+	ideology = utopism_subtype
 	traits = { 
 
 	}
@@ -60,7 +60,7 @@ create_country_leader = {
 #	desc = "POLITICS_ERNST_JUNGER_DESC"
 #	picture = "gfx/leaders/ANS/Portrait_Ernst_Junger.tga"
 #	expire = "1965.1.1"
-#	ideology = utopism
+#	ideology = utopism_subtype
 #	traits = { 
 #
 #	}

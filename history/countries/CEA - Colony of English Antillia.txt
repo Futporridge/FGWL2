@@ -35,7 +35,7 @@ create_country_leader = {
 	desc = "POLITICS_DUDLEY_POUND_DESC"
 	picture = "gfx/leaders/CEA/Portrait_Dudley_Pound.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}

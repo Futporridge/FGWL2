@@ -33,11 +33,11 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Ernst August III von Welf"
+	name = "Ernst August III"
 	desc = "POLITICS_ERNST_III_DESC"
 	picture = "gfx/leaders/HAN/Portrait_Ernst_August_III.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

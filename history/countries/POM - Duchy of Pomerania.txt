@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_JERZY_GIEDROYC_DESC"
 	picture = "gfx/leaders/POM/Portrait_Jerzy_Giedroyc.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}

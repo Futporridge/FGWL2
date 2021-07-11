@@ -54,11 +54,11 @@ if = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Victoria I Medinaceli"
+	name = "Victoria I"
 	desc = "POLITICS_BERTHOLD_VON_BADEN_DESC"
 	picture = "gfx/leaders/SPR/Portrait_Victoria_Medinaceli.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}

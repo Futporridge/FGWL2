@@ -230,6 +230,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/kalmar/Federal_crisis.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_KAL_Federal_crisis_1"
+		texturefile = "gfx/interface/ideas/kalmar/Federal_crisis_1.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_KAL_Swedish_Separatism"
 		texturefile = "gfx/interface/ideas/kalmar/Swedish_Separatism.dds"
 	}
@@ -283,9 +287,17 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/austria/aus_angelis_military_influence.dds"
 	}	
 	spriteType = {
+		name = "GFX_idea_aus_happy_people"
+		texturefile = "gfx/interface/ideas/austria/aus_happy_people.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aus_unionism"
+		texturefile = "gfx/interface/ideas/austria/aus_unionism.dds"
+	}	
+	spriteType = {
 		name = "GFX_idea_aus_army_liberalisation"
 		texturefile = "gfx/interface/ideas/austria/aus_army_liberalisation.dds"
-	}
+	}	
 					###ItaliaEmpr###
 	spriteType = {
 		name = "GFX_idea_progressive_monarchy"

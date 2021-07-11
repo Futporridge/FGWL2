@@ -38,7 +38,7 @@ create_country_leader = {
 	desc = "POLITICS_ILJA_TRIFUNOVIC_BIRCANIN_DESC"
 	picture = "gfx/leaders/SER/Portrait_Ilija_Trifunovic_Bircanin.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}

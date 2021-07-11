@@ -36,7 +36,7 @@ create_country_leader = {
 	desc = "POLITICS_WENZEL_JAKSCH_DESC"
 	picture = "gfx/leaders/CZE/Portrait_Wenzel_Jaksch.tga"
 	expire = "1965.1.1"
-	ideology = prometeism
+	ideology = prometeism_subtype
 	traits = { 
 
 	}

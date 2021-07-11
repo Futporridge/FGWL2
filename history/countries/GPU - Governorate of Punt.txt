@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_YVES_CHATIGNEAU_DESC"
 	picture = "gfx/leaders/GPU/Portrait_Yves_Chataigneau.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}

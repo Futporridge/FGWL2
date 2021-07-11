@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
 	picture = "gfx/leaders/MUS/Portrait_Said_bin_Taimur.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

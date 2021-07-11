@@ -33,11 +33,11 @@ HRE_member
 set_convoys = 10
 
 create_country_leader = {
-	name = "Georg Franz von Wittelsbach"
+	name = "Georg Franz I"
 	desc = "POLITICS_GEORG_FRANZ_VON_BAYERN_DESC"
 	picture = "gfx/leaders/KRF/Portrait_Georg_Franz.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

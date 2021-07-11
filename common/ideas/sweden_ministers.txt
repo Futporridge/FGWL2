@@ -1,0 +1,64 @@
+ideas = {
+  head_of_state = {
+
+		Gosta_Bagge = {
+
+			picture = Gosta_Bagge
+
+			allowed = {
+				original_tag = SWE
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { Intellectual_aristocrat }
+		}
+		Gustaf_Bernadot = {
+
+			picture = Gustaf_Bernadot
+
+			allowed = {
+				original_tag = SWE
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { pragmatist }
+		}
+		
+		Helge_Jung = {
+
+			picture = Helge_Jung
+
+			allowed = {
+				original_tag = SWE
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { pragmatist }
+		}
+				
+}	
+political_advisor = {
+		r = {
+
+			picture = r
+
+			allowed = {
+				original_tag = SWE
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { Secretary_of_Colony_State }
+		}
+		
+		
+				
+}
+	}

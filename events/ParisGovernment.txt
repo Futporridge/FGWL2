@@ -170,7 +170,7 @@ remove_unit_leader = 14
 		name = "Anarchy"
 		picture = "Portrait_anarchy.tga"
 		expire = "1965.1.1"
-		ideology = communitarianism
+		ideology = communitarianism_subtype
 	}
 	}	
 	}

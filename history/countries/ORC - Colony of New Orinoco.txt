@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_CONRAD_HELFRICH_DESC"
 	picture = "gfx/leaders/ORC/Portrait_Conrad_Helfrich.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

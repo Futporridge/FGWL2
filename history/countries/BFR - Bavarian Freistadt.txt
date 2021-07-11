@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANZ_VON_EPP_DESC"
 	picture = "gfx/leaders/BFR/Portrait_Franz_von_Epp.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

@@ -1,0 +1,22 @@
+state={
+	id=1060
+	name="STATE_1060"
+	provinces={
+		3524 6444 9486 9547 
+	}
+	history={
+		owner = HES
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		add_core_of = HES
+
+	}
+	
+	manpower=2321132
+	state_category=town	
+	buildings_max_level_factor=1.000
+}

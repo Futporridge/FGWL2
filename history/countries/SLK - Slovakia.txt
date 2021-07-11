@@ -43,7 +43,7 @@ create_country_leader = {
 	desc = "POLITICS_ANDREJ_HLINKA_DESC"
 	picture = "gfx/leaders/SLK/Portrait_Andrej_Hlinka.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}

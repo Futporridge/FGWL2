@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_MATTHIAS_EHRENFRIED_DESC"
 	picture = "gfx/leaders/WRZ/Portrait_Matthias_Ehrenfried.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

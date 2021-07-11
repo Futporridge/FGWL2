@@ -36,7 +36,7 @@ create_country_leader = {
 	desc = "POLITICS_MARTIN_DIAZ_DESC"
 	picture = "gfx/leaders/CUB/Portrait_Martin_Diaz.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

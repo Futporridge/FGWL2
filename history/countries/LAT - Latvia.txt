@@ -38,7 +38,7 @@ create_country_leader = {
 	desc = "POLITICS_JANIS_KURELIS_DESC"
 	picture = "gfx/leaders/LAT/Portrait_Janis_Kurelis.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}
@@ -48,7 +48,7 @@ create_country_leader = {
 	desc = "POLITICS_Gustavs_Celmins_DESC"
 	picture = "gfx/leaders/LAT/Portrait_Gustavs_Celmins.tga"
 	expire = "1965.1.1"
-	ideology = utopism
+	ideology = utopism_subtype
 	traits = { 
 
 	}

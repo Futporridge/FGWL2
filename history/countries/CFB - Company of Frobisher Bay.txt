@@ -36,7 +36,7 @@ create_country_leader = {
 	desc = "POLITICS_IVAR_KREUGER_DESC"
 	picture = "gfx/leaders/CFB/Portrait_Ivar_Kreuger.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}

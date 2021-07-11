@@ -34,9 +34,9 @@ set_convoys = 100
 create_country_leader = {
 	name = "Panaït Istrati"
 	desc = "POLITICS_PANAIT_ISTRATI_DESC"
-	picture = "gfx/leaders/TRN/Portrait_Panait_Istrati.dds"
+	picture = "gfx/leaders/TRN/Portrait_Panait_Istrati.tga"
 	expire = "1965.1.1"
-	ideology = utopism
+	ideology = utopism_subtype
 	traits = { 
 
 	}

@@ -1,0 +1,77 @@
+﻿RHG_INF_01 = 
+{
+	name = "Vörös Hadosztály"
+
+	for_countries = { RHG }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { HUN_INF_01 }
+
+	fallback_name = "%d. Gyalogdandár"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Budapesti 1. Hadosztály" }
+		2 = { "Budapesti 2. Hadosztály" }
+		3 = { "Budapesti 3. Hadosztály" }
+		4 = { "Budapesti 4. Hadosztály" }
+		5 = { "Budapesti 5. Hadosztály" }
+		6 = { "Győri 1. Hadosztály" }
+		7 = { "Szegedi 1. Hadosztály" }
+		8 = { "Szegedi 2. Hadosztály" }
+		9 = { "9. Hadosztály" }
+		10 = { "10. Hadosztály" }
+	}
+}
+
+RHG_Cav_01 = 
+{
+	name = "Lovashadosztály"
+
+	for_countries = { RHG }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { AUS_INF_01 }
+
+	fallback_name = "%d. Lovashadosztály"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "1. Lovashadosztály" }
+	}
+}
+
+RHG_INF_02 = 
+{
+	name = "Tengerészdandár"
+
+	for_countries = { RHG }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { AUS_INF_01 }
+
+	fallback_name = "%d. Tengerészdandár"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "1. Tengerészdandár" }
+	}
+}

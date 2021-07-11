@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_MIHAI_RALEA_DESC"
 	picture = "gfx/leaders/WAL/Portrait_Mihai_Ralea.tga"
 	expire = "1965.1.1"
-	ideology = communitarianism
+	ideology = communitarianism_subtype
 	traits = { 
 
 	}

@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHANNES_VON_LIECHTENSTEIN_DESC"
 	picture = "gfx/leaders/VWS/Portrait_Johannes_von_Liechtenstein.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}

@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_LUDOVICO_DELLA_ROVERE_DESC"
 	picture = "gfx/leaders/HOS/Portrait_Ludovico_Chigi_Albani_della_Rovere.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

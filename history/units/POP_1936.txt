@@ -51,7 +51,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Divisione di cavalleria"
+	name = "Divisione Cavalleria"
 	division_names_group = ITAL_CAV_01
 
 	regiments = {
@@ -87,7 +87,7 @@ units = {
 			name_order = 1
 		}
 		location = 11882
-		division_template = "Divisione di fanteria I"
+		division_template = "Divisione Fanteria I"
 		start_experience_factor = 0.3
 	}
 	division= {
@@ -96,7 +96,7 @@ units = {
 			name_order = 1
 		}
 		location = 9794
-		division_template = "Divisione di fanteria I"
+		division_template = "Divisione Fanteria I"
 		start_experience_factor = 0.3
 	}
 	division= {
@@ -105,7 +105,7 @@ units = {
 			name_order = 1
 		}
 		location = 925
-		division_template = "Divisione di cavalleria"
+		division_template = "Divisione Cavalleria"
 		start_experience_factor = 0.3
 	}
 	division= {
@@ -114,7 +114,7 @@ units = {
 			name_order = 1
 		}
 		location = 11790
-		division_template = "Divisione di fanteria II"
+		division_template = "Divisione Fanteria II"
 		start_experience_factor = 0
 	}
 	division= {
@@ -123,7 +123,7 @@ units = {
 			name_order = 1
 		}
 		location = 9924
-		division_template = "Divisione di fanteria II"
+		division_template = "Divisione Fanteria II"
 		start_experience_factor = 0
 	}
 }

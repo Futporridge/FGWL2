@@ -47,11 +47,41 @@ tuscan_guard
 set_convoys = 100
 
 create_country_leader = {
-	name = "Franz Salvator von Habsburg"
+	name = "Franz Salvator I"
 	desc = "POLITICS_FRANZ_SALVATOR_DESC"
 	picture = "gfx/leaders/TUS/Portrait_Franz_Salvator.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Franz Salvator I"
+	desc = "POLITICS_FRANZ_SALVATOR_DESC"
+	picture = "gfx/leaders/TUS/Portrait_Franz_Salvator.tga"
+	expire = "1965.1.1"
+	ideology = paternalism_subtype
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Franz Salvator I"
+	desc = "POLITICS_FRANZ_SALVATOR_DESC"
+	picture = "gfx/leaders/TUS/Portrait_Franz_Salvator.tga"
+	expire = "1965.1.1"
+	ideology = oligarchy_subtype
+	traits = { 
+
+	}
+}
+create_country_leader = {
+	name = "Franz Salvator I"
+	desc = "POLITICS_FRANZ_SALVATOR_DESC"
+	picture = "gfx/leaders/TUS/Portrait_Franz_Salvator.tga"
+	expire = "1965.1.1"
+	ideology = reactionary_subtype
 	traits = { 
 
 	}
@@ -61,7 +91,7 @@ create_country_leader = {
 	desc = "POLITICS_FILIPPO_MARINETTI_DESC"
 	picture = "gfx/leaders/ITE/Portrait_Filippo_Marinetti.tga"
 	expire = "1965.1.1"
-	ideology = individualism
+	ideology = individualism_subtype
 	traits = { 
 
 	}

@@ -36,11 +36,11 @@ add_ideas = {
 set_convoys = 100
 
 create_country_leader = {
-	name = "Félix I de Bourbon-Parme"
+	name = "Félix de Bourbon-Parme"
 	desc = "POLITICS_FELIX_BOURBON_DESC"
 	picture = "gfx/leaders/VER/Portrait_Felix_I_de_Bourbon_Parma.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}

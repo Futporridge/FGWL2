@@ -1,0 +1,7 @@
+modifier_token_example = {
+	color_type = good
+	value_type = number
+	precision = 1
+	postfix = daily
+	category = state
+}

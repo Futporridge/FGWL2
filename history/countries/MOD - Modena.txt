@@ -4,8 +4,12 @@ OOB = "MOD_1936"
 
 set_technology = {
 	infantry_weapons = 1
-	tech_support = 1
-	tech_recon = 1
+	tech_support = 1	
+	gw_artillery = 1
+	early_fighter = 1
+	fuel_silos = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
 }
 
 
@@ -23,23 +27,21 @@ set_popularities = {
 	liberalism = 9
 	oligarchy = 6
 	conservatism = 5
-	paternalism = 3
-	reactionary = 70
+	paternalism = 70
+	reactionary = 3
 }
 
 add_ideas = {
-Demilitarized_economy
-Peaceful_island_in_raging_sea
 }
 
 set_convoys = 100
 
 create_country_leader = {
-	name = "Carl Rainer"
-	desc = "POLITICS_CARL_RAINER_DESC"
-	picture = "gfx/leaders/MOD/Portrait_Carl_Rainer.tga"
+	name = "François d'Astier de La Vigerie"
+	desc = "POLITICS_François_Vigerie_DESC"
+	picture = "gfx/leaders/MOD/Portrait_Francois_d_Astier_de_La_Vigerie.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

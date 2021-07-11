@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_EDUARD_SAENZ_DE_BURUAGA_DESC"
 	picture = "gfx/leaders/SMH/Portrait_Eduardo_Saenz_de_Buruaga.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

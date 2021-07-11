@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_WENZEL_JAKSCH_DESC"
 	picture = "gfx/leaders/SDD/Portrait_Wenzel_Jaksch.tga"
 	expire = "1965.1.1"
-	ideology = prometeism
+	ideology = prometeism_subtype
 	traits = { 
 
 	}
@@ -49,7 +49,7 @@ create_country_leader = {
 	desc = "POLITICS_IRENE_HARAND_DESC"
 	picture = "gfx/leaders/SDD/Portrait_Irene_Harand.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = { 
 
 	}

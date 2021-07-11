@@ -136,7 +136,7 @@ create_country_leader = {
 	desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Otto_von_Habsburg.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = {
 		#
 	}
@@ -146,7 +146,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANZ_BOHME_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Franz_Bohme.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}
@@ -156,7 +156,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSEF_OBREGGER_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Josef_Oberegger.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = {
 		#
 	}
@@ -166,7 +166,7 @@ create_country_leader = {
 	desc = "POLITICS_IRENE_HARAND_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Irene_Harand.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = {
 		#
 	}
@@ -176,7 +176,7 @@ create_country_leader = {
 	desc = "POLITICS_OTTO_BAUER_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Otto_Bauer.tga"
 	expire = "1965.1.1"
-	ideology = communitarianism
+	ideology = communitarianism_subtype
 	traits = {
 		#
 	}
@@ -186,7 +186,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANZ_KORITSCHONER_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Franz_Koritschoner.tga"
 	expire = "1965.1.1"
-	ideology = prometeism
+	ideology = prometeism_subtype
 	traits = {
 		#
 	}
@@ -196,7 +196,7 @@ create_country_leader = {
 	desc = "POLITICS_RICHARD_COUDENHOVE_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Richard_von_Coudenhove_Kalergi.tga"
 	expire = "1965.1.1"
-	ideology = individualism
+	ideology = individualism_subtype
 	traits = {
 		#
 	}
@@ -206,7 +206,7 @@ create_country_leader = {
 	desc = "POLITICS_KARL_RENNER_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Karl_Renner.tga"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_subtype
 	traits = {
 		#
 	}
@@ -216,7 +216,7 @@ create_country_leader = {
 	desc = "POLITICS_HERMANN_RESCHNY_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Hermann_Reschny.tga"
 	expire = "1965.1.1"
-	ideology = utopism
+	ideology = utopism_subtype
 	traits = {
 		#
 	}
@@ -242,7 +242,7 @@ create_field_marshal = {
     defense_skill = 3
     planning_skill = 3
     logistics_skill = 3
-	set_unit_leader_flag = AUS_anti_left	
+
 }
 create_corps_commander = {
 	name = "Franz Böhme"
@@ -254,7 +254,6 @@ create_corps_commander = {
     defense_skill = 2
     planning_skill = 2
     logistics_skill = 2
-	set_unit_leader_flag = AUS_anti_left	
 }
 create_corps_commander = {
 	name = "Karl Eglseer"
@@ -266,7 +265,6 @@ create_corps_commander = {
     defense_skill = 2
     planning_skill = 1
     logistics_skill = 1
-	set_unit_leader_flag = AUS_anti_left	
 }
 create_corps_commander = {
 	name = "Alfred Jansa von Tannenau"
@@ -278,7 +276,6 @@ create_corps_commander = {
     defense_skill = 3
     planning_skill = 3
     logistics_skill = 3
-	set_unit_leader_flag = AUS_anti_left	
 }
 create_corps_commander = {
 	name = "Ludwig von Eimannsberger"
@@ -290,7 +287,6 @@ create_corps_commander = {
     defense_skill = 3
     planning_skill = 2
     logistics_skill = 3
-	set_unit_leader_flag = AUS_anti_left	
 }
 create_corps_commander = {
 	name = "Maximilian de Angelis"
@@ -302,7 +298,6 @@ create_corps_commander = {
     defense_skill = 2
     planning_skill = 2
     logistics_skill = 2
-	set_unit_leader_flag = AUS_anti_left	
 }
 create_corps_commander = {
 	name = "Adolf von Brudermann"
@@ -314,7 +309,6 @@ create_corps_commander = {
     defense_skill = 2
     planning_skill = 2
     logistics_skill = 2
-	set_unit_leader_flag = AUS_anti_left	
 }
 create_corps_commander = {
 	name = "Camillo Bregant"
@@ -325,8 +319,7 @@ create_corps_commander = {
     attack_skill = 3
     defense_skill = 3
     planning_skill = 3
-    logistics_skill = 3
-	set_unit_leader_flag = AUS_anti_left	
+    logistics_skill = 3	
 }
 
 create_corps_commander = {
@@ -339,7 +332,6 @@ create_corps_commander = {
     defense_skill = 1
     planning_skill = 2
     logistics_skill = 1
-	set_unit_leader_flag = AUS_army_apolit	
 }
 create_corps_commander = {
 	name = "Erhard Raus"
@@ -350,8 +342,7 @@ create_corps_commander = {
     attack_skill = 3
     defense_skill = 2
     planning_skill = 3
-    logistics_skill = 2
-	set_unit_leader_flag = AUS_army_apolit		
+    logistics_skill = 2		
 }
 create_corps_commander = {
 	name = "Anton Kienbauer"
@@ -362,8 +353,7 @@ create_corps_commander = {
     attack_skill = 1
     defense_skill = 1
     planning_skill = 2
-    logistics_skill = 2
-	set_unit_leader_flag = AUS_army_apolit		
+    logistics_skill = 2	
 }
 create_corps_commander = {
 	name = "István Náday"
@@ -375,7 +365,6 @@ create_corps_commander = {
     defense_skill = 2
     planning_skill = 2
     logistics_skill = 1
-	set_unit_leader_flag = AUS_hungarian_general	
 }
 create_corps_commander = {
 	name = "Soós Károly"
@@ -386,8 +375,7 @@ create_corps_commander = {
     attack_skill = 3
     defense_skill = 2
     planning_skill = 2
-    logistics_skill = 3
-	set_unit_leader_flag = AUS_hungarian_general	
+    logistics_skill = 3	
 }
 create_corps_commander = {
 	name = "Döme Sztójay"
@@ -398,8 +386,7 @@ create_corps_commander = {
     attack_skill = 2
     defense_skill = 3
     planning_skill = 3
-    logistics_skill = 3
-	set_unit_leader_flag = AUS_hungarian_general	
+    logistics_skill = 3	
 }
 create_corps_commander = {
 	name = "Vilmos Nagy de Nagybaczon"
@@ -410,8 +397,7 @@ create_corps_commander = {
     attack_skill = 3
     defense_skill = 3
     planning_skill = 4
-    logistics_skill = 3
-	set_unit_leader_flag = AUS_hungarian_general	
+    logistics_skill = 3	
 }
 create_corps_commander = {
 	name = "Fedor Dragojlov"
@@ -423,7 +409,6 @@ create_corps_commander = {
     defense_skill = 3
     planning_skill = 2
     logistics_skill = 2
-	set_unit_leader_flag = AUS_croatian_general	
 }
 create_corps_commander = {
 	name = "Vladimir Laxa"
@@ -434,8 +419,7 @@ create_corps_commander = {
     attack_skill = 3
     defense_skill = 3
     planning_skill = 3
-    logistics_skill = 3
-	set_unit_leader_flag = AUS_croatian_general		
+    logistics_skill = 3	
 }
 create_corps_commander = {
 	name = "Lothar Rendulic"
@@ -447,7 +431,6 @@ create_corps_commander = {
     defense_skill = 2
     planning_skill = 3
     logistics_skill = 3
-	set_unit_leader_flag = AUS_anti_left	
 }
 create_corps_commander = {
 	name = "Julius Ringel"
@@ -459,7 +442,6 @@ create_corps_commander = {
     defense_skill = 3
     planning_skill = 2
     logistics_skill = 2
-	set_unit_leader_flag = AUS_anti_left	
 }
 create_corps_commander = {
 	name = "Eduard Barger"
@@ -470,8 +452,7 @@ create_corps_commander = {
     attack_skill = 2
     defense_skill = 2
     planning_skill = 1
-    logistics_skill = 1
-	set_unit_leader_flag = AUS_anti_left	
+    logistics_skill = 1	
 }
 create_corps_commander = {
 	name = "Friedrich Materna"

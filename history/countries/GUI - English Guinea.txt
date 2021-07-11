@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_GUINEA_LEGISLATIVE_COUNCIL_DESC"
 	picture = "gfx/leaders/GUI/Portrait_Legislative_Council.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}

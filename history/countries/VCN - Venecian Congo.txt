@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_OSCAR_SINIGAGLIA_DESC"
 	picture = "gfx/leaders/VCN/Portrait_Oscar_Sinigaglia.tga"
 	expire = "1965.1.1"
-	ideology = oligarchy
+	ideology = oligarchy_subtype
 	traits = { 
 
 	}

@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_FREDERICK_SINGH_DESC"
 	picture = "gfx/leaders/SKH/Portrait_Frederick_Duleep_Singh.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

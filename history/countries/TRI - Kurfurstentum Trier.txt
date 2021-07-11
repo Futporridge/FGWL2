@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANZ_BORNEWASSER_DESC"
 	picture = "gfx/leaders/TRI/Portrait_Franz_Rudolf_Bornewasser.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

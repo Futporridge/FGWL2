@@ -33,11 +33,11 @@ HRE_member
 set_convoys = 100
 
 create_country_leader = {
-	name = "Albrecht von Württemberg"
+	name = "Albrecht I"
 	desc = "POLITICS_ALBRECHT_WURT_DESC"
 	picture = "gfx/leaders/WUR/Portrait_Albrecht_von_Wurttemberg.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

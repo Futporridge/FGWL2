@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_GHALIB_ALHINAI_DESC"
 	picture = "gfx/leaders/OMA/Portrait_Ghalib_Alhinai.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

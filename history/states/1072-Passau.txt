@@ -1,0 +1,23 @@
+state={
+	id=1072
+	name="STATE_1072"
+	provinces={
+		532 3541 11497 
+	}
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = AUS
+		add_core_of = BAV
+		victory_points = {
+			532 1 
+		}
+
+	}
+	state_category=rural	
+	manpower=542133
+	buildings_max_level_factor=1.000
+}

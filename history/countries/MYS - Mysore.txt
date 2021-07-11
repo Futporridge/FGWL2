@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_WADIYAR_IV_DESC"
 	picture = "gfx/leaders/MYS/Portrait_Krishna_Raja_Wadiyar_IV.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

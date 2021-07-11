@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_UIMIN_DESC"
 	picture = "gfx/leaders/JOS/Portrait_Yi_Un.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

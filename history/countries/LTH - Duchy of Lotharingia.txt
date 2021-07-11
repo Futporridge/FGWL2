@@ -38,7 +38,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTON_VON_HABSBURG_DESC"
 	picture = "gfx/leaders/LTH/Portrait_Anton_Habsburg.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

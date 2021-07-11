@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_BAO_DAI_DESC"
 	picture = "gfx/leaders/VIE/Portrait_Bao_Dai.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

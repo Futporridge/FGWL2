@@ -94,7 +94,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = KAL_Federal_crisis 
+			picture = KAL_Federal_crisis_1 
 			
 			modifier = {
 				command_power_gain = -0.3

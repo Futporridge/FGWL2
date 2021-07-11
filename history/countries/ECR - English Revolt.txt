@@ -41,7 +41,7 @@ create_country_leader = {
 	desc = "POLITICS_HILAIRE_BELLOC_DESC"
 	picture = "gfx/leaders/ECR/Portrait_Hilaire_Belloc.tga"
 	expire = "1965.1.1"
-	ideology = communitarianism
+	ideology = communitarianism_subtype
 	traits = { 
 
 	}

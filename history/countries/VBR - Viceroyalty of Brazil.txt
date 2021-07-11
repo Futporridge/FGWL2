@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANCISCO_CRAVEIRO_LOPES_DESC"
 	picture = "gfx/leaders/VBR/Portrait_Francisco_Craveiro_Lopes.tga"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = paternalism_subtype
 	traits = { 
 
 	}

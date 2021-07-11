@@ -23,9 +23,9 @@ set_popularities = {
 	prometeism = 0
 	communitarianism = 0
 	oligarchy = 0
-	conservativism = 0
-	paternalism = 0
+	conservatism = 0
 	reactionary = 100
+	paternalism = 0
 }
 
 add_ideas = {
@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_HENRI_GOURAUD_DESC"
 	picture = "gfx/leaders/EGY/Portrait_Henri_Gouraud.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

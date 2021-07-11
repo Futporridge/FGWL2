@@ -36,7 +36,7 @@ create_country_leader = {
 	desc = "POLITICS_ENRIQUE_GOROSTIETA_DESC"
 	picture = "gfx/leaders/VRC/Portrait_Enrique_Gorostieta.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = { 
 
 	}

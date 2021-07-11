@@ -43,6 +43,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+		hidden_effect = {
 			remove_ideas = {
 			KAL_Carl_Glucksburg
 			KAL_Henri_Konow
@@ -59,6 +60,7 @@ focus_tree = {
 			add_ideas = { 
 			John_Christmas_Moller
 			}					
+			}
 			}
 		
 		available_if_capitulated = yes

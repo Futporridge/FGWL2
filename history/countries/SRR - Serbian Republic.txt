@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_DIMITRIJE_MITRINOVIC_DESC"
 	picture = "gfx/leaders/SRR/Portrait_Dimitrije_Mitrinovic.tga"
 	expire = "1965.1.1"
-	ideology = utopism
+	ideology = utopism_subtype
 	traits = { 
 
 	}
@@ -50,7 +50,7 @@ create_country_leader = {
 	desc = "POLITICS_MILOS_CRNJASKI_DESC"
 	picture = "gfx/leaders/SRR/Portrait_Milos_Crnjanski.tga"
 	expire = "1965.1.1"
-	ideology = individualism
+	ideology = individualism_subtype
 	traits = { 
 
 	}

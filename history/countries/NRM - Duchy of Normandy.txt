@@ -43,7 +43,7 @@ create_country_leader = {
 	desc = "POLITICS_SIXTE_BOURBON_DESC"
 	picture = "gfx/leaders/NRM/Portrait_Sixte_de_Vermandois.tga"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = reactionary_subtype
 	traits = {
 		#
 	}
