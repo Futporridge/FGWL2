@@ -1,0 +1,32 @@
+﻿	add_namespace = ban
+	
+	country_event = {	
+	id = ban.1
+	title = ban.1.t
+	desc = ban.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ban.1.a
+		add_ideas = {
+		ban_idea_border_of_the_german_world
+		}
+			}
+	}
+	country_event = {	
+	id = ban.2
+	title = ban.2.t
+	desc = ban.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ban.2.a
+		add_ideas = {
+		ban_idea_newborn_state
+		}
+			}
+	}	

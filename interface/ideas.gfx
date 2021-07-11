@@ -311,4 +311,9 @@ spriteTypes = {
 		name = "GFX_idea_small_industry"
 		texturefile = "gfx/interface/ideas/italian_empire/small_industry.dds"
 	}	
+	###banaat###
+	spriteType = {
+		name = "GFX_idea_chaos_on_the_danube"
+		texturefile = "gfx/interface/ideas/banat/chaos_on_the_danube.dds"
+	}		
 }
