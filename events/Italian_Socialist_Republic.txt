@@ -12,7 +12,43 @@
 	option = {
 		name = isr.1.a
 		
-    complete_national_focus = ITE_empire_legacy
+    complete_national_focus = ISR_triumph_of_the_revolution
+	}
+	}
+	
+	country_event = { #РЕволюция Живет!
+	id = isr.2
+	title = isr.2.t
+	desc = isr.2.d
+	picture = GFX_
+
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			has_completed_focus = ISR_food_appropriation
+			has_completed_focus = ISR_free_exchange_with_farmland
+		}
+		has_completed_focus = ISR_politically_motivated_troops
+		has_completed_focus = ISR_home_production
+		has_completed_focus = ISR_art_of_propaganda
+		has_completed_focus = ISR_elect_officers
+		has_completed_focus = ISR_home_production
+		has_completed_focus = ISR_elect_officers
+		has_completed_focus = ISR_guardia_rossa
+		has_completed_focus = ISR_factory_combat_squads
+		has_completed_focus = ISR_loot_arsenals
+		has_completed_focus = ISR_promote_overtime_work
+		has_completed_focus = ISR_workers_self_government
+	}
+	option = {
+		name = isr.2.a
+		
+		swap_ideas = {
+			remove_idea = ISR_defense_of_the_revolution_0
+			add_idea = ISR_defense_of_the_revolution_1
+		}
+		load_focus_tree = 
 	}
 	}
 	
