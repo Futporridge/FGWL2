@@ -48,7 +48,7 @@
 			remove_idea = ISR_defense_of_the_revolution_0
 			add_idea = ISR_defense_of_the_revolution_1
 		}
-		load_focus_tree = 
+		load_focus_tree = Italian_Socialist_Republic_italian_wars
 	}
 	}
 	

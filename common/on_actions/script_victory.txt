@@ -232,7 +232,10 @@ on_actions = {
 				}
 				
 				POP = {
-				 transfer_state = 766
+					transfer_state = 766
+					add_state_core = 766
+					transfer_state = 1
+					add_state_core = 1
 				}
 				
 				ITE = {
@@ -268,48 +271,23 @@ on_actions = {
 						traits = {	}
 					}
 					remove_ideas = {
-						renovatio_imperii
-						undeveloped_industry
-						progressive_monarchy
-						grande_esercito_trad
-						grande_esercito_mod
-						labor_front_0
-						labor_front_mod_0
-						labor_front_tard_0
-						labor_front_mod_1
-						operation_avalanche
-						operation_avalanche_speed
-						operation_avalanche_speed_big
-						operation_avalanche_speed_big_comm
-						operation_avalanche_speed_big_comm_tank
-						operation_avalanche_speed_big_comm_art
-						resistenza
+						ITE_renovatio_imperii
+						ITE_undeveloped_industry
+						ITE_progressive_monarchy
+						ITE_grande_esercito_1
+						ITE_grande_esercito_2
+						ITE_labor_front_0
+						ITE_labor_front_1
+						ITE_labor_front_2
+						ITE_labor_front_3
+						ITE_operation_avalanche_0
+						ITE_operation_avalanche_1
+						ITE_operation_avalanche_2
+						ITE_operation_avalanche_3
+						ITE_operation_avalanche_4
+						ITE_operation_avalanche_5
 					}
 					set_cosmetic_tag = ITE_TOWSIC
-					if = {
-						limit = {
-							has_war_with = POP
-						}
-						white_peace = POP
-					}
-					if = {
-						limit = {
-							has_war_with = TUS
-						}
-						white_peace = TUS
-					}
-					if = {
-						limit = {
-							has_war_with = VEN
-						}
-						white_peace = VEN
-					}
-					if = {
-						limit = {
-							has_war_with = PIE
-						}
-						white_peace = PIE
-					}
 				}
 			}
 	}
