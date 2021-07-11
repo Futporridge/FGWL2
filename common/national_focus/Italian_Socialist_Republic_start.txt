@@ -1,7 +1,7 @@
 	shared_focus = {
 		id = ISR_triumph_of_the_revolution
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 1
 		x = 9
 		y = 1
 		
@@ -13,7 +13,7 @@
 	shared_focus = {
 		id = ISR_unified_propaganda_center
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 1
 		prerequisite = {
 			focus = ISR_triumph_of_the_revolution
 		}
@@ -40,7 +40,7 @@
 	shared_focus = {
 		id = ISR_workers_self_government
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 1
 		prerequisite = {
 			focus = ISR_triumph_of_the_revolution
 		}
@@ -58,7 +58,7 @@
 	shared_focus = {
 		id = ISR_promote_overtime_work
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 1
 		prerequisite = {
 			focus = ISR_workers_self_government
 		}
@@ -78,7 +78,7 @@
 	shared_focus = {
 		id = ISR_loot_arsenals
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 1
 		prerequisite = {
 			focus = ISR_triumph_of_the_revolution
 		}
@@ -88,7 +88,7 @@
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 500
+				amount = 1000
 			}
 		}
 
@@ -96,7 +96,7 @@
 	shared_focus = {
 		id = ISR_factory_combat_squads
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 1
 		prerequisite = {
 			focus = ISR_loot_arsenals
 		}
@@ -105,23 +105,132 @@
 		}
 		x = 11
 		y = 3
+		
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = ISR_lack_of_officers_0
+				}
+				swap_ideas = {
+					remove_idea = ISR_lack_of_officers_0
+					add_idea = ISR_lack_of_officers_1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = ISR_lack_of_officers_1
+				}
+				swap_ideas = {
+					remove_idea = ISR_lack_of_officers_1
+					add_idea = ISR_lack_of_officers_2
+				}
+			}
+			create_corps_commander = { #Emilio Canzi
+				name = "Emilio Canzi"
+				picture = "Portrait_ISR_Emilio_Canzi.dds"
+				traits = { trickster ranger infantry_leader }
+				skill = 3
+				attack_skill = 3
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 2
+			}
+			create_corps_commander = { #Guido Picelli
+				name = "Guido Picelli"
+				picture = "Portrait_ISR_Guido_Picelli.dds"
+				traits = { commando winter_specialist trait_mountaineer }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 2
+				logistics_skill = 2
+			}
+			create_corps_commander = { #Pietro Bruzzi
+				name = "Pietro Bruzzi"
+				picture = "Portrait_ISR_Pietro_Bruzzi.dds"
+				traits = { panzer_leader trait_engineer }
+				skill = 3
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 3
+			}
+			Custom_effect_tooltip = ISR_factory_combat_squads_tt
+			hidden_effect = {
+				ISR = {
+					load_oob = "ISR_combat_squads"
+				}
+			}
+		}
 
 	}
 	shared_focus = {
 		id = ISR_guardia_rossa
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 1
 		prerequisite = {
 			focus = ISR_loot_arsenals
 		}
 		x = 13
 		y = 3
+		
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = ISR_lack_of_officers_0
+				}
+				swap_ideas = {
+					remove_idea = ISR_lack_of_officers_0
+					add_idea = ISR_lack_of_officers_1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = ISR_lack_of_officers_1
+				}
+				swap_ideas = {
+					remove_idea = ISR_lack_of_officers_1
+					add_idea = ISR_lack_of_officers_2
+				}
+			}
+			create_field_marshal = { #Gino_Lucetti
+				name = "Randolfo Pacciardi"
+				picture = "Portrait_ISR_Randolfo_Pacciardi.dds"
+				traits = { inflexible_strategist defensive_doctrine inspirational_leader  }
+				skill = 4
+				attack_skill = 4
+				defense_skill = 3
+				planning_skill = 4
+				logistics_skill = 2
+			}
+			Custom_effect_tooltip = ISR_guardia_rossa_tt
+			hidden_effect = {
+				ISR = {
+					load_oob = "ISR_guardia_rossa"
+				}
+			}
+		}
+
+	}
+	shared_focus = {
+		id = ISR_elect_officers
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = ISR_guardia_rossa
+		}
+		x = 13
+		y = 4
+		
+		completion_reward = {
+			remove_ideas = ISR_lack_of_officers_2
+		}
 
 	}
 	shared_focus = {
 		id = ISR_home_production
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 1
 		prerequisite = {
 			focus = ISR_promote_overtime_work
 		}
@@ -133,34 +242,71 @@
 		}
 		x = 9
 		y = 4
+		
+		completion_reward = {
+			add_ideas = ISR_home_production_0
+		}
 
 	}
 	shared_focus = {
 		id = ISR_art_of_propaganda
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 1
 		prerequisite = {
 			focus = ISR_unified_propaganda_center
 		}
 		x = 5
 		y = 3
+		
+		completion_reward = {
+			add_ideas = ISR_red_propaganda_0
+		}
 
 	}
 	shared_focus = {
 		id = ISR_politically_motivated_troops
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 1
 		prerequisite = {
 			focus = ISR_art_of_propaganda
 		}
 		x = 5
 		y = 4
+		
+		completion_reward = { 
+			create_corps_commander = { #Luigi_Longo
+				name = "Luigi Longo"
+				picture = "Portrait_ISR_Luigi_Longo.dds"
+				traits = { war_hero brilliant_strategist }
+				skill = 3
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 2
+				logistics_skill = 1
+			}
+			create_corps_commander = { #Gino_Lucetti
+				name = "Gino Lucetti"
+				picture = "Portrait_ISR_Gino_Lucetti.dds"
+				traits = { reckless urban_assault_specialist }
+				skill = 1
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 2
+				logistics_skill = 1
+			}
+			Custom_effect_tooltip = ISR_politically_motivated_troops_tt
+			hidden_effect = {
+				ISR = {
+					load_oob = "ISR_arditi"
+				}
+			}
+		}
 
 	}
 	shared_focus = {
 		id = ISR_free_exchange_with_farmlands
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 1
 		prerequisite = {
 			focus = ISR_promote_overtime_work
 			focus = ISR_politically_motivated_troops
@@ -170,12 +316,21 @@
 		}
 		x = 7
 		y = 5
+		
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = ISR_food_crisis_0
+				add_idea = ISR_food_crisis_1
+			}
+			set_country_flag = ISR_free_exchange_flag
+		}
+
 
 	}
 	shared_focus = {
 		id = ISR_food_appropriation
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 1
 		prerequisite = {
 			focus = ISR_elect_officers
 			focus = ISR_factory_combat_squads
@@ -185,19 +340,14 @@
 		}
 		x = 11
 		y = 5
-
-	}
-	shared_focus = {
-		id = ISR_elect_officers
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = ISR_guardia_rossa
+		
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = ISR_food_crisis_0
+				add_idea = ISR_food_crisis_2
+			}
+			set_country_flag = ISR_food_appropriation_flag
 		}
-		prerequisite = {
-			focus = ISR_factory_combat_squads
-		}
-		x = 13
-		y = 4
+		
 
 	}

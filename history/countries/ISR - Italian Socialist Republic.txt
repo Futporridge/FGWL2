@@ -37,9 +37,10 @@ set_popularities = {
 
 add_ideas = {
 ISR_defense_of_the_revolution_0
-lack_of_officers
+ISR_lack_of_officers_0
 ISR_economic_instability_0
 ISR_food_crisis_0
+low_economic_mobilisation
 }
 
 set_convoys = 100
@@ -88,19 +89,6 @@ create_corps_commander = {# Ettore Troilo
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 3
-}
-create_corps_commander = {
-	name = "Michele Bianchi"
-	portrait_path = "gfx/leaders/ISR/Portrait_Michele_Bianchi.tga"
-	traits = {
-		harsh_leader
-	}
-	id = 527
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 1
 }
 create_corps_commander = {
 	name = "Pompeo Colajanni"

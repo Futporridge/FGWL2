@@ -20,7 +20,26 @@ ideas = {
 			}
 		}
 		
-		lack_of_officers = {
+		ISR_defense_of_the_revolution_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = industrial_oligarchy
+			
+			modifier = {
+				defence = 0.1
+				army_morale_factor = 0.15
+				army_org_factor = 0.15
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		ISR_lack_of_officers_0 = {
 			
 			allowed = {
 				always = no # Triggered via event
@@ -32,6 +51,44 @@ ideas = {
 				army_org_factor = -0.15
 				experience_gain_army_unit_factor = -0.5
 				max_planning = -10
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		ISR_lack_of_officers_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = industrial_oligarchy
+			
+			modifier = {
+				army_org_factor = -0.1
+				experience_gain_army_unit_factor = -0.25
+				max_planning = -5
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		ISR_lack_of_officers_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = industrial_oligarchy
+			
+			modifier = {
+				army_org_factor = -0.05
+				experience_gain_army_unit_factor = -0.1
+				max_planning = -1
 			}
 	
 			ai_will_do = {
@@ -76,6 +133,29 @@ ideas = {
 			}
 		}
 		
+		ISR_home_production_0 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = industrial_oligarchy
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.15
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					instant = yes
+					reliability = -0.1
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
 		ISR_food_crisis_0 = {
 			
 			allowed = {
@@ -88,6 +168,58 @@ ideas = {
 				monthly_population = -0.05
 				stability_weekly = -0.01
 				political_power_gain = -0.3
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		ISR_food_crisis_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = industrial_oligarchy
+			
+			modifier = {
+				political_power_gain = -0.3
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		ISR_food_crisis_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = industrial_oligarchy
+			
+			modifier = {
+				political_power_gain = -0.3
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		ISR_red_propaganda_0 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = industrial_oligarchy
+			
+			modifier = {
+				offensive_war_stability_factor = 0.65
+				political_power_gain = 0.15
 			}
 	
 			ai_will_do = {
