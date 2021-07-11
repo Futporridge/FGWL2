@@ -39,9 +39,9 @@ set_popularities = {
 }
 
 add_ideas = {
-cultural_center
-regime_di_prosperita
-tuscan_guard
+TUS_cultural_center
+TUS_regime_di_prosperita_0
+TUS_tuscan_guard_0
 }
 
 set_convoys = 100

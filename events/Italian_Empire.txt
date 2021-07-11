@@ -284,6 +284,29 @@
 	}
 	}
 	
+	country_event = { #Сопротивление 
+	id = ite.9
+	title = ite.9.t
+	desc = ite.9.d
+	picture = GFX_
+	is_triggered_only = no
+	fire_only_once = yes
+	trigger = {
+		tag = ITE
+		OR = {
+			controls_state = 805
+			controls_state = 2
+		}
+	}
+	mean_time_to_happen = { days = 30 }
+	
+	option = { #Одной проблемой больше
+		name = ite.9.a
+		add_ideas = resistenza
+		mark_focus_tree_layout_dirty = yes
+		}
+	}
+	
 ##################################################################################
 ################################ИВЕНТЫ СОПРОТИВЛЕНИЯ##############################
 ##################################################################################

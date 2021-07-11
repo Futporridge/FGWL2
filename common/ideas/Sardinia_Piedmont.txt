@@ -1,13 +1,13 @@
 ideas = {
 
 	country = {
-		bureaucratic_economy = {
+		PIE_bureaucratic_economy = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = Bureaucratic_economy 
+			picture = PIE_bureaucratic_economy 
 			
 			modifier = {
 				consumer_goods_factor = 0.05
@@ -20,13 +20,13 @@ ideas = {
 			}
 		}
 		
-		pensions_to_aristocrats = {
+		PIE_pensions_to_aristocrats = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = Pensions_to_aristocrats
+			picture = PIE_pensions_to_aristocrats
 			
 			modifier = {
 				political_power_gain = -0.15
@@ -38,7 +38,7 @@ ideas = {
 			}
 		}
 		
-		PIE_bende_rosse = {
+		PIE_bende_rosse_0 = {
 			
 			allowed = {
 				always = no # Triggered via event
@@ -94,13 +94,13 @@ ideas = {
 			}
 		}
 		
-		state_planning = {
+		PIE_state_planning_0 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = state_planning
+			picture = PIE_state_planning_0
 			
 			modifier = {
 				production_factory_max_efficiency_factor = 0.1
@@ -111,13 +111,13 @@ ideas = {
 			}
 		}
 		
-		state_planning_sci = {
+		PIE_state_planning_1 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = state_planning
+			picture = PIE_state_planning_0
 			
 			modifier = {
 				production_factory_max_efficiency_factor = 0.1
@@ -129,13 +129,13 @@ ideas = {
 			}
 		}
 		
-		state_planning_trad = {
+		PIE_state_planning_2 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = state_planning
+			picture = PIE_state_planning_0
 			
 			modifier = {
 				production_factory_max_efficiency_factor = 0.1

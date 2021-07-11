@@ -385,7 +385,7 @@
 		
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = PIE_bende_rosse
+				remove_idea = PIE_bende_rosse_0
 				add_idea = PIE_bende_rosse_1
 			}
 		}
@@ -438,7 +438,7 @@
 		
 		completion_reward = {
 			add_stability = -0.1
-			remove_ideas = pensions_to_aristocrats
+			remove_ideas = PIE_pensions_to_aristocrats
 		}
 
 	}

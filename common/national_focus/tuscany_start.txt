@@ -46,7 +46,7 @@
 
 	}
 	shared_focus = {
-		id = TUS_giovane_guardia
+		id = TUS_TUS_giovane_guardia
 		icon = GFX_goal_unknown
 		cost = 4
 		prerequisite = {
@@ -56,7 +56,7 @@
 		y = 3
 		
 		completion_reward = {
-			add_ideas = giovane_guardia
+			add_ideas = TUS_giovane_guardia
 		}
 
 	}
@@ -65,15 +65,15 @@
 		icon = GFX_goal_unknown
 		cost = 4
 		prerequisite = {
-			focus = TUS_giovane_guardia
+			focus = TUS_TUS_giovane_guardia
 		}
 		mutually_exclusive = {
-			focus = TUS_guarded_paradise
+			focus = TUS_TUS_guarded_paradise
 		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = TUS_cheap_labor_tt
-				TUS = { has_idea = migrant_crisis }
+				TUS = { has_idea = TUS_migrant_crisis_0 }
 			}
 		}
 		x = 6
@@ -118,7 +118,7 @@
 			focus = TUS_army_inspection
 		}
 		mutually_exclusive = {
-			focus = TUS_dogs_of_war
+			focus = TUS_TUS_dogs_of_war_0
 		}
 		x = 10
 		y = 3
@@ -144,18 +144,18 @@
 		
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = tuscan_guard
-				add_idea = tuscan_guard_1
+				remove_idea = TUS_tuscan_guard_0
+				add_idea = TUS_tuscan_guard_1
 			}
 		}
 
 	}
 	shared_focus = {
-		id = TUS_guarded_paradise
+		id = TUS_TUS_guarded_paradise
 		icon = GFX_goal_unknown
 		cost = 4
 		prerequisite = {
-			focus = TUS_giovane_guardia
+			focus = TUS_TUS_giovane_guardia
 		}
 		prerequisite = {
 			focus = TUS_universal_conscription
@@ -165,8 +165,8 @@
 		}
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = TUS_guarded_paradise_tt
-				has_idea = migrant_crisis
+				tooltip = TUS_TUS_guarded_paradise_tt
+				has_idea = TUS_migrant_crisis_0
 			}
 		}
 		x = 8
@@ -174,10 +174,10 @@
 		
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = giovane_guardia
-				add_idea = guarded_paradise
+				remove_idea = TUS_giovane_guardia
+				add_idea = TUS_guarded_paradise
 			}
-			remove_ideas = migrant_crisis
+			remove_ideas = TUS_migrant_crisis_0
 		}
 
 	}
@@ -193,8 +193,8 @@
 		
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = tuscan_guard_1
-				add_idea = tuscan_guard_2
+				remove_idea = TUS_tuscan_guard_1
+				add_idea = TUS_tuscan_guard_2
 			}
 			army_experience = 25
 		}
@@ -211,12 +211,12 @@
 		y = 6
 		
 		completion_reward = {
-			remove_ideas = tuscan_guard_2
+			remove_ideas = TUS_tuscan_guard_2
 		}
 
 	}
 	shared_focus = {
-		id = TUS_dogs_of_war
+		id = TUS_TUS_dogs_of_war_0
 		icon = GFX_goal_unknown
 		cost = 4
 		prerequisite = {
@@ -230,8 +230,8 @@
 
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = tuscan_guard
-				add_idea = dogs_of_war
+				remove_idea = TUS_tuscan_guard_0
+				add_idea = TUS_dogs_of_war_0
 			}
 			create_corps_commander = {
 				name = "Thord Ivar Hallström"
@@ -252,7 +252,7 @@
 		icon = GFX_goal_unknown
 		cost = 3
 		prerequisite = {
-			focus = TUS_dogs_of_war
+			focus = TUS_TUS_dogs_of_war_0
 			focus = TUS_new_uniform
 		}
 		x = 12
@@ -272,22 +272,22 @@
 		icon = GFX_goal_unknown
 		cost = 4
 		prerequisite = {
-			focus = TUS_dogs_of_war
+			focus = TUS_TUS_dogs_of_war_0
 		}
 		x = 14
 		y = 4
 		
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = dogs_of_war
-				add_idea = dogs_of_war_1
+				remove_idea = TUS_dogs_of_war_0
+				add_idea = TUS_dogs_of_war_1
 			}
 			army_experience = 25
 		}
 
 	}
 	shared_focus = {
-		id = TUS_officer_training_courses
+		id = TUS_TUS_officer_training_courses
 		icon = GFX_goal_unknown
 		cost = 4
 		prerequisite = {
@@ -297,7 +297,7 @@
 		y = 5
 		
 		completion_reward = {
-			add_ideas = officer_training_courses
+			add_ideas = TUS_officer_training_courses
 		}
 
 	}
@@ -306,15 +306,15 @@
 		icon = GFX_goal_unknown
 		cost = 4
 		prerequisite = {
-			focus = TUS_officer_training_courses
+			focus = TUS_TUS_officer_training_courses
 		}
 		x = 14
 		y = 6
 		
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = dogs_of_war_1
-				add_idea = dogs_of_war_2
+				remove_idea = TUS_dogs_of_war_1
+				add_idea = TUS_dogs_of_war_2
 			}
 			add_political_power = -50
 		}
@@ -332,8 +332,8 @@
 		
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = regime_di_prosperita
-				add_idea = regime_di_prosperita_1
+				remove_idea = TUS_regime_di_prosperita_0
+				add_idea = TUS_regime_di_prosperita_1
 			}
 			161 = {
 			    add_building_construction = {
@@ -357,8 +357,8 @@
 		
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = regime_di_prosperita_1
-				add_idea = regime_di_prosperita_2
+				remove_idea = TUS_regime_di_prosperita_1
+				add_idea = TUS_regime_di_prosperita_2
 			}
 			add_political_power = 100
 		}
@@ -375,43 +375,43 @@
 		y = 4
 		
 		completion_reward = {
-			remove_ideas = regime_di_prosperita_2
+			remove_ideas = TUS_regime_di_prosperita_1
 		}
 
 	}
 	shared_focus = {
-		id = TUS_power_of_greed
+		id = TUS_TUS_power_of_greed_0
 		icon = GFX_goal_unknown
 		cost = 4
 		prerequisite = {
 			focus = TUS_renegotiate_privileges
 		}
 		mutually_exclusive = {
-			focus = TUS_fixed_prices
+			focus = TUS_TUS_fixed_prices_0
 		}
 		x = 16
 		y = 5
 		
 		completion_reward = {
-			add_ideas = power_of_greed
+			add_ideas = TUS_power_of_greed_0
 		}
 
 	}
 	shared_focus = {
-		id = TUS_fixed_prices
+		id = TUS_TUS_fixed_prices_0
 		icon = GFX_goal_unknown
 		cost = 4
 		prerequisite = {
 			focus = TUS_renegotiate_privileges
 		}
 		mutually_exclusive = {
-			focus = TUS_power_of_greed
+			focus = TUS_TUS_power_of_greed_0
 		}
 		x = 18
 		y = 5
 		
 		completion_reward = {
-			add_ideas = fixed_prices
+			add_ideas = TUS_fixed_prices_0
 		}
 
 	}
@@ -420,8 +420,8 @@
 		icon = GFX_goal_unknown
 		cost = 4
 		prerequisite = {
-			focus = TUS_fixed_prices
-			focus = TUS_power_of_greed
+			focus = TUS_TUS_fixed_prices_0
+			focus = TUS_TUS_power_of_greed_0
 		}
 		x = 17
 		y = 6
@@ -430,27 +430,27 @@
 			add_stability = -0.1
 			if = {
 				limit = {
-					has_completed_focus = TUS_fixed_prices
+					has_completed_focus = TUS_TUS_fixed_prices_0
 				}
 				swap_ideas = {
-					remove_idea = fixed_prices
-					add_idea = fixed_prices_1
+					remove_idea = TUS_fixed_prices_0
+					add_idea = TUS_fixed_prices_1
 				}
 			}
 			if = {
 				limit = {
-					has_completed_focus = TUS_power_of_greed
+					has_completed_focus = TUS_TUS_power_of_greed_0
 				}
 				swap_ideas = {
-					remove_idea = power_of_greed
-					add_idea = power_of_greed_1
+					remove_idea = TUS_power_of_greed_0
+					add_idea = TUS_power_of_greed_1
 				}
 			}
 			if = {
 				limit = {
 					NOT = {
-						has_completed_focus = TUS_power_of_greed
-						has_completed_focus = TUS_fixed_prices
+						has_completed_focus = TUS_TUS_power_of_greed_0
+						has_completed_focus = TUS_TUS_fixed_prices_0
 					}
 				}
 				Custom_effect_tooltip = TUS_no_more_siesta_text
@@ -474,8 +474,8 @@
 				add_manpower = 50000
 			}
 			swap_ideas = {
-				remove_idea = migrant_crisis
-				add_idea = migrant_crisis_1
+				remove_idea = TUS_migrant_crisis_0
+				add_idea = TUS_migrant_crisis_1
 			}
 		}
 
@@ -485,7 +485,7 @@
 		icon = GFX_goal_unknown
 		cost = 4
 		prerequisite = {
-			focus = TUS_guarded_paradise
+			focus = TUS_TUS_guarded_paradise
 		}
 		x = 8
 		y = 6

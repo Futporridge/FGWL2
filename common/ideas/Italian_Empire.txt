@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-		renovatio_imperii = {
+		ITE_renovatio_imperii = {
 			
 			allowed = {
 				always = no # Triggered via event
@@ -20,7 +20,7 @@ ideas = {
 			}
 		}
 		
-		undeveloped_industry = {
+		ITE_undeveloped_industry = {
 			
 			allowed = {
 				always = no # Triggered via event
@@ -39,13 +39,13 @@ ideas = {
 			}
 		}
 		
-		progressive_monarchy = {
+		ITE_progressive_monarchy = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = progressive_monarchy
+			picture = ITE_progressive_monarchy
 			
 			modifier = {
 				conservatism_drift = 0.03
@@ -63,13 +63,13 @@ ideas = {
 			}
 		}
 		
-		grande_esercito_trad = {
+		ITE_grande_esercito_1 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = grande_esercito_trad 
+			picture = ITE_grande_esercito_1 
 			
 			modifier = {
 				conscription = 0.03
@@ -81,13 +81,13 @@ ideas = {
 			}
 		}
 		
-		grande_esercito_mod = {
+		ITE_grande_esercito_2 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = grande_esercito_mod 
+			picture = ITE_grande_esercito_2 
 			
 			modifier = {
 				experience_gain_army_factor = 0.20
@@ -99,13 +99,13 @@ ideas = {
 			}
 		}
 		
-		labor_front_0 = {
+		ITE_labor_front_0 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = labor_front_0 
+			picture = ITE_labor_front_0 
 			
 			modifier = {
 				production_factory_efficiency_gain_factor = 0.1
@@ -116,13 +116,13 @@ ideas = {
 			}
 		}
 		
-		labor_front_mod_0 = {
+		ITE_labor_front_1 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = labor_front_mod_0 
+			picture = ITE_labor_front_1 
 			
 			modifier = {
 				production_factory_efficiency_gain_factor = 0.15
@@ -134,13 +134,13 @@ ideas = {
 			}
 		}
 		
-		labor_front_tard_0 = {
+		ITE_labor_front_2 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = labor_front_tard_0 
+			picture = ITE_labor_front_2 
 			
 			modifier = {
 			    production_factory_efficiency_gain_factor = 0.1
@@ -152,13 +152,13 @@ ideas = {
 			}
 		}
 		
-		labor_front_mod_1 = {
+		ITE_labor_front_3 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = labor_front_mod_1 
+			picture = ITE_labor_front_3 
 			
 			modifier = {
 				production_factory_efficiency_gain_factor = 0.15
@@ -171,13 +171,13 @@ ideas = {
 			}
 		}
 		
-		operation_avalanche = {
+		ITE_operation_avalanche_0 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = operation_avalanche 
+			picture = ITE_operation_avalanche_0 
 			
 			modifier = {
 				
@@ -187,13 +187,13 @@ ideas = {
 				factor = 0
 			}
 		}
-		operation_avalanche_speed = {
+		ITE_operation_avalanche_1 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = operation_avalanche 
+			picture = ITE_operation_avalanche_0 
 			
 			modifier = {
 				terrain_penalty_reduction = 0.25
@@ -203,13 +203,13 @@ ideas = {
 				factor = 0
 			}
 		}
-		operation_avalanche_speed_big = {
+		ITE_operation_avalanche_2 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = operation_avalanche 
+			picture = ITE_operation_avalanche_0 
 			
 			modifier = {
 				terrain_penalty_reduction = 0.25
@@ -220,13 +220,13 @@ ideas = {
 				factor = 0
 			}
 		}
-		operation_avalanche_speed_big_comm = {
+		ITE_operation_avalanche_3 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = operation_avalanche 
+			picture = ITE_operation_avalanche_0 
 			
 			modifier = {
 				terrain_penalty_reduction = 0.25
@@ -238,13 +238,13 @@ ideas = {
 				factor = 0
 			}
 		}
-		operation_avalanche_speed_big_comm_tank = {
+		ITE_operation_avalanche_4 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = operation_avalanche 
+			picture = ITE_operation_avalanche_0 
 			
 			modifier = {
 				terrain_penalty_reduction = 0.25
@@ -257,13 +257,13 @@ ideas = {
 				factor = 0
 			}
 		}
-		operation_avalanche_speed_big_comm_art = {
+		ITE_operation_avalanche_5 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = operation_avalanche 
+			picture = ITE_operation_avalanche_0 
 			
 			modifier = {
 				terrain_penalty_reduction = 0.25

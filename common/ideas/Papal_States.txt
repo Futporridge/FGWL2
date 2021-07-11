@@ -1,13 +1,13 @@
 ideas = {
 
 	country = {
-		primatus_papae = {
+		POP_primatus_papae_0 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = Primatus_Papae 
+			picture = POP_primatus_papae_0 
 			
 			modifier = {
 				stability_factor = 0.10
@@ -21,13 +21,13 @@ ideas = {
 			}
 		}
 		
-		primatus_papae_1 = {
+		POP_primatus_papae_1 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = Primatus_Papae 
+			picture = POP_primatus_papae_0 
 			
 			modifier = {
 				stability_factor = 0.10
@@ -40,13 +40,13 @@ ideas = {
 			}
 		}
 		
-		piuss_wall  = {
+		POP_piuss_wall_0  = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = piuss_wall
+			picture = POP_piuss_wall_0
 			
 			modifier = {
 				production_speed_bunker_factor = 0.35
@@ -61,13 +61,13 @@ ideas = {
 			}
 		}
 		
-		piuss_wall_1  = {
+		POP_piuss_wall_1  = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = piuss_wall_1
+			picture = POP_piuss_wall_1
 			
 			modifier = {
 				production_speed_bunker_factor = 0.45
@@ -83,13 +83,13 @@ ideas = {
 			}
 		}
 		
-		piuss_wall_2  = {
+		POP_piuss_wall_2  = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = piuss_wall_2
+			picture = POP_piuss_wall_2
 			
 			modifier = {
 				production_speed_bunker_factor = 0.55
@@ -105,13 +105,13 @@ ideas = {
 			}
 		}
 		
-		piuss_wall_0  = {
+		POP_piuss_wall_3  = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = piuss_wall_0
+			picture = POP_piuss_wall_3
 			
 			modifier = {
 				production_speed_bunker_factor = 0.10
@@ -124,13 +124,13 @@ ideas = {
 			}
 		}
 		
-		the_congregation_of_church_ideas  = {
+		POP_the_congregation_of_church  = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = the_congregation_of_church_ideas
+			picture = POP_the_congregation_of_church
 			
 			modifier = {
 				weekly_manpower = 500
@@ -141,13 +141,13 @@ ideas = {
 			}
 		}
 		
-		decay_of_the_army  = {
+		POP_decay_of_the_army  = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = decay_of_the_army
+			picture = POP_decay_of_the_army
 			
 			modifier = {
 				conscription_factor = -0.80
@@ -160,13 +160,13 @@ ideas = {
 			}
 		}
 		
-		political_collapse  = {
+		POP_political_collapse  = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = political_collapse
+			picture = POP_political_collapse
 			
 			modifier = {
 				political_power_gain = -0.5
@@ -179,13 +179,13 @@ ideas = {
 			}
 		}
 		
-		plutocracy  = {
+		POP_plutocracy  = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = plutocracy
+			picture = POP_plutocracy
 			
 			modifier = {
 				production_factory_max_efficiency_factor = -0.40

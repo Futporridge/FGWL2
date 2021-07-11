@@ -29,9 +29,9 @@ set_technology = {
 }
 
 add_ideas = {
-	renovatio_Imperii
-	undeveloped_industry
-	progressive_monarchy
+	ITE_renovatio_imperii
+	ITE_undeveloped_industry
+	ITE_progressive_monarchy
 } 
 
 set_politics = {

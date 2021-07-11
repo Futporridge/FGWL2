@@ -46,8 +46,8 @@ POP_Benedetto_Aloisi_Masella
 POP_Giovanni_Montini
 POP_Amleto_Giovanni_Cicognani
 POP_Josemaria_Escriva
-Primatus_Papae
-Piuss_Wall
+POP_primatus_papae_0
+POP_piuss_wall_0
 }
 
 set_convoys = 100

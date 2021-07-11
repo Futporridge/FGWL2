@@ -46,9 +46,9 @@ set_popularities = {
 }
 
 add_ideas = {
-bureaucratic_economy
-pensions_to_aristocrats
-PIE_bende_rosse
+PIE_bureaucratic_economy
+PIE_pensions_to_aristocrats
+PIE_bende_rosse_0
 }
 
 set_convoys = 100

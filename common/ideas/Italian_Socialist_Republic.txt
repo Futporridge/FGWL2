@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-		defense_of_the_revolution = {
+		ISR_defense_of_the_revolution_0 = {
 			
 			allowed = {
 				always = no # Triggered via event
@@ -31,7 +31,7 @@ ideas = {
 			modifier = {
 				army_org_factor = -0.15
 				experience_gain_army_unit_factor = -0.5
-				max_planning = -15
+				max_planning = -10
 			}
 	
 			ai_will_do = {
@@ -39,7 +39,7 @@ ideas = {
 			}
 		}
 		
-		economic_instability = {
+		ISR_economic_instability_0 = {
 			
 			allowed = {
 				always = no # Triggered via event
@@ -58,7 +58,25 @@ ideas = {
 			}
 		}
 		
-		food_crisis = {
+		ISR_economic_instability_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = industrial_oligarchy
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.10
+				production_factory_efficiency_gain_factor = -0.05
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		ISR_food_crisis_0 = {
 			
 			allowed = {
 				always = no # Triggered via event

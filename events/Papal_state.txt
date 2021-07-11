@@ -243,18 +243,18 @@
 				popularity = 50
 			}
 			add_ideas = {
-				decay_of_the_army
-				political_collapse
-				plutocracy
+				POP_decay_of_the_army
+				POP_political_collapse
+				POP_plutocracy
 			}
 			remove_ideas = {
-				primatus_papae
-				primatus_papae_1
-				piuss_wall
-				piuss_wall_1
-				piuss_wall_2
-				piuss_wall_0
-				the_congregation_of_church_ideas
+				POP_primatus_papae_0
+				POP_primatus_papae_1
+				POP_piuss_wall_0
+				POP_piuss_wall_1
+				POP_piuss_wall_2
+				POP_piuss_wall_3
+				POP_the_congregation_of_church
 			}
 		}
 	}

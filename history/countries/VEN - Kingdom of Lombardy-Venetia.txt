@@ -53,10 +53,10 @@ set_popularities = {
 }
 
 add_ideas = {
-industrial_oligarchy
-forgotten_army
-restoration_of_venice
-bende_rosse
+VEN_industrial_oligarchy_0
+VEN_forgotten_army
+VEN_restoration_of_venice_0
+VEN_bende_rosse
 ###Economic###
 free_trade
 }

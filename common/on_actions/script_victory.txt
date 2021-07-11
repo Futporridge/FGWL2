@@ -29,6 +29,12 @@ on_actions = {
 					FROM = { tag = ISR }
 					ROOT = { tag = VEN }
 				}
+				
+				VEN = { 
+					transfer_navy = {
+						target = ISR
+					}
+				}
 
 				ISR = {
 					transfer_state = 803
@@ -147,6 +153,11 @@ on_actions = {
 				FROM = {
 					white_peace = ROOT
 				}
+				PRO = {
+					transfer_navy = {
+						target = PIE
+					}
+				}
 				MOD = {
 					annex_country = {
 						target = ROOT
@@ -225,6 +236,9 @@ on_actions = {
 				}
 				
 				ITE = {
+					transfer_navy = {
+						target = FROM
+					}
 					retire_ideology_leader = paternalism
 					retire_ideology_leader = oligarchy
 					retire_ideology_leader = conservatism

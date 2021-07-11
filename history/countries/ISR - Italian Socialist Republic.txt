@@ -36,10 +36,10 @@ set_popularities = {
 }
 
 add_ideas = {
-defense_of_the_revolution
+ISR_defense_of_the_revolution_0
 lack_of_officers
-economic_instability
-food_crisis
+ISR_economic_instability_0
+ISR_food_crisis_0
 }
 
 set_convoys = 100

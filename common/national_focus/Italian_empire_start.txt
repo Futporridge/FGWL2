@@ -6,7 +6,7 @@
 		y = 0
 		
 		available = {
-        always = no
+			always = no
         }
 
 	}
@@ -133,13 +133,13 @@
 				limit = {
 					has_completed_focus = ITE_trust_old_generals
 				}
-				add_ideas = grande_esercito_trad
+				add_ideas = ITE_grande_esercito_1
 			}
 			if = {
 				limit = {
 					has_completed_focus = ITE_new_tactics
 				}
-				add_ideas = grande_esercito_mod
+				add_ideas = ITE_grande_esercito_2
 			}
 			if = {
 				limit = {
@@ -163,7 +163,7 @@
 		x = 6
 		y = 1
 		completion_reward = {
-			add_ideas = labor_front_0
+			add_ideas = ITE_labor_front_0
 		}
 	}
 	shared_focus = {
@@ -178,8 +178,8 @@
 		}
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = labor_front_0
-				add_idea = labor_front_mod_0
+				remove_idea = ITE_labor_front_0
+				add_idea = ITE_labor_front_1
 			}
 		}
 		x = 5
@@ -290,8 +290,8 @@
 					has_completed_focus = ITE_emergency_nationalization
 				}
 				swap_ideas = {
-					remove_idea = labor_front_0
-					add_idea = labor_front_tard_0
+					remove_idea = ITE_labor_front_0
+					add_idea = ITE_labor_front_2
 				}
 				random_owned_state = {
 					add_building_construction = {
@@ -306,8 +306,8 @@
 					has_completed_focus = ITE_carrot_and_stick
 				}
 				swap_ideas = {
-					remove_idea = labor_front_mod_0
-					add_idea = labor_front_mod_1
+					remove_idea = ITE_labor_front_1
+					add_idea = ITE_labor_front_3
 				}
 				every_owned_state = {
 					add_building_construction = {
@@ -456,7 +456,7 @@
 			focus = ITE_as_long_as_austria_dont_look
 		}
 		completion_reward = {
-			add_ideas = operation_avalanche
+			add_ideas = ITE_operation_avalanche_0
 		}
 
 	}
@@ -557,8 +557,8 @@
 		
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = operation_avalanche
-				add_idea = operation_avalanche_speed
+				remove_idea = ITE_operation_avalanche_0
+				add_idea = ITE_operation_avalanche_1
 			}
 		}
 	}
@@ -578,8 +578,8 @@
 		
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = operation_avalanche_speed
-				add_idea = operation_avalanche_speed_big
+				remove_idea = ITE_operation_avalanche_1
+				add_idea = ITE_operation_avalanche_2
 			}
 		}
 
@@ -605,8 +605,8 @@
 		
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = operation_avalanche_speed_big_comm
-				add_idea = operation_avalanche_speed_big_comm_tank
+				remove_idea = ITE_operation_avalanche_3
+				add_idea = ITE_operation_avalanche_4
 			}
 			add_tech_bonus = {
 				bonus = 0.4
@@ -631,8 +631,8 @@
 		
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = operation_avalanche_speed_big
-				add_idea = operation_avalanche_speed_big_comm
+				remove_idea = ITE_operation_avalanche_2
+				add_idea = ITE_operation_avalanche_3
 			}
 		}
 
@@ -658,8 +658,8 @@
 		
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = operation_avalanche_speed_big_comm
-				add_idea = operation_avalanche_speed_big_comm_art
+				remove_idea = ITE_operation_avalanche_3
+				add_idea = ITE_operation_avalanche_5
 			}
 		}
 

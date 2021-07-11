@@ -1,13 +1,13 @@
 ideas = {
 
 	country = {
-		industrial_oligarchy = {
+		VEN_industrial_oligarchy_0 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = industrial_oligarchy
+			picture = VEN_industrial_oligarchy_0
 			
 			modifier = {
 				consumer_goods_factor = 0.15
@@ -23,13 +23,13 @@ ideas = {
 			}
 		}
 		
-		industrial_oligarchy_crash = {
+		VEN_industrial_oligarchy_1 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = industrial_oligarchy_crash
+			picture = VEN_industrial_oligarchy_1
 			
 			modifier = {
 				consumer_goods_factor = 0.1
@@ -42,13 +42,13 @@ ideas = {
 			}
 		}
 		
-		industrial_oligarchy_domination = {
+		VEN_industrial_oligarchy_2 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = industrial_oligarchy_domination
+			picture = VEN_industrial_oligarchy_2
 			
 			modifier = {
 				consumer_goods_factor = 0.20
@@ -64,16 +64,16 @@ ideas = {
 			}
 		}
 		
-		forgotten_army = {
+		VEN_forgotten_army = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = forgotten_army
+			picture = VEN_forgotten_army
 			
 			modifier = {
-				custom_modifier_tooltip = VEN_forgotten_army_tt
+				custom_modifier_tooltip = VEN_VEN_forgotten_army_tt
 				command_power_gain_mult = -0.5
 				conscription_factor  = -0.70
 				military_leader_cost_factor = 1
@@ -85,13 +85,13 @@ ideas = {
 			}
 		}
 		
-		restoration_of_venice = {
+		VEN_restoration_of_venice_0 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = restoration_of_venice
+			picture = VEN_restoration_of_venice_0
 			
 			modifier = {
 				consumer_goods_factor = 0.05
@@ -103,13 +103,13 @@ ideas = {
 			}
 		}
 		
-		restoration_of_venice_1 = {
+		VEN_restoration_of_venice_1 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = restoration_of_venice
+			picture = VEN_restoration_of_venice_0
 			
 			modifier = {
 				consumer_goods_factor = 0.07
@@ -121,13 +121,13 @@ ideas = {
 			}
 		}
 		
-		nuova_venezia_prom = {
+		VEN_nuova_venezia_0 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = restoration_of_venice
+			picture = VEN_restoration_of_venice_0
 			
 			modifier = {
 				global_building_slots_factor = 0.2
@@ -140,13 +140,13 @@ ideas = {
 			}
 		}
 		
-		nuova_venezia_bis = {
+		VEN_nuova_venezia_1 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = restoration_of_venice
+			picture = VEN_restoration_of_venice_0
 			
 			modifier = {
 				political_power_cost = -0.25
@@ -158,13 +158,13 @@ ideas = {
 			}
 		}
 		
-		nuova_venezia_int = {
+		VEN_nuova_venezia_2 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = restoration_of_venice
+			picture = VEN_restoration_of_venice_0
 			
 			modifier = {
 				research_speed_factor = 0.1
@@ -175,7 +175,7 @@ ideas = {
 			}
 		}
 		
-		nuova_venezia = {
+		VEN_nuova_venezia = {
 			
 			allowed = {
 				always = no # Triggered via event
@@ -191,13 +191,13 @@ ideas = {
 			}
 		}
 		
-		bende_rosse = {
+		VEN_bende_rosse = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = bende_rosse
+			picture = VEN_bende_rosse
 			
 			modifier = {
 				stability_weekly = -0.005
@@ -211,13 +211,13 @@ ideas = {
 			}
 		}
 		
-		milan_strike = {
+		VEN_milan_strike_0 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = milan_strike
+			picture = VEN_milan_strike_0
 			
 			modifier = {
 				stability_weekly = -0.005
@@ -234,13 +234,13 @@ ideas = {
 			}
 		}
 		
-		milan_strike_out = {
+		VEN_milan_strike_1 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = milan_strike
+			picture = VEN_milan_strike_0
 			
 			modifier = {
 				utopism_drift = 0.1
@@ -256,13 +256,13 @@ ideas = {
 			}
 		}
 		
-		milan_strike_all = {
+		VEN_milan_strike_2 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = milan_strike
+			picture = VEN_milan_strike_0
 			
 			modifier = {
 				paternalism_drift = 0.1
@@ -279,13 +279,13 @@ ideas = {
 			}
 		}
 		
-		milan_strike_standoff = {
+		VEN_milan_strike_3 = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = milan_strike
+			picture = VEN_milan_strike_0
 			
 			modifier = {
 				consumer_goods_factor = 0.35
@@ -298,13 +298,13 @@ ideas = {
 			}
 		}
 		
-		strike_pay = {
+		VEN_strike_pay = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = milan_strike
+			picture = VEN_milan_strike_0
 			
 			modifier = {
 				paternalism_drift = 0.05

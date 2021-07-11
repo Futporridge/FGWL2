@@ -39,7 +39,7 @@
 			focus = VEN_common_enemy_2
 		}
 		allow_branch = {
-			has_country_flag = milan_strike
+			has_country_flag = VEN_milan_strike_0
 		}
 		x = 1
 		y = 2
@@ -196,7 +196,7 @@
 		y = 7
 		
 		completion_reward = {
-			remove_ideas = milan_strike_out
+			remove_ideas = VEN_milan_strike_1
 			hidden_effect = {
 				country_event = {	id = ven.13	}
 			}
@@ -237,8 +237,8 @@
 		
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = restoration_of_venice
-				add_idea = restoration_of_venice_1
+				remove_idea = VEN_restoration_of_venice_0
+				add_idea = VEN_restoration_of_venice_1
 			}
 		}
 
@@ -255,7 +255,7 @@
 		
 		completion_reward = {
 		
-			add_ideas = nuova_venezia
+			add_ideas = VEN_nuova_venezia
 			160 = {
 				add_building_construction = {
 					type = dockyard
@@ -283,7 +283,7 @@
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = nuova_venezia
-				add_idea = nuova_venezia_prom
+				add_idea = VEN_nuova_venezia_0
 			}
 		}
 
@@ -305,7 +305,7 @@
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = nuova_venezia
-				add_idea = nuova_venezia_bis
+				add_idea = VEN_nuova_venezia_1
 			}
 		}
 
@@ -323,7 +323,7 @@
 		y = 7
 		
 		completion_reward = {
-			remove_ideas = restoration_of_venice_1
+			remove_ideas = VEN_restoration_of_venice_1
 		}
 
 	}
@@ -344,7 +344,7 @@
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = nuova_venezia
-				add_idea = nuova_venezia_int
+				add_idea = VEN_nuova_venezia_2
 			}
 		}
 
@@ -360,7 +360,7 @@
 			focus = VEN_common_enemy
 		}
 		allow_branch = {
-			has_country_flag = milan_strike
+			has_country_flag = VEN_milan_strike_0
 		}
 		x = 15
 		y = 2
@@ -491,7 +491,7 @@
 		y = 6
 		
 		completion_reward = {
-			add_ideas = strike_pay
+			add_ideas = VEN_strike_pay
 		}
 
 	}
@@ -509,7 +509,7 @@
 		y = 7
 		
 		completion_reward = {
-			remove_ideas = milan_strike_all
+			remove_ideas = VEN_milan_strike_2
 			hidden_effect = {
 				country_event = {	id = ven.12	}
 			}
@@ -535,7 +535,7 @@
 					has_completed_focus = VEN_flood_the_streets
 				}
 				country_event = {	id = ven.14	}
-				remove_ideas = forgotten_army
+				remove_ideas = VEN_forgotten_army
 				Custom_effect_tooltip = VEN_Gettare_1_tt
 				
 			}
@@ -544,7 +544,7 @@
 					has_completed_focus = VEN_sweep_the_streets
 				}
 				country_event = {	id = ven.15	}
-				remove_ideas = forgotten_army
+				remove_ideas = VEN_forgotten_army
 				Custom_effect_tooltip = VEN_Gettare_2_tt
 				
 			}

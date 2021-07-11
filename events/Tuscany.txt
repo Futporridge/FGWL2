@@ -66,7 +66,7 @@ country_event = {
 	option = {
 		name = tus.4.a
 		
-		add_ideas = migrant_crisis
+		add_ideas = TUS_migrant_crisis_0
 	}
 }
 
@@ -93,8 +93,8 @@ country_event = {
 				popularity = 30
 			}
 			add_ideas  = {
-				centrifugal_force
-				commoner_discontent
+				TUS_centrifugal_force
+				TUS_commoner_discontent
 			}
 		}
 	}

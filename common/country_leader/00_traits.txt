@@ -3844,8 +3844,8 @@ young_diplomat = {
 	Practitioner_Terrorist = { 
 		random = no
 		
-		decryption_factor = 0.5
-		resistance_growth_on_our_occupied_states = -0.1
+		resistance_damage_to_garrison_on_our_occupied_states  = 0.15
+		resistance_growth_on_our_occupied_states = 0.1
 		
 		
 		ai_will_do = {

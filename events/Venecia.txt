@@ -51,10 +51,10 @@
 		
 		add_stability = -0.15
 		swap_ideas = {
-			remove_idea = bende_rosse
-			add_idea = milan_strike
+			remove_idea = VEN_bende_rosse
+			add_idea = VEN_milan_strike_0
 		}
-		set_country_flag = milan_strike
+		set_country_flag = VEN_milan_strike_0
 		mark_focus_tree_layout_dirty = yes
 	}
 	}
@@ -72,8 +72,8 @@
 		
 		add_stability = 0.05
 		swap_ideas = {
-			remove_idea = milan_strike
-			add_idea = milan_strike_out
+			remove_idea = VEN_milan_strike_0
+			add_idea = VEN_milan_strike_1
 		}
 	}
 	}
@@ -183,8 +183,8 @@
 		name = ven.9.a
 		
 		swap_ideas = {
-			remove_idea = milan_strike
-			add_idea = milan_strike_all
+			remove_idea = VEN_milan_strike_0
+			add_idea = VEN_milan_strike_2
 		}
 	}
 	}
@@ -201,7 +201,7 @@
 		842 = {	set_demilitarized_zone = yes	}
 		843 = {	set_demilitarized_zone = yes	}
 		159 = {	set_demilitarized_zone = yes	}
-		add_ideas = milan_strike_standoff
+		add_ideas = VEN_milan_strike_3
 	}
 	}
 	country_event = { #Наводнить улицы - не получилось
@@ -217,11 +217,11 @@
 		842 = {	set_demilitarized_zone = yes	}
 		843 = {	set_demilitarized_zone = yes	}
 		159 = {	set_demilitarized_zone = yes	}
-		add_ideas = milan_strike_standoff
-		remove_ideas = milan_strike
-		remove_ideas = milan_strike_all
-		remove_ideas = milan_strike_out
-		remove_ideas = strike_pay
+		add_ideas = VEN_milan_strike_3
+		remove_ideas = VEN_milan_strike_0
+		remove_ideas = VEN_milan_strike_2
+		remove_ideas = VEN_milan_strike_1
+		remove_ideas = VEN_strike_pay
 		
 	}
 	}
@@ -257,10 +257,10 @@
 					ideology = communitarianism
 					popularity = -1
 				}
-				remove_ideas = milan_strike
-				remove_ideas = milan_strike_all
-				remove_ideas = milan_strike_out
-				remove_ideas = milan_strike_standoff
+				remove_ideas = VEN_milan_strike_0
+				remove_ideas = VEN_milan_strike_2
+				remove_ideas = VEN_milan_strike_1
+				remove_ideas = VEN_milan_strike_3
 			}
 			ISR = {
 			    transfer_state = 159
@@ -277,6 +277,8 @@
 			    inherit_technology = VEN
 			    load_oob = ISR_1936
 			    load_focus_tree = Italian_Socialist_Republic_start
+				
+				state_event = {	id = isr.1	days = 1	}
 
 			    declare_war_on = { target = VEN type = annex_everything }
 		    }
@@ -324,10 +326,10 @@
 					ideology = communitarianism
 					popularity = -1
 				}
-				remove_ideas = milan_strike
-				remove_ideas = milan_strike_all
-				remove_ideas = milan_strike_out
-				remove_ideas = milan_strike_standoff
+				remove_ideas = VEN_milan_strike_0
+				remove_ideas = VEN_milan_strike_2
+				remove_ideas = VEN_milan_strike_1
+				remove_ideas = VEN_milan_strike_3
 			}
 			ISR = {
 			    transfer_state = 159
@@ -344,6 +346,8 @@
 			    inherit_technology = VEN
 			    load_oob = ISR_1936
 			    load_focus_tree = Italian_Socialist_Republic_start
+				
+				state_event = {	id = isr.1	days = 1	}
 
 			    declare_war_on = { target = VEN type = annex_everything }
 		    }
@@ -399,9 +403,9 @@
 					ideology = communitarianism
 					popularity = -1
 				}
-				remove_ideas = milan_strike
-				remove_ideas = milan_strike_all
-				remove_ideas = milan_strike_out
+				remove_ideas = VEN_milan_strike_0
+				remove_ideas = VEN_milan_strike_2
+				remove_ideas = VEN_milan_strike_1
 				remove_ideas = milan_standoff
 			}
 			ISR = {
@@ -419,6 +423,8 @@
 			    inherit_technology = VEN
 			    load_oob = ISR_1936
 			    load_focus_tree = Italian_Socialist_Republic_start
+				
+				state_event = {	id = isr.1	days = 1	}
 
 			    declare_war_on = { target = VEN type = annex_everything }
 		    }
@@ -466,9 +472,9 @@
 					ideology = communitarianism
 					popularity = -1
 				}
-				remove_ideas = milan_strike
-				remove_ideas = milan_strike_all
-				remove_ideas = milan_strike_out
+				remove_ideas = VEN_milan_strike_0
+				remove_ideas = VEN_milan_strike_2
+				remove_ideas = VEN_milan_strike_1
 				remove_ideas = milan_standoff
 			}
 			ISR = {
@@ -486,6 +492,8 @@
 			    inherit_technology = VEN
 			    load_oob = ISR_1936
 			    load_focus_tree = Italian_Socialist_Republic_start
+				
+				state_event = {	id = isr.1	days = 1	}
 
 			    declare_war_on = { target = VEN type = annex_everything }
 		    }
@@ -526,10 +534,10 @@
 			popularity = 0.40
         }
 		swap_ideas = {
-			remove_idea = industrial_oligarchy
-			add_idea = industrial_oligarchy_crash
+			remove_idea = VEN_industrial_oligarchy_0
+			add_idea = VEN_industrial_oligarchy_1
 		}
-		remove_ideas = forgotten_army
+		remove_ideas = VEN_forgotten_army
 	}
 	}
 	
@@ -552,8 +560,8 @@
 			popularity = 0.30
         }
 		swap_ideas = {
-			remove_idea = industrial_oligarchy
-			add_idea = industrial_oligarchy_domination
+			remove_idea = VEN_industrial_oligarchy_0
+			add_idea = VEN_industrial_oligarchy_2
 		}
 	}
 	}

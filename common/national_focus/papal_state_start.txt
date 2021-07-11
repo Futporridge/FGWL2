@@ -112,8 +112,8 @@
 		completion_reward = {
 			add_manpower = -1000
 			swap_ideas = {
-				remove_idea = piuss_wall
-				add_idea = piuss_wall_1
+				remove_idea = POP_piuss_wall_0
+				add_idea = POP_piuss_wall_1
 			}
 			805 = {
 				add_building_construction = {
@@ -149,8 +149,8 @@
 		completion_reward = {
 			add_manpower = -1500
 			swap_ideas = {
-				remove_idea = piuss_wall_1
-				add_idea = piuss_wall_2
+				remove_idea = POP_piuss_wall_1
+				add_idea = POP_piuss_wall_2
 			}
 			805 = {
 				add_building_construction = {
@@ -192,13 +192,13 @@
 		x = 5
 		y = 2
 		completion_reward = {
-			remove_mission = POP_piuss_wall_dec
+			remove_mission = POP_piuss_wall_0_dec
 			add_stability = 0.1
 			add_political_power = 75
 			add_offsite_building = { type = industrial_complex  level = 1 }
 			swap_ideas = {
-				remove_idea = piuss_wall
-				add_idea = piuss_wall_0
+				remove_idea = POP_piuss_wall_0
+				add_idea = POP_piuss_wall_3
 			}
 		}
 	}
@@ -264,8 +264,8 @@
 		y = 4
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = primatus_papae
-				add_idea = primatus_papae_1
+				remove_idea = POP_primatus_papae_0
+				add_idea = POP_primatus_papae_1
 			}
 		}
 
@@ -432,7 +432,7 @@
 		x = 11
 		y = 5
 		completion_reward = {
-		add_ideas = the_congregation_of_church_ideas
+		add_ideas = POP_the_congregation_of_church
 		}
 	}
 	shared_focus = {

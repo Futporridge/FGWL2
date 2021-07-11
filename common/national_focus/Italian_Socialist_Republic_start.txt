@@ -4,6 +4,10 @@
 		cost = 0
 		x = 9
 		y = 1
+		
+		available = {
+			always = no
+        }
 
 	}
 	shared_focus = {
@@ -15,17 +19,22 @@
 		}
 		x = 6
 		y = 2
-
-	}
-	shared_focus = {
-		id = ISR_art_of_agitation
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = ISR_unified_propaganda_center
+		
+		completion_reward = {
+			add_political_power = 100
+			add_popularity = {
+				ideology = utopism
+				popularity = 0.03
+            }
+			add_popularity = {
+				ideology = prometeism
+				popularity = 0.03
+            }
+			add_popularity = {
+				ideology = communitarianism
+				popularity = 0.03
+            }
 		}
-		x = 5
-		y = 3
 
 	}
 	shared_focus = {
@@ -37,6 +46,13 @@
 		}
 		x = 9
 		y = 2
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ISR_economic_instability_0
+				add_idea = ISR_economic_instability_1
+			}
+		}
 
 	}
 	shared_focus = {
@@ -49,8 +65,14 @@
 		prerequisite = {
 			focus = ISR_unified_propaganda_center
 		}
-		x = 8
+		x = 7
 		y = 3
+		
+		completion_reward = {
+			remove_ideas = {
+				ISR_economic_instability_1
+			}
+		}
 
 	}
 	shared_focus = {
@@ -62,6 +84,13 @@
 		}
 		x = 12
 		y = 2
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 500
+			}
+		}
 
 	}
 	shared_focus = {
@@ -96,8 +125,25 @@
 		prerequisite = {
 			focus = ISR_promote_overtime_work
 		}
+		prerequisite = {
+			focus = ISR_workers_self_government
+		}
+		prerequisite = {
+			focus = ISR_factory_combat_squads
+		}
 		x = 9
 		y = 4
+
+	}
+	shared_focus = {
+		id = ISR_art_of_propaganda
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ISR_unified_propaganda_center
+		}
+		x = 5
+		y = 3
 
 	}
 	shared_focus = {
@@ -105,7 +151,7 @@
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = ISR_art_of_agitation
+			focus = ISR_art_of_propaganda
 		}
 		x = 5
 		y = 4
@@ -117,12 +163,28 @@
 		cost = 0
 		prerequisite = {
 			focus = ISR_promote_overtime_work
+			focus = ISR_politically_motivated_troops
 		}
-		prerequisite = {
-			focus = ISR_unified_propaganda_center
+		mutually_exclusive = {
+			focus = ISR_food_appropriation
 		}
 		x = 7
-		y = 4
+		y = 5
+
+	}
+	shared_focus = {
+		id = ISR_food_appropriation
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = ISR_elect_officers
+			focus = ISR_factory_combat_squads
+		}
+		mutually_exclusive = {
+			focus = ISR_free_exchange_with_farmlands
+		}
+		x = 11
+		y = 5
 
 	}
 	shared_focus = {
@@ -135,7 +197,7 @@
 		prerequisite = {
 			focus = ISR_factory_combat_squads
 		}
-		x = 12
+		x = 13
 		y = 4
 
 	}
