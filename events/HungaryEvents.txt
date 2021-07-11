@@ -420,7 +420,18 @@ immediate = {
 		transfer_state = 82		
 		transfer_state = 764		
 		}
-		BAN = { load_oob = BAN_1936 }		
+		BAN = { load_oob = BAN_1936 }
+		BAN = { add_ideas = { chaos_on_the_danube AUS_serbian_resistance }
+		add_ideas = {
+		AUS_dip_vacant
+		AUS_inner_vacant
+		AUS_econom_vacant
+		AUS_rec_vacant
+			}		
+		add_ideas = { 
+		AUS_head_of_gov_vacant
+			}	
+		}
 				}	
 			}
 	option = {

@@ -468,5 +468,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_josemaria_escriva"
 		texturefile = "gfx/interface/ideas/Ministers/Papal/josemaria_escriva.dds"
+	}
+							####Banat####
+	spriteType = {
+	name = "GFX_idea_Arthur_Seyss_Inquart"
+	texturefile = "gfx/interface/ideas/Ministers/banat/Arthur_Seyss_Inquart.dds"
 	}	
+	spriteType = {
+	name = "GFX_idea_Karl_Maria_Wiligut"
+	texturefile = "gfx/interface/ideas/Ministers/banat/Karl_Maria_Wiligut.dds"
+	}	
+	spriteType = {
+	name = "GFX_idea_Princess_Marie_Adelheid_of_Lippe"
+	texturefile = "gfx/interface/ideas/Ministers/banat/Princess_Marie_Adelheid_of_Lippe.dds"
+	}	
+	spriteType = {
+	name = "GFX_idea_Wilhelm_Teudt"
+	texturefile = "gfx/interface/ideas/Ministers/banat/Wilhelm_Teudt.dds"
+	}	
+	spriteType = {
+	name = "GFX_idea_Waldemar_Pabst"
+	texturefile = "gfx/interface/ideas/Ministers/banat/Waldemar_Pabst.dds"
+	}		
 }

@@ -3355,5 +3355,66 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_Focus_ENG_soldier_councils"
 		texturefile = "gfx/interface/goals/Focus_ENG_soldier_councils.dds"
+	}
+	####BAN####
+	SpriteType = { 
+		name = "GFX_focus_ban_on_the_border_of_the_german_world"
+		texturefile = "gfx/interface/goals/banat/focus_ban_on_the_border_of_the_german_world.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ban_new_faith_is_born"
+		texturefile = "gfx/interface/goals/banat/focus_ban_new_faith_is_born.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ban_to_save_our_soil"
+		texturefile = "gfx/interface/goals/banat/focus_ban_to_save_our_soil.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ban_take_your_weaponry"
+		texturefile = "gfx/interface/goals/banat/focus_ban_take_your_weaponry.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_ban_drive_back_the_enemy"
+		texturefile = "gfx/interface/goals/banat/focus_ban_drive_back_the_enemy.dds"
+	}		
+	SpriteType = { 
+		name = "GFX_focus_ban_negotiations_with_the_army"
+		texturefile = "gfx/interface/goals/banat/focus_ban_negotiations_with_the_army.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_ban_our_brothers_over_the_river"
+		texturefile = "gfx/interface/goals/banat/focus_ban_our_brothers_over_the_river.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ban_our_brothers_over_the_river"
+		texturefile = "gfx/interface/goals/banat/focus_ban_our_brothers_over_the_river.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_ban_and_humanity_in_general"
+		texturefile = "gfx/interface/goals/banat/focus_ban_and_humanity_in_general.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_ban_dethrone_the_wounded_king"
+		texturefile = "gfx/interface/goals/banat/focus_ban_dethrone_the_wounded_king.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ban_freedom_for_all"
+		texturefile = "gfx/interface/goals/banat/focus_ban_freedom_for_all.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_ban_negotiations_with_the_councils"
+		texturefile = "gfx/interface/goals/banat/focus_ban_negotiations_with_the_councils.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ban_german_republic"
+		texturefile = "gfx/interface/goals/banat/focus_ban_german_republic.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ban_defenders_of_law_on_danube"
+		texturefile = "gfx/interface/goals/banat/focus_ban_defenders_of_law_on_danube.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_ban_if_it_has_to_be_let_it_be_now"
+		texturefile = "gfx/interface/goals/banat/focus_ban_if_it_has_to_be_let_it_be_now.dds"
 	}	
 }

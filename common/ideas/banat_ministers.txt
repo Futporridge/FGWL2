@@ -1,0 +1,72 @@
+ideas = {
+  head_of_state = {
+
+		BAN_Wilhelm_Teudt = {
+
+			picture = Wilhelm_Teudt
+
+			allowed = {
+				original_tag = BAN
+			}
+			available = {
+			}
+			
+			traits = { jormun }
+		}
+
+}	
+political_advisor = {
+		BAN_Arthur_Seyss_Inquart = {
+
+			picture = Arthur_Seyss_Inquart
+
+			allowed = {
+				original_tag = BAN
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { diplomat_careerist }
+		}
+		BAN_Karl_Maria_Wiligut = {
+
+			picture = Karl_Maria_Wiligut
+
+			allowed = {
+				original_tag = BAN
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { idealistic_occultist }
+		}		
+		BAN_Waldemar_Pabst = {
+
+			picture = Waldemar_Pabst
+
+			allowed = {
+				original_tag = BAN
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { arms_maecenas }
+		}
+		BAN_Princess_Marie_Adelheid_of_Lippe = {
+
+			picture = Princess_Marie_Adelheid_of_Lippe
+
+			allowed = {
+				original_tag = BAN
+			}
+			available = {
+			always = no
+			}
+			
+			traits = { princess_of_nationalism }
+		}		
+}
+	}
