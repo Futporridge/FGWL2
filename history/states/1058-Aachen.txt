@@ -1,0 +1,24 @@
+state={
+	id=1058
+	name="STATE_1058"
+	provinces={
+		3547 9522 
+	}
+	history={
+		owner = JUL
+		victory_points = {
+			9522 20 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = JUL
+
+	}	
+	manpower=845211
+	state_category=town	
+	buildings_max_level_factor=1.000
+}

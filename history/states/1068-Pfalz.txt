@@ -1,0 +1,20 @@
+state={
+	id=1068
+	name="STATE_1068"
+	provinces={
+		563 3558 11547 
+	}
+	history={
+		owner = KRF
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+
+		}
+		add_core_of = KRF
+
+	}	
+	state_category=rural
+	manpower=1023229
+	buildings_max_level_factor=1.000
+}

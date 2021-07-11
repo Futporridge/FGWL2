@@ -1,0 +1,24 @@
+
+state={
+	id=1067
+	name="STATE_1067"
+
+	history={
+		owner = KRF
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = KRF
+
+	}
+
+	provinces={
+		11531 
+	}
+	manpower=812753
+	buildings_max_level_factor=1.000
+	state_category=town
+}
