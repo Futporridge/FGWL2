@@ -3,3 +3,6 @@
  research_production:0 "Research and Development"
  minister_cabinet:0 "Minister Cabinet" 
  military_staff:0 "Military Staff"
+ autonomy_austrian_autonomous_territory:0 "Autonomous Territory"
+ autonomy_austrian_vassal_duchy:0 "Vassal Duchy" 
+ autonomy_austrian_vassal_kingdom:0 "Vassal Kingdom" 

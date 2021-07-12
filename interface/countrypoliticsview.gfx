@@ -169,6 +169,18 @@ spriteTypes = {
 		textureFile = "gfx/interface/autonomy/autonomy_supervised_state.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_autonomy_austrian_autonomous_territory_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_austrian_autonomous_territory.dds"
+	}
+	spriteType = {
+		name = "GFX_autonomy_austrian_vassal_duchy_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_austrian_vassal_duchy.dds"
+	}
+	spriteType = {
+		name = "GFX_autonomy_austrian_vassal_kingdom_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_austrian_vassal_kingdom.dds"
+	}		
 	#-------------
 
 	spriteType = {
