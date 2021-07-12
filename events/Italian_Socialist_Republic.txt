@@ -27,7 +27,7 @@
 	trigger = {
 		OR = {
 			has_completed_focus = ISR_food_appropriation
-			has_completed_focus = ISR_free_exchange_with_farmland
+			has_completed_focus = ISR_free_exchange_with_farmlands
 		}
 		has_completed_focus = ISR_politically_motivated_troops
 		has_completed_focus = ISR_home_production

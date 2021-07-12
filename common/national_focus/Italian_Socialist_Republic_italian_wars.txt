@@ -1,0 +1,113 @@
+	shared_focus = {
+		id = ISR_long_live_the_republic
+		icon = GFX_goal_unknown
+		cost = 3
+		x = 20
+		y = 1
+		
+		completion_reward = {
+		}
+
+	}
+	shared_focus = {
+		id = ISR_democratic_society
+		icon = GFX_goal_unknown
+		cost = 3
+		x = 20
+		y = 2
+		
+		prerequisite = {
+			focus = ISR_long_live_the_republic
+		}
+		
+		completion_reward = {
+			
+		}
+
+	}
+	shared_focus = {
+		id = ISR_in_the_workplaces
+		icon = GFX_goal_unknown
+		cost = 3
+		x = 20
+		y = 3
+		
+		prerequisite = {
+			focus = ISR_democratic_society
+		}
+		
+		completion_reward = {
+			
+		}
+
+	}
+	shared_focus = {
+		id = ISR_at_the_battlefield
+		icon = GFX_goal_unknown
+		cost = 3
+		x = 22
+		y = 3
+		
+		prerequisite = {
+			focus = ISR_democratic_society
+		}
+		
+		completion_reward = {
+			
+		}
+
+	}
+	shared_focus = {
+		id = ISR_at_home
+		icon = GFX_goal_unknown
+		cost = 3
+		x = 18
+		y = 3
+		
+		prerequisite = {
+			focus = ISR_democratic_society
+		}
+		
+		completion_reward = {
+			
+		}
+
+	}
+	shared_focus = {
+		id = ISR_organize_communes
+		icon = GFX_goal_unknown
+		cost = 3
+		x = 19
+		y = 4
+		
+		prerequisite = {
+			focus = ISR_at_home
+		}
+		prerequisite = {
+			focus = ISR_in_the_workplaces
+		}
+		
+		completion_reward = {
+			
+		}
+
+	}
+	shared_focus = {
+		id = ISR_organized_draft
+		icon = GFX_goal_unknown
+		cost = 3
+		x = 21
+		y = 4
+		
+		prerequisite = {
+			focus = ISR_at_the_battlefield
+		}
+		prerequisite = {
+			focus = ISR_in_the_workplaces
+		}
+		
+		completion_reward = {
+			
+		}
+
+	}
