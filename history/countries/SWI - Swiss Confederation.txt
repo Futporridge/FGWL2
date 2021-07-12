@@ -26,11 +26,11 @@ set_popularities = {
 	utopism = 4
 	prometeism = 3
 	communitarianism = 3
-	oligarchy = 6
+	oligarchy = 46
 	conservatism = 12
 	paternalism = 9
 	reactionary = 3
-	individualism = 46
+	individualism = 6
 	liberalism = 14
 }
 add_ideas = {
