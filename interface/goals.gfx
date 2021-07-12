@@ -3416,5 +3416,77 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_focus_ban_if_it_has_to_be_let_it_be_now"
 		texturefile = "gfx/interface/goals/banat/focus_ban_if_it_has_to_be_let_it_be_now.dds"
-	}	
+	}
+	SpriteType = { 
+		name = "GFX_focus_pop_deus_vult"
+		texturefile = "gfx/interface/goals/papalstate/focus_pop_deus_vult.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_pop_budget_of_36"
+		texturefile = "gfx/interface/goals/papalstate/focus_pop_budget_of_36.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_pop_concrete_landscape"
+		texturefile = "gfx/interface/goals/papalstate/focus_pop_concrete_landscape.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_pop_penal_labor"
+		texturefile = "gfx/interface/goals/papalstate/focus_pop_penal_labor.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_pop_sweat_and_blood"
+		texturefile = "gfx/interface/goals/papalstate/focus_pop_sweat_and_blood.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_pop_defund_the_wall"
+		texturefile = "gfx/interface/goals/papalstate/focus_pop_defund_the_wall.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_pop_labor_army"
+		texturefile = "gfx/interface/goals/papalstate/focus_pop_labor_army.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_pop_papal_amnesty"
+		texturefile = "gfx/interface/goals/papalstate/focus_pop_papal_amnesty.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_pop_make_the_patricians_pay"
+		texturefile = "gfx/interface/goals/papalstate/focus_pop_make_the_patricians_pay.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_pop_sacra_ligua"
+		texturefile = "gfx/interface/goals/papalstate/focus_pop_sacra_ligua.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_pop_northern_embassy"
+		texturefile = "gfx/interface/goals/papalstate/focus_pop_northern_embassy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_pop_the_merchants_of_venice"
+		texturefile = "gfx/interface/goals/papalstate/focus_pop_the_merchants_of_venice.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_pop_the_aristocrats_of_tuscany"
+		texturefile = "gfx/interface/goals/papalstate/focus_pop_the_aristocrats_of_tuscany.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_pop_the_bureaucrats_of_piedmont"
+		texturefile = "gfx/interface/goals/papalstate/focus_pop_the_bureaucrats_of_piedmont.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_pop_the_people_of_italy"
+		texturefile = "gfx/interface/goals/papalstate/focus_pop_the_people_of_italy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_pop_the_congregation_of_church"
+		texturefile = "gfx/interface/goals/papalstate/focus_pop_the_congregation_of_church.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_pop_new_conscription"
+		texturefile = "gfx/interface/goals/papalstate/focus_pop_new_conscription.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_pop_bank_of_rome"
+		texturefile = "gfx/interface/goals/papalstate/focus_pop_bank_of_rome.dds"
+	}
 }

@@ -12,7 +12,7 @@
 	}
 	shared_focus = {
 		id = POP_budget_of_36
-		icon = GFX_focus_budget_of_36
+		icon = GFX_focus_pop_budget_of_36
 		cost = 4
 		prerequisite = {
 			focus = POP_deus_vult
@@ -36,7 +36,7 @@
 	}
 	shared_focus = {
 		id = POP_concrete_landscape
-		icon = GFX_focus_POP_concrete_landscape
+		icon = GFX_focus_pop_concrete_landscape
 		cost = 4
 		prerequisite = {
 			focus = POP_budget_of_36
@@ -102,7 +102,7 @@
 	}
 	shared_focus = {
 		id = POP_penal_labor
-		icon = GFX_focus_POP_penal_labor
+		icon = GFX_focus_pop_penal_labor
 		cost = 3
 		prerequisite = {
 			focus = POP_concrete_landscape
@@ -139,7 +139,7 @@
 	}
 	shared_focus = {
 		id = POP_sweat_and_blood
-		icon = GFX_focus_POP_sweat_and_blood
+		icon = GFX_focus_pop_sweat_and_blood
 		cost = 3
 		prerequisite = {
 			focus = POP_penal_labor
@@ -181,7 +181,7 @@
 	}
 	shared_focus = {
 		id = POP_defund_the_wall
-		icon = GFX_focus_POP_defund_the_wall
+		icon = GFX_focus_pop_defund_the_wall
 		cost = 4
 		prerequisite = {
 			focus = POP_budget_of_36
@@ -204,7 +204,7 @@
 	}
 	shared_focus = {
 		id = POP_gold_of_the_church
-		icon = GFX_goal_unknown
+		icon = GFX_focus_TYR_tax_the_burgers
 		cost = 2
 		prerequisite = {
 			focus = POP_defund_the_wall
@@ -218,7 +218,7 @@
 	}
 	shared_focus = {
 		id = POP_bank_of_rome
-		icon = GFX_focus_POP_bank_of_rome
+		icon = GFX_focus_pop_bank_of_rome
 		cost = 3
 		prerequisite = {
 			focus = POP_defund_the_wall
@@ -237,7 +237,7 @@
 	}
 	shared_focus = {
 		id = POP_labor_army
-		icon = GFX_focus_POP_labor_army
+		icon = GFX_focus_pop_labor_army
 		cost = 2
 		prerequisite = {
 			focus = POP_bank_of_rome
@@ -255,7 +255,7 @@
 	}
 	shared_focus = {
 		id = POP_papal_amnesty
-		icon = GFX_focus_POP_papal_amnesty
+		icon = GFX_focus_pop_papal_amnesty
 		cost = 3
 		prerequisite = {
 			focus = POP_bank_of_rome
@@ -272,7 +272,7 @@
 	}
 	shared_focus = {
 		id = POP_make_the_patricians_pay
-		icon = GFX_focus_POP_make_the_patricians_pay
+		icon = GFX_focus_pop_make_the_patricians_pay
 		cost = 4
 		prerequisite = {
 			focus = POP_papal_amnesty
@@ -291,7 +291,7 @@
 	}
 	shared_focus = {
 		id = POP_sacra_ligua
-		icon = GFX_focus_POP_sacra_ligua
+		icon = GFX_focus_pop_sacra_ligua
 		cost = 4
 		prerequisite = {
 			focus = POP_deus_vult
@@ -306,7 +306,7 @@
 	}
 	shared_focus = {
 		id = POP_northern_embassy
-		icon = GFX_focus_POP_northern_embassy
+		icon = GFX_focus_pop_northern_embassy
 		cost = 3
 		prerequisite = {
 			focus = POP_sacra_ligua
@@ -330,7 +330,7 @@
 	}
 	shared_focus = {
 		id = POP_the_merchants_of_venice
-		icon = GFX_focus_POP_the_merchants_of_venice
+		icon = GFX_focus_pop_the_merchants_of_venice
 		cost = 3
 		prerequisite = {
 			focus = POP_northern_embassy
@@ -347,7 +347,7 @@
 	}
 	shared_focus = {
 		id = POP_the_aristocrats_of_tuscany
-		icon = GFX_focus_POP_the_aristocrats_of_tuscany
+		icon = GFX_focus_pop_the_aristocrats_of_tuscany
 		cost = 3
 		prerequisite = {
 			focus = POP_northern_embassy
@@ -363,7 +363,7 @@
 	}
 	shared_focus = {
 		id = POP_the_bureaucrats_of_piedmont
-		icon = GFX_focus_POP_the_bureaucrats_of_piedmont
+		icon = GFX_focus_pop_the_bureaucrats_of_piedmont
 		cost = 3
 		prerequisite = {
 			focus = POP_northern_embassy
@@ -378,7 +378,7 @@
 	}
 	shared_focus = {
 		id = POP_the_people_of_italy
-		icon = GFX_focus_POP_the_people_of_italy
+		icon = GFX_focus_pop_the_people_of_italy
 		cost = 3
 		prerequisite = {
 			focus = POP_the_bureaucrats_of_piedmont
@@ -424,7 +424,7 @@
 	}
 	shared_focus = {
 		id = POP_the_congregation_of_church
-		icon = GFX_focus_POP_the_congregation_of_church
+		icon = GFX_focus_pop_the_congregation_of_church
 		cost = 4
 		prerequisite = {
 			focus = POP_the_people_of_italy
@@ -437,7 +437,7 @@
 	}
 	shared_focus = {
 		id = POP_new_conscription
-		icon = GFX_focus_POP_new_conscription
+		icon = GFX_focus_pop_new_conscription
 		cost = 4
 		prerequisite = {
 			focus = POP_the_congregation_of_church
