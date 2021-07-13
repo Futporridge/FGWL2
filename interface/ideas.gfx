@@ -315,5 +315,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_chaos_on_the_danube"
 		texturefile = "gfx/interface/ideas/banat/chaos_on_the_danube.dds"
-	}		
+	}
+	###papal###
+	spriteType = {
+		name = "GFX_idea_pop_piuss_wall_0"
+		texturefile = "gfx/interface/ideas/papalstate/pop_piuss_wall_0.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pop_primatus_papae_0"
+		texturefile = "gfx/interface/ideas/papalstate/pop_primatus_papae_0.dds"
+	}
 }

@@ -7,7 +7,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = POP_primatus_papae_0 
+			picture = pop_primatus_papae_0 
 			
 			modifier = {
 				stability_factor = 0.10
@@ -46,7 +46,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = POP_piuss_wall_0
+			picture = pop_piuss_wall_0
 			
 			modifier = {
 				production_speed_bunker_factor = 0.35
