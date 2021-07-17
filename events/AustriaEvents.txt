@@ -1107,7 +1107,8 @@ hidden_effect = {
 	}
 	SWI = {
 		country_event = { days = 1 id = swi.1 }
-	}	
+	}
+			news_event = { days = 2 id = ausnews.1 }	
 }
 }
 	option = {

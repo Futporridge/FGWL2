@@ -2,21 +2,24 @@ state={
 	id=1061
 	name="STATE_1061"
 	provinces={
-		9294 9320 11305 
+		2223 9294 9320 11305 
 	}
 	history={
 		owner = MCL
 		victory_points = {
 			11305 3
 		}
-		
+		victory_points = {
+			2223 7 
+		}		
 		buildings = {
 			infrastructure = 6
+			arms_factory = 3			
 		}
 		add_core_of = MCL
 
 	}	
-	state_category=rural	
-	manpower=653213
+	state_category=town	
+	manpower=853213
 	buildings_max_level_factor=1.000
 }

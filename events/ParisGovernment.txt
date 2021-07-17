@@ -2,6 +2,7 @@
 add_namespace = anc
 add_namespace = npr
 add_namespace = dor
+add_namespace = parnews
 
 country_event = {	
 	id = par.1
@@ -139,7 +140,11 @@ country_event = {
 
 	is_triggered_only = yes
 	fire_only_once = yes
-
+	immediate = { 
+	hidden_effect = {
+			news_event = { days = 2 id = parnews.1 }		
+		}	
+	}
 	
 	option = {
 		name = par.8.a
@@ -1206,4 +1211,34 @@ country_event = {
 		set_country_flag = PAR_doriot_initial_win
 		}
 	}
-}		
+}	
+news_event = {
+	id = parnews.1
+	title = parnews.1.t
+	desc = parnews.1.d
+	picture = GFX_news_event_paris_commune
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = parnews.1.a
+		trigger = {
+	NOT = { TAG = PAR }	
+	NOT = { TAG = PFT }		
+		}
+	}
+	option = {
+		name = parnews.1.b
+	trigger = {
+	TAG = PAR
+		}			
+	}
+	option = {
+		name = parnews.1.c
+	trigger = {
+	TAG = PFT
+		}			
+	}	
+}	

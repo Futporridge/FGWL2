@@ -449,7 +449,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_ideology_sancta_sedes_subtype"
+		name = "GFX_ideology_sancta_sedes"
 		texturefile = "gfx/interface/ideologies/sancta_sedes_subtype.dds"
 	}	
 	

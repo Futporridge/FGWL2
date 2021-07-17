@@ -114,7 +114,7 @@ guiTypes = {
 			
 			OverlappingElementsBoxType = {
 				name = "state_claims"
-				position = { x = 35 y = 118 }
+				position = { x = 35 y = 115 }
 				size = { x = 110 y = 40 }
 				format = left
 				spacing = 1.0
@@ -374,26 +374,7 @@ guiTypes = {
 				format = "UPPER_LEFT"
 				slotsize = { width = 130 height = 54 }
 				max_slots_horizontal = 3
-			}
-			
-			buttonType = {
-				name = "nuke_province"
-				quadTextureSprite ="GFX_nuke_button"
-				position = { x= 13 y = -11 }
-			}
-			
-			iconType = {
-				name = "nuclear_strike_bar"
-				spriteType = "GFX_nuke_progress"
-				position = { x=23 y= 27 }
-				rotation = 1.5708		
-			}	
-			
-			iconType = {
-				name = "nuke_progress_frame"
-				spriteType = "GFX_nuke_progress_frame"
-				position = { x=15 y= -6 }	
-			}				
+			}			
 			
 		}	
 		
@@ -443,7 +424,7 @@ guiTypes = {
 		iconType = {
 			name = "level_bg"
 			position = { x=57 y=0 }	
-			spriteType = "GFX_generic_text_bg_60"
+			spriteType = "GFX_generic_text_bg_build"
 		}
 		
 		instantTextboxType = {
@@ -512,7 +493,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "province_building_entry"
-		position = { x=0 y=0 }
+		position = { x=0 y=-1 }
 		size = { width=96 height= 50 }
 		clipping = no
 
@@ -524,7 +505,7 @@ guiTypes = {
 		iconType = {
 			name = "level_bg"
 			position = { x=60 y=0 }	
-			spriteType = "GFX_generic_text_bg_60"
+			spriteType = "GFX_generic_text_bg_build"
 		}
 		
 		instantTextboxType = {

@@ -22,6 +22,6 @@ state={
 		3522 6487 6582 9560 11359 
 	}
 	state_category=town			
-	manpower=434690
+	manpower=934690
 	buildings_max_level_factor=1.000
 }

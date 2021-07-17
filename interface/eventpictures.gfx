@@ -2967,6 +2967,11 @@ spriteTypes = {
 		name = "GFX_news_event_angelis_republic"
 		texturefile = "gfx/event_pictures/news_event_angelis_republic.dds"
 	}	
+	###PARIS###
+	spriteType = { 
+		name = "GFX_news_event_paris_commune"
+		texturefile = "gfx/event_pictures/news_event_paris_commune.dds"
+	}	
 	###KALMARIA###
 	spriteType = { 
 		name = "GFX_INVOKE_KING"

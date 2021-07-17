@@ -57,7 +57,7 @@ create_country_leader = {
 	desc = "POLITICS_PIUS_XI_DESC"
 	picture = "gfx/leaders/POP/Portrait_Pius_XI.tga"
 	expire = "1965.1.1"
-	ideology = sancta_sedes_subtype
+	ideology = sancta_sedes
 	traits = { 
 
 	}
