@@ -5,6 +5,9 @@ state={
 
 	history={
 		owner = MCL
+		victory_points = {
+			3258 3 
+		}		
 		buildings = {
 			infrastructure = 6
 
@@ -15,7 +18,7 @@ state={
 	provinces={
 		3258 11954 
 	}
-	manpower=36221
+	manpower=236221
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
