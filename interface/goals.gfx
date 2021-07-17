@@ -3489,4 +3489,104 @@ spriteTypes = {
 		name = "GFX_focus_pop_bank_of_rome"
 		texturefile = "gfx/interface/goals/papalstate/focus_pop_bank_of_rome.dds"
 	}
+	SpriteType = {
+		name = "GFX_focus_tus_clouds_are_gathering"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_clouds_are_gathering.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_grand_consiglio"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_grand_consiglio.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_duke_and_country"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_duke_and_country.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_giovane_guardia"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_giovane_guardia.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_cheap_labor"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_cheap_labor.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_army_inspection"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_army_inspection.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_new_uniform"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_new_uniform.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_universal_conscription"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_universal_conscription.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_guarded_paradise"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_guarded_paradise.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_drill_traditions"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_drill_traditions.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_military_utilitarianism"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_military_utilitarianism.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_dogs_of_war"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_dogs_of_war.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_a_new_type_of_war"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_a_new_type_of_war.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_officer_training_courses"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_officer_training_courses.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_loyalty_paid_in_gold"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_loyalty_paid_in_gold.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_centralization_of_the_economy"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_centralization_of_the_economy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_new_taxes"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_new_taxes.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_renegotiate_privileges"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_renegotiate_privileges.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_power_of_greed_0"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_power_of_greed_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_fixed_prices_0"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_fixed_prices_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_no_more_siesta"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_no_more_siesta.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_open_door"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_open_door.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_the_big_parade"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_the_big_parade.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_one_center"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_one_center.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_tus_learning_from_professionals"
+		texturefile = "gfx/interface/goals/tuscan/focus_tus_learning_from_professionals.dds"
+	}
 }
