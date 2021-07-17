@@ -16,6 +16,6 @@ state={
 		add_core_of = BRA
 	}	
 	state_category=pastoral			
-	manpower=654023
+	manpower=484023
 	buildings_max_level_factor=1.000
 }
