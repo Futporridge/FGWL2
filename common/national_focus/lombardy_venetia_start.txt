@@ -559,7 +559,7 @@
 		icon = GFX_focus_ven_colpire
 		cost = 3
 		prerequisite = {
-			focus = VEN_Gettare
+			focus = VEN_gettare
 		}
 		x = 8
 		y = 9

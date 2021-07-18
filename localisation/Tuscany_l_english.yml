@@ -19,6 +19,10 @@ TUS_oligarchy_ADJ:0 "Tuscan"
 TUS_paternalism_ADJ:0 "Tuscan"
 TUS_reactionary_ADJ:0 "Tuscan"
 
+#############Лидеры############
+POLITICS_FRANZ_SALVATOR_DESC:0 "§YDate of Birth:§! §W21 August 1866§!\n\n§YTitle:§! §WGrand Duke of Tuscany§!\n\n§YHouse of:§! §Wvon Habsburg-Lorraine-Tuscany§!\n\n Grand Duke Franz Salvator of Tuscany is one of the oldest monarchs in Europe and at the same time one of the beloved by the people. As an admirer of Italian culture, he even received a honorary doctorate from the University of Pisa. Having lived all his life as a wealthy aristocrat and an energetic monarch, Franz Salvator has managed to establish a regime of prosperity in Tuscany, continuing the policy of his predecessors. Despite his age and health problems, the prince did not retire and still governs the country, being a guarantee of its stability."
+
+
 #############Партии############
 TUS_utopism_party:0 "Bandiera Rossa"
 TUS_utopism_party_long:0 "Bandiera Rossa (Red Banner)"
@@ -43,9 +47,9 @@ AUS_Viktor_Dankl_von_Krasnik:0 "Viktor Dankl von Krasnik"
 
 #############Духи############
 TUS_cultural_center:0 "Cultural Center"
-TUS_cultural_center_desc:0 ""
+TUS_cultural_center_desc:0 "Tuscany and its capital Florence have always remained the cultural center of Italy. The best universities, literature, poetry, manners, and aristocracy, the superiority of Tuscany is difficult to dispute."
 TUS_regime_di_prosperita_0:0 "Regime di Prosperita"
-TUS_regime_di_prosperita_0_desc:0 ""
+TUS_regime_di_prosperita_0_desc:0 "The balance of economic immunities, privileges, limitations, and rights imposed over hundreds of years has made Tuscany not the richest, but the most prosperous region. Even though smog from thousands of pipes does not obscure the sky, life here goes on as usual."
 TUS_regime_di_prosperita_1:0 "Regime di Prosperita"
 TUS_regime_di_prosperita_1_desc:0 ""
 TUS_regime_di_prosperita_2:0 "Regime di Prosperita"
@@ -59,7 +63,7 @@ TUS_fixed_prices_0_desc:0 ""
 TUS_fixed_prices_1:0 "Fixed Prices"
 TUS_fixed_prices_1_desc:0 ""
 TUS_tuscan_guard_0:0 "Tuscan Guard"
-TUS_tuscan_guard_0_desc:0 ""
+TUS_tuscan_guard_0_desc:0 "The Tuscan armed forces are best suited to conduct large and beautiful parades, sadly not wars. The well-fed population does not want to enlist into army as privates, and the officers are mostly capable of flirting rather than commanding. In case of war, those faint peacocks would soon run away to their homes."
 TUS_tuscan_guard_1:0 "Tuscan Guard"
 TUS_tuscan_guard_1_desc:0 ""
 TUS_tuscan_guard_2:0 "Tuscan Guard"

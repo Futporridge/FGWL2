@@ -20,7 +20,7 @@ POP_paternalism_ADJ:0 "Papal"
 POP_reactionary_ADJ:0 "Papal"
 
 #############Лидеры############
-POLITICS_PIUS_XI_DESC:0 "Pope Pius XI, formerly Cardinal Alfredo Schuster is resolute and conservative leader, chosen by the cardinal-hardliners, he soon overwhelmed most of the church hierarchy, making his opinion undeniable. From the first days of his papacy, Pius XI sized most of the ecclesiastical and secular power, established a tough authoritarian regime in the country. A stout defender of church traditions and a reactionary, he has a very dubious reputation both in Italy and abroad."
+POLITICS_PIUS_XI_DESC:0 "§YDate of Birth:§! §W18 January 1880§!\n\n§YTitle:§! §WEpiscopus Romanus, Vicarius Christi, Successor principis apostolorum, Caput universalis ecclesiae, Pontifex Maximus, Primatus Italiae, Archiepiscopus ac metropolitanus provinciae ecclesiasticae Romanae§!\n\n Pope Pius XI, formerly Cardinal Alfredo Schuster is resolute and conservative leader, chosen by the cardinal-hardliners, he soon overwhelmed most of the church hierarchy, making his opinion undeniable. From the first days of his papacy, Pius XI sized most of the ecclesiastical and secular power, established a tough authoritarian regime in the country. A stout defender of church traditions and a reactionary, he has a very dubious reputation both in Italy and abroad."
 
 #############Партии############
 POP_utopism_party:0 "VP"
