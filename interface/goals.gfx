@@ -3589,4 +3589,112 @@ spriteTypes = {
 		name = "GFX_focus_tus_learning_from_professionals"
 		texturefile = "gfx/interface/goals/tuscan/focus_tus_learning_from_professionals.dds"
 	}
+	SpriteType = {
+		name = "GFX_focus_ven_money_flowing_like_a_river"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_money_flowing_like_a_river.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_negotiation_table"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_negotiation_table.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_common_enemy"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_common_enemy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_dinner_party"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_dinner_party.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_untie_their_hands"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_untie_their_hands.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_preemptive_strike"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_preemptive_strike.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_rearm_the_police"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_rearm_the_police.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_right_blind_justice"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_right_blind_justice.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_christian_values"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_christian_values.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_sweep_the_streets"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_sweep_the_streets.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_correct_the_project"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_correct_the_project.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_new_budget"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_new_budget.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_nuova_venezia"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_nuova_venezia.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_smog_and_steel"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_smog_and_steel.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_glass_and_money"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_glass_and_money.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_city_in_the_center_of_the_world"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_city_in_the_center_of_the_world.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_progress_and_knowledge"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_progress_and_knowledge.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_common_enemy_2"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_common_enemy_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_make_inquiries"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_make_inquiries.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_meeting_under_the_olive_leaves"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_meeting_under_the_olive_leaves.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_left_blind_justice"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_left_blind_justice.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_hand_over_printing_presses"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_hand_over_printing_presses.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_new_programs"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_new_programs.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_strict_taxation"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_strict_taxation.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_flood_the_streets"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_flood_the_streets.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_gettare"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_gettare.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ven_colpire"
+		texturefile = "gfx/interface/goals/venezia/focus_ven_colpire.dds"
+	}
 }

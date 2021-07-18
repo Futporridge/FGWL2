@@ -3,7 +3,7 @@
 	
 	shared_focus = {
 		id = VEN_money_flowing_like_a_river
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_money_flowing_like_a_river
 		cost = 0
 		x = 8
 		y = 0
@@ -15,7 +15,7 @@
 	}
 	shared_focus = {
 		id = VEN_negotiation_table
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_negotiation_table
 		cost = 3
 		prerequisite = {
 			focus = VEN_money_flowing_like_a_river
@@ -30,7 +30,7 @@
 	}
 	shared_focus = {
 		id = VEN_common_enemy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_common_enemy
 		cost = 3
 		prerequisite = {
 			focus = VEN_negotiation_table
@@ -54,7 +54,7 @@
 	}
 	shared_focus = {
 		id = VEN_dinner_party
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_dinner_party
 		cost = 3
 		prerequisite = {
 			focus = VEN_common_enemy
@@ -69,7 +69,7 @@
 	}
 	shared_focus = {
 		id = VEN_untie_their_hands
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_untie_their_hands
 		cost = 3
 		prerequisite = {
 			focus = VEN_dinner_party
@@ -95,7 +95,7 @@
 	}
 	shared_focus = {
 		id = VEN_preemptive_strike
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_preemptive_strike
 		cost = 3
 		prerequisite = {
 			focus = VEN_untie_their_hands
@@ -116,7 +116,7 @@
 	}
 	shared_focus = {
 		id = VEN_rearm_the_police
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_rearm_the_police
 		cost = 3
 		prerequisite = {
 			focus = VEN_preemptive_strike
@@ -140,7 +140,7 @@
 	}
 	shared_focus = {
 		id = VEN_right_blind_justice
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_right_blind_justice
 		cost = 3
 		prerequisite = {
 			focus = VEN_untie_their_hands
@@ -167,7 +167,7 @@
 	}
 	shared_focus = {
 		id = VEN_christian_values
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_christian_values
 		cost = 3
 		prerequisite = {
 			focus = VEN_right_blind_justice
@@ -184,7 +184,7 @@
 	}
 	shared_focus = {
 		id = VEN_sweep_the_streets
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_sweep_the_streets
 		cost = 3
 		prerequisite = {
 			focus = VEN_christian_values
@@ -205,7 +205,7 @@
 	}
 	shared_focus = {
 		id = VEN_correct_the_project
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_correct_the_project
 		cost = 3
 		prerequisite = {
 			focus = VEN_negotiation_table
@@ -227,7 +227,7 @@
 	}
 	shared_focus = {
 		id = VEN_new_budget
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_new_budget
 		cost = 3
 		prerequisite = {
 			focus = VEN_correct_the_project
@@ -245,7 +245,7 @@
 	}
 	shared_focus = {
 		id = VEN_nuova_venezia
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_nuova_venezia
 		cost = 3
 		prerequisite = {
 			focus = VEN_new_budget
@@ -268,7 +268,7 @@
 	}
 	shared_focus = {
 		id = VEN_smog_and_steel
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_smog_and_steel
 		cost = 3
 		prerequisite = {
 			focus = VEN_nuova_venezia
@@ -290,7 +290,7 @@
 	}
 	shared_focus = {
 		id = VEN_glass_and_money
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_glass_and_money
 		cost = 3
 		prerequisite = {
 			focus = VEN_nuova_venezia
@@ -312,7 +312,7 @@
 	}
 	shared_focus = {
 		id = VEN_city_in_the_center_of_the_world
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_city_in_the_center_of_the_world
 		cost = 3
 		prerequisite = {
 			focus = VEN_glass_and_money
@@ -329,7 +329,7 @@
 	}
 	shared_focus = {
 		id = VEN_progress_and_knowledge
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_progress_and_knowledge
 		cost = 3
 		prerequisite = {
 			focus = VEN_nuova_venezia
@@ -351,7 +351,7 @@
 	}
 	shared_focus = {
 		id = VEN_common_enemy_2
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_common_enemy_2
 		cost = 3
 		prerequisite = {
 			focus = VEN_negotiation_table
@@ -375,7 +375,7 @@
 	}
 	shared_focus = {
 		id = VEN_make_inquiries
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_make_inquiries
 		cost = 3
 		prerequisite = {
 			focus = VEN_common_enemy_2
@@ -390,7 +390,7 @@
 	}
 	shared_focus = {
 		id = VEN_meeting_under_the_olive_leaves
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_meeting_under_the_olive_leaves
 		cost = 3
 		prerequisite = {
 			focus = VEN_make_inquiries
@@ -405,7 +405,7 @@
 	}
 	shared_focus = {
 		id = VEN_left_blind_justice
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_left_blind_justice
 		cost = 3
 		prerequisite = {
 			focus = VEN_meeting_under_the_olive_leaves
@@ -424,7 +424,7 @@
 	}
 	shared_focus = {
 		id = VEN_hand_over_printing_presses
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_hand_over_printing_presses
 		cost = 3
 		prerequisite = {
 			focus = VEN_meeting_under_the_olive_leaves
@@ -442,7 +442,7 @@
 	}
 	shared_focus = {
 		id = VEN_new_programs
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_new_programs
 		cost = 3
 		prerequisite = {
 			focus = VEN_left_blind_justice
@@ -460,7 +460,7 @@
 	}
 	shared_focus = {
 		id = VEN_strict_taxation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_strict_taxation
 		cost = 3
 		prerequisite = {
 			focus = VEN_meeting_under_the_olive_leaves
@@ -479,7 +479,7 @@
 	}
 	shared_focus = {
 		id = VEN_strike_time_fund
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_strike_time_fund
 		cost = 3
 		prerequisite = {
 			focus = VEN_hand_over_printing_presses
@@ -497,7 +497,7 @@
 	}
 	shared_focus = {
 		id = VEN_flood_the_streets
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ven_flood_the_streets
 		cost = 3
 		prerequisite = {
 			focus = VEN_new_programs
@@ -516,8 +516,8 @@
 		}
 	}
 	shared_focus = {
-		id = VEN_Gettare
-		icon = GFX_goal_unknown
+		id = VEN_gettare
+		icon = GFX_focus_ven_gettare
 		cost = 3
 		prerequisite = {
 			focus = VEN_sweep_the_streets
@@ -555,8 +555,8 @@
 
 	}
 	shared_focus = {
-		id = VEN_Colpire
-		icon = GFX_goal_unknown
+		id = VEN_colpire
+		icon = GFX_focus_ven_colpire
 		cost = 3
 		prerequisite = {
 			focus = VEN_Gettare
