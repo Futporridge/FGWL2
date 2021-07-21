@@ -24,10 +24,13 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_empty"
+		textureFile = "gfx/interface/empty.dds"
+	}
+	SpriteType = {
 		name = "GFX_cancel_conversion_button"
 		textureFile = "gfx/interface/cancel_conversion_button.dds"
 	}
-
 	spriteType = {
 		name = "GFX_generic_text_bg_build"
 		texturefile = "gfx/interface/generic_text_bg_build.dds"
