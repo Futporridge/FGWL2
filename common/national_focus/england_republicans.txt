@@ -1,0 +1,34 @@
+focus_tree = {
+	id = england_republicans_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	default = no
+	shared_focus = ENG_the_legitimate_government
+	
+	continuous_focus_position = { x = 50 y = 5000 }
+}
+focus_tree = {
+	id = england_republicans_elections_initial
+	country = {
+		factor = 0
+	}
+	default = no
+	shared_focus = ENG_victory_of_the_people
+	
+	continuous_focus_position = { x = 50 y = 5000 }
+}
+focus_tree = {
+	id = england_republicans_monarchists_initial
+	country = {
+		factor = 0
+	}
+	default = no
+	shared_focus = ENG_violence_overwhelmes_the_streets
+	
+	continuous_focus_position = { x = 50 y = 5000 }
+}

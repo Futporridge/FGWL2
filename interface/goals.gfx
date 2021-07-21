@@ -3697,4 +3697,46 @@ spriteTypes = {
 		name = "GFX_focus_ven_colpire"
 		texturefile = "gfx/interface/goals/venezia/focus_ven_colpire.dds"
 	}
+	###ENG
+
+	SpriteType = { 
+		name = "GFX_focus_eng_the_legitimate_government"
+		texturefile = "gfx/interface/goals/england/republicans/start/focus_eng_the_legitimate_government.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_eng_protect_london"
+		texturefile = "gfx/interface/goals/england/republicans/start/focus_eng_protect_london.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_eng_heart_of_britannia"
+		texturefile = "gfx/interface/goals/england/republicans/start/focus_eng_heart_of_britannia.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_eng_call_to_masses"
+		texturefile = "gfx/interface/goals/england/republicans/start/focus_eng_call_to_masses.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_eng_fight_or_die"
+		texturefile = "gfx/interface/goals/england/republicans/start/focus_eng_fight_or_die.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_eng_us_and_them"
+		texturefile = "gfx/interface/goals/england/republicans/start/focus_eng_us_and_them.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_eng_soldier_councils"
+		texturefile = "gfx/interface/goals/england/republicans/start/focus_eng_soldier_councils.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_eng_the_great_gig_in_the_sky"
+		texturefile = "gfx/interface/goals/england/republicans/start/focus_eng_the_great_gig_in_the_sky.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_eng_the_dogs_of_war"
+		texturefile = "gfx/interface/goals/england/republicans/start/focus_eng_the_dogs_of_war.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_eng_the_shining_diamond"
+		texturefile = "gfx/interface/goals/england/republicans/start/focus_eng_the_shining_diamond.dds"
+	}	
 }

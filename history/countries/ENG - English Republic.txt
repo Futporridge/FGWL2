@@ -35,7 +35,7 @@ set_convoys = 100
 
 create_country_leader = {
 	name = "Elijah I"
-	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	desc = "POLITICS_ELIJAH_I_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Elias_Normandy.tga"
 	expire = "1965.1.1"
 	ideology = paternalism_subtype
@@ -45,7 +45,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Elijah I"
-	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	desc = "POLITICS_ELIJAH_I_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Elias_Normandy.tga"
 	expire = "1965.1.1"
 	ideology = reactionary_subtype
@@ -55,7 +55,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Elijah I"
-	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	desc = "POLITICS_ELIJAH_I_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Elias_Normandy.tga"
 	expire = "1965.1.1"
 	ideology = oligarchy_subtype

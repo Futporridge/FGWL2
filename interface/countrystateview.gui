@@ -299,7 +299,24 @@ guiTypes = {
 				maxHeight = 30
 				format = left
 			}
-			
+			buttonType = {
+				name = "nuke_province"
+				quadTextureSprite ="GFX_empty"
+				position = { x = 20 y = 166 }
+			}
+
+			iconType = {
+				name = "nuclear_strike_bar"
+				spriteType = "GFX_empty"
+				position = { x = 20 y = 166 }
+				rotation = 1.5708
+			}
+
+			iconType = {
+				name = "nuke_progress_frame"
+				spriteType = "GFX_empty"
+				position = { x = 20 y = 166 }
+			}			
 			iconType = {
 				name = "province_required_rule"
 				position = { x = 100 y = -3 }
