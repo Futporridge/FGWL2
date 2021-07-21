@@ -5,6 +5,18 @@ state={
 
 	history={
 		owner = HAN
+		victory_points = {
+			3561 3 
+		}
+		victory_points = {
+			3500 2 
+		}
+		victory_points = {
+			526 9 
+		}
+		victory_points = {
+			11468 2 
+		}
 		buildings = {
 			industrial_complex = 3
 			arms_factory = 2

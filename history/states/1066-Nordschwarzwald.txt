@@ -5,6 +5,12 @@ state={
 		4006 6555 
 	}
 	history={
+		victory_points = {
+			4006 3 
+		}
+		victory_points = {
+			6555 2 
+		}
 		owner = WUR
 		buildings = {
 			infrastructure = 6

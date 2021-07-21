@@ -7,6 +7,9 @@ state={
 		victory_points = {
 			6389 20 
 		}
+		victory_points = {
+			3231 1 
+		}
 		owner = KAL
 		buildings = {
 			infrastructure = 6

@@ -8,10 +8,9 @@ state={
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 4
-
-		}
-		374 = {
+			374 = {
 		naval_base = 4
+			}
 		}
 		add_core_of = HAN
 		victory_points = {

@@ -7,6 +7,15 @@ state={
 		owner = BRA
 		victory_points = {
 			3522 20
+		}	
+		victory_points = {
+			11359 1
+		}
+		victory_points = {
+			6582 9
+		}
+		victory_points = {
+			9560 1
 		}		
 		buildings = {
 			infrastructure = 6

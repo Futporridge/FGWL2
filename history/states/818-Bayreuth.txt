@@ -14,7 +14,16 @@ state={
 
 		}
 		victory_points = {
-			6421 10
+			13116 3
+		}
+		victory_points = {
+			3474 3
+		}
+		victory_points = {
+			482 10
+		}
+		victory_points = {
+			11404 1
 		}
 		add_core_of = THU
 
