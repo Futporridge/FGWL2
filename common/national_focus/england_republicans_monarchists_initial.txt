@@ -1,0 +1,198 @@
+	shared_focus = {
+		id = ENG_violence_overwhelmes_the_streets
+		icon = GFX_
+		x = 7
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = ENG_monarchists_in_charge
+		icon = GFX_
+		x = 0
+		y = 1
+		prerequisite = { focus = ENG_violence_overwhelmes_the_streets }
+		cost = 1
+		relative_position_id = ENG_violence_overwhelmes_the_streets
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+		hidden_effect = {
+		create_country_leader = {
+		name = "Elijah I"
+		desc = "POLITICS_ELIJAH_I_DESC"
+		picture = "gfx/leaders/ENG/Portrait_Elias_Normandy.tga"
+		expire = "1965.1.1"
+		ideology = paternalism_subtype
+		traits = { }
+		}
+			}
+		}
+				}	
+	shared_focus = {
+		id = ENG_monarchists_cells_around_england
+		icon = GFX_
+		x = -2
+		y = 1
+		prerequisite = { focus = ENG_monarchists_in_charge }
+		cost = 1
+		relative_position_id = ENG_monarchists_in_charge
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = ENG_expand_the_paramilitary
+		icon = GFX_
+		x = 0
+		y = 1
+		prerequisite = { focus = ENG_monarchists_in_charge }
+		cost = 1
+		relative_position_id = ENG_monarchists_in_charge
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}			
+	shared_focus = {
+		id = ENG_state_populism
+		icon = GFX_
+		x = 2
+		y = 1
+		prerequisite = { focus = ENG_monarchists_in_charge }
+		cost = 1
+		relative_position_id = ENG_monarchists_in_charge
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}		
+	shared_focus = {
+		id = ENG_discontent_within_union
+		icon = GFX_
+		x = 0
+		y = 1
+		prerequisite = { focus = ENG_monarchists_cells_around_england }
+		prerequisite = { focus = ENG_expand_the_paramilitary }
+		prerequisite = { focus = ENG_state_populism }		
+		cost = 1
+		relative_position_id = ENG_expand_the_paramilitary
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = ENG_brittish_union_party
+		icon = GFX_
+		x = -1
+		y = 1
+		prerequisite = { focus = ENG_discontent_within_union }	
+		cost = 1
+		relative_position_id = ENG_discontent_within_union
+		ai_will_do = {
+			factor = 10
+		}
+		 mutually_exclusive = {
+        focus = ENG_legitimist_league_of_britain
+		}		
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = ENG_legitimist_league_of_britain
+		icon = GFX_
+		x = 1
+		y = 1
+		prerequisite = { focus = ENG_discontent_within_union }	
+		cost = 1
+		relative_position_id = ENG_discontent_within_union
+		ai_will_do = {
+			factor = 10
+		}
+		 mutually_exclusive = {
+        focus = ENG_brittish_union_party
+		}		
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+		
+		}
+				}								

@@ -1,0 +1,231 @@
+	shared_focus = {
+		id = ENG_victory_of_the_people
+		icon = GFX_
+		x = 7
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = ENG_disband_the_army
+		icon = GFX_
+		x = -3
+		y = 1
+		prerequisite = { focus = ENG_victory_of_the_people }
+		cost = 1
+		relative_position_id = ENG_victory_of_the_people
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}	
+	shared_focus = {
+		id = ENG_demilitarize_the_economy
+		icon = GFX_
+		x = -1
+		y = 1
+		prerequisite = { focus = ENG_victory_of_the_people }
+		cost = 1
+		relative_position_id = ENG_victory_of_the_people
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = ENG_prepare_the_elections
+		icon = GFX_
+		x = 1
+		y = 1
+		prerequisite = { focus = ENG_victory_of_the_people }
+		cost = 1
+		relative_position_id = ENG_victory_of_the_people
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}	
+	shared_focus = {
+		id = ENG_liberalize_the_society
+		icon = GFX_
+		x = 3
+		y = 1
+		prerequisite = { focus = ENG_victory_of_the_people }
+		cost = 1
+		relative_position_id = ENG_victory_of_the_people
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}	
+	shared_focus = {
+		id = ENG_the_most_difficult_month_for_england
+		icon = GFX_
+		x = 1
+		y = 1
+		prerequisite = { focus = ENG_disband_the_army }		
+		prerequisite = { focus = ENG_demilitarize_the_economy }
+		prerequisite = { focus = ENG_prepare_the_elections }
+		prerequisite = { focus = ENG_liberalize_the_society }		
+		cost = 1
+		relative_position_id = ENG_demilitarize_the_economy
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = ENG_restore_the_police
+		icon = GFX_
+		x = -1
+		y = 1
+		prerequisite = { focus = ENG_the_most_difficult_month_for_england }			
+		cost = 1
+		relative_position_id = ENG_the_most_difficult_month_for_england
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = ENG_enforce_law
+		icon = GFX_
+		x = 0
+		y = 1
+		prerequisite = { focus = ENG_restore_the_police }			
+		cost = 1
+		relative_position_id = ENG_restore_the_police
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = ENG_disarm_the_radicals
+		icon = GFX_
+		x = 1
+		y = 2
+		prerequisite = { focus = ENG_the_most_difficult_month_for_england }			
+		cost = 1
+		relative_position_id = ENG_the_most_difficult_month_for_england
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}	
+	shared_focus = {
+		id = ENG_the_elections
+		icon = GFX_
+		x = 1
+		y = 1
+		prerequisite = { focus = ENG_enforce_law }				
+		prerequisite = { focus = ENG_disarm_the_radicals }			
+		cost = 1
+		relative_position_id = ENG_enforce_law
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}					

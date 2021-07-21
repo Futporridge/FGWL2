@@ -1,0 +1,230 @@
+	shared_focus = {
+		id = ENG_the_legitimate_government
+		icon = GFX_focus_eng_the_legitimate_government
+		x = 7
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+				}
+
+		completion_reward = {
+
+					}
+				}
+	shared_focus = {
+		id = ENG_protect_london
+		icon = GFX_focus_eng_protect_london
+		x = -1
+		y = 1
+		prerequisite = { focus = ENG_the_legitimate_government }
+		cost = 1
+		relative_position_id = ENG_the_legitimate_government
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}	
+	shared_focus = {
+		id = ENG_heart_of_britannia
+		icon = GFX_focus_eng_heart_of_britannia
+		x = 0
+		y = 1
+		prerequisite = { focus = ENG_protect_london }
+		cost = 1
+		relative_position_id = ENG_protect_london
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}				
+	shared_focus = {
+		id = ENG_call_to_masses
+		icon = GFX_focus_eng_call_to_masses
+		x = 1
+		y = 1
+		prerequisite = { focus = ENG_the_legitimate_government }
+		cost = 1
+		relative_position_id = ENG_the_legitimate_government
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = ENG_fight_or_die
+		icon = GFX_focus_eng_fight_or_die
+		x = 0
+		y = 1
+		prerequisite = { focus = ENG_call_to_masses }
+		cost = 1
+		relative_position_id = ENG_call_to_masses
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = ENG_us_and_them
+		icon = GFX_focus_eng_us_and_them
+		x = -1
+		y = 1
+		prerequisite = { focus = ENG_heart_of_britannia }
+		prerequisite = { focus = ENG_fight_or_die }		
+		cost = 1
+		relative_position_id = ENG_fight_or_die
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = ENG_soldier_councils
+		icon = GFX_focus_eng_soldier_councils
+		x = -2
+		y = 1
+		prerequisite = { focus = ENG_us_and_them }
+		cost = 1
+		relative_position_id = ENG_us_and_them
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = ENG_the_great_gig_in_the_sky
+		icon = GFX_focus_eng_the_great_gig_in_the_sky
+		x = 0
+		y = 1
+		prerequisite = { focus = ENG_us_and_them }
+		cost = 1
+		relative_position_id = ENG_us_and_them
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}	
+	shared_focus = {
+		id = ENG_the_dogs_of_war
+		icon = GFX_focus_eng_the_dogs_of_war
+		x = 2
+		y = 1
+		prerequisite = { focus = ENG_us_and_them }
+		cost = 1
+		relative_position_id = ENG_us_and_them
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}
+	shared_focus = {
+		id = ENG_the_shining_diamond
+		icon = GFX_focus_eng_the_shining_diamond
+		x = 0
+		y = 1
+		prerequisite = { focus = ENG_soldier_councils }
+		prerequisite = { focus = ENG_the_great_gig_in_the_sky }
+		prerequisite = { focus = ENG_the_dogs_of_war }		
+		cost = 1
+		relative_position_id = ENG_the_great_gig_in_the_sky
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+
+		}
+				}				
