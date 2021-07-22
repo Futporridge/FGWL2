@@ -48,4 +48,95 @@
 		name = eng.2.a
 	
 		}
+	}
+	country_event = { 
+	id = eng.3
+	title = eng.3.t
+	desc = eng.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	immediate = {
+	hidden_effect = {
+			create_country_leader = {
+			name = "Parliament of England"
+			desc = "POLITICS_PARLIAMENT_DESC"
+			picture = "gfx/leaders/ENG/Portrait_Parliament.tga"
+			expire = "1965.1.1"
+			ideology = liberalism_subtype
+			traits = { }
+			}
+	}
+		}
+
+	option = {
+		name = eng.3.a
+	
+		}	
+	}	
+	country_event = { 
+	id = eng.4
+	title = eng.4.t
+	desc = eng.4.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	immediate = {
+	hidden_effect = {
+		set_party_name = { 
+		ideology = liberalism 
+		long_name = ENG_liberalism_new_party_long 
+		name = ENG_liberalism_new_party
+		}
+	}
+	}
+
+	option = {
+		name = eng.4.a
+		set_politics = {
+		ruling_party = conservatism
+		}
+		hidden_effect = {
+			create_country_leader = {
+			name = "Oswald Mosley"
+			desc = "POLITICS_OSWALD_MOSLEY_DESC"
+			picture = "gfx/leaders/ENG/Portrait_Oswald_Mosley.tga"
+			expire = "1965.1.1"
+			ideology = liberalism_subtype
+			traits = { }
+			}	
+		}		
+		}
+
+	option = {
+		name = eng.4.b		
+		hidden_effect = {
+			create_country_leader = {
+			name = "Oswald Mosley"
+			desc = "POLITICS_OSWALD_MOSLEY_DESC"
+			picture = "gfx/leaders/ENG/Portrait_Oswald_Mosley.tga"
+			expire = "1965.1.1"
+			ideology = liberalism_subtype
+			traits = { }
+			}	
+		}
+		}
+
+	option = {
+		name = eng.4.c
+		set_politics = {
+		ruling_party = communitarianism
+		}
+		hidden_effect = {
+			create_country_leader = {
+			name = "Oswald Mosley"
+			desc = "POLITICS_OSWALD_MOSLEY_DESC"
+			picture = "gfx/leaders/ENG/Portrait_Oswald_Mosley.tga"
+			expire = "1965.1.1"
+			ideology = liberalism_subtype
+			traits = { }
+			}	
+		}		
+		}		
 	}	

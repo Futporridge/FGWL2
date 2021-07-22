@@ -84,6 +84,16 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
+	name = "Norman Angell"
+	desc = "POLITICS_NORMAN_ANGELL_DESC"
+	picture = "gfx/leaders/ENG/Portrait_Norman_Angell.tga"
+	expire = "1965.1.1"
+	ideology = lcommunitarianism_subtype
+	traits = { 
+
+	}
+}
+create_country_leader = {
 	name = "Harry Pollitt"
 	desc = "POLITICS_HARRY_POLLITT_DESC"
 	picture = "gfx/leaders/ESS/Portrait_Harry_Pollitt.tga"
