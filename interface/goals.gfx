@@ -3698,7 +3698,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/venezia/focus_ven_colpire.dds"
 	}
 	###ENG
-
+	###start###
 	SpriteType = { 
 		name = "GFX_focus_eng_the_legitimate_government"
 		texturefile = "gfx/interface/goals/england/republicans/start/focus_eng_the_legitimate_government.dds"
@@ -3738,5 +3738,38 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_focus_eng_the_shining_diamond"
 		texturefile = "gfx/interface/goals/england/republicans/start/focus_eng_the_shining_diamond.dds"
+	}
+	###win###	
+	SpriteType = { 
+		name = "GFX_focus_eng_victory_of_the_people"
+		texturefile = "gfx/interface/goals/england/republicans/win/focus_eng_victory_of_the_people.dds"
 	}	
+	SpriteType = { 
+		name = "GFX_focus_eng_disband_the_army"
+		texturefile = "gfx/interface/goals/england/republicans/win/focus_eng_disband_the_army.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_eng_demilitarize_the_economy"
+		texturefile = "gfx/interface/goals/england/republicans/win/focus_eng_demilitarize_the_economy.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_eng_prepare_the_elections"
+		texturefile = "gfx/interface/goals/england/republicans/win/focus_eng_prepare_the_elections.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_eng_liberalize_the_society"
+		texturefile = "gfx/interface/goals/england/republicans/win/focus_eng_liberalize_the_society.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_eng_the_most_dificult_month_for_england"
+		texturefile = "gfx/interface/goals/england/republicans/win/focus_eng_the_most_dificult_month_for_england.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_eng_punish_the_radicals"
+		texturefile = "gfx/interface/goals/england/republicans/win/focus_eng_punish_the_radicals.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_eng_the_elections"
+		texturefile = "gfx/interface/goals/england/republicans/win/focus_eng_the_elections.dds"
+	}		
 }

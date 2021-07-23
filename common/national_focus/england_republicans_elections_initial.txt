@@ -1,9 +1,9 @@
 	shared_focus = {
 		id = ENG_victory_of_the_people
-		icon = GFX_
+		icon = GFX_focus_eng_victory_of_the_people
 		x = 7
 		y = 0
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 10
 		}
@@ -15,16 +15,16 @@
 				}
 
 		completion_reward = {
-
+		country_event = { id = eng.2 }
 					}
 				}
 	shared_focus = {
 		id = ENG_disband_the_army
-		icon = GFX_
+		icon = GFX_focus_eng_disband_the_army
 		x = -3
 		y = 1
 		prerequisite = { focus = ENG_victory_of_the_people }
-		cost = 1
+		cost = 2
 		relative_position_id = ENG_victory_of_the_people
 		ai_will_do = {
 			factor = 10
@@ -38,16 +38,17 @@
 				}
 
 		completion_reward = {
-
+		add_ideas = { disarmed_nation }
+		add_political_power = 300
 		}
 				}	
 	shared_focus = {
 		id = ENG_demilitarize_the_economy
-		icon = GFX_
+		icon = GFX_focus_eng_demilitarize_the_economy
 		x = -1
 		y = 1
 		prerequisite = { focus = ENG_victory_of_the_people }
-		cost = 1
+		cost = 2
 		relative_position_id = ENG_victory_of_the_people
 		ai_will_do = {
 			factor = 10
@@ -61,16 +62,20 @@
 				}
 
 		completion_reward = {
-
+		add_ideas = { civilian_economy }		
+		add_timed_idea = {
+			idea = eng_demil_the_eco
+			days = 180
+			}
 		}
 				}
 	shared_focus = {
 		id = ENG_prepare_the_elections
-		icon = GFX_
+		icon = GFX_focus_eng_prepare_the_elections
 		x = 1
 		y = 1
 		prerequisite = { focus = ENG_victory_of_the_people }
-		cost = 1
+		cost = 2
 		relative_position_id = ENG_victory_of_the_people
 		ai_will_do = {
 			factor = 10
@@ -84,16 +89,31 @@
 				}
 
 		completion_reward = {
-
+			add_popularity = {
+				ideology = liberalism
+				popularity = 0.1
+				}
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.2
+				}
+			add_popularity = {
+				ideology = communitarianism
+				popularity = 0.2
+				}
+			add_popularity = {
+				ideology = paternalism
+				popularity = 0.1
+				}				
 		}
 				}	
 	shared_focus = {
 		id = ENG_liberalize_the_society
-		icon = GFX_
+		icon = GFX_focus_eng_liberalize_the_society
 		x = 3
 		y = 1
 		prerequisite = { focus = ENG_victory_of_the_people }
-		cost = 1
+		cost = 2
 		relative_position_id = ENG_victory_of_the_people
 		ai_will_do = {
 			factor = 10
@@ -107,12 +127,12 @@
 				}
 
 		completion_reward = {
-
+		add_ideas = { eng_lib_the_society }
 		}
 				}	
 	shared_focus = {
 		id = ENG_the_most_difficult_month_for_england
-		icon = GFX_
+		icon = GFX_focus_eng_the_most_dificult_month_for_england
 		x = 1
 		y = 1
 		prerequisite = { focus = ENG_disband_the_army }		
@@ -126,7 +146,7 @@
 		}
 		available_if_capitulated = yes
 		available = {
-		
+		always = no
 		}
 		bypass = {
 
@@ -138,11 +158,11 @@
 				}
 	shared_focus = {
 		id = ENG_restore_the_police
-		icon = GFX_
+		icon = GFX_focus_TEU_loyal_police_squadrons
 		x = -1
 		y = 1
 		prerequisite = { focus = ENG_the_most_difficult_month_for_england }			
-		cost = 1
+		cost = 2
 		relative_position_id = ENG_the_most_difficult_month_for_england
 		ai_will_do = {
 			factor = 10
@@ -156,16 +176,16 @@
 				}
 
 		completion_reward = {
-
+		swap_ideas = { remove_idea = eng_the_most_difficult_month add_idea = eng_the_most_difficult_month_1 }
 		}
 				}
 	shared_focus = {
 		id = ENG_enforce_law
-		icon = GFX_
+		icon = GFX_focus_TEU_suppress_discontent
 		x = 0
 		y = 1
 		prerequisite = { focus = ENG_restore_the_police }			
-		cost = 1
+		cost = 2
 		relative_position_id = ENG_restore_the_police
 		ai_will_do = {
 			factor = 10
@@ -179,12 +199,12 @@
 				}
 
 		completion_reward = {
-
+		swap_ideas = { remove_idea = eng_the_most_difficult_month_1 add_idea = eng_the_most_difficult_month_2 }
 		}
 				}
 	shared_focus = {
 		id = ENG_disarm_the_radicals
-		icon = GFX_
+		icon = GFX_focus_eng_punish_the_radicals
 		x = 1
 		y = 2
 		prerequisite = { focus = ENG_the_most_difficult_month_for_england }			
@@ -207,7 +227,7 @@
 				}	
 	shared_focus = {
 		id = ENG_the_elections
-		icon = GFX_
+		icon = GFX_focus_eng_the_elections
 		x = 1
 		y = 1
 		prerequisite = { focus = ENG_enforce_law }				
