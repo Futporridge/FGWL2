@@ -21,6 +21,10 @@ ENG_reactionary_party_long:0 "Legitimist League of Britain"
 
 ENG_liberalism_new_party:0 "NLP"
 ENG_liberalism_new_party_long:0 "New Liberal Party"
+#############events############
+engrad.1.t:0 "Violence on the Streets"
+engrad.1.d:0 ""
+engrad.1.q:0 "Freedom is under Siege!"
 ###focuses###
 ENG_the_legitimate_government:0 "The Legitimate Government"
 ENG_the_legitimate_government_desc:0 ""

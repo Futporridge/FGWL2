@@ -165,7 +165,7 @@
 	id = engrad.1
 	title = engrad.1.t
 	desc = engrad.1.d
-	picture = GFX_
+	picture = GFX_report_event_eng_violence_at_election_polls
 
 	is_triggered_only = yes
 	
