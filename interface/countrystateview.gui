@@ -463,7 +463,7 @@ guiTypes = {
 		iconType = {
 			name = "damage_bar"
 			spriteType = "GFX_damage_bar"
-			position = { x=10 y=36 }
+			position = { x=9 y=36 }
 			rotation = 1.5708		
 		}	
 	}
@@ -503,7 +503,7 @@ guiTypes = {
 		iconType = {
 			name = "damage_bar"
 			spriteType = "GFX_damage_bar"
-			position = { x=7 y=36 }
+			position = { x=10 y=35 }
 			rotation = 1.5708		
 		}	
 	}
