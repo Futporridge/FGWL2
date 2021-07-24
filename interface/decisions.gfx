@@ -1410,6 +1410,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_cat_TYR_angelis.dds"
 	} 
 	spriteType = { 
+		name = "GFX_ENG_decision_disarm_radicals"
+		texturefile = "gfx/interface/decisions/decision_cat_ENG_disarm_radicals.dds"
+	} 	
+	spriteType = { 
 		name = "GFX_decision_border_war"
 		texturefile = "gfx/interface/decisions/decision_border_war.dds"
 	}	

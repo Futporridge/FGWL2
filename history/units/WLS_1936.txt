@@ -1,0 +1,82 @@
+﻿division_template = {
+	name = "Troedfilwr Bataliwn"			
+	division_names_group = WLS_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+	}
+}
+division_template = {
+	name = "Marchfilwr Sgwadronau"
+	division_names_group = WLS_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+	}
+	support = {
+	
+	}
+}
+
+
+units = {
+
+	division= {	
+		location = 6378
+		division_template = "Troedfilwr Bataliwn"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		location = 3241
+		division_template = "Troedfilwr Bataliwn"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		location = 6301	
+		division_template = "Troedfilwr Bataliwn"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		location = 311
+		division_template = "Troedfilwr Bataliwn"
+		start_experience_factor = 0.3
+	}
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "WLS"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "ENG" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+
+}
+	#####################

@@ -1,6 +1,6 @@
 	shared_focus = {
 		id = ENG_violence_overwhelmes_the_streets
-		icon = GFX_
+		icon = GFX_focus_eng_violence_overwhelmes_the_streets
 		x = 7
 		y = 0
 		cost = 10
@@ -20,7 +20,7 @@
 				}
 	shared_focus = {
 		id = ENG_monarchists_in_charge
-		icon = GFX_
+		icon = GFX_focus_eng_monarchists_in_charge
 		x = 0
 		y = 1
 		prerequisite = { focus = ENG_violence_overwhelmes_the_streets }
@@ -52,7 +52,7 @@
 				}	
 	shared_focus = {
 		id = ENG_monarchists_cells_around_england
-		icon = GFX_
+		icon = GFX_focus_eng_monarchist_cells_around_the_england
 		x = -2
 		y = 1
 		prerequisite = { focus = ENG_monarchists_in_charge }
@@ -75,7 +75,7 @@
 				}
 	shared_focus = {
 		id = ENG_expand_the_paramilitary
-		icon = GFX_
+		icon = GFX_focus_eng_expand_the_paramilitary
 		x = 0
 		y = 1
 		prerequisite = { focus = ENG_monarchists_in_charge }
@@ -98,7 +98,7 @@
 				}			
 	shared_focus = {
 		id = ENG_state_populism
-		icon = GFX_
+		icon = GFX_focus_PFT_focus_on_populism
 		x = 2
 		y = 1
 		prerequisite = { focus = ENG_monarchists_in_charge }
@@ -121,7 +121,7 @@
 				}		
 	shared_focus = {
 		id = ENG_discontent_within_union
-		icon = GFX_
+		icon = GFX_focus_eng_discontent_within_union
 		x = 0
 		y = 1
 		prerequisite = { focus = ENG_monarchists_cells_around_england }
@@ -146,7 +146,7 @@
 				}
 	shared_focus = {
 		id = ENG_brittish_union_party
-		icon = GFX_
+		icon = GFX_focus_eng_brittish_union_party
 		x = -1
 		y = 1
 		prerequisite = { focus = ENG_discontent_within_union }	
@@ -172,7 +172,7 @@
 				}
 	shared_focus = {
 		id = ENG_legitimist_league_of_britain
-		icon = GFX_
+		icon = GFX_focus_eng_legitimist_league_of_england
 		x = 1
 		y = 1
 		prerequisite = { focus = ENG_discontent_within_union }	

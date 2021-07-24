@@ -1,0 +1,16 @@
+################
+##### AUS ######
+################
+
+ENG_disarm_radicals = {
+	
+	icon = GFX_decision_generic_factory	
+	picture = GFX_ENG_decision_disarm_radicals
+	visible_when_empty = yes
+	allowed = {
+		tag = ENG
+	}
+	visible = {
+		has_country_flag = disarm_radicals_flag
+	}
+}
