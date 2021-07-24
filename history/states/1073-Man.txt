@@ -1,0 +1,22 @@
+state={
+	id=1073
+	name="STATE_1073"
+	provinces={
+		3311 
+	}
+	history={
+		owner = SCO
+		buildings = {
+			infrastructure = 3
+			3311 = {
+				naval_base = 1
+
+			}
+		}
+		add_core_of = SCO
+
+	}
+	state_category=small_island	
+	manpower=51000
+	buildings_max_level_factor=1.000
+}

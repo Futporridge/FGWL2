@@ -1,0 +1,203 @@
+﻿ESS_INF_01 = {
+	name = "Worker Army Brigade"
+
+	for_countries = { ESS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ENG_INF_01 }
+
+	fallback_name = "%d Worker Army Brigade"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Worker Army Brigade 'Karl Marx'" }
+		2 = { "%dnd Worker Army Brigade 'Ferdinand Lassalle'" }
+		3 = { "%drd Worker Army Brigade 'Defenders of Revolution'" }
+		4 = { "%dth Worker Army Brigade 'Death to the Reaction'" }
+		5 = { "%dth Worker Army Brigade 'Wat Tyler'" }
+		6 = { "%dth Worker Army Brigade 'Robin Hood'" }
+		7 = { "%dth Worker Army Brigade 'William Thompson'" }
+		8 = { "%dth Worker Army Brigade 'John Gray'" }		
+	}
+}
+
+ESS_CAV_01 = {
+	name = "Red Hussars Division"
+
+	for_countries = { ESS }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ENG_INF_01 }
+
+	fallback_name = "%d Red Hussars Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+	}
+}
+ESS_MOT_01 = {
+	name = "Motorised Division"
+
+	for_countries = { ESS }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ENG_INF_01 }
+
+	fallback_name = "%d Motorized Worker Army Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+
+	}
+}
+
+ESS_MEC_01 = {
+	name = "Mechanised Division"
+
+	for_countries = { ESS }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ENG_INF_01 }
+
+	fallback_name = "%d Mechanised Worker Army Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+
+	}
+}
+
+ESS_ARM_01 = {
+	name = "Panzer Division"
+
+	for_countries = { ESS }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ENG_INF_01 }
+
+	fallback_name = "%d Panzer Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+
+	}
+}
+
+ESS_PAR_01 = {
+	name = "Airborne Division"
+
+	for_countries = { ESS }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ENG_INF_01 }
+
+	fallback_name = "%d Airborne Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+	
+	}
+}
+
+ESS_MAR_01 = {
+	name = "Marines Division"
+
+	for_countries = { ESS }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ENG_INF_01 }
+
+	fallback_name = "%d Marines Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+
+	}
+}
+
+ESS_MNT_01 = {
+	name = "Mountain Division"
+
+	for_countries = { ESS }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ENG_INF_01 }
+
+	fallback_name = "%d Mountaineer Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+
+	}
+}
+
+
+ESS_GAR_01 = {
+	name = "Garrison Division"
+
+	for_countries = { ESS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ENG_INF_01 }
+
+	fallback_name = "%d Garrison Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+
+	}
+}

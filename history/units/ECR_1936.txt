@@ -10,12 +10,8 @@
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
         infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
 	}
-	support = {
-       	engineer = { x = 0 y = 0 }
-	}
+
 }
 division_template = {
 	name = "Cavalry Brigade"
@@ -31,36 +27,24 @@ division_template = {
         recon = { x = 0 y = 0 }
 	}
 }
-division_template = {
-	name = "Panzer Brigade"
-	division_names_group = ENG_ARM_02
-	regiments = {
-		armor_car = { x = 0 y = 0 }
-		armor_car = { x = 0 y = 1 }
-		cavalry = { x = 1 y = 2 }
-	}
-	support = {
-       	engineer = { x = 0 y = 0 }
-	}	
-}
 
 units = {
 
 	division= {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 6103
+
+		location = 3369
 		division_template = "Panzer Brigade"
 		start_experience_factor = 0.3
 	}
 	division= {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 3287
+
+		location = 6351
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+
+		location = 3422
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
@@ -69,45 +53,16 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 11253
-		division_template = "Infantry Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 3
-		}
-		location = 11221	
-		division_template = "Infantry Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
-		location = 9239
-		division_template = "Infantry Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11471
+		location = 3369
 		division_template = "Cavalry Brigade"
 		start_experience_factor = 0.3
 	}
-	division= {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 2
-		}
-		location = 6489
-		division_template = "Cavalry Brigade"
-		start_experience_factor = 0.3
+	division = {
+		name = "Cornwall Volunteer Brigade"
+		location = 6526
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.1
+
 	}	
 	#########################
 	## STARTING PRODUCTION ##
@@ -118,9 +73,9 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
-			creator = "ENG"
+			creator = "ECR"
 		}
-		requested_factories = 5
+		requested_factories = 3
 		progress = 0.1
 		efficiency = 50
 	}
@@ -128,20 +83,10 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "ENG" 
-		}
-		requested_factories = 3
-		progress = 0.3
-		efficiency = 50
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = armor_car_equipment_1
-			creator = "ENG" 
+			creator = "ECR" 
 		}
 		requested_factories = 1
-		progress = 0.4
+		progress = 0.3
 		efficiency = 50
 	}
 
