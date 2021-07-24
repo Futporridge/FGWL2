@@ -1,5 +1,5 @@
 ﻿	add_namespace = eng
-	add_namespace = englib	
+	add_namespace = engrad
 	
 	country_event = { 
 	id = eng.1
@@ -160,4 +160,43 @@
 			}	
 		}		
 		}		
+	}
+	country_event = { 
+	id = engrad.1
+	title = engrad.1.t
+	desc = engrad.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	immediate = {
+	hidden_effect = {
+	127 = {
+	set_demilitarized_zone = yes
+	}
+	126 = {
+	set_demilitarized_zone = yes
+	}
+	128 = {
+	set_demilitarized_zone = yes
+	}
+	132 = {
+	set_demilitarized_zone = yes
+	}
+	338 = {
+	set_demilitarized_zone = yes
+	}
+	126 = { set_state_flag = ENG_radicals_in_state }
+	127 = { set_state_flag = ENG_radicals_in_state }
+	128 = { set_state_flag = ENG_radicals_in_state }
+	132 = { set_state_flag = ENG_radicals_in_state }
+	338 = { set_state_flag = ENG_radicals_in_state }
+    set_variable = { eng_elections_radical_power = 5 }
+	}
+		}
+
+	option = {
+		name = engrad.1.a
+		complete_national_focus = ENG_the_most_difficult_month_for_england	
+		}
 	}	

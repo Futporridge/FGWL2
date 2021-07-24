@@ -1,0 +1,284 @@
+ENG_disarm_radicals = {
+	ENG_disarm_radicals_in_london = {
+
+		icon = {
+			key = eng_blackshirt_march
+			trigger = {
+				126 = { has_state_flag = ENG_radicals_in_state }
+			}
+		}
+
+		available = {
+			126 = { has_state_flag = ENG_radicals_in_state }
+			has_full_control_of_state = 126
+		}
+
+		highlight_state_targets = { state = 126 }
+
+
+		on_map_mode = map_only
+
+		cost = 70
+
+			fire_only_once = yes
+
+			selectable_mission = yes
+
+		visible = {
+		126 = { has_state_flag = ENG_radicals_in_state }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			126 = { set_demilitarized_zone = no }
+			126 = { clr_state_flag = ENG_radicals_in_state }
+			subtract_from_variable	= { var = eng_elections_radical_power value = 1 }	
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ENG_disarm_radicals_in_sussex = {
+
+		icon = {
+			key = eng_blackshirt_march
+			trigger = {
+				127 = { has_state_flag = ENG_radicals_in_state }
+			}
+		}
+
+		available = {
+			127 = { has_state_flag = ENG_radicals_in_state }
+			has_full_control_of_state = 127
+		}
+
+		highlight_state_targets = { state = 127 }
+
+
+		on_map_mode = map_only
+
+		cost = 70
+
+			fire_only_once = yes
+
+			selectable_mission = yes
+
+		visible = {
+		127 = { has_state_flag = ENG_radicals_in_state }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			127 = { set_demilitarized_zone = no }
+			127 = { clr_state_flag = ENG_radicals_in_state }
+			subtract_from_variable	= { var = eng_elections_radical_power value = 1 }	
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ENG_disarm_radicals_in_wessex = {
+
+		icon = {
+			key = eng_blackshirt_march
+			trigger = {
+				338 = { has_state_flag = ENG_radicals_in_state }
+			}
+		}
+
+		available = {
+			338 = { has_state_flag = ENG_radicals_in_state }
+			has_full_control_of_state = 338
+		}
+
+		highlight_state_targets = { state = 338 }
+
+
+		on_map_mode = map_only
+
+		cost = 70
+
+			fire_only_once = yes
+
+			selectable_mission = yes
+
+		visible = {
+		338 = { has_state_flag = ENG_radicals_in_state }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			338 = { set_demilitarized_zone = no }
+			338 = { clr_state_flag = ENG_radicals_in_state }
+			subtract_from_variable	= { var = eng_elections_radical_power value = 1 }	
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ENG_disarm_radicals_in_mercia = {
+
+		icon = {
+			key = eng_blackshirt_march
+			trigger = {
+				128 = { has_state_flag = ENG_radicals_in_state }
+			}
+		}
+
+		available = {
+			128 = { has_state_flag = ENG_radicals_in_state }
+			has_full_control_of_state = 128
+		}
+
+		highlight_state_targets = { state = 128 }
+
+
+		on_map_mode = map_only
+
+		cost = 70
+
+			fire_only_once = yes
+
+			selectable_mission = yes
+
+		visible = {
+		128 = { has_state_flag = ENG_radicals_in_state }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			128 = { set_demilitarized_zone = no }
+			128 = { clr_state_flag = ENG_radicals_in_state }
+			subtract_from_variable	= { var = eng_elections_radical_power value = 1 }	
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ENG_disarm_radicals_in_liverpool = {
+
+		icon = {
+			key = eng_blackshirt_march
+			trigger = {
+				132 = { has_state_flag = ENG_radicals_in_state }
+			}
+		}
+
+		available = {
+			132 = { has_state_flag = ENG_radicals_in_state }
+			has_full_control_of_state = 132
+		}
+
+		highlight_state_targets = { state = 132 }
+
+
+		on_map_mode = map_only
+
+		cost = 70
+
+			fire_only_once = yes
+
+			selectable_mission = yes
+
+		visible = {
+		132 = { has_state_flag = ENG_radicals_in_state }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			132 = { set_demilitarized_zone = no }
+			132 = { clr_state_flag = ENG_radicals_in_state }
+			subtract_from_variable	= { var = eng_elections_radical_power value = 1 }	
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+     radicals_takeover = {                          
+          allowed = { tag = ENG }   
+
+          fire_only_once = yes
+		  
+          activation = {                          
+               has_country_flag = disarm_radicals_flag                      
+          }
+		available = {
+			check_variable = {
+				var = eng_elections_radical_power
+				value = 2
+				compare = less_than_or_equals
+			}			
+		}		  
+          is_good = no                           
+          days_mission_timeout = 70          
+          timeout_effect = {                      
+			hidden_effect = {
+			country_event = { id = eng.3 }
+			clr_country_flag = disarm_radicals_flag		
+			126 = { clr_state_flag = ENG_radicals_in_state }
+			127 = {	clr_state_flag = ENG_radicals_in_state }
+			128 = { clr_state_flag = ENG_radicals_in_state }
+			132 = { clr_state_flag = ENG_radicals_in_state }
+			338 = { clr_state_flag = ENG_radicals_in_state }		
+			clear_variable = eng_elections_radical_power
+			127 = {
+			set_demilitarized_zone = no
+			}
+			126 = {
+			set_demilitarized_zone = no
+			}
+			128 = {
+			set_demilitarized_zone = no
+			}
+			132 = {
+			set_demilitarized_zone = no
+			}
+			338 = {
+			set_demilitarized_zone = no
+			}			
+			}
+			custom_effect_tooltip = ENG_radicals_takeover_decision_lose					
+		  }
+        
+
+          complete_effect = {                    
+			add_stability = -0.15
+			custom_effect_tooltip = ENG_radicals_takeover_decision_win			
+			hidden_effect = {
+			clr_country_flag = disarm_radicals_flag
+			126 = { clr_state_flag = ENG_radicals_in_state }
+			127 = {	clr_state_flag = ENG_radicals_in_state }
+			128 = { clr_state_flag = ENG_radicals_in_state }
+			132 = { clr_state_flag = ENG_radicals_in_state }
+			338 = { clr_state_flag = ENG_radicals_in_state }	
+			clear_variable = eng_elections_radical_power
+			127 = {
+			set_demilitarized_zone = no
+			}
+			126 = {
+			set_demilitarized_zone = no
+			}
+			128 = {
+			set_demilitarized_zone = no
+			}
+			132 = {
+			set_demilitarized_zone = no
+			}
+			338 = {
+			set_demilitarized_zone = no
+			}			
+			}
+          }
+		  
+     }	
+}

@@ -3771,5 +3771,34 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_focus_eng_the_elections"
 		texturefile = "gfx/interface/goals/england/republicans/win/focus_eng_the_elections.dds"
-	}		
+	}
+	###monarchinitial###	
+	SpriteType = { 
+		name = "GFX_focus_eng_violence_overwhelmes_the_streets"
+		texturefile = "gfx/interface/goals/england/republicans/monarchists_initial/focus_eng_violence_overwhelmes_the_streets.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_eng_monarchists_in_charge"
+		texturefile = "gfx/interface/goals/england/republicans/monarchists_initial/focus_eng_monarchists_in_charge.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_eng_monarchist_cells_around_the_england"
+		texturefile = "gfx/interface/goals/england/republicans/monarchists_initial/focus_eng_monarchist_cells_around_the_england.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_eng_expand_the_paramilitary"
+		texturefile = "gfx/interface/goals/england/republicans/monarchists_initial/focus_eng_expand_the_paramilitary.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_eng_discontent_within_union"
+		texturefile = "gfx/interface/goals/england/republicans/monarchists_initial/focus_eng_discontent_within_union.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_eng_brittish_union_party"
+		texturefile = "gfx/interface/goals/england/republicans/monarchists_initial/focus_eng_brittish_union_party.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_eng_legitimist_league_of_england"
+		texturefile = "gfx/interface/goals/england/republicans/monarchists_initial/focus_eng_legitimist_league_of_england.dds"
+	}	
 }
