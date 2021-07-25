@@ -1,6 +1,7 @@
 capital = 160
 
 OOB = "VEN_1936"
+set_naval_oob= "VEN_naval"
 
 country_lock_all_division_template = yes
 

@@ -162,7 +162,7 @@
 	}
 	}
 	
-	country_event = { #Мир с честью
+	country_event = { #Наши темные дела раскрыты!
 	id = ite.6
 	title = ite.6.t
 	desc = ite.6.d
@@ -170,142 +170,16 @@
 
 	is_triggered_only = yes
 
-	option = { #Это плохая идея
+	option = {
 		name = ite.6.a
-		ai_chance = {
-			base = 70
-			modifier = {
-				add  = 5
-				has_manpower > 100000
-			}
-			modifier = {
-				add  = 5
-				liberalism < 0.20
-			}
-			modifier = {
-				add  = 5
-				has_war_support > 0.50
-			}
-			modifier = { 
-				has_country_flag = ite_civil_war
-				factor = 0 
-			}
-		}
-		add_war_support = 0.1
-	}
-	
-	option = { #Стоит попробывать 
-		name = ite.6.b
-		ai_chance = {
-			base = 30
-			modifier = {
-				add  = -10
-				has_manpower < 100000
-			}
-			modifier = {
-				add  = -10
-				liberalism > 0.20
-			}
-			modifier = {
-				add  = -10
-				has_war_support < 0.50
-			}
-			modifier = { 
-				has_country_flag = ite_civil_war
-				factor = 100 
-			}
-		}
-		add_war_support = -0.1
-		all_country = {
-			limit = {
-				is_faction_leader = yes
-				is_italian_tag = yes
-			}
-			country_event = {	id = ite.7	}
-		}
+		add_stability = -0.01
+		add_political_power = -50
 	}
 	}
 	
-	country_event = { #Империя_предлогает_мир
-	id = ite.7
-	title = ite.7.t
-	desc = ite.7.d
-	picture = GFX_
-
-	is_triggered_only = yes
 	
-	mean_time_to_happen = { days = 5 }
-
-	option = { #Перемирие принято
-		name = ite.7.a
-		ai_chance = {
-			base = 70
-		}
-		all_country = {
-			limit = {
-				has_war_with = ITE
-				is_italian_tag = yes
-			}
-			white_peace = ITE
-			set_truce = {
-				target = ITE
-				days = 60
-			}
-			add_war_support = -0.1
-		}
-		ITE = { country_event = {	id = ite.8	}	}
-	}
 	
-	option = { #Они слабы, время бить!
-		name = ite.7.b
-		ai_chance = {
-			base = 30
-		}
-		all_country = {
-			limit = {
-				has_war_with = ITE
-				is_italian_tag = yes
-			}
-			add_war_support = 0.1
-		}
-	}
-	}
 	
-	country_event = { #Сообщение о перемирии 
-	id = ite.8
-	title = ite.8.t
-	desc = ite.8.d
-	picture = GFX_
-
-	is_triggered_only = yes
-
-	option = { #Принял
-		name = ite.8.a
-	}
-	}
-	
-	country_event = { #Сопротивление 
-	id = ite.9
-	title = ite.9.t
-	desc = ite.9.d
-	picture = GFX_
-	is_triggered_only = no
-	fire_only_once = yes
-	trigger = {
-		tag = ITE
-		OR = {
-			controls_state = 805
-			controls_state = 2
-		}
-	}
-	mean_time_to_happen = { days = 30 }
-	
-	option = { #Одной проблемой больше
-		name = ite.9.a
-		add_ideas = resistenza
-		mark_focus_tree_layout_dirty = yes
-		}
-	}
 	
 ##################################################################################
 ################################ИВЕНТЫ СОПРОТИВЛЕНИЯ##############################

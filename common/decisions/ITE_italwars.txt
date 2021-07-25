@@ -133,7 +133,7 @@ ITE_risorgimento = {
 		visible = {
 			has_completed_focus = ITE_divide_and_conquer
 			NOT = {
-				has_global_flag = ipr_defeated 
+				has_global_flag = isr_defeated 
 			}
 		}
 		cost = 15
@@ -212,23 +212,80 @@ ITE_risorgimento = {
 		}
 	}
 	
-	ITE_announce_the_beginning_of_risorgimento = {
+	ITE_сarthage_gambit_1 = {
 		fire_only_once = yes
 		visible = {
-			has_completed_focus = ITE_risorgimento
+			has_completed_focus = ITE_divide_and_conquer
 		}
-		cost = 200
+		cost = 100
 		available = {
-			NOT = {
-				has_country_flag = ite_civil_war
-			}
 		}
 		complete_effect = {
-			add_stability = 0.20
-			add_war_support = 0.20
+			set_country_flag = flag_сarthage_gambit_1
+			random_list = {
+				90 = {
+					CRT = {
+						country_event = { id = ite.7 days = 5 }
+					}
+				}
+				10 = {
+					country_event = { id = ite.6 days = 5 }
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 100
+		}
+	}
+	
+	ITE_сarthage_gambit_2 = {
+		fire_only_once = yes
+		visible = {
+			has_country_flag = flag_сarthage_gambit_1
+		}
+		cost = 100
+		available = {
+		}
+		complete_effect = {
+			random_list = {
+				set_country_flag = flag_сarthage_gambit_2
+				75 = {
+					CRT = {
+						country_event = { id = ite.8 days = 5 }
+					}
+				}
+				25 = {
+					country_event = { id = ite.6 days = 5 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	ITE_сarthage_gambit_3 = {
+		fire_only_once = yes
+		visible = {
+			has_country_flag = flag_сarthage_gambit_2
+		}
+		cost = 100
+		available = {
+		}
+		complete_effect = {
+			random_list = {
+				50 = {
+					CRT = {
+						country_event = { id = ite.9 days = 5 }
+					}
+				}
+				50 = {
+					country_event = { id = ite.6 days = 5 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 	
@@ -242,7 +299,7 @@ ITE_risorgimento = {
 			has_tech = marines
 		}
 		complete_effect = {
-			load_obb = ITE_royal_marines.txt
+			load_obb = ITE_royal_marines
 		}
 		ai_will_do = {
 			factor = 100
