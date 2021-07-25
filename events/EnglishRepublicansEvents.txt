@@ -67,14 +67,14 @@
 
 	option = {
 		name = eng.3.a
-	
+		complete_national_focus = ENG_violence_overwhelmes_the_streets
 		}
 	}
 	country_event = { 
 	id = eng.4
 	title = eng.4.t
 	desc = eng.4.d
-	picture = GFX_
+	picture = GFX_report_event_eng_edmund_dene_morel_resigns
 
 	is_triggered_only = yes
 	
@@ -100,7 +100,7 @@
 	id = eng.5
 	title = eng.5.t
 	desc = eng.5.d
-	picture = GFX_
+	picture = GFX_report_event_eng_elections
 
 	is_triggered_only = yes
 	immediate = {

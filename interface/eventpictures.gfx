@@ -2977,6 +2977,14 @@ spriteTypes = {
 		name = "GFX_report_event_eng_violence_at_election_polls"
 		texturefile = "gfx/event_pictures/england/report_event_eng_violence_at_election_polls.dds"
 	}	
+	spriteType = { 
+		name = "GFX_report_event_eng_edmund_dene_morel_resigns"
+		texturefile = "gfx/event_pictures/england/report_event_eng_edmund_dene_morel_resigns.dds"
+	}	
+	spriteType = { 
+		name = "GFX_report_event_eng_elections"
+		texturefile = "gfx/event_pictures/england/report_event_eng_elections.dds"
+	}		
 	###KALMARIA###
 	spriteType = { 
 		name = "GFX_INVOKE_KING"
