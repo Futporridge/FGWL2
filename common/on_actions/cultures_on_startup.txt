@@ -507,7 +507,8 @@ on_actions = {
 		125 = { set_variable = { nationality = 90 } }	#Bristol	
 		338 = { set_variable = { nationality = 90 } }	#East Anglia		
 		123 = { set_variable = { nationality = 90 } }	#Plimut	
-		991 = { set_variable = { nationality = 90 } }	#Severn			
+		991 = { set_variable = { nationality = 90 } }	#Severn		
+		1074 = { set_variable = { nationality = 90 } }	#Essex				
 		#Corish
 		147 = { set_variable = { nationality = 91 } }	#Plimut		
 		#Scottish

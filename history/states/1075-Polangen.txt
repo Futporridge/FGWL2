@@ -1,0 +1,23 @@
+state={
+	id=1075
+	name="STATE_1075"
+	provinces={
+		3678 
+	}
+	history={
+		owner = BLT
+		buildings = {
+			infrastructure = 6
+		3678 = {
+		naval_base = 1
+			}
+		}
+		add_core_of = BLT
+		victory_points = {
+			3678 4 
+		}
+	}
+	state_category=rural		
+	manpower=232110
+	buildings_max_level_factor=1.000
+}
