@@ -174,9 +174,132 @@
 		name = ite.6.a
 		add_stability = -0.01
 		add_political_power = -50
+		clr_country_flag = flag_сarthage_gambit_1
+		clr_country_flag = flag_сarthage_gambit_2
+		clr_country_flag = flag_сarthage_gambit_3
 	}
 	}
 	
+	country_event = { #Карфаген отказался
+	id = ite.7
+	title = ite.7.t
+	desc = ite.7.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = ite.7.a
+		add_political_power = -50
+	}
+	}
+	
+	country_event = { #Сотрудничесво 1
+	id = ite.8
+	title = ite.8.t
+	desc = ite.8.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = { #нет
+		name = ite.8.a
+		ITE = {
+			country_event = { id = ite.7 days = 5 }
+		}
+	}
+	option = { #да
+		name = ite.8.b
+		add_ideas = ITE_carthaginian_oil_affairs
+		448 = {
+			add_resource = {
+				type = oil
+				amount = 8
+			}
+		}
+		ITE = {
+			add_ideas = ITE_italian_oil_affairs
+			set_country_flag = flag_сarthage_gambit_1
+			create_import = {
+				resource = oil
+				factories = 1
+				exporter = CRT
+			}
+		}
+		ai_chance = { factor = 100 }
+	}
+	}
+	
+	country_event = { #Сотрудничесво 2
+	id = ite.9
+	title = ite.9.t
+	desc = ite.9.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = { #нет
+		name = ite.9.a
+		ITE = {
+			country_event = { id = ite.7 days = 5 }
+		}
+		ai_chance = { factor = 10 }
+	}
+	option = { #да
+		name = ite.9.b
+		448 = {
+			add_resource = {
+				type = oil
+				amount = 8
+			}
+		}
+		ITE = {
+			clr_country_flag = flag_сarthage_gambit_1
+			set_country_flag = flag_сarthage_gambit_2
+			create_import = {
+				resource = oil
+				factories = 2
+				exporter = CRT
+			}
+		}
+		ai_chance = { factor = 90 }
+	}
+	}
+	country_event = { #Сотрудничесво 3
+	id = ite.10
+	title = ite.10.t
+	desc = ite.10.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = { #нет
+		name = ite.10.a
+		ITE = {
+			country_event = { id = ite.7 days = 5 }
+		}
+		ai_chance = { factor = 20 }
+	}
+	option = { #да
+		name = ite.10.b
+		448 = {
+			add_resource = {
+				type = oil
+				amount = 8
+			}
+		}
+		ITE = {
+			clr_country_flag = flag_сarthage_gambit_2
+			set_country_flag = flag_сarthage_gambit_3
+			create_import = {
+				resource = oil
+				factories = 3
+				exporter = CRT
+			}
+		}
+		ai_chance = { factor = 80 }
+	}
+	}
 	
 	
 	

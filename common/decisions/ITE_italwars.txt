@@ -95,7 +95,7 @@ ITE_risorgimento = {
 		visible = {
 			has_completed_focus = ITE_the_emperor_speaks
 		}
-		cost = 25
+		cost = 50
 		days_re_enable = 30
 		available = {
 			conservatism < 0.65
@@ -212,20 +212,20 @@ ITE_risorgimento = {
 		}
 	}
 	
-	ITE_сarthage_gambit_1 = {
+	ITE_carthage_gambit_1 = {
 		fire_only_once = yes
 		visible = {
 			has_completed_focus = ITE_divide_and_conquer
 		}
 		cost = 100
 		available = {
+			has_tech = fuel_silos
 		}
 		complete_effect = {
-			set_country_flag = flag_сarthage_gambit_1
 			random_list = {
 				90 = {
 					CRT = {
-						country_event = { id = ite.7 days = 5 }
+						country_event = { id = ite.8 days = 5 }
 					}
 				}
 				10 = {
@@ -238,20 +238,21 @@ ITE_risorgimento = {
 		}
 	}
 	
-	ITE_сarthage_gambit_2 = {
+	ITE_carthage_gambit_2 = {
 		fire_only_once = yes
 		visible = {
-			has_country_flag = flag_сarthage_gambit_1
+			has_country_flag = flag_carthage_gambit_1
 		}
 		cost = 100
 		available = {
+			has_tech = fuel_refining
 		}
+		days_remove = 30
 		complete_effect = {
 			random_list = {
-				set_country_flag = flag_сarthage_gambit_2
 				75 = {
 					CRT = {
-						country_event = { id = ite.8 days = 5 }
+						country_event = { id = ite.9 days = 5 }
 					}
 				}
 				25 = {
@@ -264,19 +265,20 @@ ITE_risorgimento = {
 		}
 	}
 	
-	ITE_сarthage_gambit_3 = {
+	ITE_carthage_gambit_3 = {
 		fire_only_once = yes
 		visible = {
-			has_country_flag = flag_сarthage_gambit_2
+			has_country_flag = flag_carthage_gambit_2
 		}
 		cost = 100
 		available = {
+			has_tech = fuel_refining2
 		}
 		complete_effect = {
 			random_list = {
 				50 = {
 					CRT = {
-						country_event = { id = ite.9 days = 5 }
+						country_event = { id = ite.10 days = 5 }
 					}
 				}
 				50 = {

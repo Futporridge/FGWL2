@@ -72,8 +72,8 @@ ideas = {
 			picture = ITE_grande_esercito_1 
 			
 			modifier = {
-				conscription = 0.03
-				dig_in_speed = 5
+				conscription = 0.015
+				dig_in_speed = 2.5
 			}
 	
 			ai_will_do = {
@@ -164,6 +164,46 @@ ideas = {
 				production_factory_efficiency_gain_factor = 0.15
 				production_factory_max_efficiency_factor = 0.05
 				production_factory_start_efficiency_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		ITE_carthaginian_oil_affairs = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = ITE_carthaginian_oil_affairs 
+			
+			targeted_modifier = {
+				tag = ITE
+				trade_cost_for_target_factor = -0.25
+				extra_trade_to_target_factor = 0.7
+				fuel_gain_factor_from_states = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		ITE_italian_oil_affairs = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = ITE_carthaginian_oil_affairs 
+			
+			targeted_modifier = {
+				tag = CRT
+				trade_cost_for_target_factor = -0.15
+				fuel_gain_factor_from_states = 0.1
+
 			}
 	
 			ai_will_do = {
