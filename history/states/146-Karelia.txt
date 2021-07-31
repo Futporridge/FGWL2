@@ -9,20 +9,7 @@ state={
 		add_core_of = FIN			
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
-			9100 = {
-				bunker = 2
-
-			}
-			9105 = {
-				bunker = 2
-
-			}
-			9206 = {
-				coastal_bunker = 1
-
-			}
-
+			industrial_complex = 1
 		}
 		victory_points = {
 			9206 3 
@@ -35,5 +22,5 @@ state={
 	}
 	manpower=418635
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 }

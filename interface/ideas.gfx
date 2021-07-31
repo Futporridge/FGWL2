@@ -298,6 +298,44 @@ spriteTypes = {
 		name = "GFX_idea_aus_army_liberalisation"
 		texturefile = "gfx/interface/ideas/austria/aus_army_liberalisation.dds"
 	}	
+					###tyrol###
+					###angelis###
+	spriteType = {
+		name = "GFX_idea_tyr_dictator_of_the_danube"
+		texturefile = "gfx/interface/ideas/austria/tyr_dictator_of_the_danube.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_tyr_sturmtruppen"
+		texturefile = "gfx/interface/ideas/austria/tyr_sturmtruppen.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_tyr_army_angelis"
+		texturefile = "gfx/interface/ideas/austria/tyr_army_angelis.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_tyr_fractionalism"
+		texturefile = "gfx/interface/ideas/austria/tyr_fractionalism.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_tyr_ploughshares_into_swords"
+		texturefile = "gfx/interface/ideas/austria/tyr_ploughshares_into_swords.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_tyr_oath_of_allegiance"
+		texturefile = "gfx/interface/ideas/austria/tyr_oath_of_allegiance.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_feudal_legacy"
+		texturefile = "gfx/interface/ideas/austria/tyr_feudal_legacy.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_tyr_ang_left_resistance"
+		texturefile = "gfx/interface/ideas/austria/tyr_ang_left_resistance.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_tyr_destroyed_economy"
+		texturefile = "gfx/interface/ideas/austria/tyr_destroyed_economy.dds"
+	}		
 					###ItaliaEmpr###
 	spriteType = {
 		name = "GFX_idea_progressive_monarchy"

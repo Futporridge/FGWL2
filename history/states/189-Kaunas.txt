@@ -12,22 +12,17 @@ state={
 			9483 5 
 		}
 		victory_points = {
-			6314 3 
+			6314 1
 		}
 		buildings = {
 			infrastructure = 5
-			6314 = {
-				naval_base = 1
-
-			}
-
 		}
 		add_core_of = TEU
 
 	}
 
 	provinces={
-		3337 3354 6314 9483 9499 9731 
+		917 3337 3354 6314 9483 9499 9731 
 	}
 	manpower=697100
 	buildings_max_level_factor=1.000
