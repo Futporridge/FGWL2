@@ -115,6 +115,83 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
+		}
+		eng_the_most_difficult_month_mon_1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = eng_the_most_difficult_month 
+	
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.2
+				conscription_factor = -0.2
+				utopism_drift = 0.03
+				reactionary_drift = 0.03
+				paternalism_drift = 0.03					
+				army_org = -0.5
+				army_org_regain = -0.5
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		eng_the_most_difficult_month_mon_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = eng_the_most_difficult_month 
+	
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.2
+				conscription_factor = -0.2
+				reactionary_drift = 0.03
+				paternalism_drift = 0.03					
+				army_org = -0.1
+				army_org_regain = -0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		eng_opposition_mon = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = eng_opposition_mon 
+	
+			modifier = {
+				political_power_factor = -0.5
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		eng_opposition_mon_2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = eng_opposition_mon 
+	
+			modifier = {
+				political_power_factor = -0.25
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
 		}		
 		}
 	}	

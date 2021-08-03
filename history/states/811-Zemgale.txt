@@ -11,11 +11,7 @@ state={
 		owner = BLT
 		
 		buildings = {
-
 			infrastructure = 4
-			air_base = 1
-
-		
 		}
 		add_core_of = BLT		
 		add_core_of = LAT

@@ -185,7 +185,8 @@ on_actions = {
 		189 = { set_variable = { nationality = 14 } }	#Shaulaj	
 		11 = { set_variable = { nationality = 14 } }	#Kovno			
 		784 = { set_variable = { nationality = 14 } }	#Vilno		
-		1022 = { set_variable = { nationality = 14 } }	#Oberlituania			
+		1022 = { set_variable = { nationality = 14 } }	#Oberlituania	
+		1075 = { set_variable = { nationality = 14 } }	#Polangen			
 		#Pontic Tatars
 		234 = { set_variable = { nationality = 17 } }	#Tartaria	
 		853 = { set_variable = { nationality = 17 } }	#Crimea			
