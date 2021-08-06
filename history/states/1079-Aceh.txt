@@ -1,0 +1,22 @@
+
+state={
+	id=1079
+	name="STATE_1079"
+
+	history={
+		owner = LSP
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = LSP
+
+	}
+
+	provinces={
+		7658 8360 10509 12488 
+	}
+	manpower=3682300
+	buildings_max_level_factor=1.000
+	state_category=town
+}

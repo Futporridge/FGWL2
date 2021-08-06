@@ -1,0 +1,22 @@
+
+state={
+	id=1080
+	name="STATE_1080"
+
+	history={
+		owner = LSP
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = LSP
+
+	}
+
+	provinces={
+		1428 12126 
+	}
+	manpower=662300
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

@@ -44,7 +44,7 @@
 	id = eng.3
 	title = eng.3.t
 	desc = eng.3.d
-	picture = GFX_
+	picture = GFX_report_event_eng_curfew
 
 	is_triggered_only = yes
 	
@@ -114,24 +114,7 @@
 	}
 
 	option = {
-		name = eng.5.a
-		set_politics = {
-		ruling_party = conservatism
-		}
-		hidden_effect = {
-			create_country_leader = {
-			name = "Oswald Mosley"
-			desc = "POLITICS_OSWALD_MOSLEY_DESC"
-			picture = "gfx/leaders/ENG/Portrait_Oswald_Mosley.tga"
-			expire = "1965.1.1"
-			ideology = liberalism_subtype
-			traits = { }
-			}	
-		}		
-		}
-
-	option = {
-		name = eng.5.b		
+		name = eng.5.a		
 		hidden_effect = {
 			create_country_leader = {
 			name = "Oswald Mosley"
@@ -145,7 +128,7 @@
 		}
 
 	option = {
-		name = eng.5.c
+		name = eng.5.b
 		set_politics = {
 		ruling_party = communitarianism
 		}

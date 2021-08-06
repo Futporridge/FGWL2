@@ -1,0 +1,19 @@
+state={
+	id=1085
+	name="STATE_1085"
+	provinces={
+		7308 7440 10194 12138 12209 
+	}
+	history={
+		owner = BIN
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = BIN
+
+	}	
+	manpower=882300
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

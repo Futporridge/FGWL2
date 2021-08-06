@@ -2972,7 +2972,7 @@ spriteTypes = {
 		name = "GFX_news_event_paris_commune"
 		texturefile = "gfx/event_pictures/news_event_paris_commune.dds"
 	}
-	###ENGLAND###
+	###ENGLAND### 
 	spriteType = { 
 		name = "GFX_report_event_eng_violence_at_election_polls"
 		texturefile = "gfx/event_pictures/england/report_event_eng_violence_at_election_polls.dds"
@@ -2984,6 +2984,10 @@ spriteTypes = {
 	spriteType = { 
 		name = "GFX_report_event_eng_elections"
 		texturefile = "gfx/event_pictures/england/report_event_eng_elections.dds"
+	}		
+	spriteType = { 
+		name = "GFX_report_event_eng_curfew"
+		texturefile = "gfx/event_pictures/england/report_event_eng_curfew.dds"
 	}		
 	###KALMARIA###
 	spriteType = { 

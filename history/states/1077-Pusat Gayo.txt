@@ -1,0 +1,20 @@
+state={
+	id=1077
+	name="STATE_1077"
+	provinces={
+		2407 3800 6779 
+	}
+	history={
+		owner = LSP
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = LSP
+
+	}	
+	impassable = yes	
+	manpower=562300
+	state_category=wasteland	
+	buildings_max_level_factor=1.000
+}

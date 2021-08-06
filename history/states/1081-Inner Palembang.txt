@@ -1,0 +1,23 @@
+
+state={
+	id=1081
+	name="STATE_1081"
+
+	history={
+		owner = BIN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = BIN
+
+	}
+
+	provinces={
+		1274 1313 1373 4276 4381 10150 10294 10322 
+	}
+	impassable = yes		
+	manpower=862300
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=1078
+	name="STATE_1078"
+
+	history={
+		owner = LSP
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = LSP
+
+	}
+
+	provinces={
+		1533 3184 7327 10209 12181 12212 12343 
+	}
+	impassable = yes		
+	manpower=762300
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

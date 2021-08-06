@@ -1,0 +1,19 @@
+state={
+	id=1087
+	name="STATE_1087"
+	provinces={
+		1225 1304 1316 1416 4279 4409 7227 7296 10138 10178 10282 10310 12110 12129 12280 12955 
+	}
+	history={
+		owner = HEI
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = HEI
+
+	}	
+	manpower=2113300
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

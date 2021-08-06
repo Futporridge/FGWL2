@@ -1,0 +1,22 @@
+
+state={
+	id=1088
+	name="STATE_1088"
+
+	history={
+		owner = LSP
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = LSP
+
+	}
+
+	provinces={
+		1335 4282 4338 7358 7371 7387 10143 10212 10269 12171 12186 
+	}
+	manpower=913300
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

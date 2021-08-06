@@ -1,0 +1,26 @@
+state={
+	id=1076
+	name="STATE_1076"
+	provinces={
+		1386 1398 1425 4406 4621 7381 7421 10279 10307 12249 
+	}
+	history={
+		owner = HEI
+		add_core_of = HEI
+		victory_points = {
+			7381 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+			7381 = {
+				naval_base = 6
+			}
+		}
+
+	}	
+	state_category=town	
+	manpower=0
+	buildings_max_level_factor=1.000
+}
